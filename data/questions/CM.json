@@ -2169,6 +2169,1130 @@
     "2": "Moving the 40× objective into the oil smears it onto a dry objective that is not sealed for oil."
    },
    "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, appendix on Microscopy (care of the microscope)."
+  },
+  {
+   "id": "CM-0101",
+   "tos": "CM-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A toxin selectively damages the nephrons whose glomeruli lie near the corticomedullary junction and whose long loops of Henle extend deep into the renal medulla. Which kidney function would be impaired most?",
+   "options": [
+    "Filtering small solutes at the glomerulus",
+    "Reclaiming filtered glucose",
+    "Producing a concentrated urine",
+    "Releasing renin into the blood"
+   ],
+   "answer": 2,
+   "why": "Juxtamedullary nephrons have long loops of Henle that dip into the medulla and, with the vasa recta, build and maintain the medullary osmotic gradient. **Juxtamedullary nephrons are chiefly responsible for concentrating the urine** through the countercurrent mechanism. Cortical nephrons, the majority, mainly handle reabsorption and secretion.",
+   "whyNot": {
+    "0": "Filtration takes place in the glomeruli of all nephrons; it is not the special role of nephrons with long loops.",
+    "1": "Glucose is reabsorbed in the proximal convoluted tubule of every nephron, not by the long loops of Henle.",
+    "3": "Renin comes from the juxtaglomerular cells of the afferent arteriole; despite the similar name, renin secretion is not what juxtamedullary nephrons are known for."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (nephron types and tubular concentration)."
+  },
+  {
+   "id": "CM-0102",
+   "tos": "CM-A.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient becomes hypovolemic after a large hemorrhage. Angiotensin II is generated and helps keep the glomerular filtration rate from falling as far as renal blood flow does. Which arteriolar effect is mainly responsible?",
+   "options": [
+    "The efferent arteriole constricts",
+    "The efferent arteriole dilates",
+    "The afferent arteriole constricts",
+    "The vasa recta dilate"
+   ],
+   "answer": 0,
+   "why": "Narrowing the outflow vessel of the glomerulus raises the hydrostatic pressure inside the glomerular capillaries. **Angiotensin II preferentially constricts the efferent arteriole**, which preserves filtration pressure when renal blood flow is low. It also stimulates aldosterone and ADH release and sodium reabsorption in the proximal tubule.",
+   "whyNot": {
+    "1": "Dilating the outflow arteriole would let glomerular pressure fall and would lower, not protect, the GFR.",
+    "2": "Constricting the inflow arteriole reduces blood delivery and glomerular pressure, which would decrease filtration.",
+    "3": "The vasa recta supply the medulla and take part in countercurrent exchange; they do not set glomerular filtration pressure."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (renin-angiotensin-aldosterone system)."
+  },
+  {
+   "id": "CM-0103",
+   "tos": "CM-A.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A p-aminohippurate (PAH) clearance is performed. Urine collected over exactly 2 hours measures 180 mL. Urine PAH is 60 mg/dL and plasma PAH is 0.2 mg/dL. What is the effective renal plasma flow?",
+   "options": [
+    "900 mL/min",
+    "54,000 mL/min",
+    "300 mL/min",
+    "450 mL/min"
+   ],
+   "answer": 3,
+   "why": "First convert the volume to a flow rate: 180 mL ÷ 120 min = 1.5 mL/min. Then apply the clearance formula: (60 × 1.5) ÷ 0.2 = **450 mL/min effective renal plasma flow**. PAH is used because it is both filtered and secreted, so nearly all of it is removed in one pass through the kidney.",
+   "whyNot": {
+    "0": "This divides 180 mL by 60 minutes, treating the collection as 1 hour instead of 2 hours.",
+    "1": "This puts the whole 180-mL volume into the formula without dividing by the 120 minutes of collection.",
+    "2": "This is only the urine-to-plasma ratio (60 ÷ 0.2); it was never multiplied by the urine flow rate."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (tubular secretion and renal blood flow tests).",
+   "worked": {
+    "problem": "A 3-hour urine collection for PAH clearance measures 300 mL. Urine PAH is 40 mg/dL and plasma PAH is 0.1 mg/dL. Find the effective renal plasma flow.",
+    "steps": [
+     "Urine flow rate V = 300 mL ÷ 180 min = 1.67 mL/min.",
+     "Clearance = (U × V) ÷ P = (40 × 1.67) ÷ 0.1.",
+     "= 66.7 ÷ 0.1 = 667 mL/min."
+    ],
+    "result": "About 667 mL/min"
+   }
+  },
+  {
+   "id": "CM-0104",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An acidic urine is refrigerated overnight and develops a heavy pink, brick-dust sediment. What is the sediment, and what simple step will dissolve it?",
+   "options": [
+    "Amorphous phosphates colored by urochrome; add dilute acetic acid",
+    "Amorphous urates colored by uroerythrin; warm the specimen to about 60 °C",
+    "Uric acid crystals colored by urobilin; add dilute acetic acid",
+    "Hemoglobin precipitated by the cold; warm the specimen to 37 °C"
+   ],
+   "answer": 1,
+   "why": "Amorphous urates precipitate when an acidic urine is cooled and redissolve when it is warmed. **The pink pigment uroerythrin attaches to amorphous urates, producing the pink 'brick-dust' precipitate**, which dissolves at about 60 °C or in alkali.",
+   "whyNot": {
+    "0": "Amorphous phosphates form a white precipitate in alkaline urine; they dissolve in dilute acetic acid but are not pink.",
+    "2": "Uric acid crystals are yellow-brown rhombic or whetstone forms that do not dissolve in acetic acid and do not form an amorphous pink sediment.",
+    "3": "Hemoglobin colors the whole specimen red or pink; it does not precipitate as a fine sediment on cooling."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (color and clarity)."
+  },
+  {
+   "id": "CM-0105",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a urine refractometer, the boundary line moves to a higher specific gravity reading as the concentration of dissolved solids increases. What physical change produces this?",
+   "options": [
+    "The solids absorb more light, lowering the light transmitted through the prism",
+    "The solids slow the light, so it bends more as it passes from air into the urine",
+    "The solids scatter light toward the eyepiece, brightening the field",
+    "The solids make the urine denser, so the prism floats higher in it"
+   ],
+   "answer": 1,
+   "why": "Refractive index compares the velocity of light in air with its velocity in a solution. **Dissolved solids slow light in the urine, so it bends more at the air–urine interface, and the refractometer scale converts this greater refraction to a higher specific gravity.**",
+   "whyNot": {
+    "0": "Measuring light absorbed at a set wavelength is the principle of spectrophotometry, not refractometry.",
+    "2": "Measuring light scattered by particles is the principle of turbidimetry and nephelometry.",
+    "3": "Flotation in a denser liquid is how a urinometer (hydrometer) estimates specific gravity, not a refractometer."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (specific gravity)."
+  },
+  {
+   "id": "CM-0106",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Each choice pairs a reagent strip result with a microscopic finding that seems to disagree with it. Which discrepancy has no ordinary explanation and calls for checking for a specimen or slide mix-up before reporting?",
+   "options": [
+    "Moderate blood reaction, but no red cells seen, in a dilute alkaline urine",
+    "Positive leukocyte esterase, but no white cells seen, in a specimen kept 6 hours at room temperature",
+    "Negative nitrite, but many bacteria seen, in a urine voided 30 minutes after the previous void",
+    "Clear urine with negative leukocyte esterase and protein, but many white cells and white cell casts seen"
+   ],
+   "answer": 3,
+   "why": "Physical, chemical, and microscopic findings must correlate, and most apparent conflicts have a known cause. **A clear urine with negative leukocyte esterase and protein should not contain many white cells and white cell casts, so the results must be checked for a specimen or slide mix-up before release.** That many cells and casts would make the urine cloudy and give a positive esterase reaction.",
+   "whyNot": {
+    "0": "Red cells lyse in dilute, alkaline urine, and the released hemoglobin still reacts on the blood pad, so this pairing is expected.",
+    "1": "White cells lyse in old, unrefrigerated urine, but their esterase remains and still reacts on the strip.",
+    "2": "Bacteria need about 4 hours in the bladder to reduce nitrate to nitrite, so a short bladder-incubation time explains the negative nitrite."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Physical and Microscopic Examination of Urine (correlation of results)."
+  },
+  {
+   "id": "CM-0107",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The pH pad of a urine reagent strip changes from orange at pH 5 through yellow and green to blue at pH 9. Which reagent combination produces this range of colors?",
+   "options": [
+    "Tetrabromphenol blue with a citrate buffer",
+    "Nitroferricyanide with glycine",
+    "Methyl red and bromthymol blue",
+    "p-Arsanilic acid and a benzoquinoline"
+   ],
+   "answer": 2,
+   "why": "No single indicator changes color across pH 5 to 9, so two are combined. **The pH pad uses a double indicator system of methyl red and bromthymol blue**: methyl red covers the acidic range (red to yellow) and bromthymol blue covers the alkaline range (yellow to blue).",
+   "whyNot": {
+    "0": "Tetrabromphenol blue buffered at an acid pH is the protein pad, which relies on the protein error of indicators.",
+    "1": "Nitroferricyanide (sodium nitroprusside) with glycine is the ketone test, not a pH indicator system.",
+    "3": "p-Arsanilic acid with a benzoquinoline compound is the diazotization reaction of the nitrite pad."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (pH)."
+  },
+  {
+   "id": "CM-0108",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 68-year-old man with bone pain and anemia has proteinuria. When his acidified urine is heated, it becomes cloudy at about 50 °C, clears again near boiling, and turns cloudy once more as it cools. Which protein do these findings indicate?",
+   "options": [
+    "Albumin",
+    "Free immunoglobulin light chains",
+    "Uromodulin (Tamm-Horsfall protein)",
+    "Beta-2 microglobulin"
+   ],
+   "answer": 1,
+   "why": "This is the classic heat behavior of Bence Jones protein. **Bence Jones protein (free light chains) coagulates at 40–60 °C and dissolves at 100 °C**, then reappears as the urine cools. It is associated with multiple myeloma and is an example of prerenal (overflow) proteinuria.",
+   "whyNot": {
+    "0": "Albumin coagulates on heating and stays coagulated at boiling; it does not redissolve at 100 °C.",
+    "2": "Uromodulin is the normal tubular protein that forms the matrix of casts and mucus; it does not show this reversible heat pattern.",
+    "3": "Beta-2 microglobulin is a small protein that marks tubular dysfunction and is measured by immunoassay, not by reversible heat precipitation."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (protein; Bence Jones protein)."
+  },
+  {
+   "id": "CM-0109",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A visibly bloody urine gives an unexpectedly high creatinine result on an albumin–creatinine reagent strip. What explains this interference?",
+   "options": [
+    "Red cells release stored creatinine when they lyse on the pad",
+    "Hemoglobin reacts with the alkaline picrate in the creatinine pad",
+    "Hemoglobin's peroxidase-like activity mimics the copper–creatinine complex the pad detects",
+    "The red color of the blood is read as a high albumin-dye color change"
+   ],
+   "answer": 2,
+   "why": "The creatinine pad relies on copper–creatinine complexes that act like peroxidase, catalyzing oxidation of tetramethylbenzidine by a hydroperoxide. **Because hemoglobin (and myoglobin) also has pseudoperoxidase activity, a visibly bloody urine can falsely raise the creatinine pad result.** Since creatinine corrects the albumin value for urine concentration, the calculated albumin-to-creatinine ratio is then falsely low.",
+   "whyNot": {
+    "0": "Red cells are not a meaningful source of urinary creatinine, which comes from muscle and reaches the urine by glomerular filtration.",
+    "1": "Alkaline picrate (Jaffe) is used on chemistry analyzers, not on the reagent strip creatinine pad.",
+    "3": "Albumin is read on a separate dye-binding pad, so a color effect there would not raise the creatinine result."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (microalbumin and creatinine reagent strips); Siemens Clinitek Microalbumin 2 strip instructions for use (limitations)."
+  },
+  {
+   "id": "CM-0110",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Acetest tablets contain sodium nitroprusside, disodium phosphate, lactose, and glycine. What does the glycine add to the test?",
+   "options": [
+    "It allows the tablet to react with acetone",
+    "It allows the tablet to react with β-hydroxybutyrate",
+    "It provides the alkaline pH needed for the reaction",
+    "It gives better color differentiation in the result"
+   ],
+   "answer": 0,
+   "why": "Sodium nitroprusside reacts with acetoacetic acid in an alkaline medium. **Glycine enables the nitroprusside reaction to detect acetone** as well. Disodium phosphate supplies the alkaline pH and lactose improves color differentiation; no component detects β-hydroxybutyrate.",
+   "whyNot": {
+    "1": "Neither the tablet nor the reagent strip detects β-hydroxybutyrate; this is a known limitation of nitroprusside tests.",
+    "2": "The alkaline pH comes from the disodium phosphate, not the glycine.",
+    "3": "Better color differentiation is the role of the lactose in the tablet."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (ketones; Acetest)."
+  },
+  {
+   "id": "CM-0111",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A red urine gives a strongly positive reagent strip blood reaction, and no red blood cells are seen. Ammonium sulfate is added to the centrifuged urine to 80% saturation, and the mixture is centrifuged again. The supernatant remains red and still gives a positive blood reaction. Which pigment is present?",
+   "options": [
+    "Hemoglobin",
+    "Intact red blood cells",
+    "Myoglobin",
+    "Porphyrins"
+   ],
+   "answer": 2,
+   "why": "At 80% saturation, ammonium sulfate precipitates the larger hemoglobin molecule but leaves the smaller myoglobin in solution. **A red, blood-positive supernatant after ammonium sulfate precipitation indicates myoglobin.** If hemoglobin were present, it would be in the precipitate and the supernatant would lose its color and reactivity.",
+   "whyNot": {
+    "0": "Hemoglobin would precipitate with ammonium sulfate, leaving a clear, blood-negative supernatant.",
+    "1": "Intact red cells were already excluded by the microscopic exam and would have been removed by the first centrifugation.",
+    "3": "Porphyrins can color urine red but lack the pseudoperoxidase activity needed for a positive blood pad."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (blood; hemoglobinuria versus myoglobinuria)."
+  },
+  {
+   "id": "CM-0112",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Urine from a patient having an attack of acute intermittent porphyria is tested with two brands of reagent strip. The urobilinogen pad is positive on brand A and negative on brand B. Which explanation fits?",
+   "options": [
+    "Brand A uses Ehrlich's aldehyde reagent, which also reacts with porphobilinogen; brand B uses a diazonium salt specific for urobilinogen",
+    "Brand A uses a diazonium salt that also reacts with porphobilinogen; brand B uses Ehrlich's reagent, which is specific for urobilinogen",
+    "Porphobilinogen is converted to urobilinogen on brand A's pad but not on brand B's",
+    "Brand B detects urobilinogen only when bilirubin is also present in the urine"
+   ],
+   "answer": 0,
+   "why": "Ehrlich's reagent (p-dimethylaminobenzaldehyde) reacts with porphobilinogen and other Ehrlich-reactive compounds as well as urobilinogen. **The diazo-based urobilinogen pad (4-methoxybenzene-diazonium-tetrafluoroborate) is specific for urobilinogen and does not react with porphobilinogen**, so a porphobilinogen-rich urine can be positive on one brand and negative on the other.",
+   "whyNot": {
+    "1": "This reverses the two principles: the Ehrlich reaction is the nonspecific one, and the diazo reaction is specific.",
+    "2": "Porphobilinogen is a heme precursor and is not converted to urobilinogen, which is formed from bilirubin by intestinal bacteria.",
+    "3": "The urobilinogen pad does not depend on bilirubin; the two are tested on separate pads."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Chemical Examination of Urine (urobilinogen) and Urine Screening for Metabolic Disorders (porphyrins)."
+  },
+  {
+   "id": "CM-0113",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A refrigerated urine is tested with a reagent strip immediately, and the glucose pad reads lower than it does after the same urine has warmed to room temperature. Why?",
+   "options": [
+    "Glucose crystallizes out of solution at refrigerator temperature",
+    "Cold slows the glucose oxidase and peroxidase reactions on the pad",
+    "Cold urine has a higher specific gravity that dilutes the pad reagents",
+    "Condensation on the cold strip washes the chromogen off the pad"
+   ],
+   "answer": 1,
+   "why": "The glucose pad uses a double sequential enzyme reaction, and enzyme reaction rates fall at low temperature. **Enzyme-based pads, such as glucose and leukocyte esterase, react more slowly in cold urine and read falsely low**, so refrigerated specimens must return to room temperature before strip testing.",
+   "whyNot": {
+    "0": "Glucose is highly soluble and stays dissolved at refrigerator temperature.",
+    "2": "Specific gravity does not dilute the glucose pad reagents; the low reading reflects slower enzyme activity.",
+    "3": "The strip is dipped briefly and read at a set time; the false-low glucose comes from slowed enzyme activity, not loss of chromogen."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (reagent strip technique)."
+  },
+  {
+   "id": "CM-0114",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Ten days after starting a penicillin-type antibiotic, a patient develops fever, a skin rash, and rising serum creatinine. The urine contains white blood cells and white blood cell casts but no bacteria. Which stain should be requested on the sediment?",
+   "options": [
+    "Hansel stain",
+    "Sternheimer-Malbin stain",
+    "Prussian blue stain",
+    "Sudan III stain"
+   ],
+   "answer": 0,
+   "why": "The picture suggests drug-induced acute interstitial nephritis, an allergic inflammation of the renal interstitium. **Hansel stain (methylene blue and eosin Y) identifies urinary eosinophils**, and eosinophils above 1% of urine white cells support this diagnosis.",
+   "whyNot": {
+    "1": "Sternheimer-Malbin is a general supravital stain that improves visibility of sediment elements but does not specifically identify eosinophils.",
+    "2": "Prussian blue detects hemosiderin after hemoglobinuria, not eosinophils.",
+    "3": "Sudan III stains neutral fats and triglycerides in fatty casts and oval fat bodies, not eosinophils."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Microscopic Examination of Urine (sediment stains) and Renal Disease (acute interstitial nephritis)."
+  },
+  {
+   "id": "CM-0115",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A routine urinalysis on a healthy blood donor with normal kidney function shows a few finely granular casts. In such nonpathologic granular casts, where do the granules come from?",
+   "options": [
+    "Lipid droplets released from oval fat bodies",
+    "Hemoglobin granules from red cells that crossed the glomerulus",
+    "Lysosomes excreted by renal tubular cells during normal metabolism",
+    "Calcium oxalate microcrystals formed within the tubule lumen"
+   ],
+   "answer": 2,
+   "why": "Granular casts can be pathologic or nonpathologic. **In nonpathologic granular casts, the granules are lysosomes excreted by renal tubular epithelial cells during normal metabolism**, and such casts may increase after strenuous exercise. In renal disease, the granules come mainly from disintegrating cellular casts and tubular cells or from protein aggregates filtered by the glomerulus.",
+   "whyNot": {
+    "0": "Fat droplets inside a cast make a fatty cast, which is highly refractile, stains with Sudan III and is seen in nephrotic syndrome.",
+    "1": "Granules from degenerating red cells give brown, pigmented casts that signal glomerular bleeding, not a nonpathologic finding.",
+    "3": "Crystals trapped in a cast form a crystal cast, which is uncommon and identified by its crystal shape and polarization."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (granular casts)."
+  },
+  {
+   "id": "CM-0116",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An acidic urine from a patient in hepatic failure contains fine, colorless-to-yellow needles grouped in clusters and rosettes. Yellow-brown spheres with concentric rings are also present. What are the needle-shaped crystals?",
+   "options": [
+    "Ampicillin",
+    "Tyrosine",
+    "Uric acid",
+    "Calcium phosphate"
+   ],
+   "answer": 1,
+   "why": "Tyrosine and leucine are amino acid crystals seen in severe liver disease and in inherited disorders of amino acid metabolism. **Tyrosine forms fine, colorless-to-yellow needles in clusters or rosettes** in acidic urine, and it often appears together with leucine spheres.",
+   "whyNot": {
+    "0": "Ampicillin crystals are colorless needles that bundle after refrigeration in patients receiving large doses of the drug; they are not linked to hepatic failure.",
+    "2": "Uric acid crystals are typically yellow-brown rhombic or whetstone forms, and they are not linked to liver failure.",
+    "3": "Calcium phosphate forms thin prisms or rosettes in neutral to alkaline urine, not in acidic urine."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (abnormal crystals)."
+  },
+  {
+   "id": "CM-0117",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An alkaline urine sediment contains small, colorless dumbbell-shaped and round crystals. When a drop of dilute acetic acid is added, the crystals dissolve and tiny gas bubbles form. Which crystals are these?",
+   "options": [
+    "Calcium oxalate monohydrate",
+    "Amorphous phosphates",
+    "Ammonium biurate",
+    "Calcium carbonate"
+   ],
+   "answer": 3,
+   "why": "Several small colorless crystals look alike, so simple chemical tests help. **Calcium carbonate crystals dissolve in acetic acid with release of carbon dioxide gas**, which separates them from other small round or dumbbell forms. They have no clinical significance.",
+   "whyNot": {
+    "0": "Calcium oxalate monohydrate forms ovals or dumbbells in acidic urine and does not dissolve in dilute acetic acid.",
+    "1": "Amorphous phosphates dissolve in acetic acid but appear as granules and do not release gas.",
+    "2": "Ammonium biurate forms yellow-brown thorny-apple spheres and converts to uric acid crystals when acetic acid is added."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (normal crystals of alkaline urine)."
+  },
+  {
+   "id": "CM-0118",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A long, flat, highly refractile structure in a urine sediment shines brightly against the dark background under polarized light. How should it be interpreted?",
+   "options": [
+    "A contaminating fiber, which should not be reported as a cast",
+    "A waxy cast, indicating extreme urine stasis",
+    "A hyaline cast, made visible because uromodulin polarizes light",
+    "A mucus thread, which is reported but has little clinical significance"
+   ],
+   "answer": 0,
+   "why": "Fibers from clothing, diapers and tissues are common contaminants and are often mistaken for casts. **Fibers polarize light, whereas casts do not**, so a brightly birefringent cast-like structure is a fiber and is not reported as a cast.",
+   "whyNot": {
+    "1": "Waxy casts are highly refractile in ordinary light but are not birefringent under polarized light.",
+    "2": "Uromodulin does not polarize light; hyaline casts are best seen with reduced light or phase contrast.",
+    "3": "Mucus threads are low-refractile, irregular strands that do not polarize light."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (artifacts and polarizing microscopy)."
+  },
+  {
+   "id": "CM-0119",
+   "tos": "CM-A.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 24-year-old man has had several episodes of visible hematuria over the past few years, each starting within a day or two of a sore throat or cold. Between episodes he has mild microscopic hematuria, and his serum complement levels are normal. Which disorder is most likely?",
+   "options": [
+    "Acute post-streptococcal glomerulonephritis",
+    "Minimal change disease",
+    "IgA nephropathy",
+    "Goodpasture syndrome"
+   ],
+   "answer": 2,
+   "why": "In this disorder IgA immune complexes deposit in the glomerular mesangium, often after a mucosal infection. **IgA nephropathy causes recurrent macroscopic hematuria that begins within days of a respiratory infection** and may continue for many years with normal complement. It is the most common type of glomerulonephritis worldwide.",
+   "whyNot": {
+    "0": "Post-streptococcal glomerulonephritis begins 1 to 2 weeks after the infection, usually occurs once, and lowers serum complement.",
+    "1": "Minimal change disease presents with nephrotic-range proteinuria and edema, not recurrent gross hematuria.",
+    "3": "Goodpasture syndrome combines rapidly progressive glomerulonephritis with lung hemorrhage caused by anti-glomerular basement membrane antibody."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Disease (glomerular disorders)."
+  },
+  {
+   "id": "CM-0120",
+   "tos": "CM-A.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has chronic sinusitis, coughs up blood, and has hematuria with red blood cell casts. Serum testing is positive for antineutrophil cytoplasmic antibody (ANCA) and negative for anti-glomerular basement membrane (anti-GBM) antibody. Which condition is most likely?",
+   "options": [
+    "Anti-GBM disease (Goodpasture syndrome)",
+    "Granulomatosis with polyangiitis",
+    "Lupus nephritis",
+    "Acute post-streptococcal glomerulonephritis"
+   ],
+   "answer": 1,
+   "why": "Granulomatosis with polyangiitis is a vasculitis that forms granulomas in the upper and lower respiratory tract and causes glomerulonephritis. **A positive ANCA with sinus, lung, and kidney involvement points to granulomatosis with polyangiitis (formerly Wegener granulomatosis).** The negative anti-GBM result argues against Goodpasture syndrome.",
+   "whyNot": {
+    "0": "Goodpasture syndrome also affects the lungs and kidneys, but it is defined by anti-GBM antibody, which is negative here.",
+    "2": "Lupus nephritis is marked by antinuclear and anti-dsDNA antibodies with low complement, not ANCA with chronic sinusitis.",
+    "3": "Post-streptococcal glomerulonephritis follows a streptococcal infection, with antistreptococcal antibodies and low complement, and does not cause sinusitis or lung bleeding."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Disease (glomerular disorders)."
+  },
+  {
+   "id": "CM-0121",
+   "tos": "CM-A.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient with episodes of flushing and diarrhea is scheduled for a 24-hour urine 5-hydroxyindoleacetic acid (5-HIAA) test to look for a carcinoid tumor. Which dietary instruction should be given before collection?",
+   "options": [
+    "Avoid bananas, pineapples, and tomatoes",
+    "Avoid rare red meat and horseradish",
+    "Avoid foods that contain phenylalanine",
+    "Avoid milk and other lactose sources"
+   ],
+   "answer": 0,
+   "why": "5-HIAA is the breakdown product of serotonin, which carcinoid tumors produce in excess. **Serotonin-rich foods such as bananas, pineapples, and tomatoes can falsely raise urinary 5-HIAA**, so they are avoided before and during the collection. Some medications also interfere.",
+   "whyNot": {
+    "1": "Rare red meat and horseradish interfere with guaiac-based fecal occult blood tests, not with 5-HIAA.",
+    "2": "Phenylalanine restriction is the dietary treatment for phenylketonuria, not a preparation for 5-HIAA testing.",
+    "3": "Lactose restriction relates to lactase deficiency and has no effect on urinary 5-HIAA."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urine Screening for Metabolic Disorders (tryptophan disorders; 5-HIAA)."
+  },
+  {
+   "id": "CM-0122",
+   "tos": "CM-A.5",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A worker at a car-battery recycling shop has anemia with basophilic stippling. Lead inhibits two enzymes of heme synthesis. Which pattern of δ-aminolevulinic acid (ALA), porphobilinogen (PBG), and porphyrin results is expected?",
+   "options": [
+    "Urine ALA and PBG both markedly increased, with normal protoporphyrin",
+    "Urine uroporphyrin markedly increased, with normal urine ALA",
+    "Erythrocyte protoporphyrin increased, with normal urine ALA",
+    "Urine ALA increased, urine PBG normal, and zinc protoporphyrin increased"
+   ],
+   "answer": 3,
+   "why": "Lead inhibits ALA dehydratase, so ALA builds up while PBG does not. It also inhibits ferrochelatase, so iron cannot be inserted and zinc protoporphyrin accumulates in red cells. **Lead poisoning raises urine ALA and erythrocyte protoporphyrin while PBG stays normal.**",
+   "whyNot": {
+    "0": "Marked increases in both ALA and PBG with normal protoporphyrin describe acute intermittent porphyria.",
+    "1": "Greatly increased uroporphyrin with normal ALA is the pattern of porphyria cutanea tarda.",
+    "2": "Increased protoporphyrin with normal ALA fits erythropoietic protoporphyria, in which the ALA dehydratase step works normally."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urine Screening for Metabolic Disorders (porphyrin disorders)."
+  },
+  {
+   "id": "CM-0123",
+   "tos": "CM-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 62-year-old man has a tumor that is narrowing the lumen of his sigmoid colon. Which change in stool appearance is most expected?",
+   "options": [
+    "Pale, clay-colored stools",
+    "Narrow, ribbon-like stools",
+    "Bulky, frothy, foul-smelling stools",
+    "Black, tarry stools"
+   ],
+   "answer": 1,
+   "why": "Stool takes the shape of the passage it moves through. **A narrowed or obstructed bowel lumen produces narrow, ribbon-like stools**, a finding that warrants investigation for a tumor or other constriction.",
+   "whyNot": {
+    "0": "Pale, clay-colored stools come from bile duct obstruction, which keeps bilirubin pigments out of the intestine.",
+    "2": "Bulky, frothy, foul-smelling stools indicate steatorrhea from malabsorption or pancreatic insufficiency.",
+    "3": "Black, tarry stools come from upper gastrointestinal bleeding; bleeding from the sigmoid colon is more often bright red."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Fecal Analysis (macroscopic screening)."
+  },
+  {
+   "id": "CM-0124",
+   "tos": "CM-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 2-day-old infant passes a bloody stool. An APT test is performed on the pink supernatant of the emulsified stool. After 1% sodium hydroxide is added, the color changes to yellow-brown within 2 minutes. How is this result interpreted?",
+   "options": [
+    "Swallowed maternal blood; adult hemoglobin was denatured by the alkali",
+    "Bleeding in the infant; fetal hemoglobin was denatured by the alkali",
+    "Bleeding in the infant; adult hemoglobin resisted the alkali",
+    "Swallowed maternal blood; fetal hemoglobin resisted the alkali"
+   ],
+   "answer": 0,
+   "why": "Fetal hemoglobin resists denaturation by alkali, while adult hemoglobin is converted to yellow-brown hematin. **A yellow-brown APT result means adult hemoglobin, so the blood was swallowed from the mother** during delivery or breastfeeding. A supernatant that stays pink would indicate fetal hemoglobin and bleeding in the infant.",
+   "whyNot": {
+    "1": "Fetal hemoglobin is alkali-resistant; it would keep the pink color rather than turn yellow-brown.",
+    "2": "Adult hemoglobin does not resist alkali; it is the form that turns yellow-brown, and adult blood points to the mother.",
+    "3": "Fetal hemoglobin resisting the alkali would leave the solution pink, the opposite of what was seen."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Fecal Analysis (APT test for fetal hemoglobin)."
+  },
+  {
+   "id": "CM-0125",
+   "tos": "CM-B.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A patient has watery diarrhea. Fecal sodium is 85 mmol/L and fecal potassium is 50 mmol/L. Using an assumed fecal osmolality of 290 mOsm/kg, calculate the fecal osmotic gap and interpret it (a gap below 50 mOsm/kg suggests secretory diarrhea; a gap above 125 mOsm/kg suggests osmotic diarrhea).",
+   "options": [
+    "155 mOsm/kg; osmotic diarrhea",
+    "20 mOsm/kg; secretory diarrhea",
+    "270 mOsm/kg; osmotic diarrhea",
+    "20 mOsm/kg; osmotic diarrhea"
+   ],
+   "answer": 1,
+   "why": "The osmotic gap = 290 − 2 × (Na + K) = 290 − 2 × 135 = 20 mOsm/kg; doubling accounts for the anions that accompany sodium and potassium. **A gap below 50 mOsm/kg means electrolytes account for the stool osmolality, indicating secretory diarrhea**, as with cholera or other toxin-producing bacteria.",
+   "whyNot": {
+    "0": "This forgets to double the sodium plus potassium (290 − 135), which inflates the gap and wrongly suggests osmotic diarrhea.",
+    "2": "This is 2 × (Na + K) itself, not the gap; it was never subtracted from 290.",
+    "3": "The gap is calculated correctly, but a low gap means the electrolytes explain the osmolality, which indicates secretory, not osmotic, diarrhea."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Fecal Analysis (diarrhea; fecal electrolytes and osmolality).",
+   "worked": {
+    "problem": "A patient has diarrhea after drinking large amounts of a sorbitol-sweetened beverage. Fecal sodium is 30 mmol/L and fecal potassium is 25 mmol/L. Calculate the osmotic gap using 290 mOsm/kg.",
+    "steps": [
+     "Add the cations: 30 + 25 = 55 mmol/L.",
+     "Double the sum to include the accompanying anions: 2 × 55 = 110.",
+     "Subtract from the assumed osmolality: 290 − 110 = 180 mOsm/kg.",
+     "A gap above 125 mOsm/kg means an unmeasured solute (here sorbitol) is holding water in the bowel."
+    ],
+    "result": "180 mOsm/kg, an osmotic diarrhea pattern"
+   }
+  },
+  {
+   "id": "CM-0126",
+   "tos": "CM-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A methylene blue wet preparation of a diarrheal stool shows many neutrophils. Which cause of the diarrhea is most likely?",
+   "options": [
+    "Vibrio cholerae",
+    "Rotavirus",
+    "Enterotoxigenic Escherichia coli",
+    "Shigella species"
+   ],
+   "answer": 3,
+   "why": "Neutrophils enter the stool when a pathogen invades and inflames the intestinal wall. **Fecal leukocytes point to invasive organisms such as Shigella, Salmonella, Campylobacter, and Yersinia**, or to ulcerative colitis. Toxin-producing bacteria and viruses usually do not bring neutrophils into the stool.",
+   "whyNot": {
+    "0": "Vibrio cholerae causes secretory diarrhea through a toxin without invading the mucosa, so neutrophils are absent.",
+    "1": "Rotavirus diarrhea does not produce fecal neutrophils.",
+    "2": "Enterotoxigenic E. coli acts through toxins without invading the bowel wall, so fecal leukocytes are not expected."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Fecal Analysis (microscopic examination; fecal leukocytes)."
+  },
+  {
+   "id": "CM-0127",
+   "tos": "CM-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "CSF from a patient with suspected tubercular meningitis is refrigerated overnight. Which gross finding in the tube is classically associated with this diagnosis?",
+   "options": [
+    "A heavy clot in the first tube only, with clearer fluid in later tubes",
+    "Evenly bloody fluid in all tubes that does not clot",
+    "A delicate, web-like pellicle",
+    "An oily appearance"
+   ],
+   "answer": 2,
+   "why": "Damage to the blood–brain barrier lets fibrinogen enter the CSF, where it can clot slowly. **A web-like pellicle forming after overnight refrigeration is associated with tubercular meningitis**, and the pellicle can be used for acid-fast smear and culture.",
+   "whyNot": {
+    "0": "A clot with blood that clears from the first to the later tubes suggests a traumatic tap, which adds plasma fibrinogen.",
+    "1": "Evenly bloody fluid in all tubes that does not clot suggests subarachnoid hemorrhage.",
+    "3": "An oily CSF appearance is caused by radiographic contrast media."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (appearance)."
+  },
+  {
+   "id": "CM-0128",
+   "tos": "CM-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After a head injury, a patient has a steady drip of clear fluid from one nostril. Which test on the fluid best confirms that it is cerebrospinal fluid?",
+   "options": [
+    "Glucose concentration",
+    "Chloride concentration",
+    "Tau (β2) transferrin",
+    "Total protein level"
+   ],
+   "answer": 2,
+   "why": "Nasal secretions and CSF can look identical. **Tau transferrin, a carbohydrate-deficient transferrin, is found in CSF but not in serum or nasal secretions**, so its presence identifies a CSF leak.",
+   "whyNot": {
+    "0": "Glucose can be present in other secretions and in blood-tinged fluid, so it is not specific for CSF.",
+    "1": "Chloride is present at similar concentrations in CSF and other extracellular fluids, so it cannot prove the fluid is CSF.",
+    "3": "CSF total protein is low and nonspecific; it cannot identify the fluid's origin."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (CSF proteins)."
+  },
+  {
+   "id": "CM-0129",
+   "tos": "CM-C.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A patient being evaluated for multiple sclerosis has these results: CSF IgG 6 mg/dL, serum IgG 1.2 g/dL, CSF albumin 25 mg/dL, and serum albumin 4.0 g/dL. Calculate the CSF IgG index and interpret it (an index above 0.70 indicates IgG production within the CNS).",
+   "options": [
+    "0.80; IgG is being produced within the CNS",
+    "0.24; IgG production is within normal limits",
+    "1.25; IgG is being produced within the CNS",
+    "0.80; barrier permeability is increased"
+   ],
+   "answer": 0,
+   "why": "IgG index = (CSF IgG ÷ serum IgG) ÷ (CSF albumin ÷ serum albumin) = (6 ÷ 1,200) ÷ (25 ÷ 4,000) = 0.0050 ÷ 0.00625 = 0.80, with serum values converted to mg/dL. **An IgG index of 0.80 exceeds 0.70, indicating IgG synthesis within the CNS**, as in multiple sclerosis. The CSF/serum albumin index of 6.3 is below 9, so the barrier is intact.",
+   "whyNot": {
+    "1": "This divides CSF IgG by CSF albumin (6 ÷ 25) and ignores the serum values, so it is not the IgG index.",
+    "2": "This inverts the formula, dividing the albumin ratio by the IgG ratio.",
+    "3": "Barrier integrity is judged by the CSF/serum albumin index (6.3 here, which is normal); the IgG index measures IgG production within the CNS."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (albumin index and IgG index).",
+   "worked": {
+    "problem": "CSF IgG is 6 mg/dL, serum IgG 1.0 g/dL, CSF albumin 20 mg/dL, and serum albumin 3.5 g/dL. Find the CSF/serum albumin index and the IgG index.",
+    "steps": [
+     "Convert serum values to mg/dL: IgG 1,000 mg/dL; albumin 3,500 mg/dL.",
+     "Albumin index = (CSF albumin ÷ serum albumin) × 1,000 = (20 ÷ 3,500) × 1,000 = 5.7, below 9, so the barrier is intact.",
+     "IgG ratio = 6 ÷ 1,000 = 0.0060; albumin ratio = 20 ÷ 3,500 = 0.0057.",
+     "IgG index = 0.0060 ÷ 0.0057 = 1.05, which is above 0.70."
+    ],
+    "result": "Albumin index 5.7 (intact barrier); IgG index 1.05 (IgG produced within the CNS)"
+   }
+  },
+  {
+   "id": "CM-0130",
+   "tos": "CM-C.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "CSF from a patient with advanced HIV infection shows budding yeast cells surrounded by wide clear halos on an India ink preparation. Which test confirms the identification by detecting the organism's capsular polysaccharide?",
+   "options": [
+    "Ziehl-Neelsen staining of the sediment",
+    "VDRL test on the CSF",
+    "Gram stain for gram-negative diplococci",
+    "Cryptococcal capsular antigen assay"
+   ],
+   "answer": 3,
+   "why": "The clear halos are the polysaccharide capsule of Cryptococcus neoformans. **The cryptococcal antigen test (latex agglutination or lateral flow) detects the capsular polysaccharide** and is more sensitive than the India ink preparation.",
+   "whyNot": {
+    "0": "An acid-fast stain looks for mycobacteria, not encapsulated yeast.",
+    "1": "The VDRL test on CSF is used to diagnose neurosyphilis.",
+    "2": "Gram-negative diplococci in CSF suggest Neisseria meningitidis, not a yeast."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (microbiology tests)."
+  },
+  {
+   "id": "CM-0131",
+   "tos": "CM-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A semen specimen tested 30 minutes after collection has a pH of 8.6. Which condition does this result suggest?",
+   "options": [
+    "Blocked ejaculatory ducts",
+    "Underdeveloped seminal vesicles",
+    "A reproductive tract infection",
+    "Excess acidic prostatic fluid"
+   ],
+   "answer": 2,
+   "why": "Normal semen is slightly alkaline, with a pH of about 7.2 to 8.0. **An increased semen pH suggests infection within the reproductive tract, such as prostatitis.** A decreased pH points instead to excess prostatic fluid, ejaculatory duct obstruction, or poorly developed seminal vesicles.",
+   "whyNot": {
+    "0": "Ejaculatory duct obstruction blocks the alkaline seminal vesicle fluid and lowers the pH.",
+    "1": "Seminal vesicle fluid is alkaline, so poorly developed seminal vesicles lower the pH.",
+    "3": "Prostatic fluid is acidic, so a larger prostatic share of the specimen lowers the pH."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Semen (semen pH)."
+  },
+  {
+   "id": "CM-0132",
+   "tos": "CM-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A vaginal swab is collected from a sexual assault victim. No sperm are seen on microscopic examination, possibly because the assailant had a vasectomy. Which test best confirms that semen is present?",
+   "options": [
+    "Fetal fibronectin assay",
+    "Prostatic acid phosphatase",
+    "Amine (whiff) test",
+    "Nitrazine paper test"
+   ],
+   "answer": 1,
+   "why": "Acid phosphatase from the prostate is present in semen at very high concentrations, even when no sperm are present. **Prostatic acid phosphatase, together with seminal glycoprotein p30 (PSA), is used forensically to confirm semen.**",
+   "whyNot": {
+    "0": "Fetal fibronectin in vaginal secretions is used to assess the risk of preterm delivery.",
+    "2": "The amine (whiff) test is used in the evaluation of bacterial vaginosis.",
+    "3": "Nitrazine paper shows only that a fluid is alkaline, which is not specific for semen; it is used to detect leaking amniotic fluid."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Semen (forensic testing)."
+  },
+  {
+   "id": "CM-0133",
+   "tos": "CM-D.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "During a fertility work-up, the technologist classifies 200 spermatozoa on the stained morphology smear and also counts 12 round cells. The sperm concentration is 50 × 10⁶/mL. Estimate the number of round cells per mL.",
+   "options": [
+    "6.0 × 10⁶/mL",
+    "12 × 10⁶/mL",
+    "0.24 × 10⁶/mL",
+    "3.0 × 10⁶/mL"
+   ],
+   "answer": 3,
+   "why": "Round cells (leukocytes and immature germ cells) are estimated from their ratio to sperm on the morphology smear: C = (N × S) ÷ 100, where N is the number of round cells per 100 sperm and S is the sperm concentration. Here 12 round cells per 200 sperm gives N = 6, so **(6 × 50 × 10⁶) ÷ 100 = 3.0 × 10⁶ round cells/mL**; a value above 1 × 10⁶/mL calls for identifying the cells.",
+   "whyNot": {
+    "0": "This treats all 12 round cells as if they were counted per 100 sperm, but they were counted alongside 200 sperm.",
+    "1": "This inverts the relationship (6 × 100 ÷ 50) instead of multiplying the ratio by the sperm concentration.",
+    "2": "This simply divides the 12 round cells by the sperm concentration and never applies the per-100-sperm ratio."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Semen (sperm morphology; round cells).",
+   "worked": {
+    "problem": "A morphology smear shows 4 round cells per 100 sperm, and the sperm concentration is 80 million/mL. Find the round cell concentration.",
+    "steps": [
+     "Use C = (N × S) ÷ 100.",
+     "N = 4 round cells per 100 sperm; S = 80 million/mL.",
+     "C = (4 × 80 million) ÷ 100 = 3.2 million/mL."
+    ],
+    "result": "3.2 million round cells/mL"
+   }
+  },
+  {
+   "id": "CM-0134",
+   "tos": "CM-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Maternal serum AFP is elevated, and amniotic fluid AFP measures 2.8 multiples of the median. Which amniotic fluid test is performed next to confirm an open neural tube defect?",
+   "options": [
+    "Lecithin/sphingomyelin ratio",
+    "ΔA450 bilirubin analysis",
+    "Acetylcholinesterase",
+    "Lamellar body count"
+   ],
+   "answer": 2,
+   "why": "An elevated AFP is not specific, since it can also come from fetal blood contamination or other defects. **Amniotic fluid acetylcholinesterase confirms an open neural tube defect** when AFP is elevated, because the enzyme leaks from exposed neural tissue.",
+   "whyNot": {
+    "0": "The L/S ratio assesses fetal lung maturity, not neural tube closure.",
+    "1": "The ΔA450 bilirubin scan assesses hemolytic disease of the fetus and newborn.",
+    "3": "The lamellar body count is a fetal lung maturity test."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Amniotic Fluid (neural tube defects)."
+  },
+  {
+   "id": "CM-0135",
+   "tos": "CM-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Fluid obtained during an amniocentesis is pale yellow and has a creatinine of 28 mg/dL and a urea of 600 mg/dL. What is the most likely source of the fluid?",
+   "options": [
+    "Normal fluid from a term amniotic sac",
+    "Maternal urine from an accidental bladder tap",
+    "Amniotic fluid mixed with maternal blood",
+    "Excess amniotic fluid in polyhydramnios"
+   ],
+   "answer": 1,
+   "why": "Amniotic fluid creatinine and urea are low, normally no more than about 3.5 mg/dL and 30 mg/dL. **Creatinine and urea far above these limits identify the fluid as maternal urine**, which typically has creatinine above 10 mg/dL and urea above 300 mg/dL.",
+   "whyNot": {
+    "0": "Amniotic creatinine does rise toward term, but only to about 2 to 3.5 mg/dL, not 28 mg/dL.",
+    "2": "Maternal blood would make the fluid red and would not raise creatinine and urea to urine levels.",
+    "3": "Polyhydramnios increases the volume of amniotic fluid; it does not raise its creatinine and urea to urine levels."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Amniotic Fluid (differentiating amniotic fluid from maternal urine)."
+  },
+  {
+   "id": "CM-0136",
+   "tos": "CM-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Synovial fluid from a swollen, hot knee is cloudy and yellow-green, with 120,000 WBCs/µL and 92% neutrophils, and no crystals are seen under polarized light. The fasting blood glucose is 95 mg/dL, and the synovial glucose collected at the same time is 25 mg/dL. Which disorder is most likely?",
+   "options": [
+    "Osteoarthritis",
+    "Gout",
+    "Traumatic hemarthrosis",
+    "Septic (bacterial) arthritis"
+   ],
+   "answer": 3,
+   "why": "Normally, synovial glucose is within 10 mg/dL of the blood glucose. **A very high neutrophil count with a blood-to-synovial glucose difference of 70 mg/dL places the fluid in the septic group, pointing to bacterial arthritis**, so Gram stain and culture are urgent. Paired fasting blood and fluid samples are needed for this comparison.",
+   "whyNot": {
+    "0": "Osteoarthritis gives a noninflammatory fluid with fewer than about 1,000 WBCs/µL and a glucose difference under 10 mg/dL.",
+    "1": "Gout is a crystal-induced inflammatory arthritis; monosodium urate crystals would be seen, and the glucose difference usually stays below about 40 mg/dL.",
+    "2": "Traumatic hemarthrosis gives a grossly bloody fluid without this marked neutrophilia and fall in glucose."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Synovial Fluid (classification of joint disorders; glucose)."
+  },
+  {
+   "id": "CM-0137",
+   "tos": "CM-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Synovial fluid from a 74-year-old woman with an acutely painful knee contains rhomboid and short rod-shaped crystals, some inside neutrophils. With a red compensator, the crystals look blue when parallel to the slow vibration direction, and they are only weakly birefringent. What are they?",
+   "options": [
+    "Calcium pyrophosphate dihydrate",
+    "Monosodium urate monohydrate",
+    "Cholesterol plates",
+    "Calcium oxalate monohydrate"
+   ],
+   "answer": 0,
+   "why": "Crystal shape and color under compensated polarized light separate the two main crystal arthropathies. **Calcium pyrophosphate dihydrate crystals are rhomboid, weakly and positively birefringent, and blue when parallel to the slow ray**; they cause pseudogout. Monosodium urate needles show the opposite colors.",
+   "whyNot": {
+    "1": "Monosodium urate forms needles that are strongly negatively birefringent and appear yellow when parallel to the slow ray.",
+    "2": "Cholesterol crystals are flat plates with notched corners found in chronic effusions.",
+    "3": "Calcium oxalate crystals are envelope- or rod-shaped and occur mainly in patients on renal dialysis."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Synovial Fluid (crystal identification)."
+  },
+  {
+   "id": "CM-0138",
+   "tos": "CM-G.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A bloody pleural fluid has a hematocrit of 22%. The patient's blood hematocrit is 36%. How should the fluid be classified?",
+   "options": [
+    "Artifact of a traumatic tap",
+    "Hemothorax",
+    "Hemorrhagic exudate, not a hemothorax",
+    "Pseudochylous effusion"
+   ],
+   "answer": 1,
+   "why": "To separate a hemothorax from a hemorrhagic effusion, compare the fluid and blood hematocrits: 22 ÷ 36 = 0.61, or 61%. **A fluid hematocrit above 50% of the blood hematocrit indicates a hemothorax**, meaning true bleeding into the pleural space, as after chest trauma.",
+   "whyNot": {
+    "0": "Blood from a traumatic tap is usually uneven and clears during collection; it would not give a fluid hematocrit this close to the blood value.",
+    "2": "This label applies when the fluid hematocrit is below 50% of the blood value; here it is 61%.",
+    "3": "Pseudochylous effusions are milky from cholesterol in chronic inflammation, not bloody."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Serous Fluid (pleural fluid appearance; hemothorax).",
+   "worked": {
+    "problem": "A pleural fluid hematocrit is 15%, and the blood hematocrit is 40%. Classify the fluid.",
+    "steps": [
+     "Divide the fluid hematocrit by the blood hematocrit: 15 ÷ 40 = 0.375.",
+     "Express as a percentage: 37.5%.",
+     "This is below 50%, so the fluid is a hemorrhagic effusion rather than a hemothorax (for example, from malignancy or pulmonary infarction)."
+    ],
+    "result": "37.5%; hemorrhagic effusion, not a hemothorax"
+   }
+  },
+  {
+   "id": "CM-0139",
+   "tos": "CM-G.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient with ascites has a serum albumin of 3.2 g/dL and an ascitic fluid albumin of 1.9 g/dL. Calculate the serum-ascites albumin gradient (SAAG) and interpret it.",
+   "options": [
+    "1.3 g/dL; transudate, consistent with portal hypertension",
+    "1.3 g/dL; exudate, consistent with peritonitis or malignancy",
+    "0.59; exudate, consistent with peritonitis or malignancy",
+    "5.1 g/dL; transudate, consistent with portal hypertension"
+   ],
+   "answer": 0,
+   "why": "SAAG = serum albumin − ascitic fluid albumin = 3.2 − 1.9 = 1.3 g/dL. **A SAAG of 1.1 g/dL or higher indicates a transudate caused by portal hypertension**, as in cirrhosis or heart failure. SAAG is preferred over fluid:serum ratios for classifying peritoneal fluid.",
+   "whyNot": {
+    "1": "A gradient of 1.1 g/dL or more indicates a transudate; exudates have a gradient below 1.1 g/dL.",
+    "2": "This is the fluid-to-serum albumin ratio (1.9 ÷ 3.2), not the gradient; the SAAG is a subtraction.",
+    "3": "This adds the two albumin values instead of subtracting the fluid albumin from the serum albumin."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Serous Fluid (peritoneal fluid; serum-ascites albumin gradient).",
+   "worked": {
+    "problem": "Serum albumin is 2.6 g/dL and ascitic fluid albumin is 1.8 g/dL. Calculate and interpret the SAAG.",
+    "steps": [
+     "SAAG = serum albumin − fluid albumin = 2.6 − 1.8 = 0.8 g/dL.",
+     "Compare with the 1.1 g/dL cutoff.",
+     "0.8 is below 1.1, so the fluid shows an exudate pattern, as in peritoneal infection or malignancy."
+    ],
+    "result": "0.8 g/dL; exudate"
+   }
+  },
+  {
+   "id": "CM-0140",
+   "tos": "CM-G.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient with cirrhosis develops fever and abdominal pain. The ascitic fluid WBC count is 800 cells/µL with 45% neutrophils. What is the absolute neutrophil count, and what does it suggest?",
+   "options": [
+    "800 cells/µL; peritoneal infection likely",
+    "360 cells/µL; uncomplicated cirrhotic ascites",
+    "45 cells/µL; uncomplicated cirrhotic ascites",
+    "360 cells/µL; peritoneal infection likely"
+   ],
+   "answer": 3,
+   "why": "Absolute neutrophil count = total WBC count × neutrophil fraction = 800 × 0.45 = 360 cells/µL. **An absolute neutrophil count above 250 cells/µL in ascitic fluid indicates bacterial peritonitis** rather than uncomplicated cirrhosis, and treatment is usually started while culture results are pending.",
+   "whyNot": {
+    "0": "800 cells/µL is the total WBC count; the decision limit applies to the absolute neutrophil count.",
+    "1": "The count of 360 cells/µL is above the 250 cells/µL limit, so it does not fit uncomplicated cirrhotic ascites.",
+    "2": "45 is the neutrophil percentage, not an absolute count; it must be multiplied by the total WBC count."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Serous Fluid (peritoneal fluid; absolute neutrophil count).",
+   "worked": {
+    "problem": "An ascitic fluid has 1,200 WBCs/µL with 15% neutrophils. Calculate and interpret the absolute neutrophil count.",
+    "steps": [
+     "Absolute neutrophil count = 1,200 × 0.15 = 180 cells/µL.",
+     "Compare with the 250 cells/µL limit.",
+     "180 is below the limit, so the cell count alone does not indicate bacterial peritonitis."
+    ],
+    "result": "180 cells/µL; below the peritonitis threshold"
+   }
+  },
+  {
+   "id": "CM-0141",
+   "tos": "CM-H.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A man with recurrent urinary infections undergoes the Stamey-Meares four-glass collection: first-void urine (VB1), midstream urine (VB2), expressed prostatic secretions (EPS), and urine voided after prostatic massage (VB3). Which pattern of quantitative culture results indicates bacterial prostatitis?",
+   "options": [
+    "VB1 and VB2 low, EPS and VB3 about 10 times higher than VB1",
+    "VB1 much higher than VB2, EPS, and VB3, which are all low",
+    "VB2 heavily positive, with similar counts in all four samples",
+    "All four samples low or sterile, with no difference among them"
+   ],
+   "answer": 0,
+   "why": "The four specimens localize bacteria to the urethra, bladder, or prostate. **Bacterial prostatitis is indicated when the EPS and VB3 counts are about 10 times higher than VB1, with a negative VB2.** VB2 must be negative, because a bladder infection would contaminate the post-massage specimens and invalidate the comparison.",
+   "whyNot": {
+    "1": "Bacteria concentrated in the first-void urine localize to the urethra (urethritis or contamination), not the prostate.",
+    "2": "A positive midstream specimen indicates bladder infection, which makes the prostatic specimens impossible to interpret.",
+    "3": "Low, similar counts in all four specimens do not support a bacterial infection at any site."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (specimen types; prostatitis specimens)."
+  },
+  {
+   "id": "CM-0142",
+   "tos": "CM-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine specimen will be shipped to a reference laboratory for a quantitative count of cells and casts. The preservative chosen keeps formed elements in excellent condition, but as a reducing agent it interferes with reagent strip tests for glucose, blood, and leukocyte esterase and with copper reduction tests. Which preservative is this?",
+   "options": [
+    "Boric acid",
+    "Toluene",
+    "Formalin",
+    "Phenol"
+   ],
+   "answer": 2,
+   "why": "Formalin fixes cells and casts and is an excellent sediment preservative. **Formalin preserves formed elements well but, as a reducing agent, interferes with several reagent strip reactions and with copper reduction**, so chemical tests should be done on an unpreserved portion.",
+   "whyNot": {
+    "0": "Boric acid preserves protein and formed elements and interferes little with routine tests other than pH; it is used to transport urine for culture.",
+    "1": "Toluene floats on the urine as a barrier and does not interfere with routine tests, but it does not fix cells and casts.",
+    "3": "Phenol changes the specimen's odor but does not interfere with routine tests and is not a reducing-agent preservative."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (specimen preservation)."
+  },
+  {
+   "id": "CM-0143",
+   "tos": "CM-H.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Amniotic fluid is collected to evaluate the severity of hemolytic disease of the fetus and newborn by spectrophotometric bilirubin analysis. How should the specimen be handled right after collection?",
+   "options": [
+    "Keep it at 37 °C until testing",
+    "Add sodium fluoride before transport",
+    "Keep it in a clear tube under room light",
+    "Protect it from light in an amber tube"
+   ],
+   "answer": 3,
+   "why": "Bilirubin is broken down by light, which would falsely lower the ΔA450 reading and underestimate the hemolysis. **Amniotic fluid for bilirubin analysis must be protected from light immediately**, for example in an amber tube or a tube wrapped in foil.",
+   "whyNot": {
+    "0": "Incubation at 37 °C is used to keep fetal cells viable for cytogenetic studies, not to preserve bilirubin.",
+    "1": "Sodium fluoride inhibits glycolysis; it plays no role in preserving bilirubin.",
+    "2": "Light exposure photo-oxidizes bilirubin and gives falsely low results."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Amniotic Fluid (specimen handling and processing)."
+  },
+  {
+   "id": "CM-0144",
+   "tos": "CM-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During a urine collection for workplace drug testing, the collector must check the specimen temperature to detect substitution. When must the temperature be read, and what range is acceptable?",
+   "options": [
+    "Within 1 hour; about 20 to 25 °C",
+    "Within 4 minutes; about 32 to 38 °C",
+    "Within 4 minutes; about 26 to 30 °C",
+    "Within 30 minutes; about 36 to 40 °C"
+   ],
+   "answer": 1,
+   "why": "Freshly voided urine is near body temperature but cools quickly. **The temperature must be read within 4 minutes of collection and should be about 32 to 38 °C (90 to 100 °F).** A reading outside this range suggests a substituted or adulterated specimen; it is recorded, and a new collection is usually required.",
+   "whyNot": {
+    "0": "After an hour the urine has cooled to room temperature, so the reading could no longer show that it came from the donor.",
+    "2": "A specimen this cool within 4 minutes is below the expected body-temperature range and suggests substitution.",
+    "3": "Waiting 30 minutes allows the urine to cool, and a range up to 40 °C is above normal body temperature."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (drug specimen collection)."
+  },
+  {
+   "id": "CM-0145",
+   "tos": "CM-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist wants to view urine sediment elements with a three-dimensional, relief-like appearance and without a halo artifact. Which type of microscopy provides this?",
+   "options": [
+    "Interference contrast",
+    "Phase contrast",
+    "Darkfield illumination",
+    "Polarized light"
+   ],
+   "answer": 0,
+   "why": "Interference-contrast systems split the light beam and recombine it after it passes through the specimen. **Interference-contrast microscopy (such as Nomarski differential interference contrast) produces a three-dimensional image** with fine detail and without the halo seen in phase contrast.",
+   "whyNot": {
+    "1": "Phase contrast improves visibility of low-refractive elements such as hyaline casts, but it surrounds objects with a halo of light.",
+    "2": "Darkfield shows bright objects on a dark background and is used for organisms such as Treponema pallidum.",
+    "3": "Polarized light identifies birefringent crystals, cholesterol, and fibers; it does not give a three-dimensional image."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (types of microscopy)."
+  },
+  {
+   "id": "CM-0146",
+   "tos": "CM-I.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A urinalysis procedure requires centrifugation at a relative centrifugal force (RCF) of 400 × g. The centrifuge rotor has a radius of 15 cm. At about what speed should the centrifuge be set? (RCF = 1.118 × 10⁻⁵ × radius in cm × rpm²)",
+   "options": [
+    "490 rpm",
+    "1,090 rpm",
+    "1,540 rpm",
+    "2,180 rpm"
+   ],
+   "answer": 2,
+   "why": "Rearrange the formula: rpm = √(RCF ÷ (1.118 × 10⁻⁵ × r)) = √(400 ÷ (1.118 × 10⁻⁵ × 15)) = √2,385,000 ≈ 1,540 rpm. **RCF depends on the rotor radius and the square of the speed**, so the same rpm gives different forces in centrifuges of different sizes.",
+   "whyNot": {
+    "0": "This uses the radius in millimeters (150) instead of centimeters.",
+    "1": "This uses the rotor diameter (30 cm) instead of the radius.",
+    "3": "This uses half the radius (7.5 cm), which overestimates the speed needed."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (specimen preparation; centrifugation).",
+   "worked": {
+    "problem": "A centrifuge with a 12-cm rotor radius runs at 2,000 rpm. What RCF does it produce?",
+    "steps": [
+     "RCF = 1.118 × 10⁻⁵ × r × rpm².",
+     "rpm² = 2,000² = 4,000,000.",
+     "RCF = 1.118 × 10⁻⁵ × 12 × 4,000,000 = 537 × g."
+    ],
+    "result": "About 537 × g"
+   }
+  },
+  {
+   "id": "CM-0147",
+   "tos": "CM-I.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with ethanol intoxication has a serum osmolality of 360 mOsm/kg by freezing point depression but only 300 mOsm/kg on a vapor pressure osmometer. What explains the difference?",
+   "options": [
+    "Freezing point osmometers do not detect ethanol",
+    "Vapor pressure osmometers do not detect volatile solutes",
+    "Ethanol elevates the serum freezing point",
+    "Unseparated serum produced lactic acid during storage"
+   ],
+   "answer": 1,
+   "why": "Volatile solutes such as ethanol and methanol evaporate along with water, so they do not lower the measured vapor pressure. **Vapor pressure osmometers miss volatile solutes, whereas freezing point osmometers detect them**, which is why freezing point depression is used when an osmolal gap from alcohol is suspected.",
+   "whyNot": {
+    "0": "The opposite is true: freezing point depression counts the ethanol, which is why that result is higher.",
+    "2": "Like any solute, ethanol lowers the freezing point; it does not raise it.",
+    "3": "Lactic acid formed in an unseparated specimen would raise the result on both instruments, not only on the freezing point method."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (osmolality; freezing point and vapor pressure osmometers)."
+  },
+  {
+   "id": "CM-0148",
+   "tos": "CM-J.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A large volume of a corrosive reagent spills down the front of a technologist's lab coat and soaks through to the skin of her chest and arm. What should she do first?",
+   "options": [
+    "Keep the coat on and rinse only the exposed skin of her arm at the sink",
+    "Get under the safety shower, remove the contaminated clothing, and flush for at least 15 minutes",
+    "Wipe the skin with alcohol to dissolve the reagent before rinsing",
+    "Finish containing the spill, then go to the supervisor for first aid"
+   ],
+   "answer": 1,
+   "why": "Chemical contact with the skin must be diluted and removed at once to limit tissue damage. **For a large splash, use the safety shower, remove contaminated clothing, and flush the skin with running water for at least 15 minutes**, then seek medical attention and report the incident.",
+   "whyNot": {
+    "0": "Soaked clothing holds the chemical against the skin, so it must come off, and a large area needs the safety shower rather than a sink.",
+    "2": "Alcohol does not safely remove a corrosive and only delays flushing; water comes first.",
+    "3": "Spill cleanup and reporting come after first aid; any delay lets the chemical keep burning."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Management (chemical hazards)."
+  },
+  {
+   "id": "CM-0149",
+   "tos": "CM-J.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory's urinalysis controls are always within limits, yet the director also enrolls the laboratory in proficiency testing. What does proficiency testing evaluate that daily internal quality control cannot?",
+   "options": [
+    "Whether patient specimens were collected and labeled correctly",
+    "Whether the laboratory's results on unknown samples agree with those of other laboratories",
+    "Whether the method's day-to-day precision is acceptable",
+    "Whether a new reagent strip lot performs like the previous lot"
+   ],
+   "answer": 1,
+   "why": "Internal quality control uses the laboratory's own controls with known values and shows that a method is stable from run to run. **Proficiency testing sends unknown samples from an outside agency and grades each laboratory's results against its peers, an external check on accuracy** that accrediting and licensing bodies require.",
+   "whyNot": {
+    "0": "Collection and labeling are pre-examination steps checked by specimen acceptance and rejection criteria, not by proficiency testing.",
+    "2": "Day-to-day precision is what the laboratory's own internal control charts monitor.",
+    "3": "A new lot is checked by running the laboratory's own controls on it before use."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Management (external quality control)."
+  },
+  {
+   "id": "CM-0150",
+   "tos": "CM-J.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine hCG cassette shows a colored line in the control region in addition to the test result. What does the appearance of this built-in control line verify?",
+   "options": [
+    "That the patient's hCG is within the measurable range",
+    "That enough specimen was added and the reagents migrated and reacted",
+    "That the lot of cassettes agrees with other laboratories' results",
+    "That external liquid controls no longer need to be run"
+   ],
+   "answer": 1,
+   "why": "Built-in (procedural) controls are a form of internal quality control. **The control line confirms that adequate specimen was applied, the fluid migrated properly, and the reagents were active**; it does not verify the accuracy of the patient result at specific concentrations. External positive and negative liquid controls are still run as the laboratory and manufacturer require.",
+   "whyNot": {
+    "0": "The control line forms regardless of the hCG level; it says nothing about the analyte concentration.",
+    "2": "Comparison with other laboratories is the purpose of proficiency testing, not of a built-in control line.",
+    "3": "Built-in controls do not replace external liquid controls, which are still required at set intervals and with new lots or shipments."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Management (internal quality control)."
   }
  ]
 }

@@ -10,7 +10,7 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261005125258";
+  var BUILD = "20261005160515";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -18,7 +18,7 @@
   var DEFAULTS = {
     examDate: cfg.examDate || "2027-03-01", examDateConfirmed: !!cfg.examDateConfirmed,
     newPerDay: 15, sessionSize: 20, goalDays: 5,
-    shortcuts: true, breaks: true, focusTip: true, myQuestions: false
+    shortcuts: true, breaks: true, focusTip: true, myQuestions: false, showRefs: false
   };
 
   var state = {
@@ -353,16 +353,35 @@
     return '<ol class="opts">' + order.map(function (orig, di) {
       var letter = LETTERS.charAt(di), cls = "opt", st = "", why = "";
       if (reveal) {
-        if (orig === q.answer) { cls += " is-right"; st = shape("ok") + (reveal.chosen === orig ? "Your answer" : "Correct answer"); }
-        else if (orig === reveal.chosen) { cls += " is-wrong"; st = shape("bad") + "Your answer"; }
+        if (orig === q.answer) { cls += " is-right"; st = shape("ok") + '<span class="sr">' + (reveal.chosen === orig ? "Your answer, correct" : "Correct answer") + "</span>"; }
+        else if (orig === reveal.chosen) { cls += " is-wrong"; st = shape("bad") + '<span class="sr">Your answer, incorrect</span>'; }
         else cls += " is-dim";
-        var text = orig === q.answer ? q.why : (q.whyNot && (q.whyNot[orig] || q.whyNot[String(orig)]));
-        if (text) why = '<p class="opt__why' + (orig === q.answer ? " is-right-why" : "") + '">' + (orig === q.answer ? "<b>Why it's right:</b> " : "<b>Why not:</b> ") + fmt(text) + "</p>";
       }
       return '<li><button type="button" class="' + cls + '" data-act="pick" data-i="' + di + '" aria-pressed="' + (picked === di && !reveal ? "true" : "false") + '"' + (reveal || readOnly ? " disabled" : "") + ">" +
         '<span class="opt__key" aria-hidden="true">' + letter + '</span><span><span class="sr">' + letter + ". </span>" + fmt(q.options[orig]) + "</span>" +
         '<span class="opt__state">' + st + "</span></button>" + why + "</li>";
     }).join("") + "</ol>";
+  }
+  /* The explanation panel: beside the question on a laptop, below the options on a phone.
+     The options never move when it appears; only their highlight changes. */
+  function explainPanel(q, order, reveal, mode, opts) {
+    opts = opts || {};
+    var right = order.indexOf(q.answer), html = opts.verdict === false ? "" : verdictHtml(q, reveal, mode);
+    html += '<section class="xp" aria-label="Explanation"><h2 class="xp__h"><span class="xp__key xp__key--ok" aria-hidden="true">' + LETTERS.charAt(right) + "</span>Why " + LETTERS.charAt(right) + " is right</h2>" +
+      '<p class="xp__p">' + fmt(q.why) + "</p>";
+    var others = order.map(function (orig, di) { return { orig: orig, di: di }; }).filter(function (x) { return x.orig !== q.answer; });
+    others.sort(function (a, b) { return (b.orig === reveal.chosen) - (a.orig === reveal.chosen); });   // her wrong choice first
+    var items = others.map(function (x) {
+      var t = q.whyNot && (q.whyNot[x.orig] || q.whyNot[String(x.orig)]);
+      if (!t) return "";
+      var mine = x.orig === reveal.chosen;
+      return '<li class="' + (mine ? "is-mine" : "") + '"><span class="xp__key' + (mine ? " xp__key--bad" : "") + '" aria-hidden="true">' + LETTERS.charAt(x.di) + '</span><p><span class="sr">Option ' + LETTERS.charAt(x.di) + ". </span>" + (mine ? "<b>Your answer.</b> " : "") + fmt(t) + "</p></li>";
+    }).join("");
+    if (items) html += '<h2 class="xp__h">Why the others are wrong</h2><ul class="xp__list">' + items + "</ul>";
+    html += "</section>" + relatedVizHtml(q);
+    if (setting("showRefs") && q.ref) html += '<p class="ref">Reference: ' + esc(q.ref) + "</p>";
+    html += '<p class="xp__flag"><button type="button" class="btn btn--quiet btn--sm" data-act="flag" data-q="' + esc(q.id) + '">Flag a problem with this question</button></p>';
+    return html;
   }
   function kbd(k) { return setting("shortcuts") ? '<span class="kbd" aria-hidden="true">' + k + "</span>" : ""; }
 
@@ -393,18 +412,19 @@
     }
     if (!s.shownAt) { s.shownAt = Date.now(); }
     var order = s.orders[q.id] || q.options.map(function (_, i) { return i; });
-    var html = '<div class="wrap"><div class="quiz">' + top + metaLine(q) + '<h1 class="stem" tabindex="-1">' + fmt(q.stem) + "</h1>" + figure(q, !!s.reveal) +
-      (s.reveal ? verdictHtml(q, s.reveal, s.mode) : "") + optionRows(q, order, s.picked, s.reveal, false);
+    var html = '<div class="wrap"><div class="quiz quiz--split">' + top + '<div class="qgrid"><div class="qmain">' + metaLine(q) + '<h1 class="stem" tabindex="-1">' + fmt(q.stem) + "</h1>" + figure(q, !!s.reveal) +
+      optionRows(q, order, s.picked, s.reveal, false);
     if (!s.reveal) {
       var dis = s.picked == null ? " disabled" : "";
       html += '<div class="checkbar"><button type="button" class="btn btn--solid" data-act="check" data-sure="1"' + dis + ">Check" + kbd("S") + "<small>I'm sure</small></button>" +
         '<button type="button" class="btn" data-act="check" data-sure="0"' + dis + ">Check" + kbd("N") + "<small>Not sure</small></button></div>" +
         '<p class="section__note">' + (s.picked == null ? "Choose an answer, then say how sure you are. " : "") + '<button type="button" class="btn btn--quiet btn--sm" data-act="dunno">I don\'t know</button></p>';
       if (s.mode === "drill") html += '<p class="section__note">Answer quickly: an image counts as learned after 2 correct answers in under 10 seconds.</p>';
+      html += '</div><aside class="qside qside--empty" aria-hidden="true"><p>The answer and the explanation appear here after you check.</p></aside></div>';
     } else {
-      html += relatedVizHtml(q) + (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
-        '<div class="nextbar"><button type="button" class="btn btn--quiet btn--sm" data-act="flag" data-q="' + esc(q.id) + '">Flag a problem</button>' +
-        '<button type="button" class="btn btn--solid" data-act="next" id="next-btn">' + (s.i + 1 >= n ? "Finish" : "Next question") + kbd("Enter") + "</button></div>";
+      html += '<div class="nextbar"><button type="button" class="btn btn--sm xp-jump" data-act="xp-jump">See why ↓</button>' +
+        '<button type="button" class="btn btn--solid" data-act="next" id="next-btn">' + (s.i + 1 >= n ? "Finish" : "Next question") + kbd("Enter") + "</button></div></div>" +
+        '<aside class="qside" id="xp">' + explainPanel(q, order, s.reveal, s.mode) + "</aside></div>";
     }
     return html + "</div></div>";
   }
@@ -430,7 +450,6 @@
     s.reveal = { chosen: chosen, ok: ok, sure: !!sure && !dunno, ms: ms };
     s.answers.push({ q: q.id, ok: ok, chosen: chosen, sure: !!sure && !dunno });
     saveSession(); refresh();
-    var v = main.querySelector(".verdict"); if (v && v.scrollIntoView) v.scrollIntoView({ block: "nearest", behavior: reduceMotion ? "auto" : "smooth" });
     var nb = document.getElementById("next-btn"); if (nb) nb.focus({ preventScroll: true });
   }
   function next() {
@@ -470,10 +489,10 @@
     var hist = state.reviews.filter(function (e) { return e.q === id; }), card = state.cards[id];
     var last = hist[hist.length - 1];
     var info = hist.length ? "Answered " + plural(hist.length, "time") + ", " + hist.filter(function (e) { return e.ok; }).length + " correct." + (card ? " Next review " + inDays(card.dueDay - today()) + "." : "") : "Not answered yet.";
-    var order = q.options.map(function (_, i) { return i; });
-    return '<div class="wrap"><div class="quiz"><a class="crumb" href="javascript:history.back()">Back</a>' + metaLine(q) + '<h1 class="stem" tabindex="-1">' + fmt(q.stem) + "</h1>" + figure(q, true) +
-      optionRows(q, order, null, { chosen: last && !last.ok ? last.c : q.answer }, true) + relatedVizHtml(q) + (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
-      '<p class="section__note">' + esc(info) + (last && !last.ok ? " Your last answer is marked." : "") + '</p><div class="actions"><button type="button" class="btn" data-act="flag" data-q="' + esc(q.id) + '">Flag a problem</button></div></div></div>';
+    var order = q.options.map(function (_, i) { return i; }), rv = { chosen: last && !last.ok ? last.c : q.answer };
+    return '<div class="wrap"><div class="quiz quiz--split"><a class="crumb" href="javascript:history.back()">Back</a><div class="qgrid"><div class="qmain">' + metaLine(q) + '<h1 class="stem" tabindex="-1">' + fmt(q.stem) + "</h1>" + figure(q, true) +
+      optionRows(q, order, null, rv, true) + '<p class="section__note">' + esc(info) + (last && !last.ok ? " Your last answer is marked." : "") + "</p></div>" +
+      '<aside class="qside">' + explainPanel(q, order, rv, "review", { verdict: false }) + "</aside></div></div></div>";
   }
 
   /* ---------- Practice ---------- */
@@ -708,6 +727,7 @@
       tog("breaks", "Suggest a 5-minute break every 25 minutes") +
       tog("focusTip", "Show the Do Not Disturb tip on Today") +
       tog("shortcuts", "Keyboard shortcuts on a laptop (A to D or 1 to 4 to answer, S sure, N not sure, Enter next)") +
+      tog("showRefs", "Show the textbook reference under each explanation") +
       "</div></section>";
     // Sync
     var unsynced = state.reviews.filter(function (e) { return !e.s; }).length;
@@ -757,7 +777,7 @@
       '<li><b>Parasite images:</b> <a href="https://www.cdc.gov/dpdx/" target="_blank" rel="noopener">CDC DPDx' + newTab() + "</a>, public domain. Use of these images does not imply endorsement by CDC.</li>" +
       "<li><b>Exam blueprint:</b> Board of Medical Technology Resolution No. 13, s. 2023 (Table of Specifications), and RA 5527 and related laws. Philippine government works have no copyright (RA 8293 Sec. 176).</li>" +
       '<li><b>Scheduling:</b> <a href="https://github.com/open-spaced-repetition/ts-fsrs" target="_blank" rel="noopener">ts-fsrs' + newTab() + "</a>, MIT License.</li>" +
-      "<li><b>Typeface:</b> Atkinson Hyperlegible Next, Braille Institute, SIL Open Font License.</li>" +
+      "<li><b>Typeface:</b> Aptos Display where it's installed (Microsoft), otherwise your device's system font.</li>" +
       "<li><b>Questions:</b> original, written for this site. No questions are copied from reviewers, books or past exams.</li></ul></section></div>";
     return html;
   }
@@ -818,7 +838,7 @@
       '<div class="viz__panel"><p class="viz__count"></p><p class="viz__cap" id="' + id + '-c" aria-live="polite"></p>' +
       '<div class="viz__nav"><button type="button" class="btn btn--sm" data-act="viz-prev">‹ Back</button><span class="viz__dots" aria-hidden="true">' + dots + '</span><button type="button" class="btn btn--solid btn--sm" data-act="viz-next">Next ›</button></div></div>' +
       (v.alt ? '<details class="viz__alt"><summary>Describe the whole diagram in words</summary><p>' + esc(v.alt) + "</p></details>" : "") +
-      '<p class="viz__src">' + credit + "</p></figure>";
+      (opts.source === false ? "" : '<p class="viz__src">' + credit + "</p>") + "</figure>";
   }
   function vizApply(fig, step, animate) {
     var v = state.vizById[fig.getAttribute("data-viz")]; if (!v) return;
@@ -847,7 +867,7 @@
   function relatedVizHtml(q) {
     var v = M.relatedVisual(q, state.visuals);
     if (!v) return "";
-    return '<details class="viz-inline"><summary>' + shapeEye() + "See it as a diagram: " + esc(v.title) + "</summary>" + vizHtml(v, { title: false }) + "</details>";
+    return '<details class="viz-inline"><summary>' + shapeEye() + "See it as a diagram: " + esc(v.title) + "</summary>" + vizHtml(v, { title: false, source: setting("showRefs") }) + "</details>";
   }
   function shapeEye() { return '<svg class="st__shape" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="15" height="12" fill="none" stroke="var(--ink)" stroke-width="2"/><path d="M4 12l3.5-4 3 3 2-2 2.5 3" fill="none" stroke="var(--ink)" stroke-width="1.8"/></svg>'; }
   function viewVisuals() {
@@ -1122,6 +1142,7 @@
     else if (act === "check") check(el.getAttribute("data-sure") === "1", false);
     else if (act === "dunno") check(false, true);
     else if (act === "next") next();
+    else if (act === "xp-jump") { var xp = document.getElementById("xp"); if (xp) xp.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" }); }
     else if (act === "intro-next") { s.introI++; s.shownAt = 0; saveSession(); route._moved = true; route(); }
     else if (act === "intro-skip") { s.introI = s.intro.length; s.shownAt = 0; saveSession(); route._moved = true; route(); }
     else if (act === "viz-prev" || act === "viz-next") { var fig = el.closest(".viz"); if (fig) vizApply(fig, +fig.getAttribute("data-step") + (act === "viz-next" ? 1 : -1), true); }
@@ -1228,7 +1249,7 @@
     var k = el.getAttribute && el.getAttribute("data-setting"); if (!k) return;
     var v = el.type === "checkbox" ? el.checked : el.tagName === "SELECT" ? +el.value : el.value;
     if (k === "examDate" && isNaN(M.parseDay(v))) { toast("That date isn't valid."); return; }
-    setSetting(k, v); toast("Saved."); if (k === "myQuestions" || k === "shortcuts") refresh();
+    setSetting(k, v); toast("Saved."); if (k === "myQuestions" || k === "shortcuts" || k === "showRefs") refresh();
   });
 
   /* Keyboard: A-D or 1-4 to choose, S sure, N not sure, Enter next. Can be turned off in Settings. */

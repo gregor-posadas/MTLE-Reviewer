@@ -1,11 +1,8 @@
 /* MTLE Reviewer
    Same "signage rules" as the Microbe Busters, Lagmay Visit and Classes hubs: near-black on warm paper (or white on
-   black in dark mode), one typeface, two weights, few sizes. Colour only carries meaning, and always comes with a
+   black in dark mode), one typeface (Aptos Display where installed, else the system font), two weights, few sizes. Colour only carries meaning, and always comes with a
    shape and a word: blue + check = correct, orange + cross = incorrect. */
 
-@font-face { font-family: "Atkinson"; src: url(../fonts/AtkinsonHyperlegibleNext-Regular.woff2) format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: "Atkinson"; src: url(../fonts/AtkinsonHyperlegibleNext-RegularItalic.woff2) format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
-@font-face { font-family: "Atkinson"; src: url(../fonts/AtkinsonHyperlegibleNext-Bold.woff2) format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
 
 :root {
   /* Light theme: warm off-white paper, easy on the eyes */
@@ -81,7 +78,7 @@
 html { font-size: 18px; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--paper); color: var(--ink);
-  font-family: "Atkinson", system-ui, sans-serif; font-weight: 400;
+  font-family: "Aptos Display", "Aptos", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 400;
   font-size: var(--f2); line-height: 1.5;
   min-height: 100vh; display: flex; flex-direction: column;
 }
@@ -623,7 +620,7 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 .viz:focus { outline: none; }
 .viz__title { font-size: var(--f3); padding: 16px 16px 0; }
 .viz__stage { padding: 12px 8px 8px; }
-.viz__stage svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; overflow: visible; font-family: "Atkinson", system-ui, sans-serif; }
+.viz__stage svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; overflow: visible; font-family: "Aptos Display", "Aptos", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 .viz__stage--img { background: #ffffff; }
 .viz__stage--img img { display: block; width: 100%; max-width: 640px; height: auto; margin: 0 auto; }
 .viz__panel { border-top: 2px solid var(--rule-strong); padding: 14px 16px 12px; display: grid; gap: 8px; }
@@ -689,3 +686,33 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 @media (max-width: 480px) { .viz__dots { display: none; } }
 .viz__alt summary::before { content: "▸"; margin-right: 8px; }
 .viz__alt[open] summary::before { content: "▾"; }
+
+/* ---------- Question screen: the options stay put; the answer and explanation get their own panel ---------- */
+.quiz--split { max-width: none; }
+.qgrid { display: grid; gap: 24px; }
+.qmain { min-width: 0; max-width: var(--read); }
+.qside { min-width: 0; }
+.qside--empty { border: 2px dashed var(--rule); padding: 20px; color: var(--ink-2); font-size: var(--f1); margin-top: 16px; }
+@media (min-width: 960px) {
+  .qgrid { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; align-items: start; }
+  .qmain { max-width: none; }
+  .qside { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto; padding: 0 4px 16px 0; margin-top: 16px; }
+  .xp-jump { display: none; }
+}
+@media (max-width: 959px) { .qside--empty { display: none; } }
+.qside .verdict { margin: 0 0 4px; }
+.xp__h { font-size: var(--f2); display: flex; align-items: center; gap: 10px; margin: 18px 0 8px; }
+.xp__key { width: 30px; height: 30px; display: inline-grid; place-items: center; border: 2px solid var(--ink); font-weight: 700; flex: none; font-size: var(--f1); }
+.xp__key--ok { background: var(--ok); border-color: var(--ok); color: var(--paper); }
+.xp__key--bad { background: var(--bad); border-color: var(--bad); color: var(--paper); }
+.xp__p { max-width: var(--read); }
+.xp__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.xp__list li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: start; font-size: var(--f1); }
+.xp__list p { overflow-wrap: anywhere; }
+.xp__flag { margin-top: 16px; }
+.xp, .xp__list li { animation: mt-rise 280ms cubic-bezier(.2, .6, .2, 1) both; }
+/* A fixed column for the check or cross, so revealing the answer never re-wraps an option */
+.opt { grid-template-columns: auto minmax(0, 1fr) 22px; }
+.opt__state { justify-content: center; }
+@media (prefers-reduced-motion: reduce) { .xp, .xp__list li { animation: none; } }
+@media (max-width: 480px) { .nextbar .btn--solid { min-width: 0; flex: 1 1 auto; } .nextbar { flex-wrap: nowrap; } }

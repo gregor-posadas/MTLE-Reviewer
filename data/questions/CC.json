@@ -2242,6 +2242,1102 @@
     ],
     "result": "pH 7.40"
    }
+  },
+  {
+   "id": "CC-0101",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A respiratory therapy unit asks which collection device to stock for arterial blood gas specimens that will also be tested for ionized calcium. Which choice is most appropriate?",
+   "options": [
+    "Plain syringe with no anticoagulant, analyzed within 30 minutes",
+    "Syringe prefilled with liquid sodium heparin (1,000 U/mL)",
+    "Syringe coated with dry, calcium-balanced lithium heparin",
+    "Syringe coated with dry, high-dose sodium heparin that is not calcium-balanced"
+   ],
+   "answer": 2,
+   "why": "Blood gas specimens need an anticoagulant that neither dilutes the sample nor changes its pH or ion activity. **Dry (lyophilized) lithium heparin that has been balanced with calcium is the anticoagulant of choice for blood gas and ionized calcium syringes.** The dry form avoids dilution, and the calcium balancing stops heparin from binding ionized calcium.",
+   "whyNot": {
+    "0": "Without an anticoagulant the blood can clot in the syringe within minutes, blocking the analyzer and making results unusable.",
+    "1": "Liquid heparin dilutes the blood, which falsely lowers pCO₂ and bicarbonate, and unbalanced heparin binds ionized calcium.",
+    "3": "The dry form avoids dilution, but a large amount of heparin that is not calcium-balanced binds ionized calcium and falsely lowers it."
+   },
+   "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems (specimen collection)"
+  },
+  {
+   "id": "CC-0102",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A serum specimen for a chemistry panel arrives visibly red because the red cells were damaged during collection. For which of these analytes is the hemolysis LEAST likely to cause a falsely increased result?",
+   "options": [
+    "Sodium",
+    "Potassium",
+    "Lactate dehydrogenase",
+    "AST"
+   ],
+   "answer": 0,
+   "why": "Hemolysis falsely raises analytes that are more concentrated inside red cells than in plasma, because they leak out when the cells rupture. **Red cells contain far less sodium than plasma, so hemolysis does not raise sodium and, if anything, dilutes it slightly.** Potassium, LD, AST, magnesium and phosphate are the classic analytes increased by hemolysis.",
+   "whyNot": {
+    "1": "Red cells contain roughly 25 times more potassium than plasma, so even slight hemolysis raises serum potassium.",
+    "2": "LD activity in red cells is many times higher than in serum, so hemolysis strongly increases LD.",
+    "3": "AST activity in red cells is many times the serum activity, so hemolysis falsely raises AST."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes and ch. on enzymes (preanalytical variables)"
+  },
+  {
+   "id": "CC-0103",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A spectrophotometer reads low-concentration standards accurately, but standards whose true absorbance is above about 2 read lower than expected. A sharp-cutoff filter test shows that light outside the selected wavelength band is reaching the detector. What does this stray light mainly limit?",
+   "options": [
+    "Accuracy at low absorbance, at the lower end of the linear range",
+    "Accuracy at high absorbance, the upper end of the linear range",
+    "Wavelength accuracy across the whole spectrum",
+    "Resolution between closely spaced absorbance peaks"
+   ],
+   "answer": 1,
+   "why": "Stray light is radiation outside the selected band that still reaches the detector. When a sample absorbs strongly, the small amount of truly transmitted light is swamped by stray light, so the measured absorbance falls below the true value. **Stray light therefore causes negative deviation from Beer's law and sets the upper limit of linearity.** Sharp-cutoff filters are used to check for it.",
+   "whyNot": {
+    "0": "At low absorbance, plenty of light is transmitted, so a small amount of stray light has little effect on the reading.",
+    "2": "Wavelength accuracy is checked with holmium oxide or didymium filters; stray light does not shift the wavelength scale.",
+    "3": "Peak resolution depends on spectral bandwidth (slit width and monochromator), not on stray light."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (spectrophotometry)"
+  },
+  {
+   "id": "CC-0104",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A fluorescence immunoassay uses a fluorescein label that is excited near 490 nm, and its emission filter is set near 520 nm. Why is the emitted light at a longer wavelength than the exciting light?",
+   "options": [
+    "Energy is lost before emission, so emitted photons carry less energy",
+    "The label gains energy from the solvent, so emitted photons carry more energy",
+    "The emission filter itself shifts the wavelength of light passing through it",
+    "The 520-nm light is scattered excitation light rather than label emission"
+   ],
+   "answer": 0,
+   "why": "After a molecule absorbs a photon, part of the energy is lost through vibrational relaxation before the excited electron returns to the ground state. **The emitted photon therefore has lower energy and a longer wavelength than the excitation light (the Stokes shift).** Setting the emission filter at the longer wavelength also keeps scattered excitation light out of the detector.",
+   "whyNot": {
+    "1": "Photons with more energy would have a shorter wavelength, which is the opposite of what is observed.",
+    "2": "Filters only select which wavelengths pass; they do not change the wavelength of light.",
+    "3": "Scattered light keeps the excitation wavelength (about 490 nm), which is exactly what the 520-nm emission filter is meant to exclude."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (fluorometry)"
+  },
+  {
+   "id": "CC-0105",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In the Clark electrode of a blood gas analyzer, a platinum cathode is held at a constant negative voltage, and oxygen that diffuses through the membrane is reduced at the cathode. Which signal does the analyzer convert into the pO₂ result?",
+   "options": [
+    "The current that flows at the fixed applied voltage",
+    "The voltage across a glass membrane, measured at zero current",
+    "The pH change of a bicarbonate solution behind a CO₂-permeable membrane",
+    "The quenching of light emitted by an oxygen-sensitive dye"
+   ],
+   "answer": 0,
+   "why": "Each O₂ molecule reduced at the cathode consumes electrons, so a current flows. **The Clark pO₂ electrode is amperometric: the current at a fixed applied potential is proportional to the pO₂ of the sample.** By contrast, the pH and pCO₂ electrodes are potentiometric.",
+   "whyNot": {
+    "1": "Measuring voltage across a glass membrane at zero current is potentiometry, the principle of the pH electrode.",
+    "2": "Sensing the pH change of a bicarbonate solution behind a CO₂-permeable membrane is the Severinghaus pCO₂ electrode.",
+    "3": "Luminescence quenching is used by optical oxygen sensors (optodes), a non-electrochemical technology different from the Clark electrode."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (electrochemistry) and ch. on blood gases"
+  },
+  {
+   "id": "CC-0106",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a flame atomic absorption spectrophotometer, a rotating chopper interrupts the hollow-cathode lamp beam at a set frequency, and the amplifier responds only to signal at that frequency. Which source of error does this design remove?",
+   "options": [
+    "Chemical interference from phosphate binding calcium",
+    "Light emitted by excited analyte atoms in the flame",
+    "Ionization of analyte atoms in a very hot flame",
+    "Nonspecific absorption by molecules and particles"
+   ],
+   "answer": 1,
+   "why": "Some analyte atoms in the flame are thermally excited and emit light at the very wavelength being measured. That emission is continuous, whereas the lamp beam is pulsed by the chopper. **Because the amplifier is tuned to the chopper frequency, steady flame emission is ignored and only absorption of the modulated lamp beam is measured.**",
+   "whyNot": {
+    "0": "Phosphate interference with calcium is overcome by adding a releasing agent such as lanthanum or strontium.",
+    "2": "Ionization interference is suppressed by adding an easily ionized element (an ionization buffer) such as potassium or cesium.",
+    "3": "Background absorption also affects the pulsed lamp beam, so it is corrected with a deuterium lamp or Zeeman background correction, not the chopper."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (atomic absorption spectrophotometry)"
+  },
+  {
+   "id": "CC-0107",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An EMIT assay for a therapeutic drug is run in a single cuvet with no washing or separation step, and enzyme activity is read as NADH formation at 340 nm. What makes a separation step unnecessary?",
+   "options": [
+    "Antibody binding blocks the enzyme label, so only free labeled drug is active",
+    "Bound labeled drug is washed off a coated solid phase before substrate is added",
+    "Bound labeled drug rotates slowly and so emits strongly polarized fluorescence",
+    "Labeled drug and antibody form aggregates whose light scatter is measured"
+   ],
+   "answer": 0,
+   "why": "EMIT is a homogeneous competitive enzyme immunoassay. Drug in the sample competes with enzyme-labeled drug for a limited amount of antibody. **When antibody binds the labeled drug it inhibits the enzyme, so only unbound label is active and enzyme activity rises with the patient's drug concentration.** Because bound label gives no signal, bound and free label need not be separated.",
+   "whyNot": {
+    "1": "Washing bound label from a solid phase is a separation step, which describes a heterogeneous assay such as ELISA.",
+    "2": "Measuring polarized fluorescence describes fluorescence polarization immunoassay, which uses a fluorescent rather than an enzyme label.",
+    "3": "Measuring light scatter from aggregates describes turbidimetric or nephelometric inhibition immunoassays, not EMIT."
+   },
+   "ref": "Bishop 9e, ch. on immunochemical techniques (homogeneous enzyme immunoassay)"
+  },
+  {
+   "id": "CC-0108",
+   "tos": "CC-A.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "An ICP-MS method monitors the calcium isotope ⁴⁰Ca. In the argon plasma, a small fraction of calcium atoms lose two electrons instead of one. At what mass-to-charge (m/z) value will the doubly charged ⁴⁰Ca ions appear?",
+   "options": [
+    "m/z 40",
+    "m/z 80",
+    "m/z 20",
+    "m/z 42"
+   ],
+   "answer": 2,
+   "why": "A mass spectrometer sorts ions by mass divided by charge, not by mass alone. **A ⁴⁰Ca²⁺ ion has m/z = 40 ÷ 2 = 20.** In argon-plasma ICP-MS, singly charged ⁴⁰Ca also overlaps with ⁴⁰Ar⁺ from the plasma gas, which is why other calcium isotopes such as ⁴⁴Ca are often monitored.",
+   "whyNot": {
+    "0": "m/z 40 is where the singly charged ion appears, because its charge is 1.",
+    "1": "m/z 80 comes from multiplying the mass by the charge instead of dividing.",
+    "3": "m/z 42 comes from adding the charge to the mass, which is not how m/z is calculated."
+   },
+   "ref": "Bishop 9e, ch. on trace and toxic elements (ICP-MS) and ch. on chromatography and mass spectrometry",
+   "worked": {
+    "problem": "Barium-138 forms some doubly charged ions in an ICP-MS plasma. At what m/z will ¹³⁸Ba²⁺ appear, and which singly charged isotope could it interfere with?",
+    "steps": [
+     "m/z = mass ÷ charge.",
+     "For ¹³⁸Ba²⁺: 138 ÷ 2 = 69.",
+     "A singly charged ion of mass 69, such as ⁶⁹Ga⁺, would appear at the same m/z."
+    ],
+    "result": "m/z 69 (overlaps ⁶⁹Ga⁺)"
+   }
+  },
+  {
+   "id": "CC-0109",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A hospital places handheld glucose meters on its wards. A nurse manager suggests skipping quality control because each meter runs an electronic self-check when it is switched on. What is the correct response?",
+   "options": [
+    "QC can be dropped, because the electronic self-check also verifies the test strips",
+    "QC is needed only when a patient result looks clinically unexpected",
+    "QC is the manufacturer's responsibility, not the testing site's",
+    "Liquid QC is still required, per the manufacturer and the lab's POCT policy"
+   ],
+   "answer": 3,
+   "why": "Point-of-care devices use the same analytic principles as laboratory instruments and must meet the same quality requirements. **An electronic self-check confirms the meter's circuitry but not the reagent strips or the operator's technique, so liquid QC must still be run at the frequency set by the manufacturer and the laboratory's POCT program.** The central laboratory usually oversees operator training, QC review and documentation.",
+   "whyNot": {
+    "0": "Electronic checks test only the instrument electronics; strip deterioration from heat or humidity would go undetected.",
+    "1": "QC must be run on a defined schedule so errors are caught before patient results are released, not after a suspicious result.",
+    "2": "The site performing the test is responsible for its quality, including QC, even when the device is simple to use."
+   },
+   "ref": "Bishop 9e, ch. on point-of-care testing and ch. on quality control and statistics"
+  },
+  {
+   "id": "CC-0110",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A healthy 70-kg adult has about 42 L of total body water. Approximately how much of this water is inside cells?",
+   "options": [
+    "14 L",
+    "28 L",
+    "10.5 L",
+    "3.5 L"
+   ],
+   "answer": 1,
+   "why": "**About two-thirds of total body water is intracellular**, so 2/3 × 42 L ≈ 28 L. The remaining third (about 14 L) is extracellular fluid, divided mainly into interstitial fluid (about three-quarters of the ECF, roughly 10.5 L) and plasma (about one-quarter, roughly 3.5 L).",
+   "whyNot": {
+    "0": "14 L is the extracellular third of total body water, not the intracellular two-thirds.",
+    "2": "About 10.5 L is the interstitial fluid, the largest part of the extracellular compartment but far smaller than the intracellular fluid.",
+    "3": "About 3.5 L is the plasma volume, roughly one-quarter of the extracellular fluid."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (water and osmolality)"
+  },
+  {
+   "id": "CC-0111",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's serum potassium rises from 4.2 to 5.9 mmol/L over several hours with no hemolysis, no change in kidney function and no potassium intake. Which change in the patient's condition best explains a shift of potassium out of cells?",
+   "options": [
+    "Development of metabolic alkalosis",
+    "Start of an intravenous insulin infusion",
+    "Development of metabolic acidosis",
+    "Treatment with inhaled albuterol"
+   ],
+   "answer": 2,
+   "why": "In metabolic acidosis, excess hydrogen ions enter cells in exchange for potassium, which moves out into the extracellular fluid. **Acidosis can therefore cause hyperkalemia by transcellular shift, whereas alkalosis, insulin and β₂-agonists move potassium into cells.** This shift is why potassium must be interpreted alongside acid–base status.",
+   "whyNot": {
+    "0": "Alkalosis drives potassium into cells as hydrogen ions leave them, so it causes hypokalemia.",
+    "1": "Insulin stimulates Na⁺/K⁺-ATPase and moves potassium into cells; it is used to treat hyperkalemia.",
+    "3": "Albuterol, a β₂-agonist, also stimulates cellular potassium uptake and lowers serum potassium."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (potassium)"
+  },
+  {
+   "id": "CC-0112",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two aqueous solutions are prepared: one contains 100 mmol/kg sodium chloride and the other 100 mmol/kg glucose. Both are measured on a freezing-point depression osmometer. Which result is expected?",
+   "options": [
+    "Both read the same, because their molal concentrations are equal",
+    "The NaCl solution reads nearly twice the osmolality of the glucose solution",
+    "The glucose solution reads higher, because glucose is the larger molecule",
+    "The glucose solution reads higher, because uncharged solutes act more strongly"
+   ],
+   "answer": 1,
+   "why": "Osmolality is a colligative property: it depends on the number of dissolved particles per kilogram of water, not on their size or charge. **NaCl dissociates into Na⁺ and Cl⁻, so 100 mmol/kg gives close to 200 mOsm/kg, while glucose stays as one particle and gives about 100 mOsm/kg.** Each 1 Osm/kg of solute lowers the freezing point by about 1.86 °C.",
+   "whyNot": {
+    "0": "Equal molality does not mean equal osmolality when one solute dissociates into two particles.",
+    "2": "Molecular size does not matter for colligative properties; only the particle count does.",
+    "3": "Charge does not increase osmotic effect; each dissolved particle counts the same."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (osmolality) and ch. on analytic techniques (osmometry)"
+  },
+  {
+   "id": "CC-0113",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 74-year-old man with an enlarged prostate reports a week of difficulty passing urine. Serum urea nitrogen is 70 mg/dL and creatinine is 3.2 mg/dL; both were normal two months ago. Which category of azotemia best fits?",
+   "options": [
+    "Prerenal azotemia from reduced renal perfusion",
+    "Intrinsic renal azotemia from acute tubular necrosis",
+    "Postrenal azotemia from urinary outflow obstruction",
+    "Low urea production from severe liver failure"
+   ],
+   "answer": 2,
+   "why": "The urea nitrogen-to-creatinine ratio is about 22:1, above the usual 10–20:1, and creatinine is clearly raised. Back-pressure from obstruction lowers GFR and slows tubular flow, so relatively more urea than creatinine is reabsorbed. **A raised BUN-to-creatinine ratio together with a raised creatinine, in a patient with a cause of outflow obstruction, points to postrenal azotemia.**",
+   "whyNot": {
+    "0": "Prerenal azotemia also raises the ratio, and review texts classically pair it with a normal or only mildly raised creatinine; more importantly, nothing here suggests reduced perfusion, while the enlarged prostate and voiding difficulty point to obstruction.",
+    "1": "Acute tubular necrosis damages the kidney itself, so urea and creatinine rise together and the ratio stays normal or low.",
+    "3": "Liver failure reduces urea synthesis, giving a low urea nitrogen and a low ratio, the opposite of this pattern."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds and ch. on renal function"
+  },
+  {
+   "id": "CC-0114",
+   "tos": "CC-C.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "Estimate the creatinine clearance of a 70-year-old woman who weighs 55 kg and has a stable serum creatinine of 1.4 mg/dL, using the Cockcroft–Gault equation: CrCl = [(140 − age) × weight in kg] ÷ (72 × serum creatinine), multiplied by 0.85 for women.",
+   "options": [
+    "38 mL/min",
+    "45 mL/min",
+    "28 mL/min",
+    "32 mL/min"
+   ],
+   "answer": 3,
+   "why": "(140 − 70) × 55 = 3,850, and 72 × 1.4 = 100.8, so 3,850 ÷ 100.8 = 38.2 mL/min. **Multiplying by 0.85 for a woman gives about 32 mL/min.** Cockcroft–Gault estimates are still used for drug dose adjustment, so laboratories are often asked about them alongside eGFR.",
+   "whyNot": {
+    "0": "38 mL/min is the result before the 0.85 correction for women is applied.",
+    "1": "45 mL/min comes from dividing by 0.85 instead of multiplying.",
+    "2": "28 mL/min comes from applying the 0.85 factor twice."
+   },
+   "ref": "Bishop 9e, ch. on renal function (estimating GFR)",
+   "worked": {
+    "problem": "Using Cockcroft–Gault, estimate the creatinine clearance of a 60-year-old man weighing 80 kg with a serum creatinine of 2.0 mg/dL.",
+    "steps": [
+     "140 − 60 = 80.",
+     "80 × 80 kg = 6,400.",
+     "72 × 2.0 = 144.",
+     "6,400 ÷ 144 = 44.4; no sex factor is applied for a man."
+    ],
+    "result": "About 44 mL/min"
+   }
+  },
+  {
+   "id": "CC-0115",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 2-year-old boy has developmental delay, writhing movements and biting of his lips and fingers. His serum uric acid is markedly increased, and orange crystals are seen in his diapers. Deficiency of which enzyme is most likely?",
+   "options": [
+    "Xanthine oxidase",
+    "Glucose-6-phosphatase",
+    "Adenosine deaminase",
+    "HGPRT"
+   ],
+   "answer": 3,
+   "why": "Hypoxanthine-guanine phosphoribosyltransferase (HGPRT) recycles hypoxanthine and guanine back into nucleotides through the purine salvage pathway. **Complete HGPRT deficiency (Lesch–Nyhan syndrome, X-linked) sends purines down the breakdown pathway to uric acid, causing severe hyperuricemia with neurologic disease and self-injury.** Uric acid is the end product of purine catabolism in humans.",
+   "whyNot": {
+    "0": "Xanthine oxidase forms uric acid, so its deficiency lowers uric acid and causes xanthine stones.",
+    "1": "Glucose-6-phosphatase deficiency (von Gierke disease) causes hyperuricemia with fasting hypoglycemia and hepatomegaly, not self-injury.",
+    "2": "Adenosine deaminase deficiency causes severe combined immunodeficiency, not hyperuricemia with self-injury."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds (uric acid)"
+  },
+  {
+   "id": "CC-0116",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An 82-year-old bedbound woman with very low muscle mass has a serum creatinine of 0.6 mg/dL, yet her physician suspects reduced kidney function. Which serum marker is least affected by muscle mass and most useful here?",
+   "options": [
+    "Urea nitrogen",
+    "Uric acid",
+    "Creatine kinase",
+    "Cystatin C"
+   ],
+   "answer": 3,
+   "why": "Creatinine production depends on muscle mass, so a frail patient can have a 'normal' creatinine despite a reduced GFR. **Cystatin C is made at a steady rate by all nucleated cells, is freely filtered, and is much less affected by muscle mass and diet than creatinine, so it can reveal a hidden fall in GFR.** It is used alone or with creatinine in eGFR equations.",
+   "whyNot": {
+    "0": "Urea nitrogen is strongly affected by protein intake, hydration, bleeding and liver function, so it is a poor GFR marker.",
+    "1": "Uric acid reflects purine turnover and urate handling, not GFR.",
+    "2": "Creatine kinase is a muscle injury enzyme and says nothing about filtration."
+   },
+   "ref": "Bishop 9e, ch. on renal function (cystatin C)"
+  },
+  {
+   "id": "CC-0117",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 26-year-old woman has severe abdominal pain, constipation and confusion two days after starting a barbiturate. Her skin is unaffected. Her urine darkens when left in light, urine porphobilinogen and δ-aminolevulinic acid are greatly increased, and fecal porphyrins are normal. Which diagnosis is most likely?",
+   "options": [
+    "Porphyria cutanea tarda",
+    "Chronic lead intoxication",
+    "Acute intermittent porphyria",
+    "Variegate porphyria"
+   ],
+   "answer": 2,
+   "why": "Acute intermittent porphyria is caused by a deficiency of porphobilinogen deaminase, so the early, water-soluble precursors ALA and PBG build up and are excreted in urine. **Excess early precursors cause neurovisceral attacks without skin lesions, and normal fecal porphyrins separate AIP from the other acute porphyrias.** Drugs that induce ALA synthase, such as barbiturates, can trigger attacks.",
+   "whyNot": {
+    "0": "Porphyria cutanea tarda causes blistering skin lesions with increased urine uroporphyrin, and PBG is normal.",
+    "1": "Lead inhibits ALA dehydratase, so urine ALA rises but PBG stays normal or only slightly increased.",
+    "3": "Variegate porphyria can cause acute attacks, but fecal protoporphyrin and coproporphyrin are increased and skin lesions are common."
+   },
+   "ref": "Bishop 9e, ch. on porphyrins and hemoglobin"
+  },
+  {
+   "id": "CC-0118",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 6-month-old infant has a greatly enlarged liver, a rounded 'doll-like' face and hypoglycemia after short fasts. Blood lactate, triglycerides and uric acid are increased, and an injection of glucagon does not raise the blood glucose. Which enzyme is most likely deficient?",
+   "options": [
+    "Myophosphorylase",
+    "Lysosomal acid α-glucosidase",
+    "Glycogen debranching enzyme",
+    "Glucose-6-phosphatase"
+   ],
+   "answer": 3,
+   "why": "Glucose-6-phosphatase performs the final step of both glycogen breakdown and gluconeogenesis in the liver. **In von Gierke disease (type I glycogen storage disease) the liver cannot release free glucose, so fasting hypoglycemia occurs and glucagon or epinephrine fails to raise blood glucose.** The trapped glucose-6-phosphate is diverted into lactate, triglyceride and uric acid, explaining the other findings.",
+   "whyNot": {
+    "0": "Muscle phosphorylase deficiency (McArdle disease) causes exercise cramps and myoglobinuria but not fasting hypoglycemia.",
+    "1": "Acid α-glucosidase deficiency (Pompe disease) causes cardiomyopathy and weakness with normal blood glucose.",
+    "2": "Debrancher deficiency (Cori disease) causes milder hypoglycemia with usually normal lactate and uric acid, and glucagon raises glucose after a meal."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glycogen storage diseases)"
+  },
+  {
+   "id": "CC-0119",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 10-day-old breastfed infant has vomiting, jaundice, an enlarged liver and early cataracts. A copper-reduction test for urine reducing substances is positive, but the glucose oxidase reagent strip is negative. Which condition is most likely?",
+   "options": [
+    "Classic galactosemia (GALT deficiency)",
+    "Renal glycosuria",
+    "Fructose intolerance (aldolase B deficiency)",
+    "Diabetes presenting in the newborn period"
+   ],
+   "answer": 0,
+   "why": "Copper-reduction tests detect any reducing sugar, whereas glucose oxidase strips react only with glucose. **A positive reducing-substance test with a negative glucose strip means a non-glucose sugar is present; in a milk-fed infant with jaundice, hepatomegaly and cataracts, it is galactose from galactose-1-phosphate uridyltransferase (GALT) deficiency.** Galactose must be removed from the diet promptly.",
+   "whyNot": {
+    "1": "Renal glycosuria spills glucose, which would make the glucose oxidase strip positive.",
+    "2": "Fructose intolerance appears only after fructose or sucrose is introduced, which a breastfed newborn has not had, and it does not cause cataracts.",
+    "3": "Diabetes produces glucosuria, so the glucose oxidase strip would be positive."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (inborn errors of carbohydrate metabolism)"
+  },
+  {
+   "id": "CC-0120",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A man with type 2 diabetes has urine albumin-to-creatinine ratios of 110, 95 and 140 mg/g on three first-morning specimens collected over 4 months. His urine reagent-strip protein is negative. How should these results be interpreted?",
+   "options": [
+    "Persistent moderately increased albuminuria (early diabetic kidney disease)",
+    "Normal albumin excretion, because the routine reagent-strip protein is negative",
+    "Severely increased albuminuria, above the 300 mg/g threshold",
+    "Uninterpretable, because only a 24-hour urine can assess albumin"
+   ],
+   "answer": 0,
+   "why": "Albuminuria is graded by the albumin-to-creatinine ratio: below 30 mg/g is normal to mildly increased, 30–300 mg/g is moderately increased (formerly 'microalbuminuria'), and above 300 mg/g is severely increased. **Two of three specimens in the 30–300 mg/g range over 3–6 months confirm persistent moderately increased albuminuria, the earliest laboratory sign of diabetic kidney disease.** Routine protein strips are not sensitive enough to detect these amounts.",
+   "whyNot": {
+    "1": "Reagent strips detect protein only above roughly 150–300 mg/L, so a negative strip does not exclude moderately increased albuminuria.",
+    "2": "All three ratios are below 300 mg/g, so the albuminuria is moderate, not severe.",
+    "3": "A random or first-morning albumin-to-creatinine ratio is the preferred screening test; a 24-hour collection is not required."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (diabetes monitoring) and ch. on renal function"
+  },
+  {
+   "id": "CC-0121",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Some glucose oxidase reagents include the enzyme mutarotase. What is its purpose?",
+   "options": [
+    "It removes ascorbic acid that would otherwise consume the peroxide",
+    "It speeds conversion of α- to β-D-glucose, the form glucose oxidase needs",
+    "It couples the peroxide formed to oxidation of a colored dye",
+    "It phosphorylates glucose so a coupled NADPH product can be read at 340 nm"
+   ],
+   "answer": 1,
+   "why": "In solution, glucose exists as about 36% α and 64% β anomers. **Glucose oxidase is highly specific for β-D-glucose, so mutarotase is added to convert the α form quickly and let all the glucose react within the measuring time.** Without it, end-point methods need a longer incubation to allow spontaneous mutarotation.",
+   "whyNot": {
+    "0": "Removing ascorbic acid is done with ascorbate oxidase, not mutarotase.",
+    "2": "Coupling hydrogen peroxide to a chromogen is the job of peroxidase in the Trinder reaction.",
+    "3": "Phosphorylating glucose is done by hexokinase in the hexokinase method, which is read at 340 nm."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glucose methods)"
+  },
+  {
+   "id": "CC-0122",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A specimen from a patient receiving an intravenous product that contains glycerol gives a triglyceride of 620 mg/dL by a routine enzymatic method, yet the serum is perfectly clear. Why is the triglyceride result falsely high?",
+   "options": [
+    "Glycerol absorbs strongly at the wavelength used to read the final colored product",
+    "The method measures glycerol freed from triglyceride, so free glycerol is counted",
+    "Glycerol makes the serum turbid, which raises the measured absorbance",
+    "Glycerol activates lipase in the specimen, which releases extra triglyceride"
+   ],
+   "answer": 1,
+   "why": "Enzymatic triglyceride methods use lipase to split triglycerides into glycerol and fatty acids and then measure the glycerol through glycerol kinase and a peroxide- or NADH-generating step. **Because glycerol is what is actually measured, free glycerol already in the specimen is reported as triglyceride unless a glycerol blank is run.** A very high result in clear serum is a clue to this error.",
+   "whyNot": {
+    "0": "Glycerol is colorless; it raises the result by entering the enzyme reactions, not by absorbing light.",
+    "2": "Glycerol dissolves completely and does not cause turbidity; the serum in this case is clear.",
+    "3": "Hydrolysis of triglyceride does not change the total glycerol measured, because the method hydrolyzes all triglyceride anyway."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (triglyceride measurement)"
+  },
+  {
+   "id": "CC-0123",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A fasting specimen from an obese man with type 2 diabetes is evenly cloudy. After standing overnight at 4 °C it stays uniformly turbid with no cream layer on top. Triglycerides are 460 mg/dL and cholesterol is 230 mg/dL, and lipoprotein electrophoresis shows a heavy pre-β band. Which Fredrickson phenotype fits?",
+   "options": [
+    "Type I",
+    "Type IIa",
+    "Type IV",
+    "Type V"
+   ],
+   "answer": 2,
+   "why": "The pre-β band is VLDL, and VLDL particles stay dispersed and make serum evenly turbid instead of forming a floating layer. **Raised VLDL with no chylomicron layer is type IV hyperlipoproteinemia, the most common phenotype and often secondary to obesity, diabetes or alcohol.** A cream layer would indicate chylomicrons.",
+   "whyNot": {
+    "0": "Type I has a cream layer of chylomicrons over a clear infranatant.",
+    "1": "Type IIa is raised LDL (β band) with clear serum and normal triglycerides.",
+    "3": "Type V has both a cream layer of chylomicrons and a turbid VLDL infranatant."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (hyperlipoproteinemias)"
+  },
+  {
+   "id": "CC-0124",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 32-year-old man has xanthomas on his Achilles tendons, LDL cholesterol of 280 mg/dL, normal triglycerides and clear serum. His father had a myocardial infarction at age 41. What is the usual underlying defect?",
+   "options": [
+    "Mutations in the LDL receptor gene",
+    "Deficient lipoprotein lipase activity",
+    "Homozygous apo E2, which binds receptors poorly",
+    "Lack of LCAT activity in plasma"
+   ],
+   "answer": 0,
+   "why": "**Familial hypercholesterolemia (type IIa) is most often caused by mutations in the LDL receptor gene, so LDL is cleared slowly from the blood.** Patients have very high LDL cholesterol, tendon xanthomas and premature coronary disease; heterozygotes are common, and homozygotes can have LDL above 500 mg/dL.",
+   "whyNot": {
+    "1": "Lipoprotein lipase deficiency causes type I hyperchylomicronemia with very high triglycerides, not isolated high LDL.",
+    "2": "Apo E2 homozygosity underlies type III, with raised cholesterol and triglyceride from remnant particles and palmar xanthomas.",
+    "3": "LCAT deficiency causes very low HDL and corneal opacities, not high LDL."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (familial hypercholesterolemia)"
+  },
+  {
+   "id": "CC-0125",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A child with recurrent pancreatitis has triglycerides of 2,400 mg/dL and a thick cream layer over a clear infranatant. Post-heparin lipoprotein lipase activity is low in the patient's plasma, but becomes normal when a small amount of normal plasma is added to the assay. Which protein is most likely deficient?",
+   "options": [
+    "Apolipoprotein A-I",
+    "Apolipoprotein B-48",
+    "Apolipoprotein E",
+    "Apolipoprotein C-II"
+   ],
+   "answer": 3,
+   "why": "Lipoprotein lipase needs apo C-II, carried on chylomicrons and VLDL, as its activator. **When the patient's own lipase works normally once normal plasma supplies apo C-II, the defect is apo C-II deficiency rather than lipoprotein lipase deficiency.** Both produce the type I picture of fasting chylomicronemia, eruptive xanthomas and pancreatitis.",
+   "whyNot": {
+    "0": "Apo A-I is the main HDL protein and activates LCAT; its deficiency causes very low HDL.",
+    "1": "Apo B-48 is needed to assemble chylomicrons, so its absence lowers rather than raises triglycerides.",
+    "2": "Apo E mediates remnant clearance; its defects cause type III, not chylomicronemia with a lipase-activation defect."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (apolipoproteins and lipid enzymes)"
+  },
+  {
+   "id": "CC-0126",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Three days after major abdominal surgery, a patient has an intense acute-phase response. Which serum protein is expected to fall rather than rise?",
+   "options": [
+    "C-reactive protein",
+    "Transferrin",
+    "Ceruloplasmin",
+    "Serum amyloid A"
+   ],
+   "answer": 1,
+   "why": "Inflammatory cytokines such as IL-6 increase liver synthesis of positive acute-phase reactants and decrease synthesis of others. **Transferrin, like albumin and prealbumin (transthyretin), is a negative acute-phase reactant and falls during inflammation.** CRP and serum amyloid A rise fastest and highest, and ceruloplasmin rises more slowly.",
+   "whyNot": {
+    "0": "CRP is a major positive acute-phase reactant that can rise a thousandfold within a day or two.",
+    "2": "Ceruloplasmin is a positive acute-phase reactant that rises over several days.",
+    "3": "Serum amyloid A rises early and steeply, like CRP."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (acute-phase proteins)"
+  },
+  {
+   "id": "CC-0127",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A protein electrophoresis is run by mistake on heparinized plasma instead of serum. A distinct extra band appears between the β- and γ-globulin zones. What is the band most likely to be?",
+   "options": [
+    "A monoclonal immunoglobulin",
+    "C-reactive protein",
+    "Fibrinogen",
+    "Hemoglobin–haptoglobin complex"
+   ],
+   "answer": 2,
+   "why": "Plasma still contains fibrinogen, which is used up when blood clots to form serum. **Fibrinogen migrates as a discrete band between the β and γ zones and can be mistaken for a monoclonal protein.** Checking the specimen type, or repeating the test on serum, avoids an unnecessary immunofixation.",
+   "whyNot": {
+    "0": "A monoclonal protein could appear in this region, but a band that appears only in a plasma specimen is explained by fibrinogen.",
+    "1": "CRP is normally present in amounts far too small to form a visible band.",
+    "3": "Hemoglobin–haptoglobin complexes migrate in the α₂–β region and come from hemolysis, not from using plasma."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (electrophoresis)"
+  },
+  {
+   "id": "CC-0128",
+   "tos": "CC-C.5",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "CSF and serum from a patient with suspected multiple sclerosis give: CSF IgG 8.0 mg/dL, serum IgG 1,200 mg/dL, CSF albumin 30 mg/dL, serum albumin 4,000 mg/dL. Calculate the IgG index = (CSF IgG ÷ serum IgG) ÷ (CSF albumin ÷ serum albumin). The reference upper limit is 0.70.",
+   "options": [
+    "0.89",
+    "1.13",
+    "6.7",
+    "7.5"
+   ],
+   "answer": 0,
+   "why": "CSF/serum IgG = 8.0 ÷ 1,200 = 0.00667, and CSF/serum albumin = 30 ÷ 4,000 = 0.0075. **IgG index = 0.00667 ÷ 0.0075 = 0.89, above the 0.70 limit, indicating IgG produced within the central nervous system.** Correcting for albumin separates local IgG synthesis from IgG that has leaked across the blood–brain barrier; CSF oligoclonal bands absent from serum add support for MS.",
+   "whyNot": {
+    "1": "1.13 comes from inverting the ratio (albumin quotient divided by IgG quotient).",
+    "2": "6.7 is the CSF/serum IgG ratio × 1,000, which has not been corrected for albumin.",
+    "3": "7.5 is the CSF/serum albumin ratio × 1,000, a measure of blood–brain barrier permeability, not the IgG index."
+   },
+   "ref": "Bishop 9e, ch. on body fluid analysis (CSF proteins) and ch. on amino acids and proteins",
+   "worked": {
+    "problem": "CSF IgG is 5.5 mg/dL, serum IgG 1,000 mg/dL, CSF albumin 25 mg/dL and serum albumin 4,500 mg/dL. What is the IgG index?",
+    "steps": [
+     "CSF/serum IgG = 5.5 ÷ 1,000 = 0.0055.",
+     "CSF/serum albumin = 25 ÷ 4,500 = 0.00556.",
+     "IgG index = 0.0055 ÷ 0.00556 = 0.99."
+    ],
+    "result": "0.99 (increased)"
+   }
+  },
+  {
+   "id": "CC-0129",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Shortly after an ABO-incompatible transfusion, a patient has red-tinged plasma and hemoglobinuria. Which serum protein is expected to decrease markedly?",
+   "options": [
+    "Ceruloplasmin",
+    "α₁-Antitrypsin",
+    "β₂-Microglobulin",
+    "Haptoglobin"
+   ],
+   "answer": 3,
+   "why": "Haptoglobin, an α₂-globulin, binds free hemoglobin released into plasma, and the complex is rapidly cleared by the liver and spleen. **In intravascular hemolysis haptoglobin is consumed and falls to very low or undetectable levels.** Hemopexin also falls, and methemalbumin may appear when haptoglobin is exhausted.",
+   "whyNot": {
+    "0": "Ceruloplasmin is a copper-transport protein and acute-phase reactant; it is not consumed by hemolysis.",
+    "1": "α₁-Antitrypsin is a protease inhibitor and acute-phase reactant that does not bind hemoglobin.",
+    "2": "β₂-Microglobulin reflects GFR and lymphocyte turnover, not hemolysis."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (plasma proteins) and ch. on porphyrins and hemoglobin"
+  },
+  {
+   "id": "CC-0130",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Most prostate-specific antigen (PSA) in serum circulates bound to a protease inhibitor, and the percentage that is free is often reported for men with total PSA between 4 and 10 ng/mL. Which inhibitor forms the main measurable complex, and which percent-free-PSA result favors cancer?",
+   "options": [
+    "α₁-Antichymotrypsin; a lower percent free PSA",
+    "α₂-Macroglobulin; a lower percent free PSA",
+    "α₁-Antichymotrypsin; a higher percent free PSA",
+    "α₂-Macroglobulin; a higher percent free PSA"
+   ],
+   "answer": 0,
+   "why": "PSA is a serine protease; in serum most of it is complexed with α₁-antichymotrypsin, which immunoassays detect together with free PSA as 'total PSA'. PSA bound to α₂-macroglobulin is enveloped so its epitopes are hidden and it is not measured. **Prostate cancer is associated with a smaller free fraction, so a low percent free PSA raises the likelihood of cancer while a high percent free PSA favors benign hyperplasia.**",
+   "whyNot": {
+    "1": "α₂-Macroglobulin–bound PSA is not detected by routine immunoassays because its epitopes are masked.",
+    "2": "A high percent free PSA points toward benign prostatic hyperplasia, not cancer.",
+    "3": "This pairs the wrong complex with the wrong interpretation."
+   },
+   "ref": "Bishop 9e, ch. on tumor markers (PSA)"
+  },
+  {
+   "id": "CC-0131",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 22-year-old woman has had intermittent mild jaundice for years. Total bilirubin is 3.6 mg/dL, about 60% conjugated, and ALT, ALP and GGT are normal. A liver biopsy shows coarse dark pigment in otherwise normal hepatocytes. Which diagnosis fits?",
+   "options": [
+    "Gilbert syndrome",
+    "Rotor syndrome",
+    "Hereditary spherocytosis",
+    "Dubin–Johnson syndrome"
+   ],
+   "answer": 3,
+   "why": "**Dubin–Johnson syndrome is an inherited defect in canalicular excretion of conjugated bilirubin (the MRP2 transporter), producing a chronic, mostly conjugated hyperbilirubinemia with normal liver enzymes and a darkly pigmented liver.** It is benign and needs no treatment.",
+   "whyNot": {
+    "0": "Gilbert syndrome is a mild conjugation defect, so the excess bilirubin is unconjugated.",
+    "1": "Rotor syndrome also gives a benign conjugated hyperbilirubinemia, but the liver has no dark pigment.",
+    "2": "Hereditary spherocytosis causes hemolysis with mainly unconjugated bilirubin and anemia."
+   },
+   "ref": "Bishop 9e, ch. on liver function (disorders of bilirubin metabolism)"
+  },
+  {
+   "id": "CC-0132",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 3-week-old infant has persistent jaundice with a serum bilirubin of 18 mg/dL, almost all unconjugated. There is no hemolysis, and liver enzymes are normal. During a trial of oral phenobarbital, the bilirubin falls by more than 30%. Which diagnosis is most likely?",
+   "options": [
+    "Crigler–Najjar syndrome type I",
+    "Dubin–Johnson syndrome",
+    "Crigler–Najjar syndrome type II",
+    "Biliary atresia"
+   ],
+   "answer": 2,
+   "why": "Both types of Crigler–Najjar syndrome are inherited deficiencies of bilirubin UDP-glucuronyltransferase (UGT1A1) that cause unconjugated hyperbilirubinemia. **In type II (Arias syndrome) some enzyme activity remains, so phenobarbital induces it and lowers the bilirubin, whereas type I has no enzyme to induce.** Type II is usually milder; type I carries a high risk of kernicterus.",
+   "whyNot": {
+    "0": "Type I has essentially no UDP-glucuronyltransferase activity, usually gives bilirubin above 20 mg/dL, and does not respond to phenobarbital.",
+    "1": "Dubin–Johnson syndrome is a defect in excreting conjugated bilirubin, so the excess bilirubin would be mostly conjugated.",
+    "3": "Biliary atresia obstructs bile flow and causes a conjugated (direct) hyperbilirubinemia with pale stools, not an unconjugated one."
+   },
+   "ref": "Bishop 9e, ch. on liver function (disorders of bilirubin metabolism)"
+  },
+  {
+   "id": "CC-0133",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An adult has an increased serum alkaline phosphatase, and the physician wants to know whether it comes from the liver or from bone. Which additional finding would best support a hepatobiliary source?",
+   "options": [
+    "A raised serum CK activity",
+    "A raised bone-specific ALP fraction",
+    "A raised 5′-NT activity",
+    "A raised serum amylase level"
+   ],
+   "answer": 2,
+   "why": "5′-Nucleotidase (like GGT) rises in cholestatic liver disease but stays normal in bone disease. **An increased 5′-nucleotidase together with an increased ALP indicates that the ALP is coming from the hepatobiliary tree.** Bone-specific ALP, by contrast, would point to osteoblastic activity.",
+   "whyNot": {
+    "0": "Creatine kinase is a muscle enzyme and does not help locate the source of ALP.",
+    "1": "An increased bone-specific ALP would support a bone source, not a liver source.",
+    "3": "Amylase reflects the pancreas and salivary glands, not the source of ALP."
+   },
+   "ref": "Bishop 9e, ch. on liver function and ch. on enzymes (alkaline phosphatase)"
+  },
+  {
+   "id": "CC-0134",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 5-year-old boy has trouble climbing stairs and stands up from the floor by pushing on his thighs. Serum total CK is about 60 times the upper reference limit, almost all of it CK-MM. Which condition is most consistent?",
+   "options": [
+    "Duchenne muscular dystrophy",
+    "Myasthenia gravis",
+    "Spinal muscular atrophy",
+    "Head injury from a recent playground fall"
+   ],
+   "answer": 0,
+   "why": "**Duchenne muscular dystrophy produces the highest sustained CK elevations of any muscle disease, typically 50–100 times the upper limit or more, almost entirely CK-MM, beginning in early childhood.** Disorders of the nerve or neuromuscular junction leave the muscle fibers intact, so CK stays normal or only mildly raised.",
+   "whyNot": {
+    "1": "Myasthenia gravis affects the neuromuscular junction, and CK is usually normal.",
+    "2": "Spinal muscular atrophy is a motor neuron disease in which CK is normal or only mildly increased.",
+    "3": "Brain injury releases CK-BB, not a massive CK-MM elevation, and it would not explain progressive proximal weakness."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (creatine kinase)"
+  },
+  {
+   "id": "CC-0135",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An amylase method incubates serum with starch and then measures the reducing sugars that are formed. How is this method classified?",
+   "options": [
+    "Amyloclastic",
+    "Chromogenic (dye-labeled starch)",
+    "Saccharogenic",
+    "Coupled-enzyme with a defined oligosaccharide"
+   ],
+   "answer": 2,
+   "why": "**Saccharogenic methods measure the product of amylase action, the reducing sugars such as maltose released from starch.** Amyloclastic methods measure the disappearance of the starch substrate, usually as loss of the starch–iodine color, and chromogenic methods measure dye released from dye-labeled starch.",
+   "whyNot": {
+    "0": "Amyloclastic methods follow loss of substrate (starch), not formation of reducing sugars.",
+    "1": "Chromogenic methods measure soluble colored fragments released from dye-labeled starch.",
+    "3": "Coupled-enzyme methods use small defined substrates and auxiliary enzymes, not starch and reducing-sugar measurement."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (amylase)"
+  },
+  {
+   "id": "CC-0136",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient arrives at the emergency department 6 days after an episode of severe chest pain. Which marker is most likely to still be increased if a myocardial infarction occurred?",
+   "options": [
+    "Troponin I",
+    "CK-MB mass",
+    "Myoglobin",
+    "Total CK activity"
+   ],
+   "answer": 0,
+   "why": "Myoglobin rises within 1–3 hours and returns to normal within about a day, and CK-MB peaks near 24 hours and normalizes in 2–3 days. **Cardiac troponins stay increased for days after necrosis, roughly 5–10 days for troponin I and up to about 2 weeks for troponin T, so they can still show an infarction in a late presenter.** Troponin is also the most cardiac-specific marker.",
+   "whyNot": {
+    "1": "CK-MB usually returns to normal within 2–3 days, so it would likely be normal by day 6.",
+    "2": "Myoglobin clears within about 24 hours because it is small and filtered by the kidney.",
+    "3": "Total CK returns to normal within a few days and is not specific for heart muscle."
+   },
+   "ref": "Bishop 9e, ch. on cardiac function (cardiac markers)"
+  },
+  {
+   "id": "CC-0137",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "How does an enzyme increase the rate of the reaction it catalyzes?",
+   "options": [
+    "It raises the activation energy and thereby slows the reverse reaction",
+    "It shifts the equilibrium so that more product is formed",
+    "It lowers the activation energy, leaving the equilibrium unchanged",
+    "It supplies the free energy the reaction needs to proceed"
+   ],
+   "answer": 2,
+   "why": "**Enzymes speed reactions by providing a pathway with a lower activation energy**, so more substrate molecules have enough energy to react at a given temperature. They are not consumed and do not change the equilibrium constant; they only help the reaction reach equilibrium faster.",
+   "whyNot": {
+    "0": "Raising the activation energy would slow the reaction in both directions.",
+    "1": "Catalysts speed forward and reverse reactions equally, so the equilibrium position does not change.",
+    "3": "Enzymes do not add energy; reactions that need energy are driven by coupling to ATP or other reactions."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (general properties)"
+  },
+  {
+   "id": "CC-0138",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After total thyroidectomy and radioiodine ablation for papillary thyroid carcinoma, a patient's serum thyroglobulin by immunometric assay is undetectable. The same specimen is strongly positive for anti-thyroglobulin antibodies. How should the thyroglobulin result be interpreted?",
+   "options": [
+    "It is reliable and confirms that no thyroid tissue remains",
+    "It may be falsely low and cannot be relied on to exclude residual disease",
+    "It is falsely high, because the antibodies bridge the capture and detection reagents",
+    "It should be corrected by subtracting the antibody concentration"
+   ],
+   "answer": 1,
+   "why": "Thyroglobulin is the tumor marker for differentiated thyroid cancer once the thyroid has been removed. **Anti-thyroglobulin antibodies bind Tg and block the epitopes used by immunometric (sandwich) assays, giving falsely low or undetectable results.** Anti-Tg should be measured with every Tg; when it is positive, the antibody trend or an LC-MS/MS Tg method is used instead.",
+   "whyNot": {
+    "0": "An undetectable Tg can be trusted only when anti-Tg antibodies are absent.",
+    "2": "In immunometric assays, anti-Tg antibodies typically cause falsely low, not falsely high, results.",
+    "3": "There is no valid arithmetic correction for antibody interference."
+   },
+   "ref": "Bishop 9e, ch. on the thyroid gland (thyroglobulin)"
+  },
+  {
+   "id": "CC-0139",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient in intensive care with septic shock has these thyroid results: TSH 0.6 mIU/L (reference 0.4–4.0), free T4 at the low end of normal, total T3 decreased and reverse T3 increased. There is no history of thyroid or pituitary disease. What is the most likely interpretation?",
+   "options": [
+    "Central (secondary) hypothyroidism",
+    "Primary hypothyroidism",
+    "T3 thyrotoxicosis",
+    "Nonthyroidal illness"
+   ],
+   "answer": 3,
+   "why": "In severe illness, peripheral 5′-deiodinase activity falls, so less T4 is converted to T3 and less reverse T3 is cleared. **Low T3 with high reverse T3 and a normal or low-normal TSH is the typical pattern of nonthyroidal illness, which usually needs no thyroid treatment and should be retested after recovery.** Drugs used in intensive care, such as dopamine and glucocorticoids, can also lower TSH.",
+   "whyNot": {
+    "0": "Central hypothyroidism lowers T4 production, so reverse T3 would be low rather than high, and there is no pituitary history.",
+    "1": "Primary hypothyroidism would raise TSH, which is normal here.",
+    "2": "T3 thyrotoxicosis has increased T3 with a suppressed TSH, the opposite of these results."
+   },
+   "ref": "Bishop 9e, ch. on the thyroid gland (nonthyroidal illness)"
+  },
+  {
+   "id": "CC-0140",
+   "tos": "CC-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Maternal estriol is used as an index of the combined fetal–placental unit because the placenta cannot make it from cholesterol by itself. Which precursor does the placenta use to synthesize estriol?",
+   "options": [
+    "Fetal adrenal DHEA sulfate, 16α-hydroxylated in the fetal liver",
+    "Maternal ovarian estradiol, 16α-hydroxylated in the placenta",
+    "Fetal cortisol, aromatized in the placenta",
+    "Placental progesterone, converted by placental 17α-hydroxylase"
+   ],
+   "answer": 0,
+   "why": "The placenta lacks 17α-hydroxylase/17,20-lyase, so it cannot turn progesterone into androgens. **The fetal adrenal supplies DHEA sulfate, the fetal liver 16α-hydroxylates it, and the placenta removes the sulfate and aromatizes it to estriol.** Maternal estriol therefore reflects fetal adrenal, fetal liver and placental function together, and falling levels suggest fetoplacental compromise.",
+   "whyNot": {
+    "1": "In pregnancy the ovary contributes little estrogen, and the 16α-hydroxyl group of estriol is added mainly in the fetal liver, not the placenta.",
+    "2": "Cortisol is a C21 corticosteroid and is not a substrate for aromatase.",
+    "3": "The placenta lacks 17α-hydroxylase activity, which is exactly why it depends on fetal androgen precursors."
+   },
+   "ref": "Bishop 9e, ch. on gonadal function (hormones of pregnancy)"
+  },
+  {
+   "id": "CC-0141",
+   "tos": "CC-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "To confirm that ovulation occurred, a woman with a regular 28-day cycle has blood drawn on about day 21, in the mid-luteal phase. Which hormone is measured?",
+   "options": [
+    "Estradiol",
+    "Progesterone",
+    "Luteinizing hormone",
+    "Anti-Müllerian hormone"
+   ],
+   "answer": 1,
+   "why": "After ovulation, the corpus luteum secretes large amounts of progesterone, which prepares the endometrium and raises basal body temperature. **A mid-luteal serum progesterone in the ovulatory range confirms that ovulation and corpus luteum formation took place.** A low value suggests anovulation or an inadequate luteal phase.",
+   "whyNot": {
+    "0": "Estradiol peaks before ovulation and does not by itself confirm that ovulation occurred.",
+    "2": "The LH surge comes just before ovulation; by day 21 LH is back to baseline and cannot confirm that ovulation happened.",
+    "3": "Anti-Müllerian hormone reflects the size of the ovarian follicle pool (ovarian reserve), not whether ovulation occurred."
+   },
+   "ref": "Bishop 9e, ch. on gonadal function (menstrual cycle)"
+  },
+  {
+   "id": "CC-0142",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After a head injury damages the pituitary stalk, a patient's ACTH, TSH, LH and FSH levels fall, but prolactin rises. Why does prolactin behave differently?",
+   "options": [
+    "It is made in the posterior pituitary, which a stalk injury does not affect",
+    "Its main control is inhibition by hypothalamic dopamine, which is now cut off",
+    "It is stimulated by low cortisol through loss of negative feedback",
+    "It is produced by the hypothalamus and released directly into the blood"
+   ],
+   "answer": 1,
+   "why": "Most anterior pituitary hormones depend on stimulatory hypothalamic hormones carried down the portal vessels of the stalk. **Prolactin is unusual because its dominant hypothalamic control is tonic inhibition by dopamine, so interrupting the stalk removes the brake and prolactin rises (the 'stalk effect').** Dopamine-blocking drugs raise prolactin for the same reason.",
+   "whyNot": {
+    "0": "Prolactin is made by lactotrophs of the anterior pituitary, and a stalk injury actually disrupts posterior pituitary hormone delivery too.",
+    "2": "Cortisol is not the feedback regulator of prolactin.",
+    "3": "Prolactin is a pituitary hormone; the hypothalamus makes regulating factors such as dopamine and TRH."
+   },
+   "ref": "Bishop 9e, ch. on hypothalamic and pituitary function (prolactin)"
+  },
+  {
+   "id": "CC-0143",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 45-year-old woman has hypertension resistant to three drugs, serum potassium 2.9 mmol/L and a 24-hour urine potassium of 55 mmol/day. Plasma aldosterone is increased and plasma renin activity is suppressed. Which disorder fits best?",
+   "options": [
+    "Renal artery stenosis",
+    "Primary aldosteronism",
+    "Addison disease",
+    "Hypokalemia from chronic diarrhea"
+   ],
+   "answer": 1,
+   "why": "Aldosterone made autonomously by an adrenal adenoma or hyperplasia causes sodium retention, hypertension and renal potassium wasting, while the expanded volume suppresses renin. **High aldosterone with suppressed renin (a raised aldosterone-to-renin ratio), together with inappropriate urinary potassium loss during hypokalemia, indicates primary aldosteronism (Conn syndrome).** A urine potassium above about 30 mmol/day despite hypokalemia shows renal wasting.",
+   "whyNot": {
+    "0": "Renal artery stenosis causes secondary aldosteronism driven by high renin, not suppressed renin.",
+    "2": "Addison disease lowers aldosterone and causes hyperkalemia and hypotension.",
+    "3": "With diarrhea, potassium is lost in stool and the kidneys conserve it, so urine potassium would be low and renin high."
+   },
+   "ref": "Bishop 9e, ch. on adrenal function (aldosterone)"
+  },
+  {
+   "id": "CC-0144",
+   "tos": "CC-D.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with pulmonary sarcoidosis has a serum calcium of 12.0 mg/dL. Intact PTH is suppressed, PTH-related protein is undetectable, 25-hydroxyvitamin D is normal and 1,25-dihydroxyvitamin D is increased. What explains the hypercalcemia?",
+   "options": [
+    "Autonomous PTH secretion by a parathyroid adenoma",
+    "PTH-related protein secreted by an occult tumor",
+    "Excess intake of vitamin D supplements",
+    "Calcitriol made by unregulated 1α-hydroxylase in granulomas"
+   ],
+   "answer": 3,
+   "why": "Activated macrophages in granulomas express a 1α-hydroxylase that is not controlled by PTH, calcium or phosphate. **This extrarenal conversion of 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D increases intestinal calcium absorption, producing PTH-independent hypercalcemia with suppressed PTH.** The same mechanism occurs in tuberculosis and some lymphomas, and it responds to glucocorticoids.",
+   "whyNot": {
+    "0": "A parathyroid adenoma would give a raised or inappropriately normal PTH, not a suppressed one.",
+    "1": "PTH-related protein is undetectable here, which argues against humoral hypercalcemia of malignancy.",
+    "2": "Vitamin D intoxication raises 25-hydroxyvitamin D, which is normal in this patient."
+   },
+   "ref": "Bishop 9e, ch. on calcium homeostasis and hormonal regulation"
+  },
+  {
+   "id": "CC-0145",
+   "tos": "CC-D.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A physician wants to know whether an elderly housebound patient has adequate vitamin D stores. Which serum test is most appropriate?",
+   "options": [
+    "1,25-Dihydroxyvitamin D",
+    "Intact PTH",
+    "25-Hydroxyvitamin D",
+    "Total calcium"
+   ],
+   "answer": 2,
+   "why": "**25-Hydroxyvitamin D is the main circulating form, has a half-life of about 2–3 weeks and reflects both diet and skin synthesis, so it is the best indicator of vitamin D status.** 1,25-Dihydroxyvitamin D is tightly regulated by PTH and may be normal or even high in deficiency.",
+   "whyNot": {
+    "0": "1,25-Dihydroxyvitamin D has a half-life of hours and is kept normal by rising PTH, so it can mask deficiency.",
+    "1": "PTH may rise in vitamin D deficiency, but it is an indirect marker affected by many other factors.",
+    "3": "Total calcium is usually maintained in the reference range until deficiency is severe."
+   },
+   "ref": "Bishop 9e, ch. on calcium homeostasis and hormonal regulation (vitamin D)"
+  },
+  {
+   "id": "CC-0146",
+   "tos": "CC-E.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A man who ate shellfish two days ago has a markedly increased urine total arsenic on a workplace screen, but he has no symptoms. What should the laboratory do next to judge whether the arsenic is toxic?",
+   "options": [
+    "Repeat total arsenic by atomic absorption on a hair specimen",
+    "Speciate the arsenic by liquid chromatography coupled to ICP-MS",
+    "Measure blood arsenic instead, since urine reflects only nontoxic forms",
+    "Report acute arsenic poisoning to the physician at once"
+   ],
+   "answer": 1,
+   "why": "Seafood contains large amounts of arsenobetaine and arsenocholine, organic arsenic compounds that are excreted unchanged and are essentially nontoxic. **Separating arsenic species by liquid chromatography before ICP-MS detection distinguishes these from toxic inorganic arsenic (As³⁺, As⁵⁺) and its methylated metabolites.** Another option is to repeat total urine arsenic after several days without seafood.",
+   "whyNot": {
+    "0": "Hair reflects long-term exposure, is prone to external contamination and still does not separate toxic from nontoxic species.",
+    "2": "Arsenic clears from blood within hours, so urine is the preferred specimen, and urine contains toxic as well as nontoxic species.",
+    "3": "A high total arsenic after seafood is often harmless organic arsenic, so it should not be reported as poisoning before speciation."
+   },
+   "ref": "Bishop 9e, ch. on trace and toxic elements (arsenic)"
+  },
+  {
+   "id": "CC-0147",
+   "tos": "CC-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 3-year-old living in an old house with peeling paint has microcytic anemia with basophilic stippling and an increased erythrocyte zinc protoporphyrin. Inhibition of which heme-synthesis enzyme mainly explains the raised zinc protoporphyrin?",
+   "options": [
+    "δ-Aminolevulinic acid synthase",
+    "Ferrochelatase",
+    "PBG deaminase",
+    "Uroporphyrinogen decarboxylase"
+   ],
+   "answer": 1,
+   "why": "Lead inhibits sulfhydryl-containing enzymes of heme synthesis, chiefly δ-aminolevulinic acid dehydratase and ferrochelatase. **When ferrochelatase cannot insert iron into protoporphyrin, zinc is inserted instead, so erythrocyte zinc protoporphyrin rises.** Whole-blood lead, measured by GFAAS, ICP-MS or anodic stripping voltammetry, remains the definitive test.",
+   "whyNot": {
+    "0": "ALA synthase is the rate-limiting first enzyme and is not the site of lead inhibition.",
+    "2": "Porphobilinogen deaminase deficiency causes acute intermittent porphyria, not raised zinc protoporphyrin.",
+    "3": "Uroporphyrinogen decarboxylase deficiency causes porphyria cutanea tarda with increased uroporphyrin."
+   },
+   "ref": "Bishop 9e, ch. on trace and toxic elements (lead) and ch. on porphyrins and hemoglobin"
+  },
+  {
+   "id": "CC-0148",
+   "tos": "CC-F.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "An arterial blood sample has a pH of 7.22. What is the hydrogen ion concentration? Use [H⁺] (nmol/L) = 10^(9 − pH).",
+   "options": [
+    "6.0 nmol/L",
+    "600 nmol/L",
+    "60 nmol/L",
+    "40 nmol/L"
+   ],
+   "answer": 2,
+   "why": "[H⁺] = 10^(9 − 7.22) = 10^1.78 = 60 nmol/L. **A fall in pH from 7.40 to 7.22 raises [H⁺] from about 40 to about 60 nmol/L, a 50% increase, because pH is a negative logarithmic scale.** A useful check is that each fall of about 0.3 pH units doubles [H⁺].",
+   "whyNot": {
+    "0": "6.0 nmol/L comes from using an exponent one unit too small.",
+    "1": "600 nmol/L comes from using an exponent one unit too large.",
+    "3": "40 nmol/L is the hydrogen ion concentration at a normal pH of 7.40, not at 7.22."
+   },
+   "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems",
+   "worked": {
+    "problem": "What is [H⁺] in nmol/L at pH 7.52?",
+    "steps": [
+     "[H⁺] = 10^(9 − pH).",
+     "9 − 7.52 = 1.48.",
+     "10^1.48 = 30.2 nmol/L."
+    ],
+    "result": "About 30 nmol/L"
+   }
+  },
+  {
+   "id": "CC-0149",
+   "tos": "CC-F.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient has hemoglobin 14 g/dL, arterial O₂ saturation 95% and pO₂ 90 mmHg. Using 1.34 mL O₂ per gram of fully saturated hemoglobin and 0.003 mL O₂/dL per mmHg for dissolved oxygen, what is the arterial oxygen content?",
+   "options": [
+    "18.8 mL/dL",
+    "17.8 mL/dL",
+    "18.1 mL/dL",
+    "19.0 mL/dL"
+   ],
+   "answer": 2,
+   "why": "Hemoglobin-bound O₂ = 1.34 × 14 × 0.95 = 17.8 mL/dL, and dissolved O₂ = 0.003 × 90 = 0.27 mL/dL. **Oxygen content = 17.8 + 0.27 = 18.1 mL/dL.** Oxygen capacity, 1.34 × 14 = 18.8 mL/dL, is the most this hemoglobin could carry if fully saturated.",
+   "whyNot": {
+    "0": "18.8 mL/dL is the oxygen capacity, which ignores the 95% saturation and the dissolved oxygen.",
+    "1": "17.8 mL/dL counts only hemoglobin-bound oxygen and leaves out dissolved oxygen.",
+    "3": "19.0 mL/dL adds dissolved oxygen to the capacity but forgets to apply the 95% saturation."
+   },
+   "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems (oxygen transport)",
+   "worked": {
+    "problem": "Hemoglobin is 10 g/dL, SO₂ is 88% and pO₂ is 60 mmHg. Using 1.34 and 0.003 as the factors, what is the oxygen content?",
+    "steps": [
+     "Bound O₂ = 1.34 × 10 × 0.88 = 11.8 mL/dL.",
+     "Dissolved O₂ = 0.003 × 60 = 0.18 mL/dL.",
+     "Content = 11.8 + 0.18 = 12.0 mL/dL."
+    ],
+    "result": "About 12.0 mL/dL"
+   }
+  },
+  {
+   "id": "CC-0150",
+   "tos": "CC-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In venous blood, CO₂ from the tissues is converted to bicarbonate inside red cells by carbonic anhydrase. As bicarbonate moves out into the plasma, which ion moves into the red cells to keep electrical neutrality?",
+   "options": [
+    "Potassium",
+    "Chloride",
+    "Calcium",
+    "Sulfate"
+   ],
+   "answer": 1,
+   "why": "**Bicarbonate leaves the red cell in exchange for chloride through the band 3 anion exchanger (the chloride or Hamburger shift).** The hydrogen ions formed at the same time are buffered by deoxygenated hemoglobin. As a result, venous red cells contain slightly more chloride than arterial red cells.",
+   "whyNot": {
+    "0": "Potassium is a cation and is already concentrated inside the cell; moving it in would not replace the negative charge lost with bicarbonate.",
+    "2": "Calcium is a cation that red cells actively pump out, so it is not the exchange partner for bicarbonate.",
+    "3": "Sulfate is present at very low concentration in plasma and is not the physiologic exchange partner for bicarbonate."
+   },
+   "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems (CO₂ transport)"
   }
  ]
 }

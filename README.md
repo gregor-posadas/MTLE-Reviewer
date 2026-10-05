@@ -6,7 +6,7 @@ A daily study site for Marren's Medical Technologist Licensure Examination (PRC,
 - **Data:** the questions are JSON files in `data/`. Her answers are saved in her browser. They're also copied to a private Google Sheet once the backend is set up.
 - **Backend (optional, recommended):** a Google Apps Script web app (`apps-script/Code.gs`) that keeps the copy in the Sheet. This means Safari clearing the site's data, or a new phone, loses nothing.
 - **Scheduling:** [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (MIT), copied into `vendor/`.
-- **Font:** Atkinson Hyperlegible Next, self-hosted (SIL Open Font License).
+- **Font:** Aptos Display where it is installed (on a laptop with Microsoft Office or the free Aptos download from Microsoft), otherwise the device's system font, such as San Francisco on an iPhone. Aptos can't be bundled with the site because its license doesn't allow redistribution.
 - **Design:** the same "signage rules" as the Classes Hub and the other hubs.
 
 Nothing private lives in this repository. The access code and her answers are only in Script properties and the Sheet.
@@ -26,7 +26,7 @@ Nothing private lives in this repository. The access code and her answers are on
 ### How a question works
 
 1. She picks an answer, then taps **Check · I'm sure** or **Check · Not sure**. On a laptop: A–D or 1–4, then S or N.
-2. The result shows right under the question, with a shape and a word as well as colour: blue check = Correct, orange cross = Incorrect. Under each option is why it's right or why it's wrong.
+2. The options never move. The correct one is outlined in blue with a check, and a wrong pick in orange with a cross. The result and the explanations (why the answer is right, and why each other option is wrong) appear in a panel: to the right on a laptop, below the options on a phone, with a **See why** button that jumps to it. Textbook references are hidden by default; More > Settings can show them.
 3. The question is scheduled:
    - a miss comes back tomorrow;
    - a confident miss comes back within 2 days;
@@ -91,21 +91,23 @@ All questions are original, written for this site and mapped to the Board's Tabl
 
 Every item was drafted by an AI writer and then checked by a separate AI reviewer, which recomputed the math and checked the laws against the statute text. That review changed 3 items in the first batch, 6 in the second and 12 in the third. Treat it as a first pass, not as RMT review.
 
+A fourth batch (200 questions) covers concepts emphasised in the review books Marren studies from (Bishop for Clinical Chemistry, an Elsevier Micro/Para set, Strasinger for Clinical Microscopy, Harmening for Blood Banking). The books were used only to choose concepts: every question is newly written, and reviewers checked that none copies a book question. That review reworked 33 items for wording or overlap; no answer keys were wrong.
+
 The second and third batches filled the subtopics with the fewest questions. The bank now matches the Table of Specifications item for item: 100 questions per subject, with the same count per subtopic as the real exam and the Board's 30/50/20 easy/moderate/difficult mix.
 
 | File | Items |
 |---|---|
-| `data/questions/CC.json` | Clinical Chemistry, 100 (15 lab math) |
-| `data/questions/MP.json` | Microbiology & Parasitology, 100 |
-| `data/questions/CM.json` | Clinical Microscopy, 100 (7 lab math) |
+| `data/questions/CC.json` | Clinical Chemistry, 150 (20 lab math) |
+| `data/questions/MP.json` | Microbiology & Parasitology, 150 (2 lab math) |
+| `data/questions/CM.json` | Clinical Microscopy, 150 (15 lab math) |
 | `data/questions/HE.json` | Hematology, 100 (11 lab math) |
-| `data/questions/BB.json` | Blood Banking & Serology, 100 (5 lab math) |
+| `data/questions/BB.json` | Blood Banking & Serology, 150 (7 lab math) |
 | `data/questions/HL.json` | Histopath, MT Laws & Ethics, 100 (3 lab math) |
 | `data/visuals/*.json` | The visual explainers, 47 in all. How to write one: `data/visuals/README.md`. |
 | `data/images.json` + `data/morphology.json` | 46 CDC DPDx parasite images in 34 categories, plus identification notes. Image questions are built from these automatically. |
 | `data/tos.json` | The TOS: 6 subjects × 100 items, every topic and subtopic. Taken from a text extraction of the PRC PDF; still `"verified": false` until someone checks it against the PDF by eye. |
 
-That's 646 questions (600 written, 46 image), enough for about 6 weeks of new questions at 15 a day. After that the daily session is reviews only, which is what the last months before the exam should mostly be anyway.
+That's 846 questions (800 written, 46 image), enough for about 8 weeks of new questions at 15 a day. After that the daily session is reviews only, which is what the last months before the exam should mostly be anyway.
 
 ### Adding or fixing a question
 
@@ -145,7 +147,6 @@ The diagrams were drafted by AI writers who rendered and checked their own work,
 | `apps-script/` | The optional Google Sheet backend |
 | `data/` | The TOS, questions, images and morphology notes |
 | `vendor/ts-fsrs.umd.js` | The FSRS scheduler (MIT, license beside it) |
-| `fonts/` | Atkinson Hyperlegible Next and its license |
 | `tests/` | Engine, data, diagram and backend tests |
 | `tools/render-visuals.js` | Renders every step of a diagram to PNG for checking |
 | `scripts/stamp-version.sh` | Cache-busting version stamp |
@@ -177,4 +178,3 @@ Expected around November 2026. Change `examDate` in `assets/config.js` and set `
 - **Parasite images:** [CDC DPDx](https://www.cdc.gov/dpdx/), public domain, loaded from CDC's site. Use does not imply endorsement by CDC.
 - **Exam blueprint and laws:** PRC / Board of Medical Technology Res. No. 13, s. 2023; RA 5527 and related laws. Philippine government works have no copyright (RA 8293 Sec. 176).
 - **ts-fsrs:** MIT License.
-- **Atkinson Hyperlegible Next:** Braille Institute, SIL Open Font License.

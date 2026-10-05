@@ -2150,6 +2150,1076 @@
     "3": "Waiting delays reporting and prophylaxis, which work best when started as soon as possible."
    },
    "ref": "CDC/U.S. Public Health Service guidelines for occupational exposure to bloodborne pathogens; Turgeon, Immunology & Serology in Laboratory Medicine, laboratory safety chapter"
+  },
+  {
+   "id": "BB-0101",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Saliva from a healthy donor is tested by hemagglutination inhibition. It neutralizes anti-B and anti-H (Ulex europaeus) lectin, but it does not neutralize anti-A. Which description fits this donor?",
+   "options": [
+    "Group O, carrying an Se gene",
+    "Group AB, carrying an Se gene",
+    "Group B, carrying an Se gene",
+    "Group B, genotype se/se"
+   ],
+   "answer": 2,
+   "why": "Secretors (Se gene, FUT2) put soluble ABH substances into saliva that match their ABO genes, always with H substance because H is the precursor for A and B. Inhibition of anti-B and anti-H but not anti-A shows B and H substances, so the donor is a **group B secretor**.",
+   "whyNot": {
+    "0": "A group O secretor's saliva has H substance only, so it would not neutralize anti-B.",
+    "1": "A group AB secretor's saliva also contains A substance and would neutralize anti-A.",
+    "3": "A nonsecretor (se/se) has no ABH substances in saliva, so neither anti-B nor anti-H would be neutralized."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0102",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A group A man and a group B woman have a group O first child. What is the chance that their next child will be group AB?",
+   "options": [
+    "25%",
+    "0%",
+    "50%",
+    "75%"
+   ],
+   "answer": 0,
+   "why": "A group O child must receive an O gene from each parent, so the parents are genotypes AO and BO. Each child has a 1/2 chance of getting A from the father and a 1/2 chance of getting B from the mother, so the chance of AB is 1/2 x 1/2 = **25%**.",
+   "whyNot": {
+    "1": "0% would be true only if one parent could not pass on A or B; both parents carry an expressed A or B gene.",
+    "2": "50% is the chance that a child receives the A gene from the father (or B from the mother), not both at once.",
+    "3": "75% is the chance that the child is NOT group O (1 - 1/4), not the chance of group AB."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system and basic genetics chapters"
+  },
+  {
+   "id": "BB-0103",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with multiple myeloma types as follows (washed red cells): anti-A 0, anti-B 4+. His plasma gives 4+ with A1 cells and 2+ with B cells, group O screening cells, and his own cells at immediate spin. Under the microscope the clumps look like stacks of coins. Which procedure best resolves the reverse grouping?",
+   "options": [
+    "Prewarming the plasma and cells to 37 °C",
+    "Saline replacement technique",
+    "Cold autoadsorption with the patient's own cells",
+    "Retesting the cells with anti-A1 lectin"
+   ],
+   "answer": 1,
+   "why": "Myeloma proteins cause rouleaux, which appear as stacked-coin aggregates in every tube that contains the patient's plasma, including the autocontrol. In the **saline replacement technique**, the plasma is removed after centrifugation and replaced with saline: rouleaux disperses, while true agglutination by anti-A or anti-B remains.",
+   "whyNot": {
+    "0": "Prewarming is used for cold-reacting autoantibodies or alloantibodies; it does not remove the plasma proteins that cause rouleaux.",
+    "2": "Cold autoadsorption removes cold autoantibodies such as anti-I; it does not help with excess plasma protein.",
+    "3": "Anti-A1 lectin helps find A subgroups in a forward-grouping problem, but this patient's discrepancy is in the reverse grouping."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (ABO discrepancies); AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0104",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In Wiener notation, which rare haplotype codes for C and E antigens but no D antigen?",
+   "options": [
+    "Rz",
+    "r'",
+    "r''",
+    "ry"
+   ],
+   "answer": 3,
+   "why": "Wiener uses an uppercase R for haplotypes that make D and a lowercase r for those that do not. A prime (') marks C, a double prime ('') marks E, and z or y marks C plus E together, so the haplotype dCE is written **ry** (r with a superscript y).",
+   "whyNot": {
+    "0": "Rz codes for D together with C and E (DCE), so it includes D.",
+    "1": "r' codes for C with e and no D (dCe); it does not make E.",
+    "2": "r'' codes for E with c and no D (dcE); it does not make C."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (nomenclature)"
+  },
+  {
+   "id": "BB-0105",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A woman's red cells react much more strongly with anti-D than R2R2 control cells do, and they give no reaction with anti-C, anti-c, anti-E, or anti-e. Her plasma contains an antibody that reacts with every panel cell tested. Her Rh phenotype is most likely:",
+   "options": [
+    "D--",
+    "Rh-null",
+    "Partial D",
+    "Weak D"
+   ],
+   "answer": 0,
+   "why": "In the **D-- phenotype**, the Rh gene makes no C/c or E/e antigens, and the cells carry more D antigen sites than any common phenotype, so they react with exalted strength. When immunized, these people often make antibody to a high-prevalence Rh antigen (such as anti-Hr0/Rh17) that reacts with all common red cells.",
+   "whyNot": {
+    "1": "Rh-null cells lack all Rh antigens, including D, so they would not react with anti-D.",
+    "2": "Partial D cells lack some D epitopes and usually type normally for C/c and E/e, not with stronger D.",
+    "3": "Weak D cells have fewer D sites and react more weakly than usual, the opposite of this finding."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0106",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A newly found antibody reacts with D-positive adult red cells but not with most D-negative adult cells. The lab suspects anti-LW rather than anti-D. Which finding best supports anti-LW?",
+   "options": [
+    "Strong agglutination of Rh-null cells",
+    "Same strength with D-pos and D-neg cord cells",
+    "Reactivity confined to ficin-treated cells",
+    "A cold IgM agglutinin with no 37 °C activity"
+   ],
+   "answer": 1,
+   "why": "LW antigen is expressed more strongly on D-positive than on D-negative adult cells, so anti-LW can look like anti-D. On cord cells, however, LW is expressed equally whatever the D type, so **reactivity with D-negative cord cells** points to anti-LW.",
+   "whyNot": {
+    "0": "Rh-null cells lack LW as well as Rh antigens, so anti-LW does not react with them.",
+    "2": "LW antigens are not destroyed by ficin, and anti-LW does not react only with enzyme-treated cells.",
+    "3": "Anti-LW is usually IgG and is detected at the antiglobulin phase; temperature alone does not tell it apart from anti-D."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (LW)"
+  },
+  {
+   "id": "BB-0107",
+   "tos": "BB-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An adult has inherited at least one Le gene but is homozygous se/se (nonsecretor). How will his red cells type for Lewis antigens?",
+   "options": [
+    "Le(a-b+)",
+    "Le(a-b-)",
+    "Le(a+b-)",
+    "Le(a+b+)"
+   ],
+   "answer": 2,
+   "why": "The Le gene (FUT3) adds fucose to type 1 chains to make Lea. Making Leb also needs the Se gene (FUT2), which forms type 1 H; a nonsecretor cannot do this, so he types **Le(a+b-)**.",
+   "whyNot": {
+    "0": "Le(a-b+) needs both Le and Se; it is the usual phenotype of Lewis-positive secretors.",
+    "1": "Le(a-b-) occurs when no Le gene is inherited (le/le), whatever the secretor status.",
+    "3": "Le(a+b+) is a transient phenotype in infants (and a weak-secretor phenotype in some Asian populations), not expected in a se/se adult."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Lewis system chapter"
+  },
+  {
+   "id": "BB-0108",
+   "tos": "BB-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A Le(a-b+) red cell unit is transfused to a patient whose own cells type Le(a-b-). If samples are tested several days later, the donor cells in the patient's circulation will most likely type as:",
+   "options": [
+    "Le(a-b-), because Lewis antigens move off the cells into the recipient's plasma",
+    "Le(a-b+), because Lewis antigens are fixed in the red cell membrane",
+    "Le(a+b-), because recipient enzymes convert Leb back to Lea",
+    "Le(a+b+), because the recipient's plasma adds Lea to the cells"
+   ],
+   "answer": 0,
+   "why": "Lewis antigens are not made by red cells; they are glycolipids that red cells take up from plasma, and they leave the cells as easily as they attach. Transfused Lewis-positive cells in a Lewis-negative recipient therefore **become Le(a-b-)**, and the antigen released into plasma can neutralize Lewis antibodies. This is one reason Lewis antibodies rarely cause hemolytic reactions.",
+   "whyNot": {
+    "1": "Lewis antigens are adsorbed from plasma, not built into the membrane like Rh or Kell proteins.",
+    "2": "There is no recipient enzyme that converts Leb to Lea; Leb is made by adding fucose, not by removing it.",
+    "3": "A Le(a-b-) recipient has no Lewis glycolipid in plasma to give to the cells."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Lewis system chapter"
+  },
+  {
+   "id": "BB-0109",
+   "tos": "BB-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which red cell antigen survives ficin treatment but is destroyed when the cells are treated with 0.2 M dithiothreitol (DTT)?",
+   "options": [
+    "Fya (Duffy)",
+    "M (MNS)",
+    "Jka (Kidd)",
+    "K (Kell)"
+   ],
+   "answer": 3,
+   "why": "Kell antigens sit on a glycoprotein held in shape by disulfide bonds, so reducing agents such as DTT and ZZAP denature them, while ficin and papain do not. **K** is therefore resistant to enzymes but sensitive to DTT. This is why DTT-treated cells cannot be used to detect anti-K.",
+   "whyNot": {
+    "0": "Fya is destroyed by ficin and papain, so it does not survive the enzyme treatment.",
+    "1": "M and N are also cleaved from glycophorin A by ficin and papain.",
+    "2": "Jka is resistant to ficin (its reactions are usually enhanced) and is not destroyed by DTT."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other major blood group systems chapter (Kell); AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0110",
+   "tos": "BB-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The gene for which blood group system is on the X chromosome, so that its antigen is found more often in women than in men?",
+   "options": [
+    "Duffy",
+    "Xg",
+    "Lutheran",
+    "Diego"
+   ],
+   "answer": 1,
+   "why": "The **Xg** gene is on the short arm of the X chromosome. Because women have two X chromosomes, they are Xg(a+) more often than men; Xg(a) frequency is about 89% in women and 66% in men of European descent.",
+   "whyNot": {
+    "0": "The Duffy gene is on chromosome 1 (autosomal), so frequencies do not differ by sex.",
+    "2": "The Lutheran gene is on chromosome 19 and is inherited autosomally.",
+    "3": "The Diego antigens are on band 3, encoded by a gene on chromosome 17."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Minor blood group systems chapter"
+  },
+  {
+   "id": "BB-0111",
+   "tos": "BB-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's plasma gives weak (w+ to 1+) antiglobulin reactions with most panel cells. The reactivity is inhibited when the plasma is mixed with pooled plasma from normal donors, and it reacts strongly with red cells coated with C4. The most likely antibody is:",
+   "options": [
+    "Anti-Kna (Knops)",
+    "Anti-Sda",
+    "Anti-Ch (Chido)",
+    "Anti-Vel"
+   ],
+   "answer": 2,
+   "why": "Chido/Rodgers antigens are carried on the C4 complement protein, which is present in plasma and adsorbed onto red cells. Because normal plasma contains the antigen, it neutralizes the antibody, and C4-coated cells react strongly; these findings identify **anti-Ch**, which is clinically insignificant.",
+   "whyNot": {
+    "0": "Knops antigens are on complement receptor 1 (CR1) of the red cell membrane and are not neutralized by plasma.",
+    "1": "Anti-Sda is neutralized by urine (especially guinea pig urine), not plasma, and gives refractile mixed-field agglutinates.",
+    "3": "Anti-Vel is a potent, often hemolytic antibody to a high-prevalence antigen and is not neutralized by plasma."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Minor blood group systems chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0112",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A prospective blood donor received a measles-mumps-rubella (MMR) vaccine 10 days ago. What is the correct donor decision?",
+   "options": [
+    "Accept; vaccines never cause deferral",
+    "Defer; eligible 2 weeks from the vaccine date",
+    "Defer; eligible 12 months from the vaccine date",
+    "Defer; eligible 4 weeks from the vaccine date"
+   ],
+   "answer": 3,
+   "why": "Live attenuated vaccines can give a short-lived viremia. Vaccines containing rubella (alone or as MMR) call for a **4-week deferral** from the date of vaccination; under AABB criteria a 2-week deferral applies to some other live vaccines, such as measles or mumps given alone, while WHO guidance uses 4 weeks for all live attenuated vaccines.",
+   "whyNot": {
+    "0": "Toxoid and killed vaccines usually carry no deferral, but live vaccines such as MMR do.",
+    "1": "Under AABB criteria, two weeks is the deferral for some other live vaccines (for example, measles or mumps alone), not for rubella-containing vaccines such as MMR.",
+    "2": "A 12-month deferral is not linked to MMR; it applies to other exposures under some standards."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Donor screening and component preparation chapter; AABB Technical Manual (current ed.); WHO Blood donor selection: guidelines on assessing donor suitability for blood donation"
+  },
+  {
+   "id": "BB-0113",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which donor history is a reason for permanent (indefinite) deferral from blood donation?",
+   "options": [
+    "A confirmed positive HCV test on an earlier donation",
+    "Travel to a malaria-endemic area last year",
+    "A rubella vaccination 2 weeks ago",
+    "Gonorrhea diagnosed and fully treated earlier this year"
+   ],
+   "answer": 0,
+   "why": "A donor who has tested positive for HCV can carry the virus for life, so a **confirmed positive HCV result** leads to indefinite deferral. The donor is entered into the deferral registry so that later donations are not accepted.",
+   "whyNot": {
+    "1": "Malaria travel risk leads to a temporary deferral, after which the donor may give blood again.",
+    "2": "Rubella vaccination leads to a short, temporary deferral (4 weeks).",
+    "3": "Treated sexually transmitted infections such as gonorrhea lead to a temporary deferral, not a permanent one."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Donor screening and component preparation chapter; Transfusion-transmitted diseases chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0114",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which test is NOT done routinely on every allogeneic blood donation?",
+   "options": [
+    "Hepatitis B surface antigen (HBsAg)",
+    "Antibody to cytomegalovirus (anti-CMV)",
+    "Antibody to hepatitis C virus (anti-HCV)",
+    "Serologic test for syphilis"
+   ],
+   "answer": 1,
+   "why": "HBsAg, anti-HCV, HIV, and syphilis testing are required on every donation. **Anti-CMV** testing is optional; it is done only to supply CMV-seronegative units for at-risk patients, such as low-birth-weight infants and some transplant recipients, and leukoreduction is an accepted alternative.",
+   "whyNot": {
+    "0": "HBsAg testing is required on all allogeneic donations to prevent hepatitis B transmission.",
+    "2": "Anti-HCV testing (with nucleic acid testing where available) is required on all donations.",
+    "3": "Syphilis serology is still a required donor test."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Donor screening and component preparation chapter; Transfusion-transmitted diseases chapter"
+  },
+  {
+   "id": "BB-0115",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient receives several red cell units that are near the end of their shelf life. Right after the transfusion, how does the 2,3-DPG content of these cells affect oxygen delivery?",
+   "options": [
+    "Hemoglobin holds oxygen less tightly, so more oxygen is released to tissues",
+    "Oxygen release is unchanged, because 2,3-DPG does not affect hemoglobin",
+    "Hemoglobin holds oxygen more tightly, so less oxygen is released to tissues",
+    "The oxygen dissociation curve shifts to the right, improving delivery"
+   ],
+   "answer": 2,
+   "why": "2,3-DPG falls during refrigerated storage. With less 2,3-DPG, the oxygen dissociation curve shifts to the left, so **hemoglobin oxygen affinity increases** and less oxygen is given up at tissue oxygen tensions. The cells rebuild 2,3-DPG after transfusion, mostly within about a day.",
+   "whyNot": {
+    "0": "Lower oxygen affinity would come from an increase in 2,3-DPG, which does not happen during storage.",
+    "1": "2,3-DPG binds deoxyhemoglobin and is a major regulator of oxygen affinity.",
+    "3": "A right shift (lower affinity) is caused by higher 2,3-DPG, acidosis, or fever, not by stored cells low in 2,3-DPG."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Red blood cell and platelet preservation chapter"
+  },
+  {
+   "id": "BB-0116",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A unit of rare red cells is near expiry. It is incubated at 37 °C with a solution of pyruvate, inosine, phosphate, and adenine before freezing. The purpose of this step is to:",
+   "options": [
+    "Remove leukocytes from the unit",
+    "Kill bacteria that may have entered the unit",
+    "Act as the cryoprotective agent during freezing",
+    "Restore the cells' ATP and 2,3-DPG levels"
+   ],
+   "answer": 3,
+   "why": "Rejuvenation solutions such as this (PIPA, now sold as Rejuvesol) supply substrates that let stored red cells **regenerate ATP and 2,3-DPG**, bringing them close to fresh levels. The solution must be washed out before transfusion, usually during deglycerolization if the cells are frozen.",
+   "whyNot": {
+    "0": "Leukocytes are removed by filtration, not by a metabolic rejuvenation solution.",
+    "1": "Rejuvenation solutions are not antimicrobial; pathogen reduction uses other methods.",
+    "2": "The cryoprotective agent for red cells is glycerol, which is added separately."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Red blood cell and platelet preservation chapter"
+  },
+  {
+   "id": "BB-0117",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Some red cell additive solutions, such as AS-1 and AS-5, contain mannitol. What does mannitol do?",
+   "options": [
+    "Protects the membrane, reducing storage hemolysis",
+    "Supplies glucose to fuel red cell glycolysis",
+    "Binds calcium so the unit does not clot",
+    "Acts as the purine source for ATP synthesis"
+   ],
+   "answer": 0,
+   "why": "Additive solutions contain saline, dextrose, and adenine, and some also contain mannitol. **Mannitol protects the red cell membrane** and lowers storage hemolysis, which helps make the 42-day shelf life possible.",
+   "whyNot": {
+    "1": "Energy for glycolysis comes from the dextrose (glucose) in the solution.",
+    "2": "Calcium is chelated by the citrate in the primary anticoagulant (for example, CPD).",
+    "3": "Adenine, not mannitol, is the substrate red cells use to keep up their ATP."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Red blood cell and platelet preservation chapter"
+  },
+  {
+   "id": "BB-0118",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A whole blood-derived platelet concentrate with a very high platelet count was stored in a small volume of plasma. At day 5 its pH is 5.9. What is the main cause of this fall in pH?",
+   "options": [
+    "Breakdown of the citrate anticoagulant into citric acid",
+    "Lactic acid from anaerobic glycolysis (too little oxygen)",
+    "Release of acid from lysed red cells in the concentrate",
+    "Too much oxygen entering through the gas-permeable bag"
+   ],
+   "answer": 1,
+   "why": "Stored platelets rely mainly on aerobic metabolism. When the platelet content is high compared with plasma volume and oxygen exchange through the bag, metabolism shifts to anaerobic glycolysis, and **lactic acid** uses up the plasma bicarbonate, so pH falls. Current AABB Standards require platelets to keep a pH of at least 6.2 at the end of storage, because lower pH damages their viability.",
+   "whyNot": {
+    "0": "Citrate is metabolized and does not break down into enough acid to lower the pH of the unit.",
+    "2": "Platelet concentrates contain very few red cells, and red cell lysis is not what lowers platelet pH.",
+    "3": "Oxygen entering the bag supports aerobic metabolism and helps keep the pH up; it does not lower it."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Red blood cell and platelet preservation chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0119",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A nurse wants to run a solution through the same IV line as a red cell unit. Which one is acceptable?",
+   "options": [
+    "Ringer's lactate",
+    "D5W (dextrose only)",
+    "0.9% sodium chloride",
+    "0.45% sodium chloride"
+   ],
+   "answer": 2,
+   "why": "**Normal (0.9%) saline** is the only solution routinely approved to run with red cells. Fluids with calcium can overcome the citrate and cause clots, and hypotonic or dextrose-only fluids make the red cells swell and lyse.",
+   "whyNot": {
+    "0": "Lactated Ringer's contains calcium, which can reverse the citrate anticoagulant and form clots in the line.",
+    "1": "Dextrose in water causes red cells to clump and swell, and they can hemolyze.",
+    "3": "Half-normal saline is hypotonic and can cause osmotic hemolysis."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion therapy chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0120",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A neutropenic patient with a bacterial infection that is not responding to antibiotics is ordered an apheresis granulocyte concentrate. Which handling is correct?",
+   "options": [
+    "Irradiate, crossmatch, and give it promptly with no leukocyte filter",
+    "Pass it through a leukocyte filter to remove the lymphocytes",
+    "Refrigerate it at 1–6 °C and use it within the next 5 days",
+    "Skip the crossmatch, since it contains almost no red cells"
+   ],
+   "answer": 0,
+   "why": "Granulocytes lose function quickly, so they are transfused as soon as possible (within 24 hours, stored at 20–24 °C). They are **irradiated** to prevent TA-GVHD, and they must be ABO-compatible and crossmatched because they contain a lot of red cells. A leukoreduction filter would remove the cells being transfused.",
+   "whyNot": {
+    "1": "A leukoreduction filter would remove the granulocytes themselves; irradiation, not filtration, prevents TA-GVHD here.",
+    "2": "Granulocytes are not refrigerated, and they cannot be kept for days.",
+    "3": "Granulocyte concentrates contain enough red cells to need ABO compatibility and a crossmatch."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion therapy chapter; Apheresis chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0121",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "For most therapeutic plasma exchanges, 5% albumin is the replacement fluid. For a patient with acquired thrombotic thrombocytopenic purpura (TTP), plasma is used instead. Why?",
+   "options": [
+    "Plasma carries fewer allergic reactions than albumin",
+    "Plasma supplies the ADAMTS13 enzyme the patient lacks",
+    "Plasma replaces the platelets used up in microthrombi",
+    "Plasma has a higher oncotic pressure than 5% albumin"
+   ],
+   "answer": 1,
+   "why": "In acquired TTP, an autoantibody inhibits ADAMTS13, the protease that cleaves large von Willebrand factor multimers. Plasma exchange removes the inhibitor, and replacing with plasma **gives back working ADAMTS13**; albumin would remove the inhibitor without replacing the enzyme.",
+   "whyNot": {
+    "0": "Plasma causes allergic and other reactions more often than albumin; it is chosen despite this.",
+    "2": "Plasma components contain essentially no functional platelets, and platelet transfusion is generally avoided in TTP.",
+    "3": "Oncotic pressure is not the reason; 5% albumin is roughly iso-oncotic with plasma."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Apheresis chapter"
+  },
+  {
+   "id": "BB-0122",
+   "tos": "BB-B.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A 70-kg bleeding patient has a fibrinogen of 80 mg/dL, and the target is 150 mg/dL. His hematocrit is 30%, and his blood volume is 70 mL/kg. If each unit of cryoprecipitate contains 250 mg of fibrinogen, about how many units are needed?",
+   "options": [
+    "10",
+    "14",
+    "16",
+    "21"
+   ],
+   "answer": 0,
+   "why": "Blood volume = 70 x 70 = 4,900 mL; plasma volume = 4,900 x (1 - 0.30) = 3,430 mL = 34.3 dL. Fibrinogen needed = (150 - 80) x 34.3 = 2,401 mg; 2,401 / 250 = 9.6, so about **10 units**.",
+   "whyNot": {
+    "1": "14 comes from using the whole blood volume (49 dL) and ignoring the hematocrit.",
+    "2": "16 comes from assuming only 150 mg of fibrinogen per unit (the minimum quality-control value) instead of the 250 mg stated.",
+    "3": "21 comes from multiplying the target level (150 mg/dL) by plasma volume, instead of the increase needed (70 mg/dL)."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion therapy chapter; AABB Technical Manual (current ed.)",
+   "worked": {
+    "problem": "A 60-kg patient (blood volume 70 mL/kg, hematocrit 35%) has a fibrinogen of 100 mg/dL. How many cryoprecipitate units (200 mg fibrinogen each) are needed to reach 180 mg/dL?",
+    "steps": [
+     "Blood volume = 60 kg x 70 mL/kg = 4,200 mL.",
+     "Plasma volume = 4,200 x (1 - 0.35) = 2,730 mL = 27.3 dL.",
+     "Fibrinogen needed = (180 - 100) mg/dL x 27.3 dL = 2,184 mg.",
+     "Units = 2,184 / 200 = 10.9; round up."
+    ],
+    "result": "About 11 units of cryoprecipitate."
+   }
+  },
+  {
+   "id": "BB-0123",
+   "tos": "BB-B.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A patient with an IgM antibody, which stays mostly inside the blood vessels, has a 1.5 plasma-volume plasma exchange. Assuming the removal follows a one-compartment model with no new synthesis and no redistribution during the procedure, about what percentage of the antibody is removed?",
+   "options": [
+    "63%",
+    "78%",
+    "86%",
+    "100%"
+   ],
+   "answer": 1,
+   "why": "In a one-compartment exchange, the fraction left = e^(-V), where V is the number of plasma volumes exchanged. For V = 1.5, e^(-1.5) = 0.22, so about 22% remains and **about 78% is removed**. Each extra volume removes less than the one before, which is why the first plasma volume is the most efficient.",
+   "whyNot": {
+    "0": "63% (1 - e^-1) is what a single plasma-volume exchange removes, not 1.5 volumes.",
+    "2": "86% (1 - e^-2) would need a 2 plasma-volume exchange.",
+    "3": "Exchanging 1.5 plasma volumes does not remove everything, because returned fluid keeps diluting what is left."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Apheresis chapter; AABB Technical Manual (current ed.)",
+   "worked": {
+    "problem": "What fraction of an intravascular substance remains after a 1.0 and after a 2.0 plasma-volume exchange (one-compartment model, no synthesis)?",
+    "steps": [
+     "Use fraction remaining = e^(-V).",
+     "V = 1.0: e^(-1) = 0.37, so 37% remains (63% removed).",
+     "V = 2.0: e^(-2) = 0.135, so 13.5% remains (86% removed).",
+     "Doubling the volume exchanged adds only about 23 percentage points of removal."
+    ],
+    "result": "37% remains after 1 volume; 13.5% remains after 2 volumes."
+   }
+  },
+  {
+   "id": "BB-0124",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A man with hemophilia B is bleeding into a joint. Which product directly replaces the missing factor?",
+   "options": [
+    "Recombinant or plasma-derived factor VIII",
+    "Pooled cryo from several donors",
+    "A unit of apheresis platelets",
+    "Recombinant or plasma-derived factor IX"
+   ],
+   "answer": 3,
+   "why": "Hemophilia B (Christmas disease) is an X-linked deficiency of factor IX. Treatment is **factor IX concentrate** (recombinant or plasma-derived); prothrombin complex concentrates also contain factor IX.",
+   "whyNot": {
+    "0": "Factor VIII concentrate treats hemophilia A, not hemophilia B.",
+    "1": "Cryoprecipitate has factor VIII, fibrinogen, vWF, and factor XIII, but almost no factor IX.",
+    "2": "Platelet counts and function are normal in hemophilia B, so platelets would not help."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion therapy chapter"
+  },
+  {
+   "id": "BB-0125",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Ten minutes into a red cell transfusion, the patient develops chills, back pain, and a fall in blood pressure. What should the nurse do first?",
+   "options": [
+    "Halt the unit, then keep venous access with a 0.9% saline drip",
+    "Draw blood cultures through the line before doing anything else",
+    "Finish the unit quickly so the bag can be sent to the lab",
+    "Give an antihistamine and let the unit continue"
+   ],
+   "answer": 0,
+   "why": "When a hemolytic reaction is suspected, the first step is to **stop the transfusion at once and keep the IV open with saline** for treatment. Then the bedside identification is checked, the physician and blood bank are notified, and the bag and post-transfusion samples are sent for investigation.",
+   "whyNot": {
+    "1": "Samples are collected after the transfusion is stopped; any delay lets more incompatible blood enter, and the amount transfused relates to how severe the reaction is.",
+    "2": "Finishing the unit could give more incompatible blood and make the reaction worse.",
+    "3": "Antihistamines treat mild allergic (hives-only) reactions; these signs suggest hemolysis, so the transfusion must stop."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Adverse effects of blood transfusion chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0126",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During surgery under general anesthesia, soon after a red cell unit is started, the patient develops unexplained hypotension and new, diffuse oozing from the incision and IV sites. Which transfusion complication should be suspected first?",
+   "options": [
+    "Transfusion-associated circulatory overload",
+    "Febrile nonhemolytic reaction",
+    "Acute hemolytic transfusion reaction",
+    "Mild allergic (urticarial) reaction"
+   ],
+   "answer": 2,
+   "why": "An anesthetized patient cannot report chills, back pain or anxiety, so an acute hemolytic reaction may first show as **unexplained hypotension and bleeding from DIC**; hemoglobinuria may also appear in the urine catheter bag. The unit should be stopped at once and a reaction workup started.",
+   "whyNot": {
+    "0": "Circulatory overload typically raises blood pressure and causes pulmonary edema, and it does not cause generalized oozing.",
+    "1": "A febrile nonhemolytic reaction causes fever and chills, not hypotension with abnormal bleeding.",
+    "3": "A mild allergic reaction causes hives and itching, without hypotension or bleeding."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Adverse effects of blood transfusion chapter"
+  },
+  {
+   "id": "BB-0127",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Midway through a plasma transfusion, a patient gets a few itchy hives on the arm. Vital signs are normal, and there is no wheezing or fever. What is the usual management?",
+   "options": [
+    "End the unit and send samples for a hemolysis investigation",
+    "Discard the unit and give only washed products from now on",
+    "Keep the same rate, since hives need no action of any kind",
+    "Pause, give an antihistamine, and resume the unit if hives clear"
+   ],
+   "answer": 3,
+   "why": "Mild urticaria is caused by recipient antibodies (often IgE) reacting with donor plasma proteins. It is the one reaction where, after **pausing and giving an antihistamine**, the same unit may be restarted once the symptoms go away, and no laboratory workup is needed.",
+   "whyNot": {
+    "0": "A hemolytic workup is not needed for hives alone without fever, hypotension, or other signs.",
+    "1": "Washed products are kept for repeated or severe allergic or anaphylactic reactions, not one mild episode.",
+    "2": "The transfusion should still be paused to check the patient and treat the symptoms."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Adverse effects of blood transfusion chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0128",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Nine days after a red cell transfusion, a 58-year-old woman with three earlier pregnancies has a platelet count of 4 x 10^9/L, along with widespread purpura and nosebleeds. Her own platelets lack the antigen her antibody targets. Which antibody is most likely responsible?",
+   "options": [
+    "Antibody to HLA class I antigens",
+    "Anti-HPA-1a",
+    "Anti-IgA",
+    "Anti-Jka"
+   ],
+   "answer": 1,
+   "why": "This is post-transfusion purpura (PTP). It usually occurs about a week after transfusion in a woman sensitized by pregnancy, typically HPA-1a-negative, who makes **anti-HPA-1a**. For reasons not fully understood, her own antigen-negative platelets are also destroyed, so she has severe thrombocytopenia.",
+   "whyNot": {
+    "0": "HLA class I antibodies cause refractoriness to platelet transfusions, not sudden destruction of the patient's own platelets.",
+    "2": "Anti-IgA in IgA-deficient patients causes anaphylaxis during transfusion, not delayed thrombocytopenia.",
+    "3": "Anti-Jka causes delayed hemolytic reactions affecting red cells, not platelets."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Adverse effects of blood transfusion chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0129",
+   "tos": "BB-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Blood centers added nucleic acid testing (NAT) for HIV and HCV to donor antibody screening mainly to:",
+   "options": [
+    "Replace antibody tests so each donation needs only one test",
+    "Screen platelet units for bacterial growth",
+    "Catch infections in the weeks before seroconversion",
+    "Show which donors are immune after vaccination"
+   ],
+   "answer": 2,
+   "why": "Antibodies take weeks to appear after infection, and units donated during this window can transmit virus despite a negative antibody test. NAT detects viral RNA directly, so it **shortens the window period** and lowers the remaining risk of transmission.",
+   "whyNot": {
+    "0": "NAT was added to antibody testing, not used in place of it; both are still performed.",
+    "1": "Bacterial contamination is detected by culture or rapid bacterial tests, not by viral NAT.",
+    "3": "There is no vaccine for HIV or HCV, and NAT detects the virus itself, not immunity."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion-transmitted diseases chapter"
+  },
+  {
+   "id": "BB-0130",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which set of conditions allows a hospital to use an electronic (computer) crossmatch instead of a serologic crossmatch?",
+   "options": [
+    "A nonreactive DAT on today's specimen, with a single ABO typing",
+    "A negative immediate-spin crossmatch done within the past 7 days",
+    "A positive antibody screen that is due only to a cold antibody",
+    "No significant antibodies, current or historical, and two ABO determinations"
+   ],
+   "answer": 3,
+   "why": "An electronic crossmatch can replace the serologic one only when the recipient has **no current or past clinically significant antibodies**, and the ABO group has been determined on two occasions (one on the current sample). The computer system must also be validated on site and must block release of ABO-incompatible units.",
+   "whyNot": {
+    "0": "The DAT is not a requirement for electronic crossmatching and does not show whether the patient has alloantibodies.",
+    "1": "An electronic crossmatch replaces the serologic crossmatch; it is not based on an earlier immediate-spin test.",
+    "2": "A positive antibody screen, whatever its cause, needs further investigation and usually serologic crossmatching."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion compatibility testing chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0131",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 6-week-old infant in the neonatal unit had ABO/D typing and a negative antibody screen on admission. She now needs her third red cell aliquot during the same admission. What pretransfusion testing is required?",
+   "options": [
+    "No repeat screen or crossmatch this admission (under 4 months)",
+    "A full antiglobulin crossmatch with every new aliquot",
+    "Repeat ABO grouping, including reverse typing, on a new sample",
+    "A repeat antibody screen every 3 days, as for adult patients"
+   ],
+   "answer": 0,
+   "why": "Infants younger than 4 months rarely make alloantibodies. If the first antibody screen (on infant or maternal serum) is negative, **repeat crossmatching and antibody screening can be omitted** for the rest of that admission until the infant is 4 months old, which also reduces blood draws.",
+   "whyNot": {
+    "1": "A crossmatch is not required when the initial screen shows no unexpected antibodies.",
+    "2": "Reverse grouping is not done in young infants, because their anti-A and anti-B are absent or come from the mother.",
+    "3": "The 3-day sample rule is for recently transfused or pregnant patients who can make new antibodies; young infants are exempt."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion compatibility testing chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0132",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 25-year-old woman who is group AB, D-negative needs red cells and plasma. The blood bank has no AB, D-negative red cells. Which combination is the best choice?",
+   "options": [
+    "Group A, D-negative red cells with group A plasma",
+    "Group AB, D-positive red cells with group AB plasma",
+    "Group A, D-negative red cells with group AB plasma",
+    "Group O, D-negative red cells with group O plasma"
+   ],
+   "answer": 2,
+   "why": "A group AB patient has no anti-A or anti-B, so A, B, or O red cells are all ABO-compatible, and a D-negative woman of childbearing age should get D-negative red cells. Her plasma must be group AB, because plasma of any other group has anti-A and/or anti-B that would react with her cells. So the best choice is **A, D-negative red cells with AB plasma**.",
+   "whyNot": {
+    "0": "Group A plasma contains anti-B, which can hemolyze the patient's own AB red cells.",
+    "1": "D-positive red cells could immunize her to D and put future pregnancies at risk of HDFN.",
+    "3": "Group O plasma has both anti-A and anti-B and is incompatible with an AB recipient."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion compatibility testing chapter; Transfusion therapy chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0133",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's records show anti-Jka found 4 years ago at another hospital. Today her antibody screen is negative. What is the correct way to choose red cells?",
+   "options": [
+    "Jka-negative units, checked by immediate-spin crossmatch only",
+    "Jka-negative units, compatible by antiglobulin crossmatch",
+    "Jkb-negative units, compatible by antiglobulin crossmatch",
+    "Any ABO-compatible units, as the antibody has disappeared"
+   ],
+   "answer": 1,
+   "why": "Kidd antibodies often fall below detectable levels and come back quickly after re-exposure, causing delayed hemolytic reactions. Once a clinically significant antibody has been identified, the patient should always get **antigen-negative units compatible by antiglobulin crossmatch**, even if the current screen is negative.",
+   "whyNot": {
+    "0": "An immediate-spin crossmatch detects ABO incompatibility; the patient's history calls for a full antiglobulin crossmatch.",
+    "2": "The patient's antibody is anti-Jka, so the units must lack Jka; whether they lack Jkb does not matter.",
+    "3": "The antibody is only below detection; a Jka-positive unit could boost it and cause a delayed hemolytic reaction."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion compatibility testing chapter; Other major blood group systems chapter (Kidd); AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0134",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Eight days after receiving 3 units of red cells, a patient's DAT with anti-IgG shows small agglutinates scattered among many free red cells (mixed-field). The DAT before transfusion was negative. What does this pattern most likely mean?",
+   "options": [
+    "A warm autoantibody is coating all of the patient's own red cells",
+    "An alloantibody is coating only the transfused donor red cells",
+    "Complement was bound in vitro because the sample was refrigerated",
+    "Poor washing let free globulin neutralize the antiglobulin reagent"
+   ],
+   "answer": 1,
+   "why": "A mixed-field DAT means two red cell populations are present and only one is coated. Soon after a transfusion, this usually means **a new or anamnestic alloantibody is coating only the transfused donor cells**, the picture of a delayed hemolytic or delayed serologic transfusion reaction; an eluate should be prepared to identify the antibody.",
+   "whyNot": {
+    "0": "An autoantibody coats the patient's own cells and usually the donor cells too, so the reaction would be uniform rather than mixed-field.",
+    "2": "In vitro complement uptake in a refrigerated clotted sample gives a C3d result, not IgG coating of part of the cell population.",
+    "3": "Poor washing neutralizes the AHG reagent and causes a false-negative result, not a mixed-field positive."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antiglobulin test chapter; Adverse effects of blood transfusion chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0135",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a polyethylene glycol (PEG) antibody screen, the tubes are NOT centrifuged and read after the 37 °C incubation. Instead they go straight to washing. Why?",
+   "options": [
+    "Spinning cells in PEG causes nonspecific clumping",
+    "PEG destroys IgM antibodies during the incubation",
+    "PEG adds salt and blocks agglutination at 37 °C",
+    "PEG itself works as the antiglobulin reagent"
+   ],
+   "answer": 0,
+   "why": "PEG removes water from the test system, which concentrates antibody near the red cells and increases antibody uptake. It also **makes cells aggregate nonspecifically** if they are centrifuged in it, so the tubes are washed and only the antiglobulin phase is read.",
+   "whyNot": {
+    "1": "PEG does not destroy IgM; the procedure avoids a 37 °C reading because of false aggregation.",
+    "2": "PEG is not used to raise ionic strength; it works by excluding water.",
+    "3": "AHG reagent must still be added after washing; PEG only enhances antibody binding."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antiglobulin test chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0136",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a solid-phase red cell adherence antibody screen, reagent red cell membranes are fixed to the well. After patient plasma is incubated and the wells washed, anti-IgG-coated indicator cells are added and spun. A positive result looks like:",
+   "options": [
+    "A tight button of indicator cells in the center of the well",
+    "Indicator cells spread as an even layer across the bottom of the well",
+    "Agglutinates trapped at the top of a gel column",
+    "Lysis of the indicator red cells in the well"
+   ],
+   "answer": 1,
+   "why": "If patient IgG has bound to the fixed membranes, the anti-IgG on the indicator cells binds to it, and the cells **adhere in a diffuse layer** across the well. If no IgG is bound, the indicator cells roll down and form a compact button in the center, which is a negative result.",
+   "whyNot": {
+    "0": "A compact central button means the indicator cells did not adhere, which is a negative result.",
+    "2": "Agglutinates trapped in a gel column are how column (gel) agglutination tests are read, not solid-phase adherence.",
+    "3": "Hemolysis is not the endpoint of solid-phase adherence testing."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other technologies and automation in the blood bank chapter"
+  },
+  {
+   "id": "BB-0137",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A tube LISS antibody screen calls for 2 drops of plasma and 2 drops of LISS. A trainee adds 4 drops of plasma instead. How does this most likely affect the test?",
+   "options": [
+    "Even lower ionic strength results, with false-positive reactions",
+    "No effect, since more plasma always means more antibody",
+    "Higher ionic strength slows antibody uptake; weak antibodies may be missed",
+    "The antiglobulin phase is no longer needed to detect IgG"
+   ],
+   "answer": 2,
+   "why": "LISS works by lowering ionic strength, which reduces the shielding of charges around antigen and antibody and speeds up antibody uptake. Extra plasma (which has normal ionic strength) **raises the ionic strength of the mixture**, cancelling some of the enhancement, so a weak antibody may be missed within the short incubation time.",
+   "whyNot": {
+    "0": "Adding more plasma raises, not lowers, the ionic strength of the mixture.",
+    "1": "Extra antibody does not make up for the loss of the low-ionic environment, and the incubation time is set for the correct ratio.",
+    "3": "LISS enhances sensitization but does not replace the antiglobulin phase for detecting IgG."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Fundamentals of immunology for blood bankers chapter; Antiglobulin test chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0138",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with warm autoimmune hemolytic anemia received red cells 2 weeks ago. Her plasma reacts with all panel cells, and her DAT is positive with anti-IgG. Which procedure is best for detecting alloantibodies hidden by the autoantibody?",
+   "options": [
+    "Adsorption with selected reagent cells of known phenotypes",
+    "Treating the plasma with DTT to destroy the autoantibody",
+    "Repeating the panel using ficin-treated cells only",
+    "Prewarming the plasma and panel cells to 37 °C"
+   ],
+   "answer": 0,
+   "why": "Autoadsorption is not safe within about 3 months of transfusion, because transfused donor cells in the sample could also adsorb alloantibodies. **Allogeneic (differential) adsorption** uses reagent cells of known phenotypes (for example R1R1, R2R2, and rr, chosen for Kidd and other antigens) to remove the autoantibody while leaving alloantibodies that can then be identified.",
+   "whyNot": {
+    "1": "DTT breaks the disulfide bonds of IgM; it does not remove a warm IgG autoantibody.",
+    "2": "Enzymes usually make warm autoantibodies react more strongly and destroy some antigens (such as Fya), so the problem gets worse.",
+    "3": "Prewarming avoids cold-reacting antibodies; a warm IgG autoantibody still reacts at 37 °C."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Autoimmune hemolytic anemias chapter; Detection and identification of antibodies chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0139",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An antibody looks like anti-E. Under the standard rule for 95% confidence (p = 0.05), the minimum panel evidence needed is:",
+   "options": [
+    "1 E-positive cell that reacts and 1 E-negative cell that does not react",
+    "2 E-positive cells that react and 2 E-negative cells that do not react",
+    "6 E-positive cells that react, with no E-negative cells needed",
+    "3 E-positive cells that react and 3 E-negative cells that do not react"
+   ],
+   "answer": 3,
+   "why": "Using Fisher's exact method, the chance that 3 positive and 3 negative reactions would match an antigen pattern by accident is 1 in 20 (p = 0.05). So the usual rule is **3 antigen-positive reactive and 3 antigen-negative nonreactive cells**, using additional selected cells if the panel does not have enough.",
+   "whyNot": {
+    "0": "One positive and one negative cell could easily match the antigen pattern by chance (p = 0.5).",
+    "1": "Two and two gives p of about 0.17, which is not enough for 95% confidence.",
+    "2": "Without antigen-negative nonreactive cells, the specificity is not shown, and other antibodies are not ruled out."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Detection and identification of antibodies chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0140",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Donor units are being typed for Jka with commercial antiserum. Which cells make the best positive control?",
+   "options": [
+    "Jk(a+b-) cells, which carry a double dose of Jka",
+    "Jk(a-b+) cells, which lack Jka",
+    "Jk(a+b+) cells, which carry a single dose of Jka",
+    "Red cells from the intended recipient"
+   ],
+   "answer": 2,
+   "why": "A positive control should show that the reagent can detect the weakest antigen expression expected. For antigens that show dosage, such as Kidd, **heterozygous Jk(a+b+) cells** are used as the positive control, and Jk(a-b+) cells are the negative control.",
+   "whyNot": {
+    "0": "Homozygous cells react strongly and would not show that the reagent can detect a weaker, single-dose antigen.",
+    "1": "Jk(a-b+) cells lack Jka and are the negative control.",
+    "3": "A recipient's Jka type is often unknown (and a patient who needs Jka-negative blood is Jka-negative), so these cells are not a reliable positive control."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Detection and identification of antibodies chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0141",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A fetus with anti-D HDFN is anemic but is not jaundiced at birth. Within hours of delivery, its unconjugated bilirubin rises quickly. Why does jaundice appear mainly after birth?",
+   "options": [
+    "Maternal anti-D stops coating fetal cells once the cord is clamped",
+    "Before birth, bilirubin crosses the placenta and is cleared by the mother's liver",
+    "Fetal red cells are not hemolyzed until they are exposed to air",
+    "The fetal liver conjugates bilirubin well, but the newborn liver cannot"
+   ],
+   "answer": 1,
+   "why": "In utero, unconjugated bilirubin from hemolysis **crosses the placenta and is conjugated by the mother's liver**, so the fetus mainly shows anemia. After birth, the newborn's immature liver (low glucuronyl transferase) cannot keep up, and unconjugated bilirubin rises, with the risk of kernicterus.",
+   "whyNot": {
+    "0": "Maternal IgG stays in the infant's circulation for weeks after birth, so hemolysis continues.",
+    "2": "Hemolysis by maternal antibody happens in the fetal spleen before birth; air exposure has no role.",
+    "3": "Both fetal and newborn livers have limited conjugating ability; the difference is that the placenta is no longer there to clear bilirubin."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter"
+  },
+  {
+   "id": "BB-0142",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A fetus with severe anemia from maternal anti-c needs an intrauterine transfusion. Which red cell unit is most suitable?",
+   "options": [
+    "Group O, c-negative, irradiated, fresh, compatible with maternal plasma",
+    "Washed red cells from the father, since they match the fetus",
+    "Group AB, c-positive red cells stored at least 3 weeks",
+    "Fetal ABO/Rh-type cells crossmatched with the father's plasma"
+   ],
+   "answer": 0,
+   "why": "Blood for intrauterine transfusion must **lack the antigen of the maternal antibody and be compatible with the mother's plasma**, because her antibody is in the fetal circulation. It is usually group O, irradiated to prevent TA-GVHD, CMV-reduced-risk, HbS-negative, and as fresh as possible.",
+   "whyNot": {
+    "1": "The father's cells carry the c antigen the maternal antibody is directed against, which is why the fetus is affected.",
+    "2": "c-positive cells would be destroyed by the maternal anti-c; older units also have high potassium and low 2,3-DPG.",
+    "3": "The antibody causing the disease comes from the mother, so compatibility must be checked with her plasma, not the father's."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0143",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Four women have just delivered. Which one should receive postpartum Rh immune globulin (RhIG)? The mother is:",
+   "options": [
+    "D-negative, with anti-D at titer 128 from earlier pregnancies",
+    "D-positive; her baby types D-negative on all testing",
+    "D-negative; baby lacks D even at the antiglobulin phase",
+    "D-negative; baby reacts with anti-D only at the AHG phase"
+   ],
+   "answer": 3,
+   "why": "RhIG is for a D-negative, unimmunized mother who may have been exposed to D-positive fetal cells. A baby whose cells react with anti-D only at the antiglobulin phase is weak D-positive, and **a weak D-positive infant counts as D-positive**, so the mother needs RhIG. It is not given once the mother has made her own (active) anti-D.",
+   "whyNot": {
+    "0": "A titer of 128 from earlier pregnancies shows active immunization; RhIG cannot reverse sensitization that has already happened.",
+    "1": "A D-positive mother cannot make anti-D, so RhIG is never needed.",
+    "2": "A D-negative baby, confirmed by weak D testing, cannot expose the mother to D, so RhIG is not needed after delivery."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0144",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In older methods of monitoring HDFN, amniotic fluid was scanned with a spectrophotometer for the change in optical density at 450 nm (delta-OD450) and plotted on a Liley graph. What does this value estimate?",
+   "options": [
+    "Free hemoglobin in the amniotic fluid",
+    "Fetal lung maturity (lecithin/sphingomyelin ratio)",
+    "Bilirubin pigment from fetal red cell destruction",
+    "Alpha-fetoprotein concentration"
+   ],
+   "answer": 2,
+   "why": "Bilirubin absorbs light at about 450 nm, so the rise in absorbance above the baseline at that wavelength reflects **amniotic fluid bilirubin**, an indirect measure of how much fetal hemolysis is happening. Results falling in higher Liley zones mean more severe disease; Doppler measurement of middle cerebral artery flow has now largely replaced this test.",
+   "whyNot": {
+    "0": "Hemoglobin absorbs most strongly near 410–415 nm (the Soret band); a peak there suggests contamination with blood.",
+    "1": "Lung maturity is assessed with lecithin/sphingomyelin and related tests, not absorbance at 450 nm.",
+    "3": "AFP is measured by immunoassay for neural tube defects, not by absorbance at 450 nm."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter"
+  },
+  {
+   "id": "BB-0145",
+   "tos": "BB-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Preoperative testing on a woman finds a positive DAT with anti-IgG only, but she is not anemic. An eluate from her red cells and her plasma react with all panel cells without any drug added, much like a warm autoantibody with Rh-related specificity. Which drug is most likely responsible?",
+   "options": [
+    "High-dose IV penicillin",
+    "Quinine",
+    "Ceftriaxone",
+    "Methyldopa"
+   ],
+   "answer": 3,
+   "why": "Methyldopa induces a true red cell autoantibody that cannot be told apart serologically from a warm autoantibody: **the eluate and plasma react with normal red cells with no drug present**. A positive DAT develops in a sizeable minority of patients after several months of therapy, but few have hemolysis, and the antibody slowly disappears after the drug is stopped.",
+   "whyNot": {
+    "0": "Penicillin antibodies (drug adsorption mechanism) react only with penicillin-coated red cells, so the eluate does not react with normal panel cells.",
+    "1": "Quinine causes drug-dependent (immune complex type) antibodies that react only when the drug is present in the test, often with complement and acute intravascular hemolysis.",
+    "2": "Ceftriaxone antibodies are drug-dependent and react only in the presence of the drug; they can cause sudden, severe intravascular hemolysis."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Drug-induced immune hemolytic anemia / Autoimmune hemolytic anemias chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0146",
+   "tos": "BB-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient on very high-dose IV penicillin develops a positive DAT and slowly falling hemoglobin. Which laboratory finding best supports the drug adsorption (hapten) mechanism?",
+   "options": [
+    "IgG eluate reacting with penicillin-treated cells but not untreated cells",
+    "DAT positive with anti-C3d only, with sudden intravascular hemolysis",
+    "An eluate that reacts with all panel cells, with or without the drug",
+    "Plasma that agglutinates cells only when penicillin is added to the tube"
+   ],
+   "answer": 0,
+   "why": "Penicillin binds firmly to red cell membrane proteins, and IgG anti-penicillin then binds to the drug on the cells. Because the antibody recognizes the drug on the membrane, the **eluate reacts only with drug-coated cells**, which defines the drug adsorption mechanism. Hemolysis is gradual and mostly extravascular.",
+   "whyNot": {
+    "1": "Complement-only coating with abrupt intravascular hemolysis fits the immune complex (drug-dependent) mechanism.",
+    "2": "Reactivity with all cells without the drug fits a drug-induced autoantibody, as with methyldopa.",
+    "3": "Needing the drug in solution with plasma and cells is typical of the immune complex mechanism; penicillin antibodies are shown with drug-coated cells."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Drug-induced immune hemolytic anemia chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0147",
+   "tos": "BB-J.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A blood bank keeps several items for its refrigerator monitoring. Which one is a record?",
+   "options": [
+    "The approved procedure for monitoring the refrigerator",
+    "Last month's temperature log, filled in and signed",
+    "A blank copy of the temperature log form",
+    "The facility's written quality policy"
+   ],
+   "answer": 1,
+   "why": "Quality systems separate documents, which say what to do or how to do it (policies, procedures, blank forms), from records, which show what was actually done. A **completed, signed log is a record**; the same form is a document while it is still blank.",
+   "whyNot": {
+    "0": "A procedure tells staff how to do the task; it is a document, not evidence that the task was done.",
+    "2": "A blank form is a controlled document; it becomes a record only after data are entered.",
+    "3": "A policy states what the facility intends to do; it is a document, not a record of work performed."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Quality management chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0148",
+   "tos": "BB-J.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Several samples arrive with mismatched labels. The technologist rejects them and asks for new samples, and she logs the event. The supervisor finds that labels were being printed in batches away from the patient, and she reports the occurrence to the quality unit. Which step is the corrective action?",
+   "options": [
+    "Rejecting the samples and asking for new ones",
+    "Reporting the occurrence to the quality unit",
+    "Changing the procedure so labels are printed at the bedside",
+    "Logging the rejected samples in the occurrence log"
+   ],
+   "answer": 2,
+   "why": "Remedial action fixes the immediate problem, while corrective action removes the root cause so the problem does not happen again. **Changing the labeling procedure** addresses the root cause (batch printing), so it is the corrective action.",
+   "whyNot": {
+    "0": "Rejecting and recollecting the samples is the remedial action; it fixes these samples but does not stop the error from recurring.",
+    "1": "Reporting starts the occurrence management process, but it does not itself remove the cause.",
+    "3": "Logging creates a record of the event; it documents the problem but does not correct it."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Quality management chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0149",
+   "tos": "BB-J.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During validation of a blood bank computer system, a tester enters an ABO/D result: anti-A 4+, anti-B 0, anti-D 3+, A1 cells 4+, B cells 4+, with the interpretation 'group A, D-positive'. How should a correctly configured system respond?",
+   "options": [
+    "Reject it: the reverse grouping does not fit group A",
+    "Accept it, since the forward grouping clearly shows group A",
+    "Accept it as group A2 with anti-A1 in the plasma",
+    "Reject it: anti-D reactions must be 4+ to be valid"
+   ],
+   "answer": 0,
+   "why": "Blood bank software checks each entry against a truth table that lists the valid combinations of reactions for every interpretation. Group A plasma should not agglutinate A1 cells, so **an entry whose forward and reverse groupings disagree must be rejected** and held as an unresolved ABO discrepancy rather than recorded as group A.",
+   "whyNot": {
+    "1": "The forward grouping alone does not establish the ABO group; a discrepancy with the reverse grouping must be resolved before a group is recorded.",
+    "2": "Anti-A1 in an A2 person usually reacts weakly and must be shown with anti-A1 lectin and A2 cells; the software cannot assign a subgroup while the discrepancy is unexplained.",
+    "3": "A 3+ anti-D reaction is a valid positive; the problem with this entry is the ABO discrepancy."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Informational systems in the blood bank chapter; ABO blood group system chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0150",
+   "tos": "BB-J.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A blood sample spills on the bench in the blood bank. After absorbing the liquid, which disinfectant is recommended for the surface?",
+   "options": [
+    "1:1,000 dilution of household bleach",
+    "Detergent and water with no disinfectant",
+    "A sterile saline wipe-down",
+    "Freshly made 1:10 household bleach"
+   ],
+   "answer": 3,
+   "why": "Hepatitis B virus can stay infectious on dried surfaces for about a week, so spills need a disinfectant that kills it. A **freshly made 1:10 bleach (sodium hypochlorite) solution** with adequate contact time is the standard choice (an EPA-registered tuberculocidal disinfectant is an alternative).",
+   "whyNot": {
+    "0": "A 1:1,000 dilution is too weak to reliably kill bloodborne viruses in a blood spill.",
+    "1": "Detergent cleans the surface but does not reliably kill HBV or other bloodborne pathogens.",
+    "2": "Saline has no disinfecting action."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Laboratory safety / Transfusion-transmitted diseases chapter; CDC/OSHA Bloodborne Pathogens guidance"
   }
  ]
 }

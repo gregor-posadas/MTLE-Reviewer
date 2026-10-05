@@ -2101,6 +2101,1072 @@
     "3": "Pigment is a helpful diagnostic feature, and the buffer is not used to remove it."
    },
    "ref": "CDC DPDx (cdc.gov/dpdx), Diagnostic procedures: blood specimens (Giemsa staining); Belizario & de Leon, Medical Parasitology in the Philippines, 3rd ed., Plasmodium chapter (laboratory diagnosis)"
+  },
+  {
+   "id": "MP-0101",
+   "tos": "MP-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A medical ward sends four specimens to the microbiology laboratory, each labelled for routine bacterial culture. Which one should be declined, with a request for a more suitable specimen?",
+   "options": [
+    "Pleural fluid aspirated into a sterile tube",
+    "Bone fragment from debridement in a sterile container",
+    "Tip of a Foley urinary catheter removed from a febrile patient",
+    "Purulent material from deep in a surgical wound"
+   ],
+   "answer": 2,
+   "why": "A Foley catheter tip is coated with urethral and periurethral flora as it is pulled out, so whatever grows cannot be linked to infection. **Foley catheter tips are unacceptable for culture**; urine should instead be aspirated from the disinfected sampling port of the catheter.",
+   "whyNot": {
+    "0": "Pleural fluid comes from a normally sterile site and, collected by aspiration into a sterile container, is an acceptable specimen.",
+    "1": "Bone or tissue from debridement is one of the best specimens for osteomyelitis and is accepted for culture.",
+    "3": "Pus collected from deep in a wound is acceptable; aspirates or tissue are preferred over surface swabs, but the specimen is not rejected."
+   },
+   "ref": "Mahon & Lehman 7e, specimen collection and processing chapter (rejection criteria); Bailey & Scott 16e, specimen management chapter"
+  },
+  {
+   "id": "MP-0102",
+   "tos": "MP-A.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A clean-catch urine is streaked with a 0.001-mL calibrated loop onto a sheep blood agar plate. After overnight incubation, 42 colonies of one gram-negative bacillus are counted. What colony count should be reported?",
+   "options": [
+    "420 CFU/mL",
+    "4,200 CFU/mL",
+    "42,000 CFU/mL",
+    "420,000 CFU/mL"
+   ],
+   "answer": 2,
+   "why": "Each colony represents one colony-forming unit in the volume plated, so the count is divided by that volume in mL. With a 0.001-mL loop, **CFU/mL = number of colonies × 1,000**, giving 42 × 1,000 = 42,000 (4.2 × 10^4) CFU/mL.",
+   "whyNot": {
+    "0": "This multiplies by 10, which would apply only if 0.1 mL had been plated.",
+    "1": "This multiplies by 100, the factor for a 0.01-mL loop, not a 0.001-mL loop.",
+    "3": "This multiplies by 10,000, as if only 0.0001 mL had been plated."
+   },
+   "ref": "Mahon & Lehman 7e, urinary tract infections chapter (quantitative urine culture); Bailey & Scott 16e, urinary tract infections chapter",
+   "worked": {
+    "problem": "A urine is plated with a 0.01-mL calibrated loop and 37 colonies grow. What is the colony count?",
+    "steps": [
+     "Volume plated = 0.01 mL, so the multiplication factor is 1 ÷ 0.01 = 100.",
+     "Colony count = 37 × 100 = 3,700 CFU/mL."
+    ],
+    "result": "3.7 × 10^3 CFU/mL"
+   }
+  },
+  {
+   "id": "MP-0103",
+   "tos": "MP-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A stool culture is plated on Hektoen enteric (HE) agar. After overnight incubation, one colony type is green to blue-green with no black center, and the surrounding medium is unchanged. Which organism best fits this appearance?",
+   "options": [
+    "Enterobacter cloacae",
+    "Shigella sonnei",
+    "Salmonella Typhimurium",
+    "Proteus mirabilis"
+   ],
+   "answer": 1,
+   "why": "HE agar uses bile salts to inhibit gram-positive bacteria, and lactose, sucrose and salicin with bromthymol blue and acid fuchsin to show fermentation; ferric ammonium citrate with thiosulfate detects H2S. **Organisms that ferment none of these sugars and make no H2S, typically Shigella, form green colonies without black centers.**",
+   "whyNot": {
+    "0": "Enterobacter ferments lactose and sucrose, so its colonies are yellow-orange (salmon) on HE agar.",
+    "2": "Most Salmonella produce H2S, giving blue-green colonies with black centers.",
+    "3": "Proteus mirabilis usually produces H2S, so its colonies often have black centers."
+   },
+   "ref": "Mahon & Lehman 7e, Enterobacterales chapter (selective and differential media); Bailey & Scott 16e, Enterobacterales chapter"
+  },
+  {
+   "id": "MP-0104",
+   "tos": "MP-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A teenager has fever and right lower abdominal pain that mimics appendicitis after eating undercooked pork. Stool plated on cefsulodin-irgasan-novobiocin (CIN) agar and incubated at 25–30 °C shows colonies with a deep red center and a clear outer zone at 48 hours. Which test best separates the suspected pathogen from Aeromonas, which can look the same on this medium?",
+   "options": [
+    "Lactose fermentation on MacConkey agar",
+    "Gram stain morphology",
+    "Glucose fermentation in TSI",
+    "Cytochrome oxidase"
+   ],
+   "answer": 3,
+   "why": "CIN agar is selective for Yersinia enterocolitica, whose mannitol fermentation with a neutral red indicator gives a 'bull's-eye' colony after 48 hours at 25–30 °C. Aeromonas can form a similar colony, but **Yersinia is oxidase negative whereas Aeromonas is oxidase positive**, so an oxidase test on the colony quickly separates them.",
+   "whyNot": {
+    "0": "Y. enterocolitica is usually a non-lactose fermenter and Aeromonas is variable, so lactose fermentation does not reliably separate them.",
+    "1": "Both organisms are gram-negative bacilli, so the Gram stain cannot tell them apart.",
+    "2": "Both ferment glucose and give an acid butt in TSI."
+   },
+   "ref": "Mahon & Lehman 7e, Enterobacterales chapter (Yersinia) and Vibrio/Aeromonas chapter; Bailey & Scott 16e, Enterobacterales chapter"
+  },
+  {
+   "id": "MP-0105",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A blood culture grows catalase-positive, gram-positive cocci in clusters. A slide coagulase (clumping factor) test on a colony from sheep blood agar is negative. What should be done before reporting the isolate as a coagulase-negative staphylococcus?",
+   "options": [
+    "Do a tube coagulase test, read at 4 h and at 24 h",
+    "Repeat the slide test using a heavier inoculum",
+    "Do a catalase test using 30% hydrogen peroxide",
+    "Report it as CoNS, since the slide test is definitive"
+   ],
+   "answer": 0,
+   "why": "The slide test detects bound coagulase (clumping factor), which some Staphylococcus aureus strains lack, while the tube test detects free coagulase. **A negative slide coagulase test must be confirmed with a tube test**, incubated at 35–37 °C and read at 4 hours and again at 18–24 hours, because some strains clot late and fibrinolysin can dissolve an early clot.",
+   "whyNot": {
+    "1": "A heavier inoculum does not create clumping factor in a strain that lacks it, and very heavy suspensions can autoagglutinate.",
+    "2": "The isolate is already known to be catalase positive; 30% hydrogen peroxide (superoxol) is used for Neisseria, not to separate S. aureus.",
+    "3": "A negative slide test is not definitive because some S. aureus lack clumping factor, so the tube test is required."
+   },
+   "ref": "Mahon & Lehman 7e, Staphylococcus chapter (coagulase tests); Bailey & Scott 16e, Staphylococcus chapter"
+  },
+  {
+   "id": "MP-0106",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An 8-year-old with sore throat, fever and tender anterior neck nodes has a negative rapid group A streptococcal antigen test. Two throat swabs were collected together. What is the recommended next step?",
+   "options": [
+    "Report the result as negative for group A Streptococcus",
+    "Repeat the rapid antigen test on the same swab",
+    "Culture the second swab on sheep blood agar",
+    "Request a heterophile antibody test instead"
+   ],
+   "answer": 2,
+   "why": "Rapid antigen tests are specific but only moderately sensitive, so a negative result can miss true group A streptococcal pharyngitis. **In children and adolescents, a negative rapid antigen test should be backed up by throat culture** (or a sensitive molecular test), because untreated infection carries a risk of rheumatic fever.",
+   "whyNot": {
+    "0": "Reporting a final negative ignores the false-negative rate of the rapid test in a child, the group most at risk of complications.",
+    "1": "Repeating the same insensitive test on the same swab does not improve sensitivity.",
+    "3": "A heterophile test looks for infectious mononucleosis; it does not replace backup testing for group A Streptococcus."
+   },
+   "ref": "Mahon & Lehman 7e, Streptococcus chapter; Bailey & Scott 16e, Streptococcus and upper respiratory tract infections chapters"
+  },
+  {
+   "id": "MP-0107",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A fish vendor at a wet market has a painful, purplish swelling on the finger that began after a cut from a fish fin. Culture yields a small gram-positive rod with alpha hemolysis. Which result most strongly supports Erysipelothrix rhusiopathiae?",
+   "options": [
+    "Tumbling motility in a wet mount at room temperature",
+    "Blackening of the butt of a triple sugar iron slant",
+    "A positive CAMP reaction with Staphylococcus aureus",
+    "Rapid bubbling in 3% hydrogen peroxide"
+   ],
+   "answer": 1,
+   "why": "Erysipeloid follows skin injury while handling fish, shellfish, poultry or meat. Erysipelothrix is catalase negative and nonmotile, and **it is the main gram-positive rod that produces H2S in TSI**, which separates it from Listeria, Corynebacterium and lactobacilli.",
+   "whyNot": {
+    "0": "Tumbling motility at room temperature is typical of Listeria monocytogenes; Erysipelothrix is nonmotile.",
+    "2": "A positive CAMP reaction suggests Listeria (or group B Streptococcus); Erysipelothrix is CAMP negative.",
+    "3": "Erysipelothrix is catalase negative; a positive catalase points to Listeria or Corynebacterium."
+   },
+   "ref": "Mahon & Lehman 7e, aerobic gram-positive bacilli chapter; Bailey & Scott 16e, Erysipelothrix and similar organisms chapter"
+  },
+  {
+   "id": "MP-0108",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A throat swab from an unvaccinated child with a gray membrane over the tonsils is subcultured to Tinsdale medium. Black colonies surrounded by a brown halo appear after 24–48 hours. What does the brown halo indicate?",
+   "options": [
+    "Cystinase activity",
+    "Urease activity",
+    "Lecithinase activity",
+    "Pyrazinamidase activity"
+   ],
+   "answer": 0,
+   "why": "Tinsdale medium contains potassium tellurite and L-cystine; corynebacteria reduce tellurite to form black colonies. **The brown halo comes from cystinase**, which releases H2S from cystine, and is typical of C. diphtheriae and the related C. ulcerans and C. pseudotuberculosis. Toxin production must still be confirmed separately.",
+   "whyNot": {
+    "1": "Urease is tested separately (C. diphtheriae is urease negative, C. ulcerans positive) and does not cause the halo.",
+    "2": "Lecithinase is shown on egg yolk agar, for example by Clostridium perfringens.",
+    "3": "Pyrazinamidase is tested separately and is negative in C. diphtheriae; it does not produce a halo."
+   },
+   "ref": "Mahon & Lehman 7e, Corynebacterium chapter; Bailey & Scott 16e, Corynebacterium and related organisms chapter"
+  },
+  {
+   "id": "MP-0109",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Within 1–5 hours of a fiesta lunch, many guests develop nausea and vomiting. Leftover fried rice is suspected, and Bacillus cereus emetic toxin is considered. Which specimen best links the outbreak to this source?",
+   "options": [
+    "Blood cultures from the sickest guests",
+    "Throat swabs from the kitchen staff",
+    "Urine samples from the affected guests",
+    "Leftover rice for quantitative culture"
+   ],
+   "answer": 3,
+   "why": "The emetic form of B. cereus food poisoning is caused by a heat-stable toxin already formed in starchy food, so the organism does not need to grow in the patient or invade. Because B. cereus is common in the environment and can be found in some healthy people's stools, **recovering large numbers (about 10^5 CFU/g or more) from the implicated food** is the best evidence.",
+   "whyNot": {
+    "0": "B. cereus food poisoning is a toxin-mediated illness without bacteremia, so blood cultures will not help.",
+    "1": "B. cereus is a soil and food organism, not a throat carrier; throat or nose swabs of food handlers are used for staphylococcal outbreaks.",
+    "2": "The organism is not excreted in urine in food poisoning."
+   },
+   "ref": "Mahon & Lehman 7e, Bacillus chapter; Bailey & Scott 16e, Bacillus and similar organisms chapter"
+  },
+  {
+   "id": "MP-0110",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "An Enterobacterales isolate is tested in Moeller lysine decarboxylase broth alongside a control tube of the same base without amino acid. Both tubes are overlaid with mineral oil and read after incubation. Which pair of results is a valid positive lysine decarboxylase test?",
+   "options": [
+    "Lysine tube yellow; control tube yellow",
+    "Lysine tube purple; control tube yellow",
+    "Lysine tube purple; control tube purple",
+    "Lysine tube yellow; control tube purple"
+   ],
+   "answer": 1,
+   "why": "The organism first ferments the small amount of glucose, turning the bromcresol purple indicator yellow, and this acid pH activates the decarboxylase. **If lysine is decarboxylated, alkaline cadaverine turns the tube back to purple while the amino acid–free control stays yellow.** The oil overlay keeps the tubes anaerobic so that oxidative alkalinization does not mimic a positive.",
+   "whyNot": {
+    "0": "Both tubes yellow means glucose was fermented but lysine was not decarboxylated: a negative result.",
+    "2": "A purple control means the base became alkaline without the amino acid (for example, glucose was not fermented), so the test cannot be interpreted.",
+    "3": "A purple control makes the test invalid, and a yellow lysine tube would be negative anyway."
+   },
+   "ref": "Mahon & Lehman 7e, biochemical identification of gram-negative bacteria chapter (decarboxylase tests); Bailey & Scott 16e, Enterobacterales chapter"
+  },
+  {
+   "id": "MP-0111",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A known Escherichia coli strain, used as a negative control, gives a purple color within seconds in a filter-paper oxidase test with Kovács oxidase reagent (tetramethyl-p-phenylenediamine). Which technique error most likely explains this?",
+   "options": [
+    "Taking the colony from sheep blood agar",
+    "Reading the reaction within 10 seconds",
+    "Using reagent prepared fresh that morning",
+    "Applying the colony with a nichrome wire loop"
+   ],
+   "answer": 3,
+   "why": "The oxidase reagent is turned into a purple compound by cytochrome c oxidase, but iron in nichrome or other metal loops can oxidize it as well. **Colonies should be transferred with a platinum loop or a wooden or plastic stick** to avoid false-positive oxidase reactions.",
+   "whyNot": {
+    "0": "Sheep blood agar is a suitable source; colonies from media with fermentable sugars or dyes, such as MacConkey agar, are the ones to avoid.",
+    "1": "Reading within about 10 seconds is correct; color appearing later is not considered positive.",
+    "2": "Fresh reagent is recommended because the reagent oxidizes on standing; it does not cause false positives."
+   },
+   "ref": "Mahon & Lehman 7e, biochemical identification chapter (oxidase test); Bailey & Scott 16e, biochemical identification of gram-negative bacteria"
+  },
+  {
+   "id": "MP-0112",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "An ICU patient receiving meropenem develops ventilator-associated pneumonia. The tracheal aspirate grows a motile, oxidase-negative, non-glucose-fermenting gram-negative bacillus with lavender-green colonies on blood agar and an ammonia-like odor. It is DNase positive, lysine decarboxylase positive, and oxidizes maltose more strongly than glucose. What is the most likely identification?",
+   "options": [
+    "Acinetobacter baumannii",
+    "Achromobacter xylosoxidans",
+    "Elizabethkingia meningoseptica",
+    "Stenotrophomonas maltophilia"
+   ],
+   "answer": 3,
+   "why": "S. maltophilia is a nonfermenter that is usually oxidase negative, motile, DNase positive, lysine decarboxylase positive, and a stronger oxidizer of maltose than glucose. **It is intrinsically resistant to carbapenems through a chromosomal metallo-β-lactamase**, which is why it emerges in patients receiving these drugs; trimethoprim-sulfamethoxazole is the usual treatment.",
+   "whyNot": {
+    "0": "Acinetobacter is also oxidase negative but is nonmotile and DNase negative.",
+    "1": "Achromobacter xylosoxidans is oxidase positive and oxidizes xylose rather than maltose strongly.",
+    "2": "Elizabethkingia meningoseptica is oxidase positive, nonmotile and indole positive."
+   },
+   "ref": "Mahon & Lehman 7e, nonfermenting gram-negative bacilli chapter; Bailey & Scott 16e, Stenotrophomonas maltophilia chapter; CLSI M100 (intrinsic resistance)"
+  },
+  {
+   "id": "MP-0113",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Sputum from a teenager with cystic fibrosis is plated for routine culture. Which medium is added specifically to recover Burkholderia cepacia complex from the heavy mixed flora?",
+   "options": [
+    "Burkholderia cepacia selective agar (BCSA)",
+    "Cefsulodin-irgasan-novobiocin (CIN) agar",
+    "Thiosulfate-citrate-bile salts-sucrose (TCBS) agar",
+    "Buffered charcoal yeast extract (BCYE) agar"
+   ],
+   "answer": 0,
+   "why": "In cystic fibrosis, mucoid Pseudomonas aeruginosa and Staphylococcus aureus can overgrow other organisms, and B. cepacia complex infection has major prognostic and infection-control importance. **Selective media such as BCSA, OFPBL or PC agar**, which contain polymyxin and other inhibitors, are used so that B. cepacia complex is not missed.",
+   "whyNot": {
+    "1": "CIN agar is used to isolate Yersinia enterocolitica from stool.",
+    "2": "TCBS agar is used to isolate Vibrio species from stool.",
+    "3": "BCYE agar is used to grow Legionella."
+   },
+   "ref": "Mahon & Lehman 7e, nonfermenting gram-negative bacilli chapter (Burkholderia); Bailey & Scott 16e, Burkholderia cepacia complex chapter"
+  },
+  {
+   "id": "MP-0114",
+   "tos": "MP-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A Gram-stained vaginal smear is scored by the Nugent method. Which combination of morphotypes gives a score in the bacterial vaginosis range (7–10)?",
+   "options": [
+    "Many large gram-positive rods; no small gram-variable rods",
+    "Many large gram-positive rods; many budding yeast cells",
+    "No large gram-positive rods; many small gram-variable rods",
+    "Many neutrophils; intracellular gram-negative diplococci"
+   ],
+   "answer": 2,
+   "why": "The Nugent score adds points for loss of Lactobacillus morphotypes (large gram-positive rods), for an excess of Gardnerella/Bacteroides morphotypes (small gram-variable rods), and for curved Mobiluncus morphotypes. **Absent lactobacilli with many small gram-variable rods scores 7–10, consistent with bacterial vaginosis**; clue cells are the matching wet-mount finding.",
+   "whyNot": {
+    "0": "A Lactobacillus-dominant smear scores 0–3, which is normal flora.",
+    "1": "Yeasts are not scored by the Nugent method; with many lactobacilli this suggests candidiasis, not bacterial vaginosis.",
+    "3": "These findings suggest gonorrhea, which the Nugent score does not assess."
+   },
+   "ref": "Mahon & Lehman 7e, genital tract infections chapter; Bailey & Scott 16e, genital tract infections chapter (Nugent scoring)"
+  },
+  {
+   "id": "MP-0115",
+   "tos": "MP-A.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "For broth microdilution, a bacterial suspension is adjusted to a 0.5 McFarland standard, taken as about 1.5 × 10^8 CFU/mL. The final concentration needed in each well is 5 × 10^5 CFU/mL. What overall dilution of the standardized suspension is required?",
+   "options": [
+    "1:30",
+    "1:150",
+    "1:300",
+    "1:3,000"
+   ],
+   "answer": 2,
+   "why": "The dilution factor is the starting concentration divided by the target: 1.5 × 10^8 ÷ 5 × 10^5 = 300. **An overall 1:300 dilution gives about 5 × 10^5 CFU/mL**, the inoculum specified for broth microdilution; a heavier inoculum falsely raises MICs and a lighter one lowers them.",
+   "whyNot": {
+    "0": "A 1:30 dilution gives 5 × 10^6 CFU/mL, ten times too heavy.",
+    "1": "A 1:150 dilution gives 1 × 10^6 CFU/mL, twice the target.",
+    "3": "A 1:3,000 dilution gives 5 × 10^4 CFU/mL, ten times too light."
+   },
+   "ref": "CLSI M07 and M100 (inoculum standardization); Mahon & Lehman 7e, antimicrobial susceptibility testing chapter",
+   "worked": {
+    "problem": "A 0.5 McFarland suspension (about 1.5 × 10^8 CFU/mL) must be diluted to 1 × 10^6 CFU/mL. What dilution is needed?",
+    "steps": [
+     "Dilution factor = starting concentration ÷ target concentration.",
+     "1.5 × 10^8 ÷ 1 × 10^6 = 150."
+    ],
+    "result": "1:150"
+   }
+  },
+  {
+   "id": "MP-0116",
+   "tos": "MP-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A lung abscess aspirate grows an anaerobic gram-negative bacillus with thin, pointed ends. Special-potency disks are placed on the primary anaerobic blood agar plate. Which pattern (vancomycin 5 µg / kanamycin 1 mg / colistin 10 µg) is expected for Fusobacterium nucleatum?",
+   "options": [
+    "Resistant / resistant / resistant",
+    "Resistant / susceptible / susceptible",
+    "Susceptible / resistant / resistant",
+    "Susceptible / susceptible / resistant"
+   ],
+   "answer": 1,
+   "why": "Gram-negative anaerobes are almost always vancomycin resistant, and kanamycin and colistin then separate the genera. **Fusobacterium is resistant to vancomycin but susceptible to kanamycin and colistin**, whereas the Bacteroides fragilis group is resistant to all three disks.",
+   "whyNot": {
+    "0": "Resistance to all three disks is the pattern of the B. fragilis group.",
+    "2": "Vancomycin susceptible with kanamycin and colistin resistance is the unusual pattern of Porphyromonas.",
+    "3": "Vancomycin and kanamycin susceptible with colistin resistance is typical of gram-positive anaerobes."
+   },
+   "ref": "Mahon & Lehman 7e, anaerobes chapter (special-potency disks); Bailey & Scott 16e, overview of anaerobic bacteriology chapter"
+  },
+  {
+   "id": "MP-0117",
+   "tos": "MP-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An anaerobic isolate is streaked across an egg yolk agar plate, one half of which was first spread with Clostridium perfringens alpha antitoxin. After incubation, an opaque zone forms around growth on the untreated half but not on the antitoxin half. What does this result show?",
+   "options": [
+    "Lecithinase activity neutralized by specific antitoxin",
+    "Lipase activity forming an iridescent surface sheen",
+    "Proteolysis that clears the egg yolk emulsion",
+    "Beta-hemolysis inhibited by the egg yolk proteins"
+   ],
+   "answer": 0,
+   "why": "This is the Nagler reaction. The alpha toxin of C. perfringens is a lecithinase (phospholipase C) that breaks down egg yolk lecithin to form an opaque precipitate in the agar. **Loss of the opacity where alpha antitoxin was applied shows the lecithinase is C. perfringens alpha toxin.**",
+   "whyNot": {
+    "1": "Lipase produces an oily, iridescent sheen on the colony surface and is not neutralized by alpha antitoxin.",
+    "2": "Proteolysis clears the medium rather than making it opaque.",
+    "3": "Egg yolk agar does not show hemolysis; the double zone of hemolysis is read on blood agar."
+   },
+   "ref": "Mahon & Lehman 7e, anaerobes chapter (Clostridium); Bailey & Scott 16e, spore-forming gram-positive anaerobic bacilli chapter"
+  },
+  {
+   "id": "MP-0118",
+   "tos": "MP-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "After a molar extraction, a farmer develops a hard swelling of the jaw with draining sinus tracts. Yellow granules in the pus are crushed and Gram stained, showing branching gram-positive rods; the modified acid-fast stain is negative. Culture grows best under anaerobic conditions. What is the most likely organism?",
+   "options": [
+    "Nocardia asteroides complex",
+    "Streptomyces somaliensis",
+    "Corynebacterium diphtheriae",
+    "Actinomyces israelii"
+   ],
+   "answer": 3,
+   "why": "Cervicofacial actinomycosis follows dental trauma or extraction, when oral Actinomyces invade tissue and form 'sulfur granules'. **Branching gram-positive rods that are not acid-fast and grow anaerobically** point to Actinomyces israelii, whose colonies often look like a molar tooth.",
+   "whyNot": {
+    "0": "Nocardia is aerobic and partially acid-fast with the modified stain.",
+    "1": "Streptomyces is an aerobic actinomycete that mainly causes mycetoma of the foot.",
+    "2": "C. diphtheriae does not branch, does not form granules, and grows aerobically."
+   },
+   "ref": "Mahon & Lehman 7e, anaerobes chapter (Actinomyces); Bailey & Scott 16e, Actinomyces and similar organisms chapter"
+  },
+  {
+   "id": "MP-0119",
+   "tos": "MP-A.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A man from a rural province has hypopigmented skin patches with loss of sensation and thickened ulnar nerves, and leprosy (Hansen disease) is suspected. Which laboratory test is used to support the diagnosis?",
+   "options": [
+    "Acid-fast stained slit-skin smears, graded as a bacteriologic index",
+    "Culture of a skin biopsy on Löwenstein-Jensen medium",
+    "An interferon-gamma release assay on whole blood",
+    "A lepromin skin test read at 3–4 weeks"
+   ],
+   "answer": 0,
+   "why": "Mycobacterium leprae has never been grown on artificial media, so the laboratory supports the clinical diagnosis by direct staining. **Slit-skin smears (or skin biopsies) stained for acid-fast bacilli are graded as a bacteriologic index**; because M. leprae is less acid-fast than M. tuberculosis, a weaker acid decolorizer is used, as in the Fite method for tissue.",
+   "whyNot": {
+    "1": "M. leprae does not grow on Löwenstein-Jensen or any other artificial medium; it can be propagated only in mouse footpads or armadillos.",
+    "2": "Interferon-gamma release assays are designed to detect M. tuberculosis infection and are not used to diagnose leprosy.",
+    "3": "The lepromin (Mitsuda) test reflects cell-mediated immunity and helps classify the form of leprosy; many unexposed people react, so it does not diagnose infection."
+   },
+   "ref": "Mahon & Lehman 7e, Mycobacterium chapter; Bailey & Scott 16e, Mycobacteria chapter; WHO Guidelines for the diagnosis, treatment and prevention of leprosy"
+  },
+  {
+   "id": "MP-0120",
+   "tos": "MP-A.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Pertussis is suspected in an infant with paroxysmal cough and vomiting after coughing spells. A posterior nasopharyngeal swab is to be collected for culture. Which swab and plating medium should be used?",
+   "options": [
+    "Dacron or flocked swab; Regan-Lowe charcoal agar",
+    "Cotton-tipped swab; Regan-Lowe charcoal agar",
+    "Dacron or flocked swab; MacConkey agar",
+    "Cotton-tipped swab; sheep blood agar"
+   ],
+   "answer": 0,
+   "why": "B. pertussis attaches to the ciliated cells of the nasopharynx and needs special media. **A Dacron, rayon or flocked swab plated on charcoal-containing Regan-Lowe (or Bordet-Gengou) medium** is used, because cotton contains fatty acids that are toxic to the organism; plates are held for up to 7 days, and PCR is now more sensitive than culture.",
+   "whyNot": {
+    "1": "The medium is right, but cotton contains fatty acids that are toxic to B. pertussis.",
+    "2": "The swab is right, but B. pertussis does not grow on MacConkey agar.",
+    "3": "Cotton is toxic to B. pertussis, and the organism does not grow on routine sheep blood agar."
+   },
+   "ref": "Mahon & Lehman 7e, Bordetella chapter; Bailey & Scott 16e, Bordetella pertussis and Bordetella parapertussis chapter"
+  },
+  {
+   "id": "MP-0121",
+   "tos": "MP-A.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A man has an infected wound over his knuckles after punching someone in the mouth. A slow-growing gram-negative bacillus forms small colonies that pit the agar on blood and chocolate agar in CO2, with a bleach-like odor. It does not grow on MacConkey agar and is oxidase positive and catalase negative. What is the most likely identification?",
+   "options": [
+    "Pasteurella multocida",
+    "Capnocytophaga canimorsus",
+    "Haemophilus parainfluenzae",
+    "Eikenella corrodens"
+   ],
+   "answer": 3,
+   "why": "Eikenella corrodens is part of the oral flora, so it is classically recovered from human bites and clenched-fist injuries. **Pitting colonies with a bleach-like odor that are oxidase positive, catalase negative and do not grow on MacConkey agar** identify it; it is also the 'E' of the HACEK endocarditis group.",
+   "whyNot": {
+    "0": "Pasteurella comes from cat and dog bites and is catalase and indole positive, without pitting.",
+    "1": "Capnocytophaga canimorsus is linked to dog bites, forms thin fusiform rods, and is catalase and oxidase positive.",
+    "2": "H. parainfluenzae needs V factor, so it does not grow on sheep blood agar alone, and it neither pits the agar nor smells of bleach."
+   },
+   "ref": "Mahon & Lehman 7e, fastidious gram-negative bacilli chapter (HACEK); Bailey & Scott 16e, Eikenella and related organisms chapter"
+  },
+  {
+   "id": "MP-0122",
+   "tos": "MP-A.6",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A pregnant woman at a routine prenatal visit has a reactive RPR at a titer of 1:2. She has no lesions and no history of syphilis. A Treponema pallidum particle agglutination (TP-PA) test is nonreactive and remains nonreactive on a repeat specimen 4 weeks later. What is the most likely interpretation?",
+   "options": [
+    "Untreated early latent syphilis",
+    "Prozone effect in the RPR test",
+    "Biologic false-positive nontreponemal result",
+    "Syphilis treated adequately in the past"
+   ],
+   "answer": 2,
+   "why": "RPR and VDRL detect antibodies to a cardiolipin-lecithin-cholesterol antigen, which can be present in pregnancy, autoimmune disease, some infections and other conditions. **A reactive nontreponemal test with a repeatedly nonreactive treponemal test is a biologic false positive**, so syphilis is not diagnosed.",
+   "whyNot": {
+    "0": "Latent syphilis would give a reactive treponemal test such as TP-PA.",
+    "1": "Prozone causes a falsely negative or weak reaction in undiluted serum with very high antibody levels, not a low-titer reactive RPR.",
+    "3": "After treated syphilis, treponemal tests usually stay reactive for life, so a nonreactive TP-PA argues against past infection."
+   },
+   "ref": "Mahon & Lehman 7e, spirochetes chapter (syphilis serology); Bailey & Scott 16e, Treponema, Borrelia and Leptospira chapter"
+  },
+  {
+   "id": "MP-0123",
+   "tos": "MP-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with advanced HIV has headache and fever. The CSF India ink preparation shows no encapsulated yeasts. Which test on the CSF is most sensitive for cryptococcal meningitis?",
+   "options": [
+    "Repeat India ink on a larger centrifuged volume",
+    "Cryptococcal antigen detection by lateral flow assay",
+    "Gram stain of the cytocentrifuged sediment",
+    "Germ tube test on the CSF sediment"
+   ],
+   "answer": 1,
+   "why": "India ink shows the capsule under the microscope but misses many cases, especially when few yeasts are present. **Detecting capsular polysaccharide (glucuronoxylomannan) by lateral flow assay or latex agglutination is far more sensitive**, and fungal culture should also be set up.",
+   "whyNot": {
+    "0": "Repeating India ink is still microscopy with limited sensitivity.",
+    "2": "Gram stain shows yeasts poorly and is less sensitive than India ink.",
+    "3": "The germ tube test identifies Candida albicans colonies; it is not a test for cryptococcal meningitis."
+   },
+   "ref": "Mahon & Lehman 7e, opportunistic mycoses chapter (Cryptococcus); Bailey & Scott 16e, laboratory methods in mycology / yeasts chapter"
+  },
+  {
+   "id": "MP-0124",
+   "tos": "MP-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A gardener pricked by a rose thorn develops a chain of nodules that ulcerate along the lymphatics of the forearm. At 25 °C, culture grows a mold with thin septate hyphae and small conidia clustered like petals at the tips of slender conidiophores. At 37 °C, it converts to small, elongated (cigar-shaped) budding yeasts. Which fungus is it?",
+   "options": [
+    "Sporothrix schenckii",
+    "Talaromyces marneffei",
+    "Paracoccidioides brasiliensis",
+    "Fonsecaea pedrosoi"
+   ],
+   "answer": 0,
+   "why": "Nodules spreading along lymphatics after a thorn or plant injury are classic for sporotrichosis. **Sporothrix schenckii is thermally dimorphic, forming a mold with 'flowerette' conidia at 25 °C and cigar-shaped yeasts at 37 °C.**",
+   "whyNot": {
+    "1": "Talaromyces (formerly Penicillium) marneffei forms a mold with a diffusible red pigment and brush-like conidiophores at 25 °C, and yeasts that divide by fission (with a cross wall) at 37 °C.",
+    "2": "Paracoccidioides forms a slow-growing mold at 25 °C and, at 37 °C, large yeasts with multiple narrow-based buds (a 'mariner's wheel').",
+    "3": "Fonsecaea is a dematiaceous mold causing chromoblastomycosis; it forms sclerotic bodies in tissue, not cigar-shaped yeasts."
+   },
+   "ref": "Mahon & Lehman 7e, subcutaneous mycoses chapter; Bailey & Scott 16e, thermally dimorphic fungi chapter"
+  },
+  {
+   "id": "MP-0125",
+   "tos": "MP-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with advanced HIV has fever, dry cough and diffuse bilateral lung infiltrates, and Pneumocystis pneumonia is suspected. Induced sputum is sent to the laboratory. Which approach can confirm the diagnosis?",
+   "options": [
+    "Culture on Sabouraud dextrose agar for up to 4 weeks",
+    "Serum cryptococcal antigen by lateral flow assay",
+    "Immunofluorescent staining or PCR of the specimen",
+    "Blood culture in a lysis-centrifugation tube"
+   ],
+   "answer": 2,
+   "why": "Pneumocystis jirovecii cannot be grown in routine culture, so it must be found directly in respiratory specimens. **Immunofluorescent antibody staining (or GMS, calcofluor white or Giemsa-type stains) and PCR** are used; GMS shows round to cup-shaped cysts about 4–7 µm across, and bronchoalveolar lavage is more sensitive than induced sputum.",
+   "whyNot": {
+    "0": "P. jirovecii does not grow on fungal culture media, however long they are incubated.",
+    "1": "Cryptococcal antigen testing detects Cryptococcus, not Pneumocystis.",
+    "3": "Lysis-centrifugation blood cultures help recover Histoplasma and other fungi from blood; Pneumocystis is not recovered in culture."
+   },
+   "ref": "Mahon & Lehman 7e, opportunistic mycoses chapter (Pneumocystis); Bailey & Scott 16e, Pneumocystis jirovecii chapter"
+  },
+  {
+   "id": "MP-0126",
+   "tos": "MP-C.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During the rainy season, a 6-year-old has fever, headache and neck stiffness. The CSF shows a mildly raised white count with mostly lymphocytes, normal glucose, and a negative Gram stain. Which test is best for confirming the most common viral cause?",
+   "options": [
+    "Viral culture of CSF in monkey kidney cells",
+    "Serum IgM antibody to herpes simplex virus",
+    "Bacterial culture of CSF on chocolate agar",
+    "Enterovirus reverse-transcription PCR on CSF"
+   ],
+   "answer": 3,
+   "why": "These findings fit aseptic (viral) meningitis, which in children is caused mostly by enteroviruses. **RT-PCR of CSF is the most sensitive and fastest test for enteroviral meningitis**, and a positive result can shorten antibiotic use and hospital stay.",
+   "whyNot": {
+    "0": "Cell culture is slower and less sensitive, and some enteroviruses grow poorly or not at all.",
+    "1": "Serum HSV IgM is not useful for diagnosing acute CNS infection; HSV is detected by CSF PCR, and it is a less common cause here.",
+    "2": "Bacterial culture helps exclude bacterial meningitis but cannot detect a virus."
+   },
+   "ref": "Mahon & Lehman 7e, viral pathogens chapter (enteroviruses) and CNS infections chapter; Bailey & Scott 16e, laboratory diagnosis of viral infections chapter"
+  },
+  {
+   "id": "MP-0127",
+   "tos": "MP-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Fluid from a cluster of vesicles on a patient's lip is inoculated into human fibroblast (MRC-5) and A549 cell cultures. If herpes simplex virus is present, which cytopathic effect is expected?",
+   "options": [
+    "Enlarged, rounded, refractile cells within 1–3 days, spreading quickly",
+    "Small foci of swollen cells in fibroblasts only, enlarging over 1–3 weeks",
+    "Large syncytia forming mainly in HEp-2 cells",
+    "Grapelike clusters of rounded cells, best seen in A549 cells"
+   ],
+   "answer": 0,
+   "why": "Herpes simplex virus grows in many cell types and replicates quickly. **Rounding and ballooning of cells that appear within 1–3 days and spread rapidly across the monolayer** is typical of HSV, whereas cytomegalovirus and varicella-zoster virus produce slow, focal CPE.",
+   "whyNot": {
+    "1": "Slow, focal CPE limited to fibroblasts and developing over 1–3 weeks is the pattern of cytomegalovirus.",
+    "2": "Syncytia in HEp-2 cells are typical of respiratory syncytial virus.",
+    "3": "Grapelike clusters of rounded cells in A549 or HEp-2 cells are typical of adenovirus."
+   },
+   "ref": "Mahon & Lehman 7e, laboratory diagnosis of viral infections chapter (cell culture); Bailey & Scott 16e, laboratory methods in virology chapter"
+  },
+  {
+   "id": "MP-0128",
+   "tos": "MP-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 10-month-old in a crowded ward has vomiting followed by profuse watery diarrhea, and rotavirus is suspected. Which specimen and test are most appropriate?",
+   "options": [
+    "Nasopharyngeal swab for viral culture",
+    "Stool for rotavirus antigen immunoassay",
+    "Serum for rotavirus IgM antibody",
+    "Rectal swab for culture on TCBS agar"
+   ],
+   "answer": 1,
+   "why": "Rotavirus is shed in very large amounts in stool early in illness and grows poorly in routine cell culture. **Stool tested by enzyme immunoassay, a rapid antigen test or PCR** is the standard approach; stool should be collected early and refrigerated if testing is delayed.",
+   "whyNot": {
+    "0": "Rotavirus is an enteric virus and is not looked for in respiratory specimens; it also grows poorly in routine culture.",
+    "2": "Serology is not used for diagnosing acute rotavirus infection.",
+    "3": "TCBS agar isolates Vibrio species and cannot detect a virus."
+   },
+   "ref": "Mahon & Lehman 7e, viral pathogens chapter (rotavirus); Bailey & Scott 16e, laboratory diagnosis of viral infections chapter"
+  },
+  {
+   "id": "MP-0129",
+   "tos": "MP-F.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Brain tissue from a patient with suspected Creutzfeldt-Jakob disease was processed in the laboratory. Which method is recommended for decontaminating reusable, heat-resistant instruments that touched the tissue?",
+   "options": [
+    "A standard autoclave cycle at 121 °C for 15 minutes",
+    "Overnight soaking in 10% buffered formalin",
+    "Immersion in 1 N sodium hydroxide, then extended autoclaving",
+    "Soaking in 2% glutaraldehyde for 10 hours"
+   ],
+   "answer": 2,
+   "why": "Prions are misfolded proteins with no nucleic acid and resist the usual heat, radiation and chemical treatments. **Combined treatment with 1 N sodium hydroxide (or strong hypochlorite) and extended or high-temperature autoclaving** is recommended, and disposable items should be incinerated.",
+   "whyNot": {
+    "0": "A routine 15-minute cycle at 121 °C does not reliably inactivate prions.",
+    "1": "Formalin does not inactivate prions and can stabilize their infectivity.",
+    "3": "Glutaraldehyde, like other aldehydes, does not inactivate prions and may fix them onto instruments."
+   },
+   "ref": "Mahon & Lehman 7e, control of microorganisms chapter (prions); Bailey & Scott 16e, laboratory safety and sterilization chapter; WHO infection control guidelines for transmissible spongiform encephalopathies"
+  },
+  {
+   "id": "MP-0130",
+   "tos": "MP-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An anaerobic jar with a gas-generating sachet is set up with a methylene blue indicator strip. After the time recommended by the manufacturer, the strip is still blue. What does this mean?",
+   "options": [
+    "Anaerobic conditions have been reached",
+    "Anaerobic conditions have not been reached",
+    "The carbon dioxide level is too high for anaerobes",
+    "The strip has detected hydrogen gas in the jar"
+   ],
+   "answer": 1,
+   "why": "Methylene blue is blue when oxidized and becomes colorless when reduced. **A strip that stays blue means oxygen is still present**, so the jar seal, the sachet or the catalyst should be checked and the plates moved to a working system.",
+   "whyNot": {
+    "0": "Anaerobiosis would turn the methylene blue strip colorless.",
+    "2": "The indicator responds to the oxidation-reduction state, not to carbon dioxide.",
+    "3": "The strip does not detect hydrogen; it shows whether oxygen has been removed."
+   },
+   "ref": "Mahon & Lehman 7e, anaerobes chapter (anaerobic incubation systems); Bailey & Scott 16e, anaerobic bacteriology chapter"
+  },
+  {
+   "id": "MP-0131",
+   "tos": "MP-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On a daily Gram stain quality-control slide made from Staphylococcus aureus and Escherichia coli, both organisms appear purple. What is the most likely cause?",
+   "options": [
+    "Safranin was left on too long",
+    "Gram's iodine was left out",
+    "Decolorizer was applied too long",
+    "Decolorizer was applied too briefly"
+   ],
+   "answer": 3,
+   "why": "Decolorization is the critical step: it removes the crystal violet–iodine complex from gram-negative cells but not from gram-positive cells. **If gram-negative control cells stay purple, the smear was under-decolorized** (or was too thick), so patient smears from that run should be reviewed.",
+   "whyNot": {
+    "0": "Leaving the counterstain on longer does not make gram-negative cells purple.",
+    "1": "Without iodine, crystal violet washes out of gram-positive cells too, so both organisms would look pink.",
+    "2": "Over-decolorization makes gram-positive cells look pink, not gram-negative cells purple."
+   },
+   "ref": "Mahon & Lehman 7e, microscopy chapter (Gram stain and quality control); Bailey & Scott 16e, role of microscopy chapter"
+  },
+  {
+   "id": "MP-0132",
+   "tos": "MP-G.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "During weekly disk diffusion QC with E. coli ATCC 25922, the zones for amoxicillin-clavulanate and imipenem are below their acceptable ranges, while all other agents on the same plates are in range. The disk cartridges had been kept in the refrigerator door and opened while still cold. What is the most likely cause?",
+   "options": [
+    "Loss of potency of the labile disks during storage",
+    "An inoculum heavier than the 0.5 McFarland standard",
+    "Agar poured deeper than the standard 4 mm",
+    "Contamination of the QC strain with another organism"
+   ],
+   "answer": 0,
+   "why": "Inoculum density and agar depth affect every drug on the plate, so an error limited to a few agents points to the disks. **Clavulanate combinations and carbapenems are among the most labile agents**, and condensation from opening cold cartridges speeds their breakdown; working disks should be kept refrigerated with desiccant and allowed to reach room temperature before opening.",
+   "whyNot": {
+    "1": "A heavy inoculum would shrink the zones of all agents, not just two.",
+    "2": "Agar that is too deep would make all zones smaller, not just two.",
+    "3": "A mixed culture would usually show up on a purity plate and would affect more than two agents."
+   },
+   "ref": "CLSI M02 and M100 (disk storage and QC troubleshooting); Mahon & Lehman 7e, antimicrobial susceptibility testing chapter"
+  },
+  {
+   "id": "MP-0133",
+   "tos": "MP-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Oxidase-positive gram-negative diplococci grow on modified Thayer-Martin agar from a vaginal swab of a 5-year-old girl. What should the laboratory do before reporting Neisseria gonorrhoeae?",
+   "options": [
+    "Report it presumptively, as colony and Gram stain are typical",
+    "Confirm the identification by two tests with different principles",
+    "Do a beta-lactamase test and report if it is positive",
+    "Discard the isolate once the presumptive report is sent"
+   ],
+   "answer": 1,
+   "why": "In a child, gonococcal infection implies sexual abuse and carries legal consequences, while commensal Neisseria species and Moraxella can be mistaken for N. gonorrhoeae. **The identification must be confirmed by at least two methods based on different principles** (for example, biochemical and MALDI-TOF or molecular), and the isolate should be saved.",
+   "whyNot": {
+    "0": "A presumptive identification is not acceptable when a misidentification would have serious legal and social consequences.",
+    "2": "Beta-lactamase production is a resistance property; it does not confirm the species.",
+    "3": "The isolate should be kept for confirmation and possible further testing, not discarded."
+   },
+   "ref": "Mahon & Lehman 7e, Neisseria and Moraxella chapter; Bailey & Scott 16e, Neisseria chapter; CDC STI Treatment Guidelines (sexual assault and abuse in children)"
+  },
+  {
+   "id": "MP-0134",
+   "tos": "MP-G.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A TB culture laboratory decontaminates sputum with NALC-NaOH. Over the last quarter, only 0.5% of cultures were lost to contamination, against a commonly used target of about 2–5%, and the rate of smear-positive, culture-negative specimens has risen. What is the most likely problem?",
+   "options": [
+    "Specimens are being refrigerated too long before processing",
+    "The NALC is liquefying the mucus too efficiently",
+    "Too little NaOH is being used, so normal flora survive",
+    "Decontamination is too harsh and is killing mycobacteria"
+   ],
+   "answer": 3,
+   "why": "Every decontamination step kills some mycobacteria along with the normal flora, so a small proportion of contaminated cultures is expected. **A contamination rate below about 2%, together with more smear-positive, culture-negative specimens, suggests the decontamination is too harsh**, for example NaOH that is too concentrated or left on too long.",
+   "whyNot": {
+    "0": "Delays before processing let normal flora multiply and would raise, not lower, the contamination rate.",
+    "1": "NALC is only a mucolytic agent; it does not kill mycobacteria.",
+    "2": "Too little NaOH would push the contamination rate above the target range."
+   },
+   "ref": "Mahon & Lehman 7e, Mycobacterium chapter (specimen processing and quality control); Bailey & Scott 16e, Mycobacteria chapter"
+  },
+  {
+   "id": "MP-0135",
+   "tos": "MP-G.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A hospital laboratory is sending whole blood from a patient with suspected dengue to a reference laboratory for PCR by courier. Which shipping classification applies?",
+   "options": [
+    "UN 2814, Infectious substance affecting humans (Category A)",
+    "UN 3291, Regulated medical waste",
+    "Exempt human specimen (minimal likelihood of pathogens)",
+    "UN 3373, Biological substance, Category B"
+   ],
+   "answer": 3,
+   "why": "Patient specimens sent for diagnosis that are not expected to contain a Category A agent are shipped as **UN 3373, 'Biological substance, Category B', in triple packaging**. Category A (UN 2814) is reserved for agents that can cause permanent disability or death in healthy people on exposure, such as Ebola virus or cultures of Mycobacterium tuberculosis.",
+   "whyNot": {
+    "0": "Only cultures of dengue virus fall under Category A; a patient specimen sent for diagnosis is Category B.",
+    "1": "UN 3291 covers clinical waste for disposal, not diagnostic specimens.",
+    "2": "The exempt category is for specimens with minimal likelihood of pathogens; a specimen sent for dengue PCR is expected to contain one."
+   },
+   "ref": "WHO Guidance on regulations for the transport of infectious substances; Mahon & Lehman 7e, laboratory safety chapter; Bailey & Scott 16e, specimen management chapter (packaging and shipping)"
+  },
+  {
+   "id": "MP-0136",
+   "tos": "MP-G.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A blood culture from a farmer who drinks raw goat's milk grows tiny, faintly staining gram-negative coccobacilli after 4 days. They are oxidase positive and urease positive and do not grow on MacConkey agar. What should the technologist do next?",
+   "options": [
+    "Do all further work in a biosafety cabinet",
+    "Sniff the plates to check for an odor",
+    "Run a biochemical ID panel on the open bench",
+    "Subculture to more media on the open bench"
+   ],
+   "answer": 0,
+   "why": "Brucella is one of the most common causes of laboratory-acquired infection because it spreads by aerosols and has a very low infectious dose. **When Brucella is suspected, all further work should be done in a biosafety cabinet with BSL-3 practices**, plates should never be sniffed, and the isolate should be referred to a reference laboratory for confirmation.",
+   "whyNot": {
+    "1": "Sniffing plates has caused laboratory-acquired brucellosis and should never be done.",
+    "2": "Open-bench work creates aerosols, and commercial panels can misidentify Brucella.",
+    "3": "Open-bench subculturing exposes staff to infectious aerosols."
+   },
+   "ref": "Mahon & Lehman 7e, Brucella chapter and laboratory safety chapter; Bailey & Scott 16e, Brucella chapter; CDC/NIH Biosafety in Microbiological and Biomedical Laboratories"
+  },
+  {
+   "id": "MP-0137",
+   "tos": "MP-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 7-year-old from a farming barangay develops cough, wheezing and passing lung infiltrates with marked blood eosinophilia. Stool ova and parasite exams are negative, but Ascaris lumbricoides eggs appear in stool about 2 months later. Why were the early stool exams negative?",
+   "options": [
+    "Stools were examined only by direct wet mount",
+    "Adult worms shed eggs only every few weeks",
+    "Larvae were still in the lungs, not yet egg-laying adults",
+    "The child was reinfected later through the skin"
+   ],
+   "answer": 2,
+   "why": "After swallowed eggs hatch, Ascaris larvae pass through the liver and lungs, causing eosinophilic pneumonitis (Löffler syndrome), and are then swallowed to mature in the intestine. **Eggs appear in stool only after the prepatent period of about 2–3 months**, so stool is negative during the lung phase; larvae are occasionally seen in sputum.",
+   "whyNot": {
+    "0": "No method, including concentration, can find eggs that are not yet being produced.",
+    "1": "Adult female Ascaris produce very large numbers of eggs every day once mature.",
+    "3": "Ascaris is acquired by swallowing embryonated eggs, not by skin penetration."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, intestinal nematodes (Ascaris); CDC DPDx, Ascariasis"
+  },
+  {
+   "id": "MP-0138",
+   "tos": "MP-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A lymphatic filariasis survey in a Philippine province must test residents at a daytime community clinic. Which test can reliably detect Wuchereria bancrofti infection in blood collected at any hour?",
+   "options": [
+    "Giemsa-stained thick film of daytime blood",
+    "Knott concentration of daytime venous blood",
+    "Rapid test for circulating filarial antigen",
+    "Skin snips examined in saline"
+   ],
+   "answer": 2,
+   "why": "W. bancrofti microfilariae in the Philippines are nocturnally periodic, so they are scarce in daytime blood and films must be collected at night (about 10 p.m. to 2 a.m.). **Rapid immunochromatographic tests for circulating filarial antigen**, which is released by the adult worms, work on blood taken at any time and are used in mapping and transmission assessment surveys; they detect W. bancrofti but not Brugia.",
+   "whyNot": {
+    "0": "Because of nocturnal periodicity, microfilariae are few or absent in daytime blood, so a day film often misses the infection.",
+    "1": "Concentration improves sensitivity but cannot find microfilariae that are not circulating during the day.",
+    "3": "Skin snips are used for Onchocerca volvulus, whose microfilariae live in the skin, not for W. bancrofti."
+   },
+   "ref": "CDC DPDx, Lymphatic filariasis; WHO Global Programme to Eliminate Lymphatic Filariasis, monitoring and epidemiological assessment manual; Belizario & de Leon, Medical Parasitology in the Philippines, filarial worms"
+  },
+  {
+   "id": "MP-0139",
+   "tos": "MP-H.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient receiving high-dose corticosteroids for an autoimmune disease develops gram-negative bacteremia, abdominal pain and respiratory distress. Sputum shows slender larvae with a notched tail. Which feature of the parasite's life cycle best explains this severe illness?",
+   "options": [
+    "Ingestion of embryonated eggs from moist soil",
+    "Autoinfection, as larvae become infective within the host",
+    "Inoculation of larvae through a mosquito bite",
+    "Encystment of larvae in muscle after eating raw pork"
+   ],
+   "answer": 1,
+   "why": "Strongyloides stercoralis rhabditiform larvae can develop into filariform larvae inside the bowel and reinvade the bowel wall or perianal skin. **This autoinfection lets the worm persist for decades and, with corticosteroids or HTLV-1 infection, multiply into hyperinfection or disseminated disease**, with larvae in sputum and enteric bacteria carried into the blood.",
+   "whyNot": {
+    "0": "Ingesting embryonated eggs is how Ascaris and Trichuris are acquired; it does not explain a massive larval burden.",
+    "2": "Mosquitoes transmit filarial worms, not Strongyloides.",
+    "3": "Larvae encysting in muscle after eating raw pork describes Trichinella."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, intestinal nematodes (Strongyloides); CDC DPDx, Strongyloidiasis"
+  },
+  {
+   "id": "MP-0140",
+   "tos": "MP-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 3-year-old who often eats soil and plays with puppies has an enlarged liver, wheezing and marked eosinophilia. Visceral larva migrans from Toxocara canis is suspected. Which test best supports the diagnosis?",
+   "options": [
+    "Stool concentration for Toxocara eggs",
+    "Perianal cellulose-tape preparation",
+    "Thick blood film for migrating larvae",
+    "Serum ELISA with Toxocara larval antigens"
+   ],
+   "answer": 3,
+   "why": "Humans are accidental hosts in whom Toxocara larvae wander through tissues but never mature into adult worms. **Because no eggs are produced, diagnosis relies on serology (ELISA with excretory-secretory antigens)** together with eosinophilia and clinical findings, or rarely larvae in tissue.",
+   "whyNot": {
+    "0": "No adult worms develop in the human intestine, so no eggs appear in stool.",
+    "1": "The cellulose-tape preparation is used for Enterobius vermicularis eggs.",
+    "2": "Toxocara larvae migrate through tissues and are not seen in blood films."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, tissue nematodes and larva migrans; CDC DPDx, Toxocariasis"
+  },
+  {
+   "id": "MP-0141",
+   "tos": "MP-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An overseas worker returning from Egypt has blood in the urine, and Schistosoma haematobium is suspected. How should urine be collected to give the best chance of finding eggs?",
+   "options": [
+    "First-morning midstream urine",
+    "Random urine collected at bedtime",
+    "Terminal portion of urine collected near midday",
+    "Midstream urine collected after an overnight fast"
+   ],
+   "answer": 2,
+   "why": "S. haematobium adults live in the veins around the bladder, and eggs with a terminal spine are passed in urine. **Egg output peaks around midday, and the last portion of the stream carries the most eggs**, so a terminal midday specimen, concentrated by sedimentation or filtration, is preferred.",
+   "whyNot": {
+    "0": "First-morning urine is not collected at the time of peak egg output.",
+    "1": "Bedtime urine is not collected at the time of peak egg output.",
+    "3": "Fasting does not affect egg output, and a midstream sample misses the egg-rich last portion."
+   },
+   "ref": "CDC DPDx, Schistosomiasis; Belizario & de Leon, Medical Parasitology in the Philippines, blood flukes; Mahon & Lehman 7e, parasitology chapter"
+  },
+  {
+   "id": "MP-0142",
+   "tos": "MP-H.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A shepherd's son has a slowly enlarging liver cyst. Fluid aspirated before the cyst was recognized contains many small protoscolices with hooklets ('hydatid sand'). How did the patient most likely acquire this infection?",
+   "options": [
+    "Eating undercooked lamb containing hydatid cysts",
+    "Swallowing eggs passed in the feces of infected dogs",
+    "Larvae penetrating the skin while walking barefoot",
+    "Eating raw freshwater fish containing plerocercoids"
+   ],
+   "answer": 1,
+   "why": "Echinococcus granulosus adults live in the intestine of dogs, which pass eggs in their feces. **Humans become accidental intermediate hosts by swallowing these eggs**, which hatch and form hydatid cysts in the liver or lungs; eating infected organs is how dogs, not humans, become infected.",
+   "whyNot": {
+    "0": "Eating hydatid cysts in offal infects dogs, the definitive host; it does not cause hydatid disease in humans.",
+    "2": "Skin penetration by larvae is the route for hookworms and Strongyloides.",
+    "3": "Plerocercoids in raw fish transmit Diphyllobothrium."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, cestodes (Echinococcus); CDC DPDx, Echinococcosis"
+  },
+  {
+   "id": "MP-0143",
+   "tos": "MP-H.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient with megaloblastic anemia often ate raw freshwater fish while working near lakes in northern Europe. A stool concentrate shows oval, yellow-brown eggs about 65 × 45 µm with an inconspicuous operculum and a small knob at the opposite end. Which parasite is most likely?",
+   "options": [
+    "Diphyllobothrium latum",
+    "Clonorchis sinensis",
+    "Fasciola hepatica",
+    "Taenia saginata"
+   ],
+   "answer": 0,
+   "why": "D. latum, the broad fish tapeworm, is acquired by eating plerocercoid larvae in raw fish and can take up enough vitamin B12 to cause megaloblastic anemia. **It is the human tapeworm that passes operculated, unembryonated eggs**, usually with a small knob at the abopercular end.",
+   "whyNot": {
+    "1": "Clonorchis eggs are much smaller (about 27–35 µm) with a shouldered operculum.",
+    "2": "Fasciola eggs are much larger (about 130–150 µm) and are acquired from water plants.",
+    "3": "Taenia eggs are round with a radially striated shell and a hooked oncosphere, and have no operculum."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, cestodes; CDC DPDx, Diphyllobothriasis"
+  },
+  {
+   "id": "MP-0144",
+   "tos": "MP-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A routine stool examination of an asymptomatic food handler shows, in an iodine-stained concentrate, spherical cysts measuring 13–15 µm with a calibrated ocular micrometer. Mature cysts have four nuclei with small central karyosomes and even peripheral chromatin, and a trichrome smear shows chromatoid bodies with blunt, rounded ends. No trophozoites are seen. How should this be reported?",
+   "options": [
+    "Entamoeba coli cysts",
+    "Entamoeba hartmanni cysts",
+    "Entamoeba histolytica/E. dispar cysts",
+    "Entamoeba histolytica cysts (pathogenic)"
+   ],
+   "answer": 2,
+   "why": "Cysts larger than 10 µm with up to four Entamoeba-type nuclei and blunt-ended chromatoid bodies fit the E. histolytica group, but **E. histolytica cysts cannot be told apart from those of nonpathogenic E. dispar by microscopy**, so they are reported as E. histolytica/E. dispar unless an E. histolytica-specific antigen test or PCR, or trophozoites containing red cells, settles it.",
+   "whyNot": {
+    "0": "E. coli cysts are usually larger, have up to eight nuclei with eccentric karyosomes and uneven peripheral chromatin, and have splinter-ended chromatoid bodies.",
+    "1": "E. hartmanni cysts look similar but measure less than 10 µm, which is why cysts must be measured with a calibrated micrometer.",
+    "3": "Microscopy cannot confirm E. histolytica, because nonpathogenic E. dispar looks identical; a specific antigen test or PCR is needed before reporting E. histolytica alone."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, intestinal amoebae; CDC DPDx, Amebiasis"
+  },
+  {
+   "id": "MP-0145",
+   "tos": "MP-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A soft contact lens wearer who rinses her lenses in homemade saline has severe eye pain and a ring-shaped corneal infiltrate. Bacterial and fungal cultures are negative. Which culture method is most appropriate for the corneal scraping?",
+   "options": [
+    "Sabouraud dextrose agar incubated at 30 °C",
+    "Sheep blood agar incubated in 5% CO2",
+    "Diamond's TYM broth incubated at 37 °C",
+    "Non-nutrient agar with an E. coli overlay"
+   ],
+   "answer": 3,
+   "why": "Acanthamoeba keratitis is linked to contact lens wear and contaminated lens solutions or water. **Free-living amoebae are cultured on non-nutrient agar seeded with E. coli (or Enterobacter)**, which they feed on, leaving tracks; wrinkled double-walled cysts and trophozoites with spiky acanthopodia can then be seen.",
+   "whyNot": {
+    "0": "Sabouraud dextrose agar is a fungal medium.",
+    "1": "Sheep blood agar is for bacteria and does not provide the bacterial lawn the amoebae feed on.",
+    "2": "Diamond's TYM medium is used to culture Trichomonas vaginalis."
+   },
+   "ref": "CDC DPDx, Free-living amebic infections; Belizario & de Leon, Medical Parasitology in the Philippines, free-living amoebae"
+  },
+  {
+   "id": "MP-0146",
+   "tos": "MP-H.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A trichrome-stained stool smear shows many round bodies that vary widely in size, from about 6 to 30 µm. Each has a large central area that fills most of the cell, with a thin rim of cytoplasm containing two to four small nuclei pressed against the edge. A trainee calls them yeasts. What should be reported?",
+   "options": [
+    "Blastocystis species (central body form)",
+    "Budding yeast cells",
+    "Iodamoeba bütschlii cysts",
+    "Giardia duodenalis cysts"
+   ],
+   "answer": 0,
+   "why": "This is the central body (vacuolar) form of Blastocystis, the form most often seen in stool. **A large central body that pushes a thin band of cytoplasm and nuclei to the edge, with wide size variation**, is characteristic; its role in disease is still debated, and it is usually reported with a semi-quantitative estimate.",
+   "whyNot": {
+    "1": "Yeasts are smaller (about 3–8 µm), oval, and show budding or pseudohyphae; they have no central body with peripheral nuclei.",
+    "2": "Iodamoeba cysts have a single nucleus with a large karyosome beside a big glycogen vacuole, and their shape is often irregular.",
+    "3": "Giardia cysts are oval, 8–12 µm, with four nuclei, axonemes and median bodies."
+   },
+   "ref": "CDC DPDx, Blastocystis; Belizario & de Leon, Medical Parasitology in the Philippines, intestinal protozoa"
+  },
+  {
+   "id": "MP-0147",
+   "tos": "MP-H.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A hog raiser has dysentery. A saline wet mount of fresh stool shows a large oval organism about 70 µm long, covered with cilia and moving in a rotary fashion, with a big kidney-shaped nucleus. Which parasite is it?",
+   "options": [
+    "Entamoeba histolytica",
+    "Balantidium coli",
+    "Giardia duodenalis",
+    "Chilomastix mesnili"
+   ],
+   "answer": 1,
+   "why": "Balantidium coli (now often called Neobalantidium coli) is the only ciliate that infects humans, and pigs are its main reservoir. **Its trophozoite is the largest intestinal protozoan, with cilia and a kidney-shaped macronucleus**, and it can cause ulcerative dysentery similar to amebiasis.",
+   "whyNot": {
+    "0": "E. histolytica moves by pseudopods, has no cilia, and has a single round nucleus.",
+    "2": "Giardia is a much smaller flagellate with two nuclei and a sucking disk.",
+    "3": "Chilomastix is a small, nonpathogenic flagellate with a spiral groove."
+   },
+   "ref": "Belizario & de Leon, Medical Parasitology in the Philippines, intestinal ciliates; CDC DPDx, Balantidiasis"
+  },
+  {
+   "id": "MP-0148",
+   "tos": "MP-I.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A stool collection kit for ova and parasite examination contains two preservative vials. One is 10% formalin, used for the concentration procedure. Which preservative is usually in the second vial, used for the permanent trichrome-stained smear?",
+   "options": [
+    "Cary-Blair transport medium",
+    "Buffered glycerol saline",
+    "Polyvinyl alcohol (PVA) fixative",
+    "Physiologic saline"
+   ],
+   "answer": 2,
+   "why": "Formalin preserves eggs, larvae and cysts well for concentration but is less suited to trichrome staining of protozoa. **PVA fixative contains an adhesive that helps stool stick to the slide and preserves protozoan morphology for permanent stains**; mercury-free (zinc- or copper-based) versions are now widely used.",
+   "whyNot": {
+    "0": "Cary-Blair medium is for transporting stool for bacterial culture.",
+    "1": "Buffered glycerol saline is a transport medium for enteric bacteria such as Shigella.",
+    "3": "Saline does not preserve parasites, which deteriorate quickly in it."
+   },
+   "ref": "Mahon & Lehman 7e, parasitology chapter (specimen collection and preservation); CDC DPDx, stool specimen collection and preservation"
+  },
+  {
+   "id": "MP-0149",
+   "tos": "MP-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A fresh liquid stool is received within 30 minutes of passage. The technologist prepares only an iodine wet mount to look for motile amebic trophozoites. Why is this approach inadequate?",
+   "options": [
+    "Iodine kills trophozoites, so motility cannot be seen",
+    "Iodine dissolves the cyst wall of Entamoeba",
+    "Iodine stains helminth eggs too darkly to see",
+    "Iodine is meant for use on formed stools only"
+   ],
+   "answer": 0,
+   "why": "Iodine stains glycogen and nuclei, which helps in identifying cysts, but it kills trophozoites. **Motility must be looked for in a saline wet mount**, so fresh liquid stools should get both a saline and an iodine mount.",
+   "whyNot": {
+    "1": "Iodine does not dissolve cysts; it makes their nuclei and glycogen easier to see.",
+    "2": "Helminth eggs remain easy to recognize in an iodine mount.",
+    "3": "Iodine mounts can be prepared from any stool or concentrate."
+   },
+   "ref": "Mahon & Lehman 7e, parasitology chapter (direct wet mounts); CDC DPDx, diagnostic procedures for stool specimens"
+  },
+  {
+   "id": "MP-0150",
+   "tos": "MP-J.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which practice is correct when examining a stool concentrate wet mount under a 22 × 22 mm coverslip?",
+   "options": [
+    "Scan central fields at 40× and stop at the first parasite found",
+    "Scan the whole coverslip at 10×, using 40× on suspect objects",
+    "Scan the whole coverslip under oil immersion at 100×",
+    "Scan only the coverslip edges at 10×, where eggs collect"
+   ],
+   "answer": 1,
+   "why": "Parasites may be few and mixed infections are common, so the whole coverslip must be examined systematically. **The entire coverslip is scanned at low power (10×) in overlapping rows, with high dry (40×) used for suspicious objects and small protozoa**, and finding one organism does not end the examination.",
+   "whyNot": {
+    "0": "Looking at only part of the coverslip and stopping at the first finding misses scant or mixed infections.",
+    "2": "Oil immersion is not used to scan wet mounts; it is impractical and too slow for the whole coverslip.",
+    "3": "Organisms are spread throughout the preparation, so scanning only the edges misses them."
+   },
+   "ref": "Mahon & Lehman 7e, parasitology chapter (ova and parasite examination); CDC DPDx, diagnostic procedures"
   }
  ]
 }
