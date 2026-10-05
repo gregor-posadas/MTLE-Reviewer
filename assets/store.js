@@ -64,6 +64,21 @@
         list.forEach(function (e) { memory.reviews[e.id] = e; });
       });
     },
+    deleteReviews: function (ids) {
+      if (!ids || !ids.length) return Promise.resolve();
+      var gone = {}; ids.forEach(function (id) { gone[id] = true; });
+      return open().then(function (db) {
+        if (db) {
+          return new Promise(function (ok, no) {
+            var t = db.transaction("reviews", "readwrite"), s = t.objectStore("reviews");
+            ids.forEach(function (id) { s.delete(id); });
+            t.oncomplete = function () { ok(); }; t.onerror = function () { no(t.error); };
+          });
+        }
+        if (mode === "local") { lsSet("reviews", (lsGet("reviews") || []).filter(function (e) { return !gone[e.id]; })); return; }
+        ids.forEach(function (id) { delete memory.reviews[id]; });
+      });
+    },
     clearReviews: function () {
       return open().then(function (db) {
         if (db) return req(tx(db, "reviews", true).clear());

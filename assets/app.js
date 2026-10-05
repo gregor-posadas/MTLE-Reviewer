@@ -10,7 +10,7 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261005113220";
+  var BUILD = "20261005115759";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -24,7 +24,8 @@
   var state = {
     ready: false, files: {}, tos: null, topics: {}, images: null, morph: null,
     bank: { items: [], byId: {} }, reviews: [], cards: {}, settings: {}, flags: [], mine: [],
-    qod: null, session: null, exam: null, lastSync: null, syncError: "", syncing: false
+    qod: null, session: null, exam: null, lastSync: null, syncError: "", syncing: false,
+    diag: null, removedPending: []
   };
 
   /* ---------- small helpers ---------- */
@@ -110,7 +111,9 @@
   /* Question of the day: chosen once per day and kept, so it doesn't change when the page reloads. */
   function qodIds(p) {
     if (state.qod && state.qod.day === p.today) return state.qod.ids.filter(function (id) { return state.bank.byId[id]; });
-    state.qod = { day: p.today, ids: M.pickQod(p, p.today, 2) };
+    var ids = M.pickQod(p, p.today, 2);
+    if (!ids.length) ids = M.pickNew(state.bank, state.cards, 2, state.topics, answeredToday()).map(function (q) { return q.id; });
+    state.qod = { day: p.today, ids: ids };
     DB.set("qod", state.qod);
     return state.qod.ids;
   }
@@ -161,13 +164,21 @@
     if (state.syncing) return Promise.resolve(false);
     state.syncing = true;
     var out = state.reviews.filter(function (e) { return !e.s; }).map(strip);
-    return apiPost({ action: "sync", reviews: out, flags: state.flags, mine: state.mine, settings: settingsRecords() }, quiet).then(function (j) {
+    var removing = state.removedPending.slice();
+    return apiPost({ action: "sync", reviews: out, removed: removing, flags: state.flags, mine: state.mine, settings: settingsRecords() }, quiet).then(function (j) {
       var d = j.data || {}, sent = {};
       out.forEach(function (e) { sent[e.id] = true; });
       var remote = (d.reviews || []).map(function (e) { e.s = 1; return e; });
       var local = state.reviews.map(function (e) { if (sent[e.id]) e.s = 1; return e; });
       var before = state.reviews.length;
       state.reviews = M.mergeReviews(local, remote);
+      // Answers removed on any device (test runs) are dropped here too
+      var gone = {}, dropped = [];
+      (d.removed || []).concat(removing).forEach(function (id) { gone[id] = true; });
+      state.reviews = state.reviews.filter(function (e) { if (gone[e.id]) { dropped.push(e.id); return false; } return true; });
+      if (dropped.length) DB.deleteReviews(dropped);
+      state.removedPending = state.removedPending.filter(function (id) { return removing.indexOf(id) < 0; });
+      DB.set("removedPending", state.removedPending);
       state.flags = M.mergeRecords(state.flags, d.flags || []);
       var status = {};   // a flag's status (open or fixed) is set in the Sheet
       (d.flags || []).forEach(function (f) { status[f.id] = f.status; });
@@ -179,7 +190,7 @@
       });
       state.lastSync = new Date(); state.syncError = ""; state.syncing = false;
       return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("settings", state.settings), DB.set("lastSync", state.lastSync.toISOString())])
-        .then(function () { rebuild(); showStatus(); return state.reviews.length !== before; });
+        .then(function () { rebuild(); showStatus(); return state.reviews.length !== before || dropped.length > 0; });
     }, function (err) {
       state.syncing = false;
       state.syncError = err.code === "code" ? "The access code was refused." : "Couldn't reach the Sheet. Answers are still saved on this device.";
@@ -215,7 +226,8 @@
       });
   }
   function loadLocal() {
-    return Promise.all([DB.allReviews(), DB.get("settings"), DB.get("flags"), DB.get("mine"), DB.get("qod"), DB.get("lastSync")]).then(function (r) {
+    return Promise.all([DB.allReviews(), DB.get("settings"), DB.get("flags"), DB.get("mine"), DB.get("qod"), DB.get("lastSync"), DB.get("diag"), DB.get("removedPending")]).then(function (r) {
+      state.diag = r[6] || null; state.removedPending = r[7] || [];
       state.reviews = M.mergeReviews(r[0] || [], []);
       state.settings = r[1] || {}; state.flags = r[2] || []; state.mine = r[3] || []; state.qod = r[4] || null;
       state.lastSync = r[5] ? new Date(r[5]) : null;
@@ -254,6 +266,9 @@
     if (ph.key === "exam") html += '<p class="tip"><span><b>Exam weeks.</b> ' + esc(ph.note) + ' <a href="#/more/calm">Two-minute exercises for exam nerves</a></span></p>';
 
     html += '<div class="today-grid"><div>';
+    if (!state.diag) html += '<section class="qod qod--diag" aria-labelledby="diag-h"><p class="qod__label">Start here</p><h2 class="qod__title" id="diag-h">A 15-minute diagnostic</h2>' +
+      "<p>18 questions, 3 from each subject. It shows where you stand and starts your review schedule.</p>" +
+      '<div class="actions" style="margin-top:4px"><a class="btn btn--solid" href="#/diagnostic">Take the diagnostic</a><button type="button" class="btn btn--quiet" data-act="diag-skip">Skip it</button></div></section><div style="height:24px"></div>';
     // Question of the day
     html += '<section class="qod" aria-labelledby="qod-h"><p class="qod__label">Question of the day</p>';
     if (!ids.length) {
@@ -288,14 +303,15 @@
     else if (!p.fresh.length && p.newCap > 0) html += '<p class="section__note">Every question in the bank has been introduced. New ones appear as they\'re added.</p>';
     html += "</section></div>";
 
-    // Side: week goal and phase
+    // Side: progress bars, week goal and phase
+    html += '<div>' + todayProgress();
     var wk = M.weekDays(state.reviews, Date.now()), studied = wk.filter(function (d) { return d.studied; }).length, goal = +setting("goalDays");
-    html += '<div><section class="section" aria-labelledby="week-h"><h2 id="week-h">This week</h2><p style="margin-top:12px"><b>' + studied + " of " + goal + " days</b>" + (studied >= goal ? " · goal met" : "") + "</p>" +
+    html += '<section class="section" aria-labelledby="week-h"><h2 id="week-h">This week</h2><p style="margin-top:12px"><b>' + studied + " of " + goal + " days</b>" + (studied >= goal ? " · goal met" : "") + "</p>" +
       '<ul class="week" aria-label="Days studied this week">' + wk.map(function (d) {
         var name = fmtDate(new Date(M.dayStart(d.day) + 12 * 3600000), { weekday: "short" });
         return '<li class="' + (d.studied ? "is-on" : "") + (d.future ? " is-future" : "") + (d.today ? " is-today" : "") + '"><i aria-hidden="true"></i><span>' + esc(name.charAt(0)) + '</span><span class="sr">' + esc(name) + ": " + (d.studied ? "studied" : d.future ? "coming up" : "not studied") + "</span></li>";
       }).join("") + "</ul><p class=\"section__note\">Rest days are part of the plan. The goal is a number of days, not a streak.</p></section>" +
-      '<section class="section" aria-labelledby="phase-h"><h2 id="phase-h">Phase: ' + esc(ph.name) + "</h2><p style=\"margin-top:12px\" class=\"muted\">" + esc(ph.note) + '</p><p style="margin-top:8px"><a href="#/progress">See your progress</a></p></section></div>';
+      '<section class="section" aria-labelledby="phase-h"><h2 id="phase-h">Phase: ' + esc(ph.name) + "</h2>" + phaseLine() + "<p style=\"margin-top:12px\" class=\"muted\">" + esc(ph.note) + "</p></section></div>";
     html += "</div></div>";
     return html;
   }
@@ -353,7 +369,7 @@
     var q = currentQ();
     if (!q) { s.i++; saveSession(); return viewSession(); }
     var n = s.ids.length, top = '<div class="quiz__top"><span class="quiz__count">' + esc(s.title) + " · " + (s.i + 1) + " of " + n + '</span><button type="button" class="btn btn--quiet btn--sm" data-act="end">End session</button>' +
-      '<div class="quiz__bar" aria-hidden="true"><i style="width:' + Math.round(s.i / n * 100) + '%"></i></div></div>';
+      '<div class="quiz__bar" aria-hidden="true"><i class="seg" style="width:' + Math.round(Math.max(0, s.i - 1) / n * 100) + '%" data-w="' + (s.i / n * 100).toFixed(1) + '"></i></div></div>';
 
     if (s.pause) {
       return '<div class="wrap"><div class="quiz">' + top + '<div class="pause"><h1 tabindex="-1">Time for a 5-minute break</h1><p>You\'ve studied for 25 minutes. Stand up, look at something far away, get some water. Short fixed breaks keep focus up for longer.</p>' +
@@ -421,7 +437,9 @@
     var misses = s.answers.filter(function (a) { return !a.ok; });
     var p = plan(), more = M.todayQueue(p, [], state.bank).length;
     var tomorrow = state.bank.items.filter(function (q) { var c = state.cards[q.id]; return c && c.dueDay === today() + 1; }).length;
+    if (s.mode === "diag") return viewDiagResult(s);
     var html = '<div class="wrap"><div class="quiz">' + head(n ? "Done: " + right + " of " + n + " correct" : "Session ended", esc(s.title) + (n ? " · " + pct(right, n) + " right" : ""));
+    if (n) html += scoreBar(right, n) + '<div style="height:16px"></div>';
     if (misses.length) {
       html += '<section class="section"><h2>Look again at what you missed</h2><ul class="result-list">' + misses.map(function (a) {
         var q = state.bank.byId[a.q]; if (!q) return "";
@@ -637,9 +655,11 @@
     html += '<section class="section" style="padding-top:32px"><h2>By subject</h2><div class="key"><span><i class="k-m"></i>Mastered (2 right in a row)</span><span><i class="k-s"></i>Seen, still learning</span></div><div class="meters">' + M.SUBJECTS.map(function (s) {
       var o = stats[s.code], m = o.total ? o.mastered / o.total * 100 : 0, sn = o.total ? o.seen / o.total * 100 : 0;
       return '<div class="meter"><p class="meter__label"><a href="#/progress/' + s.code + '"><b>' + esc(s.name) + "</b></a> · " + s.weight + "% of the exam</p>" +
-        '<div class="meter__bar" role="progressbar" aria-label="' + esc(s.name) + ' mastered" aria-valuemin="0" aria-valuemax="' + o.total + '" aria-valuenow="' + o.mastered + '"><s style="width:' + sn.toFixed(1) + '%"></s><i style="width:' + m.toFixed(1) + '%;position:relative"></i></div>' +
+        bar([{ w: m, cls: "ok" }, { w: sn - m, cls: "seen" }], s.name + ": " + o.mastered + " of " + o.total + " mastered, " + o.seen + " seen") +
         '<p class="meter__meta">' + o.mastered + " of " + o.total + " mastered · " + o.seen + " seen · " + (o.answers ? pct(o.right, o.answers) + " right over " + plural(o.answers, "answer") : "no answers yet") + "</p></div>";
     }).join("") + "</div></section>";
+    html += '<section class="section"><h2>Answers per day</h2>' + activityChart() + "</section>";
+    if (state.diag && state.diag.results) html += '<section class="section"><h2>Your diagnostic</h2><p style="margin-top:12px">' + esc(diagSummary()) + '</p><p class="section__note"><a href="#/diagnostic">Take it again</a></p></section>';
     html += '<section class="section"><h2>How sure, and how right</h2><div class="calib" style="margin-top:16px"><div><b>' + pct(cal.sureRight, cal.sureN) + "</b><span>right when you were sure (" + cal.sureN + ")</span></div><div><b>" + pct(cal.unsureRight, cal.unsureN) + "</b><span>right when you weren't sure (" + cal.unsureN + ")</span></div><div><b>" + cal.confidentMisses + "</b><span>confident misses, each brought back within 2 days</span></div></div>" +
       '<p class="section__note">If "sure" is right much more often than "not sure", your sense of what you know is working. Confident misses are worth a second look: feedback corrects them best.</p></section>';
     var imgs = state.bank.items.filter(function (q) { return q.type === "image"; }).length, mine = state.bank.items.filter(function (q) { return q.mine; }).length;
@@ -686,7 +706,10 @@
       '<div class="actions"><button type="button" class="btn btn--solid" data-act="sync-now">Sync now</button><button type="button" class="btn btn--quiet" data-act="forget-code">Forget the access code on this device</button></div>';
     else html += "<p>Answers are saved only in this browser for now. Safari clears a site's data after 7 days without a visit, so keep a backup file now and then, or connect the Google Sheet (steps in the README).</p>";
     html += '<div class="actions"><button type="button" class="btn" data-act="export">Download a backup file</button><label class="btn" for="import-file">Restore from a backup file</label><input type="file" id="import-file" accept="application/json,.json" class="sr"></div>' +
-      '<p class="small muted">' + plural(state.reviews.length, "answer") + " on this device. Restoring merges the file with what's here; nothing is deleted.</p></div></section>";
+      '<p class="small muted">' + plural(state.reviews.length, "answer") + " on this device. Restoring merges the file with what's here; nothing is deleted.</p>";
+    var mineHere = state.reviews.filter(function (e) { return e.d === deviceId; }).length;
+    html += '<h3 style="margin-top:16px">Remove test answers</h3><p>Removes the answers made in this browser (' + plural(mineHere, "answer") + "), here and in the Sheet. Other devices drop them the next time they sync. Use it to clear test runs.</p>" +
+      '<div><button type="button" class="btn btn--danger" data-act="remove-device"' + (mineHere ? "" : " disabled") + ">Remove " + plural(mineHere, "answer") + " from this browser</button></div></div></section>";
     // My questions
     var mine = state.mine.filter(function (q) { return !q.deleted; });
     html += '<section class="section" id="mine"><h2 tabindex="-1">My questions</h2><div class="stack" style="margin-top:16px"><p>Write your own questions, for example from your review center notes. They stay in your browser and the Sheet, never on the public website.</p>' +
@@ -760,13 +783,174 @@
       (msg ? '<p class="error" role="alert">' + esc(msg) + "</p>" : "") + '<div class="actions"><button class="btn btn--solid" type="submit">Continue</button><button class="btn btn--quiet" type="button" data-act="skip-gate">Use without syncing for now</button></div></form></div>';
   }
 
+  /* ---------- the diagnostic ---------- */
+  function viewDiagIntro() {
+    var list = M.diagnosticQueue(state.bank, state.topics);
+    return '<div class="wrap"><div class="quiz">' + head("A short diagnostic", "Before the daily routine starts: " + list.length + " questions, 3 from each subject, about 15 minutes.") +
+      '<div class="stack"><p>It shows which subjects to start with, and it starts your review schedule: these questions come back over the next days, just like any other.</p>' +
+      "<p>Answer as you would on the exam. When you don't know, tap <b>I don't know</b> instead of guessing. That makes the result more useful.</p>" +
+      '<p class="muted small">You see the explanation after each question. There is no time limit.</p>' +
+      '<div class="actions"><button type="button" class="btn btn--solid" data-act="diag-start">Start the diagnostic</button><button type="button" class="btn btn--quiet" data-act="diag-skip">Skip for now</button></div></div></div></div>';
+  }
+  function viewDiagResult(s) {
+    var res = {}, missedTopic = {};
+    s.answers.forEach(function (a) {
+      var q = state.bank.byId[a.q]; if (!q) return;
+      var o = res[q.subject] || (res[q.subject] = { n: 0, r: 0 }); o.n++; if (a.ok) o.r++;
+      else if (!missedTopic[q.subject]) missedTopic[q.subject] = M.topicOf(q.tos);
+    });
+    if (!state.diag || state.diag.status !== "done" || state.diag.at < new Date(s.started).toISOString()) {
+      state.diag = { status: "done", at: new Date().toISOString(), results: res }; DB.set("diag", state.diag);
+    }
+    var right = s.answers.filter(function (a) { return a.ok; }).length, n = s.answers.length;
+    var order = M.SUBJECTS.filter(function (x) { return res[x.code]; }).sort(function (a, b) {
+      var ra = res[a.code].r / res[a.code].n, rb = res[b.code].r / res[b.code].n; return (ra - rb) || (b.weight - a.weight);
+    });
+    var html = '<div class="wrap"><div class="quiz">' + head("Diagnostic: " + right + " of " + n, n ? pct(right, n) + " right. Here's where you stand by subject." : "Ended early.");
+    html += '<section class="section"><h2>By subject</h2><div class="meters" style="grid-template-columns:1fr">' + M.SUBJECTS.map(function (x) {
+      var o = res[x.code]; if (!o) return "";
+      return '<div class="meter"><p class="meter__label"><b>' + esc(x.name) + "</b> · " + o.r + " of " + o.n + "</p>" + scoreBar(o.r, o.n, true) + "</div>";
+    }).join("") + "</div>" + scoreKey() + "</section>";
+    var weak = order.filter(function (x) { return res[x.code].r < res[x.code].n; }).slice(0, 3);
+    if (weak.length) html += '<section class="section"><h2>Where to start</h2><ul class="result-list">' + weak.map(function (x) {
+      var tp = missedTopic[x.code];
+      return '<li><a href="#/learn/' + x.code + (tp ? "/" + esc(tp) : "") + '">' + shape("todo") + '<span><span class="result-list__t">' + esc(x.name) + (tp ? ": " + esc(topicName(tp)) : "") + "</span><small>" + res[x.code].r + " of " + res[x.code].n + " right · " + x.weight + "% of the exam · learn this topic</small></span></a></li>";
+    }).join("") + '</ul><p class="section__note">Three questions per subject is a quick look, not a verdict. The daily sessions cover every subject anyway.</p></section>';
+    html += '<section class="section"><h2>Next</h2><p style="margin-top:12px">These questions are now on your schedule. From tomorrow, Today brings reviews plus new questions.</p><div class="actions"><a class="btn btn--solid" href="#/">Go to Today</a></div></section></div></div>';
+    return html;
+  }
+  function diagSummary() {
+    var r = state.diag.results || {}, parts = [];
+    M.SUBJECTS.forEach(function (x) { if (r[x.code]) parts.push(x.short + " " + r[x.code].r + "/" + r[x.code].n); });
+    return "Taken " + dayLabel(M.dayNum(state.diag.at)) + ": " + parts.join(", ") + ".";
+  }
+
+  /* ---------- visuals: bars, the phase line, the activity chart ---------- */
+  /* A bar made of segments. Widths start at 0 and grow when the bar scrolls into view (instantly with reduced motion). */
+  function bar(parts, label) {
+    return '<div class="meter__bar" role="img" aria-label="' + esc(label) + '">' + parts.filter(function (p) { return p.w > 0.05; }).map(function (p) {
+      return '<i class="seg seg--' + p.cls + '" style="width:0" data-w="' + Math.max(0, Math.min(100, p.w)).toFixed(1) + '"></i>';
+    }).join("") + "</div>";
+  }
+  function scoreBar(right, n, small) {
+    var wrong = n - right;
+    return '<div class="' + (small ? "" : "scorebar") + '">' + bar([{ w: right / n * 100, cls: "ok" }, { w: wrong / n * 100, cls: "miss" }], right + " right, " + wrong + " missed") + (small ? "" : scoreKey()) + "</div>";
+  }
+  function scoreKey() { return '<div class="key"><span><i class="k-m"></i>Right</span><span><i class="k-x"></i>Missed or not answered</span></div>'; }
+
+  /* Today: how far along the bank she is, overall (weighted by exam share) and per subject */
+  function todayProgress() {
+    var st = M.subjectStats(state.bank, state.cards, state.reviews, Date.now()), wM = 0, wS = 0, wT = 0;
+    M.SUBJECTS.forEach(function (x) { var o = st[x.code]; if (!o.total) return; wT += x.weight; wM += x.weight * o.mastered / o.total; wS += x.weight * o.seen / o.total; });
+    var om = wT ? wM / wT * 100 : 0, os = wT ? wS / wT * 100 : 0;
+    var html = '<section class="section" aria-labelledby="prog-h"><h2 id="prog-h">Your progress</h2><div class="overall"><p class="overall__n"><b>' + Math.round(om) + "%</b> mastered</p><p class=\"muted small\">" + Math.round(os) + "% seen · weighted by each subject's share of the exam</p>" +
+      bar([{ w: om, cls: "ok" }, { w: os - om, cls: "seen" }], "Overall: " + Math.round(om) + "% mastered, " + Math.round(os) + "% seen") + "</div>";
+    html += '<ul class="minimeters">' + M.SUBJECTS.map(function (x) {
+      var o = st[x.code], m = o.total ? o.mastered / o.total * 100 : 0, sn = o.total ? o.seen / o.total * 100 : 0;
+      return '<li><a href="#/progress/' + x.code + '"><span class="minimeters__name">' + esc(x.short) + '</span><span class="minimeters__n">' + o.mastered + "/" + o.total + "</span></a>" + bar([{ w: m, cls: "ok" }, { w: sn - m, cls: "seen" }], x.name + ": " + o.mastered + " of " + o.total + " mastered, " + o.seen + " seen") + "</li>";
+    }).join("") + '</ul><div class="key"><span><i class="k-m"></i>Mastered</span><span><i class="k-s"></i>Seen, still learning</span></div><p style="margin-top:8px"><a href="#/progress">See all your progress</a></p></section>';
+    return html;
+  }
+
+  /* Today: the road to exam day, phases to scale, with a marker for today */
+  function phaseLine() {
+    var ex = M.parseDay(setting("examDate")), t = today();
+    if (isNaN(ex) || ex <= t) return "";
+    var first = state.reviews.length ? M.dayNum(state.reviews[0].t) : t, start = Math.min(first, t, ex - 120);
+    var segs = [["Foundation", start, ex - 91], ["Build", ex - 90, ex - 29], ["Consolidate", ex - 28, ex - 15], ["Exam weeks", ex - 14, ex - 1]].filter(function (x) { return x[2] >= x[1]; });
+    var total = ex - start, now = null, next = null;
+    var html = '<div class="road" role="img" aria-label="' + esc(phaseAria(segs, t, ex)) + '"><div class="road__bar">' + segs.map(function (x, i) {
+      var cls = t > x[2] ? "is-past" : t >= x[1] ? "is-now" : "";
+      if (cls === "is-now") { now = x; next = segs[i + 1]; }
+      return '<span class="road__seg ' + cls + '" style="flex-grow:' + (x[2] - x[1] + 1) + '"></span>';
+    }).join("") + '</div><span class="road__today' + ((t - start) / total < 0.12 ? " is-start" : (t - start) / total > 0.88 ? " is-end" : "") + '" style="left:' + ((t - start) / total * 100).toFixed(1) + '%"><span>Today</span></span></div>' +
+      '<div class="road__ends"><span>' + esc(dayLabel(start)) + "</span><span>Exam " + esc(dayLabel(ex)) + "</span></div>";
+    if (now) html += '<p class="small" style="margin-top:8px"><b>' + esc(now[0]) + "</b> until " + esc(dayLabel(now[2])) + (next ? ", then " + esc(next[0]) + "." : ".") + "</p>";
+    return html;
+  }
+  function phaseAria(segs, t, ex) {
+    var cur = segs.filter(function (x) { return t >= x[1] && t <= x[2]; })[0];
+    return "Study phases: " + segs.map(function (x) { return x[0]; }).join(", ") + ". Now in " + (cur ? cur[0] : "the last stretch") + ", " + plural(ex - t, "day") + " to the exam.";
+  }
+
+  /* Progress: answers per day for the last 14 days, right (solid blue) and missed (hatched orange) stacked */
+  function activityChart() {
+    var t = today(), days = [], max = 0;
+    for (var i = 13; i >= 0; i--) days.push({ day: t - i, r: 0, w: 0 });
+    state.reviews.forEach(function (e) { var k = M.dayNum(e.t) - (t - 13); if (k >= 0 && k < 14) { if (e.ok) days[k].r++; else days[k].w++; } });
+    days.forEach(function (d) { max = Math.max(max, d.r + d.w); });
+    if (!max) return '<p class="muted" style="margin-top:12px">No answers in the last 2 weeks yet.</p>';
+    var top = Math.max(5, Math.ceil(max / 5) * 5);
+    var cols = days.map(function (d) {
+      var name = fmtDate(new Date(M.dayStart(d.day) + 12 * 3600000), { weekday: "narrow" }), tot = d.r + d.w;
+      var label = dayLabel(d.day) + ": " + (tot ? d.r + " right, " + d.w + " missed" : "no answers");
+      return '<div class="col' + (d.day === t ? " is-today" : "") + '" title="' + esc(label) + '"><span class="col__plot"><span class="col__stack seg" style="height:0" data-h="' + (tot / top * 100).toFixed(1) + '">' +
+        (d.w ? '<i class="col__miss" style="flex-grow:' + d.w + '"></i>' : "") + (d.r ? '<i class="col__ok" style="flex-grow:' + d.r + '"></i>' : "") + '</span></span><span class="col__lab">' + esc(name) + "</span></div>";
+    }).join("");
+    var table = '<table class="sr"><caption>Answers per day</caption><thead><tr><th>Day</th><th>Right</th><th>Missed</th></tr></thead><tbody>' + days.map(function (d) { return "<tr><td>" + esc(dayLabel(d.day)) + "</td><td>" + d.r + "</td><td>" + d.w + "</td></tr>"; }).join("") + "</tbody></table>";
+    return '<figure class="chart"><div class="chart__plot" aria-hidden="true"><span class="chart__top">' + top + '</span><span class="chart__zero">0</span><div class="cols">' + cols + "</div></div>" +
+      '<figcaption class="key"><span><i class="k-m"></i>Right</span><span><i class="k-x"></i>Missed</span><span>Last 14 days, today on the right</span></figcaption>' + table + "</figure>";
+  }
+
+  /* Grow bars and columns into place when they scroll into view. */
+  var barIO = null;
+  function fillBars(instant) {
+    if (barIO) { barIO.disconnect(); barIO = null; }
+    var set = function (box) {
+      box.querySelectorAll("[data-w]").forEach(function (el) { el.style.width = el.getAttribute("data-w") + "%"; });
+      box.querySelectorAll("[data-h]").forEach(function (el) { el.style.height = el.getAttribute("data-h") + "%"; });
+    };
+    var boxes = main.querySelectorAll(".meter__bar, .quiz__bar, .chart");
+    if (instant || reduceMotion || !("IntersectionObserver" in window)) { boxes.forEach(set); return; }
+    barIO = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (!e.isIntersecting) return; barIO.unobserve(e.target); requestAnimationFrame(function () { requestAnimationFrame(function () { set(e.target); }); }); });
+    }, { threshold: 0.3 });
+    boxes.forEach(function (b) { barIO.observe(b); });
+  }
+
+  /* Reveal on scroll, the same "gentle reveal" as the hubs: blocks below the fold fade up a few pixels as they scroll
+     into view. Blocks already on screen show at once, keyboard focus shows a block right away, and anyone who asked for
+     reduced motion gets no effect. Never used on the question screen or a running mock exam. */
+  var revealIO = null;
+  function reveal() {
+    if (revealIO) { revealIO.disconnect(); revealIO = null; }
+    if (!("IntersectionObserver" in window) || reduceMotion) return;
+    var LIST = "ul.result-list, ul.topic-list, .modes, .meters, ul.minimeters";
+    var picked = [];
+    main.querySelectorAll(".section, .today-grid > div, .wrap > .ready, .wrap > .route").forEach(function (sec) {
+      Array.prototype.forEach.call(sec.children, function (c) {
+        if (c.matches(LIST)) Array.prototype.push.apply(picked, c.children);
+        else if (!c.matches(".section")) picked.push(c);
+      });
+    });
+    main.querySelectorAll(".modes > .mode").forEach(function (m) { if (picked.indexOf(m) < 0) picked.push(m); });
+    var vh = window.innerHeight, pending = [];
+    picked.forEach(function (el) { if (el.getBoundingClientRect().top >= vh * 0.95) { el.classList.add("rv"); pending.push(el); } });
+    if (!pending.length) return;
+    document.documentElement.classList.add("rv-on");
+    function done(el) { el.classList.remove("rv", "rv-in"); el.style.removeProperty("--rv-d"); }
+    function show(el, delay) {
+      if (!el.classList.contains("rv") || el.classList.contains("rv-in")) return;
+      if (delay) el.style.setProperty("--rv-d", delay + "ms");
+      el.classList.add("rv-in");
+      setTimeout(function () { done(el); }, 900 + (delay || 0));
+    }
+    revealIO = new IntersectionObserver(function (es) {
+      var n = 0;
+      es.forEach(function (e) { if (!e.isIntersecting) return; revealIO.unobserve(e.target); show(e.target, Math.min(n++, 4) * 70); });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
+    pending.forEach(function (el) { revealIO.observe(el); });
+  }
+  document.addEventListener("focusin", function (e) { var el = e.target.closest && e.target.closest(".rv"); if (el) { if (revealIO) revealIO.unobserve(el); el.classList.remove("rv", "rv-in"); } });
+  window.addEventListener("beforeprint", function () { main.querySelectorAll(".rv").forEach(function (el) { el.classList.remove("rv", "rv-in"); }); });
+
   /* ================================================================== router */
   function route() {
     var h = location.hash.replace(/^#\/?/, "").split("/");
     var view = h[0] || "today";
     // In-page anchors like #settings on the More page
     if (/^[a-z]+$/.test(view) && ["settings", "sync", "mine", "flags", "calm", "how", "credits"].indexOf(view) > -1) { location.replace("#/more/" + view); return; }
-    var nav = { s: "today", q: "", learn: "practice", exam: "practice", my: "more" }[view];
+    var nav = { s: "today", q: "", learn: "practice", exam: "practice", my: "more", diagnostic: "today" }[view];
     nav = nav === undefined ? view : nav;
     document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.getAttribute("data-nav") === nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (!state.ready) return;
@@ -774,6 +958,7 @@
     if (view === "s") { html = viewSession(); if (html === null) { location.replace("#/"); return; } title = state.session ? state.session.title : title; }
     else if (view === "q") { html = viewQuestion(h[1]); title = "Question"; }
     else if (view === "practice") { html = viewPractice(); title = "Practice"; }
+    else if (view === "diagnostic") { html = viewDiagIntro(); title = "Diagnostic"; }
     else if (view === "learn") {
       if (h[2]) { var list = M.learnQueue(state.bank, h[2]); if (!list.length) { location.replace("#/learn/" + h[1]); return; } startSession("learn", list, "Learn: " + topicName(h[2]), "#/learn/" + h[1], true); return; }
       html = viewLearn(h[1]); title = "Learn";
@@ -794,8 +979,11 @@
       if (view === "more" && h[1]) { var sec = document.getElementById(h[1]); if (sec) { sec.scrollIntoView(); var hd = sec.querySelector("h2"); if (hd) hd.focus({ preventScroll: true }); } }
       else window.scrollTo(0, 0);
     }
+    var quiet = route._keepFocus;
     route._keepFocus = false;
     main.classList.toggle("hidden-kbd", !setting("shortcuts"));
+    fillBars(quiet);
+    if (!quiet && view !== "s" && !(view === "exam" && h[1] === "run")) reveal();
   }
   function refresh() { var y = window.scrollY; route._keepFocus = true; route(); window.scrollTo(0, y); }
   window.addEventListener("hashchange", function () { route._moved = true; route(); });
@@ -878,6 +1066,23 @@
     else if (act === "forget-code") { ls.del("code"); toast("Forgotten on this device."); start(); }
     else if (act === "skip-gate") { ls.set("skipGate", "1"); state.ready = true; route(); }
     else if (act === "export") exportBackup();
+    else if (act === "diag-skip") { state.diag = { status: "skipped", at: new Date().toISOString() }; DB.set("diag", state.diag); if (location.hash === "#/" || location.hash === "") refresh(); else location.hash = "#/"; }
+    else if (act === "diag-start") startSession("diag", M.diagnosticQueue(state.bank, state.topics), "Diagnostic", "#/");
+    else if (act === "remove-device") {
+      var mineIds = state.reviews.filter(function (e) { return e.d === deviceId; }).map(function (e) { return e.id; });
+      if (!mineIds.length) return;
+      openDialog('<form><div class="dlg__head"><h2>Remove ' + plural(mineIds.length, "answer") + '?</h2><button type="button" data-close aria-label="Close">×</button></div><div class="dlg__body"><p>Every answer made in this browser is removed here and in the Sheet. Other devices drop them when they next sync. Answers made on other devices stay.</p><p>This can\'t be undone.</p></div>' +
+        '<div class="dlg__foot"><button type="button" class="btn" data-close>Keep them</button><button type="submit" class="btn btn--danger">Remove ' + plural(mineIds.length, "answer") + "</button></div></form>", function () {
+        var gone = {}; mineIds.forEach(function (id) { gone[id] = true; });
+        state.reviews = state.reviews.filter(function (e) { return !gone[e.id]; });
+        state.removedPending = state.removedPending.concat(mineIds);
+        state.qod = null; DB.set("qod", null);
+        Promise.all([DB.deleteReviews(mineIds), DB.set("removedPending", state.removedPending)]).then(function () {
+          rebuild(); showStatus(); refresh(); toast("Removed " + plural(mineIds.length, "answer") + ".");
+          if (cfg.apiUrl && ls.get("code")) sync(true).catch(function () {});
+        });
+      });
+    }
     else if (act === "mine-delete") {
       var id = el.getAttribute("data-id");
       openDialog('<form><div class="dlg__head"><h2>Delete this question?</h2><button type="button" data-close aria-label="Close">×</button></div><div class="dlg__body"><p>Your answers to it stay in your history.</p></div><div class="dlg__foot"><button type="button" class="btn" data-close>Keep it</button><button type="submit" class="btn btn--danger">Delete the question</button></div></form>', function () {
@@ -892,7 +1097,7 @@
     if (f.id === "gate") {
       e.preventDefault();
       ls.set("code", document.getElementById("code").value.trim());
-      sync(false).then(function () { state.ready = true; route(); }, function (err) {
+      sync(false).then(function () { state.ready = true; if (!state.diag) location.hash = "#/diagnostic"; route(); }, function (err) {
         if (err.code === "code") { ls.del("code"); main.innerHTML = viewGate("That code didn't work. Check ACCESS_CODE in the Apps Script project's Script properties."); }
         else { state.ready = true; route(); toast("Couldn't reach the Sheet. Practising on this device for now."); }
       });

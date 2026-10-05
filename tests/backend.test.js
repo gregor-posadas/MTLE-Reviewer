@@ -14,6 +14,7 @@ function fakeGoogle() {
       insertColumnsAfter: function () {},
       setFrozenRows: function () {},
       appendRow: function (r) { rows.push(r.map(String)); },
+      deleteRow: function (r) { rows.splice(r - 1, 1); },
       getRange: function (r, c, nr, nc) {
         return {
           getValues: function () {
@@ -95,4 +96,17 @@ test("flags keep the status set in the Sheet; settings and her questions: newer 
   assert.strictEqual(r2.data.settings[0].v, "2027-03-04", "the older setting does not win");
   assert.strictEqual(r2.data.mine[0].stem, "Q?");
   assert.deepStrictEqual(r2.data.mine[0].options, ["a", "b", "c", "d"]);
+});
+
+test("removed answers leave the Sheet, are reported to other devices, and can't come back", function () {
+  var g = fakeGoogle(), gs = loadGs(); gs.setup();
+  var code = g.props.ACCESS_CODE;
+  function ans(id) { return { id: id, q: "CC-0001", t: "2026-10-06T01:00:00.000Z", c: 0, ok: 1, sure: 1, m: "qod", ms: 5000, d: "laptop" }; }
+  post(gs, { action: "sync", code: code, reviews: [ans("t1"), ans("t2"), ans("keep")] });
+  var r = post(gs, { action: "sync", code: code, removed: ["t1", "t2"] });
+  assert.deepStrictEqual(r.data.reviews.map(function (e) { return e.id; }), ["keep"]);
+  assert.deepStrictEqual(r.data.removed.sort(), ["t1", "t2"]);
+  var again = post(gs, { action: "sync", code: code, reviews: [ans("t1")] });
+  assert.strictEqual(again.added, 0, "a device that still has t1 can't bring it back");
+  assert.strictEqual(again.data.reviews.length, 1);
 });

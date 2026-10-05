@@ -651,6 +651,782 @@
     "2": "Class B fires involve flammable liquids and gases such as solvents."
    },
    "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Laboratory safety chapter; NFPA fire classification (also used in the Philippine Fire Code)"
+  },
+  {
+   "id": "BB-0031",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A healthy donor's red cells react 4+ with anti-A, do not react with anti-B, and do not agglutinate with Dolichos biflorus lectin. Her plasma agglutinates B cells 4+ and A1 cells 1+ at room temperature, but does not react with A2 cells, group O cells, or her own cells. The most likely explanation is that she is:",
+   "options": [
+    "Group A1 with a cold-reactive autoantibody",
+    "Group A2 with anti-A1 in her plasma",
+    "Group A3 with anti-A1 in her plasma",
+    "Group Ax with anti-A1 in her plasma"
+   ],
+   "answer": 1,
+   "why": "Strong anti-A reactivity with no reaction to Dolichos biflorus (the anti-A1 lectin) identifies **group A2** red cells. A minority of A2 (and a larger share of A2B) people form anti-A1, which agglutinates A1 cells but spares A2 cells; the negative group O cells and autocontrol exclude an alloantibody to another antigen or an autoantibody.",
+   "whyNot": {
+    "0": "A cold autoantibody would also react with her own cells and with group O cells, and an A1 person's cells would agglutinate with Dolichos biflorus.",
+    "2": "A3 cells give a characteristic mixed-field reaction with anti-A, not a strong 4+ reaction.",
+    "3": "Ax cells react weakly or not at all with anti-A (they react better with anti-A,B), so a 4+ anti-A reaction argues against Ax."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (ABO subgroups); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0032",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A donor's red cells react with anti-D, anti-C, and anti-e, but not with anti-c or anti-E. Using Wiener shorthand, the most probable Rh genotype is:",
+   "options": [
+    "R1r",
+    "R1R2",
+    "R2R2",
+    "R1R1"
+   ],
+   "answer": 3,
+   "why": "The cells are D+, C+, c−, E−, e+, so both haplotypes must carry C and e; with D present the commonest haplotype is DCe (R1), giving **R1R1** (DCe/DCe). DCe/dCe (R1r') is also possible, but because no anti-d exists and r' is rare, R1R1 is the most probable genotype.",
+   "whyNot": {
+    "0": "R1r (DCe/dce) carries c on the r haplotype, so the cells would react with anti-c.",
+    "1": "R1R2 (DCe/DcE) carries both c and E on the R2 haplotype, so the cells would react with anti-c and anti-E.",
+    "2": "R2R2 (DcE/DcE) would be C-negative and E-positive, the opposite of these results."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (Fisher-Race and Wiener nomenclature)"
+  },
+  {
+   "id": "BB-0033",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A woman has a mild, compensated hemolytic anemia with stomatocytes on her blood smear. Her red cells give no reaction with anti-D, anti-C, anti-c, anti-E, anti-e, or anti-LW. The most likely phenotype is:",
+   "options": [
+    "Rh-null",
+    "D-deleted (-D-/-D-)",
+    "D-negative (dce/dce, rr)",
+    "McLeod phenotype"
+   ],
+   "answer": 0,
+   "why": "Absence of all Rh antigens together with LW defines the **Rh-null** phenotype, caused by either a regulator (RHAG) mutation or an amorph RHD/RHCE background. Because the Rh protein complex helps maintain membrane structure, Rh-null cells are stomatocytic and have a shortened survival, producing a compensated hemolytic anemia.",
+   "whyNot": {
+    "1": "D-deletion cells lack C, c, E, and e but still express D, often strongly, so they would react with anti-D.",
+    "2": "Ordinary D-negative (rr) cells express c and e, so they would react with anti-c and anti-e.",
+    "3": "The McLeod phenotype is a Kell-system defect (absent Kx with weak Kell antigens) with acanthocytes, not loss of Rh antigens."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (Rh-null syndrome); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0034",
+   "tos": "BB-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Red cells of the Fy(a−b−) phenotype, which is common among people of West African ancestry, resist invasion by which malaria parasite?",
+   "options": [
+    "Plasmodium falciparum",
+    "Plasmodium malariae",
+    "Plasmodium vivax",
+    "Plasmodium ovale"
+   ],
+   "answer": 2,
+   "why": "The Duffy glycoprotein (DARC/ACKR1) is the receptor that **Plasmodium vivax** uses to invade red cells. People with the Fy(a−b−) phenotype (usually from a GATA-box promoter mutation that silences Duffy expression only in the erythroid line) are therefore largely resistant to vivax malaria.",
+   "whyNot": {
+    "0": "P. falciparum invades red cells mainly through glycophorins and other receptors, so Duffy-null cells are not protected from it.",
+    "1": "P. malariae does not depend on the Duffy glycoprotein, and Duffy-null people are not protected from it.",
+    "3": "P. ovale is in fact common in West Africa, where the Duffy-null phenotype predominates, so Duffy-null cells do not block it."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other blood group systems chapter (Duffy); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0035",
+   "tos": "BB-A.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "In a donor population, 9% of people type K-positive. K and k are codominant alleles of the Kell system; treat them as the only two alleles and assume Hardy-Weinberg equilibrium. What is the frequency of the K allele?",
+   "options": [
+    "0.046",
+    "0.09",
+    "0.30",
+    "0.954"
+   ],
+   "answer": 0,
+   "why": "Start from the antigen-negative phenotype, because only kk people are K-negative: q² = 1 − 0.09 = 0.91, so q (k) = √0.91 = 0.954. Then p (K) = 1 − 0.954 = **0.046**. Most K-positive people are therefore heterozygous (2pq ≈ 0.088), and KK homozygotes are only about 0.2% of the population.",
+   "whyNot": {
+    "1": "0.09 is the K-positive phenotype frequency, which includes both KK and Kk people; it is not the allele frequency.",
+    "2": "0.30 is the square root of 0.09, which wrongly assumes all K-positive people are homozygous (KK = p²).",
+    "3": "0.954 is the frequency of the k allele (the square root of 0.91), not of the K allele."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Basic genetics chapter (Hardy-Weinberg principle and population genetics)",
+   "worked": {
+    "problem": "In a population, 84% of people are positive for antigen X, which is controlled by two codominant alleles (X and x). Assuming Hardy-Weinberg equilibrium, find the frequency of allele X and the percentage of people who are homozygous XX.",
+    "steps": [
+     "Antigen-negative people (xx) make up 1 − 0.84 = 0.16 of the population, and this equals q².",
+     "q (allele x) = √0.16 = 0.40.",
+     "p (allele X) = 1 − 0.40 = 0.60.",
+     "Homozygous XX = p² = 0.60² = 0.36; heterozygous Xx = 2pq = 2 × 0.60 × 0.40 = 0.48. Check: 0.36 + 0.48 = 0.84, matching the antigen-positive frequency."
+    ],
+    "result": "Allele X frequency = 0.60; 36% of the population is homozygous XX."
+   }
+  },
+  {
+   "id": "BB-0036",
+   "tos": "BB-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The Di(a) antigen is a useful anthropologic marker because it is found mainly in people of East Asian and Native American ancestry and is rare in people of European or African ancestry. On which red cell membrane protein are the Diego system antigens carried?",
+   "options": [
+    "Glycophorin A",
+    "Glycophorin C",
+    "Duffy glycoprotein (ACKR1)",
+    "Band 3 (anion exchanger 1)"
+   ],
+   "answer": 3,
+   "why": "The Diego antigens, including Dia/Dib and Wra/Wrb, sit on **band 3**, the red cell anion exchanger (AE1, SLC4A1). Anti-Dia, though uncommon, can cause hemolytic transfusion reactions and HDFN, which is why it matters in Asian and Native American populations.",
+   "whyNot": {
+    "0": "Glycophorin A carries the M and N antigens of the MNS system.",
+    "1": "Glycophorin C (and its variant glycophorin D) carries the Gerbich system antigens.",
+    "2": "The Duffy glycoprotein carries the Fya and Fyb antigens and is the chemokine receptor used by P. vivax."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other blood group systems chapter (Diego); AABB Technical Manual, 21st ed., blood group antigens and antibodies chapter"
+  },
+  {
+   "id": "BB-0037",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Most whole blood collection sets now include a diversion pouch that captures the first few tens of milliliters of blood drawn from the donor. The main purpose of this pouch is to:",
+   "options": [
+    "Remove leukocytes that cause febrile reactions",
+    "Reduce bacterial contamination of the unit from skin",
+    "Lower the citrate content of the collected unit",
+    "Clear air from the tubing to prevent embolism"
+   ],
+   "answer": 1,
+   "why": "The first blood drawn can carry a core of skin (the skin plug) and resident bacteria such as coagulase-negative staphylococci that survive arm disinfection. Diverting it away from the main bag **reduces bacterial contamination of the unit from skin**, which matters most for platelets stored at room temperature.",
+   "whyNot": {
+    "0": "Leukocytes are removed by leukoreduction filters; diverting the first small volume does not meaningfully lower the white cell content of the unit.",
+    "2": "The anticoagulant volume is fixed in the primary bag; the diverted blood does not change the citrate-to-blood ratio of the unit.",
+    "3": "Air embolism is prevented by proper tubing and clamp handling, not by the diversion pouch."
+   },
+   "ref": "AABB Technical Manual, 21st ed., whole blood collection chapter; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., donor selection and collection chapter"
+  },
+  {
+   "id": "BB-0038",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During a plateletpheresis donation using ACD-A anticoagulant, the donor reports tingling around the lips and in the fingertips. Her pulse and blood pressure are stable. The most likely cause and an appropriate first response are:",
+   "options": [
+    "Vasovagal reaction; stop the procedure and raise the donor's legs",
+    "Air embolism; turn the donor onto the left side with head down",
+    "Citrate toxicity; slow the return rate and give oral calcium",
+    "Ethylene oxide allergy; give an antihistamine and continue"
+   ],
+   "answer": 2,
+   "why": "Citrate returned to the donor binds ionized calcium, and the resulting **hypocalcemia** first appears as perioral and fingertip tingling. It is managed by slowing the return (citrate infusion) rate and, per facility protocol, giving oral calcium; untreated it can progress to muscle cramps, tetany, or arrhythmia.",
+   "whyNot": {
+    "0": "A vasovagal reaction presents with pallor, sweating, lightheadedness, and often a slow pulse and low blood pressure, not isolated perioral tingling.",
+    "1": "Air embolism presents with sudden cough, dyspnea, chest pain, or cyanosis, not tingling around the mouth.",
+    "3": "An allergy to ethylene oxide used to sterilize kits causes urticaria, flushing, or anaphylaxis rather than paresthesias."
+   },
+   "ref": "AABB Technical Manual, 21st ed., apheresis chapter (donor adverse reactions); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., apheresis chapter"
+  },
+  {
+   "id": "BB-0039",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which set of changes develops in red cells during refrigerated storage at 1–6 °C (the red cell storage lesion)?",
+   "options": [
+    "Decreased 2,3-DPG, increased plasma potassium, decreased pH",
+    "Increased 2,3-DPG, decreased plasma potassium, increased pH",
+    "Decreased 2,3-DPG, decreased plasma potassium, increased ATP",
+    "Increased ATP, increased pH, decreased plasma hemoglobin"
+   ],
+   "answer": 0,
+   "why": "Continued glycolysis produces lactate, so pH falls and **2,3-DPG drops** (which raises hemoglobin's oxygen affinity), while the cold-inhibited Na+/K+ pump lets potassium leak into the plasma. ATP gradually declines and plasma hemoglobin rises; 2,3-DPG is regenerated within hours to days after transfusion.",
+   "whyNot": {
+    "1": "Every change is reversed: 2,3-DPG falls as the pH drops, and potassium leaks out of cells because the cold slows the Na+/K+ pump.",
+    "2": "Plasma potassium rises rather than falls, and ATP falls gradually during storage.",
+    "3": "ATP and pH fall as glycolysis produces lactate, and plasma hemoglobin rises as some cells hemolyze."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Preservation and storage of blood chapter (storage lesion); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0040",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Under AABB standards, platelets (whole blood-derived or apheresis) intended for conventional storage are kept at:",
+   "options": [
+    "1–6 °C with continuous gentle agitation",
+    "20–24 °C without any agitation",
+    "1–6 °C without agitation",
+    "20–24 °C with continuous gentle agitation"
+   ],
+   "answer": 3,
+   "why": "Conventional platelets are stored at **20–24 °C with continuous gentle agitation**, which keeps them functional and in circulation after transfusion and maintains gas exchange to prevent a fall in pH. The trade-off of room-temperature storage is a higher risk of bacterial growth, which is why the shelf life is short and bacterial risk control is required.",
+   "whyNot": {
+    "0": "Refrigeration activates platelets and causes rapid clearance after transfusion, so conventional platelets are not refrigerated.",
+    "1": "Without agitation, gas exchange through the bag is poor, lactate builds up, and the pH falls; agitation may be interrupted only for a limited time (no more than 24 hours), such as during shipping.",
+    "2": "These are the conditions for red cells; cold-stored platelets kept this way are a separate, special-indication product, not conventional storage."
+   },
+   "ref": "AABB Technical Manual, 21st ed., component storage chapter; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Preservation and storage of blood chapter"
+  },
+  {
+   "id": "BB-0041",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "When platelets are prepared from whole blood by the platelet-rich plasma (PRP) method, the correct centrifugation sequence is:",
+   "options": [
+    "A heavy spin of whole blood, then a light spin of the PRP",
+    "A light spin of whole blood, then a heavy spin of the PRP",
+    "Two heavy spins, the second performed on the PRP",
+    "Two light spins, the second performed on the PRP"
+   ],
+   "answer": 1,
+   "why": "A **light (soft) spin first** leaves platelets suspended in the plasma above the red cells; this PRP is expressed into a satellite bag. A heavy (hard) spin of the PRP then pellets the platelets, most of the plasma is removed, and the platelets are rested before being resuspended in the remaining plasma.",
+   "whyNot": {
+    "0": "A heavy first spin would pack platelets with the red cells and buffy coat, so little would be left in the plasma to harvest.",
+    "2": "The first spin must be light; a heavy first spin sediments most platelets along with the cells.",
+    "3": "A light second spin would leave most platelets suspended in the plasma instead of forming a pellet."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Component preparation chapter; AABB Technical Manual, 21st ed., blood component preparation chapter"
+  },
+  {
+   "id": "BB-0042",
+   "tos": "BB-B.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "An adult with a body surface area (BSA) of 1.8 m² receives an apheresis platelet unit containing 3.6 × 10¹¹ platelets. The platelet count is 8 × 10³/µL before and 33 × 10³/µL 1 hour after transfusion. What is the corrected count increment (CCI)?",
+   "options": [
+    "6,944",
+    "16,500",
+    "12,500",
+    "3,858"
+   ],
+   "answer": 2,
+   "why": "CCI = (post-count − pre-count, per µL) × BSA (m²) ÷ platelets transfused (× 10¹¹). Here (33,000 − 8,000) × 1.8 ÷ 3.6 = **12,500**. A 1-hour CCI well above 7,500 indicates an adequate response, which argues against immune refractoriness.",
+   "whyNot": {
+    "0": "6,944 comes from omitting the BSA: 25,000 ÷ 3.6. The CCI corrects for patient size by multiplying by BSA.",
+    "1": "16,500 uses the post-transfusion count (33,000) instead of the increment (33,000 − 8,000).",
+    "3": "3,858 comes from dividing by the BSA instead of multiplying by it: 25,000 ÷ (1.8 × 3.6)."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Component therapy chapter (platelet transfusion and refractoriness); AABB Technical Manual, 21st ed.",
+   "worked": {
+    "problem": "A patient with a BSA of 1.6 m² receives a pool of whole blood-derived platelets estimated to contain 3.3 × 10¹¹ platelets. The count rises from 5 × 10³/µL to 20 × 10³/µL at 1 hour. Calculate the CCI and judge the response, using 7,500 as the cutoff for an adequate 1-hour CCI.",
+    "steps": [
+     "Platelet increment = 20,000 − 5,000 = 15,000 per µL.",
+     "Multiply by BSA: 15,000 × 1.6 = 24,000.",
+     "Divide by the number of platelets transfused in units of 10¹¹: 24,000 ÷ 3.3 = 7,273.",
+     "Compare with the cutoff: 7,273 is below 7,500, so the response is poor; if repeated after another fresh, ABO-compatible transfusion, evaluate for refractoriness (for example, HLA antibodies)."
+    ],
+    "result": "CCI ≈ 7,270 (below 7,500): a poor 1-hour response."
+   }
+  },
+  {
+   "id": "BB-0043",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Within minutes of starting a plasma transfusion, an afebrile patient develops hypotension, bronchospasm, and generalized urticaria. Workup shows undetectable serum IgA and the presence of anti-IgA. For future transfusions, the best choice is:",
+   "options": [
+    "IgA-deficient donor components or washed cells",
+    "Leukoreduced components given with an antihistamine",
+    "Irradiated components from any compatible donor",
+    "Standard components given with an antipyretic"
+   ],
+   "answer": 0,
+   "why": "Anaphylaxis without fever in a patient with absent IgA and anti-IgA points to an antibody against **donor plasma IgA**. Prevention requires removing the antigen: plasma and platelets from IgA-deficient donors, and red cells or platelets washed to remove residual plasma.",
+   "whyNot": {
+    "1": "Leukoreduction lowers the risk of febrile reactions and HLA alloimmunization but leaves the IgA-containing plasma in place.",
+    "2": "Irradiation inactivates donor lymphocytes to prevent TA-GVHD; it does not remove IgA.",
+    "3": "An antipyretic treats febrile reactions and does nothing to prevent IgA-mediated anaphylaxis."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Adverse effects of blood transfusion chapter (anaphylactic reactions); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0044",
+   "tos": "BB-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A red cell unit stored for several weeks at 1–6 °C causes septic shock and endotoxemia in the recipient. Which organism is classically implicated, because it is a gram-negative rod that grows at refrigerator temperature and uses iron?",
+   "options": [
+    "Staphylococcus epidermidis",
+    "Treponema pallidum",
+    "Bacillus cereus",
+    "Yersinia enterocolitica"
+   ],
+   "answer": 3,
+   "why": "**Yersinia enterocolitica** is psychrophilic (it grows at 1–6 °C), uses iron released from stored red cells, and produces endotoxin, so older red cell units are the classic source. It may come from a donor with mild, unrecognized gastrointestinal infection.",
+   "whyNot": {
+    "0": "Coagulase-negative staphylococci are the commonest contaminants of room-temperature platelets, but they are gram-positive and grow poorly in refrigerated red cells.",
+    "1": "T. pallidum survives poorly at refrigerator temperature, so transmission is linked to fresh components, and it does not cause endotoxic shock.",
+    "2": "Bacillus species are gram-positive spore formers usually linked to platelet contamination, not to cold-stored red cells."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion-transmitted diseases chapter (bacterial contamination); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0045",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "When a patient's antibody screen is negative and there is no history of clinically significant antibodies, an immediate-spin crossmatch is mainly intended to detect:",
+   "options": [
+    "IgG alloantibodies such as anti-K or anti-Fya",
+    "ABO incompatibility between donor and recipient",
+    "Incompatibility due to D type in D-negative recipients",
+    "Donor red cells already coated with IgG"
+   ],
+   "answer": 1,
+   "why": "With a negative screen and no antibody history, the immediate-spin (room-temperature, no incubation) crossmatch serves as a final check for **ABO incompatibility**, catching errors in labeling, typing, or unit selection. Its main limitation is missing IgG antibodies to antigens absent from the screening cells.",
+   "whyNot": {
+    "0": "IgG alloantibodies usually need 37 °C incubation and antiglobulin reagent, which the immediate-spin crossmatch omits.",
+    "2": "D typing of donors and patients prevents this; anti-D is IgG and is not reliably detected at immediate spin.",
+    "3": "A positive donor DAT is shown by an antiglobulin test, not by an immediate-spin crossmatch."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion testing chapter; AABB Technical Manual, 21st ed., pretransfusion testing chapter"
+  },
+  {
+   "id": "BB-0046",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient's 3-cell antibody screen and autologous control are negative. One of four ABO-compatible red cell units is 2+ incompatible at the antiglobulin phase; the other three are compatible. The DAT on the incompatible donor unit is negative, and an 11-cell panel that includes cells homozygous for Kidd, Duffy, and MNS antigens is also nonreactive. The most likely explanation is that the patient has:",
+   "options": [
+    "A warm IgG autoantibody to red cells",
+    "An alloantibody to a high-prevalence antigen",
+    "An antibody to a low-prevalence donor antigen",
+    "Rouleaux from abnormal serum proteins"
+   ],
+   "answer": 2,
+   "why": "Reactivity with only one donor unit, while screening cells, panel cells (including homozygous cells that rule out a dosage-related miss), and the autologous control are all negative and the donor DAT is negative, points to **an antibody to a low-prevalence antigen** carried by that donor. Such antigens are absent from most reagent cells, so the antibody is found only by the crossmatch; the unit is simply not used.",
+   "whyNot": {
+    "0": "A warm autoantibody would make the autologous control and all screening and panel cells react.",
+    "1": "An antibody to a high-prevalence antigen would react with nearly all screening and panel cells, not with just one donor unit.",
+    "3": "Rouleaux affect all cells tested in the patient's plasma and are washed away before the antiglobulin phase, so they would not affect one unit only."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Pretransfusion testing and antibody identification chapters; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0047",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which situation calls for a direct antiglobulin test (DAT) rather than an indirect antiglobulin test?",
+   "options": [
+    "Investigating suspected HDFN using the newborn's red cells",
+    "Screening a patient's plasma for unexpected antibodies",
+    "Testing a donor's red cells for weak D",
+    "Performing an antiglobulin crossmatch with donor cells"
+   ],
+   "answer": 0,
+   "why": "The DAT detects antibody or complement that has **coated red cells in vivo**, as in HDFN, hemolytic transfusion reactions, and autoimmune or drug-induced hemolysis. The IAT detects in vitro sensitization, so it is used for antibody screening and identification, crossmatching, weak D testing, and red cell antigen typing.",
+   "whyNot": {
+    "1": "Antibody screening detects free antibody in plasma by incubating it with reagent cells, which is an indirect antiglobulin test.",
+    "2": "Weak D testing incubates the cells with anti-D in vitro before adding AHG, so it is an indirect antiglobulin test.",
+    "3": "The crossmatch incubates recipient plasma with donor cells in vitro, which is an indirect antiglobulin test."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antihuman globulin test chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0048",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An antibody that reacts best at room temperature appears to be anti-P1. Which substance can be used in a neutralization test to help confirm this specificity?",
+   "options": [
+    "Saliva from a secretor",
+    "Pooled human plasma",
+    "Human breast milk",
+    "Hydatid cyst fluid"
+   ],
+   "answer": 3,
+   "why": "P1 substance occurs in **hydatid cyst fluid** (Echinococcus) and in pigeon egg white, and these preparations inhibit anti-P1. Loss of reactivity after neutralization, with a dilution control that stays reactive, supports anti-P1 and can expose other antibodies hidden by it.",
+   "whyNot": {
+    "0": "Secretor saliva contains soluble ABH (and Lewis) substances and is used to neutralize those antibodies or to determine secretor status, not anti-P1.",
+    "1": "Pooled plasma supplies soluble Chido/Rodgers (C4) substance and is used to neutralize anti-Ch and anti-Rg.",
+    "2": "Human milk contains soluble I substance and can be used to neutralize anti-I, not anti-P1."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other blood group systems chapter (P system); AABB Technical Manual, 21st ed., antibody identification chapter (neutralization)"
+  },
+  {
+   "id": "BB-0049",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Because of dosage, which antibody should be excluded only with a nonreactive panel cell that is homozygous for the corresponding antigen?",
+   "options": [
+    "Anti-Lea",
+    "Anti-M",
+    "Anti-P1",
+    "Anti-K"
+   ],
+   "answer": 1,
+   "why": "Antibodies in the MNS, Rh (C, c, E, e), Duffy, and Kidd systems often show dosage, reacting more strongly with cells from homozygotes. **Anti-M** in particular may react with M+N− cells yet miss M+N+ cells, so it should be excluded with a nonreactive M+N− cell.",
+   "whyNot": {
+    "0": "Lewis antigens are adsorbed from plasma rather than encoded by codominant alleles on the red cell, so homozygous cells are not used to exclude anti-Lea.",
+    "2": "P1 strength varies widely between individuals, but this is not dosage from codominant alleles, so homozygous cells are not the exclusion rule for anti-P1.",
+    "3": "Exclusion of anti-K is usually accepted with a K+k+ cell because K+k− cells are rare and Kell dosage effects are slight."
+   },
+   "ref": "AABB Technical Manual, 21st ed., antibody identification chapter (exclusion and dosage); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antibody identification chapter"
+  },
+  {
+   "id": "BB-0050",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which antibody found during a pregnant woman's prenatal antibody screen is least likely to cause HDFN?",
+   "options": [
+    "Anti-K",
+    "Anti-c",
+    "Anti-Lea",
+    "Anti-Fya"
+   ],
+   "answer": 2,
+   "why": "**Lewis antibodies** are mostly IgM, so they do not cross the placenta, and Lewis antigens are poorly developed on fetal and newborn red cells. Lewis antibodies are also common in pregnancy, partly because many women transiently type Le(a−b−) while pregnant.",
+   "whyNot": {
+    "0": "Anti-K is IgG and can cause severe HDFN; it also suppresses fetal erythropoiesis, so the anemia can be worse than bilirubin levels suggest.",
+    "1": "Anti-c is IgG and is one of the most important causes of severe HDFN after anti-D.",
+    "3": "Anti-Fya is usually IgG and can cause HDFN, usually mild but occasionally severe."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter and Lewis system chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0051",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "C-reactive protein, an acute-phase reactant that binds the phosphocholine of pneumococcal C-polysaccharide, is synthesized mainly by:",
+   "options": [
+    "Hepatocytes, in response to interleukin-6",
+    "Plasma cells, in response to bacterial antigens",
+    "Macrophages, in response to interferon-gamma",
+    "Neutrophils, in response to interleukin-8"
+   ],
+   "answer": 0,
+   "why": "CRP is made by **hepatocytes**, mainly under the control of IL-6 (with help from IL-1 and TNF-α). It rises within hours of inflammation or tissue injury, binds phosphocholine in a calcium-dependent way, and activates the classical complement pathway and opsonizes microbes.",
+   "whyNot": {
+    "1": "CRP is not an antibody; plasma cells secrete immunoglobulins, whereas CRP is an innate pattern-recognition protein made by the liver.",
+    "2": "Macrophages produce IL-6, IL-1, and TNF-α, which drive CRP synthesis, but they do not make CRP themselves.",
+    "3": "IL-8 is a neutrophil chemokine; neutrophils do not synthesize CRP."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., innate immunity / acute-phase reactants chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0052",
+   "tos": "BB-F.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which complement split product is the most potent anaphylatoxin and also a strong chemoattractant for neutrophils?",
+   "options": [
+    "C3b",
+    "C4a",
+    "C5b",
+    "C5a"
+   ],
+   "answer": 3,
+   "why": "The anaphylatoxins C3a, C4a, and C5a cause mast cell degranulation, smooth muscle contraction, and increased vascular permeability, with **C5a** the most potent. C5a is also a powerful chemotactic factor that draws neutrophils and monocytes to the site of complement activation.",
+   "whyNot": {
+    "0": "C3b is the major opsonin and part of the C5 convertases; it is not an anaphylatoxin.",
+    "1": "C4a is a weak anaphylatoxin with little chemotactic activity.",
+    "2": "C5b is the larger fragment of C5 and starts assembly of the membrane attack complex (C5b-9); it is not released as an anaphylatoxin."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., complement system chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0053",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A low-molecular-weight drug such as penicillin cannot stimulate antibody production by itself, but it can after binding to a host protein. Such a molecule is called a(n):",
+   "options": [
+    "Adjuvant",
+    "Carrier",
+    "Hapten",
+    "Mitogen"
+   ],
+   "answer": 2,
+   "why": "A **hapten** is antigenic (it can bind antibody) but not immunogenic on its own; it becomes immunogenic only when coupled to a larger carrier protein. Penicillin binding to red cell membrane proteins is the classic example, and it is the basis of drug-adsorption immune hemolysis.",
+   "whyNot": {
+    "0": "An adjuvant is a substance given with an antigen to enhance the immune response; it is not the small molecule the antibody recognizes.",
+    "1": "The carrier is the larger protein the small molecule binds to, which supplies the T-cell help.",
+    "3": "A mitogen stimulates lymphocytes to divide regardless of their antigen specificity."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., antigens and immunogens chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0054",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Secretory IgA in saliva, tears, and breast milk is a dimer joined by a J chain. What additional feature distinguishes it from most serum IgA?",
+   "options": [
+    "A secretory component from the poly-Ig receptor",
+    "A pentameric structure with ten binding sites",
+    "An extra constant domain (CH4) on each heavy chain",
+    "High-affinity binding to mast cell Fc receptors"
+   ],
+   "answer": 0,
+   "why": "Dimeric IgA made by plasma cells beneath mucosal epithelium binds the polymeric immunoglobulin receptor and is carried across the epithelial cell. At the luminal surface the receptor is cleaved, leaving a fragment attached as the **secretory component**, which protects secretory IgA from proteolysis in mucosal secretions.",
+   "whyNot": {
+    "1": "A pentamer with ten antigen-binding sites describes IgM, not secretory IgA.",
+    "2": "IgM and IgE heavy chains have four constant domains; IgA has three plus a hinge region.",
+    "3": "High-affinity binding to FcεRI on mast cells and basophils is a property of IgE."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., immunoglobulin structure and function chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0055",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Peptides from extracellular proteins that a dendritic cell has engulfed and processed in endocytic vesicles are presented on:",
+   "options": [
+    "MHC class I molecules, to CD8+ T cells",
+    "MHC class II molecules, to CD4+ T cells",
+    "MHC class I molecules, to CD4+ T cells",
+    "MHC class II molecules, to CD8+ T cells"
+   ],
+   "answer": 1,
+   "why": "Exogenous antigens are degraded in endosomes and lysosomes, where their peptides are loaded onto **MHC class II** molecules for recognition by CD4+ helper T cells. Endogenous peptides are loaded onto MHC class I for CD8+ T cells; cross-presentation by dendritic cells is a specialized exception.",
+   "whyNot": {
+    "0": "MHC class I presents peptides from proteins made inside the cell (endogenous, such as viral proteins) to CD8+ cytotoxic T cells.",
+    "2": "CD4 binds MHC class II, not class I, so CD4+ T cells are restricted to class II.",
+    "3": "CD8 binds MHC class I, not class II, so CD8+ T cells are restricted to class I."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., cell-mediated immunity / MHC chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0056",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a person previously sensitized to Mycobacterium tuberculosis, an intradermal tuberculin injection produces induration that peaks at 48–72 hours. This reaction is mediated mainly by:",
+   "options": [
+    "Allergen-specific IgE bound to mast cells",
+    "Antigen-antibody complexes that activate complement",
+    "IgG antibodies bound to antigens on host cells",
+    "Sensitized Th1 cells that activate macrophages"
+   ],
+   "answer": 3,
+   "why": "The tuberculin reaction is the classic type IV (delayed-type) hypersensitivity. Memory **Th1 cells** recognize the antigen, release IFN-γ and other cytokines, and recruit and activate macrophages; this cellular influx takes 48–72 hours, and no antibody is involved.",
+   "whyNot": {
+    "0": "IgE-mediated (type I) reactions begin within minutes and cause a wheal and flare, not induration that peaks at 2–3 days.",
+    "1": "Immune-complex (type III) reactions such as the Arthus reaction peak within hours and involve neutrophils, not a 48–72 hour T-cell infiltrate.",
+    "2": "Antibody against cell-surface antigens is type II hypersensitivity, which causes cell lysis or dysfunction, not delayed induration."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., hypersensitivity chapter (type IV); Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0057",
+   "tos": "BB-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "HLA genes lie close together on chromosome 6 and are usually inherited as haplotypes. Ignoring recombination, what is the chance that a patient's full sibling is HLA-identical (shares both haplotypes)?",
+   "options": [
+    "50%",
+    "75%",
+    "25%",
+    "100%"
+   ],
+   "answer": 2,
+   "why": "Each child gets one of two haplotypes from each parent, giving four equally likely combinations. A given sibling therefore has a **25%** chance of being HLA-identical, 50% of being haploidentical, and 25% of sharing no haplotype, which is why siblings are searched first for a matched stem cell donor.",
+   "whyNot": {
+    "0": "50% is the chance that a sibling shares exactly one haplotype (haploidentical).",
+    "1": "75% is the chance that a sibling shares at least one haplotype (identical plus haploidentical).",
+    "3": "Only identical twins are certain to be HLA-identical; ordinary siblings each receive a random haplotype from each parent."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., transplantation immunology chapter; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., HLA system chapter"
+  },
+  {
+   "id": "BB-0058",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The Weil-Felix test, a febrile agglutinin test once used to support a diagnosis of rickettsial infection, uses which antigens?",
+   "options": [
+    "Salmonella O and H antigens",
+    "Proteus strains OX19, OX2, and OXK",
+    "Killed Brucella abortus cells",
+    "Sheep or horse red blood cells"
+   ],
+   "answer": 1,
+   "why": "Antibodies made during many rickettsial infections cross-react with somatic antigens of certain **Proteus strains** (P. vulgaris OX19 and OX2, P. mirabilis OXK). The test is cheap but neither sensitive nor specific, so indirect immunofluorescence and molecular methods have largely replaced it.",
+   "whyNot": {
+    "0": "Salmonella O and H antigens are used in the Widal test for typhoid fever.",
+    "2": "Killed Brucella cells are used in the Brucella agglutination test for brucellosis.",
+    "3": "Sheep or horse red cells detect the heterophile antibodies of infectious mononucleosis."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, rickettsial infections / febrile agglutinins; Stevens, Clinical Immunology & Serology, 5th ed."
+  },
+  {
+   "id": "BB-0059",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient recovering from acute hepatitis has these results: HBsAg negative, anti-HBs negative, IgM anti-HBc positive. The best interpretation is:",
+   "options": [
+    "Immunity from hepatitis B vaccination",
+    "Past HBV infection with recovery and immunity",
+    "Chronic HBV infection",
+    "Acute HBV infection in the core window period"
+   ],
+   "answer": 3,
+   "why": "After HBsAg clears and before anti-HBs is detectable, **IgM anti-HBc** may be the only marker of acute infection. This core window is why total or IgM anti-HBc testing is needed to avoid missing recent HBV infection.",
+   "whyNot": {
+    "0": "Vaccination produces anti-HBs only; anti-HBc would be negative because the vaccine contains no core antigen.",
+    "1": "Recovery with immunity shows anti-HBs together with IgG (total) anti-HBc, not an isolated IgM anti-HBc.",
+    "2": "Chronic infection is defined by HBsAg persisting for more than 6 months, and HBsAg is negative here."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, viral hepatitis chapter; Stevens, Clinical Immunology & Serology, 5th ed., hepatitis chapter"
+  },
+  {
+   "id": "BB-0060",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In an indirect ELISA for antibodies to HIV, patient serum is added to wells coated with HIV antigens, incubated, and washed. Which reagent is added next?",
+   "options": [
+    "Enzyme-labeled anti-human globulin",
+    "Chromogenic enzyme substrate",
+    "Enzyme-labeled HIV antigen",
+    "Enzyme-labeled anti-HIV antibody"
+   ],
+   "answer": 0,
+   "why": "In an indirect ELISA, patient antibody bound to the solid-phase antigen is detected with an **enzyme-labeled anti-human immunoglobulin** conjugate. After another wash, substrate is added, and the color produced is proportional to the antibody bound. Indirect immunofluorescence follows the same logic but uses a fluorochrome-labeled antiglobulin read under a fluorescence microscope.",
+   "whyNot": {
+    "1": "The substrate is added only after the enzyme conjugate has bound and unbound conjugate has been washed away.",
+    "2": "A labeled antigen is the second reagent in a double-antigen (sandwich) format, not in an indirect ELISA.",
+    "3": "A labeled anti-HIV antibody is used in competitive or antigen-capture formats, not in an indirect ELISA."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., labeled immunoassays chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0061",
+   "tos": "BB-H.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Latex agglutination and lateral flow tests on CSF or serum for cryptococcal meningitis detect:",
+   "options": [
+    "Antibody to the cryptococcal capsule",
+    "Capsular glucuronoxylomannan antigen",
+    "Galactomannan from the fungal cell wall",
+    "(1→3)-β-D-glucan from the fungal cell wall"
+   ],
+   "answer": 1,
+   "why": "Cryptococcal antigen (CrAg) tests detect the **capsular polysaccharide glucuronoxylomannan** shed into CSF and serum, and they are more sensitive than the India ink preparation. In latex tests, rheumatoid factor can cause false positives, so specimens are pretreated with pronase or tested with controls.",
+   "whyNot": {
+    "0": "Antibody tests are insensitive in cryptococcosis; current tests detect circulating antigen rather than the host antibody response.",
+    "2": "Galactomannan antigen testing is used mainly for invasive aspergillosis.",
+    "3": "Beta-D-glucan is a broad fungal marker, but it is typically low or undetectable in cryptococcosis, so it is not the cryptococcal test."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, fungal infections chapter; Stevens, Clinical Immunology & Serology, 5th ed."
+  },
+  {
+   "id": "BB-0062",
+   "tos": "BB-H.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A woman at 10 weeks' gestation has positive Toxoplasma gondii IgG and IgM. Her Toxoplasma IgG avidity is high. The best interpretation is that the infection:",
+   "options": [
+    "Was acquired within the past few weeks",
+    "Is proven acute because IgM is present",
+    "Was acquired months earlier, most likely before conception",
+    "Is a false-positive finding in an uninfected woman"
+   ],
+   "answer": 2,
+   "why": "IgG avidity rises over months as affinity maturation proceeds, so **high avidity** excludes infection within the time window set by the assay (several months). Early in pregnancy, this places the infection before conception, which means a very low risk of congenital toxoplasmosis.",
+   "whyNot": {
+    "0": "Recent primary infection gives low-avidity IgG, because high-avidity antibody takes months to develop.",
+    "1": "Toxoplasma IgM can persist for many months to years, so a positive IgM alone does not prove recent infection.",
+    "3": "High-avidity IgG indicates true, longstanding infection, not a false-positive reaction in an uninfected person."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, parasitic infections chapter (toxoplasmosis); Stevens, Clinical Immunology & Serology, 5th ed."
+  },
+  {
+   "id": "BB-0063",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 24-year-old man has a testicular mass. His serum AFP is markedly elevated and his hCG is mildly elevated. These findings indicate:",
+   "options": [
+    "A pure classic seminoma of the testis",
+    "A nonseminomatous germ cell component",
+    "A Leydig cell tumor of the testis",
+    "A primary testicular lymphoma"
+   ],
+   "answer": 1,
+   "why": "AFP is produced by yolk sac (endodermal sinus) elements and, to a lesser degree, embryonal carcinoma, so **an elevated AFP signals a nonseminomatous component** even if the biopsy suggests seminoma. AFP, hCG, and LDH are used together for diagnosis, staging, and monitoring of testicular germ cell tumors.",
+   "whyNot": {
+    "0": "Pure seminomas may raise hCG mildly but do not produce AFP; a raised AFP rules out a pure seminoma.",
+    "2": "Leydig cell tumors are sex cord-stromal tumors that may secrete androgens or estrogens but not AFP.",
+    "3": "Testicular lymphoma, seen mostly in older men, does not produce AFP or hCG."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, tumor markers chapter; Stevens, Clinical Immunology & Serology, 5th ed., tumor immunology chapter"
+  },
+  {
+   "id": "BB-0064",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which condition is an example of type III (immune complex) hypersensitivity?",
+   "options": [
+    "Acute hemolytic transfusion reaction",
+    "Allergic contact dermatitis to nickel",
+    "Seasonal allergic rhinitis",
+    "Serum sickness"
+   ],
+   "answer": 3,
+   "why": "In **serum sickness**, antibodies to a foreign protein form soluble immune complexes that deposit in vessels, joints, and glomeruli, activate complement, and attract neutrophils. Other type III examples include the Arthus reaction, post-streptococcal glomerulonephritis, and the nephritis of SLE.",
+   "whyNot": {
+    "0": "Antibody binding to antigens on transfused red cells is type II (cytotoxic) hypersensitivity.",
+    "1": "Contact dermatitis is type IV (T-cell-mediated, delayed) hypersensitivity.",
+    "2": "Hay fever is type I (IgE-mediated, immediate) hypersensitivity."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology, 5th ed., hypersensitivity chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0065",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which technique detects specific RNA molecules that have been separated by gel electrophoresis, transferred to a membrane, and hybridized with a labeled probe?",
+   "options": [
+    "Northern blot",
+    "Southern blot",
+    "Western blot",
+    "Fluorescence in situ hybridization"
+   ],
+   "answer": 0,
+   "why": "Blot names follow the target: Southern for DNA, **Northern for RNA**, and Western for protein. In a Northern blot, RNA is separated under denaturing conditions, transferred to a membrane, and detected with a labeled complementary probe, which shows both the presence and the size of a transcript.",
+   "whyNot": {
+    "1": "A Southern blot detects DNA fragments, usually after restriction enzyme digestion, using a labeled nucleic acid probe.",
+    "2": "A Western blot detects proteins separated by electrophoresis, using labeled antibodies rather than nucleic acid probes.",
+    "3": "FISH hybridizes fluorescent probes to DNA or RNA within intact cells or chromosomes, with no electrophoretic separation."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, molecular techniques chapter; Stevens, Clinical Immunology & Serology, 5th ed."
+  },
+  {
+   "id": "BB-0066",
+   "tos": "BB-J.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Most fatal acute hemolytic transfusion reactions caused by ABO-incompatible blood result from:",
+   "options": [
+    "Failure of the AHG crossmatch to detect weak IgG antibodies",
+    "Reagent antisera of inadequate potency",
+    "Errors in identifying the patient, sample, or unit",
+    "Undetected weak D expression in the recipient"
+   ],
+   "answer": 2,
+   "why": "Most ABO-incompatible transfusions trace back to **identification errors**: a wrong blood in tube sample, mislabeling, or transfusing a unit to the wrong patient at the bedside. Quality assurance therefore stresses positive patient identification at sample collection and at the bedside, label checks, and (where used) a second-sample confirmation of ABO group.",
+   "whyNot": {
+    "0": "ABO antibodies are mainly IgM and react strongly at room temperature, so ABO incompatibility is not missed by antiglobulin technique.",
+    "1": "Licensed ABO reagents are potent and controlled daily, so reagent failure is rarely the cause.",
+    "3": "Weak D affects Rh typing and anti-D, not ABO incompatibility."
+   },
+   "ref": "AABB Technical Manual, 21st ed., quality management and hemovigilance chapters; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Quality management chapter"
   }
  ]
 }

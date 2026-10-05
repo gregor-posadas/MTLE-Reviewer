@@ -314,6 +314,35 @@
     return out;
   }
 
+  /* Diagnostic: 3 questions per subject (one easy, one moderate, one difficult when the bank has them), each from a
+     different topic, biggest exam topics first. The same set for everyone; subjects take turns. */
+  function diagnosticQueue(bank, topics) {
+    var perSubject = {};
+    SUBJECTS.forEach(function (s) {
+      var items = bank.items.filter(function (q) { return q.subject === s.code && q.type !== "image" && !q.mine; });
+      var byTopic = {};
+      items.forEach(function (q) { var k = topicOf(q.tos); (byTopic[k] = byTopic[k] || []).push(q); });
+      var order = Object.keys(byTopic).sort(function (a, b) { return (((topics && topics[b]) || {}).items || 0) - (((topics && topics[a]) || {}).items || 0) || (a < b ? -1 : 1); });
+      var picked = [], usedTopic = {};
+      ["easy", "moderate", "difficult"].forEach(function (d) {
+        var choice = null;
+        for (var pass = 0; pass < 2 && !choice; pass++) {
+          for (var i = 0; i < order.length && !choice; i++) {
+            if (pass === 0 && usedTopic[order[i]]) continue;
+            var c = byTopic[order[i]].filter(function (q) { return q.difficulty === d && picked.indexOf(q) < 0; }).sort(function (a, b) { return a.id < b.id ? -1 : 1; })[0];
+            if (c) choice = c;
+          }
+        }
+        if (choice) { picked.push(choice); usedTopic[topicOf(choice.tos)] = true; }
+      });
+      items.slice().sort(function (a, b) { return a.id < b.id ? -1 : 1; }).forEach(function (q) { if (picked.length < 3 && picked.indexOf(q) < 0) picked.push(q); });
+      perSubject[s.code] = picked;
+    });
+    var out = [];
+    for (var r = 0; r < 3; r++) SUBJECTS.forEach(function (s) { var q = perSubject[s.code][r]; if (q) out.push(q); });
+    return out;
+  }
+
   /* Exam simulation: every question in a subject (up to 100), in a fixed random order. */
   function examQueue(bank, subjects, seed) {
     var rand = rng(seed || Date.now()), out = [];
@@ -410,7 +439,7 @@
     topicIndex: topicIndex, topicOf: topicOf, imageItems: imageItems, buildBank: buildBank,
     buildCards: buildCards, mastered: mastered, ratingFor: ratingFor,
     pickNew: pickNew, spread: spread, todayPlan: todayPlan, pickQod: pickQod, todayQueue: todayQueue,
-    practiceQueue: practiceQueue, learnQueue: learnQueue, drillQueue: drillQueue, examQueue: examQueue, examMinutes: examMinutes,
+    practiceQueue: practiceQueue, learnQueue: learnQueue, diagnosticQueue: diagnosticQueue, drillQueue: drillQueue, examQueue: examQueue, examMinutes: examMinutes,
     subjectStats: subjectStats, topicStats: topicStats, calibration: calibration, weekDays: weekDays, readiness: readiness,
     mergeReviews: mergeReviews, mergeRecords: mergeRecords
   };

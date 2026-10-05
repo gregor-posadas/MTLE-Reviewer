@@ -547,6 +547,739 @@
     "2": "Justice concerns fair distribution of care and resources among patients."
    },
    "ref": "Beauchamp & Childress, Principles of Biomedical Ethics"
+  },
+  {
+   "id": "HL-0027",
+   "tos": "HL-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In describing a disease, pathologists separate its cause from the sequence of cellular and molecular events that follow the initial injury and lead to the disease. That sequence of events is called the:",
+   "options": [
+    "Etiology",
+    "Pathogenesis",
+    "Prognosis",
+    "Morphology"
+   ],
+   "answer": 1,
+   "why": "Etiology is the cause of a disease, while **pathogenesis is the mechanism, the chain of events from the initial stimulus to the expression of disease**. Both are core aspects of a disease process, along with the morphologic changes and clinical manifestations.",
+   "whyNot": {
+    "0": "Etiology refers to the cause or origin of the disease (e.g., a virus or a gene mutation), not the sequence of events that follows.",
+    "2": "Prognosis is the predicted outcome or course of a disease, not its mechanism of development.",
+    "3": "Morphology refers to the structural (gross and microscopic) changes in cells and tissues, which are the result of pathogenesis rather than the sequence itself."
+   },
+   "ref": "Robbins & Cotran Pathologic Basis of Disease (Introduction to pathology)"
+  },
+  {
+   "id": "HL-0028",
+   "tos": "HL-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient develops a moon face, central obesity, and thin skin after months of high-dose prednisone therapy for an autoimmune disease. A condition caused by medical treatment in this way is described as:",
+   "options": [
+    "Idiopathic",
+    "Nosocomial",
+    "Iatrogenic",
+    "Congenital"
+   ],
+   "answer": 2,
+   "why": "The disorder here was produced by the drug the physician prescribed. **A disease or condition caused by a medical treatment, procedure, or practitioner is called iatrogenic**.",
+   "whyNot": {
+    "0": "Idiopathic means the cause is unknown, whereas here the cause (glucocorticoid therapy) is clearly identified.",
+    "1": "Nosocomial refers to an infection acquired in a hospital or health-care facility; this condition is a drug effect, not an infection.",
+    "3": "Congenital means present at birth; this condition appeared in adulthood after treatment."
+   },
+   "ref": "Robbins & Cotran Pathologic Basis of Disease; Dorland's Illustrated Medical Dictionary"
+  },
+  {
+   "id": "HL-0029",
+   "tos": "HL-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Years after an episode of acute rheumatic fever, a patient is found to have scarred, narrowed mitral valve leaflets. The valve damage, a lasting condition that results from the earlier disease, is best termed a:",
+   "options": [
+    "Prodrome",
+    "Remission",
+    "Exacerbation",
+    "Sequela"
+   ],
+   "answer": 3,
+   "why": "**A sequela is a lasting abnormal condition that follows and results from a previous disease or injury**. Chronic rheumatic heart disease with mitral stenosis is a classic sequela of acute rheumatic fever.",
+   "whyNot": {
+    "0": "A prodrome is the set of early, nonspecific symptoms that appear before the full disease develops, not a late consequence.",
+    "1": "Remission is a lessening or disappearance of the signs and symptoms of a disease, not a permanent after-effect.",
+    "2": "An exacerbation is a worsening of an existing disease, whereas the valve scarring is a lasting result of a past one."
+   },
+   "ref": "Robbins & Cotran Pathologic Basis of Disease (The heart: rheumatic heart disease)"
+  },
+  {
+   "id": "HL-0030",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which fixing agent preserves tissue mainly by forming methylene bridges that cross-link proteins, and is therefore classed as an additive, non-coagulant fixative?",
+   "options": [
+    "Ethanol",
+    "Formaldehyde",
+    "Acetone",
+    "Acetic acid"
+   ],
+   "answer": 1,
+   "why": "**Formaldehyde reacts with protein side chains and forms methylene bridges between them**, cross-linking proteins into a gel without coagulating them. It adds itself to the tissue, so it is an additive, non-coagulant fixative.",
+   "whyNot": {
+    "0": "Ethanol fixes by dehydrating and coagulating (denaturing) proteins; it does not add to the tissue or form cross-links.",
+    "2": "Acetone is a coagulant, dehydrating fixative used mainly for cold fixation of frozen sections and enzymes, not a cross-linker.",
+    "3": "Acetic acid precipitates nucleoproteins and swells tissue; it is used in mixtures to counteract shrinkage, not as a protein cross-linker."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: mechanisms of formaldehyde); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0031",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A liver biopsy is submitted for demonstration of glycogen storage. Which of the following fixatives, an alcohol-based mixture, is best suited to preserve the glycogen?",
+   "options": [
+    "Zenker's fluid",
+    "Flemming's fluid",
+    "Carnoy's fluid",
+    "Helly's fluid"
+   ],
+   "answer": 2,
+   "why": "Glycogen is water-soluble and can leach out of tissue in aqueous fixatives. **Carnoy's fluid (absolute ethanol, chloroform, and glacial acetic acid) is a non-aqueous alcoholic fixative that preserves glycogen well**, along with nucleic acids.",
+   "whyNot": {
+    "0": "Zenker's fluid is an aqueous mercuric chloride–dichromate–acetic acid fixative; it is valued for nuclear and connective tissue detail, not glycogen.",
+    "1": "Flemming's fluid contains osmium tetroxide and chromic acid and is used mainly for nuclear structures and for fat, not glycogen.",
+    "3": "Helly's fluid is an aqueous mercuric chloride–dichromate fixative favored for hematopoietic tissue and cytoplasmic granules, not glycogen."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: alcoholic fixatives, Carnoy's fluid); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0032",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A renal biopsy is divided, and one small piece is sent for transmission electron microscopy. Which fixative is routinely used for the primary fixation of this piece?",
+   "options": [
+    "Buffered glutaraldehyde",
+    "Osmium tetroxide",
+    "10% neutral buffered formalin",
+    "Bouin's fluid"
+   ],
+   "answer": 0,
+   "why": "**Buffered glutaraldehyde (typically about 2.5–4%) is the standard primary fixative for electron microscopy**, because its two aldehyde groups cross-link proteins rapidly and preserve fine structure. The tissue is then usually post-fixed in osmium tetroxide.",
+   "whyNot": {
+    "1": "Osmium tetroxide is used mainly as the secondary (post-) fixative, which fixes lipids and adds electron density, after the glutaraldehyde step.",
+    "2": "Formalin can be used when nothing better is available, but its slower, reversible cross-linking gives poorer ultrastructure than glutaraldehyde.",
+    "3": "Bouin's fluid contains picric and acetic acids, which damage membranes and ultrastructure, so it is not used for electron microscopy."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Electron microscopy: fixation)"
+  },
+  {
+   "id": "HL-0033",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A breast core biopsy will be tested for estrogen receptor, progesterone receptor, and HER2. According to the ASCO/CAP guideline recommendations, how long should it be fixed in 10% neutral buffered formalin?",
+   "options": [
+    "1 to 4 hours",
+    "6 to 72 hours",
+    "At least 96 hours",
+    "Exactly 24 hours, no more and no less"
+   ],
+   "answer": 1,
+   "why": "ASCO/CAP recommends that breast specimens for ER, PR, and HER2 testing be fixed in 10% neutral buffered formalin for **6 to 72 hours**, with the time to fixation (cold ischemia time) kept within 1 hour. Under-fixation and over-fixation can both give false-negative results.",
+   "whyNot": {
+    "0": "One to four hours is under-fixation; formalin has not adequately cross-linked the tissue, which can lead to false-negative receptor results.",
+    "2": "Fixing for 96 hours or longer is over-fixation; excessive cross-linking masks epitopes and can reduce staining.",
+    "3": "The guideline gives an acceptable range rather than a single fixed time, so a strict 24-hour requirement is not correct."
+   },
+   "ref": "ASCO/CAP Guideline Recommendations for HER2 Testing in Breast Cancer and for ER/PR Testing (pre-analytic requirements); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemistry: fixation)"
+  },
+  {
+   "id": "HL-0034",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In routine paraffin processing, what is the main purpose of the clearing step that follows dehydration?",
+   "options": [
+    "To replace alcohol with a paraffin-miscible solvent",
+    "To remove the remaining water from the tissue",
+    "To harden the tissue before it is embedded",
+    "To make the tissue transparent for gross inspection"
+   ],
+   "answer": 0,
+   "why": "Paraffin does not mix with alcohol, so the alcohol must be replaced by a reagent that is miscible with both alcohol and paraffin. **Clearing (dealcoholization) replaces the dehydrant with a solvent such as xylene that paraffin can then displace**. The transparency that results is only a side effect that gave the step its name.",
+   "whyNot": {
+    "1": "Water is removed during dehydration, which comes before clearing; clearing agents such as xylene do not mix with water.",
+    "2": "Hardening is mainly the role of fixation and of the paraffin itself; clearing is not meant to harden tissue, and over-exposure can make it brittle.",
+    "3": "Tissue does become translucent, which is where the name comes from, but that is incidental and not the purpose of the step."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: clearing); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0035",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A paraffin oven's thermostat fails, and tissues are infiltrated in paraffin held at about 70 °C, well above the wax's melting point of 56–58 °C. What effect on the tissue is most likely?",
+   "options": [
+    "Excessive shrinkage, hardening and brittleness",
+    "Incomplete removal of the clearing agent from the tissue",
+    "Softening that makes the tissue mushy on cutting",
+    "No effect, since higher heat only speeds infiltration"
+   ],
+   "answer": 0,
+   "why": "Paraffin should be kept only a few degrees above its melting point. **Overheating causes excessive shrinkage and makes the tissue hard and brittle**, so sections crumble or crack on the microtome.",
+   "whyNot": {
+    "1": "Higher temperature, if anything, speeds the evaporation and displacement of the clearing agent; leftover clearant results from too few or too short wax changes.",
+    "2": "Mushy, soft tissue suggests incomplete fixation, dehydration, or infiltration, not overheating.",
+    "3": "Excess heat does not just speed infiltration; it damages the tissue, which is why ovens are kept close to the wax melting point."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: infiltration with paraffin wax); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0036",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A skin punch biopsy is being embedded in paraffin. How should it be oriented so that the section shows the epidermis, dermis, and subcutis together?",
+   "options": [
+    "Flat, epidermis facing the bottom of the mold",
+    "Flat, epidermis facing the top of the mold",
+    "Anywhere in the mold, as long as it is centered",
+    "On edge, with the cut perpendicular to the surface"
+   ],
+   "answer": 3,
+   "why": "The pathologist needs to see every layer of the skin in one section. **Embedding the specimen on edge places the plane of section perpendicular to the epidermal surface**, so each section runs from epidermis through dermis into subcutis.",
+   "whyNot": {
+    "0": "Lying the biopsy flat with the surface down makes the first sections cut parallel to the surface, showing only the epidermis rather than all layers.",
+    "1": "With the surface up, the sections are still parallel to the skin surface; the first cuts pass through the subcutis or dermis only.",
+    "2": "Orientation is not optional for skin; random placement gives tangential sections that can make the layers impossible to interpret."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Embedding: orientation of specimens); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0037",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "While cutting a paraffin ribbon on a rotary microtome, the technologist notices a vertical score line running through every section at the same position. What is the most likely cause?",
+   "options": [
+    "A nick in the cutting edge of the knife",
+    "The paraffin is too soft for the room temperature",
+    "The knife tilt is too great, causing chatter",
+    "The tissue was incompletely dehydrated"
+   ],
+   "answer": 0,
+   "why": "A defect that repeats at the same spot in every section must come from something fixed in the path of the block. **A nick or damaged area on the knife edge scores a line into each section**; the fix is to move to another part of the blade or replace it.",
+   "whyNot": {
+    "1": "Paraffin that is too soft causes compressed, crumpled sections that stick together, not a sharp line at a fixed position.",
+    "2": "Chatter from too great a tilt or a loose knife produces horizontal ridges or thick-and-thin bands across the section, not a vertical line.",
+    "3": "Incomplete dehydration leaves the tissue soft and crumbly so that it falls out of the wax, rather than producing a consistent scratch line."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: section faults and remedies); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0038",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which microtome is the one most commonly used to cut routine paraffin sections in a hospital histopathology laboratory?",
+   "options": [
+    "Sliding microtome",
+    "Freezing microtome",
+    "Rotary microtome",
+    "Ultramicrotome"
+   ],
+   "answer": 2,
+   "why": "**The rotary (Minot) microtome is the standard instrument for routine paraffin sections**. Turning its wheel moves the block up and down past a fixed knife, producing serial ribbons at a set thickness.",
+   "whyNot": {
+    "0": "The sliding microtome is mainly used for celloidin-embedded and very large or hard blocks, not routine paraffin work.",
+    "1": "The freezing microtome is for cutting frozen tissue and has largely been replaced by the cryostat; it is not used for paraffin blocks.",
+    "3": "The ultramicrotome cuts ultrathin resin sections for electron microscopy, not routine light-microscopy paraffin sections."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: types of microtome); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0039",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A muscle biopsy must be frozen for enzyme histochemistry. Why is it snap-frozen in isopentane chilled by liquid nitrogen instead of being dropped directly into liquid nitrogen?",
+   "options": [
+    "Liquid nitrogen fixes and denatures the muscle enzymes",
+    "Isopentane penetrates and dehydrates the tissue before freezing",
+    "Liquid nitrogen is too cold for cryostat sectioning of muscle",
+    "A gas layer forms around the tissue and slows freezing"
+   ],
+   "answer": 3,
+   "why": "When warm tissue enters liquid nitrogen, the nitrogen boils and wraps the tissue in an insulating layer of gas. **This vapor layer slows heat transfer, so freezing is slow and ice-crystal artifact forms**. Isopentane cooled by liquid nitrogen stays liquid in contact with the tissue and freezes it rapidly and evenly.",
+   "whyNot": {
+    "0": "Freezing does not fix or denature enzymes; preserving enzyme activity is exactly why muscle is snap-frozen rather than fixed.",
+    "1": "Isopentane is used only as a cold heat-transfer liquid; it does not dehydrate or penetrate the tissue before freezing.",
+    "2": "The block is warmed to cryostat temperature before cutting anyway; the problem with liquid nitrogen is slow, uneven freezing, not its low temperature."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Frozen sections; enzyme histochemistry of muscle)"
+  },
+  {
+   "id": "HL-0040",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A bone marrow trephine biopsy will be used for immunohistochemistry and molecular (DNA) testing. Which decalcifying agent is preferred to best preserve antigens and nucleic acids?",
+   "options": [
+    "EDTA",
+    "Nitric acid",
+    "Hydrochloric acid",
+    "Formic acid"
+   ],
+   "answer": 0,
+   "why": "**EDTA is a chelating agent that binds calcium ions at near-neutral pH**, so it removes calcium gently. It is slow, but it gives the best preservation of morphology, antigens, and DNA and RNA.",
+   "whyNot": {
+    "1": "Nitric acid is a rapid strong-acid decalcifier, but it damages nuclear staining and degrades nucleic acids, making it a poor choice for molecular work.",
+    "2": "Hydrochloric acid is also a strong, fast acid that harms nuclear detail and nucleic acids if the exposure is not tightly controlled.",
+    "3": "Formic acid is a gentler weak acid and is widely used, but it still degrades DNA more than EDTA does, so it is not the preferred choice here."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Decalcification: chelating agents); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0041",
+   "tos": "HL-B.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "How many mL of 95% ethanol are needed to prepare 500 mL of 70% ethanol by dilution with distilled water? (Ignore volume contraction on mixing.)",
+   "options": [
+    "132 mL",
+    "350 mL",
+    "368 mL",
+    "475 mL"
+   ],
+   "answer": 2,
+   "why": "Use C1V1 = C2V2: (95%)(V1) = (70%)(500 mL), so V1 = 35,000 / 95 = **about 368 mL of 95% ethanol**, made up to 500 mL with water.",
+   "whyNot": {
+    "0": "About 132 mL is the volume of water to add (500 − 368), not the volume of 95% ethanol.",
+    "1": "350 mL is 70% of 500 mL; it would be right only if the stock were 100% ethanol, which ignores that the stock is 95%.",
+    "3": "475 mL is 95% of 500 mL; this inverts the formula by multiplying by the stock concentration instead of dividing by it."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: dehydration); Bruce-Gregorios, Histopathologic Techniques (Laboratory solutions)",
+   "worked": {
+    "problem": "How many mL of absolute (100%) ethanol are needed to make 250 mL of 80% ethanol?",
+    "steps": [
+     "Use C1V1 = C2V2.",
+     "(100%)(V1) = (80%)(250 mL)",
+     "V1 = 20,000 / 100 = 200 mL",
+     "Add water to a final volume of 250 mL (about 50 mL of water, ignoring contraction)."
+    ],
+    "result": "200 mL of absolute ethanol, diluted to 250 mL"
+   }
+  },
+  {
+   "id": "HL-0042",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "While a paraffin block is being trimmed, the knife strikes a small, unexpected calcified focus that the gross examination missed. What is the most appropriate way to obtain sections without reprocessing the whole specimen?",
+   "options": [
+    "Soak the block face in ice water for an extended time, then re-cut",
+    "Re-cut with a smaller clearance angle and faster strokes",
+    "Briefly apply a weak acid to the block face, rinse, re-cut",
+    "Melt the block and re-embed the tissue in a harder paraffin"
+   ],
+   "answer": 2,
+   "why": "**Surface decalcification** treats only the exposed face of the block: it is placed in or on an acid decalcifier (e.g., about 1% hydrochloric acid) for a short time, rinsed, and re-cut. The acid penetrates only a short distance, enough to give a few good sections.",
+   "whyNot": {
+    "0": "Soaking in cold water softens and hydrates hard tissue slightly, but it cannot remove calcium salts.",
+    "1": "Changing the knife angle or cutting speed does not remove calcium; forcing the cut through it will tear the section and nick the knife.",
+    "3": "A harder wax does not dissolve calcium deposits, so the calcified focus would still tear sections and damage the knife."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Decalcification: surface decalcification); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0043",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two serial sections of a liver biopsy are stained with PAS. In the untreated section, the hepatocytes are full of magenta granules; in the section treated with diastase before PAS, the granules are gone. The granules are most likely:",
+   "options": [
+    "Glycogen",
+    "Neutral mucin",
+    "Alpha-1 antitrypsin globules",
+    "Fungal cell walls"
+   ],
+   "answer": 0,
+   "why": "Diastase (or alpha-amylase) digests glycogen but leaves other PAS-positive materials untouched. **PAS-positive material that disappears after diastase digestion is glycogen**.",
+   "whyNot": {
+    "1": "Neutral mucins are PAS-positive and resist diastase, so they would still stain in the digested section.",
+    "2": "Alpha-1 antitrypsin globules in hepatocytes are characteristically PAS-positive and diastase-resistant, so they would persist after digestion.",
+    "3": "Fungal cell walls are PAS-positive and diastase-resistant, and would remain stained after digestion."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Carbohydrates: PAS and diastase digestion); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0044",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Golden-brown granules are seen in Kupffer cells in an H&E section of liver. Which special stain is used to show that they are hemosiderin, by staining ferric iron blue?",
+   "options": [
+    "Fontana-Masson silver",
+    "Perls' Prussian blue",
+    "Von Kossa silver",
+    "Schmorl's ferricyanide"
+   ],
+   "answer": 1,
+   "why": "**Perls' Prussian blue reaction uses potassium ferrocyanide in dilute hydrochloric acid to form a blue ferric ferrocyanide precipitate** wherever ferric iron, as in hemosiderin, is present.",
+   "whyNot": {
+    "0": "Fontana-Masson is an argentaffin silver method used to demonstrate melanin, not iron.",
+    "2": "Von Kossa demonstrates calcium deposits (via their phosphate and carbonate) as black silver, not iron.",
+    "3": "Schmorl's ferric ferricyanide method stains reducing substances such as melanin and lipofuscin, not hemosiderin specifically."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Pigments and minerals: Perls' method); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0045",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A liver biopsy is stained with Masson's trichrome (aniline blue variant) to assess fibrosis. In a well-stained section, what color are the collagen fibers?",
+   "options": [
+    "Red",
+    "Black",
+    "Yellow",
+    "Blue"
+   ],
+   "answer": 3,
+   "why": "In Masson's trichrome, muscle and cytoplasm take up the red dye, and phosphomolybdic or phosphotungstic acid then lets the larger aniline blue molecules displace red from collagen. **Collagen stains blue** (or green with the light green variant), while nuclei are black.",
+   "whyNot": {
+    "0": "Red is the color of muscle and cytoplasm in Masson's trichrome; red collagen is the result in the Van Gieson method instead.",
+    "1": "Black is the color of nuclei (iron hematoxylin) in Masson's trichrome, and of elastic fibers in Verhoeff's stain.",
+    "2": "Yellow is the color of muscle and cytoplasm in the Van Gieson stain, which uses picric acid, not of collagen in Masson's."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Connective tissues and stains: Masson's trichrome); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0046",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In the Grocott methenamine silver (GMS) method for fungi, which reagent oxidizes the cell wall polysaccharides to aldehydes that then reduce the silver solution?",
+   "options": [
+    "Sodium thiosulfate",
+    "Chromic acid",
+    "Gold chloride",
+    "Light green"
+   ],
+   "answer": 1,
+   "why": "**Chromic acid oxidizes polysaccharides in the fungal wall to aldehydes**, which reduce methenamine silver to black metallic silver. Fungi therefore appear black against a light green background.",
+   "whyNot": {
+    "0": "Sodium thiosulfate is used near the end to remove unreduced silver; it does not oxidize polysaccharides.",
+    "2": "Gold chloride is used for toning, which makes the silver deposit sharper and more stable; it plays no part in creating the aldehydes.",
+    "3": "Light green is the counterstain that colors the background green; it does not react with fungal walls."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microorganisms: Grocott methenamine silver); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0047",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Before immunohistochemical staining, sections from formalin-fixed, paraffin-embedded tissue are heated in a citrate or EDTA buffer. What is the purpose of this step?",
+   "options": [
+    "To unmask antigens hidden by formalin cross-links",
+    "To remove paraffin from the section",
+    "To block endogenous peroxidase activity in the tissue",
+    "To permanently attach the antibody to the tissue antigen"
+   ],
+   "answer": 0,
+   "why": "Formalin's methylene cross-links can mask the epitopes that antibodies recognize. **Heat-induced epitope retrieval in citrate or EDTA buffer breaks or loosens these cross-links and restores antigen reactivity**.",
+   "whyNot": {
+    "2": "Endogenous peroxidase is blocked with hydrogen peroxide (often in methanol), not with hot buffer.",
+    "1": "Paraffin is removed earlier with xylene and graded alcohols, before the sections are placed in the retrieval buffer.",
+    "3": "Antibody binding occurs during the antibody incubation steps after retrieval; the heating step does not bind antibody."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemical techniques: antigen retrieval)"
+  },
+  {
+   "id": "HL-0048",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 1 mL cerebrospinal fluid sample with very few cells is sent for cytology. Which preparation method concentrates the cells directly onto a small, defined area of a slide?",
+   "options": [
+    "Cell block preparation",
+    "Direct smear of the uncentrifuged fluid",
+    "Saccomanno technique",
+    "Cytocentrifugation (cytospin)"
+   ],
+   "answer": 3,
+   "why": "**A cytocentrifuge spins the fluid in a chamber against the slide**, depositing the cells in a small circle while filter paper absorbs the fluid. This makes it ideal for low-volume, low-cellularity fluids such as CSF.",
+   "whyNot": {
+    "0": "A cell block needs a visible sediment or clot to embed; a 1 mL low-cellularity CSF will rarely give enough material.",
+    "1": "A smear of uncentrifuged fluid spreads the few cells thinly over the slide, so they are easily missed.",
+    "2": "The Saccomanno technique is used for sputum, with pre-fixation and blending, not for CSF."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Diagnostic cytopathology: specimen preparation)"
+  },
+  {
+   "id": "HL-0049",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The sediment from a large pleural effusion is clotted and processed into a paraffin cell block. What is the main advantage of this preparation over smears alone?",
+   "options": [
+    "Many serial sections can be cut for special stains and IHC",
+    "It gives a faster result than conventional smears",
+    "It removes the need to fix the specimen",
+    "It shows nuclear detail better than an alcohol-fixed Pap smear"
+   ],
+   "answer": 0,
+   "why": "A cell block turns the cellular sediment into a paraffin block that is sectioned like tissue. **Its key advantage is that many serial sections can be cut for special stains and immunohistochemistry**, and small tissue fragments can be seen in their architectural context.",
+   "whyNot": {
+    "1": "A cell block takes longer than smears because it goes through fixation, processing, embedding, and sectioning.",
+    "2": "Cell blocks still need fixation (usually formalin) before processing; they do not avoid it.",
+    "3": "Alcohol-fixed, Pap-stained smears generally show finer nuclear detail; cell blocks are valued for ancillary studies and architecture rather than superior nuclear detail."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Diagnostic cytopathology: cell blocks)"
+  },
+  {
+   "id": "HL-0050",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A specimen is collected into a fixative of about 50% ethanol containing polyethylene glycol (Carbowax), homogenized in a blender, concentrated by centrifugation, and then smeared. This Saccomanno technique is used for:",
+   "options": [
+    "Voided urine",
+    "Sputum",
+    "Cerebrospinal fluid",
+    "Fine-needle aspirates of thyroid"
+   ],
+   "answer": 1,
+   "why": "**The Saccomanno technique is a method for sputum**: pre-fixation in alcohol with polyethylene glycol and mechanical blending break up the mucus and spread diagnostic cells evenly, which improves the detection of lung cancer cells.",
+   "whyNot": {
+    "0": "Urine is usually concentrated by centrifugation, cytospin, filtration, or liquid-based methods; it is not mucoid and does not need blending.",
+    "2": "CSF is scant and fragile and is processed by cytocentrifugation; blending would destroy the few cells present.",
+    "3": "Fine-needle aspirates are smeared directly from the needle or rinsed into a liquid medium; they are not blended."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Diagnostic cytopathology: respiratory specimens)"
+  },
+  {
+   "id": "HL-0051",
+   "tos": "HL-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In an autopsy, the thoracic, cervical, abdominal, and pelvic organs are removed together as one mass and then dissected outside the body. This method of evisceration is credited to:",
+   "options": [
+    "Virchow",
+    "Rokitansky",
+    "Ghon",
+    "Letulle"
+   ],
+   "answer": 3,
+   "why": "**The Letulle method removes all the organs en masse** as one unit, preserving the connections between organ systems for later dissection. It is fast at the table but leaves a large, unwieldy organ mass to dissect.",
+   "whyNot": {
+    "0": "The Virchow method removes the organs one by one and examines each separately.",
+    "1": "The Rokitansky method dissects the organs largely in situ, with little removal before examination.",
+    "2": "The Ghon method removes the organs en bloc as several functional blocks (e.g., thoracic, abdominal, urogenital), not as a single mass."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Autopsy); Ludwig J, Handbook of Autopsy Practice"
+  },
+  {
+   "id": "HL-0052",
+   "tos": "HL-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a histopathology quality assurance program, errors are classified by the phase of the testing process in which they occur. Which of the following is a pre-analytical error?",
+   "options": [
+    "H&E sections that are too pale because the hematoxylin was exhausted",
+    "A biopsy left in saline overnight before it was placed in formalin",
+    "A correct diagnosis typed into the wrong patient's report",
+    "A tissue fragment from another case picked up from the water bath"
+   ],
+   "answer": 1,
+   "why": "Pre-analytical errors occur before the specimen is processed and examined, from collection to delivery to the lab. **Delayed fixation (a biopsy left in saline) is a pre-analytical error** that causes autolysis and can affect special stains and IHC.",
+   "whyNot": {
+    "0": "Weak hematoxylin staining happens during processing and staining in the laboratory, so it is an analytical error.",
+    "2": "A transcription error in the report occurs after the diagnosis is made, so it is a post-analytical error.",
+    "3": "A floater picked up from the water bath arises during sectioning in the lab, making it an analytical error."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Quality management in histopathology); CLSI QMS01, Quality Management System: A Model for Laboratory Services"
+  },
+  {
+   "id": "HL-0053",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Under Section 21 of RA 5527, as amended by RA 6138 and PD 498, a certificate of registration as a medical technologist shall not be issued to a successful examinee who has not yet reached what age?",
+   "options": [
+    "18 years",
+    "20 years",
+    "21 years",
+    "25 years"
+   ],
+   "answer": 2,
+   "why": "Section 21, as amended, provides that no certificate shall be issued to any successful applicant **who has not attained the age of twenty-one (21) years**. A candidate may pass the examination earlier but must wait until 21 to be registered.",
+   "whyNot": {
+    "0": "Eighteen is the general age of majority in the Philippines, but the Act sets a higher minimum for issuing the certificate.",
+    "1": "Twenty years does not appear in Section 21; the statutory minimum is twenty-one.",
+    "3": "Twenty-five years is not the requirement; the Act sets the minimum at twenty-one."
+   },
+   "ref": "RA 5527 Sec. 21, as amended by RA 6138 (1970) and PD 498 (1974)"
+  },
+  {
+   "id": "HL-0054",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under Section 23 of RA 5527, which of the following is a ground on which the Board shall refuse to issue a certificate of registration?",
+   "options": [
+    "Lacking the CPD units required for license renewal",
+    "Having a general average below 80% in the board exam",
+    "Being guilty of immoral or dishonorable conduct",
+    "Not yet being employed in a licensed clinical laboratory"
+   ],
+   "answer": 2,
+   "why": "Section 23 directs the Board to refuse registration to any person convicted by a court of competent jurisdiction of a criminal offense involving moral turpitude, **any person guilty of immoral or dishonorable conduct**, or anyone of unsound mind or with an incurable communicable disease. The Board must give its reasons in writing.",
+   "whyNot": {
+    "0": "CPD units are a requirement for renewing the Professional Identification Card under RA 10912, not a ground for refusing initial registration under Section 23.",
+    "1": "Passing requires a general average of at least 75% (Section 19), so a rating below 80% is not a reason to refuse a certificate.",
+    "3": "Employment is not a condition for registration; Section 23 lists only conviction, immoral or dishonorable conduct, unsound mind, and incurable communicable disease."
+   },
+   "ref": "RA 5527 Sec. 23"
+  },
+  {
+   "id": "HL-0055",
+   "tos": "HL-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under Section 14 of RA 5527, which of the following persons may perform the work of medical technology in the Philippines without a certificate of registration from the Board?",
+   "options": [
+    "A BSMT graduate who is awaiting the release of board exam results",
+    "A foreign medical technologist hired as regular staff of a private hospital",
+    "A licensed nurse who has completed in-house laboratory training",
+    "A duly registered physician"
+   ],
+   "answer": 3,
+   "why": "Section 14 prohibits anyone from practicing medical technology without a valid certificate of registration, but exempts **duly registered physicians**. The other exemptions are foreign medical technologists called in for consultation or as visiting or exchange professors, and those serving only the United States Armed Forces stationed in the Philippines.",
+   "whyNot": {
+    "0": "A graduate who has not yet passed and registered has no certificate, and Section 14 gives no exemption for examinees awaiting results.",
+    "1": "Foreign medical technologists are exempt only when called in for consultation or as visiting or exchange professors, not when employed as regular hospital staff.",
+    "2": "Holding a nursing license does not exempt a person from Section 14; in-house training is not a substitute for registration as a medical technologist."
+   },
+   "ref": "RA 5527 Sec. 14"
+  },
+  {
+   "id": "HL-0056",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A hospital laboratory processes specimens in order of clinical urgency, never according to the patient's ability to pay, social standing, or personal connections with the staff. Which bioethical principle does this policy most directly uphold?",
+   "options": [
+    "Justice",
+    "Autonomy",
+    "Fidelity",
+    "Veracity"
+   ],
+   "answer": 0,
+   "why": "**Justice requires fair and equitable treatment, including the fair distribution of services** according to need rather than wealth or status. Prioritizing by clinical urgency alone applies this principle.",
+   "whyNot": {
+    "1": "Autonomy concerns a competent patient's right to make decisions about his or her own care, not how services are distributed among patients.",
+    "2": "Fidelity is faithfulness to commitments and duties owed to patients, such as keeping promises; it is not mainly about fair allocation.",
+    "3": "Veracity is the duty to tell the truth, which is not what this triage policy addresses."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics"
+  },
+  {
+   "id": "HL-0057",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Bioethicists separate the duty not to inflict harm on others from the duty to act positively for others' benefit, such as preventing or removing harm. The duty not to inflict harm is called:",
+   "options": [
+    "Beneficence",
+    "Distributive justice",
+    "Non-maleficence",
+    "Autonomy"
+   ],
+   "answer": 2,
+   "why": "**Non-maleficence is the obligation to refrain from causing harm** (\"first, do no harm\"). Beneficence is the separate, positive duty to act for the patient's good, including preventing and removing harm.",
+   "whyNot": {
+    "0": "Beneficence is the positive duty to do good and to prevent or remove harm, which the stem describes as the second, separate duty.",
+    "1": "Distributive justice concerns the fair allocation of benefits, burdens, and resources, not the duty to avoid harming an individual.",
+    "3": "Autonomy is respect for a competent person's right to self-determination, not a duty to avoid harm."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics"
+  },
+  {
+   "id": "HL-0058",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory plans to buy a new automated tissue processor that is expected to be used for about ten years. In the laboratory budget, this purchase is classified as a:",
+   "options": [
+    "Operating expense",
+    "Capital expenditure",
+    "Personnel cost",
+    "Revenue item"
+   ],
+   "answer": 1,
+   "why": "**Equipment with a long useful life and a cost above the institution's threshold is a capital expenditure**, budgeted separately from day-to-day costs and usually depreciated over its useful life.",
+   "whyNot": {
+    "0": "The operating budget covers recurring day-to-day costs such as reagents, supplies, and maintenance contracts, not long-lived equipment.",
+    "2": "Personnel costs are salaries, wages, and benefits of staff, not equipment purchases.",
+    "3": "Revenue is income the laboratory earns from test charges; a purchase is an expenditure, not revenue."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Financial management)"
+  },
+  {
+   "id": "HL-0059",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "To shorten turnaround time, a histopathology section tries a new specimen-batching schedule for one month, then compares the turnaround data with the baseline to see if it improved. In the PDCA (Deming) cycle, this comparison is the:",
+   "options": [
+    "Plan step",
+    "Do step",
+    "Check step",
+    "Act step"
+   ],
+   "answer": 2,
+   "why": "In the Plan-Do-Check-Act cycle, the change is planned, tried on a small scale (Do), and then evaluated. **The Check (or Study) step measures the results of the trial against the baseline or target**, which leads to the Act step.",
+   "whyNot": {
+    "0": "The Plan step identifies the problem and designs the change; it comes before any trial data exist.",
+    "1": "The Do step is carrying out the one-month trial itself, not analyzing its results.",
+    "3": "The Act step comes after the check: the change is adopted, standardized, or abandoned based on the results."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Quality management); CLSI QMS01"
+  },
+  {
+   "id": "HL-0060",
+   "tos": "HL-I.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A laboratory bench must be covered by one medical technologist 24 hours a day, 365 days a year. If 1 FTE equals 2,080 paid hours per year and leave is ignored, how many FTEs are needed for this one position?",
+   "options": [
+    "1.0 FTE",
+    "1.4 FTE",
+    "3.0 FTE",
+    "4.2 FTE"
+   ],
+   "answer": 3,
+   "why": "Hours to cover = 24 h × 365 days = 8,760 h per year. Divide by 2,080 h per FTE: 8,760 / 2,080 = **about 4.2 FTEs**. Real staffing needs are even higher once leave and other non-productive hours are added.",
+   "whyNot": {
+    "0": "A single round-the-clock position is not the same as one FTE; one person working 2,080 hours covers less than a quarter of the year's hours.",
+    "1": "1.4 FTE covers only one 8-hour shift every day (8 × 365 / 2,080), not the full 24 hours.",
+    "2": "3.0 FTE assumes one person per shift, but each person works only about 40 hours a week, so three people cannot cover all 168 hours each week."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Staffing and productivity)",
+   "worked": {
+    "problem": "A section is staffed by one person 16 hours a day, 7 days a week, all year. If 1 FTE = 2,080 paid hours per year (leave ignored), how many FTEs are needed?",
+    "steps": [
+     "Annual hours to cover = 16 h × 365 days = 5,840 h",
+     "FTEs = 5,840 / 2,080",
+     "= 2.81"
+    ],
+    "result": "About 2.8 FTEs"
+   }
   }
  ]
 }

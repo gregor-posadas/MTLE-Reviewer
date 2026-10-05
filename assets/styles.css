@@ -461,9 +461,6 @@ h1[tabindex="-1"]:focus { outline: none; }
 /* ---------- Progress ---------- */
 .meters { display: grid; gap: 20px; grid-template-columns: 1fr; margin-top: 16px; }
 @media (min-width: 720px) { .meters { grid-template-columns: 1fr 1fr; } }
-.meter__bar { position: relative; }
-.meter__bar i { background: var(--ok); }
-.meter__bar s { position: absolute; top: 0; bottom: 0; left: 0; background: repeating-linear-gradient(45deg, var(--ink-2) 0 2px, transparent 2px 6px); opacity: 0.45; }
 .meter__label a { text-decoration-thickness: 2px; }
 .key { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 12px; font-size: var(--f1); color: var(--ink-2); }
 .key span { display: inline-flex; align-items: center; gap: 8px; }
@@ -512,3 +509,97 @@ h1[tabindex="-1"]:focus { outline: none; }
 .ref, .opt__why, .result-list__t, .stem, .booklet p { overflow-wrap: anywhere; }
 .specimen button { color: #ffffff; font-size: var(--f1); }
 .verdict { margin-top: 0; }
+
+/* ---------- Bars, the road to exam day, the activity chart ---------- */
+:root { --miss: #CF5921; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --miss: #ff8a4c; } }
+:root[data-theme="dark"] { --miss: #ff8a4c; }
+.meter__bar { display: flex; height: 16px; overflow: hidden; }
+.meter__bar .seg { display: block; height: 100%; flex: none; transition: width 800ms cubic-bezier(.2, .6, .2, 1); }
+.meter__bar .seg + .seg { border-left: 2px solid var(--surface); }
+.meter__bar .seg--ok { background: var(--ok); }
+.meter__bar .seg--seen { background: repeating-linear-gradient(45deg, var(--ink-2) 0 2px, transparent 2px 6px); opacity: 0.8; }
+.meter__bar .seg--miss { background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0 2px, transparent 2px 7px), var(--miss); }
+.quiz__bar i { transition: width 400ms cubic-bezier(.2, .6, .2, 1); }
+.key i.k-x { background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0 2px, transparent 2px 7px), var(--miss); opacity: 1; }
+.scorebar .meter__bar { height: 22px; }
+.overall { margin-top: 12px; display: grid; gap: 6px; }
+.overall__n b { font-size: var(--f4); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.overall .meter__bar { height: 22px; }
+.minimeters { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 10px; }
+.minimeters a { display: flex; justify-content: space-between; gap: 12px; text-decoration: none; font-size: var(--f1); margin-bottom: 4px; min-height: 28px; align-items: end; }
+.minimeters a:hover .minimeters__name { text-decoration: underline; }
+.minimeters__name { font-weight: 700; }
+.minimeters__n { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.minimeters .meter__bar { height: 12px; }
+.qod--diag { border-color: var(--ok); }
+
+.road { position: relative; margin: 36px 0 0; }
+.road__bar { display: flex; height: 14px; border: 2px solid var(--rule-strong); }
+.road__seg { display: block; min-width: 4px; background: repeating-linear-gradient(45deg, var(--ink-2) 0 2px, transparent 2px 6px); opacity: 0.55; }
+.road__seg + .road__seg { border-left: 2px solid var(--paper); }
+.road__seg.is-past { background: var(--ink); opacity: 1; }
+.road__seg.is-now { background: var(--ok); opacity: 1; }
+.road__today { position: absolute; top: -30px; bottom: -6px; width: 0; border-left: 3px solid var(--ink); }
+.road__today span { position: absolute; top: 0; left: 0; transform: translateX(-50%); font-size: var(--f1); font-weight: 700; white-space: nowrap; background: var(--paper); padding: 0 4px; }
+.road__ends { display: flex; justify-content: space-between; gap: 8px; font-size: var(--f1); color: var(--ink-2); margin-top: 6px; }
+
+.chart { margin: 16px 0 0; max-width: 40rem; }
+.chart__plot { position: relative; padding-left: 28px; }
+.chart__top, .chart__zero { position: absolute; left: 0; font-size: var(--f1); color: var(--ink-2); font-variant-numeric: tabular-nums; line-height: 1; }
+.chart__top { top: 0; }
+.chart__zero { bottom: 24px; }
+.cols { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; height: 160px; border-top: 1px dashed var(--rule); }
+.col { display: grid; grid-template-rows: 1fr auto; min-width: 0; }
+.col__plot { display: flex; align-items: flex-end; border-bottom: 2px solid var(--rule-strong); }
+.col__stack { display: flex; flex-direction: column; width: 100%; transition: height 800ms cubic-bezier(.2, .6, .2, 1); }
+.col__stack i { display: block; min-height: 2px; }
+.col__stack i + i { border-top: 2px solid var(--paper); }
+.col__ok { background: var(--ok); border-radius: 0; }
+.col__miss { background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0 2px, transparent 2px 7px), var(--miss); }
+.col__lab { text-align: center; font-size: var(--f1); color: var(--ink-2); padding-top: 4px; }
+.col.is-today .col__lab { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.chart .key { margin-top: 10px; }
+
+/* ---------- Motion: small, purposeful, and off for reduced motion ---------- */
+@keyframes mt-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes mt-draw { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
+@keyframes mt-pop { 0% { transform: scale(0.6); } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
+.verdict { animation: mt-rise 240ms cubic-bezier(.2, .6, .2, 1); }
+.opt__why { animation: mt-rise 320ms cubic-bezier(.2, .6, .2, 1) both; }
+li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__why { animation-delay: 80ms; } li:nth-child(4) > .opt__why { animation-delay: 120ms; }
+.verdict__shape { animation: mt-pop 360ms cubic-bezier(.2, .6, .2, 1); transform-origin: center; }
+.verdict__shape path, .opt.is-right .st__shape path { stroke-dasharray: 24; animation: mt-draw 380ms 120ms ease-out both; }
+.opt { transition: background-color 120ms ease, border-color 120ms ease; }
+.week li.is-on i { animation: mt-pop 360ms cubic-bezier(.2, .6, .2, 1); }
+.rv-on .rv { opacity: 0; transform: translateY(14px); }
+.rv-on .rv.rv-in { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2, .6, .2, 1), transform 600ms cubic-bezier(.2, .6, .2, 1); transition-delay: var(--rv-d, 0ms); }
+@media print { .rv-on .rv { opacity: 1 !important; transform: none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  .rv-on .rv { opacity: 1; transform: none; transition: none; }
+  .verdict, .opt__why, .verdict__shape, .week li.is-on i { animation: none; }
+  .verdict__shape path, .opt.is-right .st__shape path { animation: none; stroke-dashoffset: 0; }
+  .meter__bar .seg, .quiz__bar i, .col__stack, .opt { transition: none; }
+}
+
+/* Route line: study phases as stations (from the hubs) */
+.route { margin: 8px 0 32px; }
+.route h2 { font-size: var(--f1); font-weight: 700; color: var(--ink-2); margin-bottom: 12px; }
+.route ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.route li { position: relative; display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 0 0 18px; }
+.route li::before { content: ""; position: absolute; left: 12px; top: 14px; bottom: -4px; width: 4px; background: var(--ink); }
+.route li:last-child::before { display: none; }
+.route .stop { width: 28px; height: 28px; border-radius: 50%; background: var(--paper); border: 4px solid var(--ink); position: relative; z-index: 1; }
+.route li.is-past .stop { background: var(--ink); }
+.route li.is-next .stop { border-width: 8px; }
+.route .when { font-weight: 700; display: block; }
+.route .what { color: var(--ink-2); }
+.route li.is-past .what, .route li.is-past .when { color: var(--ink-2); font-weight: 400; }
+@media (min-width: 800px) {
+  .route ol { grid-auto-flow: column; grid-auto-columns: 1fr; }
+  .route li { grid-template-columns: 1fr; grid-template-rows: 28px auto; padding: 0 16px 0 0; }
+  .route li::before { left: 14px; right: -14px; top: 12px; bottom: auto; width: auto; height: 4px; }
+  .route li:last-child::before { display: none; }
+}
+.road__today.is-start span { transform: none; left: -3px; padding-left: 0; }
+.road__today.is-end span { transform: translateX(-100%); }

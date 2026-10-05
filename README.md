@@ -15,11 +15,12 @@ Nothing private lives in this repository. The access code and her answers are on
 
 | Page | What it does |
 |---|---|
-| Today | The question of the day (2 questions fixed for the day), then today's session: reviews that are due plus up to 15 new questions, spread across subjects by exam weight. Also shows a weekly goal (days, not a streak) and the current study phase. |
+| Diagnostic | Shown once, right after the access code is entered (and on Today until it's taken or skipped): 18 questions, 3 per subject, with explanations. The results show where she stands by subject and which topic to start with, and the 18 questions join her review schedule. |
+| Today | The question of the day (2 questions fixed for the day), then today's session: reviews that are due plus up to 15 new questions, spread across subjects by exam weight. Also shows her progress bars (overall, weighted by exam share, and one per subject), a weekly goal (days, not a streak), and the road to exam day with the current phase. |
 | Practice | Mixed practice (weakest first, missed, never seen, flagged), Learn a topic (one TOS topic at a time), Image drill (46 CDC parasite images, look-alikes mixed), Lab math (worked example, then a similar problem), and Mock exam. |
 | Mock exam | Paper-style, like the MTLE: a question booklet plus a separate answer sheet with bubbles, timed at 1.2 minutes per question, with no feedback until it's handed in. Scored against the passing rule (75% weighted average, no subject below 50%). |
-| Progress | Study phases to the exam date, a readiness check ("On track" or "Not yet"), mastery by subject and by TOS topic, and how often she's right when sure vs. not sure. |
-| More | Settings (exam date, new questions per day, round size, weekly goal, break reminder, keyboard shortcuts), sync and backup, My questions (optional), flagged questions, two short exam-nerves exercises, how it works, credits. |
+| Progress | Study phases to the exam date, a readiness check ("On track" or "Not yet"), mastery by subject and by TOS topic, answers per day for the last 2 weeks, her diagnostic result, and how often she's right when sure vs. not sure. |
+| More | Settings (exam date, new questions per day, round size, weekly goal, break reminder, keyboard shortcuts), sync and backup, removing test answers, My questions (optional), flagged questions, two short exam-nerves exercises, how it works, credits. |
 
 ### How a question works
 
@@ -53,6 +54,14 @@ The site works right away without the backend, but then her answers live only in
 6. Paste that URL into `assets/config.js` as `apiUrl`, then publish the change (see Publishing changes below).
 7. Open the site on each device and enter the access code once.
 
+### Updating the backend
+
+When `apps-script/Code.gs` changes in this repository, paste the new version into the Apps Script editor, save, then **Deploy > Manage deployments > (pencil) Edit > Version: New version > Deploy**. The `/exec` URL stays the same, so the site needs no change. Run `setup` again only if a new tab is missing (it never touches existing data).
+
+### Removing test answers
+
+Open the site in the browser you tested with and go to **More > Sync and backup > Remove test answers**. That removes every answer made in that browser, here and in the Sheet, and the other devices drop them on their next sync. Deleting rows in the Sheet by hand isn't enough, because the devices keep their own copies.
+
 ### If "Anyone" is not offered
 
 Some Google Workspace accounts only allow "Anyone within [organization]". Use a personal Gmail account for the Sheet instead.
@@ -72,26 +81,29 @@ Some Google Workspace accounts only allow "Anyone within [organization]". Use a 
 | Flags | Questions she flagged. Set `status` to `fixed` after fixing one, and the site shows it as fixed. |
 | MyQuestions | Her own questions, if she turns that on (More > My questions). They never go into the public repository. |
 | Settings | Exam date, new questions per day and similar, so both devices agree. |
+| Removed | Ids of answers removed with More > Remove test answers. The Sheet deletes those rows and won't accept them again, and other devices drop them on their next sync. |
 | Log | Sync activity. |
 
 ## The questions
 
 All questions are original, written for this site and mapped to the Board's Table of Specifications (Board of Medical Technology Res. No. 13, s. 2023). None are copied from reviewers, review centers, books or past-exam "recalls". The site marks them **"Unreviewed draft"** until a licensed RMT checks them.
 
-Every item was drafted by an AI writer and then checked by a separate AI reviewer, which recomputed the math and checked the laws against the statute text. That review changed 3 items. Treat it as a first pass, not as RMT review.
+Every item was drafted by an AI writer and then checked by a separate AI reviewer, which recomputed the math and checked the laws against the statute text. That review changed 3 items in the first batch and 6 in the second. Treat it as a first pass, not as RMT review.
+
+The second batch was aimed at the subtopics with the fewest questions, so the bank now follows the Table of Specifications proportions at about 66 items per subject.
 
 | File | Items |
 |---|---|
-| `data/questions/CC.json` | Clinical Chemistry, 32 (6 lab math) |
-| `data/questions/MP.json` | Microbiology & Parasitology, 32 |
-| `data/questions/CM.json` | Clinical Microscopy, 24 (2 lab math) |
-| `data/questions/HE.json` | Hematology, 30 (5 lab math) |
-| `data/questions/BB.json` | Blood Banking & Serology, 30 (2 lab math) |
-| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 26 |
+| `data/questions/CC.json` | Clinical Chemistry, 68 (12 lab math) |
+| `data/questions/MP.json` | Microbiology & Parasitology, 68 |
+| `data/questions/CM.json` | Clinical Microscopy, 60 (5 lab math) |
+| `data/questions/HE.json` | Hematology, 66 (9 lab math) |
+| `data/questions/BB.json` | Blood Banking & Serology, 66 (4 lab math) |
+| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 60 (2 lab math) |
 | `data/images.json` + `data/morphology.json` | 46 CDC DPDx parasite images in 34 categories, plus identification notes. Image questions are built from these automatically. |
 | `data/tos.json` | The TOS: 6 subjects × 100 items, every topic and subtopic. Taken from a text extraction of the PRC PDF; still `"verified": false` until someone checks it against the PDF by eye. |
 
-That's 220 questions against a 600-item exam, enough for about two weeks of new questions at 15 a day. After that the daily session is reviews only until more questions are added.
+That's 434 questions (388 written, 46 image) against a 600-item exam, enough for about 4 weeks of new questions at 15 a day. After that the daily session is reviews only until more questions are added.
 
 ### Adding or fixing a question
 

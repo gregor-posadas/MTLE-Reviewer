@@ -178,3 +178,17 @@ test("her own questions join the bank only when switched on, and deleted ones st
   assert.ok(b2.byId["MY-1"] && b2.byId["MY-1"].mine);
   assert.ok(!b2.byId["MY-2"]);
 });
+
+test("the diagnostic has 3 questions per subject, no images, subjects taking turns", function () {
+  var d = M.diagnosticQueue(bank, topics);
+  assert.strictEqual(d.length, 18);
+  assert.strictEqual(new Set(d.map(function (q) { return q.id; })).size, 18);
+  assert.ok(d.every(function (q) { return q.type !== "image"; }));
+  assert.deepStrictEqual(d.slice(0, 6).map(function (q) { return q.subject; }), ["CC", "MP", "CM", "HE", "BB", "HL"]);
+  ["CC", "MP", "CM", "HE", "BB", "HL"].forEach(function (c) {
+    var mine = d.filter(function (q) { return q.subject === c; });
+    assert.strictEqual(mine.length, 3, c);
+    assert.strictEqual(new Set(mine.map(function (q) { return q.difficulty; })).size, 3, c + " should mix easy, moderate and difficult");
+  });
+  assert.deepStrictEqual(M.diagnosticQueue(bank, topics).map(function (q) { return q.id; }), d.map(function (q) { return q.id; }), "same set every time");
+});

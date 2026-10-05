@@ -728,6 +728,819 @@
     "1": "Metabolic acidosis requires a low bicarbonate as the primary change; here bicarbonate is high and pCO₂ drives the low pH."
    },
    "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems"
+  },
+  {
+   "id": "CC-0033",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During a multitube venipuncture, a lavender-top (K₂EDTA) tube is filled before a serum chemistry tube, and some EDTA is carried over by the needle into the chemistry tube. Which pattern of results is expected on the chemistry specimen?",
+   "options": [
+    "Falsely increased potassium and falsely decreased calcium",
+    "Falsely decreased potassium and falsely increased calcium",
+    "Falsely increased calcium and magnesium",
+    "Falsely increased sodium with no change in potassium"
+   ],
+   "answer": 0,
+   "why": "K₂EDTA is a potassium salt and a strong chelator of divalent cations. **Carryover adds potassium and binds calcium (and magnesium), so K⁺ reads high while Ca²⁺ reads low.** This is why the recommended order of draw places EDTA tubes after serum and heparin tubes.",
+   "whyNot": {
+    "1": "This reverses both effects; EDTA contributes potassium and removes calcium from reaction, so neither can move in these directions.",
+    "2": "EDTA chelates calcium and magnesium; it lowers their measured values rather than adding to them.",
+    "3": "A sodium rise is the concern with sodium-salt additives such as sodium citrate or sodium heparin, not the potassium salt of EDTA."
+   },
+   "ref": "Bishop 9e, ch. on specimen collection and processing (order of draw); Tietz Fundamentals 9e, specimen collection"
+  },
+  {
+   "id": "CC-0034",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A gray-top tube containing sodium fluoride and potassium oxalate is chosen for a plasma glucose specimen that cannot be separated promptly. How does the fluoride preserve the glucose?",
+   "options": [
+    "It chelates calcium so the specimen does not clot",
+    "It activates antithrombin to block thrombin formation",
+    "It inhibits hexokinase so glucose is not phosphorylated",
+    "It inhibits enolase in the glycolytic pathway"
+   ],
+   "answer": 3,
+   "why": "Red and white cells keep consuming glucose after collection, so an unseparated specimen loses glucose over time. **Fluoride stops glycolysis by inhibiting the enzyme enolase.** Its effect is not immediate, so prompt separation or chilling still matters for accurate results.",
+   "whyNot": {
+    "0": "Calcium removal is the anticoagulant role of the oxalate in the tube, not the antiglycolytic role of fluoride.",
+    "1": "Potentiating antithrombin is how heparin anticoagulates; fluoride has no such action.",
+    "2": "Fluoride acts later in glycolysis, at enolase; hexokinase is not its target."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (specimen considerations); Tietz Fundamentals 9e, specimen collection"
+  },
+  {
+   "id": "CC-0035",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Atomic absorption spectrophotometry for serum magnesium uses a hollow-cathode lamp whose cathode is made of magnesium. Why must the cathode contain the element being measured?",
+   "options": [
+    "It gives a continuous spectrum that the monochromator narrows to the analyte line",
+    "It supplies the heat needed to excite analyte atoms so that they emit light",
+    "It ionizes the analyte so that the ions can be separated by their mass",
+    "It emits the narrow line wavelengths that ground-state atoms of that element absorb"
+   ],
+   "answer": 3,
+   "why": "In atomic absorption, the sample is atomized (for example in a flame), leaving most atoms in the unexcited ground state. **The hollow-cathode lamp emits the exact line spectrum of its cathode element, which only atoms of that same element can absorb.** The decrease in transmitted lamp light is proportional to the analyte concentration.",
+   "whyNot": {
+    "0": "Continuum sources such as tungsten or deuterium lamps are used in molecular spectrophotometry; their bandpass is too wide for atomic absorption lines.",
+    "1": "Measuring light emitted by thermally excited atoms describes flame emission photometry, where the flame, not a lamp, excites the atoms.",
+    "2": "Ionizing atoms and separating them by mass describes ICP mass spectrometry, not atomic absorption."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (atomic absorption); Tietz Fundamentals 9e, optical techniques"
+  },
+  {
+   "id": "CC-0036",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a mass spectrometer coupled to a liquid or gas chromatograph, the quadrupole (mass analyzer) separates the ions it receives on the basis of their:",
+   "options": [
+    "Molecular mass regardless of charge",
+    "Mass-to-charge ratio",
+    "Volatility and boiling point",
+    "Affinity for a stationary phase"
+   ],
+   "answer": 1,
+   "why": "After the chromatograph separates compounds, the mass spectrometer ionizes them and sorts the ions. **A mass analyzer such as a quadrupole separates ions by their mass-to-charge (m/z) ratio.** The resulting mass spectrum identifies a compound with high specificity, which is why GC-MS and LC-MS/MS are used for confirmation testing.",
+   "whyNot": {
+    "0": "Ion paths depend on charge as well as mass, so two ions with the same mass but different charges appear at different m/z values.",
+    "2": "Volatility governs separation on the gas chromatographic column before the ions reach the mass analyzer.",
+    "3": "Partitioning between mobile and stationary phases is the chromatographic step, not the mass analyzer."
+   },
+   "ref": "Bishop 9e, ch. on chromatography and mass spectrometry; Tietz Fundamentals 9e, mass spectrometry"
+  },
+  {
+   "id": "CC-0037",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A solution of NADH in a 1.00-cm cuvet transmits 25.0% of the incident light at 340 nm. The molar absorptivity of NADH at 340 nm is 6.22 × 10³ L·mol⁻¹·cm⁻¹. What is the NADH concentration?",
+   "options": [
+    "40.2 µmol/L",
+    "96.8 µmol/L",
+    "224.7 µmol/L",
+    "120.6 µmol/L"
+   ],
+   "answer": 1,
+   "why": "Percent transmittance must first be converted to absorbance with A = 2 − log %T, giving A = 2 − log 25.0 = 0.602. By Beer's law, c = A/(εb) = 0.602/(6.22 × 10³ × 1.00) = 9.68 × 10⁻⁵ mol/L. **The NADH concentration is 96.8 µmol/L.**",
+   "whyNot": {
+    "0": "This treats the transmittance fraction (0.250) as if it were the absorbance.",
+    "2": "This uses log %T (1.398) as the absorbance and omits the subtraction from 2.",
+    "3": "This assumes absorbance equals 1 − T (0.750); absorbance is logarithmic, not the fraction of light lost."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (spectrophotometry, Beer's law); Tietz Fundamentals 9e, optical techniques",
+   "worked": {
+    "problem": "A solution in a 1.00-cm cuvet transmits 40.0% of the light at 340 nm. Using ε = 6.22 × 10³ L·mol⁻¹·cm⁻¹, find the concentration.",
+    "steps": [
+     "A = 2 − log %T = 2 − log 40.0 = 2 − 1.602 = 0.398",
+     "Beer's law: c = A/(ε × b) = 0.398/(6.22 × 10³ × 1.00)",
+     "c = 6.40 × 10⁻⁵ mol/L",
+     "Convert to µmol/L: 6.40 × 10⁻⁵ mol/L × 10⁶ = 64.0 µmol/L"
+    ],
+    "result": "64.0 µmol/L"
+   }
+  },
+  {
+   "id": "CC-0038",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "What volume of 3.0 M sulfuric acid (H₂SO₄) is needed to prepare 600 mL of 0.50 N H₂SO₄?",
+   "options": [
+    "50 mL",
+    "100 mL",
+    "25 mL",
+    "200 mL"
+   ],
+   "answer": 0,
+   "why": "H₂SO₄ releases 2 H⁺ per molecule, so N = 2 × M and 0.50 N equals 0.25 M. Using C₁V₁ = C₂V₂ in the same unit: 3.0 M × V₁ = 0.25 M × 600 mL. **V₁ = 50 mL of the 3.0 M acid, diluted to 600 mL** (adding acid to water).",
+   "whyNot": {
+    "1": "This treats 0.50 N as 0.50 M, ignoring that sulfuric acid has two replaceable hydrogens.",
+    "2": "This mixes units: it converts the target to molarity (0.25 M) but the stock to normality (6.0 N); C₁ and C₂ must be in the same unit.",
+    "3": "This converts normality to molarity in the wrong direction (0.50 N taken as 1.0 M)."
+   },
+   "ref": "Bishop 9e, ch. on basic laboratory principles (solutions, normality, dilutions); Tietz Fundamentals 9e, laboratory calculations",
+   "worked": {
+    "problem": "What volume of 2.0 M H₂SO₄ is needed to prepare 250 mL of 0.20 N H₂SO₄?",
+    "steps": [
+     "H₂SO₄ has 2 equivalents per mole, so M = N/2: 0.20 N = 0.10 M",
+     "C₁V₁ = C₂V₂: 2.0 M × V₁ = 0.10 M × 250 mL",
+     "V₁ = 25/2.0 = 12.5 mL",
+     "Add 12.5 mL of the acid to water and bring to 250 mL"
+    ],
+    "result": "12.5 mL"
+   }
+  },
+  {
+   "id": "CC-0039",
+   "tos": "CC-B.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "In a proficiency testing event, a laboratory reports a cholesterol result of 112 mg/dL. Its peer group mean is 105 mg/dL with a peer group SD of 2.8 mg/dL. What is the laboratory's standard deviation index (SDI)?",
+   "options": [
+    "+7.0",
+    "−2.5",
+    "+2.5",
+    "+0.4"
+   ],
+   "answer": 2,
+   "why": "SDI = (laboratory result − peer group mean)/peer group SD = (112 − 105)/2.8. **The SDI is +2.5, meaning the result lies 2.5 peer SDs above the peer mean.** An SDI is calculated like a z-score; a large SDI, especially one that recurs in the same direction, points to bias that should be investigated.",
+   "whyNot": {
+    "0": "This is the raw difference in mg/dL; it has not been divided by the peer SD.",
+    "1": "The sign is reversed; a result above the peer mean gives a positive SDI.",
+    "3": "This divides the SD by the difference (2.8/7) instead of dividing the difference by the SD."
+   },
+   "ref": "Bishop 9e, ch. on quality management (proficiency testing); Tietz Fundamentals 9e, quality control",
+   "worked": {
+    "problem": "A laboratory reports a potassium of 4.1 mmol/L on a survey sample. The peer group mean is 4.4 mmol/L and the peer SD is 0.15 mmol/L. Find the SDI.",
+    "steps": [
+     "SDI = (lab result − peer mean)/peer SD",
+     "= (4.1 − 4.4)/0.15 = −0.3/0.15",
+     "= −2.0"
+    ],
+    "result": "SDI = −2.0 (2 peer SDs below the peer mean)"
+   }
+  },
+  {
+   "id": "CC-0040",
+   "tos": "CC-B.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "For a glucose method, the allowable total error (TEa) is 10%. The method's bias against a reference method is −1.5%, and its CV is 2.0%. What is the sigma metric?",
+   "options": [
+    "0.24",
+    "5.00",
+    "4.25",
+    "5.75"
+   ],
+   "answer": 2,
+   "why": "Sigma = (TEa − |bias|)/CV, with all terms in percent. **(10 − 1.5)/2.0 = 4.25; the absolute value of the bias is used, so a negative bias still reduces the sigma.** Higher sigma values mean fewer errors per million results and allow simpler QC rules.",
+   "whyNot": {
+    "0": "This inverts the ratio (CV divided by the remaining error budget).",
+    "1": "This ignores bias entirely (10/2.0); bias always uses up part of the allowable error.",
+    "3": "This subtracts a negative bias (10 − (−1.5) = 11.5), which wrongly rewards the method for being biased."
+   },
+   "ref": "Bishop 9e, ch. on quality management (Six Sigma); Tietz Fundamentals 9e, quality control",
+   "worked": {
+    "problem": "A method has TEa = 6%, bias = +1%, and CV = 1.25%. Find the sigma metric.",
+    "steps": [
+     "Sigma = (TEa − |bias|)/CV",
+     "= (6 − 1)/1.25",
+     "= 5/1.25 = 4.0"
+    ],
+    "result": "Sigma = 4.0"
+   }
+  },
+  {
+   "id": "CC-0041",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a single calcium run, the normal control reads 2.2 SD above its mean while the abnormal control reads 2.1 SD below its mean. Which Westgard rule is violated, and what type of error does it indicate?",
+   "options": [
+    "1₃s; random error",
+    "R₄s; random error",
+    "2₂s; systematic error",
+    "4₁s; systematic error"
+   ],
+   "answer": 1,
+   "why": "The R₄s rule is violated when one control in a run exceeds +2 SD and another exceeds −2 SD, a spread of more than 4 SD. **Controls moving in opposite directions within a single run indicate random error.** Typical causes include bubbles, pipetting problems, or an unstable sample or reagent dispense.",
+   "whyNot": {
+    "0": "1₃s requires a single control beyond 3 SD, and neither control reaches that limit.",
+    "2": "2₂s requires two consecutive values beyond 2 SD on the same side of the mean; these are on opposite sides.",
+    "3": "4₁s requires four consecutive values beyond 1 SD on the same side of the mean, a pattern of shift rather than scatter."
+   },
+   "ref": "Bishop 9e, ch. on quality management (Westgard multirules); Tietz Fundamentals 9e, quality control"
+  },
+  {
+   "id": "CC-0042",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient's serum creatinine was 3.9 mg/dL yesterday and is 0.8 mg/dL today, with no dialysis in between. The laboratory information system flags the result because the change exceeds a preset limit. Which quality tool generated this flag?",
+   "options": [
+    "Delta check",
+    "Westgard multirule",
+    "Levey–Jennings chart",
+    "Proficiency testing"
+   ],
+   "answer": 0,
+   "why": "Some analytes change only slowly in a given patient. **A delta check compares a patient's current result with that patient's previous result and flags differences larger than expected.** Such flags often reveal mislabeled specimens, contamination, or a real clinical change that should be confirmed.",
+   "whyNot": {
+    "1": "Westgard rules evaluate control results within and across runs; they do not compare a patient with their own history.",
+    "2": "A Levey–Jennings chart plots control material results over time, not individual patient results.",
+    "3": "Proficiency testing compares a laboratory's results on external survey samples with those of peer laboratories."
+   },
+   "ref": "Bishop 9e, ch. on quality management (patient-based QC); Tietz Fundamentals 9e, quality control"
+  },
+  {
+   "id": "CC-0043",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist is splashed in both eyes with a corrosive reagent. What is the correct first action?",
+   "options": [
+    "Blot the eyes with tissue, then flush them briefly with tap water at a sink",
+    "Rinse the eyes with a weak neutralizing solution before using plain water",
+    "Flush at an eyewash station for at least 15 minutes with lids held open",
+    "Cover both eyes with sterile gauze and report to the clinic before rinsing"
+   ],
+   "answer": 2,
+   "why": "Chemical injury to the eye worsens every second the agent remains in contact with the tissue. **Immediate, continuous flushing with water at an eyewash station for at least 15 minutes, with the eyelids held open, is the first step.** Medical evaluation and an incident report follow after flushing.",
+   "whyNot": {
+    "0": "Blotting can rub the chemical into the tissue, and a brief rinse at a sink is not enough irrigation.",
+    "1": "Neutralizing agents generate heat and delay irrigation; plain water flushing is the standard.",
+    "3": "Delaying irrigation to seek care lets the chemical keep damaging the eye."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety; Tietz Fundamentals 9e, laboratory safety"
+  },
+  {
+   "id": "CC-0044",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Picric acid is used to prepare the alkaline picrate reagent for the Jaffe creatinine method. What special hazard develops if picric acid is allowed to dry out?",
+   "options": [
+    "It becomes shock-sensitive and can explode",
+    "It releases chlorine gas as it decomposes",
+    "It ignites spontaneously on contact with air",
+    "It releases hydrogen cyanide gas into the room"
+   ],
+   "answer": 0,
+   "why": "Picric acid (trinitrophenol) is stored wet, under water, because the dry solid is unstable. **Dry picric acid, including crystals that form in a container's cap threads, is shock- and heat-sensitive and can explode.** Old or dried containers should not be opened and are handled by trained hazardous-material personnel.",
+   "whyNot": {
+    "1": "Chlorine gas comes from mixing bleach with acids, not from picric acid.",
+    "2": "Spontaneous ignition in air describes pyrophoric materials such as white phosphorus, not picric acid.",
+    "3": "Hydrogen cyanide is the danger when cyanide salts contact acid, not a property of drying picric acid."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety (chemical hazards); Tietz Fundamentals 9e, laboratory safety"
+  },
+  {
+   "id": "CC-0045",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which condition produces a metabolic acidosis with an increased anion gap?",
+   "options": [
+    "Lactic acidosis from circulatory shock",
+    "Renal tubular acidosis",
+    "Large-volume normal saline infusion",
+    "Prolonged severe diarrhea"
+   ],
+   "answer": 0,
+   "why": "The anion gap estimates unmeasured anions: Na⁺ − (Cl⁻ + HCO₃⁻). **When an added acid such as lactic acid lowers bicarbonate, its unmeasured anion (lactate) remains, so the anion gap increases.** Ketoacidosis, renal failure, and toxic ingestions such as methanol behave the same way.",
+   "whyNot": {
+    "1": "In renal tubular acidosis, the kidney fails to reclaim bicarbonate or excrete acid, and chloride rises in step, keeping the gap normal.",
+    "2": "Saline adds chloride and dilutes bicarbonate, giving a normal-gap, hyperchloremic acidosis.",
+    "3": "Diarrhea loses bicarbonate and chloride is retained in its place, so the gap stays normal (hyperchloremic acidosis)."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (anion gap) and acid–base; Tietz Fundamentals 9e, electrolytes"
+  },
+  {
+   "id": "CC-0046",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A euvolemic patient with normal adrenal and thyroid function has serum Na⁺ 125 mmol/L, serum osmolality 260 mOsm/kg, and urine osmolality 520 mOsm/kg, with a high urine sodium. Which condition best explains these findings?",
+   "options": [
+    "Central diabetes insipidus",
+    "Primary (psychogenic) polydipsia",
+    "Syndrome of inappropriate ADH secretion (SIADH)",
+    "Pseudohyponatremia from severe hyperlipidemia"
+   ],
+   "answer": 2,
+   "why": "With a low serum osmolality, ADH should be suppressed and the urine should be maximally dilute. **A concentrated urine in the face of hypo-osmolal hyponatremia in a euvolemic patient indicates inappropriate ADH activity (SIADH).** Free water retention dilutes serum sodium while sodium continues to be excreted.",
+   "whyNot": {
+    "0": "Diabetes insipidus is a lack of ADH, which causes dilute urine and a tendency toward hypernatremia.",
+    "1": "In primary polydipsia, ADH is appropriately suppressed, so the urine is very dilute rather than concentrated.",
+    "3": "Pseudohyponatremia is a measurement artifact with a normal serum osmolality, not a true hypo-osmolal state."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (sodium, osmolality); Tietz Fundamentals 9e, electrolytes and water balance"
+  },
+  {
+   "id": "CC-0047",
+   "tos": "CC-C.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A serum urea nitrogen (BUN) is reported as 21 mg/dL. What is the urea concentration in SI units (mmol/L)? (Atomic mass of nitrogen = 14; molecular mass of urea = 60.)",
+   "options": [
+    "15.0 mmol/L",
+    "3.5 mmol/L",
+    "7.5 mmol/L",
+    "0.75 mmol/L"
+   ],
+   "answer": 2,
+   "why": "Each urea molecule contains two nitrogen atoms, so 1 mmol of urea carries 28 mg of nitrogen. Convert mg/dL to mg/L (× 10), then divide by 28: 210/28. **The urea concentration is 7.5 mmol/L (BUN in mg/dL × 0.357).** To express urea itself in mg/dL, multiply BUN by 60/28, or 2.14.",
+   "whyNot": {
+    "0": "This divides by 14, counting only one nitrogen atom per urea molecule.",
+    "1": "This divides the nitrogen mass by the molecular mass of urea (60), but BUN reports only the nitrogen portion.",
+    "3": "This omits the dL-to-L conversion (multiplying by 10)."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds (urea); Tietz Fundamentals 9e, kidney function",
+   "worked": {
+    "problem": "Convert a BUN of 14 mg/dL to urea in mmol/L and to urea in mg/dL.",
+    "steps": [
+     "14 mg/dL × 10 = 140 mg/L of urea nitrogen",
+     "1 mmol urea contains 2 × 14 = 28 mg N, so 140/28 = 5.0 mmol/L urea",
+     "Urea in mg/dL = BUN × 60/28 = 14 × 2.14 = 30 mg/dL"
+    ],
+    "result": "5.0 mmol/L urea (30 mg/dL urea)"
+   }
+  },
+  {
+   "id": "CC-0048",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Creatinine-based eGFR equations assume that the serum creatinine is at steady state. In which patient is a creatinine-based eGFR least reliable as a measure of the current GFR?",
+   "options": [
+    "A 72-year-old outpatient whose creatinine has been stable over several months",
+    "A patient whose creatinine was measured by an IDMS-traceable enzymatic method",
+    "An outpatient with chronic kidney disease whose creatinine has been 2.0 mg/dL for a year",
+    "An inpatient whose creatinine rose from 0.9 to 2.6 mg/dL over the past 36 hours"
+   ],
+   "answer": 3,
+   "why": "eGFR equations convert a single serum creatinine into a GFR estimate, which is valid only when creatinine production and excretion are in balance. **In acute kidney injury, creatinine is still rising toward a new level, so eGFR (and any single creatinine) misrepresents the true, rapidly changing GFR.** Timed urine creatinine clearance avoids the equation's assumptions but tends to overestimate GFR because creatinine is also secreted by the tubules.",
+   "whyNot": {
+    "0": "Age is already a term in the equation, and a stable creatinine meets the steady-state requirement.",
+    "1": "Current eGFR equations require IDMS-traceable creatinine methods, so this improves rather than undermines reliability.",
+    "2": "A stable creatinine meets the steady-state assumption, and these equations were developed largely in people with CKD."
+   },
+   "ref": "Bishop 9e, ch. on renal function (GFR estimation); Tietz Fundamentals 9e, kidney function"
+  },
+  {
+   "id": "CC-0049",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the direct UV uricase method for serum uric acid, what change is measured?",
+   "options": [
+    "A fall in absorbance near 293 nm as uric acid becomes allantoin",
+    "An increase in absorbance at 340 nm as NAD⁺ is reduced to NADH",
+    "Blue color from the reduction of phosphotungstic acid by uric acid",
+    "A rise in absorbance near 293 nm as allantoin is produced"
+   ],
+   "answer": 0,
+   "why": "Uric acid absorbs ultraviolet light near 293 nm, whereas its oxidation product allantoin does not. **Uricase converts uric acid to allantoin, so the fall in absorbance at about 293 nm is proportional to the uric acid present.** Many automated methods instead couple the H₂O₂ formed to a peroxidase color reaction.",
+   "whyNot": {
+    "1": "Monitoring NADH at 340 nm is used by dehydrogenase-coupled assays such as alcohol dehydrogenase or lactate-to-pyruvate LD methods, not the direct uricase method.",
+    "2": "Phosphotungstic acid reduction is the older chemical (Caraway) method, not the uricase method.",
+    "3": "Allantoin does not absorb at this wavelength; absorbance falls, not rises, as uric acid is consumed."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds (uric acid); Tietz Fundamentals 9e, nonprotein nitrogen"
+  },
+  {
+   "id": "CC-0050",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the hexokinase method for glucose, which product is measured spectrophotometrically at 340 nm?",
+   "options": [
+    "Hydrogen peroxide produced by the glucose oxidase reaction",
+    "NADPH produced in the glucose-6-phosphate dehydrogenase step",
+    "Quinoneimine dye produced by peroxidase coupling",
+    "ADP produced as hexokinase phosphorylates glucose"
+   ],
+   "answer": 1,
+   "why": "Hexokinase phosphorylates glucose to glucose-6-phosphate using ATP. **Glucose-6-phosphate dehydrogenase then oxidizes glucose-6-phosphate and reduces NADP⁺ to NADPH, whose absorbance at 340 nm is proportional to the glucose.** The hexokinase method is the basis of the reference method for glucose.",
+   "whyNot": {
+    "0": "Hydrogen peroxide is the product of the glucose oxidase method, a different enzymatic approach.",
+    "2": "A quinoneimine dye is the colored end product of the glucose oxidase–peroxidase (Trinder) method, read in the visible range.",
+    "3": "ADP is formed in the first step but is not the species measured at 340 nm."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glucose methods); Tietz Fundamentals 9e, carbohydrates"
+  },
+  {
+   "id": "CC-0051",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A nondiabetic healthcare worker has recurrent episodes of hypoglycemia. A specimen drawn during an episode shows plasma glucose 38 mg/dL, a markedly elevated insulin, and a low C-peptide. What is the most likely cause?",
+   "options": [
+    "An insulin-secreting pancreatic islet tumor",
+    "A non-islet tumor producing an insulin-like growth factor",
+    "Surreptitious ingestion of a sulfonylurea drug",
+    "Surreptitious injection of exogenous insulin"
+   ],
+   "answer": 3,
+   "why": "Proinsulin is cleaved into insulin and C-peptide in equal amounts, so endogenous insulin secretion raises both. **High insulin with low C-peptide during hypoglycemia means the insulin came from outside the body.** Commercial insulin preparations contain no C-peptide, and the excess insulin suppresses the patient's own beta cells.",
+   "whyNot": {
+    "0": "An insulinoma secretes endogenous insulin, so C-peptide would be elevated along with insulin.",
+    "1": "Tumors that cause hypoglycemia through an insulin-like growth factor suppress insulin, so insulin would be low.",
+    "2": "Sulfonylureas stimulate the patient's own beta cells, raising both insulin and C-peptide."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (hypoglycemia, C-peptide); Tietz Fundamentals 9e, carbohydrates"
+  },
+  {
+   "id": "CC-0052",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient in severe diabetic ketoacidosis has only a weakly positive urine ketone result by a sodium nitroprusside reagent strip. What best explains the low reading?",
+   "options": [
+    "Marked glycosuria competitively inhibits the nitroprusside reaction",
+    "Nitroprusside does not detect β-hydroxybutyrate, the main ketone in DKA",
+    "Acetoacetate is fully reabsorbed by the renal tubules during acidosis",
+    "Nitroprusside reacts only with acetone, which evaporates from the urine"
+   ],
+   "answer": 1,
+   "why": "Nitroprusside reacts strongly with acetoacetate, weakly with acetone, and not at all with β-hydroxybutyrate. **In DKA, the reduced redox state shifts ketones toward β-hydroxybutyrate, which the strip cannot detect, so it underestimates total ketones.** An enzymatic β-hydroxybutyrate assay better reflects the severity of ketosis.",
+   "whyNot": {
+    "0": "Glucose does not interfere with the nitroprusside reaction.",
+    "2": "Acetoacetate spills into the urine in ketoacidosis; it is not completely reabsorbed.",
+    "3": "Acetoacetate is the main reactant; acetone reacts only weakly, so loss of acetone does not explain the low reading."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (ketones); Tietz Fundamentals 9e, carbohydrates"
+  },
+  {
+   "id": "CC-0053",
+   "tos": "CC-C.4",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A laboratory that reports lipids in SI units must calculate LDL cholesterol for a fasting specimen with total cholesterol 6.2 mmol/L, HDL cholesterol 1.1 mmol/L, and triglycerides 2.2 mmol/L. Applying the Friedewald approach in mmol/L, what LDL cholesterol should be reported?",
+   "options": [
+    "5.1 mmol/L",
+    "4.1 mmol/L",
+    "2.9 mmol/L",
+    "4.7 mmol/L"
+   ],
+   "answer": 1,
+   "why": "In mmol/L, Friedewald estimates VLDL cholesterol as triglycerides/2.2 (the /5 factor applies only to mg/dL). LDL-C = 6.2 − 1.1 − (2.2/2.2) = 4.1 mmol/L. **The SI form divides triglycerides by 2.2, and the equation should not be used when triglycerides exceed 400 mg/dL (about 4.5 mmol/L).** At high triglycerides or very low LDL, direct LDL or the Martin–Hopkins equation, which uses an adjustable TG:VLDL factor, is preferred.",
+   "whyNot": {
+    "0": "This is total minus HDL cholesterol (non-HDL cholesterol); VLDL cholesterol has not been removed.",
+    "2": "This subtracts the whole triglyceride value instead of the estimated VLDL cholesterol.",
+    "3": "This uses the mg/dL divisor of 5 on a triglyceride value in mmol/L, underestimating VLDL cholesterol."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (LDL-C estimation); Tietz Fundamentals 9e, lipids and lipoproteins",
+   "worked": {
+    "problem": "A fasting lipid profile in SI units shows total cholesterol 5.6 mmol/L, HDL cholesterol 1.3 mmol/L, and triglycerides 1.76 mmol/L. Estimate LDL cholesterol by Friedewald.",
+    "steps": [
+     "Check eligibility: triglycerides 1.76 mmol/L is well below about 4.5 mmol/L (400 mg/dL)",
+     "VLDL-C = TG/2.2 = 1.76/2.2 = 0.80 mmol/L",
+     "LDL-C = TC − HDL-C − VLDL-C = 5.6 − 1.3 − 0.80",
+     "LDL-C = 3.5 mmol/L"
+    ],
+    "result": "3.5 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0054",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Each LDL particle carries a single copy of which apolipoprotein, the ligand recognized by the LDL receptor?",
+   "options": [
+    "Apolipoprotein A-I",
+    "Apolipoprotein B-48",
+    "Apolipoprotein B-100",
+    "Apolipoprotein C-II"
+   ],
+   "answer": 2,
+   "why": "LDL is formed from VLDL and keeps that particle's single large apolipoprotein. **Apo B-100 is the principal apolipoprotein of LDL and binds the LDL receptor, so its concentration reflects the number of atherogenic particles.**",
+   "whyNot": {
+    "0": "Apo A-I is the major apolipoprotein of HDL and activates LCAT.",
+    "1": "Apo B-48 is made in the intestine and is the structural apolipoprotein of chylomicrons.",
+    "3": "Apo C-II activates lipoprotein lipase on chylomicrons and VLDL; it is not the LDL receptor ligand."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (apolipoproteins); Tietz Fundamentals 9e, lipids and lipoproteins"
+  },
+  {
+   "id": "CC-0055",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient has palmar xanthomas, total cholesterol 350 mg/dL, and triglycerides 360 mg/dL. Lipoprotein electrophoresis shows a broad band spanning the beta and pre-beta regions, and genotyping shows homozygosity for apolipoprotein E2. Which Fredrickson phenotype is present?",
+   "options": [
+    "Type I (lipoprotein lipase deficiency)",
+    "Type IV (endogenous hypertriglyceridemia)",
+    "Type IIa (familial hypercholesterolemia)",
+    "Type III (dysbetalipoproteinemia)"
+   ],
+   "answer": 3,
+   "why": "Apo E2 binds poorly to hepatic remnant receptors, so VLDL and chylomicron remnants (IDL, β-VLDL) accumulate. **Remnant accumulation gives a broad-beta band with roughly equal increases in cholesterol and triglycerides, the hallmark of type III hyperlipoproteinemia.** Xanthomas in the palmar creases are characteristic.",
+   "whyNot": {
+    "0": "Type I shows chylomicrons at the origin with very high triglycerides and is caused by LPL or apo C-II defects.",
+    "1": "Type IV increases VLDL (pre-beta band) with mainly high triglycerides, not a broad-beta remnant band.",
+    "2": "Type IIa raises LDL cholesterol with normal triglycerides and a sharp, not broad, beta band."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (hyperlipoproteinemias); Tietz Fundamentals 9e, lipids and lipoproteins"
+  },
+  {
+   "id": "CC-0056",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Serum albumin is most commonly measured on automated analyzers by which principle?",
+   "options": [
+    "Turbidimetry after precipitation with sulfosalicylic acid",
+    "Kjeldahl digestion and measurement of total nitrogen",
+    "Reaction of peptide bonds with alkaline copper (biuret)",
+    "Binding of bromcresol green dye with a color shift"
+   ],
+   "answer": 3,
+   "why": "Albumin binds anionic dyes at a buffered pH, which shifts the dye's absorbance maximum. **Bromcresol green (or bromcresol purple) dye binding is the routine method for serum albumin.** Bromcresol purple is more specific for albumin, while bromcresol green can react slightly with some globulins.",
+   "whyNot": {
+    "0": "Sulfosalicylic acid turbidimetry is a screening method for urine protein, not serum albumin.",
+    "1": "Kjeldahl nitrogen is a reference approach for total protein, not a routine albumin assay.",
+    "2": "Biuret measures total protein because all proteins contain peptide bonds; it does not single out albumin."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (albumin methods); Tietz Fundamentals 9e, proteins"
+  },
+  {
+   "id": "CC-0057",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A young adult with early-onset emphysema and chronic liver disease has a serum protein electrophoresis in which the α₁-globulin band is nearly absent. Deficiency of which protein best explains this?",
+   "options": [
+    "Haptoglobin",
+    "Ceruloplasmin",
+    "α₁-Antitrypsin",
+    "α₁-Acid glycoprotein"
+   ],
+   "answer": 2,
+   "why": "α₁-Antitrypsin is a protease inhibitor that protects lung tissue from neutrophil elastase. **It makes up most of the α₁-globulin band, so its deficiency leaves the band faint or absent.** Abnormal variants can also accumulate in hepatocytes and cause liver disease.",
+   "whyNot": {
+    "0": "Haptoglobin migrates in the α₂ region and falls with intravascular hemolysis.",
+    "1": "Ceruloplasmin migrates in the α₂ region and is decreased in Wilson disease.",
+    "3": "α₁-Acid glycoprotein also migrates in the α₁ region but is a minor contributor and is not linked to emphysema."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (plasma proteins, electrophoresis); Tietz Fundamentals 9e, proteins"
+  },
+  {
+   "id": "CC-0058",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A healthy 25-year-old develops mild jaundice during a period of fasting. Total bilirubin is 2.8 mg/dL, almost all unconjugated. ALT, AST, and ALP are normal, there is no evidence of hemolysis, and urine bilirubin is negative. Which condition is most likely?",
+   "options": [
+    "Dubin–Johnson syndrome",
+    "Crigler–Najjar syndrome type I",
+    "Extrahepatic biliary obstruction",
+    "Gilbert syndrome"
+   ],
+   "answer": 3,
+   "why": "Gilbert syndrome is a common, benign reduction in the activity of bilirubin UDP-glucuronyltransferase. **Mild, fluctuating unconjugated hyperbilirubinemia that rises with fasting or illness, with otherwise normal liver tests, is typical of Gilbert syndrome.** Unconjugated bilirubin is albumin-bound and does not appear in urine.",
+   "whyNot": {
+    "0": "Dubin–Johnson syndrome is a defect in excreting conjugated bilirubin, so the conjugated fraction would be increased.",
+    "1": "Crigler–Najjar type I causes severe unconjugated hyperbilirubinemia from birth, with a risk of kernicterus.",
+    "2": "Biliary obstruction raises conjugated bilirubin and ALP and makes urine bilirubin positive."
+   },
+   "ref": "Bishop 9e, ch. on liver function (bilirubin metabolism disorders); Tietz Fundamentals 9e, liver function"
+  },
+  {
+   "id": "CC-0059",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "After a blocked bile duct is relieved by a stent, a patient's total bilirubin falls only slowly over several weeks. Most of the remaining bilirubin reacts in the direct (conjugated) fraction, yet the urine bilirubin is now negative. What best explains this?",
+   "options": [
+    "Albumin-linked conjugated bilirubin persists and is not filtered",
+    "Reabsorbed urobilinogen is converted back to bilirubin in the circulation",
+    "Plasma β-glucuronidase deconjugates the retained bilirubin into a free form",
+    "Unconjugated bilirubin rises as hepatocytes recover their uptake function"
+   ],
+   "answer": 0,
+   "why": "During prolonged conjugated hyperbilirubinemia, some conjugated bilirubin becomes covalently linked to albumin. **This delta bilirubin reacts as direct bilirubin but follows albumin's long half-life and, being protein-bound, is not filtered into urine.** It explains persistent jaundice with a negative urine bilirubin during recovery from obstruction.",
+   "whyNot": {
+    "1": "Urobilinogen is not converted back to bilirubin in blood; reabsorbed urobilinogen is re-excreted by the liver or kidney.",
+    "2": "Deconjugated bilirubin would react as indirect bilirubin, which contradicts the direct-reacting result.",
+    "3": "The retained bilirubin reacts in the direct fraction, so it is not unconjugated bilirubin."
+   },
+   "ref": "Bishop 9e, ch. on liver function (bilirubin fractions); Tietz Fundamentals 9e, liver function"
+  },
+  {
+   "id": "CC-0060",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Why is serum lipase generally preferred over serum amylase for diagnosing acute pancreatitis?",
+   "options": [
+    "It is more pancreas-specific and stays elevated longer",
+    "It rises within minutes and normalizes within a day",
+    "It is unaffected by decreased renal function",
+    "It is small enough to be cleared into urine for confirmation"
+   ],
+   "answer": 0,
+   "why": "Amylase also comes from the salivary glands and other tissues, and it returns to normal within a few days. **Lipase is more specific for the pancreas and remains elevated longer after an attack than amylase does.** This makes lipase more useful, particularly when the patient presents late.",
+   "whyNot": {
+    "1": "Neither enzyme behaves this way, and a short-lived rise would make the test less useful, not more.",
+    "2": "Both lipase and amylase can be increased in renal insufficiency because their clearance is reduced.",
+    "3": "Lipase is filtered by the glomeruli but normally reabsorbed by the tubules, so it is not measured in urine; urine amylase is the test used for that purpose."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (pancreatic enzymes); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0061",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On lactate dehydrogenase (LD) isoenzyme electrophoresis, LD1 activity exceeds LD2 (a “flipped” pattern). Injury to which tissues does this most suggest?",
+   "options": [
+    "Liver or skeletal muscle",
+    "Heart or red blood cells",
+    "Bone or small intestine",
+    "Lung or lymphoid tissue"
+   ],
+   "answer": 1,
+   "why": "Normally LD2 is the largest fraction in serum. **Myocardium and red cells (and renal cortex) are rich in LD1, so myocardial injury or hemolysis can raise LD1 above LD2.** For myocardial infarction, LD isoenzymes have largely been replaced by cardiac troponin.",
+   "whyNot": {
+    "0": "Liver and skeletal muscle contain mainly LD5, which migrates nearest the cathode.",
+    "2": "Bone and intestine are classic sources of alkaline phosphatase isoenzymes, not LD1.",
+    "3": "Lung and lymphoid tissue are associated with increased LD3."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (lactate dehydrogenase); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0062",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Enzyme activity assays use a substrate concentration far above the Km. What does this achieve?",
+   "options": [
+    "The rate equals exactly half of the maximum velocity",
+    "The rate depends mainly on the substrate concentration",
+    "The rate becomes independent of temperature and pH",
+    "The rate depends only on the amount of enzyme present"
+   ],
+   "answer": 3,
+   "why": "When substrate is in large excess, the enzyme is saturated and the reaction proceeds at a constant rate. **Under these zero-order conditions with respect to substrate, the measured rate is proportional only to enzyme activity.** Temperature, pH, and cofactors still have to be controlled.",
+   "whyNot": {
+    "0": "Half of Vmax is reached when the substrate concentration equals Km, not when it is far above it.",
+    "1": "Rates that depend on substrate concentration describe first-order kinetics, which occur when substrate is well below Km.",
+    "2": "Enzyme activity remains highly sensitive to temperature and pH whatever the substrate concentration."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (enzyme kinetics); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0063",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Several months after pituitary surgery, a patient's free T4 is below its reference interval and the TSH is at the low end of its reference interval. Which condition do these results most likely indicate?",
+   "options": [
+    "Central hypothyroidism",
+    "Subclinical hypothyroidism",
+    "Primary hypothyroidism",
+    "Primary hyperthyroidism"
+   ],
+   "answer": 0,
+   "why": "A healthy pituitary responds to low thyroid hormone by raising TSH. **A low free T4 with an inappropriately low TSH points to failure of the pituitary (or hypothalamus) rather than the thyroid gland, called secondary or central hypothyroidism.** Pituitary surgery is a recognized cause of central hypothyroidism.",
+   "whyNot": {
+    "1": "Subclinical hypothyroidism has a normal free T4 with a mildly elevated TSH.",
+    "2": "In primary hypothyroidism, the failing thyroid causes a high TSH, not a low one.",
+    "3": "Primary hyperthyroidism lowers TSH but with a high, not low, free T4."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function; Tietz Fundamentals 9e, thyroid function"
+  },
+  {
+   "id": "CC-0064",
+   "tos": "CC-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Immunoassays for pregnancy use antibodies directed against the β subunit of human chorionic gonadotropin (hCG). Why?",
+   "options": [
+    "The β subunit appears in serum weeks before the α subunit",
+    "The α subunit is nearly identical to that of LH, FSH, and TSH",
+    "Only the β subunit is excreted into the urine",
+    "The intact hormone is too large for antibodies to bind"
+   ],
+   "answer": 1,
+   "why": "hCG, LH, FSH, and TSH share an essentially identical α subunit. **The β subunit gives hCG its specificity, so anti-β antibodies avoid cross-reactivity with LH, FSH, and TSH.** Most assays detect intact hCG and free β subunit using this approach.",
+   "whyNot": {
+    "0": "Both subunits are made together and secreted as the intact hormone; the β subunit does not precede α.",
+    "2": "Intact hCG and its fragments appear in urine; the choice of anti-β antibodies is about specificity, not excretion.",
+    "3": "Antibodies readily bind intact hCG, and most assays are designed to detect it."
+   },
+   "ref": "Bishop 9e, ch. on reproductive endocrinology (hCG); Tietz Fundamentals 9e, pregnancy and gonadal function"
+  },
+  {
+   "id": "CC-0065",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with Cushing syndrome has an increased plasma ACTH. During a high-dose dexamethasone suppression test, serum cortisol falls to less than half of baseline. What is the most likely source of the excess cortisol?",
+   "options": [
+    "Long-term use of oral glucocorticoid medication",
+    "Cortisol-secreting adrenal adenoma",
+    "ACTH-secreting pituitary adenoma (Cushing disease)",
+    "Ectopic ACTH production by a small cell lung carcinoma"
+   ],
+   "answer": 2,
+   "why": "Pituitary corticotroph adenomas remain partly sensitive to glucocorticoid feedback. **ACTH-dependent hypercortisolism that suppresses with high-dose dexamethasone indicates a pituitary source (Cushing disease).** Ectopic ACTH tumors usually do not suppress.",
+   "whyNot": {
+    "0": "Exogenous glucocorticoids suppress the patient's ACTH, so plasma ACTH would be low.",
+    "1": "An adrenal adenoma secretes cortisol autonomously and suppresses ACTH, so ACTH would be low.",
+    "3": "Ectopic ACTH-producing tumors usually do not respond to glucocorticoid feedback, so cortisol does not suppress."
+   },
+   "ref": "Bishop 9e, ch. on adrenal function (Cushing syndrome); Tietz Fundamentals 9e, adrenal function"
+  },
+  {
+   "id": "CC-0066",
+   "tos": "CC-D.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has a serum total calcium of 11.6 mg/dL (reference 8.6–10.3 mg/dL) with normal albumin, a low serum phosphate, and an elevated intact PTH. Which condition is most likely?",
+   "options": [
+    "Humoral hypercalcemia of malignancy",
+    "Secondary hyperparathyroidism of chronic kidney disease",
+    "Primary hyperparathyroidism",
+    "Vitamin D intoxication"
+   ],
+   "answer": 2,
+   "why": "Hypercalcemia should normally suppress PTH secretion. **A high calcium with an inappropriately elevated PTH and a low phosphate (from PTH's phosphaturic effect) indicates primary hyperparathyroidism.** It is a leading cause of hypercalcemia in outpatients.",
+   "whyNot": {
+    "0": "In hypercalcemia of malignancy, PTHrP raises calcium while intact PTH is suppressed.",
+    "1": "Secondary hyperparathyroidism in CKD has a high PTH with low or normal calcium and a high phosphate.",
+    "3": "Vitamin D excess raises calcium and phosphate absorption, and the hypercalcemia suppresses PTH."
+   },
+   "ref": "Bishop 9e, ch. on bone and mineral metabolism (calcium, PTH); Tietz Fundamentals 9e, mineral metabolism"
+  },
+  {
+   "id": "CC-0067",
+   "tos": "CC-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine drug screen for cocaine use is designed to detect which compound?",
+   "options": [
+    "6-Monoacetylmorphine",
+    "11-nor-Δ⁹-THC-9-carboxylic acid",
+    "Norfentanyl",
+    "Benzoylecgonine"
+   ],
+   "answer": 3,
+   "why": "Cocaine is rapidly hydrolyzed in the body and has a short half-life. **Urine cocaine screens target its major metabolite benzoylecgonine, which persists in urine much longer than the parent drug.** A positive screen is confirmed by a mass spectrometric method.",
+   "whyNot": {
+    "0": "6-Monoacetylmorphine is a specific metabolite of heroin.",
+    "1": "THC-COOH is the main urinary metabolite of marijuana (cannabinoids).",
+    "2": "Norfentanyl is the main metabolite of fentanyl."
+   },
+   "ref": "Bishop 9e, ch. on toxicology (drugs of abuse); Tietz Fundamentals 9e, drugs of abuse"
+  },
+  {
+   "id": "CC-0068",
+   "tos": "CC-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An arterial blood gas syringe is analyzed with a large air bubble left in it. The patient's true values are pO₂ 60 mmHg and pCO₂ 50 mmHg. How will the air bubble most likely change the measured results?",
+   "options": [
+    "pO₂ and pCO₂ are unchanged; only pH changes",
+    "pO₂ increases and pCO₂ decreases",
+    "Both pO₂ and pCO₂ increase",
+    "pO₂ decreases and pCO₂ increases"
+   ],
+   "answer": 1,
+   "why": "Gases equilibrate between the bubble and the blood. **Room air has a much higher pO₂ and almost no CO₂ compared with this sample, so pO₂ rises and pCO₂ falls.** Losing CO₂ also raises the measured pH, so bubbles should be expelled immediately after collection.",
+   "whyNot": {
+    "0": "pH changes because pCO₂ changes; the gases themselves are directly affected by the bubble.",
+    "2": "Room air contains almost no CO₂, so the bubble draws CO₂ out of the sample rather than adding it.",
+    "3": "Falling pO₂ and rising pCO₂ result from continued cell metabolism when analysis is delayed at room temperature, not from air exposure."
+   },
+   "ref": "Bishop 9e, ch. on blood gases and acid–base (specimen handling); Tietz Fundamentals 9e, blood gases"
   }
  ]
 }

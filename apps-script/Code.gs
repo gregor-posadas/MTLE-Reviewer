@@ -2,6 +2,7 @@
  * MTLE Reviewer: backend (optional, but recommended on an iPhone).
  *
  * Keeps a copy of every answer in this Google Sheet, so a cleared browser or a new phone gets everything back,
+ * removes test answers everywhere when asked (the Removed tab remembers which, so no device brings them back),
  * and the phone and laptop stay in step. Also collects questions flagged as wrong or unclear, her own
  * questions, and settings such as the exam date.
  *
@@ -19,6 +20,7 @@ var TABS = {
   Flags: ['id', 'q', 'at', 'reason', 'note', 'status', 'deleted'],
   MyQuestions: ['id', 'at', 'deleted', 'json'],
   Settings: ['id', 'v', 'at'],
+  Removed: ['id', 'at'],
   Log: ['timestamp', 'action', 'detail']
 };
 var MAX_PUSH = 5000;   // answers accepted in one request
@@ -63,7 +65,9 @@ function doPost(e) {
       case 'push':   // sent as the page closes; nothing comes back
         return json({ ok: true, added: appendReviews(b.reviews || []) });
       case 'sync':
+        var removed = removeReviews(b.removed || []);
         var added = appendReviews(b.reviews || []);
+        if (removed) log('remove', removed + ' answers');
         upsertFlags(b.flags || []);
         upsertMine(b.mine || []);
         upsertSettings(b.settings || []);
@@ -160,7 +164,7 @@ function isIso(s) { return /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(String(s || '')
 function appendReviews(list) {
   if (!list || !list.length) return 0;
   var sh = sheet('Reviews');
-  var have = {};
+  var have = removedIds();   // never bring back an answer that was removed
   if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues().forEach(function (r) { have[String(r[0])] = true; });
   var rows = [];
   list.slice(0, MAX_PUSH).forEach(function (e) {
@@ -170,6 +174,30 @@ function appendReviews(list) {
   });
   appendRows('Reviews', rows);
   return rows.length;
+}
+
+function removedIds() {
+  var o = {};
+  readTable('Removed').forEach(function (r) { o[r.id] = true; });
+  return o;
+}
+
+/** Deletes answers by id (test runs) and remembers the ids so other devices drop them too. Returns how many rows went. */
+function removeReviews(ids) {
+  ids = (ids || []).map(function (x) { return clean(x, 40); }).filter(function (x) { return x; });
+  if (!ids.length) return 0;
+  var known = removedIds(), now = cell(new Date()), fresh = [];
+  ids.forEach(function (id) { if (!known[id]) { known[id] = true; fresh.push({ id: id, at: now }); } });
+  appendRows('Removed', fresh);
+  var gone = {};
+  ids.forEach(function (id) { gone[id] = true; });
+  var sh = sheet('Reviews'), n = 0;
+  if (sh.getLastRow() < 2) return 0;
+  var col = sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues();
+  for (var i = col.length - 1; i >= 0; i--) {
+    if (gone[String(col[i][0])]) { sh.deleteRow(i + 2); n++; }
+  }
+  return n;
 }
 
 /** Newer records win. A flag's status is set in the Sheet (open or fixed), so the site never overwrites it. */
@@ -229,7 +257,8 @@ function payload() {
       q.id = r.id; q.at = r.at; q.deleted = r.deleted === 'true';
       return q;
     }),
-    settings: readTable('Settings').map(function (r) { return { id: r.id, v: parseJson(r.v, null), at: r.at }; })
+    settings: readTable('Settings').map(function (r) { return { id: r.id, v: parseJson(r.v, null), at: r.at }; }),
+    removed: readTable('Removed').map(function (r) { return r.id; })
   };
 }
 
