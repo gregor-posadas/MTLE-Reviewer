@@ -10,7 +10,7 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261005112339";
+  var BUILD = "20261005113220";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
