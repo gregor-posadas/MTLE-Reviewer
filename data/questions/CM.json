@@ -1,0 +1,530 @@
+{
+ "subject": "CM",
+ "author": "Original (Claude draft, pending review)",
+ "items": [
+  {
+   "id": "CM-0001",
+   "tos": "CM-A.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A 24-hour urine collection measures 1,728 mL. The urine creatinine is 110 mg/dL and the plasma creatinine is 1.5 mg/dL. The patient's body surface area is 1.60 m². What is the creatinine clearance normalized to a standard body surface area of 1.73 m²?",
+   "options": [
+    "88 mL/min",
+    "81 mL/min",
+    "95 mL/min",
+    "127 mL/min"
+   ],
+   "answer": 2,
+   "why": "Convert the 24-hour volume to mL/min: 1,728 mL ÷ 1,440 min = 1.2 mL/min. Then UV/P = (110 × 1.2) ÷ 1.5 = 88 mL/min. Normalizing multiplies by 1.73/BSA: 88 × (1.73 ÷ 1.60) = **about 95 mL/min per 1.73 m²**.",
+   "whyNot": {
+    "0": "This is the raw clearance (UV/P) before the body surface area correction was applied.",
+    "1": "This comes from inverting the correction factor (multiplying by 1.60/1.73 instead of 1.73/1.60), which wrongly lowers the value for a small patient.",
+    "3": "This results from plugging in 1.728 (the volume in liters) as if it were the flow rate in mL/min instead of dividing 1,728 mL by 1,440 minutes, and then also skipping the body surface area correction."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (clearance tests).",
+   "worked": {
+    "problem": "A 24-hour urine volume is 2,160 mL, urine creatinine 90 mg/dL, plasma creatinine 1.2 mg/dL, and body surface area 1.90 m². Find the creatinine clearance corrected to 1.73 m².",
+    "steps": [
+     "Urine flow rate V = 2,160 mL ÷ 1,440 min/day = 1.5 mL/min.",
+     "Uncorrected clearance = (U × V) ÷ P = (90 × 1.5) ÷ 1.2 = 112.5 mL/min.",
+     "Body surface area correction: 112.5 × (1.73 ÷ 1.90) = 102.4 mL/min.",
+     "Check direction: a patient larger than 1.73 m² has the value lowered; a smaller patient has it raised."
+    ],
+    "result": "About 102 mL/min per 1.73 m²"
+   }
+  },
+  {
+   "id": "CM-0002",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A random urine specimen is very pale yellow, yet its specific gravity is 1.035. Which condition best explains this combination?",
+   "options": [
+    "Diabetes insipidus",
+    "Diabetes mellitus",
+    "Dehydration after heavy exercise",
+    "Recent intake of a large volume of water"
+   ],
+   "answer": 1,
+   "why": "Pale urine is usually dilute, so a high specific gravity in a pale specimen points to a large amount of a dissolved solute that adds little color. In uncontrolled diabetes mellitus, **glucose raises the specific gravity** while the high urine volume keeps the color pale.",
+   "whyNot": {
+    "0": "Diabetes insipidus also produces pale, high-volume urine, but the lack of ADH action makes the specific gravity low, not high.",
+    "2": "Dehydration does raise specific gravity, but the concentrated urine would be dark yellow to amber rather than pale.",
+    "3": "Excess water intake produces pale urine with a low specific gravity."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine."
+  },
+  {
+   "id": "CM-0003",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine specimen is red-brown and stays clear and red after centrifugation. The reagent strip blood pad is strongly positive, but no red blood cells are seen microscopically. The patient's plasma is pale yellow. What most likely caused the urine color?",
+   "options": [
+    "Hematuria",
+    "Hemoglobinuria",
+    "Porphyrinuria",
+    "Myoglobinuria"
+   ],
+   "answer": 3,
+   "why": "A clear red supernatant with a positive blood pad and no RBCs indicates a free heme pigment, either hemoglobin or myoglobin. Myoglobin is a small protein that is cleared quickly by the kidneys, so **the plasma stays a normal color**, whereas free hemoglobin from intravascular hemolysis tints the plasma red.",
+   "whyNot": {
+    "0": "Intact RBCs make urine cloudy red, settle out with centrifugation, and would be seen on microscopy.",
+    "1": "Hemoglobinuria would also give a clear red urine and positive blood pad, but the plasma would usually be pink to red from free hemoglobin.",
+    "2": "Porphyrins can color urine red to port-wine, but they lack peroxidase-like activity, so the blood pad would be negative."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Physical and Chemical Examination of Urine (blood)."
+  },
+  {
+   "id": "CM-0004",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A specimen from a patient who had a CT scan earlier that day reads 1.048 on the refractometer, but the reagent strip specific gravity is 1.015. Which explanation best accounts for the discrepancy?",
+   "options": [
+    "Glucose of 500 mg/dL in the specimen",
+    "Radiographic contrast medium excreted in the urine",
+    "Urine pH of 7.5 lowering the reagent strip reading",
+    "Testing the specimen while still cold from the refrigerator"
+   ],
+   "answer": 1,
+   "why": "A specific gravity above about 1.040 exceeds what the kidney can physiologically produce and suggests a high-molecular-weight, non-ionic substance. Radiographic contrast media raise refractometer readings, but the reagent strip responds only to ions, so **the strip value is unaffected**.",
+   "whyNot": {
+    "0": "Glucose adds only about 0.004 per g/dL to a refractometer reading, so 500 mg/dL would add roughly 0.002, far too little to explain a gap of 0.033.",
+    "2": "Alkaline urine (pH 6.5 or higher) lowers strip readings, but the correction is only about 0.005.",
+    "3": "Refractometers are temperature-compensated across the usual room range, and cold would not produce a difference of this size."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Physical and Chemical Examination of Urine (specific gravity)."
+  },
+  {
+   "id": "CM-0005",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine specimen gives a 2+ protein on the reagent strip, but the sulfosalicylic acid (SSA) precipitation test is negative. Which specimen characteristic most likely explains this?",
+   "options": [
+    "Ascorbic acid at a high concentration",
+    "Bence Jones protein as the only protein present",
+    "A highly buffered alkaline urine of pH 9.0",
+    "Recent excretion of radiographic contrast dye"
+   ],
+   "answer": 2,
+   "why": "The protein pad works by the protein error of indicators: tetrabromphenol blue held at pH 3 by a buffer changes color when protein accepts hydrogen ions from it. A **highly buffered alkaline urine can overwhelm the pad's buffer** and change the indicator color without any protein, giving a false-positive strip with a negative SSA.",
+   "whyNot": {
+    "0": "Ascorbic acid does not interfere with the protein pad.",
+    "1": "Bence Jones protein reacts poorly on the strip, which is sensitive mainly to albumin, so it would give the opposite pattern (strip negative, SSA positive).",
+    "3": "Contrast dye can produce a false-positive SSA test, which is the opposite of the pattern described."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (protein)."
+  },
+  {
+   "id": "CM-0006",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A jaundiced patient passes dark amber urine that produces yellow foam when shaken. The reagent strip shows bilirubin 3+ and urobilinogen 0.2 mg/dL, and the stools are pale and clay-colored. Which condition fits these findings best?",
+   "options": [
+    "Hemolytic anemia",
+    "Gilbert syndrome",
+    "Acute viral hepatitis",
+    "Common bile duct obstruction by a gallstone"
+   ],
+   "answer": 3,
+   "why": "When bile cannot reach the intestine, conjugated bilirubin backs up into the blood and is filtered into the urine, so the bilirubin pad (a diazo reaction) is positive. Little bilirubin reaches the gut to become urobilinogen, so **urine urobilinogen is not increased and the stools are acholic**. The strip cannot detect a decreased urobilinogen, so 0.2 mg/dL reads as normal.",
+   "whyNot": {
+    "0": "Hemolysis raises unconjugated bilirubin, which is not filtered by the glomerulus, so urine bilirubin is negative while urobilinogen is markedly increased.",
+    "1": "Gilbert syndrome causes a mild unconjugated hyperbilirubinemia, which does not appear in urine.",
+    "2": "Hepatocellular damage typically gives an increased urine urobilinogen with a variable bilirubin, and stool color is usually not acholic."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (bilirubin and urobilinogen)."
+  },
+  {
+   "id": "CM-0007",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The leukocyte esterase pad of a urine reagent strip will NOT detect which type of white blood cell?",
+   "options": [
+    "Lymphocytes",
+    "Neutrophils",
+    "Eosinophils",
+    "Monocytes"
+   ],
+   "answer": 0,
+   "why": "The pad contains an indoxyl ester that is split by esterase enzymes; the released indoxyl then couples with a diazonium salt to form a purple azo dye. Granulocytes and monocytes contain these esterases, but **lymphocytes do not**, so a urine with mainly lymphocytes can test negative.",
+   "whyNot": {
+    "1": "Neutrophils are the main cells the pad detects because their granules contain esterases.",
+    "2": "Eosinophils are granulocytes with esterase activity and react on the pad.",
+    "3": "Monocytes contain esterase and are detected."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (leukocyte esterase)."
+  },
+  {
+   "id": "CM-0008",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman with urinary frequency and burning provides a urine specimen 30 minutes after her last void. The leukocyte esterase is positive and many bacteria are seen, but the nitrite pad is negative. What is the most likely reason for the negative nitrite?",
+   "options": [
+    "The urine stayed in the bladder too briefly for nitrate to be converted to nitrite",
+    "The infecting organism is Escherichia coli",
+    "The specimen sat at room temperature for six hours before testing",
+    "The patient is taking phenazopyridine"
+   ],
+   "answer": 0,
+   "why": "The nitrite pad uses the Griess reaction and is positive only when bacteria that reduce dietary nitrate have had time to act in the bladder. **About four hours of bladder incubation** is recommended, so a specimen collected 30 minutes after the last void can be falsely negative.",
+   "whyNot": {
+    "1": "E. coli is a strong nitrate reducer and would be expected to give a positive nitrite.",
+    "2": "Prolonged storage at room temperature lets contaminating bacteria multiply and produce nitrite, so it tends to cause a false positive, not a false negative.",
+    "3": "Phenazopyridine colors the urine orange and can interfere by giving a false-positive or unreadable result, not a negative one."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (nitrite)."
+  },
+  {
+   "id": "CM-0009",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 2-week-old infant has vomiting, jaundice and poor weight gain. The urine copper reduction tablet test (Clinitest) is positive, but the reagent strip glucose is negative. Which substance is most likely present?",
+   "options": [
+    "Sucrose",
+    "Glucose",
+    "Galactose",
+    "Acetoacetic acid"
+   ],
+   "answer": 2,
+   "why": "The strip glucose pad uses glucose oxidase and peroxidase, which react only with glucose. Copper reduction detects any reducing sugar, so **a positive Clinitest with a negative strip glucose** in an infant suggests a non-glucose reducing sugar, classically galactose from galactosemia.",
+   "whyNot": {
+    "0": "Sucrose is a non-reducing sugar and would be negative by both methods.",
+    "1": "Glucose would make the specific glucose oxidase pad positive.",
+    "3": "Acetoacetic acid is detected by the nitroprusside ketone test, not by copper reduction."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Chemical Examination of Urine (glucose) and Urine Screening for Metabolic Disorders."
+  },
+  {
+   "id": "CM-0010",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "What protein forms the basic matrix of all urinary casts?",
+   "options": [
+    "Albumin",
+    "Uromodulin (Tamm-Horsfall protein)",
+    "Immunoglobulin A",
+    "Beta-2 microglobulin"
+   ],
+   "answer": 1,
+   "why": "Casts form in the tubular lumen when uromodulin, a glycoprotein secreted by renal tubular cells of the ascending loop of Henle and distal tubule, gels into a fibrillar matrix. **Uromodulin (Tamm-Horsfall protein)** is the matrix of every cast, and the hyaline cast is made almost entirely of it.",
+   "whyNot": {
+    "0": "Albumin can become trapped in or favor cast formation, but it is not the matrix itself.",
+    "2": "Immunoglobulin A is not part of the cast matrix and is not secreted by the tubules to form casts.",
+    "3": "Beta-2 microglobulin is a small protein used as a marker of tubular reabsorption, not a cast component."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (casts)."
+  },
+  {
+   "id": "CM-0011",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with fever and flank pain has urine containing many white blood cells, bacteria, and white blood cell casts. No red blood cell casts are seen. Which condition is most likely?",
+   "options": [
+    "Acute cystitis",
+    "Acute post-streptococcal glomerulonephritis",
+    "Acute pyelonephritis",
+    "Nephrotic syndrome"
+   ],
+   "answer": 2,
+   "why": "Casts form only inside renal tubules, so a cast containing white cells shows that the inflammation is in the kidney itself. **WBC casts with bacteria** point to an upper urinary tract infection such as acute pyelonephritis.",
+   "whyNot": {
+    "0": "Cystitis is a lower urinary tract infection; WBCs and bacteria are present, but casts are not expected.",
+    "1": "Glomerulonephritis is characterized by red blood cell casts and dysmorphic RBCs.",
+    "3": "Nephrotic syndrome shows heavy proteinuria with fatty casts and oval fat bodies rather than WBC casts with bacteria."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Microscopic Examination of Urine and Renal Disease."
+  },
+  {
+   "id": "CM-0012",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Colorless, flat hexagonal plates are seen in an acidic urine sediment, and the cyanide-nitroprusside test on the specimen is positive. What are these crystals?",
+   "options": [
+    "Uric acid",
+    "Cystine",
+    "Triple phosphate",
+    "Cholesterol"
+   ],
+   "answer": 1,
+   "why": "Cystine crystals are colorless hexagonal plates found in acid urine and indicate cystinuria, an inherited defect in tubular reabsorption of cystine and related amino acids. Because uric acid can also take a hexagonal shape, **a positive cyanide-nitroprusside test** confirms cystine.",
+   "whyNot": {
+    "0": "Uric acid can form hexagonal plates but is usually yellow to red-brown and gives a negative cyanide-nitroprusside test.",
+    "2": "Triple phosphate forms colorless prisms resembling coffin lids and is found in alkaline urine.",
+    "3": "Cholesterol forms flat rectangular plates with a notched corner, not hexagons."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Microscopic Examination of Urine (crystals) and Urine Screening for Metabolic Disorders."
+  },
+  {
+   "id": "CM-0013",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In the urine sediment of a patient with heavy proteinuria, some refractile droplets stain orange-red with Sudan III but show no Maltese cross pattern under polarized light. These droplets are mostly composed of:",
+   "options": [
+    "Cholesterol",
+    "Starch granules",
+    "Hemosiderin",
+    "Triglycerides (neutral fats)"
+   ],
+   "answer": 3,
+   "why": "Lipid in urine is confirmed two ways: Sudan III or Oil Red O stains triglycerides and neutral fats orange-red, while cholesterol does not stain but polarizes to give a Maltese cross. **Staining without polarization** therefore identifies triglycerides or neutral fats.",
+   "whyNot": {
+    "0": "Cholesterol droplets show a Maltese cross under polarized light and do not take up the fat stain.",
+    "1": "Starch is a contaminant that can show a Maltese cross when polarized, but it does not stain with Sudan III.",
+    "2": "Hemosiderin appears as yellow-brown granules and is confirmed with Prussian blue, not fat stains."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (fat, oval fat bodies)."
+  },
+  {
+   "id": "CM-0014",
+   "tos": "CM-A.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A newborn feeds poorly and has urine with a sweet, burnt-sugar odor. Adding 2,4-dinitrophenylhydrazine (DNPH) to the urine produces a yellow precipitate. Which disorder is most likely?",
+   "options": [
+    "Phenylketonuria",
+    "Maple syrup urine disease",
+    "Isovaleric acidemia",
+    "Alkaptonuria"
+   ],
+   "answer": 1,
+   "why": "In maple syrup urine disease, the branched-chain amino acids leucine, isoleucine and valine cannot be fully metabolized, so their keto acids accumulate and give the urine a maple syrup or caramel odor. **DNPH reacts with the keto acids** to form a yellow precipitate.",
+   "whyNot": {
+    "0": "Phenylketonuria gives a mousy urine odor and is screened with ferric chloride (blue-green color), not DNPH.",
+    "2": "Isovaleric acidemia is associated with a sweaty-feet odor.",
+    "3": "Alkaptonuria urine darkens on standing, especially when alkaline, because of homogentisic acid; it has no maple syrup odor."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urine Screening for Metabolic Disorders."
+  },
+  {
+   "id": "CM-0015",
+   "tos": "CM-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "When preparing for a guaiac-based fecal occult blood test, which intake can cause a false-NEGATIVE result?",
+   "options": [
+    "Rare red meat",
+    "Horseradish and raw turnips",
+    "Aspirin",
+    "High-dose vitamin C supplements"
+   ],
+   "answer": 3,
+   "why": "The guaiac test detects the pseudoperoxidase activity of hemoglobin, which oxidizes guaiac to a blue color in the presence of peroxide. **Vitamin C is a strong reducing agent** that blocks this oxidation, so large doses should be avoided before testing.",
+   "whyNot": {
+    "0": "Hemoglobin and myoglobin from red meat have peroxidase-like activity and cause false positives.",
+    "1": "These vegetables contain plant peroxidases that can cause false positives.",
+    "2": "Aspirin and other NSAIDs can irritate the gut and cause real bleeding, giving a positive rather than a falsely negative result."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Fecal Analysis."
+  },
+  {
+   "id": "CM-0016",
+   "tos": "CM-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Three tubes of bloody CSF are received. Which observation suggests that the blood came from a traumatic tap rather than a subarachnoid hemorrhage?",
+   "options": [
+    "Visible blood that lessens progressively from tube 1 to tube 3",
+    "A xanthochromic supernatant after centrifugation",
+    "Macrophages containing ingested red blood cells",
+    "Macrophages containing hemosiderin granules"
+   ],
+   "answer": 0,
+   "why": "Blood picked up by the needle on entry is greatest in the first tube and clears in later tubes, and it may clot because it carries plasma fibrinogen. Blood from a hemorrhage is evenly mixed in the CSF, so **a decreasing amount of blood from tube 1 to tube 3** points to a traumatic tap.",
+   "whyNot": {
+    "1": "Xanthochromia reflects red cell breakdown products that take hours to form, which favors a hemorrhage present before the tap.",
+    "2": "Erythrophagocytosis shows the red cells were in the CSF long enough to be ingested, favoring hemorrhage.",
+    "3": "Hemosiderin-laden macrophages (siderophages) indicate an older bleed, not needle trauma."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid."
+  },
+  {
+   "id": "CM-0017",
+   "tos": "CM-D.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A 2.5-mL semen specimen is diluted 1:20 and loaded on both sides of an improved Neubauer hemocytometer. Counting the five RBC-counting squares in the central large square gives 58 sperm on one side and 62 on the other. What is the total sperm count per ejaculate?",
+   "options": [
+    "60 million",
+    "300 million",
+    "24 million",
+    "150 million"
+   ],
+   "answer": 3,
+   "why": "The five RBC squares hold 5 × 0.004 µL = 0.02 µL, so with a 1:20 dilution the average count multiplied by 1,000,000 gives sperm per mL: 60 × 10^6/mL. **Total count = concentration × volume** = 60 million/mL × 2.5 mL = 150 million per ejaculate.",
+   "whyNot": {
+    "0": "This is the concentration per mL; the question asks for the total in the whole ejaculate.",
+    "1": "This uses the sum of both sides (120) instead of their average before multiplying by volume.",
+    "2": "This divides the concentration by the volume instead of multiplying."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Semen (sperm concentration and count).",
+   "worked": {
+    "problem": "A 3.2-mL semen specimen is diluted 1:20. Counts in the five RBC-counting squares are 41 and 45 on the two sides. Find the sperm concentration and the total sperm count.",
+    "steps": [
+     "Average the two sides: (41 + 45) ÷ 2 = 43 sperm.",
+     "Volume counted: each small RBC square is 0.2 mm × 0.2 mm × 0.1 mm = 0.004 µL, so five squares = 0.02 µL.",
+     "Sperm per µL = 43 × 20 (dilution) ÷ 0.02 µL = 43,000/µL = 43 × 10^6/mL (shortcut: count × 1,000,000 for this dilution and area).",
+     "Total count = 43 × 10^6/mL × 3.2 mL = 137.6 × 10^6."
+    ],
+    "result": "Concentration 43 million/mL; total about 138 million per ejaculate"
+   }
+  },
+  {
+   "id": "CM-0018",
+   "tos": "CM-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A semen specimen tests negative for fructose with the resorcinol screening test. This points to a problem with which structure?",
+   "options": [
+    "Prostate gland",
+    "Bulbourethral glands",
+    "Seminal vesicles",
+    "Epididymis"
+   ],
+   "answer": 2,
+   "why": "The seminal vesicles contribute most of the semen volume and supply fructose as the energy source for sperm motility. **Low or absent fructose** suggests absent or obstructed seminal vesicles or ejaculatory ducts.",
+   "whyNot": {
+    "0": "The prostate contributes acid phosphatase, citric acid, zinc and proteolytic enzymes, not fructose.",
+    "1": "The bulbourethral glands secrete a small amount of thick alkaline mucus.",
+    "3": "The epididymis is where sperm mature and gain motility; it is not the fructose source."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Semen."
+  },
+  {
+   "id": "CM-0019",
+   "tos": "CM-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which amniotic fluid result best indicates that the fetal lungs are mature?",
+   "options": [
+    "Lecithin/sphingomyelin ratio of 1.4",
+    "Lamellar body count of 12,000/µL",
+    "Lecithin/sphingomyelin ratio of 2.3 with phosphatidylglycerol present",
+    "A ΔA450 value plotting in Liley zone I"
+   ],
+   "answer": 2,
+   "why": "As the fetal lungs mature, lecithin rises well above sphingomyelin, and an **L/S ratio of 2.0 or higher with phosphatidylglycerol present** indicates maturity. Phosphatidylglycerol appears late and adds confidence that respiratory distress is unlikely.",
+   "whyNot": {
+    "0": "An L/S ratio below 2.0 suggests the lungs are not yet mature.",
+    "1": "A lamellar body count below about 15,000/µL indicates immaturity; values above about 50,000/µL indicate maturity.",
+    "3": "ΔA450 measures bilirubin to assess hemolytic disease of the fetus and newborn, not lung maturity."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Amniotic Fluid."
+  },
+  {
+   "id": "CM-0020",
+   "tos": "CM-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Synovial fluid contains needle-shaped crystals inside neutrophils. With a red compensator, the crystals appear yellow when their long axis is parallel to the slow vibration direction and blue when perpendicular to it. Which condition is indicated?",
+   "options": [
+    "Pseudogout",
+    "Gout",
+    "Chronic inflammation with cholesterol crystals",
+    "Basic calcium phosphate (apatite) arthropathy"
+   ],
+   "answer": 1,
+   "why": "Yellow when aligned parallel to the slow ray means negative birefringence. **Needle-shaped, negatively birefringent crystals** are monosodium urate, the crystal of gout.",
+   "whyNot": {
+    "0": "Pseudogout is caused by calcium pyrophosphate crystals, which are rhomboid or rod-shaped and positively birefringent (blue when parallel).",
+    "2": "Cholesterol crystals are flat plates with notched corners, not needles.",
+    "3": "Apatite crystals are very small, are not birefringent, and need special stains or electron microscopy to identify."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Synovial Fluid."
+  },
+  {
+   "id": "CM-0021",
+   "tos": "CM-G.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A pleural fluid has a fluid:serum protein ratio of 0.7 and a fluid:serum LDH ratio of 0.8. Which condition is most consistent with these results?",
+   "options": [
+    "Bacterial pneumonia",
+    "Congestive heart failure",
+    "Hepatic cirrhosis",
+    "Nephrotic syndrome"
+   ],
+   "answer": 0,
+   "why": "A protein ratio above 0.5 and an LDH ratio above 0.6 classify the fluid as an exudate, which forms when the pleura itself is inflamed or damaged. **Infection such as bacterial pneumonia** produces an exudate.",
+   "whyNot": {
+    "1": "Congestive heart failure raises hydrostatic pressure and produces a transudate with low ratios.",
+    "2": "Cirrhosis lowers plasma protein and oncotic pressure, producing a transudate.",
+    "3": "Nephrotic syndrome causes protein loss and low oncotic pressure, producing a transudate."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Serous Fluid."
+  },
+  {
+   "id": "CM-0022",
+   "tos": "CM-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine specimen containing bacteria is left unpreserved at room temperature for several hours. Which change is expected?",
+   "options": [
+    "Increased glucose",
+    "Increased pH",
+    "Increased bilirubin",
+    "Increased urobilinogen"
+   ],
+   "answer": 1,
+   "why": "Bacteria that split urea produce ammonia as they multiply, so **the pH rises** in an unpreserved specimen. This is why urine should be tested within 2 hours or refrigerated.",
+   "whyNot": {
+    "0": "Glucose decreases as cells and bacteria use it through glycolysis.",
+    "2": "Bilirubin decreases because light oxidizes it to biliverdin.",
+    "3": "Urobilinogen decreases because it oxidizes to urobilin."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (specimen integrity and preservation)."
+  },
+  {
+   "id": "CM-0023",
+   "tos": "CM-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A young adult with intermittent proteinuria is tested for orthostatic (postural) proteinuria. The bladder is emptied at bedtime, a specimen is collected right after rising, and a second specimen is collected after a few hours of standing and walking. Which pattern confirms orthostatic proteinuria?",
+   "options": [
+    "First specimen positive, second specimen negative",
+    "Both specimens positive",
+    "First specimen negative, second specimen positive",
+    "Both specimens negative"
+   ],
+   "answer": 2,
+   "why": "In orthostatic proteinuria, protein is excreted only while the person is upright, possibly from increased pressure on the renal vein in the upright position. So **the first-morning specimen is negative and the upright specimen is positive**.",
+   "whyNot": {
+    "0": "This is the reverse of the expected pattern; lying down does not cause the protein loss.",
+    "1": "Protein in both specimens suggests persistent proteinuria, which needs further renal evaluation.",
+    "3": "Negative results on both specimens do not confirm postural proteinuria."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Introduction to Urinalysis (specimen types) and Chemical Examination of Urine (protein)."
+  },
+  {
+   "id": "CM-0024",
+   "tos": "CM-J.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which practice is correct for reagent strip quality control and handling?",
+   "options": [
+    "Use distilled water as the negative control",
+    "Refrigerate opened strip containers to prolong reagent stability",
+    "Leave the strip in the urine for about 30 seconds so every pad is fully saturated",
+    "Test commercial positive and negative controls at least once every 24 hours and when a new bottle is opened"
+   ],
+   "answer": 3,
+   "why": "Strip QC requires **known positive and negative controls at least every 24 hours** and whenever a new bottle is opened, a result is questionable, or a technical problem is suspected. Strips are kept tightly capped with desiccant at room temperature, and the dip is brief.",
+   "whyNot": {
+    "0": "Distilled water is not recommended as a negative control because the pads are designed to react at ionic concentrations similar to urine.",
+    "1": "Strips are stored at room temperature (below 30 °C); refrigeration invites moisture condensation that deteriorates the pads.",
+    "2": "Prolonged immersion leaches reagents out of the pads; the strip should be dipped briefly and the excess removed."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapters on Quality Assessment and Management and Chemical Examination of Urine (reagent strip care)."
+  }
+ ]
+}

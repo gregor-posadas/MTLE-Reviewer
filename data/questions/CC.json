@@ -1,0 +1,733 @@
+{
+ "subject": "CC",
+ "author": "Original (Claude draft, pending review)",
+ "items": [
+  {
+   "id": "CC-0001",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A physician requests a plasma ammonia level on a patient with suspected hepatic encephalopathy. Which handling step is most important after the blood is drawn into a heparin or EDTA tube?",
+   "options": [
+    "Wrap the tube in foil to protect it from light",
+    "Store the whole blood at room temperature for up to 24 hours",
+    "Keep the tube at 37 °C until the plasma is separated",
+    "Place the tube in an ice-water slurry and analyze it promptly"
+   ],
+   "answer": 3,
+   "why": "Ammonia continues to form in a blood sample after collection because of deamination of amino acids and red cell metabolism, so delays at room temperature falsely raise the result. **The specimen should be chilled on ice and the plasma separated and tested quickly.** Hemolysis and patient smoking before collection should also be avoided because both raise ammonia.",
+   "whyNot": {
+    "2": "Keeping a sample at 37 °C is used for cold agglutinin and cryoglobulin testing; for ammonia, warmth speeds in vitro ammonia generation.",
+    "0": "Light protection is the key handling step for bilirubin, not ammonia, which is not photolabile.",
+    "1": "Standing at room temperature allows ammonia to rise steadily, so a 24-hour delay would produce a falsely high result."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds (ammonia); Tietz Fundamentals 9e, specimen collection"
+  },
+  {
+   "id": "CC-0002",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The potassium ion-selective electrode on most chemistry and blood gas analyzers achieves its selectivity for K⁺ through which membrane?",
+   "options": [
+    "Gas-permeable membrane covering a pH electrode",
+    "Aluminosilicate glass membrane",
+    "Nonactin incorporated in a liquid polymer membrane",
+    "Valinomycin incorporated in a liquid polymer membrane"
+   ],
+   "answer": 3,
+   "why": "Valinomycin is a neutral ionophore whose ring-shaped structure binds potassium far more strongly than sodium. **Embedding valinomycin in a polymer (PVC) membrane makes the electrode potential respond selectively to K⁺ activity.** The potential is measured against a reference electrode and related to concentration through the Nernst equation.",
+   "whyNot": {
+    "1": "Aluminosilicate glass formulations are used for the sodium electrode, not the potassium electrode.",
+    "2": "Nonactin (often with monactin) is the ionophore used for ammonium-selective electrodes.",
+    "0": "A gas-permeable membrane over a pH electrode is the Severinghaus design used for pCO₂, not for potassium."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (electrochemistry); Tietz Fundamentals 9e, electrochemistry"
+  },
+  {
+   "id": "CC-0003",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An immunoassay for serum IgG measures the light scattered at an angle away from the incident beam by antigen–antibody complexes. This detection principle is called:",
+   "options": [
+    "Turbidimetry",
+    "Nephelometry",
+    "Fluorometry",
+    "Reflectance photometry"
+   ],
+   "answer": 1,
+   "why": "Nephelometry places the detector at an angle to the light path and measures light scattered by particles such as immune complexes. **The scattered light increases with the amount of complex formed**, which makes the method sensitive for specific proteins such as immunoglobulins and complement.",
+   "whyNot": {
+    "0": "Turbidimetry measures the decrease in light transmitted straight through the cuvette, with the detector in line with the beam.",
+    "2": "Fluorometry measures light emitted at a longer wavelength after a molecule absorbs excitation light, not scattered light of the same wavelength.",
+    "3": "Reflectance photometry measures light reflected from a solid surface, as used in dry-slide chemistry and urine strip readers."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (light scattering); Tietz Fundamentals 9e, optical techniques"
+  },
+  {
+   "id": "CC-0004",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A standard containing 100 mg/dL of an analyte gives an absorbance of 0.250. A patient serum is diluted by mixing 1 volume of serum with 1 volume of saline, then processed exactly like the standard, giving an absorbance of 0.400. Assuming Beer's law holds, what is the analyte concentration in the original (undiluted) serum?",
+   "options": [
+    "80 mg/dL",
+    "160 mg/dL",
+    "320 mg/dL",
+    "125 mg/dL"
+   ],
+   "answer": 2,
+   "why": "Under Beer's law, concentration is proportional to absorbance: C(unknown) = (A unknown ÷ A standard) × C standard = (0.400 ÷ 0.250) × 100 = 160 mg/dL in the diluted sample. Mixing 1 volume of serum with 1 volume of saline gives a total of 2 volumes, a dilution factor of 2. **The original serum therefore contains 160 × 2 = 320 mg/dL.**",
+   "whyNot": {
+    "1": "160 mg/dL is the concentration of the diluted sample; the dilution factor was not applied.",
+    "0": "80 mg/dL comes from dividing by the dilution factor instead of multiplying by it.",
+    "3": "125 mg/dL comes from inverting the absorbance ratio (0.250 ÷ 0.400) before applying the dilution factor."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (laboratory mathematics) and analytic techniques (spectrophotometry)",
+   "worked": {
+    "problem": "A 5.0 mmol/L standard has an absorbance of 0.500. A sample is diluted by mixing 1 volume of sample with 4 volumes of diluent and gives an absorbance of 0.300. What is the concentration in the undiluted sample?",
+    "steps": [
+     "Concentration in the diluted sample = (0.300 ÷ 0.500) × 5.0 mmol/L = 3.0 mmol/L.",
+     "Dilution factor = total volume ÷ sample volume = (1 + 4) ÷ 1 = 5.",
+     "Undiluted concentration = 3.0 mmol/L × 5 = 15.0 mmol/L."
+    ],
+    "result": "15.0 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0005",
+   "tos": "CC-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A medical technologist must prepare a dilute sulfuric acid reagent from the concentrated acid. Which procedure is correct?",
+   "options": [
+    "Add the acid slowly to the water while stirring",
+    "Pour the acid and water in together, then swirl",
+    "Warm the water first so that the acid mixes faster",
+    "Add the water slowly to the acid while stirring"
+   ],
+   "answer": 0,
+   "why": "Mixing concentrated sulfuric acid with water releases a large amount of heat. **Adding acid slowly into a larger volume of water lets the water absorb the heat**, preventing boiling and spattering of corrosive acid. The work should be done with eye protection and, ideally, in a fume hood.",
+   "whyNot": {
+    "3": "Adding water to concentrated acid can make the small volume of water boil instantly and spray acid out of the container.",
+    "1": "Combining both at once gives no control over heat release; the order and rate of addition matter for safety.",
+    "2": "Pre-warming the water adds even more heat to an already exothermic process and increases the risk of boiling and spattering."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (reagent preparation) and laboratory safety"
+  },
+  {
+   "id": "CC-0006",
+   "tos": "CC-B.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "Twenty days of data for a glucose control give a mean of 150 mg/dL and a standard deviation of 4.5 mg/dL. Which choice gives the coefficient of variation (CV) and the ±2 SD acceptable range?",
+   "options": [
+    "CV 33.3%; range 141.0–159.0 mg/dL",
+    "CV 3.0%; range 145.5–154.5 mg/dL",
+    "CV 3.0%; range 136.5–163.5 mg/dL",
+    "CV 3.0%; range 141.0–159.0 mg/dL"
+   ],
+   "answer": 3,
+   "why": "CV = (SD ÷ mean) × 100 = (4.5 ÷ 150) × 100 = 3.0%. Two SD = 2 × 4.5 = 9.0 mg/dL, so the limits are 150 − 9.0 = 141.0 and 150 + 9.0 = 159.0 mg/dL. **CV 3.0% with ±2 SD limits of 141.0–159.0 mg/dL** is correct.",
+   "whyNot": {
+    "1": "145.5–154.5 mg/dL is the ±1 SD range (150 ± 4.5), not ±2 SD.",
+    "2": "136.5–163.5 mg/dL is the ±3 SD range (150 ± 13.5), not ±2 SD.",
+    "0": "33.3 is mean ÷ SD; the CV is SD divided by the mean, multiplied by 100."
+   },
+   "ref": "Bishop 9e, ch. on quality control and statistics; Westgard, Basic QC Practices",
+   "worked": {
+    "problem": "A control for an enzyme has a mean of 80 U/L and an SD of 3.2 U/L. Find the CV and the ±2 SD limits.",
+    "steps": [
+     "CV = (3.2 ÷ 80) × 100 = 4.0%.",
+     "2 SD = 2 × 3.2 = 6.4 U/L.",
+     "Limits = 80 − 6.4 to 80 + 6.4 = 73.6 to 86.4 U/L."
+    ],
+    "result": "CV 4.0%; ±2 SD range 73.6–86.4 U/L"
+   }
+  },
+  {
+   "id": "CC-0007",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two levels of control are run together for a sodium assay. Level 1 falls at +2.3 SD and level 2 falls at +2.6 SD from their respective means; neither exceeds 3 SD. Under Westgard multirule QC, how should this run be interpreted?",
+   "options": [
+    "1₂s warning only; the run may be accepted",
+    "R₄s rule violation, suggesting random error",
+    "2₂s rule violation, suggesting systematic error",
+    "1₃s rule violation, suggesting random error"
+   ],
+   "answer": 2,
+   "why": "The 2₂s rule is violated when two consecutive control observations exceed the same 2 SD limit on the same side of the mean, either across two levels in one run or for one level across two runs. **Both controls being beyond +2 SD points to a systematic error** such as a calibration or reagent problem, so the run is rejected.",
+   "whyNot": {
+    "1": "R₄s requires one control above +2 SD and another below −2 SD in the same run, a spread of at least 4 SD; here both are on the positive side.",
+    "3": "1₃s requires a single control beyond 3 SD, and neither value exceeds 3 SD.",
+    "0": "The 1₂s warning prompts checking the other rules; because 2₂s is violated, the run must be rejected, not accepted."
+   },
+   "ref": "Bishop 9e, ch. on quality control; Westgard JO et al., Clin Chem 1981 (multirule QC)"
+  },
+  {
+   "id": "CC-0008",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On a Levey–Jennings chart, the values for one control level move steadily in the same direction away from the mean over seven consecutive days. Which cause is most consistent with this pattern?",
+   "options": [
+    "Recalibration with a new calibrator lot",
+    "Gradual deterioration of the photometer lamp",
+    "Changing to a new reagent lot on day one",
+    "A single air bubble in the sample probe"
+   ],
+   "answer": 1,
+   "why": "A gradual, progressive movement in one direction is a trend. **Trends usually come from something that deteriorates slowly**, such as an aging light source, slowly deteriorating reagents or controls, or a gradual build-up on instrument parts.",
+   "whyNot": {
+    "2": "A new reagent lot typically causes a shift, an abrupt change in the mean that then stays at the new level.",
+    "3": "A one-time bubble produces a single outlying value, which is random error, not a steady drift.",
+    "0": "Recalibration with a new calibrator lot causes an abrupt shift in level rather than a gradual trend."
+   },
+   "ref": "Bishop 9e, ch. on quality control (Levey–Jennings shifts and trends)"
+  },
+  {
+   "id": "CC-0009",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "On an NFPA 704 hazard diamond posted on a chemical storage cabinet, what does the blue quadrant indicate?",
+   "options": [
+    "Health hazard",
+    "Special hazards",
+    "Instability or reactivity hazard",
+    "Flammability hazard"
+   ],
+   "answer": 0,
+   "why": "The NFPA 704 diamond rates hazards from 0 (minimal) to 4 (severe) in four colored quadrants. **Blue is health hazard**, red is flammability, yellow is instability or reactivity, and the white bottom quadrant holds special symbols such as W with a line through it for water-reactive.",
+   "whyNot": {
+    "3": "Flammability is shown in the red (top) quadrant.",
+    "2": "Instability or reactivity is shown in the yellow (right) quadrant.",
+    "1": "Special hazards, such as oxidizer or water-reactive, are shown in the white (bottom) quadrant."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety (hazard communication, NFPA 704)"
+  },
+  {
+   "id": "CC-0010",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A small fire starts in the energized power supply of a chemistry analyzer. Which extinguisher is appropriate to use?",
+   "options": [
+    "Dry powder (Class D) extinguisher",
+    "Pressurized water extinguisher",
+    "Carbon dioxide extinguisher",
+    "Wet chemical (Class K) extinguisher"
+   ],
+   "answer": 2,
+   "why": "A fire in energized electrical equipment is a Class C fire. **Carbon dioxide (or an ABC/BC dry chemical) does not conduct electricity** and leaves no residue on equipment, so it is suitable. When it is safe, the power should also be shut off.",
+   "whyNot": {
+    "1": "Water conducts electricity and can electrocute the user when sprayed on energized equipment.",
+    "3": "Class K wet chemical agents are designed for cooking oil and grease fires, and their water-based agent is not meant for live electrical equipment.",
+    "0": "Class D dry powder agents are designed for combustible metals such as sodium or magnesium, not electrical fires."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety (fire safety); NFPA 10"
+  },
+  {
+   "id": "CC-0011",
+   "tos": "CC-C.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient has serum Na⁺ 138 mmol/L, glucose 108 mg/dL, BUN 28 mg/dL, and a measured osmolality of 318 mOsm/kg. Using calculated osmolality = 2[Na⁺] + glucose/18 + BUN/2.8, what is the osmolal gap?",
+   "options": [
+    "164 mOsm/kg",
+    "26 mOsm/kg",
+    "42 mOsm/kg",
+    "2 mOsm/kg"
+   ],
+   "answer": 1,
+   "why": "Calculated osmolality = 2(138) + 108/18 + 28/2.8 = 276 + 6 + 10 = 292 mOsm/kg. Osmolal gap = measured − calculated = 318 − 292 = 26 mOsm/kg. **A gap this large (well above about 10) suggests unmeasured osmotically active substances** such as ethanol, methanol, or ethylene glycol.",
+   "whyNot": {
+    "2": "42 mOsm/kg comes from subtracting only 2[Na⁺] (276) and leaving out the glucose and BUN terms.",
+    "0": "164 mOsm/kg comes from forgetting to double the sodium, which accounts for its accompanying anions.",
+    "3": "2 mOsm/kg comes from swapping the divisors (glucose/2.8 and BUN/18), which greatly overstates the glucose contribution."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (osmolality); Tietz Fundamentals 9e, electrolytes and blood gases",
+   "worked": {
+    "problem": "Serum Na⁺ 142 mmol/L, glucose 180 mg/dL, BUN 14 mg/dL, and measured osmolality 305 mOsm/kg. Find the osmolal gap using the same formula.",
+    "steps": [
+     "2[Na⁺] = 2 × 142 = 284.",
+     "Glucose/18 = 180/18 = 10; BUN/2.8 = 14/2.8 = 5.",
+     "Calculated osmolality = 284 + 10 + 5 = 299 mOsm/kg.",
+     "Osmolal gap = 305 − 299 = 6 mOsm/kg."
+    ],
+    "result": "6 mOsm/kg, which is within the usual expected gap (under about 10)"
+   }
+  },
+  {
+   "id": "CC-0012",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A grossly lipemic serum (triglycerides about 3,500 mg/dL) gives sodium 124 mmol/L on a chemistry analyzer that uses an indirect ion-selective electrode. Sodium measured on the same patient's whole blood with a direct ion-selective electrode on a blood gas analyzer is 139 mmol/L. What best explains the difference?",
+   "options": [
+    "Lipid displaces plasma water, and the prediluted indirect method assumes a normal water fraction",
+    "Lipid draws water into plasma osmotically, so the low indirect result reflects true dilution",
+    "Lipid particles scatter light and interfere with the signal of the indirect electrode",
+    "The direct electrode is falsely high because it also measures sodium inside red cells"
+   ],
+   "answer": 0,
+   "why": "Sodium is dissolved only in plasma water. Indirect ISEs dilute a fixed plasma volume before measurement and assume plasma is about 93% water. **When lipid occupies a large fraction of the plasma volume, each measured volume contains less water and less sodium, so the indirect result is falsely low** (pseudohyponatremia, the electrolyte exclusion effect). Direct ISEs measure sodium activity in undiluted plasma water and are not affected.",
+   "whyNot": {
+    "2": "Ion-selective electrodes are potentiometric, not optical, so light scattering by lipid does not affect them.",
+    "1": "Lipid adds very few osmoles and does not pull water into plasma; a true dilutional hyponatremia would also show up on the direct electrode.",
+    "3": "A direct ISE responds to sodium activity in the plasma water around the cells, not to intracellular sodium, which is low anyway."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (sodium, pseudohyponatremia); Tietz Fundamentals 9e, electrolytes"
+  },
+  {
+   "id": "CC-0013",
+   "tos": "CC-C.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A 24-hour urine collection measures 1,440 mL. Urine creatinine is 120 mg/dL and serum creatinine is 1.2 mg/dL. The patient's body surface area is 1.50 m². What is the creatinine clearance corrected to 1.73 m²?",
+   "options": [
+    "100 mL/min/1.73 m²",
+    "87 mL/min/1.73 m²",
+    "166 mL/min/1.73 m²",
+    "115 mL/min/1.73 m²"
+   ],
+   "answer": 3,
+   "why": "Urine flow V = 1,440 mL ÷ 1,440 min = 1.0 mL/min. Clearance = (U × V) ÷ P = (120 × 1.0) ÷ 1.2 = 100 mL/min. **Corrected clearance = 100 × (1.73 ÷ 1.50) = 115 mL/min/1.73 m².**",
+   "whyNot": {
+    "0": "100 mL/min is the uncorrected clearance; the body surface area correction was not applied.",
+    "1": "87 mL/min comes from inverting the correction factor (multiplying by 1.50 ÷ 1.73).",
+    "2": "166 mL/min comes from using (U × P) ÷ V instead of (U × V) ÷ P, then correcting for body surface area."
+   },
+   "ref": "Bishop 9e, ch. on renal function (creatinine clearance)",
+   "worked": {
+    "problem": "A 24-hour urine volume is 1,800 mL, urine creatinine 90 mg/dL, serum creatinine 1.5 mg/dL, and BSA 1.90 m². Find the corrected creatinine clearance.",
+    "steps": [
+     "V = 1,800 mL ÷ 1,440 min = 1.25 mL/min.",
+     "Uncorrected clearance = (90 × 1.25) ÷ 1.5 = 75 mL/min.",
+     "Corrected clearance = 75 × (1.73 ÷ 1.90) = 68.3 mL/min/1.73 m²."
+    ],
+    "result": "About 68 mL/min/1.73 m²"
+   }
+  },
+  {
+   "id": "CC-0014",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient in diabetic ketoacidosis has a serum creatinine that is higher by the Jaffe (alkaline picrate) method than by an enzymatic method. Which compound is the most likely cause of the positive interference?",
+   "options": [
+    "Acetoacetate",
+    "Urea",
+    "β-Hydroxybutyrate",
+    "Bilirubin"
+   ],
+   "answer": 0,
+   "why": "Many non-creatinine compounds also react with alkaline picrate to form colored products. **Acetoacetate is a well-known positive interferent**, so creatinine is overestimated by the Jaffe method in ketoacidosis. Enzymatic creatinine methods are far less affected.",
+   "whyNot": {
+    "2": "β-Hydroxybutyrate is not a true ketone and does not react with alkaline picrate, so it does not raise Jaffe creatinine.",
+    "3": "Bilirubin causes negative, not positive, interference in the Jaffe reaction.",
+    "1": "Urea does not form a chromogen with alkaline picrate and does not interfere with the Jaffe method."
+   },
+   "ref": "Bishop 9e, ch. on nonprotein nitrogen compounds (creatinine methods); Tietz Fundamentals 9e, kidney function tests"
+  },
+  {
+   "id": "CC-0015",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In the o-cresolphthalein complexone (OCPC) method for total serum calcium, 8-hydroxyquinoline is added to the reagent. What is its purpose?",
+   "options": [
+    "Act as the chromogen that forms the colored complex",
+    "Release only ionized calcium for the dye to measure",
+    "Provide the alkaline pH needed for color formation",
+    "Bind magnesium so it does not react with the dye"
+   ],
+   "answer": 3,
+   "why": "OCPC forms a red-purple complex with calcium in alkaline solution, but it also reacts with magnesium. **8-Hydroxyquinoline preferentially binds magnesium and removes this interference.** Acid in the reagent releases protein-bound calcium, so the method measures total calcium.",
+   "whyNot": {
+    "2": "The alkaline pH is provided by a buffer such as 2-amino-2-methyl-1-propanol or diethylamine, not by 8-hydroxyquinoline.",
+    "1": "The OCPC method measures total calcium; ionized calcium is measured with an ion-selective electrode.",
+    "0": "o-Cresolphthalein complexone itself is the chromogen; 8-hydroxyquinoline only masks magnesium."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes/minerals (calcium methods); Tietz Fundamentals 9e, minerals and bone"
+  },
+  {
+   "id": "CC-0016",
+   "tos": "CC-C.3",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A fasting plasma glucose is reported as 7.4 mmol/L. What is the equivalent value in mg/dL? (Molecular weight of glucose = 180 g/mol.)",
+   "options": [
+    "1,332 mg/dL",
+    "133 mg/dL",
+    "13.3 mg/dL",
+    "0.41 mg/dL"
+   ],
+   "answer": 1,
+   "why": "7.4 mmol/L × 180 mg/mmol = 1,332 mg/L. Because 1 L = 10 dL, divide by 10: 1,332 mg/L = 133 mg/dL. **The shortcut is mmol/L × 18 = mg/dL for glucose.**",
+   "whyNot": {
+    "0": "1,332 is the value in mg/L; the conversion from liters to deciliters (÷10) was skipped.",
+    "2": "13.3 comes from dividing mg/L by 100 instead of 10 when converting to mg/dL.",
+    "3": "0.41 comes from dividing by 18 (the mg/dL → mmol/L direction) instead of multiplying."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates and basic principles (SI unit conversion)",
+   "worked": {
+    "problem": "Convert a random plasma glucose of 250 mg/dL to mmol/L.",
+    "steps": [
+     "250 mg/dL × 10 dL/L = 2,500 mg/L.",
+     "2,500 mg/L ÷ 180 mg/mmol = 13.9 mmol/L.",
+     "Equivalent shortcut: 250 ÷ 18 = 13.9 mmol/L."
+    ],
+    "result": "13.9 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0017",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with diabetes has consistently high glucose readings, yet the HbA1c is lower than expected for that level of glycemia. Which coexisting condition best explains a falsely low HbA1c?",
+   "options": [
+    "Asplenia following splenectomy",
+    "Hemolytic anemia with shortened red cell survival",
+    "Not fasting before the blood draw",
+    "Iron-deficiency anemia"
+   ],
+   "answer": 1,
+   "why": "HbA1c forms slowly and continuously over the roughly 120-day life of the red cell, so it reflects average glucose over the previous 2–3 months. **When red cells are destroyed early, the circulating cells are younger and have had less time to become glycated**, so HbA1c is falsely low regardless of the true glucose level.",
+   "whyNot": {
+    "3": "Iron deficiency tends to increase the average age of circulating red cells and is associated with falsely higher, not lower, HbA1c.",
+    "0": "Without a spleen, red cells survive longer and accumulate more glycation, which would raise HbA1c.",
+    "2": "HbA1c reflects months of glycemia and does not require fasting, so a recent meal does not lower it."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glycated hemoglobin); ADA Standards of Care, glycemic assessment"
+  },
+  {
+   "id": "CC-0018",
+   "tos": "CC-C.4",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A fasting lipid profile shows total cholesterol 240 mg/dL, HDL cholesterol 40 mg/dL, and triglycerides 250 mg/dL. What is the LDL cholesterol estimated by the Friedewald equation?",
+   "options": [
+    "86 mg/dL",
+    "200 mg/dL",
+    "190 mg/dL",
+    "150 mg/dL"
+   ],
+   "answer": 3,
+   "why": "In mg/dL, Friedewald LDL-C = total cholesterol − HDL-C − (TG ÷ 5), where TG ÷ 5 estimates VLDL cholesterol. LDL-C = 240 − 40 − (250 ÷ 5) = 240 − 40 − 50 = 150 mg/dL. **The equation is valid only for fasting samples with triglycerides up to 400 mg/dL.**",
+   "whyNot": {
+    "1": "200 mg/dL is total cholesterol minus HDL (non-HDL cholesterol); the VLDL term was left out.",
+    "2": "190 mg/dL comes from subtracting only the VLDL term and forgetting to subtract HDL cholesterol.",
+    "0": "86 mg/dL comes from using TG ÷ 2.2, the factor for mmol/L units, on values given in mg/dL."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins; Friedewald WT et al., Clin Chem 1972",
+   "worked": {
+    "problem": "In SI units: total cholesterol 5.2 mmol/L, HDL-C 1.3 mmol/L, triglycerides 1.8 mmol/L. Estimate LDL-C.",
+    "steps": [
+     "In mmol/L, VLDL-C is estimated as TG ÷ 2.2 = 1.8 ÷ 2.2 = 0.82 mmol/L.",
+     "LDL-C = 5.2 − 1.3 − 0.82 = 3.08 mmol/L.",
+     "Check validity: TG 1.8 mmol/L is below the 4.5 mmol/L limit."
+    ],
+    "result": "About 3.1 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0019",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "After a serum sample stands overnight in the refrigerator, a creamy layer forms on top over a clear lower layer. Which lipoprotein causes the creamy layer?",
+   "options": [
+    "LDL",
+    "HDL",
+    "VLDL",
+    "Chylomicrons"
+   ],
+   "answer": 3,
+   "why": "Chylomicrons are the largest, least dense lipoproteins and are made mostly of dietary triglyceride. **Their low density makes them float and form a creamy top layer on standing**, and they stay at the origin on lipoprotein electrophoresis.",
+   "whyNot": {
+    "2": "VLDL causes a diffuse turbidity throughout the sample rather than a floating creamy layer.",
+    "0": "LDL particles are small enough that LDL-rich serum stays clear.",
+    "1": "HDL particles are the smallest and densest lipoproteins and do not make serum cloudy."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (standing plasma test)"
+  },
+  {
+   "id": "CC-0020",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A serum protein electrophoresis shows markedly decreased albumin, a strikingly increased α2-globulin band, and decreased γ-globulins. Which condition best fits this pattern?",
+   "options": [
+    "α1-Antitrypsin deficiency",
+    "Multiple myeloma",
+    "Nephrotic syndrome",
+    "Hepatic cirrhosis"
+   ],
+   "answer": 2,
+   "why": "In nephrotic syndrome, smaller proteins such as albumin and IgG are lost in the urine. **The large α2-macroglobulin is retained and its synthesis increases**, so the α2 band becomes prominent while albumin and γ-globulins fall.",
+   "whyNot": {
+    "3": "Cirrhosis typically shows low albumin with a broad polyclonal increase in γ-globulins and β–γ bridging, not low γ.",
+    "1": "Multiple myeloma typically shows a narrow monoclonal (M) spike, usually in the γ or β region.",
+    "0": "α1-Antitrypsin deficiency shows a faint or absent α1 band, not a large α2 band with low albumin."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (electrophoresis patterns)"
+  },
+  {
+   "id": "CC-0021",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The biuret method for serum total protein is based on which reaction?",
+   "options": [
+    "Bromcresol green binding to protein and shifting its absorbance",
+    "Cupric ions forming a violet complex with peptide bonds in alkaline solution",
+    "A change in the refractive index of serum as protein increases",
+    "Absorbance by aromatic amino acids in protein at 280 nm"
+   ],
+   "answer": 1,
+   "why": "In alkaline solution, Cu²⁺ forms a violet complex with the nitrogen atoms of peptide bonds; at least two peptide bonds are required. **Color intensity is proportional to the number of peptide bonds**, which makes biuret a robust routine method for total protein.",
+   "whyNot": {
+    "0": "Bromcresol green dye binding is a method for albumin, not total protein.",
+    "3": "Ultraviolet absorbance at 280 nm by tyrosine and tryptophan is a different total protein method, not the biuret reaction.",
+    "2": "Refractometry estimates total protein from refractive index; it is a physical method, not the biuret reaction."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (total protein methods)"
+  },
+  {
+   "id": "CC-0022",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In the Jendrassik–Grof method for total bilirubin, what is the role of caffeine–sodium benzoate?",
+   "options": [
+    "Destroys excess diazo reagent to stop the coupling reaction",
+    "Precipitates serum proteins that would otherwise cause turbidity",
+    "Converts azobilirubin to a blue form that is read near 600 nm",
+    "Accelerates the reaction of unconjugated bilirubin with diazotized sulfanilic acid"
+   ],
+   "answer": 3,
+   "why": "Unconjugated bilirubin is bound to albumin and reacts only slowly with the diazo reagent. **Caffeine–sodium benzoate acts as an accelerator, releasing unconjugated bilirubin so it couples rapidly**, which allows total bilirubin to be measured.",
+   "whyNot": {
+    "0": "Excess diazo reagent is destroyed by ascorbic acid, not by caffeine–sodium benzoate.",
+    "2": "The shift to blue azobilirubin is produced by alkaline tartrate added at the end of the reaction.",
+    "1": "The method is performed without protein precipitation; caffeine–sodium benzoate does not precipitate proteins."
+   },
+   "ref": "Bishop 9e, ch. on liver function (bilirubin methods); Tietz Fundamentals 9e, liver function"
+  },
+  {
+   "id": "CC-0023",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A jaundiced patient has total bilirubin 8.5 mg/dL, mostly conjugated; ALP four times the upper reference limit; markedly increased GGT; mildly increased ALT and AST; positive urine bilirubin; decreased urine urobilinogen; and pale stools. Which condition is most likely?",
+   "options": [
+    "Extrahepatic biliary obstruction",
+    "Gilbert syndrome",
+    "Acute viral hepatitis",
+    "Hemolytic (prehepatic) jaundice"
+   ],
+   "answer": 0,
+   "why": "When bile flow is blocked, conjugated bilirubin backs up into the blood and spills into the urine. **Little bilirubin reaches the gut, so stool is pale and urine urobilinogen falls**, while ALP and GGT rise sharply from biliary tract injury.",
+   "whyNot": {
+    "3": "Hemolytic jaundice increases unconjugated bilirubin, which does not appear in urine, and increases urine urobilinogen.",
+    "1": "Gilbert syndrome causes a mild, unconjugated hyperbilirubinemia with normal liver enzymes.",
+    "2": "Acute viral hepatitis shows markedly elevated ALT and AST with only modest ALP elevation."
+   },
+   "ref": "Bishop 9e, ch. on liver function (jaundice classification)"
+  },
+  {
+   "id": "CC-0024",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Serum creatine kinase isoenzymes are separated by agarose electrophoresis at pH 8.6. Which form migrates farthest toward the anode?",
+   "options": [
+    "CK-MB",
+    "CK-MM",
+    "Mitochondrial CK",
+    "CK-BB"
+   ],
+   "answer": 3,
+   "why": "At alkaline pH, the B subunit carries more negative charge than the M subunit. **CK-BB (CK-1) is the most anodal, followed by CK-MB (CK-2), with CK-MM (CK-3) closest to the cathode.**",
+   "whyNot": {
+    "0": "CK-MB has one B and one M subunit and migrates between CK-BB and CK-MM.",
+    "1": "CK-MM has two M subunits and is the least anodal of the three cytoplasmic isoenzymes.",
+    "2": "Mitochondrial CK (macro-CK type 2) migrates cathodal to CK-MM, not toward the anode."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (creatine kinase isoenzymes); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0025",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A serum with elevated alkaline phosphatase is heated at 56 °C for 10 minutes, and nearly all of its ALP activity is lost. Which tissue source is most consistent with this result?",
+   "options": [
+    "Intestine",
+    "Liver",
+    "Placenta",
+    "Bone"
+   ],
+   "answer": 3,
+   "why": "ALP isoenzymes differ in heat stability. **Bone ALP is the most heat-labile**, so near-complete loss of activity after heating at 56 °C points to a bone source, such as in Paget disease or healing fractures.",
+   "whyNot": {
+    "1": "Liver ALP is more heat-stable than bone ALP, so a liver source would leave a larger fraction of activity after heating.",
+    "2": "Placental ALP, along with the Regan carcinoplacental isoenzyme, is the most heat-stable form and resists 65 °C for 30 minutes.",
+    "0": "Intestinal ALP has intermediate heat stability and would not lose nearly all of its activity under these conditions."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (alkaline phosphatase isoenzymes)"
+  },
+  {
+   "id": "CC-0026",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A competitive inhibitor is present in an enzyme assay. How are the Michaelis–Menten constants affected?",
+   "options": [
+    "Apparent Km increases; Vmax is unchanged",
+    "Km is unchanged; Vmax decreases",
+    "Apparent Km decreases; Vmax is unchanged",
+    "Apparent Km decreases; Vmax decreases"
+   ],
+   "answer": 0,
+   "why": "A competitive inhibitor resembles the substrate and competes for the active site. More substrate is needed to reach half-maximal velocity, so the apparent Km rises. **Because enough substrate can outcompete the inhibitor, Vmax is unchanged.**",
+   "whyNot": {
+    "1": "Unchanged Km with decreased Vmax is the pattern of noncompetitive inhibition, where the inhibitor binds outside the active site.",
+    "3": "Decreases in apparent Km and Vmax together are the pattern of uncompetitive inhibition, where the inhibitor binds the enzyme–substrate complex.",
+    "2": "A competitive inhibitor lowers apparent affinity for the substrate, so Km goes up, not down."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (enzyme kinetics and inhibition)"
+  },
+  {
+   "id": "CC-0027",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient has an elevated serum TSH and a decreased free T4. Which condition do these results indicate?",
+   "options": [
+    "Primary hypothyroidism",
+    "Primary hyperthyroidism",
+    "Secondary (pituitary) hypothyroidism",
+    "Subclinical hypothyroidism"
+   ],
+   "answer": 0,
+   "why": "When the thyroid gland itself fails, low thyroid hormone removes negative feedback on the pituitary. **TSH rises while free T4 is low**, the classic pattern of primary hypothyroidism, most often due to Hashimoto thyroiditis.",
+   "whyNot": {
+    "2": "In pituitary hypothyroidism, free T4 is low but TSH is low or inappropriately normal because the pituitary cannot respond.",
+    "1": "Primary hyperthyroidism shows the opposite pattern: suppressed TSH with increased free T4.",
+    "3": "Subclinical hypothyroidism has an elevated TSH with a free T4 that is still within the reference interval."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function"
+  },
+  {
+   "id": "CC-0028",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A woman taking oral estrogen has an increased total T4, a normal free T4, a normal TSH, and no symptoms of thyroid disease. What is the most likely explanation?",
+   "options": [
+    "Increased thyroxine-binding globulin from estrogen",
+    "TSH-secreting pituitary adenoma",
+    "Urinary loss of thyroxine-binding globulin",
+    "Graves disease"
+   ],
+   "answer": 0,
+   "why": "Estrogen increases the hepatic production of thyroxine-binding globulin (TBG), so more T4 is carried in bound form and total T4 rises. **Free T4, the active fraction, stays normal, and so does TSH**, so the patient is euthyroid.",
+   "whyNot": {
+    "3": "Graves disease raises free T4 and suppresses TSH, which is not the case here.",
+    "1": "A TSH-secreting adenoma would show increased TSH together with increased free T4.",
+    "2": "Loss of TBG, such as in nephrotic syndrome, lowers total T4 rather than raising it."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function (binding proteins); Tietz Fundamentals 9e, thyroid"
+  },
+  {
+   "id": "CC-0029",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has low morning serum cortisol, markedly increased plasma ACTH, hyponatremia, hyperkalemia, and skin hyperpigmentation. Which disorder best fits?",
+   "options": [
+    "Primary adrenal insufficiency (Addison disease)",
+    "Cushing disease (pituitary ACTH-secreting adenoma)",
+    "Primary hyperaldosteronism (Conn syndrome)",
+    "Secondary adrenal insufficiency (pituitary ACTH deficiency)"
+   ],
+   "answer": 0,
+   "why": "Destruction of the adrenal cortex lowers both cortisol and aldosterone. **Loss of cortisol feedback drives ACTH very high**, and ACTH together with related POMC-derived peptides stimulates melanocytes, causing hyperpigmentation. Aldosterone deficiency produces the low sodium and high potassium.",
+   "whyNot": {
+    "3": "In secondary adrenal insufficiency ACTH is low, there is no hyperpigmentation, and aldosterone is largely preserved, so potassium is usually normal.",
+    "1": "Cushing disease produces excess cortisol, not low cortisol.",
+    "2": "Primary hyperaldosteronism causes hypokalemia with normal or high sodium, and cortisol and ACTH are not affected."
+   },
+   "ref": "Bishop 9e, ch. on adrenal function"
+  },
+  {
+   "id": "CC-0030",
+   "tos": "CC-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In the common enzymatic assay for serum ethanol using alcohol dehydrogenase (ADH), what is measured?",
+   "options": [
+    "Decrease in absorbance at 293 nm as the substrate is oxidized",
+    "Increase in absorbance at 340 nm as NAD⁺ is reduced to NADH",
+    "Formation of a red quinoneimine dye measured near 500 nm",
+    "Decrease in absorbance at 340 nm as NADH is oxidized to NAD⁺"
+   ],
+   "answer": 1,
+   "why": "ADH oxidizes ethanol to acetaldehyde while reducing NAD⁺ to NADH. **NADH absorbs at 340 nm, so absorbance rises in proportion to ethanol.** A trapping agent or alkaline pH is used to pull the reaction toward completion.",
+   "whyNot": {
+    "3": "A falling absorbance at 340 nm occurs in reactions that consume NADH, such as the LD pyruvate-to-lactate direction, not in the ADH ethanol assay.",
+    "2": "A red quinoneimine dye is the indicator in Trinder-type peroxidase reactions, such as glucose oxidase methods.",
+    "0": "A decrease at 293 nm is used in the uricase method for uric acid, not for ethanol."
+   },
+   "ref": "Bishop 9e, ch. on toxicology (ethanol); Tietz Fundamentals 9e, clinical toxicology"
+  },
+  {
+   "id": "CC-0031",
+   "tos": "CC-E.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "For therapeutic drug monitoring, when should a trough specimen be collected?",
+   "options": [
+    "Immediately before the next scheduled dose",
+    "30 minutes after an intravenous infusion ends",
+    "1 to 2 hours after an oral dose is taken",
+    "At any convenient time once steady state is reached"
+   ],
+   "answer": 0,
+   "why": "The trough is the lowest drug concentration in a dosing interval. **It occurs just before the next dose**, so the specimen is drawn at that point to check that levels have not fallen below, or stayed above, the therapeutic range.",
+   "whyNot": {
+    "1": "Sampling about 30 minutes after an IV infusion ends is used to estimate the peak, for example with aminoglycosides.",
+    "2": "One to two hours after many oral doses is closer to the peak, not the trough.",
+    "3": "Even at steady state, drug levels still rise and fall within each dosing interval, so the timing of the draw still matters."
+   },
+   "ref": "Bishop 9e, ch. on therapeutic drug monitoring"
+  },
+  {
+   "id": "CC-0032",
+   "tos": "CC-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An arterial blood gas shows pH 7.30, pCO₂ 60 mmHg, and HCO₃⁻ 29 mmol/L. Using reference intervals of pH 7.35–7.45, pCO₂ 35–45 mmHg, and HCO₃⁻ 22–26 mmol/L, how should this result be classified?",
+   "options": [
+    "Metabolic alkalosis, partially compensated",
+    "Metabolic acidosis, partially compensated",
+    "Respiratory acidosis, partially compensated",
+    "Respiratory acidosis, uncompensated"
+   ],
+   "answer": 2,
+   "why": "The low pH means acidemia, and the high pCO₂ explains it, so the primary disorder is respiratory acidosis. **Bicarbonate is above its reference interval, showing renal compensation, but the pH has not returned to normal**, so compensation is partial.",
+   "whyNot": {
+    "3": "An uncompensated respiratory acidosis would have bicarbonate still within its reference interval; here it is raised.",
+    "0": "Metabolic alkalosis would produce a pH above 7.45, but this pH is acidic.",
+    "1": "Metabolic acidosis requires a low bicarbonate as the primary change; here bicarbonate is high and pCO₂ drives the low pH."
+   },
+   "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems"
+  }
+ ]
+}

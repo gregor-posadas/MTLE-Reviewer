@@ -1,0 +1,552 @@
+{
+ "subject": "HL",
+ "author": "Original (Claude draft, pending review)",
+ "items": [
+  {
+   "id": "HL-0001",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist prepares 10% formalin by mixing 10 mL of commercial formalin (37–40% formaldehyde) with 90 mL of water. What is the approximate formaldehyde concentration of the working solution?",
+   "options": [
+    "About 10% formaldehyde",
+    "About 4% formaldehyde",
+    "About 40% formaldehyde",
+    "About 1% formaldehyde"
+   ],
+   "answer": 1,
+   "why": "Commercial formalin is a saturated solution containing roughly 37–40% formaldehyde gas. Diluting it 1 in 10 gives \"10% formalin,\" which actually contains **about 4% formaldehyde**. The \"10%\" refers to the dilution of stock formalin, not to the formaldehyde content.",
+   "whyNot": {
+    "0": "Ten percent is the dilution of the stock formalin, not the formaldehyde concentration.",
+    "2": "Roughly 37–40% is the formaldehyde content of the undiluted commercial stock, before the 1:10 dilution.",
+    "3": "A 1% formaldehyde solution would be far weaker than routine 10% formalin and would fix tissue poorly."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0002",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Sections of a congested spleen fixed in unbuffered 10% formalin show fine brown-black, birefringent granules lying outside cells. Which practice would best have prevented this artifact?",
+   "options": [
+    "Adding glacial acetic acid to the formalin",
+    "Washing the tissue in running water for 24 hours after fixation",
+    "Buffering the formalin to a neutral pH",
+    "Post-fixing the tissue in Zenker's fluid"
+   ],
+   "answer": 2,
+   "why": "The granules are formalin pigment (acid formaldehyde hematin), which forms when acidic formalin reacts with hemoglobin in blood-rich tissue. It forms when formalin turns acidic, so **buffering formalin to neutral pH (neutral buffered formalin)** prevents it. Once formed, it can be removed with alcoholic picric acid.",
+   "whyNot": {
+    "0": "Acidifying formalin favors acid hematin formation and would make the pigment worse.",
+    "1": "Washing in water does not dissolve formalin pigment and does nothing to stop it forming during fixation.",
+    "3": "Zenker's fluid contains mercuric chloride and would add mercury pigment rather than prevent formalin pigment."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation artifacts and pigments); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0003",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Tissue fixed in Zenker's fluid shows black-brown granular deposits scattered across the section. Before staining, the deposits should be removed by treating the sections with:",
+   "options": [
+    "Saturated alcoholic picric acid",
+    "Iodine, followed by sodium thiosulfate",
+    "1% hydrochloric acid in 70% alcohol",
+    "Dilute ammonia water"
+   ],
+   "answer": 1,
+   "why": "Zenker's fluid contains mercuric chloride, which leaves a mercury pigment in tissue. It is removed by **iodine (e.g., Lugol's or alcoholic iodine), which converts it to mercuric iodide, followed by sodium thiosulfate**, which removes the brown iodine stain left behind.",
+   "whyNot": {
+    "0": "Alcoholic picric acid is used to remove formalin (acid formaldehyde hematin) pigment, not mercury pigment.",
+    "2": "Acid alcohol is a differentiator for regressive hematoxylin staining; it does not dissolve mercury deposits.",
+    "3": "Dilute ammonia water is a bluing agent after hematoxylin and does not remove mercury pigment."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Mercuric fixatives and pigment removal); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0004",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A femoral head is being decalcified in a nitric acid solution. Which method of checking whether decalcification is complete is considered the most accurate?",
+   "options": [
+    "Bending or probing the specimen with a needle",
+    "Radiography (X-ray) of the specimen",
+    "Weighing the specimen to see if it has lost weight",
+    "Visual inspection for loss of opacity"
+   ],
+   "answer": 1,
+   "why": "Calcium deposits are radio-opaque, so an X-ray shows even small foci of remaining calcium. **Radiography is regarded as the most accurate end-point test**; the chemical (calcium oxalate) test on the used fluid is a practical alternative for acid decalcifiers.",
+   "whyNot": {
+    "0": "Probing or bending is the least reliable method and can damage the tissue and introduce artifacts.",
+    "2": "Weight change is less sensitive than radiography and does not show where residual calcium remains.",
+    "3": "Visual inspection cannot detect small residual calcium deposits inside the specimen."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Decalcification: end-point determination); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0005",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During processing, a block of tissue turns milky and opaque when transferred from the last alcohol into xylene. What is the most likely cause?",
+   "options": [
+    "The tissue was left too long in xylene",
+    "The tissue was over-fixed in formalin",
+    "Dehydration was incomplete, so water remained in the tissue",
+    "The paraffin bath was too hot"
+   ],
+   "answer": 2,
+   "why": "Xylene does not mix with water, so any water left in the tissue makes it look cloudy. **Milkiness on entering the clearing agent means dehydration was incomplete**. The tissue should go back through fresh absolute alcohol before clearing again.",
+   "whyNot": {
+    "0": "Prolonged exposure to xylene makes tissue hard and brittle; it does not make it milky.",
+    "1": "Over-fixation affects staining and antigenicity but does not cause turbidity in xylene.",
+    "3": "The paraffin bath comes after clearing, so its temperature cannot explain a change seen when the tissue enters xylene."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: dehydration and clearing); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0006",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A large brain specimen has been embedded in celloidin. Which microtome is traditionally used to cut it, with the knife set obliquely and both block and knife kept wet with 70% alcohol?",
+   "options": [
+    "Rotary microtome",
+    "Sliding microtome",
+    "Rocking microtome",
+    "Ultramicrotome"
+   ],
+   "answer": 1,
+   "why": "Celloidin blocks must stay moist and are cut slowly with a long oblique stroke. **The sliding microtome** is designed for this, with the knife set at an angle and the block and blade kept wet with 70% alcohol.",
+   "whyNot": {
+    "0": "The rotary microtome is the standard instrument for serial paraffin sections, not for wet celloidin blocks.",
+    "2": "The rocking microtome is a simple instrument for small paraffin blocks and is unsuitable for large celloidin blocks.",
+    "3": "The ultramicrotome cuts ultrathin resin sections for electron microscopy."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy; celloidin technique); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0007",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a regressive H&E method using Harris hematoxylin, sections are deliberately overstained. Which step then selectively removes excess hematoxylin until only the nuclei stay stained?",
+   "options": [
+    "Bluing in Scott's tap water substitute",
+    "Differentiation in acid alcohol",
+    "Counterstaining with eosin",
+    "Clearing in xylene"
+   ],
+   "answer": 1,
+   "why": "In regressive staining, tissue is overstained and the excess dye is then removed in a controlled way. **Differentiation in acid alcohol (dilute HCl in 70% alcohol)** strips hematoxylin from the cytoplasm and background while the nuclei stay stained. Bluing follows to turn the remaining hematoxylin blue and insoluble.",
+   "whyNot": {
+    "0": "Bluing raises the pH to change hematoxylin from red to blue; it does not remove excess dye.",
+    "2": "Eosin adds pink cytoplasmic staining and does not remove hematoxylin.",
+    "3": "Xylene clears the dehydrated section for mounting and plays no part in differentiation."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Hematoxylin and eosin); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0008",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A pathologist suspects fatty change in a liver biopsy and requests an Oil Red O stain. Which type of section should be prepared?",
+   "options": [
+    "A routine paraffin section from NBF-fixed tissue",
+    "A frozen (cryostat) section",
+    "A paraffin section from Carnoy-fixed tissue",
+    "A celloidin section"
+   ],
+   "answer": 1,
+   "why": "Routine processing through alcohols and clearing agents dissolves most neutral lipids, so they are lost before staining. **Lipid stains such as Oil Red O need frozen sections**, which skip dehydration and clearing (the tissue may be fixed in formalin first).",
+   "whyNot": {
+    "0": "Paraffin processing uses alcohols and xylene, which extract the lipids the stain is meant to show.",
+    "2": "Carnoy's fluid itself contains alcohol and chloroform, which dissolve lipids, and paraffin processing removes more.",
+    "3": "Celloidin embedding also uses alcohol and ether, which dissolve lipids."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Lipid staining); Bruce-Gregorios, Histopathologic Techniques"
+  },
+  {
+   "id": "HL-0009",
+   "tos": "HL-C.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a well-stained Papanicolaou smear, the cytoplasm of intermediate and parabasal squamous cells is blue-green. Which dye is chiefly responsible for this color?",
+   "options": [
+    "Orange G",
+    "Eosin Y",
+    "Light green SF yellowish",
+    "Bismarck brown Y"
+   ],
+   "answer": 2,
+   "why": "The EA polychrome counterstain contains eosin Y and light green SF yellowish. **Light green stains the cytoplasm of metabolically active, less mature cells (intermediate and parabasal) blue-green**, while eosin stains mature superficial cells pink.",
+   "whyNot": {
+    "0": "Orange G (in OG-6) stains keratinized cytoplasm orange, not the cytoplasm of intermediate cells.",
+    "1": "Eosin Y gives the pink cytoplasm of mature superficial squamous cells.",
+    "3": "Bismarck brown is a traditional EA component that contributes little to the final staining and does not make cytoplasm blue-green."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Cytology: Papanicolaou stain)"
+  },
+  {
+   "id": "HL-0010",
+   "tos": "HL-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A cervical smear for Papanicolaou staining has just been spread on a slide. What is the recommended routine fixation?",
+   "options": [
+    "Immediate immersion in 95% ethyl alcohol while the smear is still wet",
+    "Air-drying, then fixation in methanol",
+    "Immersion in 10% neutral buffered formalin",
+    "Immersion in Bouin's solution"
+   ],
+   "answer": 0,
+   "why": "Pap smears are wet-fixed: they go into the fixative before any drying occurs. **95% ethyl alcohol** is the standard fixative, and placing the smear in it immediately prevents air-drying artifact, which ruins nuclear detail.",
+   "whyNot": {
+    "1": "Air-drying followed by methanol is the approach for Romanowsky-type stains, not the Pap stain.",
+    "2": "Formalin is a tissue fixative and is not used routinely for Pap smears.",
+    "3": "Bouin's solution is a picric-acid tissue fixative and is not the standard for cervical smears."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Cytology: fixation of smears)"
+  },
+  {
+   "id": "HL-0011",
+   "tos": "HL-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient dies several days after a cerebral infarct. Which pattern of necrosis is expected in the infarcted brain tissue?",
+   "options": [
+    "Coagulative necrosis",
+    "Liquefactive necrosis",
+    "Caseous necrosis",
+    "Fat necrosis"
+   ],
+   "answer": 1,
+   "why": "Brain tissue has abundant lytic enzymes and little supporting connective tissue, so dead tissue is digested into a soft, fluid-filled area. For this reason **ischemic necrosis of the central nervous system is liquefactive**, unlike infarcts in most solid organs.",
+   "whyNot": {
+    "0": "Coagulative necrosis is typical of hypoxic death in solid organs such as the heart and kidney, not the brain.",
+    "2": "Caseous necrosis is the cheese-like necrosis typical of tuberculous granulomas.",
+    "3": "Fat necrosis is typical of injury to fatty tissue, such as in acute pancreatitis."
+   },
+   "ref": "Robbins & Cotran Pathologic Basis of Disease (Cell injury and cell death)"
+  },
+  {
+   "id": "HL-0012",
+   "tos": "HL-D.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During an autopsy examination, the gradual drop in body temperature after death until it matches the surrounding temperature is called:",
+   "options": [
+    "Rigor mortis",
+    "Livor mortis",
+    "Algor mortis",
+    "Autolysis"
+   ],
+   "answer": 2,
+   "why": "**Algor mortis is post-mortem cooling of the body** toward room temperature, and is one of the signs used to estimate the time since death.",
+   "whyNot": {
+    "0": "Rigor mortis is the stiffening of muscles after death.",
+    "1": "Livor mortis (hypostasis) is the purplish discoloration in dependent parts as blood settles.",
+    "3": "Autolysis is the breakdown of cells by their own enzymes, not a change in temperature."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Autopsy); forensic pathology texts"
+  },
+  {
+   "id": "HL-0013",
+   "tos": "HL-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A Ziehl–Neelsen stain is requested on a lung biopsy. The technologist stains a section known to contain acid-fast bacilli on the same run as the patient slide. What is the main purpose of this section?",
+   "options": [
+    "To estimate the number of organisms in the patient's tissue",
+    "To confirm that the reagents and procedure worked correctly in that run",
+    "To serve as a negative control for nonspecific staining",
+    "To check whether the patient's tissue was adequately fixed"
+   ],
+   "answer": 1,
+   "why": "A known-positive control tissue goes through the same reagents and steps as the patient slide. **If the control stains as expected, the run is valid**, and a negative patient result can be trusted rather than blamed on a faulty reagent or step.",
+   "whyNot": {
+    "0": "The control holds no information about how many organisms are in the patient's tissue.",
+    "2": "A section known to contain the target is a positive control, not a negative control.",
+    "3": "Fixation of the patient's tissue is judged from the patient's own section, not from a separate control block."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Quality control in histopathology)"
+  },
+  {
+   "id": "HL-0014",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory manager reviews monthly turnaround times, compares them with the target set in the quality manual, and introduces corrective action where the target was missed. Which management function is this?",
+   "options": [
+    "Planning",
+    "Organizing",
+    "Directing",
+    "Controlling"
+   ],
+   "answer": 3,
+   "why": "**Controlling** means measuring actual performance, comparing it with set standards, and correcting the gaps. Reviewing turnaround times against a target and acting on misses is a direct example.",
+   "whyNot": {
+    "0": "Planning sets objectives and decides in advance how to reach them; it does not measure results already achieved.",
+    "1": "Organizing arranges people, tasks and resources into a working structure.",
+    "2": "Directing (leading) is guiding, motivating and supervising staff while the work is being done."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Management functions)"
+  },
+  {
+   "id": "HL-0015",
+   "tos": "HL-I.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a study comparing two staining protocols, the investigator concludes there is a significant difference (p < 0.05), but in reality the protocols perform equally. What kind of error has been made?",
+   "options": [
+    "Type I error",
+    "Type II error",
+    "Sampling bias",
+    "Measurement error due to poor precision"
+   ],
+   "answer": 0,
+   "why": "**A type I error is rejecting a null hypothesis that is actually true**, which here means declaring a difference that does not exist. Its probability is the significance level (alpha) chosen by the investigator.",
+   "whyNot": {
+    "1": "A type II error is the opposite: failing to reject a false null hypothesis, which misses a real difference.",
+    "2": "Sampling bias is a systematic flaw in how subjects are selected, not the statistical error of rejecting a true null hypothesis.",
+    "3": "Poor precision adds random variation to measurements, but the scenario describes a wrong decision about the null hypothesis."
+   },
+   "ref": "Standard biostatistics references (e.g., Daniel, Biostatistics: A Foundation for Analysis in the Health Sciences)"
+  },
+  {
+   "id": "HL-0016",
+   "tos": "HL-I.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Researchers select 100 women with confirmed cervical carcinoma and 200 women without it, then review their records for past HPV infection. Which study design is this?",
+   "options": [
+    "Prospective cohort study",
+    "Case-control study",
+    "Cross-sectional study",
+    "Randomized controlled trial"
+   ],
+   "answer": 1,
+   "why": "Subjects are chosen by whether they already have the disease, and the investigators then look back for past exposure. **Selecting on outcome and comparing prior exposures is the defining feature of a case-control study**.",
+   "whyNot": {
+    "0": "A cohort study selects people by exposure status and follows them forward to see who develops the disease.",
+    "2": "A cross-sectional study measures exposure and disease at a single point in time without selecting on outcome.",
+    "3": "A randomized controlled trial assigns an intervention by chance and follows outcomes; no intervention is assigned here."
+   },
+   "ref": "Gordis Epidemiology (Study designs)"
+  },
+  {
+   "id": "HL-0017",
+   "tos": "HL-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under Section 19 of RA 5527 (Philippine Medical Technology Act of 1969), what are the minimum general average and the lowest permissible rating in any major subject for passing the board examination?",
+   "options": [
+    "General average of at least 75%, with no major subject below 50%",
+    "General average of at least 75%, with no major subject below 60%",
+    "General average of at least 70%, with no major subject below 50%",
+    "General average of at least 80%, with no major subject below 75%"
+   ],
+   "answer": 0,
+   "why": "Section 19 requires **a general average of at least seventy-five per cent with no rating below fifty per cent in any of the major subjects**. It also adds that the candidate must not have failed in at least sixty per cent of the subjects, computed by their relative weights.",
+   "whyNot": {
+    "1": "The 60% figure in Section 19 refers to the proportion of subjects failed (by relative weight), not to a minimum rating per subject.",
+    "2": "Seventy per cent appears elsewhere in the law as amended (registration as medical laboratory technician), not as the passing general average.",
+    "3": "Neither 80% nor 75% per subject is a requirement in Section 19."
+   },
+   "ref": "RA 5527 Sec. 19"
+  },
+  {
+   "id": "HL-0018",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Under Section 21 of RA 5527 as amended by PD 498, a person who failed the medical technology board examination may still be registered as a medical laboratory technician if the general rating obtained was at least:",
+   "options": [
+    "60%",
+    "65%",
+    "70%",
+    "72%"
+   ],
+   "answer": 2,
+   "why": "As amended by PD 498 (1974), Section 21 allows registration as a medical laboratory technician of a person who **failed the board examination but obtained a general rating of at least 70%**. PD 498 also defines a medical laboratory technician as one qualified to assist a medical technologist and/or qualified pathologist.",
+   "whyNot": {
+    "0": "Sixty per cent is not the threshold in Section 21; 60% appears in Section 19 in connection with subjects failed.",
+    "1": "Sixty-five per cent is not stated anywhere in the amended Section 21.",
+    "3": "Seventy-two per cent is not the statutory figure; the law sets the floor at 70%."
+   },
+   "ref": "RA 5527 Sec. 21, as amended by PD 498 (1974)"
+  },
+  {
+   "id": "HL-0019",
+   "tos": "HL-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After notice and hearing, the Board finds that a registered medical technologist should be suspended rather than have the certificate revoked. Under Section 24 of RA 5527, what is the maximum period of suspension?",
+   "options": [
+    "Six months",
+    "One year",
+    "Two years",
+    "Five years"
+   ],
+   "answer": 2,
+   "why": "Section 24 allows the Board to reprimand, suspend, or revoke a certificate of registration after due notice and hearing. **Suspension may not exceed two years**, and revocation requires a unanimous vote of the Board.",
+   "whyNot": {
+    "0": "Six months is not the limit; it is the minimum prison term in the penal provisions of Section 29.",
+    "1": "One year is shorter than the limit the statute actually sets.",
+    "3": "Five years exceeds the statutory maximum for suspension."
+   },
+   "ref": "RA 5527 Sec. 24"
+  },
+  {
+   "id": "HL-0020",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under the Newborn Screening Act of 2004 (RA 9288), when should newborn screening be performed?",
+   "options": [
+    "Within the first 12 hours of life",
+    "After 24 hours of life but not later than 3 days from complete delivery",
+    "Between 7 and 14 days of life",
+    "At any time before the infant turns 30 days old"
+   ],
+   "answer": 1,
+   "why": "Section 6 of RA 9288 states that newborn screening **shall be performed after twenty-four (24) hours of life but not later than three (3) days from complete delivery**. Section 4 separately defines a newborn as a child from complete delivery to 30 days old.",
+   "whyNot": {
+    "0": "Sampling within 12 hours is earlier than the law allows and can give false-negative results for some disorders.",
+    "2": "Seven to 14 days is well beyond the 3-day limit set by Section 6.",
+    "3": "Thirty days is the age limit in the definition of \"newborn\" in Section 4, not the screening window."
+   },
+   "ref": "RA 9288 Sec. 6 (definition in Sec. 4)"
+  },
+  {
+   "id": "HL-0021",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 16-year-old comes to a testing facility on her own and asks for a voluntary HIV test. Under RA 11166 (Philippine HIV and AIDS Policy Act), whose consent is required?",
+   "options": [
+    "Her parent or legal guardian",
+    "The adolescent herself, with no need for parental consent",
+    "A DOH-designated social worker",
+    "The attending physician on her behalf"
+   ],
+   "answer": 1,
+   "why": "Section 29 of RA 11166 provides that for a person **fifteen (15) to below eighteen (18) years of age, consent to voluntary HIV testing is obtained from the child without the need of consent from a parent or guardian**. Parental or guardian consent is the rule for those below 15 or who are mentally incapacitated, with exceptions such as pregnancy or high-risk behavior.",
+   "whyNot": {
+    "0": "Parental or guardian consent applies mainly to persons below 15 or who are mentally incapacitated, not to a 16-year-old.",
+    "2": "A social worker is not named as the consenting party for a 16-year-old requesting a voluntary test.",
+    "3": "A physician cannot consent on a patient's behalf to voluntary testing; the law requires the person's own informed consent."
+   },
+   "ref": "RA 11166 Sec. 29"
+  },
+  {
+   "id": "HL-0022",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under Section 36 of the Comprehensive Dangerous Drugs Act of 2002 (RA 9165), how long is a drug test certificate from an accredited drug testing center valid?",
+   "options": [
+    "Three months from the date of issue",
+    "Six months from the date of issue",
+    "One year from the date of issue",
+    "Two years from the date of issue"
+   ],
+   "answer": 2,
+   "why": "Section 36 provides that drug test certificates issued by accredited drug testing centers **shall be valid for a one-year period from the date of issue**. The same section requires a positive screening test to be confirmed by a confirmatory test such as gas chromatography/mass spectrometry.",
+   "whyNot": {
+    "0": "Three months is not the validity period stated in Section 36.",
+    "1": "Six months is shorter than the one-year validity the law gives.",
+    "3": "Two years is longer than the validity the law allows."
+   },
+   "ref": "RA 9165 Sec. 36"
+  },
+  {
+   "id": "HL-0023",
+   "tos": "HL-G.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Under the National Blood Services Act of 1994 (RA 7719), commercial blood banks were to be phased out over what initial period after the Act took effect?",
+   "options": [
+    "One year, with no extension allowed",
+    "Two years, extendable by the Secretary of Health for up to two more years",
+    "Five years, extendable by Congress",
+    "Three years, extendable by the Secretary of Health for one more year"
+   ],
+   "answer": 1,
+   "why": "Section 7 of RA 7719 directs that **all commercial blood banks shall be phased out over a period of two (2) years after the Act takes effect, extendable to a maximum of two (2) years by the Secretary**. This reflects the Act's policy that blood is a service, not a commodity, and should come from voluntary, non-remunerated donors.",
+   "whyNot": {
+    "0": "The law sets a two-year period and explicitly allows an extension.",
+    "2": "Neither the five-year period nor an extension by Congress is in Section 7.",
+    "3": "The phase-out period is two years, not three, and the extension can be up to two years."
+   },
+   "ref": "RA 7719 Sec. 7"
+  },
+  {
+   "id": "HL-0024",
+   "tos": "HL-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A man dies in a hospital without having made a legacy of his organs and with no known objection on record. Under the Organ Donation Act of 1991 (RA 7170), who is first in the order of priority to donate his body or organs?",
+   "options": [
+    "His son or daughter of legal age",
+    "Either of his parents",
+    "His spouse",
+    "His brother or sister of legal age"
+   ],
+   "answer": 2,
+   "why": "Section 4 of RA 7170 lists who may donate a decedent's body or organs, in order: **the spouse first**, then a son or daughter of legal age, either parent, a brother or sister of legal age, and the guardian. This order applies when there is no actual notice of contrary intentions by the decedent or of opposition by a member of the immediate family.",
+   "whyNot": {
+    "0": "A son or daughter of legal age comes second, after the spouse.",
+    "1": "Either parent comes third in the order of priority.",
+    "3": "A brother or sister of legal age comes fourth."
+   },
+   "ref": "RA 7170 Sec. 4"
+  },
+  {
+   "id": "HL-0025",
+   "tos": "HL-G.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Under the Continuing Professional Development Act of 2016 (RA 10912), CPD is made a mandatory requirement for:",
+   "options": [
+    "Admission to the licensure examination",
+    "Renewal of the Professional Identification Card (PIC)",
+    "Taking the professional oath",
+    "Initial issuance of the certificate of registration"
+   ],
+   "answer": 1,
+   "why": "Section 10 of RA 10912 makes **CPD a mandatory requirement for renewal of the Professional Identification Card** of all registered and licensed professionals. It applies after licensure, not as a condition to take the examination.",
+   "whyNot": {
+    "0": "Eligibility for the board examination is set by each profession's law (for MT, RA 5527 Sec. 16), not by CPD units.",
+    "2": "Oath-taking follows passing the examination and does not depend on CPD.",
+    "3": "The initial certificate of registration is issued upon passing the examination, before any CPD is required."
+   },
+   "ref": "RA 10912 Sec. 10"
+  },
+  {
+   "id": "HL-0026",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A mentally competent adult outpatient, after the phlebotomy procedure has been fully explained, refuses venipuncture. The medical technologist does not draw blood, documents the refusal, and informs the requesting physician. Which bioethical principle is mainly being respected?",
+   "options": [
+    "Beneficence",
+    "Non-maleficence",
+    "Justice",
+    "Autonomy"
+   ],
+   "answer": 3,
+   "why": "**Autonomy** is a competent person's right to make informed decisions about his or her own body, including refusing a procedure. Respecting an informed refusal, and reporting it rather than overriding it, upholds this principle.",
+   "whyNot": {
+    "0": "Beneficence is the duty to act for the patient's good; on its own it could be misused to justify overriding the refusal.",
+    "1": "Non-maleficence is the duty to avoid harm; it is not the main issue in honoring an informed refusal.",
+    "2": "Justice concerns fair distribution of care and resources among patients."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics"
+  }
+ ]
+}

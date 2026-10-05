@@ -1,0 +1,322 @@
+{
+  "source": "Original notes (Claude draft, pending review)",
+  "groups": [
+    {
+      "name": "Helminth eggs",
+      "categories": [
+        "Ascaris lumbricoides (fertile egg)",
+        "Ascaris lumbricoides (unfertilized egg)",
+        "Trichuris trichiura (egg)",
+        "Capillaria philippinensis (egg)",
+        "Hookworm (egg)",
+        "Enterobius vermicularis (egg)",
+        "Taenia spp. (egg)",
+        "Hymenolepis nana (egg)",
+        "Hymenolepis diminuta (egg)",
+        "Diphyllobothrium latum (egg)",
+        "Schistosoma japonicum (egg)",
+        "Schistosoma mansoni (egg)",
+        "Schistosoma haematobium (egg)",
+        "Fasciola hepatica (egg)",
+        "Paragonimus westermani (egg)",
+        "Clonorchis sinensis (egg)",
+        "Opisthorchis viverrini (egg)"
+      ]
+    },
+    {
+      "name": "Larvae in stool",
+      "categories": [
+        "Strongyloides stercoralis (rhabditiform larva)",
+        "Hookworm (rhabditiform larva)"
+      ]
+    },
+    {
+      "name": "Intestinal and urogenital protozoa",
+      "categories": [
+        "Entamoeba histolytica (trophozoite)",
+        "Entamoeba histolytica (cyst)",
+        "Giardia duodenalis (trophozoite)",
+        "Giardia duodenalis (cyst)",
+        "Balantidium coli (trophozoite)",
+        "Balantidium coli (cyst)",
+        "Trichomonas vaginalis (trophozoite)"
+      ]
+    },
+    {
+      "name": "Malaria parasites",
+      "categories": [
+        "Plasmodium falciparum (ring forms)",
+        "Plasmodium falciparum (gametocyte)",
+        "Plasmodium vivax (trophozoite)",
+        "Plasmodium vivax (gametocyte)",
+        "Plasmodium malariae (band form)"
+      ]
+    },
+    {
+      "name": "Blood flagellates and microfilariae",
+      "categories": [
+        "Trypanosoma brucei (trypomastigote)",
+        "Wuchereria bancrofti (microfilaria)",
+        "Brugia malayi (microfilaria)"
+      ]
+    }
+  ],
+  "categories": {
+    "Ascaris lumbricoides (fertile egg)": {
+      "features": "Round to oval, about 45–75 µm long, with a thick shell and a bumpy (mammillated) outer coat usually stained golden brown by bile; contains a single undivided cell. Decorticated eggs lack the bumpy coat but keep the thick shell.",
+      "lookalikes": [
+        "Ascaris lumbricoides (unfertilized egg)",
+        "Hookworm (egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Ascaris lumbricoides (unfertilized egg)": {
+      "features": "Elongated and larger than fertile eggs, up to about 90 µm long, with a thinner shell and an irregular mammillated coat; filled with a mass of refractile granules rather than a single cell.",
+      "lookalikes": [
+        "Ascaris lumbricoides (fertile egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Trichuris trichiura (egg)": {
+      "features": "Barrel-shaped, about 50–55 × 20–25 µm, with a thick brown shell and a prominent, protruding hyaline plug at each pole; unembryonated when passed.",
+      "lookalikes": [
+        "Capillaria philippinensis (egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Capillaria philippinensis (egg)": {
+      "features": "Peanut-shaped, about 35–45 × 20–25 µm, with a striated (pitted) shell and flattened, inconspicuous polar plugs; smaller and less protruding plugs than Trichuris. Larvae and adults may also be seen in stool.",
+      "lookalikes": [
+        "Trichuris trichiura (egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Hookworm (egg)": {
+      "features": "Oval, about 60–75 × 35–40 µm, with a thin, smooth, colorless shell and a clear space between the shell and the dividing embryo (usually 4–8 cells in fresh stool). Necator and Ancylostoma eggs cannot be told apart.",
+      "lookalikes": [
+        "Ascaris lumbricoides (fertile egg)",
+        "Enterobius vermicularis (egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Enterobius vermicularis (egg)": {
+      "features": "Elongated, about 50–60 × 20–32 µm, flattened on one side (asymmetric, D-shaped) with a thick colorless shell; often contains a curled larva. Best recovered on perianal cellulose tape.",
+      "lookalikes": [
+        "Hookworm (egg)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Taenia spp. (egg)": {
+      "features": "Spherical, about 30–35 µm, with a thick, radially striated brown shell (embryophore) around an oncosphere with six hooklets. T. solium and T. saginata eggs look identical.",
+      "lookalikes": [
+        "Hymenolepis nana (egg)",
+        "Hymenolepis diminuta (egg)"
+      ],
+      "tos": "MP-H.3"
+    },
+    "Hymenolepis nana (egg)": {
+      "features": "Oval, about 30–50 µm, with a thin shell; the six-hooked oncosphere has two polar thickenings from which 4–8 polar filaments extend into the space between oncosphere and shell.",
+      "lookalikes": [
+        "Hymenolepis diminuta (egg)",
+        "Taenia spp. (egg)"
+      ],
+      "tos": "MP-H.3"
+    },
+    "Hymenolepis diminuta (egg)": {
+      "features": "Round to slightly oval and larger, about 70–86 × 60–80 µm, with a yellowish, faintly striated outer membrane and a thin inner membrane; the six-hooked oncosphere has polar thickenings but no polar filaments.",
+      "lookalikes": [
+        "Hymenolepis nana (egg)",
+        "Taenia spp. (egg)"
+      ],
+      "tos": "MP-H.3"
+    },
+    "Diphyllobothrium latum (egg)": {
+      "features": "Oval, about 58–76 × 40–51 µm, with an inconspicuous operculum at one end and a small knob at the other; unembryonated when passed. The only common tapeworm egg with an operculum.",
+      "lookalikes": [
+        "Paragonimus westermani (egg)",
+        "Fasciola hepatica (egg)"
+      ],
+      "tos": "MP-H.3"
+    },
+    "Schistosoma japonicum (egg)": {
+      "features": "Oval to round, about 70–100 × 55–64 µm, non-operculated, with a tiny lateral spine or knob that is often hard to see; contains a mature miracidium. The smallest and roundest of the three schistosome eggs; found in stool.",
+      "lookalikes": [
+        "Schistosoma mansoni (egg)",
+        "Schistosoma haematobium (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Schistosoma mansoni (egg)": {
+      "features": "Elongated, about 114–180 × 45–70 µm, non-operculated, with a large, prominent lateral spine near one end; contains a miracidium. Found in stool.",
+      "lookalikes": [
+        "Schistosoma japonicum (egg)",
+        "Schistosoma haematobium (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Schistosoma haematobium (egg)": {
+      "features": "Elongated, about 110–170 × 40–70 µm, non-operculated, with a prominent terminal spine; contains a miracidium. Found mainly in urine (best in midday, end-of-stream samples).",
+      "lookalikes": [
+        "Schistosoma mansoni (egg)",
+        "Schistosoma japonicum (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Fasciola hepatica (egg)": {
+      "features": "Very large, about 130–150 × 60–90 µm, oval and yellow-brown, with a small, indistinct operculum and thin shell; unembryonated. Cannot be reliably separated from Fasciolopsis buski eggs.",
+      "lookalikes": [
+        "Paragonimus westermani (egg)",
+        "Diphyllobothrium latum (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Paragonimus westermani (egg)": {
+      "features": "Oval, about 80–120 × 45–70 µm, golden brown, with a flattened operculum set into a raised rim (opercular shoulders) and a thickened shell at the opposite end; unembryonated. Found in sputum or stool.",
+      "lookalikes": [
+        "Diphyllobothrium latum (egg)",
+        "Fasciola hepatica (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Clonorchis sinensis (egg)": {
+      "features": "Small, about 27–35 × 11–20 µm, with a convex operculum resting on prominent shoulders and often a small knob at the opposite end; contains a miracidium.",
+      "lookalikes": [
+        "Opisthorchis viverrini (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Opisthorchis viverrini (egg)": {
+      "features": "Small, about 19–30 × 10–20 µm, operculated with shoulders and a small terminal knob; contains a miracidium. Very difficult to distinguish from Clonorchis eggs by light microscopy.",
+      "lookalikes": [
+        "Clonorchis sinensis (egg)"
+      ],
+      "tos": "MP-H.2"
+    },
+    "Strongyloides stercoralis (rhabditiform larva)": {
+      "features": "About 180–380 × 14–20 µm, with a short buccal canal and a prominent genital primordium. The usual diagnostic stage in fresh stool.",
+      "lookalikes": [
+        "Hookworm (rhabditiform larva)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Hookworm (rhabditiform larva)": {
+      "features": "About 250–300 × 15–20 µm, with a long buccal canal and a small, inconspicuous genital primordium. Seen only when stool stands long enough for eggs to hatch.",
+      "lookalikes": [
+        "Strongyloides stercoralis (rhabditiform larva)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Entamoeba histolytica (trophozoite)": {
+      "features": "Usually about 15–20 µm (range 10–60 µm), with one nucleus showing fine, even peripheral chromatin and a small central karyosome, and finely granular cytoplasm. Ingested red cells favor E. histolytica over the identical-looking E. dispar.",
+      "lookalikes": [
+        "Entamoeba histolytica (cyst)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Entamoeba histolytica (cyst)": {
+      "features": "Spherical, about 10–20 µm (usually 12–15 µm), with 1–4 nuclei of the same fine-chromatin pattern and chromatoid bodies with smooth, rounded ends. Indistinguishable from E. dispar cysts.",
+      "lookalikes": [
+        "Giardia duodenalis (cyst)",
+        "Entamoeba histolytica (trophozoite)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Giardia duodenalis (trophozoite)": {
+      "features": "Pear-shaped and bilaterally symmetric, about 10–20 µm long, with two nuclei, a ventral sucking disk, median bodies, and four pairs of flagella; shows falling-leaf motility in wet mounts.",
+      "lookalikes": [
+        "Trichomonas vaginalis (trophozoite)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Giardia duodenalis (cyst)": {
+      "features": "Oval, about 8–19 µm (usually 10–14 µm), with a smooth wall often pulled away from the cytoplasm, up to four nuclei, and curved fibrils (axonemes and median bodies).",
+      "lookalikes": [
+        "Entamoeba histolytica (cyst)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Balantidium coli (trophozoite)": {
+      "features": "Very large, about 40–200 µm long, oval and covered with cilia, with a large kidney-shaped macronucleus, a small micronucleus, and an anterior cytostome. Also called Neobalantidium coli.",
+      "lookalikes": [
+        "Balantidium coli (cyst)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Balantidium coli (cyst)": {
+      "features": "Round, about 50–70 µm, with a thick double wall and a visible kidney-shaped macronucleus; cilia may be seen inside young cysts.",
+      "lookalikes": [
+        "Balantidium coli (trophozoite)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Trichomonas vaginalis (trophozoite)": {
+      "features": "Pear-shaped, about 7–30 µm long, with four anterior flagella, an undulating membrane reaching about halfway down the body, and an axostyle; jerky motility in wet mounts. Has no cyst stage.",
+      "lookalikes": [
+        "Giardia duodenalis (trophozoite)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Plasmodium falciparum (ring forms)": {
+      "features": "Small, delicate rings about one-fifth of the red cell diameter, often with two chromatin dots, several rings per cell, and appliqué forms at the cell edge; red cells are not enlarged and may show Maurer's clefts.",
+      "lookalikes": [
+        "Plasmodium vivax (trophozoite)",
+        "Plasmodium malariae (band form)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Plasmodium falciparum (gametocyte)": {
+      "features": "Crescent- or banana-shaped, longer than the red cell diameter, with a central chromatin mass and pigment; the stretched host cell may show as a thin rim (Laveran's bib). Diagnostic of P. falciparum.",
+      "lookalikes": [
+        "Plasmodium vivax (gametocyte)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Plasmodium vivax (trophozoite)": {
+      "features": "Amoeboid trophozoite with irregular cytoplasm inside an enlarged (up to about 1.5–2 times normal), pale red cell with Schüffner's dots.",
+      "lookalikes": [
+        "Plasmodium vivax (gametocyte)",
+        "Plasmodium falciparum (ring forms)",
+        "Plasmodium malariae (band form)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Plasmodium vivax (gametocyte)": {
+      "features": "Round to oval, nearly filling an enlarged red cell with Schüffner's dots, with scattered brown pigment; macrogametocytes have compact, eccentric chromatin.",
+      "lookalikes": [
+        "Plasmodium vivax (trophozoite)",
+        "Plasmodium falciparum (gametocyte)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Plasmodium malariae (band form)": {
+      "features": "Compact trophozoite stretched across a normal-sized or small red cell as a band, often with coarse dark pigment and no Schüffner's dots.",
+      "lookalikes": [
+        "Plasmodium vivax (trophozoite)",
+        "Plasmodium falciparum (ring forms)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Trypanosoma brucei (trypomastigote)": {
+      "features": "Slender, about 14–33 µm long, with a central nucleus, a small posterior kinetoplast, an undulating membrane, and a free anterior flagellum; extracellular in blood. Far smaller than microfilariae.",
+      "lookalikes": [
+        "Wuchereria bancrofti (microfilaria)",
+        "Brugia malayi (microfilaria)"
+      ],
+      "tos": "MP-H.4"
+    },
+    "Wuchereria bancrofti (microfilaria)": {
+      "features": "Sheathed, about 240–300 × 7.5–10 µm, with smooth, graceful curves, a short head space, and a tail tip free of nuclei; sheath often unstained by Giemsa. Usually nocturnally periodic.",
+      "lookalikes": [
+        "Brugia malayi (microfilaria)"
+      ],
+      "tos": "MP-H.1"
+    },
+    "Brugia malayi (microfilaria)": {
+      "features": "Sheathed, about 177–230 × 5–6 µm, with kinky curves, a long head space, and two separate nuclei at the tail tip; sheath stains pink with Giemsa.",
+      "lookalikes": [
+        "Wuchereria bancrofti (microfilaria)"
+      ],
+      "tos": "MP-H.1"
+    }
+  }
+}

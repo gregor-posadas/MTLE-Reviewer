@@ -1,0 +1,1175 @@
+{
+  "source": "Board of Medical Technology Res. No. 13 s. 2023, Annex (as of Nov 2022)",
+  "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2023-13%20published_Annex_TOS.pdf",
+  "verified": false,
+  "note": "Extracted via automated PDF-to-text (direct download blocked); item counts cross-checked by sums but not against the PDF by a human. Difficulty (Easy/Moderate/Difficult) splits omitted because extracted columns were inconsistent; Annex target is 30/50/20 per subject. Subject order follows the exam program (Day 1: CC, MP, CM; Day 2: HE, BB, HL); the Annex itself lists HE, BB, CC, CM, MP, HL.",
+  "subjects": [
+    {
+      "code": "CC",
+      "name": "Clinical Chemistry",
+      "weight": 20,
+      "day": 1,
+      "items": 100,
+      "topics": [
+        {
+          "code": "CC-A",
+          "name": "Scientific and technical components of laboratory testing",
+          "items": 16,
+          "subtopics": [
+            {
+              "code": "CC-A.1",
+              "name": "Sample management: patient preparation, specimen collection, labelling and processing",
+              "items": 4
+            },
+            {
+              "code": "CC-A.2",
+              "name": "Analytic techniques (incl. C&MS, molecular), automation, POCT, instrumentation and equipment use (incl. calibration, preventive maintenance)",
+              "items": 6
+            },
+            {
+              "code": "CC-A.3",
+              "name": "Reagent preparation, use and storage; laboratory mathematics",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "code": "CC-B",
+          "name": "Quality assurance and laboratory safety",
+          "items": 15,
+          "subtopics": [
+            {
+              "code": "CC-B.1",
+              "name": "Quality assurance (incl. quality control and lean sigma)",
+              "items": 10
+            },
+            {
+              "code": "CC-B.2",
+              "name": "Laboratory safety",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "code": "CC-C",
+          "name": "Metabolic blood tests",
+          "items": 50,
+          "subtopics": [
+            {
+              "code": "CC-C.1",
+              "name": "Water balance and electrolytes",
+              "items": 6
+            },
+            {
+              "code": "CC-C.2",
+              "name": "NPN compounds, other metabolic intermediaries and inorganic ions",
+              "items": 8
+            },
+            {
+              "code": "CC-C.3",
+              "name": "Carbohydrates",
+              "items": 8
+            },
+            {
+              "code": "CC-C.4",
+              "name": "Lipids and lipoproteins",
+              "items": 8
+            },
+            {
+              "code": "CC-C.5",
+              "name": "Specific proteins",
+              "items": 6
+            },
+            {
+              "code": "CC-C.6",
+              "name": "Liver function",
+              "items": 6
+            },
+            {
+              "code": "CC-C.7",
+              "name": "Clinical enzymology",
+              "items": 8
+            }
+          ]
+        },
+        {
+          "code": "CC-D",
+          "name": "Endocrine function tests",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "CC-D.1",
+              "name": "Thyroid function",
+              "items": 4
+            },
+            {
+              "code": "CC-D.2",
+              "name": "Gonadal function",
+              "items": 2
+            },
+            {
+              "code": "CC-D.3",
+              "name": "Pituitary and adrenal function",
+              "items": 3
+            },
+            {
+              "code": "CC-D.4",
+              "name": "Hormonal and organ system regulation of calcium metabolism (incl. vitamin D and PTH)",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "CC-E",
+          "name": "Drug testing, toxicology and therapeutic drug monitoring",
+          "items": 6,
+          "subtopics": [
+            {
+              "code": "CC-E.1",
+              "name": "Substances of abuse",
+              "items": 2
+            },
+            {
+              "code": "CC-E.2",
+              "name": "Toxicology (incl. alcohol)",
+              "items": 2
+            },
+            {
+              "code": "CC-E.3",
+              "name": "Therapeutic drug monitoring (TDM)",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "CC-F",
+          "name": "Blood gas analysis",
+          "items": 3,
+          "subtopics": [
+            {
+              "code": "CC-F.1",
+              "name": "Blood gas",
+              "items": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MP",
+      "name": "Microbiology and Parasitology",
+      "weight": 20,
+      "day": 1,
+      "items": 100,
+      "note": "Annex splits this subject 70 items Microbiology (A-G) / 30 items Parasitology (H-J); 'section' marks each topic.",
+      "topics": [
+        {
+          "code": "MP-A",
+          "name": "Bacteriology",
+          "items": 45,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-A.1",
+              "name": "Collection, transport and processing",
+              "items": 5
+            },
+            {
+              "code": "MP-A.2",
+              "name": "Culture media",
+              "items": 4
+            },
+            {
+              "code": "MP-A.3",
+              "name": "Bacteria (aerobes)",
+              "items": 25
+            },
+            {
+              "code": "MP-A.4",
+              "name": "Bacteria (anaerobes)",
+              "items": 3
+            },
+            {
+              "code": "MP-A.5",
+              "name": "Mycobacteria",
+              "items": 3
+            },
+            {
+              "code": "MP-A.6",
+              "name": "Bacteria with unusual physiology and growth requirements",
+              "items": 4
+            },
+            {
+              "code": "MP-A.7",
+              "name": "Bacteriologic examination of water and milk",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "MP-B",
+          "name": "Mycology",
+          "items": 4,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-B.1",
+              "name": "Collection and transport of clinical specimens",
+              "items": 2
+            },
+            {
+              "code": "MP-B.2",
+              "name": "Culture and identification, general characteristics, transmission and diseases",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "MP-C",
+          "name": "Virology",
+          "items": 8,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-C.1",
+              "name": "General characteristics, transmission and diseases",
+              "items": 2
+            },
+            {
+              "code": "MP-C.2",
+              "name": "Collection and transport",
+              "items": 3
+            },
+            {
+              "code": "MP-C.3",
+              "name": "Examination and identification",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "MP-D",
+          "name": "Molecular tests",
+          "items": 3,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-D.1",
+              "name": "Molecular techniques",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "MP-E",
+          "name": "Equipment and instrumentation",
+          "items": 2,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-E.1",
+              "name": "Equipment and instrumentation",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "MP-F",
+          "name": "Epidemiology, prevention and control of microbial agents",
+          "items": 2,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-F.1",
+              "name": "Microbial control",
+              "items": 1
+            },
+            {
+              "code": "MP-F.2",
+              "name": "Surveillance (public health)",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "MP-G",
+          "name": "Quality control, quality assurance and laboratory biosafety",
+          "items": 6,
+          "section": "Microbiology",
+          "subtopics": [
+            {
+              "code": "MP-G.1",
+              "name": "Quality control",
+              "items": 2
+            },
+            {
+              "code": "MP-G.2",
+              "name": "Quality assurance",
+              "items": 2
+            },
+            {
+              "code": "MP-G.3",
+              "name": "Laboratory biosafety: patient/staff/workplace",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "MP-H",
+          "name": "Parasites: epidemiology, life cycle, morphology, manner of reporting, counting",
+          "items": 22,
+          "section": "Parasitology",
+          "subtopics": [
+            {
+              "code": "MP-H.1",
+              "name": "Nematodes",
+              "items": 8
+            },
+            {
+              "code": "MP-H.2",
+              "name": "Trematodes",
+              "items": 3
+            },
+            {
+              "code": "MP-H.3",
+              "name": "Cestodes",
+              "items": 3
+            },
+            {
+              "code": "MP-H.4",
+              "name": "Protozoa",
+              "items": 8
+            }
+          ]
+        },
+        {
+          "code": "MP-I",
+          "name": "Parasitologic techniques",
+          "items": 5,
+          "section": "Parasitology",
+          "subtopics": [
+            {
+              "code": "MP-I.1",
+              "name": "Routine techniques",
+              "items": 2
+            },
+            {
+              "code": "MP-I.2",
+              "name": "Concentration techniques",
+              "items": 1
+            },
+            {
+              "code": "MP-I.3",
+              "name": "Collection and preservation of specimen",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "MP-J",
+          "name": "Quality control and quality assurance (parasitology)",
+          "items": 3,
+          "section": "Parasitology",
+          "subtopics": [
+            {
+              "code": "MP-J.1",
+              "name": "Principles of quality control in parasitological tests",
+              "items": 2
+            },
+            {
+              "code": "MP-J.2",
+              "name": "Principles of quality assurance in parasitological tests",
+              "items": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "name": "Clinical Microscopy",
+      "weight": 10,
+      "day": 1,
+      "items": 100,
+      "topics": [
+        {
+          "code": "CM-A",
+          "name": "Urine",
+          "items": 57,
+          "subtopics": [
+            {
+              "code": "CM-A.1",
+              "name": "Anatomy and physiology of the kidney; formation of urine",
+              "items": 5
+            },
+            {
+              "code": "CM-A.2",
+              "name": "Macroscopic examination",
+              "items": 12
+            },
+            {
+              "code": "CM-A.3",
+              "name": "Chemical analyses",
+              "items": 17
+            },
+            {
+              "code": "CM-A.4",
+              "name": "Microscopic examination",
+              "items": 20
+            },
+            {
+              "code": "CM-A.5",
+              "name": "Renal diseases, renal calculi, metabolic disorders",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "CM-B",
+          "name": "Feces",
+          "items": 3,
+          "subtopics": [
+            {
+              "code": "CM-B.1",
+              "name": "Macroscopic examination",
+              "items": 1
+            },
+            {
+              "code": "CM-B.2",
+              "name": "Chemical analyses",
+              "items": 1
+            },
+            {
+              "code": "CM-B.3",
+              "name": "Microscopic examination",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "CM-C",
+          "name": "Cerebrospinal fluid (CSF)",
+          "items": 5,
+          "subtopics": [
+            {
+              "code": "CM-C.1",
+              "name": "Macroscopic examination",
+              "items": 1
+            },
+            {
+              "code": "CM-C.2",
+              "name": "Chemical analyses",
+              "items": 2
+            },
+            {
+              "code": "CM-C.3",
+              "name": "Microscopic examination",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "CM-D",
+          "name": "Seminal fluid",
+          "items": 6,
+          "subtopics": [
+            {
+              "code": "CM-D.1",
+              "name": "Macroscopic examination",
+              "items": 1
+            },
+            {
+              "code": "CM-D.2",
+              "name": "Chemical analyses",
+              "items": 2
+            },
+            {
+              "code": "CM-D.3",
+              "name": "Microscopic examination",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "CM-E",
+          "name": "Amniotic fluid",
+          "items": 2,
+          "subtopics": [
+            {
+              "code": "CM-E.1",
+              "name": "Macroscopic examination",
+              "items": 1
+            },
+            {
+              "code": "CM-E.2",
+              "name": "Chemical analyses",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "CM-F",
+          "name": "Synovial fluid",
+          "items": 2,
+          "subtopics": [
+            {
+              "code": "CM-F.1",
+              "name": "Chemical analyses",
+              "items": 1
+            },
+            {
+              "code": "CM-F.2",
+              "name": "Microscopic examination",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "CM-G",
+          "name": "Serous fluids (peritoneal, pleural, pericardial)",
+          "items": 4,
+          "subtopics": [
+            {
+              "code": "CM-G.1",
+              "name": "Macroscopic examination",
+              "items": 1
+            },
+            {
+              "code": "CM-G.2",
+              "name": "Chemical analyses",
+              "items": 2
+            },
+            {
+              "code": "CM-G.3",
+              "name": "Microscopic examination",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "CM-H",
+          "name": "Specimen collection, preservation and handling",
+          "items": 10,
+          "note": "Subtopic item counts for this topic appeared in a shifted column in the PDF text extraction; values agree across two independent extractions and sum to the topic total.",
+          "subtopics": [
+            {
+              "code": "CM-H.1",
+              "name": "Collection of specimen",
+              "items": 2
+            },
+            {
+              "code": "CM-H.2",
+              "name": "Urine handling and preservation",
+              "items": 3
+            },
+            {
+              "code": "CM-H.3",
+              "name": "Body fluids handling and preservation",
+              "items": 2
+            },
+            {
+              "code": "CM-H.4",
+              "name": "Transport and reception of specimens",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "CM-I",
+          "name": "Microscope, automation and other instruments",
+          "items": 5,
+          "note": "Subtopic item counts for this topic appeared in a shifted column in the PDF text extraction; values agree across two independent extractions and sum to the topic total.",
+          "subtopics": [
+            {
+              "code": "CM-I.1",
+              "name": "Microscopes",
+              "items": 2
+            },
+            {
+              "code": "CM-I.2",
+              "name": "Automation",
+              "items": 1
+            },
+            {
+              "code": "CM-I.3",
+              "name": "Other instruments",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "CM-J",
+          "name": "Quality assurance and laboratory safety",
+          "items": 6,
+          "note": "Subtopic item counts for this topic appeared in a shifted column in the PDF text extraction; values agree across two independent extractions and sum to the topic total.",
+          "subtopics": [
+            {
+              "code": "CM-J.1",
+              "name": "Laboratory hazards",
+              "items": 2
+            },
+            {
+              "code": "CM-J.2",
+              "name": "Quality assurance",
+              "items": 2
+            },
+            {
+              "code": "CM-J.3",
+              "name": "Preventive maintenance",
+              "items": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HE",
+      "name": "Hematology",
+      "weight": 20,
+      "day": 2,
+      "items": 100,
+      "topics": [
+        {
+          "code": "HE-A",
+          "name": "Scientific and technical components of laboratory testing",
+          "items": 37,
+          "subtopics": [
+            {
+              "code": "HE-A.1",
+              "name": "Sample management: patient preparation, specimen collection and processing",
+              "items": 5
+            },
+            {
+              "code": "HE-A.2",
+              "name": "Analytic techniques and procedures (incl. automation, POCT, flow cytometry, cytogenetics, molecular, instrumentation and equipment use incl. calibration and preventive maintenance)",
+              "items": 32
+            }
+          ]
+        },
+        {
+          "code": "HE-B",
+          "name": "Blood cell production, structure, metabolism and function",
+          "items": 20,
+          "subtopics": [
+            {
+              "code": "HE-B.1",
+              "name": "Hematopoiesis",
+              "items": 5
+            },
+            {
+              "code": "HE-B.2",
+              "name": "Red blood cells",
+              "items": 5
+            },
+            {
+              "code": "HE-B.3",
+              "name": "White blood cells",
+              "items": 5
+            },
+            {
+              "code": "HE-B.4",
+              "name": "Platelets",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "code": "HE-C",
+          "name": "Routine laboratory evaluation of blood cells",
+          "items": 9,
+          "subtopics": [
+            {
+              "code": "HE-C.1",
+              "name": "Microscopy-based (incl. peripheral blood smear)",
+              "items": 5
+            },
+            {
+              "code": "HE-C.2",
+              "name": "Automated hematology analyzers",
+              "items": 4
+            }
+          ]
+        },
+        {
+          "code": "HE-D",
+          "name": "Blood disorders",
+          "items": 9,
+          "subtopics": [
+            {
+              "code": "HE-D.1",
+              "name": "Erythrocyte disorders",
+              "items": 3
+            },
+            {
+              "code": "HE-D.2",
+              "name": "Leukocyte disorders",
+              "items": 3
+            },
+            {
+              "code": "HE-D.3",
+              "name": "Thrombocyte disorders",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "HE-E",
+          "name": "Coagulation",
+          "items": 20,
+          "subtopics": [
+            {
+              "code": "HE-E.1",
+              "name": "Hemostasis",
+              "items": 5
+            },
+            {
+              "code": "HE-E.2",
+              "name": "Tests",
+              "items": 10
+            },
+            {
+              "code": "HE-E.3",
+              "name": "Disorders",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "code": "HE-F",
+          "name": "Quality assurance and laboratory communication",
+          "items": 5,
+          "subtopics": [
+            {
+              "code": "HE-F.1",
+              "name": "Quality assurance",
+              "items": 4
+            },
+            {
+              "code": "HE-F.2",
+              "name": "Laboratory communication",
+              "items": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BB",
+      "name": "Blood Banking and Serology",
+      "weight": 20,
+      "day": 2,
+      "items": 100,
+      "topics": [
+        {
+          "code": "BB-A",
+          "name": "Blood group systems",
+          "items": 14,
+          "subtopics": [
+            {
+              "code": "BB-A.1",
+              "name": "ABO blood group system",
+              "items": 5
+            },
+            {
+              "code": "BB-A.2",
+              "name": "Rh blood group system",
+              "items": 5
+            },
+            {
+              "code": "BB-A.3",
+              "name": "Other major blood group systems",
+              "items": 3
+            },
+            {
+              "code": "BB-A.4",
+              "name": "Minor blood group systems",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "BB-B",
+          "name": "Blood processing",
+          "items": 15,
+          "subtopics": [
+            {
+              "code": "BB-B.1",
+              "name": "Blood donor screening, selection, collection and donor care",
+              "items": 5
+            },
+            {
+              "code": "BB-B.2",
+              "name": "Blood preservation, banking and disposal",
+              "items": 4
+            },
+            {
+              "code": "BB-B.3",
+              "name": "Blood component preparation and therapy",
+              "items": 6
+            }
+          ]
+        },
+        {
+          "code": "BB-C",
+          "name": "Transfusion",
+          "items": 4,
+          "subtopics": [
+            {
+              "code": "BB-C.1",
+              "name": "Transfusion reactions",
+              "items": 3
+            },
+            {
+              "code": "BB-C.2",
+              "name": "Transfusion-transmitted diseases",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "BB-D",
+          "name": "Blood bank procedures",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "BB-D.1",
+              "name": "Compatibility testing",
+              "items": 4
+            },
+            {
+              "code": "BB-D.2",
+              "name": "Antiglobulin test",
+              "items": 3
+            },
+            {
+              "code": "BB-D.3",
+              "name": "Antibody identification",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "BB-E",
+          "name": "Hemolytic diseases",
+          "items": 5,
+          "subtopics": [
+            {
+              "code": "BB-E.1",
+              "name": "Hemolytic disease of the fetus and newborn (HDFN)",
+              "items": 3
+            },
+            {
+              "code": "BB-E.2",
+              "name": "Autoimmune hemolytic anemia and drug-induced immune hemolytic anemia",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "BB-F",
+          "name": "Immunity",
+          "items": 20,
+          "subtopics": [
+            {
+              "code": "BB-F.1",
+              "name": "Innate immunity",
+              "items": 5
+            },
+            {
+              "code": "BB-F.2",
+              "name": "Humoral immunity (immunogens, immunoglobulins, B cells)",
+              "items": 8
+            },
+            {
+              "code": "BB-F.3",
+              "name": "Cell-mediated immunity",
+              "items": 5
+            },
+            {
+              "code": "BB-F.4",
+              "name": "Complement system",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "BB-G",
+          "name": "Transplantation immunology",
+          "items": 3,
+          "note": "Subtopic item counts for this topic appeared in a shifted column in the PDF text extraction; values agree across two independent extractions and sum to the topic total.",
+          "subtopics": [
+            {
+              "code": "BB-G.1",
+              "name": "Histocompatibility systems",
+              "items": 1
+            },
+            {
+              "code": "BB-G.2",
+              "name": "Histocompatibility testing",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "BB-H",
+          "name": "Serologic tests",
+          "items": 20,
+          "subtopics": [
+            {
+              "code": "BB-H.1",
+              "name": "Bacterial infections and STD tests",
+              "items": 5
+            },
+            {
+              "code": "BB-H.2",
+              "name": "Viral infection tests",
+              "items": 6
+            },
+            {
+              "code": "BB-H.3",
+              "name": "Fungal infection tests",
+              "items": 1
+            },
+            {
+              "code": "BB-H.4",
+              "name": "Parasitic infection tests",
+              "items": 2
+            },
+            {
+              "code": "BB-H.5",
+              "name": "Tumor markers",
+              "items": 3
+            },
+            {
+              "code": "BB-H.6",
+              "name": "Immune disorders: hypersensitivity, autoimmunity, immunodeficiency and immunoproliferative disorders",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "BB-I",
+          "name": "Molecular tests",
+          "items": 3,
+          "subtopics": [
+            {
+              "code": "BB-I.1",
+              "name": "Molecular techniques",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "BB-J",
+          "name": "Quality management",
+          "items": 6,
+          "note": "Subtopic item counts for this topic appeared in a shifted column in the PDF text extraction; values agree across two independent extractions and sum to the topic total.",
+          "subtopics": [
+            {
+              "code": "BB-J.1",
+              "name": "Quality control",
+              "items": 2
+            },
+            {
+              "code": "BB-J.2",
+              "name": "Quality assurance",
+              "items": 2
+            },
+            {
+              "code": "BB-J.3",
+              "name": "Laboratory safety",
+              "items": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HL",
+      "name": "Histopathologic Techniques, MT Laws and Ethics",
+      "weight": 10,
+      "day": 2,
+      "items": 100,
+      "topics": [
+        {
+          "code": "HL-A",
+          "name": "Histology and general pathology",
+          "items": 8,
+          "subtopics": [
+            {
+              "code": "HL-A.1",
+              "name": "Terminologies",
+              "items": 2
+            },
+            {
+              "code": "HL-A.2",
+              "name": "Etiology of disease",
+              "items": 2
+            },
+            {
+              "code": "HL-A.3",
+              "name": "Signs, symptoms and course of disease",
+              "items": 2
+            },
+            {
+              "code": "HL-A.4",
+              "name": "Cellular and tissue changes (cellular injury and tissue death, cellular adaptation)",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "HL-B",
+          "name": "Histopathologic techniques and procedures",
+          "items": 40,
+          "subtopics": [
+            {
+              "code": "HL-B.1",
+              "name": "Preservation and handling of specimen",
+              "items": 10
+            },
+            {
+              "code": "HL-B.2",
+              "name": "Tissue processing and procedures",
+              "items": 20
+            },
+            {
+              "code": "HL-B.3",
+              "name": "Staining",
+              "items": 10
+            }
+          ]
+        },
+        {
+          "code": "HL-C",
+          "name": "Cytological techniques and procedures",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "HL-C.1",
+              "name": "Preservation and handling of specimen",
+              "items": 2
+            },
+            {
+              "code": "HL-C.2",
+              "name": "Processing",
+              "items": 6
+            },
+            {
+              "code": "HL-C.3",
+              "name": "Staining",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "HL-D",
+          "name": "Principles of autopsy",
+          "items": 2,
+          "subtopics": [
+            {
+              "code": "HL-D.1",
+              "name": "Terminologies",
+              "items": 1
+            },
+            {
+              "code": "HL-D.2",
+              "name": "Handling, processing and documentation",
+              "items": 1
+            }
+          ]
+        },
+        {
+          "code": "HL-E",
+          "name": "Quality control and quality assurance",
+          "items": 5,
+          "subtopics": [
+            {
+              "code": "HL-E.1",
+              "name": "Quality control",
+              "items": 3
+            },
+            {
+              "code": "HL-E.2",
+              "name": "Quality assurance",
+              "items": 2
+            }
+          ]
+        },
+        {
+          "code": "HL-F",
+          "name": "MT laws (RA 5527)",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "HL-F.1",
+              "name": "Licensure examination",
+              "items": 3
+            },
+            {
+              "code": "HL-F.2",
+              "name": "Registration",
+              "items": 4
+            },
+            {
+              "code": "HL-F.3",
+              "name": "Practice of the profession",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "HL-G",
+          "name": "Related laws relevant to MT practice",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "HL-G.1",
+              "name": "RA 11166, RA 9165, RA 9288",
+              "items": 4
+            },
+            {
+              "code": "HL-G.2",
+              "name": "RA 7170, RA 10173, RA 7719",
+              "items": 3
+            },
+            {
+              "code": "HL-G.3",
+              "name": "RA 10912, RA 968",
+              "items": 3
+            }
+          ]
+        },
+        {
+          "code": "HL-H",
+          "name": "Code of ethics including bioethics",
+          "items": 5,
+          "subtopics": [
+            {
+              "code": "HL-H.1",
+              "name": "Principles of the Code of Ethics and bioethics",
+              "items": 5
+            }
+          ]
+        },
+        {
+          "code": "HL-I",
+          "name": "Laboratory management and research",
+          "items": 10,
+          "subtopics": [
+            {
+              "code": "HL-I.1",
+              "name": "Laboratory management",
+              "items": 8
+            },
+            {
+              "code": "HL-I.2",
+              "name": "Research",
+              "items": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

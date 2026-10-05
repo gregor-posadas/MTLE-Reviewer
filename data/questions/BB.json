@@ -1,0 +1,656 @@
+{
+ "subject": "BB",
+ "author": "Original (Claude draft, pending review)",
+ "items": [
+  {
+   "id": "BB-0001",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which sugar, when attached to the H antigen, gives a red cell its A specificity?",
+   "options": [
+    "N-acetyl-D-glucosamine",
+    "L-fucose",
+    "N-acetyl-D-galactosamine",
+    "D-galactose"
+   ],
+   "answer": 2,
+   "why": "The A gene codes for a glycosyltransferase that adds **N-acetyl-D-galactosamine** to the terminal galactose of the H antigen. Without H (which needs L-fucose first), neither the A nor the B sugar can be attached.",
+   "whyNot": {
+    "0": "N-acetyl-D-glucosamine is part of the type 1/type 2 precursor chain backbone, not the A-specific sugar.",
+    "1": "L-fucose defines the H antigen; it is the required acceptor structure, not the A determinant.",
+    "3": "D-galactose is the immunodominant sugar of the B antigen, added by the B-gene transferase."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter"
+  },
+  {
+   "id": "BB-0002",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's red cells are nonreactive with anti-A, anti-B, and anti-H lectin (Ulex europaeus). Her serum strongly agglutinates A1 cells, B cells, and group O screening cells at room temperature and at 37 °C, and her autologous control is negative. These results are best explained by:",
+   "options": [
+    "A2 subgroup with anti-A1 in the serum",
+    "Group O with a cold-reacting alloantibody",
+    "A cold autoantibody (anti-I) interfering with typing",
+    "Bombay (Oh) phenotype"
+   ],
+   "answer": 3,
+   "why": "Bombay individuals (hh) cannot make H antigen, so their red cells lack H, A and B and do not react with Ulex lectin. Their serum contains anti-A, anti-B and a potent anti-H that reacts over a wide thermal range, so **group O cells, which carry the most H antigen, are strongly agglutinated**.",
+   "whyNot": {
+    "0": "A2 cells agglutinate with anti-A reagent, and anti-A1 would not react with group O screening cells.",
+    "1": "Group O cells have the greatest amount of H antigen and would react strongly with anti-H lectin.",
+    "2": "An autoantibody would also react with the patient's own cells, making the autologous control positive."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (Bombay phenotype)"
+  },
+  {
+   "id": "BB-0003",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman whose red cells type D-positive with routine anti-D reagent is found to have alloanti-D after delivering a D-positive infant. Investigation shows her red cells lack certain epitopes of the D antigen. Her phenotype is best described as:",
+   "options": [
+    "Partial D",
+    "Del phenotype",
+    "Weak D caused by a reduced number of otherwise complete D sites",
+    "Rhnull phenotype"
+   ],
+   "answer": 0,
+   "why": "Partial D red cells lack one or more D epitopes, so the person can form alloanti-D against the missing epitopes after exposure to conventional D-positive cells. **The defining feature is a qualitative (missing epitope) change**, and such cells may still type D-positive with many reagents.",
+   "whyNot": {
+    "1": "Del cells carry so little D that it is detected only by adsorption-elution, so they would type D-negative routinely.",
+    "2": "Classic weak D reflects a quantitative reduction of D sites that carry essentially all epitopes; these individuals generally do not make alloanti-D.",
+    "3": "Rhnull cells lack all Rh antigens and would type D-negative."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter"
+  },
+  {
+   "id": "BB-0004",
+   "tos": "BB-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Seven days after transfusion, a patient has a falling hemoglobin, jaundice, and a newly positive DAT. The pretransfusion antibody screen was negative. The eluate contains an antibody known for showing dosage, binding complement, and dropping to undetectable levels in vivo. Which antibody is most likely?",
+   "options": [
+    "Anti-Jka",
+    "Anti-P1",
+    "Anti-M",
+    "Anti-Lea"
+   ],
+   "answer": 0,
+   "why": "Kidd antibodies are a classic cause of delayed hemolytic transfusion reactions: they are often weak, show dosage, can bind complement, and fall below detectable levels quickly. Re-exposure to the antigen then triggers an anamnestic response, producing **hemolysis several days after a transfusion that looked compatible**.",
+   "whyNot": {
+    "1": "Anti-P1 is typically a weak cold-reacting IgM antibody that is seldom clinically significant.",
+    "2": "Anti-M is usually a naturally occurring cold-reactive IgM antibody and is rarely clinically significant.",
+    "3": "Anti-Lea is usually a naturally occurring IgM antibody and rarely causes hemolytic transfusion reactions."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Other blood group systems chapter (Kidd)"
+  },
+  {
+   "id": "BB-0005",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Midway through a whole blood donation, a donor becomes pale and sweaty and says she feels faint. What should the phlebotomist do first?",
+   "options": [
+    "Lower the collection bag further so the unit fills faster and can be completed",
+    "Release the tourniquet and remove the needle to stop the collection",
+    "Give the donor oral fluids while the collection continues",
+    "Have the donor stand up and walk to improve circulation"
+   ],
+   "answer": 1,
+   "why": "Pallor, sweating and faintness signal a vasovagal reaction. **The first step is to stop the donation** by releasing the tourniquet and withdrawing the needle; then the donor is positioned with legs raised, tight clothing loosened, a cold compress applied and vital signs monitored.",
+   "whyNot": {
+    "0": "Continuing the draw to finish the unit puts the donor at greater risk; the donor's safety comes before the unit.",
+    "2": "Fluids may help during recovery, but continuing the collection while the donor is symptomatic is unsafe.",
+    "3": "Standing up can worsen the drop in blood pressure and lead to a fall and injury."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Donor selection chapter; AABB Technical Manual (current ed.), Allogeneic and autologous blood donor selection"
+  },
+  {
+   "id": "BB-0006",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Adding adenine to CPD (to make CPDA-1) extends red cell storage from 21 to 35 days mainly because adenine:",
+   "options": [
+    "Keeps 2,3-DPG at normal levels throughout storage",
+    "Acts as the main buffer against the fall in pH",
+    "Chelates calcium to prevent clotting",
+    "Serves as a substrate for red cell ATP synthesis"
+   ],
+   "answer": 3,
+   "why": "Red cells use adenine to resynthesize ATP, and **maintaining ATP improves post-transfusion red cell viability**, which allows the longer shelf life. The other ingredients of the solution have separate roles: citrate anticoagulates, dextrose fuels glycolysis and phosphate buffers.",
+   "whyNot": {
+    "0": "2,3-DPG falls steadily during storage in CPDA-1; adenine does not prevent this.",
+    "1": "Buffering is provided mainly by the phosphate in the solution, not adenine.",
+    "2": "Calcium chelation is the job of citrate, the anticoagulant in the solution."
+   },
+   "ref": "AABB Technical Manual (current ed.), Blood component collection, processing and storage; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Red blood cell preservation chapter. Philippine DOH/NVBSP rules may specify their own requirements; follow local regulation in practice."
+  },
+  {
+   "id": "BB-0007",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Today, Cryoprecipitated AHF is most often transfused to:",
+   "options": [
+    "Raise the platelet count in a thrombocytopenic patient",
+    "Treat hemophilia B (factor IX deficiency)",
+    "Replace fibrinogen in hypofibrinogenemia, such as in massive bleeding or DIC",
+    "Replace the vitamin K-dependent factors during warfarin reversal"
+   ],
+   "answer": 2,
+   "why": "Cryoprecipitate concentrates fibrinogen, factor VIII, von Willebrand factor, factor XIII and fibronectin. Because factor VIII deficiency and von Willebrand disease are now treated mainly with factor concentrates, **its main use is fibrinogen replacement**.",
+   "whyNot": {
+    "0": "Cryoprecipitate contains no meaningful platelets; thrombocytopenia is treated with platelet components.",
+    "1": "Factor IX is not concentrated in cryoprecipitate; it stays in the cryo-poor plasma, and hemophilia B is treated with factor IX concentrate.",
+    "3": "Factors II, VII, IX and X are not concentrated in cryoprecipitate; prothrombin complex concentrate or plasma is used."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Blood component preparation and therapy chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0008",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient will receive red cells donated by his brother as a directed donation. Which modification of the unit is required to prevent transfusion-associated graft-versus-host disease (TA-GVHD)?",
+   "options": [
+    "Irradiation (gamma or x-ray)",
+    "Leukoreduction by filtration",
+    "Saline washing",
+    "Selection of a CMV-seronegative unit"
+   ],
+   "answer": 0,
+   "why": "A blood relative may be homozygous for an HLA haplotype the recipient shares, so the recipient's immune system does not reject the donor's T cells, which can then engraft and attack the host. Irradiation (at least 25 Gy to the center of the unit and at least 15 Gy elsewhere) **stops donor lymphocytes from proliferating** and is the accepted method of prevention.",
+   "whyNot": {
+    "1": "Leukoreduction lowers the number of white cells but does not reliably remove all viable lymphocytes, so it is not acceptable for preventing TA-GVHD.",
+    "2": "Washing removes plasma proteins but leaves enough viable lymphocytes to cause TA-GVHD.",
+    "3": "CMV-seronegative selection reduces the risk of CMV transmission, not TA-GVHD."
+   },
+   "ref": "AABB Technical Manual (current ed.), Blood component modification (irradiation); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Blood component preparation and therapy chapter. Philippine DOH/NVBSP rules may specify their own requirements; follow local regulation in practice."
+  },
+  {
+   "id": "BB-0009",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "About 2 hours into a plasma transfusion, a patient develops sudden respiratory distress, hypoxemia, fever, and hypotension. Chest x-ray shows new bilateral infiltrates, there is no evidence of circulatory overload, and diuretics do not help. The donor is a multiparous woman with HLA class I antibodies. The most likely diagnosis is:",
+   "options": [
+    "Transfusion-associated circulatory overload (TACO)",
+    "Anaphylactic reaction due to anti-IgA",
+    "Febrile nonhemolytic transfusion reaction",
+    "Transfusion-related acute lung injury (TRALI)"
+   ],
+   "answer": 3,
+   "why": "TRALI is acute noncardiogenic pulmonary edema that occurs within 6 hours of transfusion, often with fever and hypotension. Donor antibodies to HLA or neutrophil (HNA) antigens, most often from multiparous women, are the usual cause, and **the absence of volume overload separates it from TACO**.",
+   "whyNot": {
+    "0": "TACO usually shows hypertension, signs of volume overload such as raised BNP, and improvement with diuretics.",
+    "1": "Anaphylaxis begins within minutes with bronchospasm, urticaria and shock, without fever or new bilateral infiltrates.",
+    "2": "A febrile nonhemolytic reaction causes fever and chills but not hypoxemia or pulmonary infiltrates."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Transfusion reactions chapter; AABB Technical Manual (current ed.), Noninfectious complications of transfusion"
+  },
+  {
+   "id": "BB-0010",
+   "tos": "BB-D.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A patient with anti-c and anti-Jka needs 2 crossmatch-compatible red cell units. In the donor population, 80% of units are c-positive and 77% are Jka-positive. Assuming the two antigens are inherited independently, what is the minimum number of ABO-compatible units that should be screened to expect 2 units that are negative for both antigens?",
+   "options": [
+    "4",
+    "9",
+    "44",
+    "10"
+   ],
+   "answer": 2,
+   "why": "Multiply the antigen-NEGATIVE frequencies (1 - 0.80 = 0.20 and 1 - 0.77 = 0.23): 0.20 × 0.23 = 0.046, so 4.6% of donors lack both antigens. Divide the number of units needed by this frequency: 2 / 0.046 = 43.5, which is rounded up to **44 units**.",
+   "whyNot": {
+    "0": "4 results from using the antigen-positive frequencies (0.80 × 0.77 = 0.616; 2 / 0.616 = 3.2) instead of the antigen-negative ones.",
+    "1": "9 accounts only for the Jka-negative frequency (2 / 0.23 = 8.7) and ignores anti-c.",
+    "3": "10 accounts only for the c-negative frequency (2 / 0.20) and ignores anti-Jka."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Compatibility testing / antibody identification chapters; AABB Technical Manual (current ed.)",
+   "worked": {
+    "problem": "A patient with anti-E and anti-Fya needs 3 units. In the donor population, 30% are E-positive and 66% are Fy(a+). How many units should be screened?",
+    "steps": [
+     "Convert to antigen-negative frequencies: E-negative = 1 - 0.30 = 0.70; Fy(a-) = 1 - 0.66 = 0.34.",
+     "Multiply the independent frequencies: 0.70 × 0.34 = 0.238 (23.8% of donors lack both).",
+     "Divide units needed by this frequency: 3 / 0.238 = 12.6.",
+     "Always round up, because you cannot screen part of a unit and rounding down would give fewer than the needed units on average."
+    ],
+    "result": "Screen 13 units."
+   }
+  },
+  {
+   "id": "BB-0011",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An indirect antiglobulin test (tube method) is read as negative. IgG-coated check cells are then added, and after centrifugation no agglutination is seen. The most likely explanation is:",
+   "options": [
+    "The patient has a positive direct antiglobulin test",
+    "Inadequate washing left unbound serum globulin that neutralized the AHG reagent",
+    "The serum contains no clinically significant antibody, so the negative result is valid",
+    "The tubes were overcentrifuged during the antiglobulin phase"
+   ],
+   "answer": 1,
+   "why": "Check cells are IgG-sensitized and should agglutinate if active anti-IgG remains in the tube. **Failure of check cells to react means the AHG was neutralized, inactive, or never added**, most often because poor washing left free serum IgG behind. The negative IAT is therefore invalid and must be repeated.",
+   "whyNot": {
+    "0": "The IAT uses reagent red cells, not the patient's cells, so the patient's DAT status does not explain the loss of AHG activity.",
+    "2": "In a true negative test the anti-IgG remains free and would agglutinate the check cells, so a valid negative still shows a positive check-cell reaction.",
+    "3": "Overcentrifugation tends to cause false-positive readings and would not stop check cells from agglutinating."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antiglobulin test chapter; AABB Technical Manual (current ed.)"
+  },
+  {
+   "id": "BB-0012",
+   "tos": "BB-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An antibody reacts at the antiglobulin phase with several panel cells, but all reactivity disappears when the same panel cells are pretreated with ficin. Which specificity best fits this pattern?",
+   "options": [
+    "Anti-Lea",
+    "Anti-Fya",
+    "Anti-Jka",
+    "Anti-E"
+   ],
+   "answer": 1,
+   "why": "Proteolytic enzymes such as ficin and papain destroy the Fya and Fyb antigens (as well as M and N, with S variably affected). **Loss of reactivity after enzyme treatment** points to an antibody against an enzyme-sensitive antigen such as Fya.",
+   "whyNot": {
+    "0": "Lewis antigens are enhanced by enzyme treatment, so anti-Lea reactivity would increase.",
+    "2": "Kidd antigens are enhanced by enzymes, so anti-Jka reactions get stronger.",
+    "3": "Rh antigens such as E are enhanced, not destroyed, by enzyme treatment."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Antibody detection and identification chapter"
+  },
+  {
+   "id": "BB-0013",
+   "tos": "BB-E.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A D-negative mother delivers a D-positive infant. Her fetal screen (rosette test) is positive, and a Kleihauer–Betke stain shows 28 fetal cells among 2,000 red cells counted. Assuming a maternal blood volume of 5,000 mL, that each 300-µg vial of RhIG protects against 30 mL of fetal whole blood, and using the AABB rounding rule, how many 300-µg vials should be given?",
+   "options": [
+    "4",
+    "6",
+    "3",
+    "2"
+   ],
+   "answer": 2,
+   "why": "Fetal cells = 28 / 2,000 = 1.4%. Fetal whole blood = 1.4 × 50 = 70 mL, and 70 / 30 = 2.33 vials. Because the decimal is below .5, round down to 2 and then add one vial, giving **3 vials**.",
+   "whyNot": {
+    "0": "4 rounds 2.33 up before adding a vial; rounding up applies only when the decimal is .5 or more.",
+    "1": "6 comes from dividing 70 mL of fetal whole blood by 15 mL (4.67, rounded up to 5, plus one vial); 15 mL is the fetal red cell volume one vial covers, so whole blood must be divided by 30 mL.",
+    "3": "2 rounds 2.33 down but leaves out the extra vial that the AABB rule always adds."
+   },
+   "ref": "AABB Technical Manual (current ed.), Perinatal issues in transfusion practice (RhIG dosing); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Hemolytic disease of the fetus and newborn chapter",
+   "worked": {
+    "problem": "A Kleihauer–Betke stain shows 34 fetal cells per 2,000 red cells in a D-negative mother (maternal blood volume 5,000 mL; 30 mL fetal whole blood per 300-µg vial). How many vials?",
+    "steps": [
+     "Percent fetal cells = 34 / 2,000 × 100 = 1.7%.",
+     "Fetal whole blood volume = % fetal cells × 50 = 1.7 × 50 = 85 mL (50 = 5,000 mL / 100).",
+     "Vials = 85 / 30 = 2.83.",
+     "AABB rule: if the decimal is .5 or more, round up and add one vial; if below .5, round down and add one vial. Here 2.83 rounds up to 3, plus 1 = 4."
+    ],
+    "result": "Give 4 vials (300 µg each)."
+   }
+  },
+  {
+   "id": "BB-0014",
+   "tos": "BB-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two weeks after Mycoplasma pneumoniae pneumonia, a young adult develops hemolytic anemia. The DAT is positive with anti-C3d and negative with anti-IgG, and the cold agglutinin titer is markedly raised. The autoantibody most likely has which specificity?",
+   "options": [
+    "Anti-e",
+    "Anti-P",
+    "Anti-I",
+    "Anti-i"
+   ],
+   "answer": 2,
+   "why": "Mycoplasma pneumoniae infection classically induces a polyclonal IgM cold autoantibody with anti-I specificity. The IgM binds in the cooler peripheral circulation, fixes complement and then detaches, **leaving only C3d on the red cells**.",
+   "whyNot": {
+    "0": "Anti-e-like specificities are typical of warm IgG autoantibodies, which would give a positive anti-IgG DAT.",
+    "1": "Anti-P is the biphasic IgG Donath-Landsteiner antibody of paroxysmal cold hemoglobinuria, which does not produce a high cold agglutinin titer.",
+    "3": "Anti-i cold agglutinins are typically associated with infectious mononucleosis (EBV), not Mycoplasma."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Autoimmune hemolytic anemias chapter"
+  },
+  {
+   "id": "BB-0015",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which cell can kill a virus-infected cell that has lost its MHC class I expression, without any prior sensitization?",
+   "options": [
+    "Plasma cell",
+    "Regulatory T cell",
+    "Natural killer (NK) cell",
+    "CD8+ cytotoxic T lymphocyte"
+   ],
+   "answer": 2,
+   "why": "NK cells are innate lymphocytes whose inhibitory receptors recognize self MHC class I. When a cell loses class I (the 'missing self'), **inhibition is lifted and the NK cell kills it** using perforin and granzymes, with no prior exposure needed.",
+   "whyNot": {
+    "0": "Plasma cells secrete antibody and do not kill target cells directly.",
+    "1": "Regulatory T cells suppress immune responses rather than kill infected cells.",
+    "3": "Cytotoxic T cells must recognize peptide presented on MHC class I, so they miss cells that have lost class I, and they need prior priming."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Innate immunity chapter"
+  },
+  {
+   "id": "BB-0016",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which immunoglobulin class is produced first in a primary immune response and is the most efficient activator of the classical complement pathway?",
+   "options": [
+    "IgG",
+    "IgM",
+    "IgE",
+    "IgA"
+   ],
+   "answer": 1,
+   "why": "IgM is the first antibody made after first exposure to an antigen. Because it is a pentamer, **a single bound IgM molecule can engage C1q**, making it the most efficient classical-pathway activator.",
+   "whyNot": {
+    "0": "IgG dominates the secondary response, and two IgG molecules must bind close together to activate C1.",
+    "2": "IgE binds to mast cells and basophils and does not activate the classical pathway.",
+    "3": "IgA does not activate the classical pathway and is mainly a secretory, mucosal antibody."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Immunoglobulins chapter"
+  },
+  {
+   "id": "BB-0017",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Digestion of IgG with pepsin produces:",
+   "options": [
+    "One F(ab')2 fragment, with the Fc portion broken into small peptides",
+    "Two Fab fragments and one intact Fc fragment",
+    "Two separate heavy chains and two separate light chains",
+    "A J chain and a secretory component"
+   ],
+   "answer": 0,
+   "why": "Pepsin cleaves below the hinge-region disulfide bonds, so the two antigen-binding arms stay joined as **one divalent F(ab')2 fragment**, while the Fc portion is broken into smaller peptides. Because F(ab')2 keeps both binding sites, it can still crosslink antigen and cause agglutination or precipitation.",
+   "whyNot": {
+    "1": "Two Fab fragments plus an intact Fc are the products of papain digestion, which cuts above the hinge disulfide bonds.",
+    "2": "Separated heavy and light chains come from reducing the interchain disulfide bonds (for example with 2-mercaptoethanol), not from pepsin.",
+    "3": "The J chain and secretory component belong to polymeric IgM or IgA, not to monomeric IgG."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Immunoglobulins chapter"
+  },
+  {
+   "id": "BB-0018",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Which IgG subclass is the most efficient activator of the classical complement pathway and also has the shortest serum half-life?",
+   "options": [
+    "IgG3",
+    "IgG1",
+    "IgG4",
+    "IgG2"
+   ],
+   "answer": 0,
+   "why": "IgG3 has a long, flexible hinge region that makes it the best complement activator among the subclasses (IgG3 > IgG1 > IgG2, with IgG4 essentially inactive). **Its half-life is only about 7 days**, compared with about 3 weeks for the other subclasses.",
+   "whyNot": {
+    "1": "IgG1 is the most abundant subclass and fixes complement well, but less efficiently than IgG3, and its half-life is about 3 weeks.",
+    "2": "IgG4 does not activate the classical complement pathway.",
+    "3": "IgG2 is a weak complement activator and is associated mainly with responses to polysaccharide antigens."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Immunoglobulins chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0019",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The signature cytokine of Th1 cells, which activates macrophages to kill intracellular pathogens, is:",
+   "options": [
+    "Interferon-gamma",
+    "Interleukin-5",
+    "Interleukin-17",
+    "Interleukin-4"
+   ],
+   "answer": 0,
+   "why": "Th1 cells are defined by **interferon-gamma** production, which activates macrophages and promotes cell-mediated immunity against intracellular organisms such as mycobacteria. Th1 responses also underlie type IV (delayed-type) hypersensitivity.",
+   "whyNot": {
+    "1": "Interleukin-5 is a Th2 cytokine that promotes eosinophil growth and activation.",
+    "2": "Interleukin-17 is produced by Th17 cells and mainly recruits neutrophils.",
+    "3": "Interleukin-4 is the defining Th2 cytokine, driving B-cell class switching to IgE."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Cell-mediated immunity / T-cell chapter"
+  },
+  {
+   "id": "BB-0020",
+   "tos": "BB-F.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which regulatory protein stabilizes the alternative-pathway C3 convertase (C3bBb) and prolongs its activity?",
+   "options": [
+    "Factor I",
+    "Properdin (factor P)",
+    "C1 inhibitor",
+    "Factor H"
+   ],
+   "answer": 1,
+   "why": "Properdin binds C3bBb and **lengthens the half-life of the convertase several-fold**, making it the only positive regulator in this list. The other proteins limit complement activation.",
+   "whyNot": {
+    "0": "Factor I is a serine protease that cleaves and inactivates C3b and C4b with the help of cofactors.",
+    "2": "C1 inhibitor inactivates C1r, C1s and the lectin-pathway MASPs; it does not act on C3bBb.",
+    "3": "Factor H displaces Bb from C3b, speeding decay of the convertase, and acts as a cofactor for factor I."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Complement system chapter"
+  },
+  {
+   "id": "BB-0021",
+   "tos": "BB-G.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a pretransplant complement-dependent cytotoxicity (CDC) crossmatch, a kidney recipient's serum lyses the prospective donor's T lymphocytes. This result most directly indicates that the recipient has preformed antibodies against donor:",
+   "options": [
+    "ABO antigens",
+    "HLA class I antigens",
+    "Minor histocompatibility antigens",
+    "HLA class II antigens"
+   ],
+   "answer": 1,
+   "why": "Resting T lymphocytes express HLA class I but little or no class II, so a positive T-cell CDC crossmatch points to **donor-specific HLA class I antibodies**. These antibodies can cause hyperacute or early antibody-mediated rejection.",
+   "whyNot": {
+    "0": "ABO compatibility is established by red cell typing, not by lymphocyte cytotoxicity testing.",
+    "2": "Minor histocompatibility antigens mainly provoke T-cell responses and are not what a CDC antibody crossmatch detects.",
+    "3": "Class II antibodies are detected with donor B cells, which express both classes; they typically give a positive B-cell but negative T-cell crossmatch."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Transplantation immunology chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0022",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient treated for secondary syphilis five years ago is now asymptomatic. Current results: RPR nonreactive; TP-PA reactive. The best interpretation is:",
+   "options": [
+    "A biologic false-positive reaction caused by an autoimmune disorder",
+    "Prozone in the RPR masking a high antibody level",
+    "A serologic pattern expected after successful treatment",
+    "Active secondary syphilis needing retreatment"
+   ],
+   "answer": 2,
+   "why": "Nontreponemal tests such as the RPR decline and often become nonreactive after effective therapy. **Treponemal tests such as TP-PA usually remain reactive for life**, so this pattern fits past, treated syphilis.",
+   "whyNot": {
+    "0": "Biologic false positives typically affect nontreponemal tests (RPR reactive, treponemal test nonreactive), which is the opposite pattern.",
+    "1": "Prozone occurs with very high antibody levels, typically in active secondary syphilis, not in an asymptomatic patient years after treatment.",
+    "3": "Active secondary syphilis gives a reactive RPR, usually at a high titer."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Syphilis chapter"
+  },
+  {
+   "id": "BB-0023",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Three weeks after streptococcal impetigo, a child develops acute glomerulonephritis. The ASO titer is within the reference range. Which test is most useful for documenting a recent group A streptococcal infection?",
+   "options": [
+    "Anti-DNase B",
+    "Weil-Felix test",
+    "Cold agglutinin titer",
+    "Heterophile antibody test"
+   ],
+   "answer": 0,
+   "why": "After skin infections the ASO response is often weak, partly because skin lipids inactivate streptolysin O. **Anti-DNase B rises after both skin and throat infections**, so it is the preferred test when post-streptococcal disease follows impetigo.",
+   "whyNot": {
+    "1": "The Weil-Felix test detects cross-reacting antibodies in rickettsial infections.",
+    "2": "Cold agglutinin titers are associated with Mycoplasma pneumoniae, not streptococcal infection.",
+    "3": "The heterophile antibody test is used for infectious mononucleosis (EBV)."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Streptococcal infections chapter"
+  },
+  {
+   "id": "BB-0024",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A health care worker's hepatitis B panel shows: HBsAg negative, anti-HBs positive, total anti-HBc negative. This pattern indicates:",
+   "options": [
+    "Immunity from hepatitis B vaccination",
+    "Immunity from a past natural infection",
+    "Acute hepatitis B infection",
+    "Chronic hepatitis B infection"
+   ],
+   "answer": 0,
+   "why": "The hepatitis B vaccine contains only HBsAg, so a vaccinated person makes anti-HBs but **no anti-HBc**. A negative anti-HBc rules out past or current natural infection.",
+   "whyNot": {
+    "1": "Immunity after natural infection shows both anti-HBs and anti-HBc.",
+    "2": "Acute infection shows a positive HBsAg and IgM anti-HBc.",
+    "3": "Chronic infection shows HBsAg persisting beyond 6 months with a positive anti-HBc."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Viral hepatitis chapter"
+  },
+  {
+   "id": "BB-0025",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In the Davidsohn differential absorption test, the heterophile antibodies of infectious mononucleosis are:",
+   "options": [
+    "Absorbed by neither guinea pig kidney cells nor beef red cells",
+    "Absorbed by beef red cells but not by guinea pig kidney cells",
+    "Absorbed by both guinea pig kidney cells and beef red cells",
+    "Absorbed by guinea pig kidney cells but not by beef red cells"
+   ],
+   "answer": 1,
+   "why": "Guinea pig kidney carries the Forssman antigen but not the IM antigen, while beef red cells carry the IM antigen. **IM heterophile antibodies are therefore removed by beef cells but not by guinea pig kidney**, which separates them from Forssman and serum-sickness antibodies.",
+   "whyNot": {
+    "0": "IM heterophile antibodies are removed by beef red cells, so a no-absorption pattern does not describe them.",
+    "2": "Absorption by both reagents is the pattern of serum-sickness heterophile antibodies.",
+    "3": "Absorption by guinea pig kidney but not beef cells is the pattern of Forssman antibodies."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Epstein-Barr virus / infectious mononucleosis chapter"
+  },
+  {
+   "id": "BB-0026",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which is the most appropriate clinical use of carcinoembryonic antigen (CEA)?",
+   "options": [
+    "Detecting ovarian cancer in a woman with a pelvic mass",
+    "Confirming a diagnosis of hepatocellular carcinoma",
+    "Monitoring for recurrence after surgical removal of a colorectal cancer",
+    "Population screening for colorectal cancer in adults"
+   ],
+   "answer": 2,
+   "why": "CEA is neither sensitive nor specific enough for screening; it is raised in smokers and in benign liver, bowel and lung disease. **Its main value is serial monitoring after colorectal cancer resection**, where a rising level suggests recurrence.",
+   "whyNot": {
+    "0": "CA 125, not CEA, is the marker used in evaluating ovarian cancer.",
+    "1": "Alpha-fetoprotein, not CEA, is the main serum marker for hepatocellular carcinoma.",
+    "3": "CEA is not recommended for screening because of its poor sensitivity for early cancer and its many benign causes of elevation."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Tumor markers chapter; Turgeon, Immunology & Serology in Laboratory Medicine"
+  },
+  {
+   "id": "BB-0027",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "On HEp-2 indirect immunofluorescence, a patient's ANA shows discrete, evenly sized speckles (roughly 40 to 60 per nucleus) in interphase cells, and in mitotic cells the speckles line up with the condensed chromosomes. This pattern is most strongly associated with:",
+   "options": [
+    "Drug-induced lupus",
+    "Primary Sjögren syndrome",
+    "Systemic lupus erythematosus",
+    "Limited cutaneous systemic sclerosis (CREST syndrome)"
+   ],
+   "answer": 3,
+   "why": "This is the centromere pattern: the antibodies bind kinetochore proteins, so the speckles follow the chromosomes in dividing cells. **Anticentromere antibodies are most strongly linked to limited cutaneous systemic sclerosis (CREST)**.",
+   "whyNot": {
+    "0": "Drug-induced lupus typically gives a homogeneous pattern due to anti-histone antibodies.",
+    "1": "Sjögren syndrome is classically linked to a fine speckled pattern from anti-SS-A/Ro and anti-SS-B/La.",
+    "2": "SLE is classically linked to homogeneous (anti-dsDNA, anti-nucleosome) or speckled (anti-Sm) patterns."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Autoimmunity (antinuclear antibodies) chapter"
+  },
+  {
+   "id": "BB-0028",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a real-time PCR assay running at 100% efficiency, sample A crosses the threshold at cycle 18 and sample B at cycle 24. Compared with sample B, sample A contained:",
+   "options": [
+    "About 64 times less target",
+    "About 6 times more target",
+    "About 6 times less target",
+    "About 64 times more target"
+   ],
+   "answer": 3,
+   "why": "A lower threshold cycle (Ct) means more starting template, because fewer doublings are needed to reach the threshold. The 6-cycle difference at 100% efficiency equals 2 to the 6th power, so **sample A had about 64 times more target**.",
+   "whyNot": {
+    "0": "This reverses the relationship; a lower Ct means more target, not less.",
+    "1": "Each cycle doubles the product, so 6 cycles is a 64-fold (2 to the 6th) difference, not a 6-fold one.",
+    "2": "This both reverses the direction and treats the cycle difference as linear instead of exponential."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Molecular diagnostic techniques chapter"
+  },
+  {
+   "id": "BB-0029",
+   "tos": "BB-J.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A single control result for a quantitative serologic assay falls above the mean + 3 SD on the Levey-Jennings chart. Under the Westgard multirule system, this 1-3s violation chiefly indicates:",
+   "options": [
+    "An expected event in about 1 of 20 runs; accept the run",
+    "Systematic error; accept the run with a warning",
+    "A shift that must be confirmed over six more runs before acting",
+    "Random error; reject the run"
+   ],
+   "answer": 3,
+   "why": "The 1-3s rule is a rejection rule that is most sensitive to random error (it can also catch large systematic error). **Patient results from the run are held** until the cause is found and corrected.",
+   "whyNot": {
+    "0": "About 1 in 20 values is expected beyond 2 SD; a value beyond 3 SD is expected only about 0.3% of the time.",
+    "1": "1-3s is a rejection rule, not a warning; the warning rule is 1-2s.",
+    "2": "A shift is shown by consecutive values on one side of the mean (such as the 10x rule), not by a single outlier, and a 1-3s violation calls for immediate rejection."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Quality assurance / laboratory safety chapter; Westgard QC multirule system"
+  },
+  {
+   "id": "BB-0030",
+   "tos": "BB-J.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A plugged-in centrifuge starts to smoke and catches fire. Under the standard fire classification, this is a:",
+   "options": [
+    "Class D fire",
+    "Class A fire",
+    "Class B fire",
+    "Class C fire"
+   ],
+   "answer": 3,
+   "why": "**Class C fires involve energized electrical equipment.** Use a carbon dioxide or dry chemical (ABC) extinguisher, cut the power if it is safe to do so, and never use water.",
+   "whyNot": {
+    "0": "Class D fires involve combustible metals such as magnesium or sodium.",
+    "1": "Class A fires involve ordinary combustibles such as paper, wood and cloth.",
+    "2": "Class B fires involve flammable liquids and gases such as solvents."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., Laboratory safety chapter; NFPA fire classification (also used in the Philippine Fire Code)"
+  }
+ ]
+}
