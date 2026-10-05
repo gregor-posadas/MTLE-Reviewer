@@ -17,6 +17,7 @@ Nothing private lives in this repository. The access code and her answers are on
 |---|---|
 | Diagnostic | Shown once, right after the access code is entered (and on Today until it's taken or skipped): 18 questions, 3 per subject, with explanations. The results show where she stands by subject and which topic to start with, and the 18 questions join her review schedule. |
 | Today | The question of the day (2 questions fixed for the day), then today's session: reviews that are due plus up to 15 new questions, spread across subjects by exam weight. Also shows her progress bars (overall, weighted by exam share, and one per subject), a weekly goal (days, not a streak), and the road to exam day with the current phase. |
+| Visual explainers | 47 diagrams she steps through one idea at a time: 33 original drawings (the coagulation cascade, hematopoiesis, Westgard rules, the Gram stain, the nephron, reagent-strip pads, ABO typing, complement, HBV markers, tissue processing and more) plus 14 CDC parasite life cycles walked through stage by stage. They open before the questions in Learn a topic, and as **See it as a diagram** under the explanation of about 240 related questions. |
 | Practice | Mixed practice (weakest first, missed, never seen, flagged), Learn a topic (one TOS topic at a time), Image drill (46 CDC parasite images, look-alikes mixed), Lab math (worked example, then a similar problem), and Mock exam. |
 | Mock exam | Paper-style, like the MTLE: a question booklet plus a separate answer sheet with bubbles, timed at 1.2 minutes per question, with no feedback until it's handed in. Scored against the passing rule (75% weighted average, no subject below 50%). |
 | Progress | Study phases to the exam date, a readiness check ("On track" or "Not yet"), mastery by subject and by TOS topic, answers per day for the last 2 weeks, her diagnostic result, and how often she's right when sure vs. not sure. |
@@ -88,22 +89,23 @@ Some Google Workspace accounts only allow "Anyone within [organization]". Use a 
 
 All questions are original, written for this site and mapped to the Board's Table of Specifications (Board of Medical Technology Res. No. 13, s. 2023). None are copied from reviewers, review centers, books or past-exam "recalls". The site marks them **"Unreviewed draft"** until a licensed RMT checks them.
 
-Every item was drafted by an AI writer and then checked by a separate AI reviewer, which recomputed the math and checked the laws against the statute text. That review changed 3 items in the first batch and 6 in the second. Treat it as a first pass, not as RMT review.
+Every item was drafted by an AI writer and then checked by a separate AI reviewer, which recomputed the math and checked the laws against the statute text. That review changed 3 items in the first batch, 6 in the second and 12 in the third. Treat it as a first pass, not as RMT review.
 
-The second batch was aimed at the subtopics with the fewest questions, so the bank now follows the Table of Specifications proportions at about 66 items per subject.
+The second and third batches filled the subtopics with the fewest questions. The bank now matches the Table of Specifications item for item: 100 questions per subject, with the same count per subtopic as the real exam and the Board's 30/50/20 easy/moderate/difficult mix.
 
 | File | Items |
 |---|---|
-| `data/questions/CC.json` | Clinical Chemistry, 68 (12 lab math) |
-| `data/questions/MP.json` | Microbiology & Parasitology, 68 |
-| `data/questions/CM.json` | Clinical Microscopy, 60 (5 lab math) |
-| `data/questions/HE.json` | Hematology, 66 (9 lab math) |
-| `data/questions/BB.json` | Blood Banking & Serology, 66 (4 lab math) |
-| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 60 (2 lab math) |
+| `data/questions/CC.json` | Clinical Chemistry, 100 (15 lab math) |
+| `data/questions/MP.json` | Microbiology & Parasitology, 100 |
+| `data/questions/CM.json` | Clinical Microscopy, 100 (7 lab math) |
+| `data/questions/HE.json` | Hematology, 100 (11 lab math) |
+| `data/questions/BB.json` | Blood Banking & Serology, 100 (5 lab math) |
+| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 100 (3 lab math) |
+| `data/visuals/*.json` | The visual explainers, 47 in all. How to write one: `data/visuals/README.md`. |
 | `data/images.json` + `data/morphology.json` | 46 CDC DPDx parasite images in 34 categories, plus identification notes. Image questions are built from these automatically. |
 | `data/tos.json` | The TOS: 6 subjects × 100 items, every topic and subtopic. Taken from a text extraction of the PRC PDF; still `"verified": false` until someone checks it against the PDF by eye. |
 
-That's 434 questions (388 written, 46 image) against a 600-item exam, enough for about 4 weeks of new questions at 15 a day. After that the daily session is reviews only until more questions are added.
+That's 646 questions (600 written, 46 image), enough for about 6 weeks of new questions at 15 a day. After that the daily session is reviews only, which is what the last months before the exam should mostly be anyway.
 
 ### Adding or fixing a question
 
@@ -124,6 +126,12 @@ Each question looks like this (`answer` and the `whyNot` keys are 0-based option
 - To mark a file as checked by an RMT, add `"reviewed": true` at the top of that file.
 - Run the tests, then publish.
 
+### Adding a diagram
+
+Follow `data/visuals/README.md`. To check a diagram by eye, start a local server (`python3 -m http.server 8765`) and run `node tools/render-visuals.js <diagram-id>`. This needs Playwright, and it saves a picture of every step in light mode plus the last step in dark mode. The tests check that every diagram is well formed and contains no unsafe markup.
+
+The diagrams were drafted by AI writers who rendered and checked their own work, then reviewed by separate AI reviewers. That review fixed one factual error and about 20 smaller points. The life-cycle captions follow the numbered stages on each CDC DPDx page, but no one has yet compared them with the figures themselves, because CDC's site can't be reached from the build environment. Check them once in a normal browser.
+
 ## Files in this repository
 
 | Path | What it is |
@@ -138,7 +146,8 @@ Each question looks like this (`answer` and the `whyNot` keys are 0-based option
 | `data/` | The TOS, questions, images and morphology notes |
 | `vendor/ts-fsrs.umd.js` | The FSRS scheduler (MIT, license beside it) |
 | `fonts/` | Atkinson Hyperlegible Next and its license |
-| `tests/` | Engine, data and backend tests |
+| `tests/` | Engine, data, diagram and backend tests |
+| `tools/render-visuals.js` | Renders every step of a diagram to PNG for checking |
 | `scripts/stamp-version.sh` | Cache-busting version stamp |
 
 ## Publishing changes

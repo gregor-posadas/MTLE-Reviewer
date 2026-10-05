@@ -10,7 +10,7 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261005115759";
+  var BUILD = "20261005125258";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -23,7 +23,7 @@
 
   var state = {
     ready: false, files: {}, tos: null, topics: {}, images: null, morph: null,
-    bank: { items: [], byId: {} }, reviews: [], cards: {}, settings: {}, flags: [], mine: [],
+    bank: { items: [], byId: {} }, reviews: [], cards: {}, settings: {}, flags: [], mine: [], visuals: [], vizById: {},
     qod: null, session: null, exam: null, lastSync: null, syncError: "", syncing: false,
     diag: null, removedPending: []
   };
@@ -219,10 +219,13 @@
   /* ---------- loading ---------- */
   function loadData() {
     return Promise.all([getJSON("data/tos.json"), getJSON("data/images.json").catch(function () { return { images: [] }; }), getJSON("data/morphology.json").catch(function () { return null; })]
-      .concat(CODES.map(function (c) { return getJSON("data/questions/" + c + ".json").catch(function () { return { subject: c, items: [] }; }); })))
+      .concat(CODES.map(function (c) { return getJSON("data/questions/" + c + ".json").catch(function () { return { subject: c, items: [] }; }); }))
+      .concat(CODES.map(function (c) { return getJSON("data/visuals/" + c + ".json").catch(function () { return { visuals: [] }; }); })))
       .then(function (r) {
         state.tos = r[0]; state.topics = M.topicIndex(r[0]); state.images = r[1]; state.morph = r[2];
         CODES.forEach(function (c, i) { state.files[c] = r[3 + i]; });
+        state.visuals = []; state.vizById = {};
+        CODES.forEach(function (c, i) { (r[3 + CODES.length + i].visuals || []).forEach(function (v) { if (v && v.id && v.steps && v.steps.length) { state.visuals.push(v); state.vizById[v.id] = v; } }); });
       });
   }
   function loadLocal() {
@@ -317,12 +320,13 @@
   }
 
   /* ---------- sessions: one question per screen ---------- */
-  function startSession(mode, list, title, back, replace) {
+  function startSession(mode, list, title, back, replace, intro) {
     if (!list.length) { toast("No questions match that."); return; }
     state.session = {
       mode: mode, title: title, back: back || "#/", ids: list.map(function (q) { return q.id; }),
       orders: {}, i: 0, picked: null, reveal: null, answers: [], started: Date.now(), lastBreak: Date.now(), shownAt: 0,
-      stage: mode === "math" ? "worked" : "ask", pause: false
+      stage: mode === "math" ? "worked" : "ask", pause: false,
+      intro: (intro || []).map(function (v) { return v.id; }), introI: 0
     };
     list.forEach(function (q) { state.session.orders[q.id] = M.shuffle(q.options.map(function (_, i) { return i; }), Math.random); });
     saveSession();
@@ -375,6 +379,12 @@
       return '<div class="wrap"><div class="quiz">' + top + '<div class="pause"><h1 tabindex="-1">Time for a 5-minute break</h1><p>You\'ve studied for 25 minutes. Stand up, look at something far away, get some water. Short fixed breaks keep focus up for longer.</p>' +
         '<div class="actions"><button type="button" class="btn btn--solid" data-act="resume">Continue studying</button><button type="button" class="btn" data-act="end">Stop for now</button></div></div></div></div>';
     }
+    if (s.intro && s.introI < s.intro.length && state.vizById[s.intro[s.introI]]) {
+      var iv = state.vizById[s.intro[s.introI]], last = s.introI + 1 >= s.intro.length;
+      return '<div class="wrap"><div class="quiz">' + top + '<p class="quiz__meta">Before the questions: ' + (s.intro.length > 1 ? "picture " + (s.introI + 1) + " of " + s.intro.length : "a picture of the topic") + "</p>" +
+        '<h1 class="stem" tabindex="-1">' + esc(iv.title) + "</h1>" + vizHtml(iv, { title: false }) +
+        '<div class="nextbar"><button type="button" class="btn btn--quiet btn--sm" data-act="intro-skip">Skip to the questions</button><button type="button" class="btn btn--solid" data-act="intro-next">' + (last ? "Start the questions" : "Next picture") + "</button></div></div></div>";
+    }
     if (s.stage === "worked" && q.worked) {
       var w = q.worked;
       return '<div class="wrap"><div class="quiz">' + top + metaLine(q) + '<div class="worked"><h1 tabindex="-1" class="stem" style="margin:0 0 8px">Worked example</h1><p>' + fmt(w.problem) + "</p><ol>" +
@@ -392,7 +402,7 @@
         '<p class="section__note">' + (s.picked == null ? "Choose an answer, then say how sure you are. " : "") + '<button type="button" class="btn btn--quiet btn--sm" data-act="dunno">I don\'t know</button></p>';
       if (s.mode === "drill") html += '<p class="section__note">Answer quickly: an image counts as learned after 2 correct answers in under 10 seconds.</p>';
     } else {
-      html += (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
+      html += relatedVizHtml(q) + (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
         '<div class="nextbar"><button type="button" class="btn btn--quiet btn--sm" data-act="flag" data-q="' + esc(q.id) + '">Flag a problem</button>' +
         '<button type="button" class="btn btn--solid" data-act="next" id="next-btn">' + (s.i + 1 >= n ? "Finish" : "Next question") + kbd("Enter") + "</button></div>";
     }
@@ -462,7 +472,7 @@
     var info = hist.length ? "Answered " + plural(hist.length, "time") + ", " + hist.filter(function (e) { return e.ok; }).length + " correct." + (card ? " Next review " + inDays(card.dueDay - today()) + "." : "") : "Not answered yet.";
     var order = q.options.map(function (_, i) { return i; });
     return '<div class="wrap"><div class="quiz"><a class="crumb" href="javascript:history.back()">Back</a>' + metaLine(q) + '<h1 class="stem" tabindex="-1">' + fmt(q.stem) + "</h1>" + figure(q, true) +
-      optionRows(q, order, null, { chosen: last && !last.ok ? last.c : q.answer }, true) + (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
+      optionRows(q, order, null, { chosen: last && !last.ok ? last.c : q.answer }, true) + relatedVizHtml(q) + (q.ref ? '<p class="ref">Reference: ' + esc(q.ref) + "</p>" : "") +
       '<p class="section__note">' + esc(info) + (last && !last.ok ? " Your last answer is marked." : "") + '</p><div class="actions"><button type="button" class="btn" data-act="flag" data-q="' + esc(q.id) + '">Flag a problem</button></div></div></div>';
   }
 
@@ -489,6 +499,7 @@
     html += '<section class="mode"><h2>Image drill</h2><p>Identify parasites from CDC images, look-alikes mixed together. ' + plural(imgN, "image") + ".</p><form data-form=\"drill\">" +
       '<fieldset class="chips"><legend>Groups</legend>' + groups.map(function (g, i) { return '<label class="chip-check"><input type="checkbox" name="grp" value="' + esc(g.name) + '" checked><span>' + esc(g.name) + "</span></label>"; }).join("") + "</fieldset>" +
       sizeSelect("dsize", 20) + '<div><button class="btn btn--solid" type="submit">Start image drill</button></div></form></section>';
+    if (state.visuals.length) html += '<section class="mode"><h2>Visual explainers</h2><p>' + plural(state.visuals.length, "diagram") + ' you step through at your own pace: pathways, cascades, life cycles, procedures. They also open before the questions in Learn a topic.</p><div><a class="btn btn--solid" href="#/visuals">Browse the diagrams</a></div></section>';
     html += '<section class="mode"><h2>Lab math</h2><p>For each calculation, a worked example first, then a similar problem to solve. ' + plural(mathN, "problem") + '.</p><div><button type="button" class="btn btn--solid" data-act="start-math">Start lab math</button></div></section>';
     html += '<section class="mode"><h2>Mock exam</h2><p>Paper-style: a question booklet and a separate answer sheet, timed, with no feedback until you hand it in.</p><div><a class="btn btn--solid" href="#/exam">Set up a mock exam</a></div></section>';
     html += "</div></div>";
@@ -783,6 +794,82 @@
       (msg ? '<p class="error" role="alert">' + esc(msg) + "</p>" : "") + '<div class="actions"><button class="btn btn--solid" type="submit">Continue</button><button class="btn btn--quiet" type="button" data-act="skip-gate">Use without syncing for now</button></div></form></div>';
   }
 
+  /* ---------- visual explainers: step-through diagrams ---------- */
+  var vizSeq = 0;
+  /* Diagram markup comes from this repository, but it's cleaned anyway: shapes and text only. */
+  function cleanSvg(svg) {
+    return String(svg || "").replace(/<\s*(script|foreignObject|iframe|object|embed|image|a)\b[\s\S]*?(<\/\s*\1\s*>|\/>)/gi, "")
+      .replace(/\son[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, "").replace(/(href|xlink:href)\s*=\s*("[^"]*"|'[^']*')/gi, function (m, a, v) { return /^["']#/.test(v) ? m : ""; })
+      .replace(/javascript:/gi, "");
+  }
+  function vizHtml(v, opts) {
+    opts = opts || {};
+    var id = "viz" + (++vizSeq), n = v.steps.length, stage;
+    if (v.type === "image") stage = '<img src="' + esc(v.src) + '" alt="' + esc(v.title) + '. ' + esc(v.alt || "") + '" loading="lazy" decoding="async">';
+    else stage = '<svg viewBox="' + esc(v.viewBox || "0 0 360 300") + '" role="img" aria-labelledby="' + id + '-t ' + id + '-c" focusable="false"><title id="' + id + '-t">' + esc(v.title) + "</title>" + cleanSvg(v.svg) + "</svg>";
+    var dots = "";
+    for (var i = 0; i < n; i++) dots += '<i class="viz__dot"></i>';
+    var credit = v.type === "image"
+      ? 'Figure: <a href="' + esc(v.page || v.src) + '" target="_blank" rel="noopener">' + esc(v.credit || "Source") + newTab() + "</a>" + (v.license ? " (" + esc(v.license) + ")" : "") + ". Captions written for this site."
+      : esc(v.source || "Original diagram.");
+    return '<figure class="viz" id="' + id + '" data-viz="' + esc(v.id) + '" data-step="0" tabindex="-1">' +
+      (opts.title === false ? "" : '<h2 class="viz__title">' + esc(v.title) + "</h2>") +
+      '<div class="viz__stage' + (v.type === "image" ? " viz__stage--img" : "") + '">' + stage + "</div>" +
+      '<div class="viz__panel"><p class="viz__count"></p><p class="viz__cap" id="' + id + '-c" aria-live="polite"></p>' +
+      '<div class="viz__nav"><button type="button" class="btn btn--sm" data-act="viz-prev">‹ Back</button><span class="viz__dots" aria-hidden="true">' + dots + '</span><button type="button" class="btn btn--solid btn--sm" data-act="viz-next">Next ›</button></div></div>' +
+      (v.alt ? '<details class="viz__alt"><summary>Describe the whole diagram in words</summary><p>' + esc(v.alt) + "</p></details>" : "") +
+      '<p class="viz__src">' + credit + "</p></figure>";
+  }
+  function vizApply(fig, step, animate) {
+    var v = state.vizById[fig.getAttribute("data-viz")]; if (!v) return;
+    var n = v.steps.length;
+    step = (step + n) % n;   // Next on the last step starts over
+    fig.setAttribute("data-step", step);
+    var st = v.steps[step], controlled = {}, show = {}, hl = {};
+    v.steps.forEach(function (x) { (x.show || []).forEach(function (k) { controlled[k] = true; }); });
+    (st.show || []).forEach(function (k) { show[k] = true; });
+    (st.hl || []).forEach(function (k) { hl[k] = true; });
+    fig.querySelectorAll("svg [data-k]").forEach(function (el) {
+      var k = el.getAttribute("data-k"), wasOff = el.classList.contains("is-off"), off = !!controlled[k] && !show[k];
+      el.classList.toggle("is-off", off);
+      el.classList.toggle("is-hl", !!hl[k]);
+      el.classList.remove("is-new");
+      if (animate && !off && (wasOff || hl[k]) && !reduceMotion) { void el.getBoundingClientRect(); el.classList.add("is-new"); }
+    });
+    fig.querySelector(".viz__count").textContent = "Step " + (step + 1) + " of " + n;
+    fig.querySelector(".viz__cap").innerHTML = fmt(st.caption);
+    fig.querySelectorAll(".viz__dot").forEach(function (d, i) { d.classList.toggle("is-on", i === step); d.classList.toggle("is-past", i < step); });
+    var prev = fig.querySelector('[data-act="viz-prev"]'), nxt = fig.querySelector('[data-act="viz-next"]');
+    prev.disabled = step === 0;
+    nxt.textContent = step === n - 1 ? "Start over" : "Next ›";
+  }
+  function wireViz() { main.querySelectorAll(".viz").forEach(function (f) { vizApply(f, +f.getAttribute("data-step") || 0, false); }); }
+  function relatedVizHtml(q) {
+    var v = M.relatedVisual(q, state.visuals);
+    if (!v) return "";
+    return '<details class="viz-inline"><summary>' + shapeEye() + "See it as a diagram: " + esc(v.title) + "</summary>" + vizHtml(v, { title: false }) + "</details>";
+  }
+  function shapeEye() { return '<svg class="st__shape" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><rect x="1.5" y="3" width="15" height="12" fill="none" stroke="var(--ink)" stroke-width="2"/><path d="M4 12l3.5-4 3 3 2-2 2.5 3" fill="none" stroke="var(--ink)" stroke-width="1.8"/></svg>'; }
+  function viewVisuals() {
+    var html = '<div class="wrap">' + head("Visual explainers", "Diagrams you step through one idea at a time. Tap Next, or use the arrow keys on a laptop.", ["#/practice", "Practice"]);
+    M.SUBJECTS.forEach(function (s) {
+      var list = state.visuals.filter(function (v) { return v.subject === s.code; });
+      if (!list.length) return;
+      html += '<section class="section"><h2>' + esc(s.name) + '</h2><ul class="topic-list" style="max-width:var(--read)">' + list.map(function (v) {
+        return '<li><a href="#/visual/' + esc(v.id) + '"><b>' + esc(v.title) + "</b><small>" + (v.type === "image" ? "Life cycle · " : "") + plural(v.steps.length, "step") + "</small></a></li>";
+      }).join("") + "</ul></section>";
+    });
+    return html + "</div>";
+  }
+  function viewVisual(id) {
+    var v = state.vizById[id];
+    if (!v) return '<div class="wrap">' + head("Diagram not found", "It may have been renamed.", ["#/visuals", "Visual explainers"]) + "</div>";
+    var topic = (v.tos || [])[0], qs = topic ? M.learnQueue(state.bank, M.topicOf(topic)) : [];
+    var html = '<div class="wrap"><div class="quiz">' + head(v.title, esc(subjectName(v.subject)) + (topic ? " · " + esc(topicName(topic)) : ""), ["#/visuals", "Visual explainers"]) + vizHtml(v, { title: false });
+    if (qs.length) html += '<div class="actions" style="margin-top:20px"><a class="btn btn--solid" href="#/learn/' + esc(v.subject) + "/" + esc(M.topicOf(topic)) + '" data-act="learn-topic" data-s="' + esc(v.subject) + '" data-t="' + esc(M.topicOf(topic)) + '">Practice this topic (' + qs.length + ")</a></div>";
+    return html + "</div></div>";
+  }
+
   /* ---------- the diagnostic ---------- */
   function viewDiagIntro() {
     var list = M.diagnosticQueue(state.bank, state.topics);
@@ -950,7 +1037,7 @@
     var view = h[0] || "today";
     // In-page anchors like #settings on the More page
     if (/^[a-z]+$/.test(view) && ["settings", "sync", "mine", "flags", "calm", "how", "credits"].indexOf(view) > -1) { location.replace("#/more/" + view); return; }
-    var nav = { s: "today", q: "", learn: "practice", exam: "practice", my: "more", diagnostic: "today" }[view];
+    var nav = { s: "today", q: "", learn: "practice", exam: "practice", my: "more", diagnostic: "today", visuals: "practice", visual: "practice" }[view];
     nav = nav === undefined ? view : nav;
     document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.getAttribute("data-nav") === nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (!state.ready) return;
@@ -959,8 +1046,10 @@
     else if (view === "q") { html = viewQuestion(h[1]); title = "Question"; }
     else if (view === "practice") { html = viewPractice(); title = "Practice"; }
     else if (view === "diagnostic") { html = viewDiagIntro(); title = "Diagnostic"; }
+    else if (view === "visuals") { html = viewVisuals(); title = "Visual explainers"; }
+    else if (view === "visual") { html = viewVisual(h[1]); title = state.vizById[h[1]] ? state.vizById[h[1]].title : "Visual explainer"; }
     else if (view === "learn") {
-      if (h[2]) { var list = M.learnQueue(state.bank, h[2]); if (!list.length) { location.replace("#/learn/" + h[1]); return; } startSession("learn", list, "Learn: " + topicName(h[2]), "#/learn/" + h[1], true); return; }
+      if (h[2]) { var list = M.learnQueue(state.bank, h[2]); if (!list.length) { location.replace("#/learn/" + h[1]); return; } startSession("learn", list, "Learn: " + topicName(h[2]), "#/learn/" + h[1], true, M.visualsForTopic(state.visuals, h[2])); return; }
       html = viewLearn(h[1]); title = "Learn";
     }
     else if (view === "exam") { html = h[1] === "run" ? viewExamRun() : h[1] === "result" ? viewExamResult() : viewExamSetup(); title = "Mock exam"; }
@@ -983,6 +1072,7 @@
     route._keepFocus = false;
     main.classList.toggle("hidden-kbd", !setting("shortcuts"));
     fillBars(quiet);
+    wireViz();
     if (!quiet && view !== "s" && !(view === "exam" && h[1] === "run")) reveal();
   }
   function refresh() { var y = window.scrollY; route._keepFocus = true; route(); window.scrollTo(0, y); }
@@ -1027,11 +1117,14 @@
     var el = e.target.closest("[data-act]"); if (!el) return;
     var act = el.getAttribute("data-act"), s = state.session;
     if (el.tagName === "A" && act.indexOf("learn") === 0) e.preventDefault();
-    if (act === "learn-topic") { var lq = M.learnQueue(state.bank, el.getAttribute("data-t")); startSession("learn", lq, "Learn: " + topicName(el.getAttribute("data-t")), "#/learn/" + el.getAttribute("data-s")); return; }
+    if (act === "learn-topic") { var lq = M.learnQueue(state.bank, el.getAttribute("data-t")); startSession("learn", lq, "Learn: " + topicName(el.getAttribute("data-t")), "#/learn/" + el.getAttribute("data-s"), false, M.visualsForTopic(state.visuals, el.getAttribute("data-t"))); return; }
     if (act === "pick") { if (!s || s.reveal) return; var i = +el.getAttribute("data-i"); s.picked = s.picked === i ? null : i; saveSession(); refresh(); var b = main.querySelector('[data-act="pick"][data-i="' + i + '"]'); if (b) b.focus({ preventScroll: true }); }
     else if (act === "check") check(el.getAttribute("data-sure") === "1", false);
     else if (act === "dunno") check(false, true);
     else if (act === "next") next();
+    else if (act === "intro-next") { s.introI++; s.shownAt = 0; saveSession(); route._moved = true; route(); }
+    else if (act === "intro-skip") { s.introI = s.intro.length; s.shownAt = 0; saveSession(); route._moved = true; route(); }
+    else if (act === "viz-prev" || act === "viz-next") { var fig = el.closest(".viz"); if (fig) vizApply(fig, +fig.getAttribute("data-step") + (act === "viz-next" ? 1 : -1), true); }
     else if (act === "try") { s.stage = "ask"; s.shownAt = 0; saveSession(); route._moved = true; route(); }
     else if (act === "resume") { s.pause = false; s.lastBreak = Date.now(); saveSession(); route(); }
     else if (act === "end") {
@@ -1140,6 +1233,10 @@
 
   /* Keyboard: A-D or 1-4 to choose, S sure, N not sure, Enter next. Can be turned off in Settings. */
   document.addEventListener("keydown", function (e) {
+    var vf = e.target.closest && e.target.closest(".viz");
+    if (vf && (e.key === "ArrowRight" || e.key === "ArrowLeft") && !e.metaKey && !e.ctrlKey && !e.altKey) {
+      e.preventDefault(); vizApply(vf, +vf.getAttribute("data-step") + (e.key === "ArrowRight" ? 1 : -1), true); return;
+    }
     if (!setting("shortcuts") || e.metaKey || e.ctrlKey || e.altKey) return;
     var tag = (e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea" || tag === "select" || document.querySelector("dialog[open]")) return;

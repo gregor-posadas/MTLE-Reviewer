@@ -192,3 +192,33 @@ test("the diagnostic has 3 questions per subject, no images, subjects taking tur
   });
   assert.deepStrictEqual(M.diagnosticQueue(bank, topics).map(function (q) { return q.id; }), d.map(function (q) { return q.id; }), "same set every time");
 });
+
+test("visual explainers are well formed and safe", function () {
+  var ids = {}, all = [];
+  CODES.forEach(function (c) {
+    var p = path.join(root, "data/visuals/" + c + ".json");
+    if (!fs.existsSync(p)) return;
+    JSON.parse(fs.readFileSync(p, "utf8")).visuals.forEach(function (v) { all.push(v); });
+  });
+  assert.ok(all.length >= 30, "expected at least 30 visuals, found " + all.length);
+  all.forEach(function (v) {
+    assert.ok(!ids[v.id], "duplicate visual id " + v.id); ids[v.id] = true;
+    assert.ok(CODES.indexOf(v.subject) > -1, v.id + " subject");
+    assert.ok(v.id.indexOf(v.subject.toLowerCase() + "-") === 0, v.id + " id should start with its subject code");
+    assert.ok(v.steps.length >= 3 && v.steps.length <= 7, v.id + " needs 3-7 steps");
+    (v.tos || []).forEach(function (t) { assert.ok(topics[t], v.id + " unknown TOS " + t); });
+    (v.keywords || []).forEach(function (k) { assert.ok(k.length >= 4 && k === k.toLowerCase(), v.id + " keyword " + k); });
+    v.steps.forEach(function (s) { assert.ok(s.caption && s.caption.length > 20, v.id + " caption"); });
+    if (v.type === "image") { assert.ok(/^https:\/\//.test(v.src), v.id + " src"); return; }
+    var vb = String(v.viewBox).split(/\s+/).map(Number);
+    assert.strictEqual(vb[2], 360, v.id + " viewBox width"); assert.ok(vb[3] <= 640, v.id + " viewBox height");
+    assert.ok(!/<script|<foreignObject|<image|\son[a-z]+\s*=|javascript:/i.test(v.svg), v.id + " has unsafe markup");
+    var keys = {};
+    v.svg.replace(/data-k="([^"]+)"/g, function (m, k) { keys[k] = true; });
+    v.steps.forEach(function (s) { (s.show || []).concat(s.hl || []).forEach(function (k) { assert.ok(keys[k], v.id + " step refers to missing key " + k); }); });
+    v.svg.replace(/(fill|stroke)="#[0-9a-f]{3,6}"/gi, function (m, a, off, str) {
+      var open = str.lastIndexOf("<", off), tag = str.slice(open, str.indexOf(">", off));
+      assert.ok(/v-real/.test(tag), v.id + " hard-coded colour outside v-real: " + tag.slice(0, 80));
+    });
+  });
+});

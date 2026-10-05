@@ -1,0 +1,1164 @@
+{
+ "subject": "MP",
+ "visuals": [
+  {
+   "id": "mp-gram-stain",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-A.1",
+    "MP-A.3"
+   ],
+   "title": "Gram stain, step by step",
+   "keywords": [
+    "safranin",
+    "decoloriz",
+    "mordant",
+    "gram's iodine",
+    "counterstain",
+    "peptidoglycan",
+    "gram-variable"
+   ],
+   "viewBox": "0 0 360 384",
+   "svg": "<g><text x=\"90\" y=\"20\" class=\"v-text v-b v-mid\">Gram-positive</text><text x=\"270\" y=\"20\" class=\"v-text v-b v-mid\">Gram-negative</text><g data-k=\"gp-pg\"><rect x=\"8\" y=\"30\" width=\"164\" height=\"56\" rx=\"4\" class=\"v-tint-4\"/><text x=\"90\" y=\"54\" class=\"v-text v-mid\">Thick</text><text x=\"90\" y=\"72\" class=\"v-text v-mid\">peptidoglycan</text></g><g data-k=\"gn-om\"><rect x=\"188\" y=\"30\" width=\"164\" height=\"22\" rx=\"4\" class=\"v-tint-3\"/><text x=\"270\" y=\"45\" class=\"v-text v-small v-mid\">Outer membrane (LPS)</text></g><g data-k=\"gn-pg\"><rect x=\"188\" y=\"62\" width=\"164\" height=\"20\" rx=\"4\" class=\"v-tint-4\"/><text x=\"270\" y=\"76\" class=\"v-text v-small v-mid\">Thin peptidoglycan</text></g><rect x=\"8\" y=\"92\" width=\"164\" height=\"20\" rx=\"4\" class=\"v-box\"/><text x=\"90\" y=\"106\" class=\"v-text v-small v-mid\">Cell membrane</text><rect x=\"188\" y=\"92\" width=\"164\" height=\"20\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"106\" class=\"v-text v-small v-mid\">Cell membrane</text><text x=\"180\" y=\"126\" class=\"v-text v-small v-muted v-mid\">cell wall layers (not to scale)</text></g><g data-k=\"c0\"><rect x=\"30\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-box v-dash\"/><text x=\"90\" y=\"198\" class=\"v-text v-b v-mid\">no stain yet</text><rect x=\"210\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-box v-dash\"/><text x=\"270\" y=\"198\" class=\"v-text v-b v-mid\">no stain yet</text></g><g data-k=\"c-cv\"><rect x=\"30\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"90\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"90\" y=\"218\" class=\"v-text v-small v-mid\">dye enters every cell</text><rect x=\"210\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"270\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"270\" y=\"218\" class=\"v-text v-small v-mid\">dye enters every cell</text></g><g data-k=\"c-io\"><rect x=\"30\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"90\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"90\" y=\"218\" class=\"v-text v-small v-mid\">CV–I complex forms</text><rect x=\"210\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"270\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"270\" y=\"218\" class=\"v-text v-small v-mid\">CV–I complex forms</text></g><g data-k=\"c-dec\"><rect x=\"30\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"90\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"90\" y=\"218\" class=\"v-text v-small v-mid\">wall dehydrates;</text><text x=\"90\" y=\"234\" class=\"v-text v-small v-mid\">CV–I stays trapped</text><rect x=\"210\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-box v-dash\"/><text x=\"270\" y=\"198\" class=\"v-text v-b v-mid\">colourless</text><text x=\"270\" y=\"218\" class=\"v-text v-small v-mid\">outer membrane dissolves;</text><text x=\"270\" y=\"234\" class=\"v-text v-small v-mid\">CV–I washes out</text></g><g data-k=\"c-saf\"><rect x=\"30\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#5B2A86\"/><text x=\"90\" y=\"198\" class=\"v-text v-b v-mid\">purple</text><text x=\"90\" y=\"218\" class=\"v-text v-small v-mid\">pink is masked by purple</text><rect x=\"210\" y=\"136\" width=\"120\" height=\"40\" rx=\"20\" class=\"v-real\" fill=\"#E58FB0\"/><text x=\"270\" y=\"198\" class=\"v-text v-b v-mid\">pink</text><text x=\"270\" y=\"218\" class=\"v-text v-small v-mid\">takes up safranin</text></g><g data-k=\"r1\"><rect x=\"8\" y=\"256\" width=\"344\" height=\"26\" rx=\"4\" class=\"v-box\"/><text x=\"20\" y=\"274\" class=\"v-text v-b\">1</text><text x=\"40\" y=\"274\" class=\"v-text v-b\">Crystal violet</text><text x=\"344\" y=\"274\" class=\"v-text v-small v-end\">primary stain</text></g><g data-k=\"r2\"><rect x=\"8\" y=\"288\" width=\"344\" height=\"26\" rx=\"4\" class=\"v-box\"/><text x=\"20\" y=\"306\" class=\"v-text v-b\">2</text><text x=\"40\" y=\"306\" class=\"v-text v-b\">Gram's iodine</text><text x=\"344\" y=\"306\" class=\"v-text v-small v-end\">mordant</text></g><g data-k=\"r3\"><rect x=\"8\" y=\"320\" width=\"344\" height=\"26\" rx=\"4\" class=\"v-box\"/><text x=\"20\" y=\"338\" class=\"v-text v-b\">3</text><text x=\"40\" y=\"338\" class=\"v-text v-b\">Alcohol or acetone</text><text x=\"344\" y=\"338\" class=\"v-text v-small v-end\">decolorizer</text></g><g data-k=\"r4\"><rect x=\"8\" y=\"352\" width=\"344\" height=\"26\" rx=\"4\" class=\"v-box\"/><text x=\"20\" y=\"370\" class=\"v-text v-b\">4</text><text x=\"40\" y=\"370\" class=\"v-text v-b\">Safranin</text><text x=\"344\" y=\"370\" class=\"v-text v-small v-end\">counterstain</text></g>",
+   "steps": [
+    {
+     "caption": "Both cells start unstained. A **gram-positive** wall is a thick layer of peptidoglycan; a **gram-negative** wall is a thin peptidoglycan layer covered by a lipid-rich outer membrane.",
+     "show": [
+      "c0"
+     ],
+     "hl": [
+      "gp-pg",
+      "gn-om"
+     ]
+    },
+    {
+     "caption": "**Crystal violet**, the primary stain, enters every cell, so both turn purple.",
+     "show": [
+      "c-cv"
+     ],
+     "hl": [
+      "r1"
+     ]
+    },
+    {
+     "caption": "**Gram's iodine** is the mordant. It binds crystal violet into a large crystal violet–iodine (CV–I) complex inside the cell, and both cells are still purple.",
+     "show": [
+      "c-io"
+     ],
+     "hl": [
+      "r2"
+     ]
+    },
+    {
+     "caption": "The **decolorizer** is the critical step. It dehydrates the thick gram-positive wall and traps the CV–I complex, but it dissolves the gram-negative outer membrane, and the complex washes out of the thin peptidoglycan.",
+     "show": [
+      "c-dec"
+     ],
+     "hl": [
+      "r3",
+      "gp-pg",
+      "gn-om"
+     ]
+    },
+    {
+     "caption": "**Safranin**, the counterstain, colours the now-colourless gram-negative cell pink. The gram-positive cell also takes it up, but the dark purple hides the pink.",
+     "show": [
+      "c-saf"
+     ],
+     "hl": [
+      "r4"
+     ]
+    },
+    {
+     "caption": "**Gram-positive = purple; gram-negative = pink.** Over-decolorizing can make gram-positives look pink, and under-decolorizing can leave gram-negatives purple.",
+     "show": [
+      "c-saf"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Side-by-side gram-positive and gram-negative cells. The gram-positive wall is a thick peptidoglycan layer over the cell membrane; the gram-negative wall is an outer membrane, a thin peptidoglycan layer and the cell membrane. Through the four steps (crystal violet primary stain, Gram's iodine mordant, alcohol or acetone decolorizer, safranin counterstain) both cells turn purple, stay purple with the crystal violet–iodine complex, then the gram-negative cell loses its colour at decolorization and turns pink with safranin while the gram-positive cell stays purple.",
+   "source": "Original diagram. Facts per Mahon & Lehman, Textbook of Diagnostic Microbiology 7e; Bailey & Scott's Diagnostic Microbiology 16e, Gram stain sections."
+  },
+  {
+   "id": "mp-gpc-id",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-A.3"
+   ],
+   "title": "Identifying gram-positive cocci",
+   "keywords": [
+    "catalase-positive",
+    "catalase-negative",
+    "catalase test",
+    "coagulase",
+    "novobiocin",
+    "bacitracin",
+    "camp test",
+    "hippurate hydrolysis",
+    "hydrolyzes hippurate",
+    "agalactiae",
+    "saprophyticus",
+    "viridans",
+    "optochin",
+    "bile soluble",
+    "bile solubility",
+    "bile esculin positive",
+    "6.5% nacl"
+   ],
+   "viewBox": "0 0 360 555",
+   "svg": "<g data-k=\"top\"><rect x=\"100\" y=\"8\" width=\"160\" height=\"30\" rx=\"4\" class=\"v-box\"/><text x=\"180\" y=\"29\" class=\"v-text v-b v-mid\">Gram-positive cocci</text><line x1=\"180\" y1=\"38\" x2=\"180\" y2=\"54\" class=\"v-line v-arrow\"/></g><g data-k=\"cat\"><rect x=\"120\" y=\"56\" width=\"120\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"180\" y=\"77\" class=\"v-text v-b v-mid\">Catalase test</text></g><g data-k=\"staph-c\"><line x1=\"150\" y1=\"86\" x2=\"100\" y2=\"110\" class=\"v-line v-arrow\"/><text x=\"96\" y=\"104\" class=\"v-text v-small v-end\">bubbles</text></g><g data-k=\"staph\"><rect x=\"8\" y=\"112\" width=\"164\" height=\"60\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"133\" class=\"v-text v-b v-mid\">Catalase +</text><text x=\"90\" y=\"148\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Staphylococcus</tspan></text><text x=\"90\" y=\"163\" class=\"v-text v-small v-mid\">grape-like clusters</text></g><g data-k=\"strep-c\"><line x1=\"210\" y1=\"86\" x2=\"260\" y2=\"110\" class=\"v-line v-arrow\"/><text x=\"264\" y=\"104\" class=\"v-text v-small\">no bubbles</text></g><g data-k=\"strep\"><rect x=\"188\" y=\"112\" width=\"164\" height=\"60\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"133\" class=\"v-text v-b v-mid\">Catalase −</text><text x=\"270\" y=\"148\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Streptococcus</tspan> (chains)</text><text x=\"270\" y=\"163\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Enterococcus</tspan></text></g><g data-k=\"coag-c\"><line x1=\"90\" y1=\"172\" x2=\"90\" y2=\"196\" class=\"v-line v-arrow\"/></g><g data-k=\"coag\"><rect x=\"40\" y=\"198\" width=\"100\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"90\" y=\"219\" class=\"v-text v-b v-mid\">Coagulase</text></g><g data-k=\"saur-c\"><line x1=\"70\" y1=\"228\" x2=\"50\" y2=\"252\" class=\"v-line v-arrow\"/><text x=\"48\" y=\"241\" class=\"v-text v-b v-end\">+</text></g><g data-k=\"saur\"><rect x=\"8\" y=\"254\" width=\"76\" height=\"30\" rx=\"4\" class=\"v-tint-1\"/><text x=\"46\" y=\"275\" class=\"v-text v-b v-mid\"><tspan style=\"font-style:italic\">S. aureus</tspan></text></g><g data-k=\"cons-c\"><line x1=\"110\" y1=\"228\" x2=\"132\" y2=\"252\" class=\"v-line v-arrow\"/><text x=\"134\" y=\"241\" class=\"v-text v-b\">−</text></g><g data-k=\"cons\"><rect x=\"96\" y=\"254\" width=\"76\" height=\"30\" rx=\"4\" class=\"v-tint-1\"/><text x=\"134\" y=\"275\" class=\"v-text v-b v-mid\">CoNS</text></g><g data-k=\"novo-c\"><line x1=\"134\" y1=\"284\" x2=\"120\" y2=\"308\" class=\"v-line v-arrow\"/></g><g data-k=\"novo\"><rect x=\"40\" y=\"310\" width=\"132\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"106\" y=\"331\" class=\"v-text v-b v-mid\">Novobiocin</text></g><g data-k=\"novo-r\"><rect x=\"8\" y=\"354\" width=\"164\" height=\"45\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"373\" class=\"v-text v-small v-b v-mid\">Resistant</text><text x=\"90\" y=\"390\" class=\"v-text v-mid\">→ <tspan style=\"font-style:italic\">S. saprophyticus</tspan></text></g><g data-k=\"novo-s\"><rect x=\"8\" y=\"407\" width=\"164\" height=\"58\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"426\" class=\"v-text v-small v-b v-mid\">Susceptible</text><text x=\"90\" y=\"441\" class=\"v-text v-small v-mid\">→ <tspan style=\"font-style:italic\">S. epidermidis</tspan> and</text><text x=\"90\" y=\"456\" class=\"v-text v-small v-mid\">most other CoNS</text></g><g data-k=\"hemo-c\"><line x1=\"270\" y1=\"172\" x2=\"282\" y2=\"196\" class=\"v-line v-arrow\"/></g><g data-k=\"hemo\"><rect x=\"212\" y=\"198\" width=\"140\" height=\"45\" rx=\"4\" class=\"v-tint-4\"/><text x=\"282\" y=\"219\" class=\"v-text v-b v-mid\">Hemolysis</text><text x=\"282\" y=\"234\" class=\"v-text v-small v-mid\">on sheep blood agar</text></g><g data-k=\"beta-c\"><line x1=\"212\" y1=\"220.5\" x2=\"200\" y2=\"220.5\" class=\"v-line\"/><line x1=\"200\" y1=\"220.5\" x2=\"200\" y2=\"275\" class=\"v-line\"/><line x1=\"200\" y1=\"275\" x2=\"211\" y2=\"275\" class=\"v-line v-arrow\"/></g><g data-k=\"beta\"><rect x=\"212\" y=\"257\" width=\"140\" height=\"90\" rx=\"4\" class=\"v-tint-2\"/><text x=\"220\" y=\"278\" class=\"v-text v-b\">β-hemolytic</text><text x=\"220\" y=\"293\" class=\"v-text v-small\">Bacitracin S, PYR +</text><text x=\"220\" y=\"308\" class=\"v-text v-small v-b\">→ <tspan style=\"font-style:italic\">S. pyogenes</tspan> (A)</text><text x=\"220\" y=\"323\" class=\"v-text v-small\">CAMP +, hippurate +</text><text x=\"220\" y=\"338\" class=\"v-text v-small v-b\">→ <tspan style=\"font-style:italic\">S. agalactiae</tspan> (B)</text></g><g data-k=\"alpha-c\"><line x1=\"200\" y1=\"275\" x2=\"200\" y2=\"375\" class=\"v-line\"/><line x1=\"200\" y1=\"375\" x2=\"211\" y2=\"375\" class=\"v-line v-arrow\"/></g><g data-k=\"alpha\"><rect x=\"212\" y=\"357\" width=\"140\" height=\"105\" rx=\"4\" class=\"v-tint-2\"/><text x=\"220\" y=\"378\" class=\"v-text v-b\">α-hemolytic</text><text x=\"220\" y=\"393\" class=\"v-text v-small\">Optochin S and</text><text x=\"220\" y=\"408\" class=\"v-text v-small\">bile soluble</text><text x=\"220\" y=\"423\" class=\"v-text v-small v-b\">→ <tspan style=\"font-style:italic\">S. pneumoniae</tspan></text><text x=\"220\" y=\"438\" class=\"v-text v-small\">Optochin R:</text><text x=\"220\" y=\"453\" class=\"v-text v-small v-b\">viridans strep</text></g><g data-k=\"gamma-c\"><line x1=\"200\" y1=\"375\" x2=\"200\" y2=\"490\" class=\"v-line\"/><line x1=\"200\" y1=\"490\" x2=\"211\" y2=\"490\" class=\"v-line v-arrow\"/></g><g data-k=\"gamma\"><rect x=\"212\" y=\"472\" width=\"140\" height=\"75\" rx=\"4\" class=\"v-tint-2\"/><text x=\"220\" y=\"493\" class=\"v-text v-b\">Usually γ or α</text><text x=\"220\" y=\"508\" class=\"v-text v-small\">Bile esculin +</text><text x=\"220\" y=\"523\" class=\"v-text v-small\">grows in 6.5% NaCl</text><text x=\"220\" y=\"538\" class=\"v-text v-small v-b\">→ <tspan style=\"font-style:italic\">Enterococcus</tspan></text></g>",
+   "steps": [
+    {
+     "caption": "Start with **catalase**: add 3% hydrogen peroxide to a colony. Bubbles mean Staphylococcus (or Micrococcus); no bubbles mean Streptococcus or Enterococcus. Avoid picking up blood agar, because red cells contain catalase.",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c"
+     ],
+     "hl": [
+      "cat"
+     ]
+    },
+    {
+     "caption": "**Coagulase** separates Staphylococcus aureus (positive: the plasma clots or the cells clump) from the coagulase-negative staphylococci (CoNS).",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c"
+     ],
+     "hl": [
+      "coag"
+     ]
+    },
+    {
+     "caption": "Among CoNS, resistance to a 5-µg **novobiocin** disk points to S. saprophyticus, a urinary pathogen of young women. S. epidermidis and most other CoNS are susceptible.",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c",
+      "novo",
+      "novo-c",
+      "novo-r",
+      "novo-s"
+     ],
+     "hl": [
+      "novo",
+      "novo-r"
+     ]
+    },
+    {
+     "caption": "For streptococci, read **hemolysis** first. Among β-hemolytic strep, bacitracin susceptibility and PYR + point to S. pyogenes (group A), since the other common β-hemolytic strep are PYR negative; CAMP + and hippurate hydrolysis point to S. agalactiae (group B).",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c",
+      "novo",
+      "novo-c",
+      "novo-r",
+      "novo-s",
+      "hemo",
+      "hemo-c",
+      "beta",
+      "beta-c"
+     ],
+     "hl": [
+      "hemo",
+      "beta"
+     ]
+    },
+    {
+     "caption": "Among α-hemolytic strep, **optochin** susceptibility and bile solubility identify S. pneumoniae. Viridans streptococci are optochin resistant and bile insoluble.",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c",
+      "novo",
+      "novo-c",
+      "novo-r",
+      "novo-s",
+      "hemo",
+      "hemo-c",
+      "beta",
+      "beta-c",
+      "alpha",
+      "alpha-c"
+     ],
+     "hl": [
+      "alpha"
+     ]
+    },
+    {
+     "caption": "**Enterococcus** (usually γ or α; β-hemolysis on sheep blood is uncommon) is bile esculin positive and grows in 6.5% NaCl. The salt test separates it from non-enterococcal group D strep, which are also bile esculin positive. Enterococci are PYR positive too.",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c",
+      "novo",
+      "novo-c",
+      "novo-r",
+      "novo-s",
+      "hemo",
+      "hemo-c",
+      "beta",
+      "beta-c",
+      "alpha",
+      "alpha-c",
+      "gamma",
+      "gamma-c"
+     ],
+     "hl": [
+      "gamma"
+     ]
+    },
+    {
+     "caption": "**To remember:** catalase splits staph from strep. Coagulase and novobiocin sort the staph; hemolysis plus one or two key tests sort the strep and enterococci.",
+     "show": [
+      "top",
+      "cat",
+      "staph",
+      "staph-c",
+      "strep",
+      "strep-c",
+      "coag",
+      "coag-c",
+      "saur",
+      "saur-c",
+      "cons",
+      "cons-c",
+      "novo",
+      "novo-c",
+      "novo-r",
+      "novo-s",
+      "hemo",
+      "hemo-c",
+      "beta",
+      "beta-c",
+      "alpha",
+      "alpha-c",
+      "gamma",
+      "gamma-c"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Flowchart for gram-positive cocci. Catalase positive: Staphylococcus, then coagulase positive is S. aureus and coagulase negative is CoNS; among CoNS, novobiocin resistant is S. saprophyticus and novobiocin susceptible is S. epidermidis and most other CoNS. Catalase negative: Streptococcus or Enterococcus, sorted by hemolysis on sheep blood agar. Beta-hemolytic: bacitracin susceptible and PYR positive is S. pyogenes (group A); CAMP and hippurate positive is S. agalactiae (group B). Alpha-hemolytic: optochin susceptible and bile soluble is S. pneumoniae; optochin resistant is viridans streptococci. Usually gamma or alpha: bile esculin positive and growth in 6.5% NaCl is Enterococcus.",
+   "source": "Original diagram. Facts per Mahon & Lehman, Textbook of Diagnostic Microbiology 7e; Bailey & Scott's Diagnostic Microbiology 16e, chapters on staphylococci, streptococci and enterococci."
+  },
+  {
+   "id": "mp-gnr-id",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-A.3",
+    "MP-A.2"
+   ],
+   "title": "First steps for gram-negative rods",
+   "keywords": [
+    "cytochrome oxidase",
+    "oxidase-negative",
+    "macconkey",
+    "lactose fermenter",
+    "non-lactose",
+    "lactose-fermenting",
+    "enterobacterales",
+    "h2s positive",
+    "and h2s",
+    "no h2s",
+    "on tsi",
+    "triple sugar iron",
+    "xylose-lysine",
+    "hektoen"
+   ],
+   "viewBox": "0 0 360 513",
+   "svg": "<g data-k=\"top\"><rect x=\"100\" y=\"8\" width=\"160\" height=\"30\" rx=\"4\" class=\"v-box\"/><text x=\"180\" y=\"29\" class=\"v-text v-b v-mid\">Gram-negative rod</text><line x1=\"180\" y1=\"38\" x2=\"180\" y2=\"54\" class=\"v-line v-arrow\"/></g><g data-k=\"ox\"><rect x=\"120\" y=\"56\" width=\"120\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"180\" y=\"77\" class=\"v-text v-b v-mid\">Oxidase test</text></g><g data-k=\"ox-pos-c\"><line x1=\"150\" y1=\"86\" x2=\"100\" y2=\"110\" class=\"v-line v-arrow\"/><text x=\"96\" y=\"104\" class=\"v-text v-small v-end\">purple</text></g><g data-k=\"ox-pos\"><rect x=\"8\" y=\"112\" width=\"164\" height=\"60\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"133\" class=\"v-text v-b v-mid\">Oxidase +</text><text x=\"90\" y=\"148\" class=\"v-text v-small v-mid\">e.g. <tspan style=\"font-style:italic\">Pseudomonas</tspan>,</text><text x=\"90\" y=\"163\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Vibrio</tspan>, <tspan style=\"font-style:italic\">Aeromonas</tspan></text></g><g data-k=\"ox-neg-c\"><line x1=\"210\" y1=\"86\" x2=\"260\" y2=\"110\" class=\"v-line v-arrow\"/><text x=\"264\" y=\"104\" class=\"v-text v-small\">no colour</text></g><g data-k=\"ox-neg\"><rect x=\"188\" y=\"112\" width=\"164\" height=\"60\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"133\" class=\"v-text v-b v-mid\">Oxidase −</text><text x=\"270\" y=\"148\" class=\"v-text v-small v-mid\">Enterobacterales</text><text x=\"270\" y=\"163\" class=\"v-text v-small v-mid\">(<tspan style=\"font-style:italic\">E. coli</tspan> and relatives)</text></g><g data-k=\"mac-c\"><line x1=\"270\" y1=\"172\" x2=\"270\" y2=\"196\" class=\"v-line v-arrow\"/></g><g data-k=\"mac\"><rect x=\"110\" y=\"198\" width=\"242\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"231\" y=\"219\" class=\"v-text v-b v-mid\">Lactose on MacConkey</text></g><g data-k=\"lf-c\"><line x1=\"150\" y1=\"228\" x2=\"100\" y2=\"252\" class=\"v-line v-arrow\"/></g><g data-k=\"lf\"><rect x=\"8\" y=\"254\" width=\"164\" height=\"92\" rx=\"4\" class=\"v-tint-2\"/><text x=\"90\" y=\"275\" class=\"v-text v-mid\"></text><text x=\"90\" y=\"292\" class=\"v-text v-b v-mid\">Lactose +</text><text x=\"90\" y=\"307\" class=\"v-text v-small v-mid\">pink colonies</text><text x=\"90\" y=\"322\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">E. coli</tspan>, <tspan style=\"font-style:italic\">Klebsiella</tspan>,</text><text x=\"90\" y=\"337\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Enterobacter</tspan></text><circle cx=\"64\" cy=\"270\" r=\"9\" class=\"v-real\" fill=\"#D9667F\"/><circle cx=\"90\" cy=\"270\" r=\"9\" class=\"v-real\" fill=\"#D9667F\"/><circle cx=\"116\" cy=\"270\" r=\"9\" class=\"v-real\" fill=\"#D9667F\"/></g><g data-k=\"nlf-c\"><line x1=\"270\" y1=\"228\" x2=\"270\" y2=\"252\" class=\"v-line v-arrow\"/></g><g data-k=\"nlf\"><rect x=\"188\" y=\"254\" width=\"164\" height=\"92\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"275\" class=\"v-text v-mid\"></text><text x=\"270\" y=\"292\" class=\"v-text v-b v-mid\">Lactose −</text><text x=\"270\" y=\"307\" class=\"v-text v-small v-mid\">colourless colonies</text><text x=\"270\" y=\"322\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Salmonella</tspan>, <tspan style=\"font-style:italic\">Shigella</tspan>,</text><text x=\"270\" y=\"337\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Proteus</tspan></text><circle cx=\"244\" cy=\"270\" r=\"9\" class=\"v-box\"/><circle cx=\"270\" cy=\"270\" r=\"9\" class=\"v-box\"/><circle cx=\"296\" cy=\"270\" r=\"9\" class=\"v-box\"/></g><g data-k=\"h2s-c\"><line x1=\"270\" y1=\"346\" x2=\"270\" y2=\"370\" class=\"v-line v-arrow\"/></g><g data-k=\"h2s\"><rect x=\"110\" y=\"372\" width=\"242\" height=\"30\" rx=\"4\" class=\"v-tint-4\"/><text x=\"231\" y=\"393\" class=\"v-text v-b v-mid\">H₂S (TSI, XLD or HE agar)</text></g><g data-k=\"h2s-pos-c\"><line x1=\"150\" y1=\"402\" x2=\"100\" y2=\"426\" class=\"v-line v-arrow\"/><text x=\"114\" y=\"416\" class=\"v-text v-b v-end\">+</text></g><g data-k=\"h2s-pos\"><rect x=\"8\" y=\"428\" width=\"164\" height=\"77\" rx=\"4\" class=\"v-tint-2\"/><text x=\"90\" y=\"449\" class=\"v-text v-mid\"></text><text x=\"90\" y=\"466\" class=\"v-text v-b v-mid\">H₂S +</text><text x=\"90\" y=\"481\" class=\"v-text v-small v-mid\">black precipitate</text><text x=\"90\" y=\"496\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Salmonella</tspan>, <tspan style=\"font-style:italic\">Proteus</tspan></text><circle cx=\"64\" cy=\"444\" r=\"9\" class=\"v-box\"/><circle cx=\"64\" cy=\"444\" r=\"4.5\" class=\"v-real\" fill=\"#1A1A1A\"/><circle cx=\"90\" cy=\"444\" r=\"9\" class=\"v-box\"/><circle cx=\"90\" cy=\"444\" r=\"4.5\" class=\"v-real\" fill=\"#1A1A1A\"/><circle cx=\"116\" cy=\"444\" r=\"9\" class=\"v-box\"/><circle cx=\"116\" cy=\"444\" r=\"4.5\" class=\"v-real\" fill=\"#1A1A1A\"/></g><g data-k=\"h2s-neg-c\"><line x1=\"270\" y1=\"402\" x2=\"270\" y2=\"426\" class=\"v-line v-arrow\"/><text x=\"280\" y=\"420\" class=\"v-text v-b\">−</text></g><g data-k=\"h2s-neg\"><rect x=\"188\" y=\"428\" width=\"164\" height=\"77\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"449\" class=\"v-text v-mid\"></text><text x=\"270\" y=\"466\" class=\"v-text v-b v-mid\">H₂S −</text><text x=\"270\" y=\"481\" class=\"v-text v-small v-mid\">no blackening</text><text x=\"270\" y=\"496\" class=\"v-text v-small v-mid\"><tspan style=\"font-style:italic\">Shigella</tspan></text><circle cx=\"244\" cy=\"444\" r=\"9\" class=\"v-box\"/><circle cx=\"270\" cy=\"444\" r=\"9\" class=\"v-box\"/><circle cx=\"296\" cy=\"444\" r=\"9\" class=\"v-box\"/></g>",
+   "steps": [
+    {
+     "caption": "Start a gram-negative rod with **oxidase**: a purple colour within seconds is positive. Pseudomonas, Vibrio and Aeromonas are oxidase positive. The Enterobacterales are oxidase negative, but so are some glucose nonfermenters such as Acinetobacter and Stenotrophomonas.",
+     "show": [
+      "top",
+      "ox",
+      "ox-pos",
+      "ox-pos-c",
+      "ox-neg",
+      "ox-neg-c"
+     ],
+     "hl": [
+      "ox"
+     ]
+    },
+    {
+     "caption": "**MacConkey agar** grows gram-negatives and shows lactose use. Lactose fermenters make acid and form pink colonies (E. coli, Klebsiella, Enterobacter); non-lactose fermenters stay colourless (Salmonella, Shigella, Proteus).",
+     "show": [
+      "top",
+      "ox",
+      "ox-pos",
+      "ox-pos-c",
+      "ox-neg",
+      "ox-neg-c",
+      "mac",
+      "mac-c",
+      "lf",
+      "lf-c",
+      "nlf",
+      "nlf-c"
+     ],
+     "hl": [
+      "mac"
+     ]
+    },
+    {
+     "caption": "Among the non-lactose fermenters, **H₂S** is a quick next split: it turns the TSI butt black and gives black colonies or centres on XLD or HE agar. Salmonella and Proteus are usually H₂S positive; Shigella is H₂S negative.",
+     "show": [
+      "top",
+      "ox",
+      "ox-pos",
+      "ox-pos-c",
+      "ox-neg",
+      "ox-neg-c",
+      "mac",
+      "mac-c",
+      "lf",
+      "lf-c",
+      "nlf",
+      "nlf-c",
+      "h2s",
+      "h2s-c",
+      "h2s-pos",
+      "h2s-pos-c",
+      "h2s-neg",
+      "h2s-neg-c"
+     ],
+     "hl": [
+      "h2s"
+     ]
+    },
+    {
+     "caption": "This is a **simplified teaching scheme**: oxidase, then lactose, then H₂S. Real identification adds tests such as motility, urease and lysine decarboxylase, plus serotyping, and each branch has exceptions.",
+     "show": [
+      "top",
+      "ox",
+      "ox-pos",
+      "ox-pos-c",
+      "ox-neg",
+      "ox-neg-c",
+      "mac",
+      "mac-c",
+      "lf",
+      "lf-c",
+      "nlf",
+      "nlf-c",
+      "h2s",
+      "h2s-c",
+      "h2s-pos",
+      "h2s-pos-c",
+      "h2s-neg",
+      "h2s-neg-c"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Flowchart for a gram-negative rod. Oxidase positive: for example Pseudomonas, Vibrio and Aeromonas. Oxidase negative: Enterobacterales, tested for lactose on MacConkey agar. Lactose positive gives pink colonies: E. coli, Klebsiella, Enterobacter. Lactose negative gives colourless colonies: Salmonella, Shigella, Proteus, which are then split by hydrogen sulfide on TSI, XLD or HE agar: H2S positive (black) Salmonella and Proteus, H2S negative Shigella. A simplified teaching scheme.",
+   "source": "Original diagram. Facts per Mahon & Lehman, Textbook of Diagnostic Microbiology 7e; Bailey & Scott's Diagnostic Microbiology 16e, chapters on Enterobacterales and nonfermenters. Simplified for teaching."
+  },
+  {
+   "id": "mp-hemolysis",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-A.3",
+    "MP-A.2"
+   ],
+   "title": "Alpha, beta and gamma hemolysis",
+   "keywords": [
+    "beta hemolysis",
+    "alpha hemolysis",
+    "gamma hemolysis",
+    "beta-hemolytic",
+    "alpha-hemolytic",
+    "gamma-hemolytic",
+    "zone of beta",
+    "streptolysin"
+   ],
+   "viewBox": "0 0 360 390",
+   "svg": "<g><text x=\"8\" y=\"20\" class=\"v-text v-b\">Colonies on sheep blood agar (top view)</text></g><g data-k=\"ra\"><circle cx=\"64\" cy=\"88\" r=\"50\" class=\"v-real\" fill=\"#A8232E\"/><circle cx=\"64\" cy=\"88\" r=\"32\" class=\"v-real\" fill=\"#6F7D2C\"/><circle cx=\"64\" cy=\"88\" r=\"11\" class=\"v-real\" fill=\"#EEE8DA\"/><circle cx=\"64\" cy=\"88\" r=\"32\" class=\"v-line v-dot\"/><text x=\"132\" y=\"54\" class=\"v-text v-b\">α (alpha) hemolysis</text><text x=\"132\" y=\"76\" class=\"v-text v-small\">Partial lysis:</text><text x=\"132\" y=\"93\" class=\"v-text v-small v-b\">greenish-brown zone</text><text x=\"132\" y=\"110\" class=\"v-text v-small\">e.g. <tspan style=\"font-style:italic\">S. pneumoniae</tspan>,</text><text x=\"132\" y=\"127\" class=\"v-text v-small\">viridans streptococci</text></g><g data-k=\"rb\"><circle cx=\"64\" cy=\"208\" r=\"50\" class=\"v-real\" fill=\"#A8232E\"/><circle cx=\"64\" cy=\"208\" r=\"32\" class=\"v-real\" fill=\"#F2D2B0\"/><circle cx=\"64\" cy=\"208\" r=\"11\" class=\"v-real\" fill=\"#EEE8DA\"/><circle cx=\"64\" cy=\"208\" r=\"32\" class=\"v-line v-dash\"/><text x=\"132\" y=\"174\" class=\"v-text v-b\">β (beta) hemolysis</text><text x=\"132\" y=\"196\" class=\"v-text v-small\">Complete lysis:</text><text x=\"132\" y=\"213\" class=\"v-text v-small v-b\">clear zone</text><text x=\"132\" y=\"230\" class=\"v-text v-small\">e.g. <tspan style=\"font-style:italic\">S. pyogenes</tspan>,</text><text x=\"132\" y=\"247\" class=\"v-text v-small\"><tspan style=\"font-style:italic\">S. agalactiae</tspan>, <tspan style=\"font-style:italic\">S. aureus</tspan></text></g><g data-k=\"rg\"><circle cx=\"64\" cy=\"328\" r=\"50\" class=\"v-real\" fill=\"#A8232E\"/><circle cx=\"64\" cy=\"328\" r=\"11\" class=\"v-real\" fill=\"#EEE8DA\"/><text x=\"132\" y=\"294\" class=\"v-text v-b\">γ (gamma) hemolysis</text><text x=\"132\" y=\"316\" class=\"v-text v-small\">No lysis:</text><text x=\"132\" y=\"333\" class=\"v-text v-small v-b\">agar unchanged</text><text x=\"132\" y=\"350\" class=\"v-text v-small\">e.g. most enterococci,</text><text x=\"132\" y=\"367\" class=\"v-text v-small\"><tspan style=\"font-style:italic\">S. epidermidis</tspan></text></g>",
+   "steps": [
+    {
+     "caption": "Hemolysis is read around colonies on **sheep blood agar**, best with light shining through the plate. **α (alpha):** partial lysis leaves a greenish-brown zone, as with S. pneumoniae and viridans streptococci.",
+     "show": [
+      "ra"
+     ],
+     "hl": [
+      "ra"
+     ]
+    },
+    {
+     "caption": "**β (beta):** complete lysis of the red cells leaves a clear zone, as with S. pyogenes, S. agalactiae (often a narrow zone) and S. aureus. Stabbing the agar helps show the oxygen-labile **streptolysin O** of S. pyogenes.",
+     "show": [
+      "ra",
+      "rb"
+     ],
+     "hl": [
+      "rb"
+     ]
+    },
+    {
+     "caption": "**γ (gamma):** no hemolysis, so the agar around the colony is unchanged. Most enterococci and S. epidermidis are nonhemolytic.",
+     "show": [
+      "ra",
+      "rb",
+      "rg"
+     ],
+     "hl": [
+      "rg"
+     ]
+    },
+    {
+     "caption": "**To remember:** α = green (partial), β = clear (complete), γ = none. Hemolysis is the first split for streptococci, before tests such as bacitracin, CAMP and optochin.",
+     "show": [
+      "ra",
+      "rb",
+      "rg"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Three blood agar plates seen from above, each with a central colony. Alpha: a greenish-brown zone of partial hemolysis, for example S. pneumoniae and viridans streptococci. Beta: a clear zone of complete hemolysis, for example S. pyogenes, S. agalactiae and S. aureus. Gamma: no zone, for example most enterococci and S. epidermidis.",
+   "source": "Original diagram. Facts per Mahon & Lehman, Textbook of Diagnostic Microbiology 7e; Bailey & Scott's Diagnostic Microbiology 16e, streptococci chapters."
+  },
+  {
+   "id": "mp-ast",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-A.3",
+    "MP-G.1"
+   ],
+   "title": "Disk diffusion and MIC",
+   "keywords": [
+    "disk diffusion",
+    "kirby",
+    "mcfarland",
+    "mueller-hinton",
+    "zone diameter",
+    "zone of inhibition",
+    "minimum inhibitory",
+    "broth dilution",
+    "breakpoint",
+    "antimicrobial susceptibility"
+   ],
+   "viewBox": "0 0 360 526",
+   "svg": "<g data-k=\"inoc\"><rect x=\"16\" y=\"52\" width=\"26\" height=\"78\" rx=\"10\" class=\"v-box\"/><rect x=\"19\" y=\"76\" width=\"20\" height=\"50\" rx=\"7\" class=\"v-hatch\"/><text x=\"29\" y=\"148\" class=\"v-text v-small v-b v-mid\">0.5</text><text x=\"29\" y=\"162\" class=\"v-text v-small v-mid\">McFarland</text><line x1=\"46\" y1=\"92\" x2=\"104\" y2=\"104\" class=\"v-line v-arrow\"/><text x=\"74\" y=\"88\" class=\"v-text v-small v-mid\">swab</text></g><g><text x=\"8\" y=\"20\" class=\"v-text v-b\">Disk diffusion (Kirby–Bauer)</text><circle cx=\"200\" cy=\"120\" r=\"88\" class=\"v-box\"/><text x=\"200\" y=\"228\" class=\"v-text v-small v-mid\">Mueller-Hinton agar, 4 mm deep</text></g><g data-k=\"lawn\"><circle cx=\"200\" cy=\"120\" r=\"84\" class=\"v-hatch\"/></g><g data-k=\"zones\"><circle cx=\"166\" cy=\"86\" r=\"30\" class=\"v-box\"/><circle cx=\"236\" cy=\"82\" r=\"22\" class=\"v-box\"/><circle cx=\"236\" cy=\"156\" r=\"26\" class=\"v-box\"/></g><g data-k=\"disks\"><circle cx=\"166\" cy=\"86\" r=\"7\" class=\"v-box\"/><circle cx=\"236\" cy=\"82\" r=\"7\" class=\"v-box\"/><circle cx=\"166\" cy=\"158\" r=\"7\" class=\"v-box\"/><circle cx=\"236\" cy=\"156\" r=\"7\" class=\"v-box\"/></g><g data-k=\"meas\"><line x1=\"210\" y1=\"156\" x2=\"262\" y2=\"156\" class=\"v-line\"/><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"162\" class=\"v-line\"/><line x1=\"262\" y1=\"150\" x2=\"262\" y2=\"162\" class=\"v-line\"/><line x1=\"264\" y1=\"156\" x2=\"300\" y2=\"196\" class=\"v-thin\"/><text x=\"302\" y=\"200\" class=\"v-text v-small\">zone</text><text x=\"302\" y=\"214\" class=\"v-text v-small v-b\">in mm</text></g><g data-k=\"interp-d\"><text x=\"8\" y=\"248\" class=\"v-text v-small v-b\">Zone diameter (mm) →</text><rect x=\"8\" y=\"256\" width=\"104\" height=\"26\" rx=\"0\" class=\"v-tint-5\"/><text x=\"60\" y=\"274\" class=\"v-text v-small v-b v-mid\">Resistant</text><rect x=\"112\" y=\"256\" width=\"110\" height=\"26\" rx=\"0\" class=\"v-tint-4\"/><text x=\"167\" y=\"274\" class=\"v-text v-small v-b v-mid\">Intermediate</text><rect x=\"222\" y=\"256\" width=\"130\" height=\"26\" rx=\"0\" class=\"v-tint-1\"/><text x=\"287\" y=\"274\" class=\"v-text v-small v-b v-mid\">Susceptible</text><text x=\"8\" y=\"300\" class=\"v-text v-small v-muted\">cut-offs: CLSI breakpoints, per drug and organism</text></g><g data-k=\"broth\"><text x=\"8\" y=\"334\" class=\"v-text v-b\">Broth dilution MIC</text><text x=\"8\" y=\"352\" class=\"v-text v-small v-muted\">drug in µg/mL; GC = growth control (no drug)</text><rect x=\"16\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><rect x=\"19\" y=\"384\" width=\"20\" height=\"48\" rx=\"7\" class=\"v-hatch\"/><text x=\"29\" y=\"454\" class=\"v-text v-small v-mid\">0.25</text><rect x=\"58\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><rect x=\"61\" y=\"384\" width=\"20\" height=\"48\" rx=\"7\" class=\"v-hatch\"/><text x=\"71\" y=\"454\" class=\"v-text v-small v-mid\">0.5</text><rect x=\"100\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><rect x=\"103\" y=\"384\" width=\"20\" height=\"48\" rx=\"7\" class=\"v-hatch\"/><text x=\"113\" y=\"454\" class=\"v-text v-small v-mid\">1</text><rect x=\"142\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><rect x=\"145\" y=\"384\" width=\"20\" height=\"48\" rx=\"7\" class=\"v-hatch\"/><text x=\"155\" y=\"454\" class=\"v-text v-small v-mid\">2</text><rect x=\"184\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><line x1=\"188\" y1=\"384\" x2=\"206\" y2=\"384\" class=\"v-thin\"/><text x=\"197\" y=\"454\" class=\"v-text v-small v-mid\">4</text><rect x=\"226\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><line x1=\"230\" y1=\"384\" x2=\"248\" y2=\"384\" class=\"v-thin\"/><text x=\"239\" y=\"454\" class=\"v-text v-small v-mid\">8</text><rect x=\"268\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><line x1=\"272\" y1=\"384\" x2=\"290\" y2=\"384\" class=\"v-thin\"/><text x=\"281\" y=\"454\" class=\"v-text v-small v-mid\">16</text><rect x=\"310\" y=\"362\" width=\"26\" height=\"74\" rx=\"10\" class=\"v-box\"/><rect x=\"313\" y=\"384\" width=\"20\" height=\"48\" rx=\"7\" class=\"v-hatch\"/><text x=\"323\" y=\"454\" class=\"v-text v-small v-mid v-b\">GC</text><rect x=\"8\" y=\"478\" width=\"18\" height=\"14\" rx=\"2\" class=\"v-hatch\"/><text x=\"32\" y=\"490\" class=\"v-text v-small\">turbid = growth</text><rect x=\"8\" y=\"500\" width=\"18\" height=\"14\" rx=\"2\" class=\"v-box\"/><text x=\"32\" y=\"512\" class=\"v-text v-small\">clear = no growth</text></g><g data-k=\"mic\"><line x1=\"197\" y1=\"518\" x2=\"197\" y2=\"462\" class=\"v-line v-arrow\"/><text x=\"207\" y=\"494\" class=\"v-text v-b\">MIC = 4 µg/mL</text><text x=\"207\" y=\"510\" class=\"v-text v-small\">lowest clear tube</text></g>",
+   "steps": [
+    {
+     "caption": "Adjust the suspension to a **0.5 McFarland** standard (about 1.5 × 10⁸ CFU/mL) and swab it evenly over **Mueller-Hinton agar** about 4 mm deep. Too heavy an inoculum shrinks the zones; too light enlarges them.",
+     "show": [
+      "inoc",
+      "lawn"
+     ],
+     "hl": [
+      "inoc"
+     ]
+    },
+    {
+     "caption": "Apply the antimicrobial **disks** and incubate at 35 °C, usually for 16–18 hours. Each drug diffuses outward into the agar, forming a concentration gradient.",
+     "show": [
+      "inoc",
+      "lawn",
+      "disks"
+     ],
+     "hl": [
+      "disks"
+     ]
+    },
+    {
+     "caption": "Where the drug stops growth, a clear **zone of inhibition** forms. Measure its diameter in millimetres and interpret it as S, I or R with the CLSI breakpoints for that drug and organism; a bigger zone means more susceptible.",
+     "show": [
+      "inoc",
+      "lawn",
+      "disks",
+      "zones",
+      "meas",
+      "interp-d"
+     ],
+     "hl": [
+      "meas"
+     ]
+    },
+    {
+     "caption": "**Broth dilution** puts the same inoculum into twofold dilutions of a drug, plus a drug-free growth control. After incubation, turbid tubes have growth and clear tubes do not.",
+     "show": [
+      "inoc",
+      "lawn",
+      "disks",
+      "zones",
+      "meas",
+      "interp-d",
+      "broth"
+     ],
+     "hl": [
+      "broth"
+     ]
+    },
+    {
+     "caption": "The **MIC** is the lowest concentration with no visible growth (here 4 µg/mL), also read as S, I or R with CLSI breakpoints. **To remember:** a large zone goes with a low MIC.",
+     "show": [
+      "inoc",
+      "lawn",
+      "disks",
+      "zones",
+      "meas",
+      "interp-d",
+      "broth",
+      "mic"
+     ],
+     "hl": [
+      "mic"
+     ]
+    }
+   ],
+   "alt": "Top: disk diffusion. A tube adjusted to 0.5 McFarland is swabbed onto Mueller-Hinton agar to form a lawn; four antibiotic disks give clear zones of inhibition of different sizes (one has none), and a zone diameter is measured in millimetres and read as resistant, intermediate or susceptible along a scale where larger zones mean more susceptible, using CLSI breakpoints. Bottom: broth dilution with twofold drug dilutions 0.25 to 16 µg/mL and a growth control; tubes at 0.25 to 2 are turbid and tubes at 4 to 16 are clear, so the MIC is 4 µg/mL.",
+   "source": "Original diagram. Facts per Mahon & Lehman, Textbook of Diagnostic Microbiology 7e; Bailey & Scott's Diagnostic Microbiology 16e; CLSI M100 (performance standards for antimicrobial susceptibility testing). Breakpoints are drug- and organism-specific; none are shown."
+  },
+  {
+   "id": "mp-lc-ascaris",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Ascaris lumbricoides life cycle",
+   "keywords": [
+    "ascaris",
+    "lumbricoides",
+    "ascariasis",
+    "roundworm"
+   ],
+   "src": "https://www.cdc.gov/dpdx/ascariasis/modules/Ascariasis_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+   "steps": [
+    {
+     "caption": "Stages 1–2: Adult worms live free in the lumen of the small intestine. One female can lay about 200,000 eggs a day, and they leave in the feces. Eggs in stool are the **diagnostic stage**; unfertilized eggs may be seen too, but they never become infective."
+    },
+    {
+     "caption": "Stage 3: Fertile eggs are not infective when passed. In warm, moist, shaded soil a larva develops inside the egg over about 18 days to several weeks, making an **embryonated egg**."
+    },
+    {
+     "caption": "Stages 4–5: A person swallows embryonated eggs from soil-contaminated hands, food or water. The larvae hatch in the small intestine."
+    },
+    {
+     "caption": "Stages 6–7: The larvae burrow into the gut wall and ride the portal and then the systemic circulation to the **lungs**. After 10–14 days they break into the alveoli, climb the airways to the throat and are swallowed again. Back in the small intestine they grow into adults; egg laying starts 2–3 months after infection."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = fertilized or unfertilized eggs in stool (direct smear, Kato-Katz); infective stage = embryonated egg; transmission = swallowing eggs from soil (fecal-oral), with a larval trip through the lungs."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Ascaris lumbricoides: adult worms in the small intestine, eggs passed in feces, eggs embryonating in soil, swallowed infective eggs, larvae migrating through the lungs and back to the small intestine, numbered 1 to 7.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-hookworm",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Hookworm life cycle",
+   "keywords": [
+    "hookworm",
+    "necator",
+    "americanus",
+    "ancylostoma",
+    "duodenale",
+    "ancylostomiasis",
+    "necatoriasis"
+   ],
+   "src": "https://www.cdc.gov/dpdx/hookworm/modules/Hookworm_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/hookworm/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: Eggs leave the body in the stool; this is the **diagnostic stage**. In moist, warm, shaded soil a larva hatches from each egg within 1–2 days."
+    },
+    {
+     "caption": "Stages 2–3: The newly hatched **rhabditiform larvae** feed in the feces and soil. After 5–10 days and two molts they become **filariform (L3) larvae**, the infective stage, which can wait in the soil for 3–4 weeks."
+    },
+    {
+     "caption": "Stage 4: When bare skin (usually the feet) touches the soil, the filariform larvae **penetrate the skin**. The blood carries them to the heart and lungs; they enter the alveoli, climb to the throat and are swallowed."
+    },
+    {
+     "caption": "Stage 5: In the small intestine (mainly the jejunum) the adults hook onto the wall with their mouthparts and feed on blood, so heavy or long infections cause blood loss and **iron-deficiency anemia**."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = eggs in stool (read Kato-Katz slides soon, since hookworm eggs clear quickly); infective stage = filariform larva in soil; transmission = skin penetration. Species: Necator americanus and Ancylostoma duodenale."
+    }
+   ],
+   "alt": "CDC DPDx hookworm life cycle: eggs in stool, rhabditiform larvae hatching in soil, infective filariform larvae penetrating skin, migration through the lungs, and adults in the small intestine, numbered 1 to 5.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-strongyloides",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Strongyloides stercoralis life cycle",
+   "keywords": [
+    "strongyloides",
+    "stercoralis",
+    "strongyloidiasis",
+    "genital primordium",
+    "hyperinfection"
+   ],
+   "src": "https://www.cdc.gov/dpdx/strongyloidiasis/modules/Strongyloides_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/strongyloidiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: Unlike most nematodes, Strongyloides is diagnosed by **rhabditiform larvae** in the stool, not eggs. They have a short buccal canal and a prominent genital primordium."
+    },
+    {
+     "caption": "Stages 2–5 (free-living cycle): In the soil some larvae grow into free-living adult males and females. They mate and lay eggs, the eggs hatch into rhabditiform larvae, and these become infective **filariform (L3) larvae**."
+    },
+    {
+     "caption": "Stage 6: Other larvae skip the free-living adults and turn straight into filariform larvae. Either way, filariform larvae in the soil **penetrate human skin** to start the parasitic cycle."
+    },
+    {
+     "caption": "Stages 7–9: The larvae travel to the small intestine, molt twice and become adult females embedded in the wall of the small intestine. There are no parasitic males: the females make eggs by **parthenogenesis**. The eggs hatch there, which is why stool shows larvae instead of eggs."
+    },
+    {
+     "caption": "Stage 10: Some rhabditiform larvae turn infective inside the host and re-enter through the bowel wall or perianal skin. This **autoinfection** keeps infections going for decades and can explode into hyperinfection when a patient is immunosuppressed, for example on corticosteroids."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = rhabditiform larva in stool (agar plate culture or Baermann concentration help); infective stage = filariform larva; transmission = skin penetration, plus autoinfection."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Strongyloides stercoralis showing the free-living cycle in soil and the parasitic cycle in the human, including autoinfection, numbered 1 to 10.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-trichuris",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Trichuris trichiura life cycle",
+   "keywords": [
+    "trichuris",
+    "trichiura",
+    "trichuriasis",
+    "whipworm",
+    "rectal prolapse",
+    "barrel"
+   ],
+   "src": "https://www.cdc.gov/dpdx/trichuriasis/modules/Trichuris_LifeCycle.gif",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/trichuriasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: **Unembryonated eggs** pass out in the stool; this is the diagnostic stage. They are barrel-shaped with a plug at each end."
+    },
+    {
+     "caption": "Stages 2–4: In the soil the egg develops step by step: a 2-cell stage, then advanced cleavage, then a fully **embryonated egg**. It becomes infective in 15–30 days."
+    },
+    {
+     "caption": "Stage 5: A person swallows embryonated eggs on soil-contaminated hands or food. The eggs hatch in the small intestine and release larvae. There is no lung migration."
+    },
+    {
+     "caption": "Stage 6: The larvae mature into adults (about 4 cm long) that stay in the **cecum and ascending colon**, with their thin front end threaded into the mucosa. Females start laying 3,000–20,000 eggs a day about 60–70 days after infection; heavy infections in children can cause bloody diarrhea and rectal prolapse."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = barrel-shaped eggs in stool (direct smear, Kato-Katz); infective stage = embryonated egg; transmission = swallowing eggs from soil (fecal-oral)."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Trichuris trichiura: unembryonated eggs in stool, egg development in soil to the embryonated stage, ingestion, hatching in the small intestine, and adults in the cecum, numbered 1 to 6.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-enterobius",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Enterobius vermicularis life cycle",
+   "keywords": [
+    "enterobius",
+    "enterobiasis",
+    "pinworm",
+    "perianal",
+    "cellulose-tape",
+    "scotch tape"
+   ],
+   "src": "https://www.cdc.gov/dpdx/enterobiasis/modules/Enterobius_LifeCycl_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: Gravid females lay their eggs on the **perianal skin folds**, and the eggs become infective within about 4–6 hours. Because eggs are deposited on the skin and not in the bowel, they are seldom found in stool."
+    },
+    {
+     "caption": "Stage 2: People are infected by swallowing eggs, either by **self-inoculation** (scratching the itchy area, then hand to mouth) or from eggs on contaminated surfaces, clothes and bed linen."
+    },
+    {
+     "caption": "Stages 3–4: The larvae hatch in the small intestine, and the adults settle in the colon, usually the **cecum**. Egg laying begins about a month after the eggs are swallowed; adults live about two months."
+    },
+    {
+     "caption": "Stage 5: At night, gravid females crawl out of the anus and lay eggs on the perianal skin, which causes the typical **nocturnal itching**."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = eggs (and sometimes adult females) on perianal skin, collected with a cellulose-tape (Scotch tape) preparation first thing in the morning, before bathing or defecation; infective stage = embryonated egg; transmission = ingestion, hand to mouth."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Enterobius vermicularis: eggs on perianal folds, ingestion of eggs, larvae hatching in the small intestine, adults in the cecum, and gravid females migrating to the perianal area, numbered 1 to 5.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-capillaria",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Capillaria philippinensis life cycle",
+   "keywords": [
+    "capillaria",
+    "philippinensis",
+    "capillariasis",
+    "protein-losing"
+   ],
+   "src": "https://www.cdc.gov/dpdx/intestinalcapillariasis/modules/C_phil_LifeCycle_20.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/intestinalcapillariasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: **Unembryonated, thick-shelled eggs** are passed in the stool; this is the diagnostic stage. They look peanut-shaped with flattened plugs at both ends."
+    },
+    {
+     "caption": "Stages 2–3: In the environment the eggs embryonate in 5–10 days. Small freshwater fish eat them; the larvae hatch, cross the fish's intestine and settle in its tissues, so the fish is the **intermediate host**."
+    },
+    {
+     "caption": "Stages 4–5: People are infected by eating **raw or undercooked small freshwater fish** carrying the larvae. The tiny adults (2–4 mm) live in the human small intestine, burrowed into the mucosa."
+    },
+    {
+     "caption": "Stages 6–7: Females can also make thin eggs without a shell that hatch inside the host. The released larvae re-invade the mucosa (**internal autoinfection**), so the worm burden keeps rising. That leads to chronic watery diarrhea, gurgling bowels and protein-losing enteropathy, which can be fatal untreated."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = peanut-shaped eggs (sometimes larvae or adults) in stool; infective stage = larva in raw freshwater fish; transmission = eating raw fish, then autoinfection. First described in northern Luzon."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Capillaria philippinensis: unembryonated eggs in stool, embryonation in the environment, larvae in freshwater fish, human infection by eating raw fish, adults in the small intestine, and internal autoinfection, numbered 1 to 7.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-schistosoma",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.2"
+   ],
+   "title": "Schistosoma life cycle",
+   "keywords": [
+    "schistosoma",
+    "schistosomiasis",
+    "japonicum",
+    "oncomelania",
+    "quadrasi",
+    "cercaria",
+    "mansoni",
+    "haematobium"
+   ],
+   "src": "https://www.cdc.gov/dpdx/schistosomiasis/modules/Schistomes_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: Eggs leave the body in the **feces** (S. japonicum, S. mansoni) or the **urine** (S. haematobium). These eggs are the diagnostic stage; the S. japonicum egg is oval with only a tiny lateral knob, not an operculum."
+    },
+    {
+     "caption": "Stages 2–3: In fresh water the eggs hatch into swimming **miracidia**, which penetrate a specific snail. For S. japonicum in the Philippines that snail is **Oncomelania hupensis quadrasi**."
+    },
+    {
+     "caption": "Stages 4–5: Inside the snail the parasite multiplies through two generations of sporocysts and then produces many **cercariae**."
+    },
+    {
+     "caption": "Stages 6–7: The fork-tailed cercariae, the infective stage, leave the snail and **penetrate the skin** of people wading, farming or bathing in the water. They drop their tails and become schistosomulae."
+    },
+    {
+     "caption": "Stages 8–9: The schistosomulae travel in the veins to the lungs and heart, mature in the liver, and then leave it through the **portal venous system**."
+    },
+    {
+     "caption": "Stage 10: Male and female adults pair up in the venules. S. japonicum and S. mansoni live in the **mesenteric veins** of the intestine, S. haematobium around the bladder. Eggs cross into the gut or bladder; eggs trapped in tissue cause granulomas and liver fibrosis."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = eggs in stool (Kato-Katz) or urine (S. haematobium); infective stage = cercaria in fresh water; transmission = skin penetration. In the Philippines: S. japonicum and the snail O. hupensis quadrasi."
+    }
+   ],
+   "alt": "CDC DPDx Schistosoma life cycle: eggs in feces or urine, miracidia, snail intermediate host with sporocysts, cercariae penetrating human skin, schistosomulae migrating to the liver, and adult pairs in mesenteric venules, numbered 1 to 10.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-paragonimus",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.2"
+   ],
+   "title": "Paragonimus westermani life cycle",
+   "keywords": [
+    "paragonimus",
+    "westermani",
+    "paragonimiasis",
+    "lung fluke",
+    "freshwater crab"
+   ],
+   "src": "https://www.cdc.gov/dpdx/paragonimiasis/modules/Paragonimus_LifeCycle.gif",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/paragonimiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: **Unembryonated, operculated eggs** are coughed up in **sputum**, or swallowed and passed in stool. Both specimens can show this diagnostic stage; the sputum is often rusty-brown and blood-streaked."
+    },
+    {
+     "caption": "Stages 2–3: In water the eggs embryonate, and **miracidia** hatch and penetrate the first intermediate host, a snail."
+    },
+    {
+     "caption": "Stage 4 (4a–4c): Inside the snail the parasite passes through sporocysts and rediae, and the rediae release many cercariae that leave the snail."
+    },
+    {
+     "caption": "Stage 5: The cercariae invade the second intermediate host, a **freshwater crab or crayfish**, and encyst as **metacercariae**, the infective stage."
+    },
+    {
+     "caption": "Stages 6–7: People are infected by eating raw, undercooked or pickled crabs or crayfish. The metacercariae excyst in the duodenum."
+    },
+    {
+     "caption": "Stage 8: The young flukes cross the intestinal wall into the abdominal cavity, then pass through the diaphragm into the **lungs**, where they become encapsulated and mature. Chronic cough with bloody sputum can be mistaken for tuberculosis."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = operculated eggs in sputum or stool; infective stage = metacercaria in crab or crayfish; transmission = eating raw or undercooked crustaceans."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Paragonimus westermani: eggs in sputum or stool, miracidia, snail first intermediate host, cercariae, metacercariae in crabs or crayfish, human ingestion, and adults in the lungs, numbered 1 to 8 with 4a to 4c.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-taenia",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.3"
+   ],
+   "title": "Taenia saginata and T. solium life cycle (taeniasis)",
+   "keywords": [
+    "taeniasis",
+    "saginata",
+    "taenia eggs",
+    "gravid proglottid",
+    "uterine branches",
+    "beef tapeworm",
+    "pork tapeworm"
+   ],
+   "src": "https://www.cdc.gov/dpdx/taeniasis/modules/Taenia_LifeCycle.gif",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/taeniasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: Eggs or **gravid proglottids** are passed in the feces; this is the diagnostic stage. Humans are the only definitive host. Taenia eggs of different species look the same, so species identification needs a gravid proglottid (count the uterine branches) or the scolex."
+    },
+    {
+     "caption": "Stage 2: Cattle (T. saginata) or pigs (T. solium, T. asiatica) eat vegetation contaminated with eggs or proglottids."
+    },
+    {
+     "caption": "Stage 3: In the animal's intestine the oncospheres hatch, invade the gut wall and move to the striated muscle, where they develop into **cysticerci** that can survive for years."
+    },
+    {
+     "caption": "Stage 4: A person eats raw or undercooked **beef or pork** containing cysticerci, the infective stage for taeniasis."
+    },
+    {
+     "caption": "Stages 5–6: In the small intestine the cysticercus attaches by its **scolex** and grows over about 2 months into an adult tapeworm (T. saginata usually up to 5 m, T. solium 2–7 m). Gravid proglottids break off and pass in the stool or crawl out of the anus, about 6 a day."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = eggs or gravid proglottids in stool; infective stage = cysticercus in meat; transmission = eating undercooked beef or pork. T. solium eggs can also infect people directly (see cysticercosis)."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Taenia saginata and Taenia solium: eggs or gravid proglottids in feces, cattle and pigs ingesting eggs, cysticerci in muscle, humans eating undercooked meat, and adult tapeworms in the small intestine, numbered 1 to 6.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-cysticercosis",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.3"
+   ],
+   "title": "Taenia solium life cycle (cysticercosis)",
+   "keywords": [
+    "cysticercosis",
+    "neurocysticercosis",
+    "solium",
+    "taenia solium"
+   ],
+   "src": "https://www.cdc.gov/dpdx/cysticercosis/modules/Cysticercosis_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/cysticercosis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: A person carrying the adult T. solium tapeworm sheds eggs and gravid proglottids in the feces. These eggs are **infective right away**; they need no time in the soil."
+    },
+    {
+     "caption": "Stages 2–4: A pig eats the eggs or proglottids. The oncospheres hatch, invade the gut wall, travel in the blood and turn into **cysticerci** in the pig's tissues over 60–70 days."
+    },
+    {
+     "caption": "Stages 5–6: A person who eats undercooked pork with cysticerci gets the adult tapeworm in the small intestine. This is **taeniasis**, and that person becomes a new egg shedder."
+    },
+    {
+     "caption": "Stages 7–9: People who swallow **eggs** (food or water contaminated by a carrier, person-to-person spread, or the carrier's own unwashed hands) develop cysticerci in their own tissues, just like the pig. Cysts in the brain cause **neurocysticercosis**, a common cause of seizures."
+    },
+    {
+     "caption": "**Takeaway:** for cysticercosis the infective stage is the egg, so it can happen without eating pork; for taeniasis it is the cysticercus in pork. Cysticercosis is diagnosed by imaging and serology, not by stool examination."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Taenia solium cysticercosis: eggs from a human tapeworm carrier, pigs and humans ingesting eggs, cysticerci in tissues including the brain, and taeniasis from eating undercooked pork, numbered 1 to 9.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-plasmodium",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.4"
+   ],
+   "title": "Plasmodium (malaria) life cycle",
+   "keywords": [
+    "plasmodium",
+    "malaria",
+    "falciparum",
+    "vivax",
+    "ovale",
+    "malariae",
+    "hypnozoite",
+    "anopheles",
+    "gametocyte"
+   ],
+   "src": "https://www.cdc.gov/dpdx/malaria/modules/malaria_LifeCycle.gif",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/malaria/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: During a blood meal, an infected female **Anopheles** mosquito injects **sporozoites**, the infective stage for humans."
+    },
+    {
+     "caption": "Stages 2–4 (A, exo-erythrocytic cycle): Sporozoites invade liver cells, grow into schizonts, and the schizonts burst to release merozoites into the blood. In P. vivax and P. ovale some parasites stay dormant in the liver as **hypnozoites** and cause relapses weeks to years later."
+    },
+    {
+     "caption": "Stages 5–6 (B, erythrocytic cycle): Merozoites invade red cells. **Ring-stage trophozoites** mature into schizonts, which burst and release merozoites that invade new red cells. These blood stages cause the fever and other symptoms."
+    },
+    {
+     "caption": "Stage 7: Some parasites in red cells develop into male and female **gametocytes**. All these blood stages are what the lab looks for on Giemsa-stained thick films (to detect) and thin films (to identify the species)."
+    },
+    {
+     "caption": "Stages 8–12 (C, sporogonic cycle): A mosquito swallows gametocytes during a blood meal. In its stomach, gametes fuse into a zygote, which becomes a motile ookinete, then an **oocyst** on the midgut wall. The oocyst bursts and releases sporozoites that move to the salivary glands."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = blood stages (rings, trophozoites, schizonts, gametocytes) on thick and thin blood films; infective stage = sporozoite; transmission = bite of a female Anopheles mosquito (also blood transfusion). Humans host the asexual cycle; the mosquito hosts the sexual cycle."
+    }
+   ],
+   "alt": "CDC DPDx malaria life cycle: sporozoites from an Anopheles mosquito, liver-stage schizonts, erythrocytic cycle with rings, schizonts and gametocytes, and the sporogonic cycle in the mosquito, numbered 1 to 12 with stages A, B and C.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-entamoeba",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.4"
+   ],
+   "title": "Entamoeba histolytica life cycle",
+   "keywords": [
+    "entamoeba",
+    "histolytica",
+    "amebiasis",
+    "amoebiasis",
+    "amebic",
+    "amoebic"
+   ],
+   "src": "https://www.cdc.gov/dpdx/amebiasis/modules/Amebiasis_LifeCycle_19.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/amebiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: **Cysts and trophozoites** are both passed in the feces and are the diagnostic stages. Cysts are usually seen in formed stool, trophozoites in diarrheal stool, so liquid stool must be examined fresh or preserved promptly."
+    },
+    {
+     "caption": "Stage 2: Infection comes from swallowing **mature cysts** (four nuclei) in fecally contaminated food, water or hands; fecal exposure during sex can also transmit it."
+    },
+    {
+     "caption": "Stages 3–4: The cyst excysts in the small intestine and releases trophozoites, which move on to the **large intestine**."
+    },
+    {
+     "caption": "A, B, C on the figure: trophozoites may stay in the lumen (A: no symptoms, but the person keeps passing cysts), invade the mucosa (B: amebic colitis and dysentery; trophozoites may contain ingested red cells), or spread through the blood to the liver, lungs or brain (C: for example **amebic liver abscess**)."
+    },
+    {
+     "caption": "Stage 5: Trophozoites multiply by binary fission and form cysts, and both stages are passed. Cysts survive days to weeks outside thanks to their wall; trophozoites die quickly outside the body and would not survive stomach acid."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = cysts and trophozoites in stool (wet mount, trichrome stain; cysts look the same as E. dispar, so antigen or PCR testing separates them); infective stage = mature cyst; transmission = fecal-oral."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Entamoeba histolytica: cysts and trophozoites in feces, ingestion of mature cysts, excystation, trophozoites in the large intestine with noninvasive, intestinal and extraintestinal outcomes, and encystation, numbered 1 to 5.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-giardia",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.4"
+   ],
+   "title": "Giardia duodenalis life cycle",
+   "keywords": [
+    "giardiasis",
+    "lamblia",
+    "sucking disk",
+    "ventral disk",
+    "falling leaf"
+   ],
+   "src": "https://www.cdc.gov/dpdx/giardiasis/modules/Giardia_LifeCycle.gif",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/giardiasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: **Cysts and trophozoites** can both be found in feces and are the diagnostic stages. The hardy cysts survive for months in cold water."
+    },
+    {
+     "caption": "Stage 2: Infection comes from swallowing **cysts** in contaminated water or food, or from hands and objects (fecal-oral)."
+    },
+    {
+     "caption": "Stage 3: In the small intestine each cyst excysts and releases **two trophozoites**."
+    },
+    {
+     "caption": "Stage 4: Trophozoites multiply by longitudinal binary fission in the upper small bowel, free in the lumen or attached to the mucosa by their **ventral sucking disk**. This interferes with absorption and causes greasy, foul-smelling diarrhea."
+    },
+    {
+     "caption": "Stage 5: As the parasites move toward the colon they encyst. The **cyst** is the form most often found in formed stool. Cysts are infectious when passed, so person-to-person spread is possible."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = cysts and trophozoites in stool (wet mount, stool antigen tests; duodenal sampling such as the string test if stools are negative); infective stage = cyst; transmission = contaminated water, food or hands."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Giardia duodenalis: cysts and trophozoites in feces, ingestion of cysts, excystation in the small intestine, trophozoites attached to the mucosa, and encystation toward the colon, numbered 1 to 5.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-lc-filariasis",
+   "type": "image",
+   "subject": "MP",
+   "tos": [
+    "MP-H.1"
+   ],
+   "title": "Wuchereria bancrofti life cycle (lymphatic filariasis)",
+   "keywords": [
+    "wuchereria",
+    "bancrofti",
+    "brugia",
+    "malayi",
+    "filariasis",
+    "elephantiasis",
+    "chyle",
+    "chyluria"
+   ],
+   "src": "https://www.cdc.gov/dpdx/lymphaticfilariasis/modules/W_bancrofti_LifeCycle_lg.jpg",
+   "credit": "CDC DPDx",
+   "license": "Public domain",
+   "page": "https://www.cdc.gov/dpdx/lymphaticfilariasis/index.html",
+   "steps": [
+    {
+     "caption": "Stage 1: During a blood meal, an infected mosquito leaves **third-stage (L3) larvae** on the skin, and they enter through the bite wound. This is the infective stage."
+    },
+    {
+     "caption": "Stage 2: The larvae grow into adult worms that live in the **lymphatic vessels and nodes** (females 80–100 mm, males about 40 mm). Damage to the lymphatics can lead to lymphedema, elephantiasis, hydrocele and chyluria."
+    },
+    {
+     "caption": "Stage 3: Adult females release **sheathed microfilariae** that move through the lymph and blood. They show nocturnal periodicity, so blood for diagnosis is collected at night, around 10 pm to 2 am."
+    },
+    {
+     "caption": "Stages 4–5: A mosquito swallows microfilariae with a blood meal. In the mosquito they shed their sheaths and pass through the midgut wall to the **thoracic muscles**."
+    },
+    {
+     "caption": "Stages 6–8: There they develop into first-stage and then infective **third-stage larvae**, which migrate to the mosquito's proboscis, ready to infect the next person."
+    },
+    {
+     "caption": "**Takeaway:** diagnostic stage = microfilariae in night blood (Giemsa thick film, Knott's concentration); infective stage = L3 larva; transmission = mosquito bite. Brugia malayi follows the same cycle (Mansonia and Aedes vectors) with smaller worms."
+    }
+   ],
+   "alt": "CDC DPDx life cycle of Wuchereria bancrofti: mosquito depositing third-stage larvae, adults in lymphatics, sheathed microfilariae in blood, ingestion by a mosquito, and larval development to the infective stage in the mosquito, numbered 1 to 8.",
+   "source": "CDC DPDx life cycle figure; captions written for this site."
+  }
+ ]
+}

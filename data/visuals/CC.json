@@ -1,0 +1,592 @@
+{
+ "subject": "CC",
+ "visuals": [
+  {
+   "id": "cc-westgard",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-B.1",
+    "HE-F.1",
+    "BB-J.1",
+    "CM-J.2"
+   ],
+   "title": "Westgard rules on a Levey–Jennings chart",
+   "keywords": [
+    "westgard",
+    "levey-jennings",
+    "levey–jennings",
+    "1-3s",
+    "2-2s",
+    "r-4s",
+    "quality control",
+    "control rule",
+    "control results",
+    "random error",
+    "systematic error"
+   ],
+   "viewBox": "0 0 360 300",
+   "svg": "<g><text x=\"8\" y=\"26\" class=\"v-text v-b\">Control results, one per run</text><line x1=\"56\" y1=\"60\" x2=\"348\" y2=\"60\" class=\"v-line\"/><text x=\"50\" y=\"64\" class=\"v-text v-small v-end v-muted\">+3 SD</text><line x1=\"56\" y1=\"90\" x2=\"348\" y2=\"90\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"94\" class=\"v-text v-small v-end v-muted\">+2 SD</text><line x1=\"56\" y1=\"120\" x2=\"348\" y2=\"120\" class=\"v-thin v-dot\"/><text x=\"50\" y=\"124\" class=\"v-text v-small v-end v-muted\">+1 SD</text><line x1=\"56\" y1=\"150\" x2=\"348\" y2=\"150\" class=\"v-line\"/><text x=\"50\" y=\"154\" class=\"v-text v-small v-end\">mean</text><line x1=\"56\" y1=\"180\" x2=\"348\" y2=\"180\" class=\"v-thin v-dot\"/><text x=\"50\" y=\"184\" class=\"v-text v-small v-end v-muted\">−1 SD</text><line x1=\"56\" y1=\"210\" x2=\"348\" y2=\"210\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"214\" class=\"v-text v-small v-end v-muted\">−2 SD</text><line x1=\"56\" y1=\"240\" x2=\"348\" y2=\"240\" class=\"v-line\"/><text x=\"50\" y=\"244\" class=\"v-text v-small v-end v-muted\">−3 SD</text><line x1=\"56\" y1=\"40\" x2=\"56\" y2=\"262\" class=\"v-line\"/><text x=\"202\" y=\"284\" class=\"v-text v-small v-mid v-muted\">Run number →</text></g><g data-k=\"ok\"><polyline points=\"72,150 99,132 126,165 153,141 180,158 207,126 234,171 261,147 288,139 315,162 342,153\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"126\" cy=\"165\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"153\" cy=\"141\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"180\" cy=\"158\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"207\" cy=\"126\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"234\" cy=\"171\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"261\" cy=\"147\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"288\" cy=\"139\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"315\" cy=\"162\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"342\" cy=\"153\" r=\"4.5\" class=\"v-fill-ink\"/></g><g data-k=\"w12s\"><polyline points=\"72,150 99,132 126,165 153,141 180,158 207,80 234,171 261,147 288,139 315,162 342,153\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"126\" cy=\"165\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"153\" cy=\"141\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"180\" cy=\"158\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"207\" cy=\"80\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"207\" cy=\"80\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"234\" cy=\"171\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"261\" cy=\"147\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"288\" cy=\"139\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"315\" cy=\"162\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"342\" cy=\"153\" r=\"4.5\" class=\"v-fill-ink\"/><text x=\"224\" y=\"76\" class=\"v-text v-small v-b\">1₂s: warning</text></g><g data-k=\"r13s\"><polyline points=\"72,150 99,132 126,165 153,141 180,158 207,126 234,171 261,48 288,139 315,162 342,153\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"126\" cy=\"165\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"153\" cy=\"141\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"180\" cy=\"158\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"207\" cy=\"126\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"234\" cy=\"171\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"261\" cy=\"48\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"261\" cy=\"48\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"288\" cy=\"139\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"315\" cy=\"162\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"342\" cy=\"153\" r=\"4.5\" class=\"v-fill-ink\"/><text x=\"166\" y=\"44\" class=\"v-text v-small v-b\">1₃s: reject</text></g><g data-k=\"r22s\"><polyline points=\"72,150 99,132 126,165 153,141 180,158 207,126 234,84 261,82 288,139 315,162 342,153\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"126\" cy=\"165\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"153\" cy=\"141\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"180\" cy=\"158\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"207\" cy=\"126\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"234\" cy=\"84\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"234\" cy=\"84\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"261\" cy=\"82\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"261\" cy=\"82\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"288\" cy=\"139\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"315\" cy=\"162\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"342\" cy=\"153\" r=\"4.5\" class=\"v-fill-ink\"/><text x=\"218\" y=\"76\" class=\"v-text v-small v-b v-end\">2₂s: reject</text></g><g data-k=\"rR4s\"><polyline points=\"72,150 99,132 126,165 153,141 180,158 207,126 234,171 261,84 288,216 315,162 342,153\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"126\" cy=\"165\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"153\" cy=\"141\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"180\" cy=\"158\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"207\" cy=\"126\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"234\" cy=\"171\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"261\" cy=\"84\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"261\" cy=\"84\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"288\" cy=\"216\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"288\" cy=\"216\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"315\" cy=\"162\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"342\" cy=\"153\" r=\"4.5\" class=\"v-fill-ink\"/><text x=\"262\" y=\"262\" class=\"v-text v-small v-b\">R₄s: reject</text></g><g data-k=\"r10x\"><polyline points=\"72,150 99,132 126,128 153,126 180,141 207,129 234,138 261,123 288,135 315,141 342,132\" class=\"v-line\" style=\"stroke-width:1.5\"/><circle cx=\"72\" cy=\"150\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"99\" cy=\"132\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"99\" cy=\"132\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"126\" cy=\"128\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"126\" cy=\"128\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"153\" cy=\"126\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"153\" cy=\"126\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"180\" cy=\"141\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"180\" cy=\"141\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"207\" cy=\"129\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"207\" cy=\"129\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"234\" cy=\"138\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"234\" cy=\"138\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"261\" cy=\"123\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"261\" cy=\"123\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"288\" cy=\"135\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"288\" cy=\"135\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"315\" cy=\"141\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"315\" cy=\"141\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><circle cx=\"342\" cy=\"132\" r=\"7\" class=\"v-fill-2\"/><circle cx=\"342\" cy=\"132\" r=\"11\" class=\"v-line v-stroke-2\" style=\"stroke-width:2\"/><text x=\"64\" y=\"100\" class=\"v-text v-small v-b\">10x: reject (all 10 above the mean)</text></g>",
+   "steps": [
+    {
+     "caption": "Each dot is one control result, plotted run after run. The lines mark the mean and 1, 2 and 3 **standard deviations (SD)** from it. In a stable method, about 95% of results fall within ±2 SD.",
+     "show": [
+      "ok"
+     ],
+     "hl": []
+    },
+    {
+     "caption": "**1₂s (warning):** one result beyond 2 SD. About 1 in 20 good runs does this by chance, so it only means: look closer with the other rules before reporting.",
+     "show": [
+      "w12s"
+     ],
+     "hl": [
+      "w12s"
+     ]
+    },
+    {
+     "caption": "**1₃s (reject):** one result beyond 3 SD. That's very unlikely by chance, so it points to **random error**, such as a bubble, a clot or a pipetting slip.",
+     "show": [
+      "r13s"
+     ],
+     "hl": [
+      "r13s"
+     ]
+    },
+    {
+     "caption": "**2₂s (reject):** two results in a row beyond the same 2 SD line. Errors that repeat in the same direction point to **systematic error**, such as a calibration problem or a deteriorating reagent.",
+     "show": [
+      "r22s"
+     ],
+     "hl": [
+      "r22s"
+     ]
+    },
+    {
+     "caption": "**R₄s (reject):** within one run, one control is above +2 SD and the other is below −2 SD, more than 4 SD apart. A spread that wide points to **random error**. (Shown here as two neighbouring points for simplicity.)",
+     "show": [
+      "rR4s"
+     ],
+     "hl": [
+      "rR4s"
+     ]
+    },
+    {
+     "caption": "**10x (reject):** ten results in a row on the same side of the mean, even if all are inside 2 SD. That's a **shift**, a systematic error such as a new reagent lot or a calibration change.",
+     "show": [
+      "r10x"
+     ],
+     "hl": [
+      "r10x"
+     ]
+    },
+    {
+     "caption": "**To remember:** 1₂s warns; 1₃s and R₄s catch random error; 2₂s and 10x catch systematic error. When a rule rejects the run, don't report patient results until the cause is fixed.",
+     "show": [
+      "ok"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A Levey–Jennings chart: control results plotted run by run against lines for the mean and ±1, ±2 and ±3 SD. Steps show one point beyond 2 SD (1-2s warning), one beyond 3 SD (1-3s reject, random error), two in a row beyond the same 2 SD line (2-2s reject, systematic error), two points more than 4 SD apart (R-4s reject, random error), and ten in a row on one side of the mean (10x reject, a shift).",
+   "source": "Original diagram. Rules as described in Bishop's Clinical Chemistry 9e, quality control chapter (Westgard multirule procedure)."
+  },
+  {
+   "id": "cc-beers-law",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-A.2",
+    "CC-A.3"
+   ],
+   "title": "Spectrophotometer and Beer’s law",
+   "keywords": [
+    "beer's law",
+    "beer’s law",
+    "beer-lambert",
+    "spectrophotometer",
+    "monochromator",
+    "transmittance",
+    "an absorbance of",
+    "molar absorptivity",
+    "absorptivity",
+    "standard curve",
+    "photomultiplier",
+    "2 − log",
+    "2 - log"
+   ],
+   "viewBox": "0 0 360 504",
+   "svg": "<text x=\"8\" y=\"20\" class=\"v-text v-small v-muted\">Single-beam spectrophotometer</text><g data-k=\"lamp\"><rect x=\"8\" y=\"32\" width=\"56\" height=\"64\" rx=\"6\" class=\"v-box\"/><text x=\"36\" y=\"61.5\" class=\"v-text v-mid v-b\">Lamp</text><text x=\"36\" y=\"76.5\" class=\"v-text v-mid v-small v-muted\">source</text></g><g data-k=\"mono\"><rect x=\"86\" y=\"32\" width=\"84\" height=\"64\" rx=\"6\" class=\"v-box\"/><text x=\"128\" y=\"53\" class=\"v-text v-mid v-b\">Mono-</text><text x=\"128\" y=\"70\" class=\"v-text v-mid v-b\">chromator</text><text x=\"128\" y=\"85\" class=\"v-text v-mid v-small v-muted\">picks λ</text></g><g data-k=\"cuv\"><rect x=\"192\" y=\"32\" width=\"66\" height=\"64\" rx=\"6\" class=\"v-tint-3\"/><text x=\"225\" y=\"61.5\" class=\"v-text v-mid v-b\">Cuvette</text><text x=\"225\" y=\"76.5\" class=\"v-text v-mid v-small v-muted\">sample</text></g><g data-k=\"det\"><rect x=\"280\" y=\"32\" width=\"72\" height=\"64\" rx=\"6\" class=\"v-box\"/><text x=\"316\" y=\"61.5\" class=\"v-text v-mid v-b\">Detector</text><text x=\"316\" y=\"76.5\" class=\"v-text v-mid v-small v-muted\">→ signal</text></g><line x1=\"66\" y1=\"64\" x2=\"84\" y2=\"64\" class=\"v-line v-arrow\"/><line x1=\"172\" y1=\"64\" x2=\"190\" y2=\"64\" class=\"v-line v-arrow\"/><line x1=\"260\" y1=\"64\" x2=\"278\" y2=\"64\" class=\"v-line v-arrow\"/><g data-k=\"beam\"><text x=\"181\" y=\"54\" class=\"v-text v-mid v-b\">I₀</text><text x=\"269\" y=\"54\" class=\"v-text v-mid v-b\">I</text><line x1=\"200\" y1=\"102\" x2=\"250\" y2=\"102\" class=\"v-thin\"/><line x1=\"200\" y1=\"98\" x2=\"200\" y2=\"106\" class=\"v-thin\"/><line x1=\"250\" y1=\"98\" x2=\"250\" y2=\"106\" class=\"v-thin\"/><text x=\"225\" y=\"118\" class=\"v-text v-mid v-small v-muted\">b = path</text></g><line x1=\"316\" y1=\"98\" x2=\"316\" y2=\"130\" class=\"v-line v-arrow\"/><g data-k=\"readout\"><rect x=\"272\" y=\"132\" width=\"88\" height=\"40\" rx=\"6\" class=\"v-box\"/><text x=\"316\" y=\"149.5\" class=\"v-text v-mid v-b\">Readout</text><text x=\"316\" y=\"164.5\" class=\"v-text v-mid v-small\">%T or A</text></g><g data-k=\"fT\"><text x=\"8\" y=\"140\" class=\"v-text v-b\">%T = I ÷ I₀ × 100</text></g><g data-k=\"fA\"><text x=\"8\" y=\"164\" class=\"v-text v-b\">A = 2 − log %T</text></g><g data-k=\"mini\"><text x=\"104\" y=\"206\" class=\"v-text v-mid v-small\">%T falls on a curve</text><polyline points=\"44,218 44,330 170,330\" class=\"v-line\"/><text x=\"104\" y=\"346\" class=\"v-text v-mid v-small v-muted\">concentration →</text><text x=\"278\" y=\"206\" class=\"v-text v-mid v-small\">A rises in a line</text><polyline points=\"218,218 218,330 344,330\" class=\"v-line\"/><text x=\"278\" y=\"346\" class=\"v-text v-mid v-small v-muted\">concentration →</text><text x=\"38\" y=\"230\" class=\"v-text v-end v-small v-b\">%T</text><text x=\"38\" y=\"334\" class=\"v-text v-end v-small v-muted\">0</text><text x=\"212\" y=\"230\" class=\"v-text v-end v-small v-b\">A</text><text x=\"212\" y=\"334\" class=\"v-text v-end v-small v-muted\">0</text><g data-k=\"miniT\"><polyline points=\"44,226 48,237.3 52,247.4 56,256.4 60,264.4 64,271.5 68,277.9 72,283.5 76,288.6 80,293.1 84,297.1 88,300.7 92,303.9 96,306.7 100,309.2 104,311.5 108,313.5 112,315.3 116,316.9 120,318.3 124,319.6 128,320.7 132,321.7 136,322.6 140,323.4 144,324.2 148,324.8 152,325.4 156,325.9 160,326.3 164,326.7\" class=\"v-line v-stroke-2 v-draw\"/></g><g data-k=\"miniA\"><line x1=\"218\" y1=\"330\" x2=\"338\" y2=\"226\" class=\"v-line v-stroke-1 v-draw\"/></g></g><g data-k=\"beer\"><rect x=\"8\" y=\"362\" width=\"344\" height=\"50\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"384.5\" class=\"v-text v-mid v-b\">A = a × b × c</text><text x=\"180\" y=\"399.5\" class=\"v-text v-mid v-small\">a absorptivity · b path length · c concentration</text></g><g data-k=\"std\"><text x=\"8\" y=\"214\" class=\"v-text v-b\">Standard curve</text><polyline points=\"62,224 62,408 332,408\" class=\"v-line\"/><text x=\"56\" y=\"234\" class=\"v-text v-end v-b\">A</text><line x1=\"62\" y1=\"408\" x2=\"271.6\" y2=\"261.3\" class=\"v-line\"/><polyline points=\"271.6,261.3 276.8,257.9 282.1,255.1 287.3,252.7 292.6,250.7 297.8,249.1 303.0,247.7 308.3,246.5 313.5,245.5 318.8,244.7 324.0,244.0\" class=\"v-line v-dot\"/><text x=\"332\" y=\"232\" class=\"v-text v-end v-small v-muted\">not linear here: dilute</text><circle cx=\"114.4\" cy=\"371.3\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"166.8\" cy=\"334.7\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"219.2\" cy=\"298\" r=\"4.5\" class=\"v-fill-ink\"/><circle cx=\"271.6\" cy=\"261.3\" r=\"4.5\" class=\"v-fill-ink\"/><text x=\"209.2\" y=\"288\" class=\"v-text v-end v-small\">standards</text><line x1=\"62\" y1=\"334.7\" x2=\"166.8\" y2=\"334.7\" class=\"v-thin v-dot\"/><line x1=\"166.8\" y1=\"334.7\" x2=\"166.8\" y2=\"408\" class=\"v-thin v-dot\"/><text x=\"56\" y=\"338.7\" class=\"v-text v-end v-small v-muted\">0.250</text><text x=\"166.8\" y=\"424\" class=\"v-text v-mid v-small v-muted\">100</text><g data-k=\"pat\"><line x1=\"62\" y1=\"314.1\" x2=\"196.1\" y2=\"314.1\" class=\"v-line v-dash v-stroke-2\"/><line x1=\"196.1\" y1=\"314.1\" x2=\"196.1\" y2=\"406\" class=\"v-line v-arrow v-dash v-stroke-2\"/><rect x=\"191.1\" y=\"309.1\" width=\"10\" height=\"10\" rx=\"1\" class=\"v-fill-2\"/><text x=\"56\" y=\"318.1\" class=\"v-text v-end v-small v-b\">0.320</text><text x=\"199.1\" y=\"424\" class=\"v-text v-small v-b\">128</text><text x=\"206.1\" y=\"332.1\" class=\"v-text v-small v-b\">patient</text></g><text x=\"213\" y=\"442\" class=\"v-text v-mid v-small v-muted\">concentration, mg/dL →</text><text x=\"8\" y=\"470\" class=\"v-text v-b\">Cu = (Au ÷ As) × Cs</text><text x=\"8\" y=\"492\" class=\"v-text\">= (0.320 ÷ 0.250) × 100 = 128 mg/dL</text></g>",
+   "steps": [
+    {
+     "caption": "A **spectrophotometer** shines light from a lamp (tungsten for visible light, deuterium for UV) through a monochromator, which selects one narrow wavelength band. That light passes through the sample in the cuvette, and the detector (such as a photomultiplier tube) turns the light that comes out into an electrical signal.",
+     "show": [],
+     "hl": [
+      "mono"
+     ]
+    },
+    {
+     "caption": "The sample absorbs part of the light: I₀ goes in and a smaller I comes out. **Percent transmittance** is %T = I ÷ I₀ × 100, so a more concentrated sample transmits less light and gives a lower %T.",
+     "show": [
+      "beam",
+      "fT"
+     ],
+     "hl": [
+      "beam",
+      "cuv",
+      "fT"
+     ]
+    },
+    {
+     "caption": "%T falls along a curve as concentration rises, so the instrument converts it to **absorbance**: A = 2 − log %T. For example, 100 %T is A 0, 10 %T is A 1, and 1 %T is A 2.",
+     "show": [
+      "beam",
+      "fT",
+      "fA",
+      "mini"
+     ],
+     "hl": [
+      "fA",
+      "miniT"
+     ]
+    },
+    {
+     "caption": "**Beer’s law:** A = a × b × c. Absorbance is directly proportional to concentration (c) and to path length (b); a is the absorptivity of the substance at that wavelength (molar absorptivity, ε, when c is in mol/L).",
+     "show": [
+      "beam",
+      "fT",
+      "fA",
+      "mini",
+      "beer"
+     ],
+     "hl": [
+      "beer",
+      "miniA"
+     ]
+    },
+    {
+     "caption": "Because A is proportional to c, a **standard** of known concentration converts the patient’s absorbance: Cu = (Au ÷ As) × Cs, here 128 mg/dL. This holds only in the linear range; above it, dilute the sample and multiply the result by the dilution factor.",
+     "show": [
+      "beam",
+      "fT",
+      "fA",
+      "std"
+     ],
+     "hl": [
+      "pat"
+     ]
+    },
+    {
+     "caption": "**To remember:** lamp → monochromator → cuvette → detector. A = 2 − log %T, and by Beer’s law absorbance (not %T) is proportional to concentration.",
+     "show": [
+      "beam",
+      "fT",
+      "fA",
+      "std"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A spectrophotometer drawn as four boxes in a row: lamp, monochromator, cuvette holding the sample, and detector, with a readout below the detector. Incident light I₀ enters the cuvette and transmitted light I leaves it; %T = I ÷ I₀ × 100 and A = 2 − log %T. Two small graphs show %T falling in a curve and absorbance rising in a straight line as concentration rises, with Beer's law A = a × b × c. A standard curve plots standards in a straight line; a patient absorbance of 0.320 is read across to the line and down to 128 mg/dL, matching Cu = (Au ÷ As) × Cs with a 100 mg/dL standard of absorbance 0.250. Above the highest standard the line bends and flattens, so samples there must be diluted.",
+   "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (spectrophotometry; Beer’s law)."
+  },
+  {
+   "id": "cc-bilirubin",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-C.6"
+   ],
+   "title": "Bilirubin metabolism and the three jaundices",
+   "keywords": [
+    "unconjugated",
+    "conjugated bilirubin",
+    "total bilirubin",
+    "jaundice",
+    "icterus",
+    "urobilinogen",
+    "biliverdin",
+    "stercobilin",
+    "glucuronyltransferase",
+    "gilbert",
+    "crigler",
+    "dubin",
+    "clay-colored",
+    "cholestasis"
+   ],
+   "viewBox": "0 0 360 601",
+   "svg": "<g data-k=\"path1\"><g data-k=\"n1\"><rect x=\"10\" y=\"8\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"121\" y=\"24.5\" class=\"v-text v-mid v-b\">Old RBCs → hemoglobin</text><text x=\"121\" y=\"39.5\" class=\"v-text v-mid v-small v-muted\">broken down in macrophages (spleen)</text></g><g data-k=\"n2\"><rect x=\"10\" y=\"70\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"121\" y=\"86.5\" class=\"v-text v-mid v-b\">Heme</text><text x=\"121\" y=\"101.5\" class=\"v-text v-mid v-small v-muted\">globin and iron are recycled</text></g><line x1=\"121\" y1=\"47\" x2=\"121\" y2=\"68\" class=\"v-line v-arrow v-draw\"/><g data-k=\"n3\"><rect x=\"10\" y=\"132\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"121\" y=\"148.5\" class=\"v-text v-mid v-b\">Biliverdin</text><text x=\"121\" y=\"163.5\" class=\"v-text v-mid v-small v-muted\">green pigment</text></g><line x1=\"121\" y1=\"109\" x2=\"121\" y2=\"130\" class=\"v-line v-arrow v-draw\"/><text x=\"129\" y=\"124\" class=\"v-text v-small\">heme oxygenase</text><g data-k=\"n4\"><rect x=\"10\" y=\"194\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-tint-4\"/><text x=\"121\" y=\"210.5\" class=\"v-text v-mid v-b\">Unconjugated bilirubin</text><text x=\"121\" y=\"225.5\" class=\"v-text v-mid v-small v-muted\">insoluble; carried on albumin</text></g><line x1=\"121\" y1=\"171\" x2=\"121\" y2=\"192\" class=\"v-line v-arrow v-draw\"/><text x=\"129\" y=\"186\" class=\"v-text v-small\">biliverdin reductase</text></g><g data-k=\"path2\"><g data-k=\"n5\"><rect x=\"10\" y=\"256\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-tint-1\"/><text x=\"121\" y=\"272.5\" class=\"v-text v-mid v-b\">Conjugated bilirubin</text><text x=\"121\" y=\"287.5\" class=\"v-text v-mid v-small v-muted\">glucuronide; water-soluble</text></g><line x1=\"121\" y1=\"233\" x2=\"121\" y2=\"254\" class=\"v-line v-arrow v-draw\"/><text x=\"129\" y=\"248\" class=\"v-text v-small\">liver: UDP-glucuronyltransferase</text><g data-k=\"n6\"><rect x=\"10\" y=\"318\" width=\"222\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"121\" y=\"334.5\" class=\"v-text v-mid v-b\">Urobilinogen</text><text x=\"121\" y=\"349.5\" class=\"v-text v-mid v-small v-muted\">made by gut bacteria</text></g><line x1=\"121\" y1=\"295\" x2=\"121\" y2=\"316\" class=\"v-line v-arrow v-draw\"/><text x=\"139\" y=\"310\" class=\"v-text v-small\">excreted in bile</text><g data-k=\"n7\"><rect x=\"10\" y=\"380\" width=\"150\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"85\" y=\"396.5\" class=\"v-text v-mid v-b\">Stool</text><text x=\"85\" y=\"411.5\" class=\"v-text v-mid v-small v-muted\">stercobilin (brown)</text></g><g data-k=\"n8\"><rect x=\"190\" y=\"380\" width=\"162\" height=\"38\" rx=\"6\" class=\"v-box\"/><text x=\"271\" y=\"396.5\" class=\"v-text v-mid v-b\">Urine</text><text x=\"271\" y=\"411.5\" class=\"v-text v-mid v-small v-muted\">a little urobilinogen</text></g><line x1=\"85\" y1=\"357\" x2=\"85\" y2=\"378\" class=\"v-line v-arrow v-draw\"/><text x=\"93\" y=\"372\" class=\"v-text v-small\">most</text><line x1=\"214\" y1=\"357\" x2=\"214\" y2=\"378\" class=\"v-line v-arrow v-draw\"/><text x=\"222\" y=\"372\" class=\"v-text v-small\">reabsorbed → kidney</text></g><g data-k=\"tag-pre\"><rect x=\"240\" y=\"8\" width=\"112\" height=\"38\" rx=\"6\" class=\"v-tint-2\"/><text x=\"296\" y=\"23.5\" class=\"v-text v-mid v-small v-b\">PRE-HEPATIC</text><text x=\"296\" y=\"38.5\" class=\"v-text v-mid v-small\">e.g. hemolysis</text></g><g data-k=\"tag-hep\"><rect x=\"240\" y=\"256\" width=\"112\" height=\"38\" rx=\"6\" class=\"v-tint-3\"/><text x=\"296\" y=\"271.5\" class=\"v-text v-mid v-small v-b\">HEPATIC</text><text x=\"296\" y=\"286.5\" class=\"v-text v-mid v-small\">e.g. hepatitis</text></g><g data-k=\"tag-post\"><line x1=\"112\" y1=\"297\" x2=\"130\" y2=\"315\" class=\"v-line v-stroke-5\" style=\"stroke-width:3.5\"/><line x1=\"112\" y1=\"315\" x2=\"130\" y2=\"297\" class=\"v-line v-stroke-5\" style=\"stroke-width:3.5\"/><rect x=\"240\" y=\"304\" width=\"112\" height=\"38\" rx=\"6\" class=\"v-tint-5\"/><text x=\"296\" y=\"319.5\" class=\"v-text v-mid v-small v-b\">POST-HEPATIC</text><text x=\"296\" y=\"334.5\" class=\"v-text v-mid v-small\">e.g. gallstone</text></g><g data-k=\"tbl\"><line x1=\"8\" y1=\"470\" x2=\"352\" y2=\"470\" class=\"v-line\"/><text x=\"8\" y=\"487\" class=\"v-text v-small\">Unconjugated</text><line x1=\"8\" y1=\"495\" x2=\"352\" y2=\"495\" class=\"v-thin\"/><text x=\"8\" y=\"512\" class=\"v-text v-small\">Conjugated</text><line x1=\"8\" y1=\"520\" x2=\"352\" y2=\"520\" class=\"v-thin\"/><text x=\"8\" y=\"537\" class=\"v-text v-small\">Urine bilirubin</text><line x1=\"8\" y1=\"545\" x2=\"352\" y2=\"545\" class=\"v-thin\"/><text x=\"8\" y=\"562\" class=\"v-text v-small\">Urine urobilinogen</text><line x1=\"8\" y1=\"570\" x2=\"352\" y2=\"570\" class=\"v-thin\"/><text x=\"8\" y=\"587\" class=\"v-text v-small\">Stool colour</text><text x=\"8\" y=\"458\" class=\"v-text v-small v-b v-muted\">Lab result</text></g><g data-k=\"col-pre\"><rect x=\"155\" y=\"434\" width=\"62\" height=\"32\" rx=\"4\" class=\"v-tint-2\"/><text x=\"186\" y=\"447\" class=\"v-text v-mid v-small v-b\">Pre-</text><text x=\"186\" y=\"461\" class=\"v-text v-mid v-small v-b\">hepatic</text><text x=\"186\" y=\"488\" class=\"v-text v-mid\">↑↑</text><text x=\"186\" y=\"513\" class=\"v-text v-mid\">N</text><text x=\"186\" y=\"538\" class=\"v-text v-mid\">neg</text><text x=\"186\" y=\"563\" class=\"v-text v-mid\">↑</text><text x=\"186\" y=\"588\" class=\"v-text v-mid\">N/dark</text></g><g data-k=\"col-hep\"><rect x=\"221\" y=\"434\" width=\"62\" height=\"32\" rx=\"4\" class=\"v-tint-3\"/><text x=\"252\" y=\"455\" class=\"v-text v-mid v-small v-b\">Hepatic</text><text x=\"252\" y=\"488\" class=\"v-text v-mid\">↑</text><text x=\"252\" y=\"513\" class=\"v-text v-mid\">↑</text><text x=\"252\" y=\"538\" class=\"v-text v-mid\">pos</text><text x=\"252\" y=\"563\" class=\"v-text v-mid\">N/↑</text><text x=\"252\" y=\"588\" class=\"v-text v-mid\">N/pale</text></g><g data-k=\"col-post\"><rect x=\"287\" y=\"434\" width=\"62\" height=\"32\" rx=\"4\" class=\"v-tint-5\"/><text x=\"318\" y=\"447\" class=\"v-text v-mid v-small v-b\">Post-</text><text x=\"318\" y=\"461\" class=\"v-text v-mid v-small v-b\">hepatic</text><text x=\"318\" y=\"488\" class=\"v-text v-mid\">N/↑</text><text x=\"318\" y=\"513\" class=\"v-text v-mid\">↑↑</text><text x=\"318\" y=\"538\" class=\"v-text v-mid\">pos</text><text x=\"318\" y=\"563\" class=\"v-text v-mid\">↓</text><text x=\"318\" y=\"588\" class=\"v-text v-mid\">clay</text></g>",
+   "steps": [
+    {
+     "caption": "Old red cells are broken down by macrophages, mainly in the spleen. **Heme oxygenase** opens heme to biliverdin, which is reduced to **unconjugated bilirubin**: insoluble in water, so it travels in plasma bound to albumin.",
+     "show": [
+      "path1"
+     ],
+     "hl": [
+      "n4"
+     ]
+    },
+    {
+     "caption": "In the liver, **UDP-glucuronyltransferase** adds glucuronic acid, making water-soluble conjugated bilirubin, which is excreted in bile. Gut bacteria turn it into urobilinogen: most leaves in stool as stercobilin, and a little is reabsorbed and excreted in urine.",
+     "show": [
+      "path1",
+      "path2"
+     ],
+     "hl": [
+      "n5"
+     ]
+    },
+    {
+     "caption": "**Pre-hepatic** (e.g. hemolysis): more bilirubin is made than the liver can conjugate, so **unconjugated** bilirubin rises. It is albumin-bound and cannot pass into urine, so urine bilirubin is negative, while urine urobilinogen rises.",
+     "show": [
+      "path1",
+      "path2",
+      "tbl",
+      "tag-pre",
+      "col-pre"
+     ],
+     "hl": [
+      "tag-pre",
+      "col-pre"
+     ]
+    },
+    {
+     "caption": "**Hepatic** (e.g. hepatitis, cirrhosis): damaged liver cells take up, conjugate and excrete bilirubin poorly, so both forms rise and conjugated bilirubin appears in urine. Inherited defects are also classed as hepatic: Gilbert and Crigler–Najjar syndromes (low UDP-glucuronyltransferase activity) raise **unconjugated** bilirubin only, while Dubin–Johnson syndrome (impaired excretion into bile) raises **conjugated** bilirubin.",
+     "show": [
+      "path1",
+      "path2",
+      "tbl",
+      "tag-pre",
+      "col-pre",
+      "tag-hep",
+      "col-hep"
+     ],
+     "hl": [
+      "tag-hep",
+      "col-hep"
+     ]
+    },
+    {
+     "caption": "**Post-hepatic** (obstructive, e.g. a gallstone in the bile duct): conjugated bilirubin backs up into blood and urine, and little reaches the gut. Urine urobilinogen falls, stools turn pale (clay-coloured), and ALP and GGT rise markedly.",
+     "show": [
+      "path1",
+      "path2",
+      "tbl",
+      "tag-pre",
+      "col-pre",
+      "tag-hep",
+      "col-hep",
+      "tag-post",
+      "col-post"
+     ],
+     "hl": [
+      "tag-post",
+      "col-post"
+     ]
+    },
+    {
+     "caption": "**To remember:** only **conjugated** bilirubin reaches urine. High unconjugated with negative urine bilirubin = pre-hepatic; high conjugated with clay stools and low urobilinogen = obstruction.",
+     "show": [
+      "path1",
+      "path2",
+      "tbl",
+      "tag-pre",
+      "col-pre",
+      "tag-hep",
+      "col-hep",
+      "tag-post",
+      "col-post"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A vertical pathway: old red cells give hemoglobin; heme is opened by heme oxygenase to biliverdin; biliverdin reductase makes unconjugated bilirubin, carried on albumin; the liver's UDP-glucuronyltransferase makes water-soluble conjugated bilirubin, excreted in bile; gut bacteria make urobilinogen, most of which leaves in stool as stercobilin while some is reabsorbed and excreted in urine. Tags mark where each jaundice arises: pre-hepatic at red cell breakdown, hepatic at the liver, post-hepatic at a blocked bile flow. A table compares them. Pre-hepatic: unconjugated much increased, conjugated normal, urine bilirubin negative, urine urobilinogen increased, stool normal or dark. Hepatic (hepatocellular disease such as hepatitis): both increased, urine bilirubin positive, urobilinogen normal or increased, stool normal or pale. Post-hepatic: unconjugated normal or slightly increased, conjugated much increased, urine bilirubin positive, urobilinogen decreased, stool clay-coloured.",
+   "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (liver function; bilirubin metabolism and jaundice)."
+  },
+  {
+   "id": "cc-lipoproteins",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-C.4"
+   ],
+   "title": "Lipoprotein classes and electrophoresis",
+   "keywords": [
+    "lipoprotein electrophoresis",
+    "chylomicron",
+    "vldl",
+    "apolipoprotein",
+    "apo b-100",
+    "apo b-48",
+    "apo a-i",
+    "pre-beta",
+    "pre-β",
+    "broad beta",
+    "broad-beta",
+    "broad band",
+    "dysbetalipoproteinemia",
+    "ultracentrifug",
+    "creamy layer",
+    "lcat",
+    "reverse cholesterol"
+   ],
+   "viewBox": "0 0 360 464",
+   "svg": "<text x=\"64\" y=\"22\" class=\"v-text v-small v-b v-muted\">Class · density</text><text x=\"176\" y=\"22\" class=\"v-text v-small v-b v-muted\">Rich in</text><text x=\"270\" y=\"22\" class=\"v-text v-small v-b v-muted\">Main apo</text><line x1=\"8\" y1=\"30\" x2=\"352\" y2=\"30\" class=\"v-line\"/><g data-k=\"r-chylo\"><circle cx=\"34\" cy=\"58\" r=\"20\" class=\"v-tint-4\"/><text x=\"64\" y=\"56\" class=\"v-text v-b\">Chylomicron</text><text x=\"64\" y=\"72\" class=\"v-text v-small v-muted\">&lt; 0.95 g/mL</text><text x=\"176\" y=\"56\" class=\"v-text\">TG</text><text x=\"176\" y=\"72\" class=\"v-text v-small v-muted\">dietary</text><text x=\"270\" y=\"56\" class=\"v-text v-b\">B-48</text><text x=\"270\" y=\"72\" class=\"v-text v-small v-muted\">+ A-I, C-II, E</text><line x1=\"8\" y1=\"81\" x2=\"352\" y2=\"81\" class=\"v-thin\"/></g><g data-k=\"r-vldl\"><circle cx=\"34\" cy=\"104\" r=\"14\" class=\"v-tint-4\"/><text x=\"64\" y=\"102\" class=\"v-text v-b\">VLDL</text><text x=\"64\" y=\"118\" class=\"v-text v-small v-muted\">0.95–1.006</text><text x=\"176\" y=\"102\" class=\"v-text\">TG</text><text x=\"176\" y=\"118\" class=\"v-text v-small v-muted\">made by liver</text><text x=\"270\" y=\"102\" class=\"v-text v-b\">B-100</text><text x=\"270\" y=\"118\" class=\"v-text v-small v-muted\">+ C-II, E</text><line x1=\"8\" y1=\"127\" x2=\"352\" y2=\"127\" class=\"v-thin\"/></g><g data-k=\"r-idl\"><circle cx=\"34\" cy=\"150\" r=\"11\" class=\"v-tint-3\"/><text x=\"64\" y=\"148\" class=\"v-text v-b\">IDL</text><text x=\"64\" y=\"164\" class=\"v-text v-small v-muted\">1.006–1.019</text><text x=\"176\" y=\"148\" class=\"v-text\">TG + chol.</text><text x=\"176\" y=\"164\" class=\"v-text v-small v-muted\">VLDL remnant</text><text x=\"270\" y=\"148\" class=\"v-text v-b\">B-100</text><text x=\"270\" y=\"164\" class=\"v-text v-small v-muted\">+ E</text><line x1=\"8\" y1=\"173\" x2=\"352\" y2=\"173\" class=\"v-thin\"/></g><g data-k=\"r-ldl\"><circle cx=\"34\" cy=\"196\" r=\"8.5\" class=\"v-tint-1\"/><text x=\"64\" y=\"194\" class=\"v-text v-b\">LDL</text><text x=\"64\" y=\"210\" class=\"v-text v-small v-muted\">1.019–1.063</text><text x=\"176\" y=\"194\" class=\"v-text\">Cholesterol</text><text x=\"176\" y=\"210\" class=\"v-text v-small v-muted\">to tissues</text><text x=\"270\" y=\"194\" class=\"v-text v-b\">B-100</text><text x=\"270\" y=\"210\" class=\"v-text v-small v-muted\">one per particle</text><line x1=\"8\" y1=\"219\" x2=\"352\" y2=\"219\" class=\"v-thin\"/></g><g data-k=\"r-hdl\"><circle cx=\"34\" cy=\"242\" r=\"6\" class=\"v-tint-3\"/><text x=\"64\" y=\"240\" class=\"v-text v-b\">HDL</text><text x=\"64\" y=\"256\" class=\"v-text v-small v-muted\">1.063–1.21</text><text x=\"176\" y=\"240\" class=\"v-text\">Protein</text><text x=\"176\" y=\"256\" class=\"v-text v-small v-muted\">chol. to liver</text><text x=\"270\" y=\"240\" class=\"v-text v-b\">A-I</text><text x=\"270\" y=\"256\" class=\"v-text v-small v-muted\">activates LCAT</text></g><text x=\"8\" y=\"286\" class=\"v-text v-small v-muted\">Down the table: density rises, size falls</text><g data-k=\"gel\"><text x=\"8\" y=\"314\" class=\"v-text v-b\">Lipoprotein electrophoresis</text><rect x=\"24\" y=\"342\" width=\"312\" height=\"36\" rx=\"4\" class=\"v-box\"/><text x=\"12\" y=\"365\" class=\"v-text v-mid v-b\">−</text><text x=\"348\" y=\"365\" class=\"v-text v-mid v-b\">+</text><rect x=\"52\" y=\"347\" width=\"8\" height=\"26\" rx=\"1\" class=\"v-thin\"/><text x=\"56\" y=\"336\" class=\"v-text v-mid v-small v-b\">origin</text><rect x=\"53\" y=\"348\" width=\"6\" height=\"24\" rx=\"2\" class=\"v-fill-ink\"/><text x=\"56\" y=\"398\" class=\"v-text v-mid v-b\">Chylo</text><text x=\"146\" y=\"336\" class=\"v-text v-mid v-small v-b\">β</text><rect x=\"140\" y=\"348\" width=\"12\" height=\"24\" rx=\"2\" class=\"v-fill-ink\"/><text x=\"146\" y=\"398\" class=\"v-text v-mid v-b\">LDL</text><text x=\"212\" y=\"336\" class=\"v-text v-mid v-small v-b\">pre-β</text><rect x=\"206\" y=\"348\" width=\"12\" height=\"24\" rx=\"2\" class=\"v-fill-ink\"/><text x=\"212\" y=\"398\" class=\"v-text v-mid v-b\">VLDL</text><text x=\"286\" y=\"336\" class=\"v-text v-mid v-small v-b\">α</text><rect x=\"280\" y=\"348\" width=\"12\" height=\"24\" rx=\"2\" class=\"v-fill-ink\"/><text x=\"286\" y=\"398\" class=\"v-text v-mid v-b\">HDL</text><line x1=\"60\" y1=\"438\" x2=\"300\" y2=\"438\" class=\"v-line v-arrow\"/><text x=\"180\" y=\"456\" class=\"v-text v-mid v-small v-muted\">toward the anode (+)</text></g><g data-k=\"broad\"><rect x=\"146\" y=\"350\" width=\"66\" height=\"20\" rx=\"2\" class=\"v-hatch\"/><text x=\"179\" y=\"418\" class=\"v-text v-mid v-small v-b\">broad β (IDL)</text></g>",
+   "steps": [
+    {
+     "caption": "Lipoproteins are classed by **density**, as separated in the ultracentrifuge. The more triglyceride (TG) a particle carries, the larger and lighter it is; the more protein, the smaller and denser. Chylomicrons are the largest and least dense, HDL the smallest and densest.",
+     "show": [],
+     "hl": []
+    },
+    {
+     "caption": "The **TG carriers**: chylomicrons bring dietary TG from the intestine (apo B-48), and VLDL carries TG made by the liver (apo B-100). Chylomicrons float as a creamy layer on refrigerated serum; excess VLDL makes the serum evenly turbid.",
+     "show": [],
+     "hl": [
+      "r-chylo",
+      "r-vldl"
+     ]
+    },
+    {
+     "caption": "As lipoprotein lipase removes TG, VLDL becomes IDL and then **LDL**, the main cholesterol carrier; each LDL has one apo B-100, the ligand for the LDL receptor. **HDL** (apo A-I, which activates LCAT) carries cholesterol back to the liver.",
+     "show": [],
+     "hl": [
+      "r-idl",
+      "r-ldl",
+      "r-hdl"
+     ]
+    },
+    {
+     "caption": "On **lipoprotein electrophoresis** (agarose, pH 8.6), chylomicrons stay at the origin. Then come β (LDL), pre-β (VLDL) and α (HDL), which moves farthest toward the anode.",
+     "show": [
+      "gel"
+     ],
+     "hl": [
+      "gel"
+     ]
+    },
+    {
+     "caption": "A **broad β band** bridging β and pre-β comes from cholesterol-rich remnants (IDL, β-VLDL). It is the mark of type III hyperlipoproteinemia (dysbetalipoproteinemia), linked to apo E2/E2.",
+     "show": [
+      "gel",
+      "broad"
+     ],
+     "hl": [
+      "broad",
+      "r-idl"
+     ]
+    },
+    {
+     "caption": "**To remember:** by density, chylomicron < VLDL < IDL < LDL < HDL. On electrophoresis, from the origin: chylomicron, β (LDL), pre-β (VLDL), α (HDL), so VLDL runs ahead of LDL.",
+     "show": [
+      "gel"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A table of five lipoprotein classes from least to most dense, each with a circle sized to the particle: chylomicron (density under 0.95 g/mL, rich in dietary TG, apo B-48), VLDL (0.95 to 1.006, liver-made TG, apo B-100), IDL (1.006 to 1.019, TG and cholesterol, apo B-100 and E), LDL (1.019 to 1.063, cholesterol, one apo B-100 per particle) and HDL (1.063 to 1.21, rich in protein, apo A-I which activates LCAT). Below, an electrophoresis strip from the negative to the positive end: chylomicrons at the origin, then LDL in the beta band, VLDL in the pre-beta band and HDL in the alpha band nearest the anode. A hatched broad beta band spanning beta to pre-beta marks type III hyperlipoproteinemia.",
+   "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (lipids and lipoproteins)."
+  },
+  {
+   "id": "cc-spe",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-C.5"
+   ],
+   "title": "Serum protein electrophoresis patterns",
+   "keywords": [
+    "protein electrophoresis",
+    "spep",
+    "m spike",
+    "m-spike",
+    "monoclonal gammopathy",
+    "monoclonal band",
+    "multiple myeloma",
+    "bridging",
+    "hypogammaglobulinemia",
+    "α1-globulin",
+    "α2-globulin",
+    "alpha-1 globulin",
+    "alpha-2 globulin",
+    "gamma region",
+    "immunofixation",
+    "polyclonal"
+   ],
+   "viewBox": "0 0 360 386",
+   "svg": "<line x1=\"18\" y1=\"196\" x2=\"346\" y2=\"196\" class=\"v-line\"/><text x=\"62\" y=\"214\" class=\"v-text v-mid v-b\">Albumin</text><text x=\"120\" y=\"214\" class=\"v-text v-mid v-b\">α1</text><text x=\"120\" y=\"230\" class=\"v-text v-mid v-small v-muted\">AAT</text><text x=\"166\" y=\"214\" class=\"v-text v-mid v-b\">α2</text><text x=\"166\" y=\"230\" class=\"v-text v-mid v-small v-muted\">α2M, Hp</text><text x=\"216\" y=\"214\" class=\"v-text v-mid v-b\">β</text><text x=\"216\" y=\"230\" class=\"v-text v-mid v-small v-muted\">Tf, C3</text><text x=\"286\" y=\"214\" class=\"v-text v-mid v-b\">γ</text><text x=\"286\" y=\"230\" class=\"v-text v-mid v-small v-muted\">Ig</text><text x=\"8\" y=\"214\" class=\"v-text v-b\">+</text><text x=\"352\" y=\"214\" class=\"v-text v-end v-b\">−</text><g data-k=\"normal\"><path d=\"M22,196 L22,196 L23,195.9 L24,195.9 L25,195.9 L26,195.8 L27,195.7 L28,195.6 L29,195.4 L30,195.2 L31,194.9 L32,194.4 L33,193.9 L34,193.2 L35,192.3 L36,191.2 L37,189.8 L38,188.1 L39,186.1 L40,183.6 L41,180.6 L42,177.1 L43,173 L44,168.3 L45,163 L46,157.1 L47,150.5 L48,143.5 L49,135.9 L50,127.9 L51,119.5 L52,111.1 L53,102.6 L54,94.3 L55,86.4 L56,79.1 L57,72.5 L58,66.8 L59,62.2 L60,58.8 L61,56.7 L62,56 L63,56.7 L64,58.8 L65,62.2 L66,66.8 L67,72.5 L68,79.1 L69,86.4 L70,94.3 L71,102.6 L72,111.1 L73,119.5 L74,127.9 L75,135.9 L76,143.5 L77,150.5 L78,157.1 L79,163 L80,168.3 L81,173 L82,177.1 L83,180.6 L84,183.6 L85,186.1 L86,188.1 L87,189.8 L88,191.2 L89,192.3 L90,193.2 L91,193.9 L92,194.4 L93,194.9 L94,195.2 L95,195.4 L96,195.6 L97,195.7 L98,195.8 L99,195.8 L100,195.8 L101,195.8 L102,195.8 L103,195.7 L104,195.5 L105,195.3 L106,194.9 L107,194.5 L108,193.8 L109,193 L110,192 L111,190.8 L112,189.4 L113,187.9 L114,186.3 L115,184.7 L116,183.2 L117,181.9 L118,180.9 L119,180.2 L120,180 L121,180.2 L122,180.9 L123,181.9 L124,183.2 L125,184.7 L126,186.3 L127,187.9 L128,189.4 L129,190.8 L130,192 L131,193 L132,193.8 L133,194.5 L134,194.9 L135,195.3 L136,195.5 L137,195.7 L138,195.7 L139,195.8 L140,195.8 L141,195.7 L142,195.6 L143,195.4 L144,195.2 L145,194.9 L146,194.5 L147,194 L148,193.3 L149,192.4 L150,191.4 L151,190.1 L152,188.6 L153,186.9 L154,185 L155,182.8 L156,180.4 L157,177.9 L158,175.4 L159,172.8 L160,170.3 L161,168 L162,166 L163,164.3 L164,163 L165,162.3 L166,162 L167,162.3 L168,163 L169,164.3 L170,166 L171,168 L172,170.3 L173,172.8 L174,175.4 L175,177.9 L176,180.4 L177,182.8 L178,185 L179,186.9 L180,188.6 L181,190.1 L182,191.4 L183,192.4 L184,193.2 L185,193.9 L186,194.4 L187,194.7 L188,195 L189,195.1 L190,195.2 L191,195.1 L192,195 L193,194.7 L194,194.4 L195,194 L196,193.4 L197,192.7 L198,191.9 L199,190.9 L200,189.8 L201,188.5 L202,187 L203,185.4 L204,183.6 L205,181.7 L206,179.8 L207,177.7 L208,175.7 L209,173.7 L210,171.9 L211,170.2 L212,168.7 L213,167.5 L214,166.5 L215,166 L216,165.7 L217,165.9 L218,166.4 L219,167.2 L220,168.4 L221,169.8 L222,171.4 L223,173.2 L224,175 L225,176.9 L226,178.8 L227,180.7 L228,182.4 L229,184 L230,185.5 L231,186.8 L232,187.9 L233,188.8 L234,189.5 L235,190 L236,190.4 L237,190.7 L238,190.8 L239,190.8 L240,190.6 L241,190.4 L242,190.1 L243,189.7 L244,189.3 L245,188.8 L246,188.2 L247,187.6 L248,186.9 L249,186.2 L250,185.5 L251,184.7 L252,183.9 L253,183 L254,182.1 L255,181.2 L256,180.2 L257,179.2 L258,178.2 L259,177.2 L260,176.1 L261,175 L262,173.9 L263,172.8 L264,171.7 L265,170.6 L266,169.5 L267,168.5 L268,167.4 L269,166.3 L270,165.3 L271,164.3 L272,163.3 L273,162.4 L274,161.5 L275,160.7 L276,159.9 L277,159.2 L278,158.6 L279,158 L280,157.5 L281,157 L282,156.7 L283,156.4 L284,156.2 L285,156 L286,156 L287,156 L288,156.2 L289,156.4 L290,156.7 L291,157 L292,157.5 L293,158 L294,158.6 L295,159.2 L296,159.9 L297,160.7 L298,161.5 L299,162.4 L300,163.3 L301,164.3 L302,165.3 L303,166.3 L304,167.4 L305,168.5 L306,169.5 L307,170.6 L308,171.7 L309,172.8 L310,173.9 L311,175 L312,176.1 L313,177.2 L314,178.2 L315,179.2 L316,180.2 L317,181.2 L318,182.1 L319,183 L320,183.9 L321,184.7 L322,185.5 L323,186.3 L324,187 L325,187.7 L326,188.3 L327,189 L328,189.5 L329,190.1 L330,190.6 L331,191.1 L332,191.5 L333,191.9 L334,192.3 L335,192.7 L336,193 L337,193.3 L338,193.6 L339,193.8 L340,194 L341,194.2 L342,194.4 L342,196 Z\" class=\"v-tint-3\"/></g><g data-k=\"refkey\"><line x1=\"196\" y1=\"26\" x2=\"222\" y2=\"26\" class=\"v-thin v-dash\"/><text x=\"228\" y=\"30\" class=\"v-text v-small v-muted\">normal pattern</text></g><g data-k=\"p-infl\"><path d=\"M22,196 L22,196 L23,195.9 L24,195.9 L25,195.9 L26,195.8 L27,195.7 L28,195.6 L29,195.5 L30,195.3 L31,195 L32,194.6 L33,194.1 L34,193.5 L35,192.8 L36,191.8 L37,190.6 L38,189 L39,187.2 L40,185 L41,182.3 L42,179.2 L43,175.6 L44,171.5 L45,166.8 L46,161.5 L47,155.7 L48,149.5 L49,142.7 L50,135.6 L51,128.3 L52,120.8 L53,113.3 L54,106 L55,98.9 L56,92.4 L57,86.6 L58,81.5 L59,77.5 L60,74.5 L61,72.6 L62,72 L63,72.6 L64,74.5 L65,77.5 L66,81.5 L67,86.6 L68,92.4 L69,98.9 L70,106 L71,113.3 L72,120.8 L73,128.3 L74,135.6 L75,142.7 L76,149.5 L77,155.7 L78,161.5 L79,166.8 L80,171.5 L81,175.6 L82,179.2 L83,182.3 L84,185 L85,187.2 L86,189 L87,190.6 L88,191.8 L89,192.8 L90,193.5 L91,194.1 L92,194.6 L93,195 L94,195.3 L95,195.5 L96,195.6 L97,195.7 L98,195.8 L99,195.8 L100,195.8 L101,195.7 L102,195.6 L103,195.4 L104,195.1 L105,194.7 L106,194 L107,193.1 L108,191.9 L109,190.4 L110,188.5 L111,186.3 L112,183.7 L113,180.8 L114,177.8 L115,174.8 L116,172 L117,169.5 L118,167.6 L119,166.4 L120,166 L121,166.4 L122,167.6 L123,169.5 L124,172 L125,174.8 L126,177.8 L127,180.8 L128,183.7 L129,186.3 L130,188.5 L131,190.4 L132,191.9 L133,193.1 L134,194 L135,194.7 L136,195.1 L137,195.4 L138,195.5 L139,195.6 L140,195.6 L141,195.5 L142,195.3 L143,195.1 L144,194.7 L145,194.1 L146,193.4 L147,192.5 L148,191.4 L149,189.9 L150,188.2 L151,186 L152,183.5 L153,180.5 L154,177.2 L155,173.5 L156,169.4 L157,165.2 L158,160.8 L159,156.4 L160,152.2 L161,148.3 L162,144.8 L163,141.9 L164,139.8 L165,138.5 L166,138 L167,138.5 L168,139.8 L169,141.9 L170,144.8 L171,148.3 L172,152.2 L173,156.4 L174,160.8 L175,165.2 L176,169.4 L177,173.5 L178,177.2 L179,180.5 L180,183.4 L181,186 L182,188.1 L183,189.9 L184,191.3 L185,192.5 L186,193.3 L187,194 L188,194.4 L189,194.7 L190,194.9 L191,194.9 L192,194.8 L193,194.7 L194,194.4 L195,193.9 L196,193.4 L197,192.7 L198,191.9 L199,190.9 L200,189.8 L201,188.5 L202,187 L203,185.4 L204,183.6 L205,181.7 L206,179.8 L207,177.7 L208,175.7 L209,173.7 L210,171.9 L211,170.2 L212,168.7 L213,167.5 L214,166.5 L215,166 L216,165.7 L217,165.9 L218,166.4 L219,167.2 L220,168.4 L221,169.8 L222,171.4 L223,173.2 L224,175 L225,176.9 L226,178.8 L227,180.7 L228,182.4 L229,184 L230,185.5 L231,186.8 L232,187.9 L233,188.8 L234,189.5 L235,190 L236,190.4 L237,190.7 L238,190.8 L239,190.8 L240,190.6 L241,190.4 L242,190.1 L243,189.7 L244,189.3 L245,188.8 L246,188.2 L247,187.6 L248,186.9 L249,186.2 L250,185.5 L251,184.7 L252,183.9 L253,183 L254,182.1 L255,181.2 L256,180.2 L257,179.2 L258,178.2 L259,177.2 L260,176.1 L261,175 L262,173.9 L263,172.8 L264,171.7 L265,170.6 L266,169.5 L267,168.5 L268,167.4 L269,166.3 L270,165.3 L271,164.3 L272,163.3 L273,162.4 L274,161.5 L275,160.7 L276,159.9 L277,159.2 L278,158.6 L279,158 L280,157.5 L281,157 L282,156.7 L283,156.4 L284,156.2 L285,156 L286,156 L287,156 L288,156.2 L289,156.4 L290,156.7 L291,157 L292,157.5 L293,158 L294,158.6 L295,159.2 L296,159.9 L297,160.7 L298,161.5 L299,162.4 L300,163.3 L301,164.3 L302,165.3 L303,166.3 L304,167.4 L305,168.5 L306,169.5 L307,170.6 L308,171.7 L309,172.8 L310,173.9 L311,175 L312,176.1 L313,177.2 L314,178.2 L315,179.2 L316,180.2 L317,181.2 L318,182.1 L319,183 L320,183.9 L321,184.7 L322,185.5 L323,186.3 L324,187 L325,187.7 L326,188.3 L327,189 L328,189.5 L329,190.1 L330,190.6 L331,191.1 L332,191.5 L333,191.9 L334,192.3 L335,192.7 L336,193 L337,193.3 L338,193.6 L339,193.8 L340,194 L341,194.2 L342,194.4 L342,196 Z\" class=\"v-tint-2\"/><polyline points=\"22,196 23,195.9 24,195.9 25,195.9 26,195.8 27,195.7 28,195.6 29,195.4 30,195.2 31,194.9 32,194.4 33,193.9 34,193.2 35,192.3 36,191.2 37,189.8 38,188.1 39,186.1 40,183.6 41,180.6 42,177.1 43,173 44,168.3 45,163 46,157.1 47,150.5 48,143.5 49,135.9 50,127.9 51,119.5 52,111.1 53,102.6 54,94.3 55,86.4 56,79.1 57,72.5 58,66.8 59,62.2 60,58.8 61,56.7 62,56 63,56.7 64,58.8 65,62.2 66,66.8 67,72.5 68,79.1 69,86.4 70,94.3 71,102.6 72,111.1 73,119.5 74,127.9 75,135.9 76,143.5 77,150.5 78,157.1 79,163 80,168.3 81,173 82,177.1 83,180.6 84,183.6 85,186.1 86,188.1 87,189.8 88,191.2 89,192.3 90,193.2 91,193.9 92,194.4 93,194.9 94,195.2 95,195.4 96,195.6 97,195.7 98,195.8 99,195.8 100,195.8 101,195.8 102,195.8 103,195.7 104,195.5 105,195.3 106,194.9 107,194.5 108,193.8 109,193 110,192 111,190.8 112,189.4 113,187.9 114,186.3 115,184.7 116,183.2 117,181.9 118,180.9 119,180.2 120,180 121,180.2 122,180.9 123,181.9 124,183.2 125,184.7 126,186.3 127,187.9 128,189.4 129,190.8 130,192 131,193 132,193.8 133,194.5 134,194.9 135,195.3 136,195.5 137,195.7 138,195.7 139,195.8 140,195.8 141,195.7 142,195.6 143,195.4 144,195.2 145,194.9 146,194.5 147,194 148,193.3 149,192.4 150,191.4 151,190.1 152,188.6 153,186.9 154,185 155,182.8 156,180.4 157,177.9 158,175.4 159,172.8 160,170.3 161,168 162,166 163,164.3 164,163 165,162.3 166,162 167,162.3 168,163 169,164.3 170,166 171,168 172,170.3 173,172.8 174,175.4 175,177.9 176,180.4 177,182.8 178,185 179,186.9 180,188.6 181,190.1 182,191.4 183,192.4 184,193.2 185,193.9 186,194.4 187,194.7 188,195 189,195.1 190,195.2 191,195.1 192,195 193,194.7 194,194.4 195,194 196,193.4 197,192.7 198,191.9 199,190.9 200,189.8 201,188.5 202,187 203,185.4 204,183.6 205,181.7 206,179.8 207,177.7 208,175.7 209,173.7 210,171.9 211,170.2 212,168.7 213,167.5 214,166.5 215,166 216,165.7 217,165.9 218,166.4 219,167.2 220,168.4 221,169.8 222,171.4 223,173.2 224,175 225,176.9 226,178.8 227,180.7 228,182.4 229,184 230,185.5 231,186.8 232,187.9 233,188.8 234,189.5 235,190 236,190.4 237,190.7 238,190.8 239,190.8 240,190.6 241,190.4 242,190.1 243,189.7 244,189.3 245,188.8 246,188.2 247,187.6 248,186.9 249,186.2 250,185.5 251,184.7 252,183.9 253,183 254,182.1 255,181.2 256,180.2 257,179.2 258,178.2 259,177.2 260,176.1 261,175 262,173.9 263,172.8 264,171.7 265,170.6 266,169.5 267,168.5 268,167.4 269,166.3 270,165.3 271,164.3 272,163.3 273,162.4 274,161.5 275,160.7 276,159.9 277,159.2 278,158.6 279,158 280,157.5 281,157 282,156.7 283,156.4 284,156.2 285,156 286,156 287,156 288,156.2 289,156.4 290,156.7 291,157 292,157.5 293,158 294,158.6 295,159.2 296,159.9 297,160.7 298,161.5 299,162.4 300,163.3 301,164.3 302,165.3 303,166.3 304,167.4 305,168.5 306,169.5 307,170.6 308,171.7 309,172.8 310,173.9 311,175 312,176.1 313,177.2 314,178.2 315,179.2 316,180.2 317,181.2 318,182.1 319,183 320,183.9 321,184.7 322,185.5 323,186.3 324,187 325,187.7 326,188.3 327,189 328,189.5 329,190.1 330,190.6 331,191.1 332,191.5 333,191.9 334,192.3 335,192.7 336,193 337,193.3 338,193.6 339,193.8 340,194 341,194.2 342,194.4\" class=\"v-thin v-dash\"/><text x=\"150\" y=\"126\" class=\"v-text v-mid v-small v-b\">↑ α1, ↑ α2</text></g><g data-k=\"p-neph\"><path d=\"M22,196 L22,196 L23,196 L24,195.9 L25,195.9 L26,195.9 L27,195.8 L28,195.8 L29,195.7 L30,195.6 L31,195.4 L32,195.2 L33,195 L34,194.6 L35,194.2 L36,193.6 L37,192.9 L38,192.1 L39,191 L40,189.8 L41,188.3 L42,186.5 L43,184.5 L44,182.1 L45,179.5 L46,176.5 L47,173.3 L48,169.7 L49,165.9 L50,161.9 L51,157.8 L52,153.5 L53,149.3 L54,145.2 L55,141.2 L56,137.5 L57,134.2 L58,131.4 L59,129.1 L60,127.4 L61,126.3 L62,126 L63,126.3 L64,127.4 L65,129.1 L66,131.4 L67,134.2 L68,137.5 L69,141.2 L70,145.2 L71,149.3 L72,153.5 L73,157.8 L74,161.9 L75,165.9 L76,169.7 L77,173.3 L78,176.5 L79,179.5 L80,182.1 L81,184.5 L82,186.5 L83,188.3 L84,189.8 L85,191 L86,192.1 L87,192.9 L88,193.6 L89,194.2 L90,194.6 L91,195 L92,195.2 L93,195.4 L94,195.6 L95,195.7 L96,195.8 L97,195.8 L98,195.9 L99,195.9 L100,195.9 L101,195.8 L102,195.8 L103,195.7 L104,195.5 L105,195.2 L106,194.8 L107,194.3 L108,193.6 L109,192.6 L110,191.5 L111,190.2 L112,188.6 L113,186.9 L114,185.1 L115,183.3 L116,181.6 L117,180.1 L118,179 L119,178.2 L120,178 L121,178.2 L122,179 L123,180.1 L124,181.6 L125,183.3 L126,185.1 L127,186.9 L128,188.6 L129,190.2 L130,191.5 L131,192.6 L132,193.6 L133,194.3 L134,194.8 L135,195.2 L136,195.4 L137,195.6 L138,195.6 L139,195.6 L140,195.5 L141,195.3 L142,195 L143,194.6 L144,194 L145,193.3 L146,192.2 L147,190.9 L148,189.2 L149,187 L150,184.4 L151,181.2 L152,177.4 L153,173 L154,168.1 L155,162.6 L156,156.6 L157,150.3 L158,143.8 L159,137.4 L160,131.1 L161,125.3 L162,120.1 L163,115.8 L164,112.6 L165,110.7 L166,110 L167,110.7 L168,112.6 L169,115.8 L170,120.1 L171,125.3 L172,131.1 L173,137.4 L174,143.8 L175,150.3 L176,156.6 L177,162.6 L178,168.1 L179,173 L180,177.4 L181,181.2 L182,184.3 L183,187 L184,189.1 L185,190.8 L186,192.1 L187,193 L188,193.7 L189,194.2 L190,194.4 L191,194.5 L192,194.4 L193,194.2 L194,193.8 L195,193.2 L196,192.5 L197,191.6 L198,190.6 L199,189.3 L200,187.7 L201,186 L202,184.1 L203,181.9 L204,179.5 L205,177 L206,174.4 L207,171.7 L208,169 L209,166.4 L210,163.9 L211,161.7 L212,159.7 L213,158.1 L214,156.9 L215,156.1 L216,155.9 L217,156.1 L218,156.8 L219,157.9 L220,159.5 L221,161.4 L222,163.7 L223,166.1 L224,168.6 L225,171.3 L226,173.9 L227,176.4 L228,178.9 L229,181.1 L230,183.2 L231,185.1 L232,186.7 L233,188.1 L234,189.2 L235,190.2 L236,191 L237,191.5 L238,191.9 L239,192.2 L240,192.4 L241,192.4 L242,192.4 L243,192.3 L244,192.1 L245,191.9 L246,191.6 L247,191.3 L248,191 L249,190.6 L250,190.2 L251,189.8 L252,189.3 L253,188.8 L254,188.4 L255,187.8 L256,187.3 L257,186.8 L258,186.2 L259,185.6 L260,185.1 L261,184.5 L262,183.9 L263,183.3 L264,182.7 L265,182.1 L266,181.4 L267,180.8 L268,180.3 L269,179.7 L270,179.1 L271,178.6 L272,178 L273,177.5 L274,177 L275,176.6 L276,176.2 L277,175.8 L278,175.4 L279,175.1 L280,174.8 L281,174.6 L282,174.4 L283,174.2 L284,174.1 L285,174 L286,174 L287,174 L288,174.1 L289,174.2 L290,174.4 L291,174.6 L292,174.8 L293,175.1 L294,175.4 L295,175.8 L296,176.2 L297,176.6 L298,177 L299,177.5 L300,178 L301,178.6 L302,179.1 L303,179.7 L304,180.3 L305,180.8 L306,181.4 L307,182.1 L308,182.7 L309,183.3 L310,183.9 L311,184.5 L312,185.1 L313,185.6 L314,186.2 L315,186.8 L316,187.3 L317,187.8 L318,188.4 L319,188.9 L320,189.3 L321,189.8 L322,190.2 L323,190.7 L324,191.1 L325,191.4 L326,191.8 L327,192.1 L328,192.4 L329,192.7 L330,193 L331,193.3 L332,193.5 L333,193.8 L334,194 L335,194.2 L336,194.3 L337,194.5 L338,194.7 L339,194.8 L340,194.9 L341,195 L342,195.1 L342,196 Z\" class=\"v-tint-2\"/><polyline points=\"22,196 23,195.9 24,195.9 25,195.9 26,195.8 27,195.7 28,195.6 29,195.4 30,195.2 31,194.9 32,194.4 33,193.9 34,193.2 35,192.3 36,191.2 37,189.8 38,188.1 39,186.1 40,183.6 41,180.6 42,177.1 43,173 44,168.3 45,163 46,157.1 47,150.5 48,143.5 49,135.9 50,127.9 51,119.5 52,111.1 53,102.6 54,94.3 55,86.4 56,79.1 57,72.5 58,66.8 59,62.2 60,58.8 61,56.7 62,56 63,56.7 64,58.8 65,62.2 66,66.8 67,72.5 68,79.1 69,86.4 70,94.3 71,102.6 72,111.1 73,119.5 74,127.9 75,135.9 76,143.5 77,150.5 78,157.1 79,163 80,168.3 81,173 82,177.1 83,180.6 84,183.6 85,186.1 86,188.1 87,189.8 88,191.2 89,192.3 90,193.2 91,193.9 92,194.4 93,194.9 94,195.2 95,195.4 96,195.6 97,195.7 98,195.8 99,195.8 100,195.8 101,195.8 102,195.8 103,195.7 104,195.5 105,195.3 106,194.9 107,194.5 108,193.8 109,193 110,192 111,190.8 112,189.4 113,187.9 114,186.3 115,184.7 116,183.2 117,181.9 118,180.9 119,180.2 120,180 121,180.2 122,180.9 123,181.9 124,183.2 125,184.7 126,186.3 127,187.9 128,189.4 129,190.8 130,192 131,193 132,193.8 133,194.5 134,194.9 135,195.3 136,195.5 137,195.7 138,195.7 139,195.8 140,195.8 141,195.7 142,195.6 143,195.4 144,195.2 145,194.9 146,194.5 147,194 148,193.3 149,192.4 150,191.4 151,190.1 152,188.6 153,186.9 154,185 155,182.8 156,180.4 157,177.9 158,175.4 159,172.8 160,170.3 161,168 162,166 163,164.3 164,163 165,162.3 166,162 167,162.3 168,163 169,164.3 170,166 171,168 172,170.3 173,172.8 174,175.4 175,177.9 176,180.4 177,182.8 178,185 179,186.9 180,188.6 181,190.1 182,191.4 183,192.4 184,193.2 185,193.9 186,194.4 187,194.7 188,195 189,195.1 190,195.2 191,195.1 192,195 193,194.7 194,194.4 195,194 196,193.4 197,192.7 198,191.9 199,190.9 200,189.8 201,188.5 202,187 203,185.4 204,183.6 205,181.7 206,179.8 207,177.7 208,175.7 209,173.7 210,171.9 211,170.2 212,168.7 213,167.5 214,166.5 215,166 216,165.7 217,165.9 218,166.4 219,167.2 220,168.4 221,169.8 222,171.4 223,173.2 224,175 225,176.9 226,178.8 227,180.7 228,182.4 229,184 230,185.5 231,186.8 232,187.9 233,188.8 234,189.5 235,190 236,190.4 237,190.7 238,190.8 239,190.8 240,190.6 241,190.4 242,190.1 243,189.7 244,189.3 245,188.8 246,188.2 247,187.6 248,186.9 249,186.2 250,185.5 251,184.7 252,183.9 253,183 254,182.1 255,181.2 256,180.2 257,179.2 258,178.2 259,177.2 260,176.1 261,175 262,173.9 263,172.8 264,171.7 265,170.6 266,169.5 267,168.5 268,167.4 269,166.3 270,165.3 271,164.3 272,163.3 273,162.4 274,161.5 275,160.7 276,159.9 277,159.2 278,158.6 279,158 280,157.5 281,157 282,156.7 283,156.4 284,156.2 285,156 286,156 287,156 288,156.2 289,156.4 290,156.7 291,157 292,157.5 293,158 294,158.6 295,159.2 296,159.9 297,160.7 298,161.5 299,162.4 300,163.3 301,164.3 302,165.3 303,166.3 304,167.4 305,168.5 306,169.5 307,170.6 308,171.7 309,172.8 310,173.9 311,175 312,176.1 313,177.2 314,178.2 315,179.2 316,180.2 317,181.2 318,182.1 319,183 320,183.9 321,184.7 322,185.5 323,186.3 324,187 325,187.7 326,188.3 327,189 328,189.5 329,190.1 330,190.6 331,191.1 332,191.5 333,191.9 334,192.3 335,192.7 336,193 337,193.3 338,193.6 339,193.8 340,194 341,194.2 342,194.4\" class=\"v-thin v-dash\"/><text x=\"166\" y=\"98\" class=\"v-text v-mid v-small v-b\">↑↑ α2</text><text x=\"62\" y=\"46\" class=\"v-text v-mid v-small v-b\">↓↓ albumin</text><text x=\"286\" y=\"144\" class=\"v-text v-mid v-small v-b\">↓ γ</text></g><g data-k=\"p-cirr\"><path d=\"M22,196 L22,196 L23,196 L24,195.9 L25,195.9 L26,195.9 L27,195.8 L28,195.7 L29,195.6 L30,195.5 L31,195.3 L32,195.1 L33,194.7 L34,194.3 L35,193.8 L36,193.1 L37,192.3 L38,191.3 L39,190 L40,188.5 L41,186.7 L42,184.6 L43,182.2 L44,179.4 L45,176.2 L46,172.6 L47,168.7 L48,164.5 L49,159.9 L50,155.1 L51,150.1 L52,145.1 L53,140 L54,135 L55,130.3 L56,125.8 L57,121.9 L58,118.5 L59,115.7 L60,113.7 L61,112.4 L62,112 L63,112.4 L64,113.7 L65,115.7 L66,118.5 L67,121.9 L68,125.8 L69,130.3 L70,135 L71,140 L72,145.1 L73,150.1 L74,155.1 L75,159.9 L76,164.5 L77,168.7 L78,172.6 L79,176.2 L80,179.4 L81,182.2 L82,184.6 L83,186.7 L84,188.5 L85,190 L86,191.3 L87,192.3 L88,193.1 L89,193.8 L90,194.3 L91,194.7 L92,195.1 L93,195.3 L94,195.5 L95,195.6 L96,195.7 L97,195.8 L98,195.9 L99,195.9 L100,195.9 L101,195.9 L102,195.8 L103,195.7 L104,195.6 L105,195.4 L106,195.1 L107,194.7 L108,194.1 L109,193.4 L110,192.5 L111,191.5 L112,190.2 L113,188.9 L114,187.5 L115,186.1 L116,184.8 L117,183.6 L118,182.8 L119,182.2 L120,182 L121,182.2 L122,182.8 L123,183.6 L124,184.8 L125,186.1 L126,187.5 L127,188.9 L128,190.2 L129,191.5 L130,192.5 L131,193.4 L132,194.1 L133,194.7 L134,195.1 L135,195.4 L136,195.6 L137,195.7 L138,195.8 L139,195.8 L140,195.8 L141,195.8 L142,195.7 L143,195.5 L144,195.4 L145,195.1 L146,194.8 L147,194.3 L148,193.8 L149,193.1 L150,192.2 L151,191.2 L152,189.9 L153,188.5 L154,186.9 L155,185.1 L156,183.2 L157,181.1 L158,179 L159,176.9 L160,174.9 L161,173 L162,171.3 L163,169.9 L164,168.9 L165,168.2 L166,168 L167,168.2 L168,168.9 L169,169.9 L170,171.3 L171,173 L172,174.9 L173,176.9 L174,179 L175,181.1 L176,183.2 L177,185.1 L178,186.9 L179,188.5 L180,189.9 L181,191.2 L182,192.2 L183,193 L184,193.7 L185,194.2 L186,194.6 L187,194.9 L188,195.1 L189,195.1 L190,195.1 L191,195 L192,194.8 L193,194.5 L194,194.1 L195,193.6 L196,192.9 L197,192.1 L198,191.1 L199,189.9 L200,188.5 L201,186.9 L202,185.1 L203,183.1 L204,181 L205,178.7 L206,176.3 L207,173.8 L208,171.3 L209,168.8 L210,166.4 L211,164.3 L212,162.3 L213,160.7 L214,159.3 L215,158.4 L216,157.8 L217,157.7 L218,157.9 L219,158.4 L220,159.3 L221,160.4 L222,161.7 L223,163.1 L224,164.5 L225,165.9 L226,167.3 L227,168.4 L228,169.4 L229,170.1 L230,170.6 L231,170.8 L232,170.7 L233,170.3 L234,169.6 L235,168.7 L236,167.6 L237,166.4 L238,164.9 L239,163.3 L240,161.7 L241,159.9 L242,158.2 L243,156.4 L244,154.7 L245,153 L246,151.3 L247,149.8 L248,148.3 L249,147 L250,145.7 L251,144.6 L252,143.6 L253,142.6 L254,141.8 L255,141.1 L256,140.5 L257,140 L258,139.5 L259,139.2 L260,138.8 L261,138.5 L262,138.3 L263,138 L264,137.8 L265,137.5 L266,137.3 L267,137 L268,136.8 L269,136.5 L270,136.2 L271,135.8 L272,135.5 L273,135.1 L274,134.7 L275,134.4 L276,134 L277,133.7 L278,133.4 L279,133.1 L280,132.8 L281,132.7 L282,132.5 L283,132.5 L284,132.5 L285,132.6 L286,132.8 L287,133 L288,133.4 L289,133.9 L290,134.4 L291,135.1 L292,135.9 L293,136.8 L294,137.7 L295,138.8 L296,139.9 L297,141.2 L298,142.5 L299,143.9 L300,145.3 L301,146.8 L302,148.4 L303,150 L304,151.6 L305,153.3 L306,155 L307,156.7 L308,158.4 L309,160.1 L310,161.8 L311,163.5 L312,165.2 L313,166.8 L314,168.4 L315,170 L316,171.5 L317,173 L318,174.5 L319,175.9 L320,177.2 L321,178.5 L322,179.7 L323,180.9 L324,182.1 L325,183.1 L326,184.1 L327,185.1 L328,186 L329,186.8 L330,187.6 L331,188.3 L332,189 L333,189.7 L334,190.3 L335,190.8 L336,191.3 L337,191.8 L338,192.2 L339,192.6 L340,193 L341,193.3 L342,193.6 L342,196 Z\" class=\"v-tint-2\"/><polyline points=\"22,196 23,195.9 24,195.9 25,195.9 26,195.8 27,195.7 28,195.6 29,195.4 30,195.2 31,194.9 32,194.4 33,193.9 34,193.2 35,192.3 36,191.2 37,189.8 38,188.1 39,186.1 40,183.6 41,180.6 42,177.1 43,173 44,168.3 45,163 46,157.1 47,150.5 48,143.5 49,135.9 50,127.9 51,119.5 52,111.1 53,102.6 54,94.3 55,86.4 56,79.1 57,72.5 58,66.8 59,62.2 60,58.8 61,56.7 62,56 63,56.7 64,58.8 65,62.2 66,66.8 67,72.5 68,79.1 69,86.4 70,94.3 71,102.6 72,111.1 73,119.5 74,127.9 75,135.9 76,143.5 77,150.5 78,157.1 79,163 80,168.3 81,173 82,177.1 83,180.6 84,183.6 85,186.1 86,188.1 87,189.8 88,191.2 89,192.3 90,193.2 91,193.9 92,194.4 93,194.9 94,195.2 95,195.4 96,195.6 97,195.7 98,195.8 99,195.8 100,195.8 101,195.8 102,195.8 103,195.7 104,195.5 105,195.3 106,194.9 107,194.5 108,193.8 109,193 110,192 111,190.8 112,189.4 113,187.9 114,186.3 115,184.7 116,183.2 117,181.9 118,180.9 119,180.2 120,180 121,180.2 122,180.9 123,181.9 124,183.2 125,184.7 126,186.3 127,187.9 128,189.4 129,190.8 130,192 131,193 132,193.8 133,194.5 134,194.9 135,195.3 136,195.5 137,195.7 138,195.7 139,195.8 140,195.8 141,195.7 142,195.6 143,195.4 144,195.2 145,194.9 146,194.5 147,194 148,193.3 149,192.4 150,191.4 151,190.1 152,188.6 153,186.9 154,185 155,182.8 156,180.4 157,177.9 158,175.4 159,172.8 160,170.3 161,168 162,166 163,164.3 164,163 165,162.3 166,162 167,162.3 168,163 169,164.3 170,166 171,168 172,170.3 173,172.8 174,175.4 175,177.9 176,180.4 177,182.8 178,185 179,186.9 180,188.6 181,190.1 182,191.4 183,192.4 184,193.2 185,193.9 186,194.4 187,194.7 188,195 189,195.1 190,195.2 191,195.1 192,195 193,194.7 194,194.4 195,194 196,193.4 197,192.7 198,191.9 199,190.9 200,189.8 201,188.5 202,187 203,185.4 204,183.6 205,181.7 206,179.8 207,177.7 208,175.7 209,173.7 210,171.9 211,170.2 212,168.7 213,167.5 214,166.5 215,166 216,165.7 217,165.9 218,166.4 219,167.2 220,168.4 221,169.8 222,171.4 223,173.2 224,175 225,176.9 226,178.8 227,180.7 228,182.4 229,184 230,185.5 231,186.8 232,187.9 233,188.8 234,189.5 235,190 236,190.4 237,190.7 238,190.8 239,190.8 240,190.6 241,190.4 242,190.1 243,189.7 244,189.3 245,188.8 246,188.2 247,187.6 248,186.9 249,186.2 250,185.5 251,184.7 252,183.9 253,183 254,182.1 255,181.2 256,180.2 257,179.2 258,178.2 259,177.2 260,176.1 261,175 262,173.9 263,172.8 264,171.7 265,170.6 266,169.5 267,168.5 268,167.4 269,166.3 270,165.3 271,164.3 272,163.3 273,162.4 274,161.5 275,160.7 276,159.9 277,159.2 278,158.6 279,158 280,157.5 281,157 282,156.7 283,156.4 284,156.2 285,156 286,156 287,156 288,156.2 289,156.4 290,156.7 291,157 292,157.5 293,158 294,158.6 295,159.2 296,159.9 297,160.7 298,161.5 299,162.4 300,163.3 301,164.3 302,165.3 303,166.3 304,167.4 305,168.5 306,169.5 307,170.6 308,171.7 309,172.8 310,173.9 311,175 312,176.1 313,177.2 314,178.2 315,179.2 316,180.2 317,181.2 318,182.1 319,183 320,183.9 321,184.7 322,185.5 323,186.3 324,187 325,187.7 326,188.3 327,189 328,189.5 329,190.1 330,190.6 331,191.1 332,191.5 333,191.9 334,192.3 335,192.7 336,193 337,193.3 338,193.6 339,193.8 340,194 341,194.2 342,194.4\" class=\"v-thin v-dash\"/><text x=\"62\" y=\"46\" class=\"v-text v-mid v-small v-b\">↓ albumin</text><text x=\"254\" y=\"130.6\" class=\"v-text v-mid v-small v-b\">β–γ bridging</text></g><g data-k=\"p-mono\"><path d=\"M22,196 L22,196 L23,195.9 L24,195.9 L25,195.9 L26,195.8 L27,195.7 L28,195.6 L29,195.5 L30,195.2 L31,195 L32,194.6 L33,194.1 L34,193.5 L35,192.7 L36,191.7 L37,190.5 L38,188.9 L39,187.1 L40,184.8 L41,182.1 L42,178.9 L43,175.3 L44,171.1 L45,166.3 L46,161 L47,155.1 L48,148.7 L49,141.9 L50,134.7 L51,127.2 L52,119.6 L53,112 L54,104.5 L55,97.4 L56,90.8 L57,84.8 L58,79.7 L59,75.5 L60,72.5 L61,70.6 L62,70 L63,70.6 L64,72.5 L65,75.5 L66,79.7 L67,84.8 L68,90.8 L69,97.4 L70,104.5 L71,112 L72,119.6 L73,127.2 L74,134.7 L75,141.9 L76,148.7 L77,155.1 L78,161 L79,166.3 L80,171.1 L81,175.3 L82,178.9 L83,182.1 L84,184.8 L85,187.1 L86,188.9 L87,190.5 L88,191.7 L89,192.7 L90,193.5 L91,194.1 L92,194.6 L93,195 L94,195.2 L95,195.5 L96,195.6 L97,195.7 L98,195.8 L99,195.8 L100,195.8 L101,195.8 L102,195.8 L103,195.7 L104,195.5 L105,195.3 L106,194.9 L107,194.5 L108,193.8 L109,193 L110,192 L111,190.8 L112,189.4 L113,187.9 L114,186.3 L115,184.7 L116,183.2 L117,181.9 L118,180.9 L119,180.2 L120,180 L121,180.2 L122,180.9 L123,181.9 L124,183.2 L125,184.7 L126,186.3 L127,187.9 L128,189.4 L129,190.8 L130,192 L131,193 L132,193.8 L133,194.5 L134,194.9 L135,195.3 L136,195.5 L137,195.7 L138,195.7 L139,195.8 L140,195.8 L141,195.7 L142,195.6 L143,195.4 L144,195.2 L145,194.9 L146,194.5 L147,194 L148,193.3 L149,192.4 L150,191.4 L151,190.1 L152,188.6 L153,186.9 L154,185 L155,182.8 L156,180.4 L157,177.9 L158,175.4 L159,172.8 L160,170.3 L161,168 L162,166 L163,164.3 L164,163 L165,162.3 L166,162 L167,162.3 L168,163 L169,164.3 L170,166 L171,168 L172,170.3 L173,172.8 L174,175.4 L175,177.9 L176,180.4 L177,182.8 L178,185 L179,186.9 L180,188.6 L181,190.1 L182,191.4 L183,192.4 L184,193.2 L185,193.9 L186,194.4 L187,194.7 L188,195 L189,195.1 L190,195.2 L191,195.1 L192,195 L193,194.7 L194,194.4 L195,194 L196,193.4 L197,192.7 L198,191.9 L199,190.9 L200,189.8 L201,188.5 L202,187 L203,185.4 L204,183.6 L205,181.8 L206,179.8 L207,177.8 L208,175.7 L209,173.8 L210,171.9 L211,170.2 L212,168.7 L213,167.5 L214,166.6 L215,166 L216,165.8 L217,166 L218,166.5 L219,167.4 L220,168.5 L221,170 L222,171.6 L223,173.4 L224,175.3 L225,177.2 L226,179.2 L227,181.1 L228,182.9 L229,184.5 L230,186 L231,187.4 L232,188.5 L233,189.5 L234,190.3 L235,191 L236,191.5 L237,191.9 L238,192.1 L239,192.2 L240,192.2 L241,192.2 L242,192 L243,191.8 L244,191.6 L245,191.3 L246,190.9 L247,190.5 L248,190.1 L249,189.6 L250,189.2 L251,188.6 L252,188.1 L253,187.6 L254,187 L255,186.4 L256,185.7 L257,185.1 L258,184.4 L259,183.8 L260,183.1 L261,182.4 L262,181.7 L263,180.9 L264,180.2 L265,179.5 L266,178.8 L267,178.1 L268,177.4 L269,176.6 L270,175.7 L271,174.5 L272,172.8 L273,169.8 L274,164.9 L275,157.1 L276,145.4 L277,129.6 L278,110.3 L279,89.6 L280,70.7 L281,57.4 L282,52.4 L283,57 L284,69.9 L285,88.3 L286,108.6 L287,127.5 L288,143 L289,154.3 L290,161.8 L291,166.3 L292,169 L293,170.4 L294,171.3 L295,172 L296,172.5 L297,173 L298,173.6 L299,174.2 L300,174.8 L301,175.4 L302,176 L303,176.7 L304,177.4 L305,178.1 L306,178.8 L307,179.5 L308,180.2 L309,180.9 L310,181.7 L311,182.4 L312,183.1 L313,183.8 L314,184.4 L315,185.1 L316,185.7 L317,186.4 L318,187 L319,187.6 L320,188.1 L321,188.7 L322,189.2 L323,189.7 L324,190.2 L325,190.6 L326,191 L327,191.4 L328,191.8 L329,192.2 L330,192.5 L331,192.8 L332,193.1 L333,193.3 L334,193.6 L335,193.8 L336,194 L337,194.2 L338,194.4 L339,194.6 L340,194.7 L341,194.9 L342,195 L342,196 Z\" class=\"v-tint-2\"/><polyline points=\"22,196 23,195.9 24,195.9 25,195.9 26,195.8 27,195.7 28,195.6 29,195.4 30,195.2 31,194.9 32,194.4 33,193.9 34,193.2 35,192.3 36,191.2 37,189.8 38,188.1 39,186.1 40,183.6 41,180.6 42,177.1 43,173 44,168.3 45,163 46,157.1 47,150.5 48,143.5 49,135.9 50,127.9 51,119.5 52,111.1 53,102.6 54,94.3 55,86.4 56,79.1 57,72.5 58,66.8 59,62.2 60,58.8 61,56.7 62,56 63,56.7 64,58.8 65,62.2 66,66.8 67,72.5 68,79.1 69,86.4 70,94.3 71,102.6 72,111.1 73,119.5 74,127.9 75,135.9 76,143.5 77,150.5 78,157.1 79,163 80,168.3 81,173 82,177.1 83,180.6 84,183.6 85,186.1 86,188.1 87,189.8 88,191.2 89,192.3 90,193.2 91,193.9 92,194.4 93,194.9 94,195.2 95,195.4 96,195.6 97,195.7 98,195.8 99,195.8 100,195.8 101,195.8 102,195.8 103,195.7 104,195.5 105,195.3 106,194.9 107,194.5 108,193.8 109,193 110,192 111,190.8 112,189.4 113,187.9 114,186.3 115,184.7 116,183.2 117,181.9 118,180.9 119,180.2 120,180 121,180.2 122,180.9 123,181.9 124,183.2 125,184.7 126,186.3 127,187.9 128,189.4 129,190.8 130,192 131,193 132,193.8 133,194.5 134,194.9 135,195.3 136,195.5 137,195.7 138,195.7 139,195.8 140,195.8 141,195.7 142,195.6 143,195.4 144,195.2 145,194.9 146,194.5 147,194 148,193.3 149,192.4 150,191.4 151,190.1 152,188.6 153,186.9 154,185 155,182.8 156,180.4 157,177.9 158,175.4 159,172.8 160,170.3 161,168 162,166 163,164.3 164,163 165,162.3 166,162 167,162.3 168,163 169,164.3 170,166 171,168 172,170.3 173,172.8 174,175.4 175,177.9 176,180.4 177,182.8 178,185 179,186.9 180,188.6 181,190.1 182,191.4 183,192.4 184,193.2 185,193.9 186,194.4 187,194.7 188,195 189,195.1 190,195.2 191,195.1 192,195 193,194.7 194,194.4 195,194 196,193.4 197,192.7 198,191.9 199,190.9 200,189.8 201,188.5 202,187 203,185.4 204,183.6 205,181.7 206,179.8 207,177.7 208,175.7 209,173.7 210,171.9 211,170.2 212,168.7 213,167.5 214,166.5 215,166 216,165.7 217,165.9 218,166.4 219,167.2 220,168.4 221,169.8 222,171.4 223,173.2 224,175 225,176.9 226,178.8 227,180.7 228,182.4 229,184 230,185.5 231,186.8 232,187.9 233,188.8 234,189.5 235,190 236,190.4 237,190.7 238,190.8 239,190.8 240,190.6 241,190.4 242,190.1 243,189.7 244,189.3 245,188.8 246,188.2 247,187.6 248,186.9 249,186.2 250,185.5 251,184.7 252,183.9 253,183 254,182.1 255,181.2 256,180.2 257,179.2 258,178.2 259,177.2 260,176.1 261,175 262,173.9 263,172.8 264,171.7 265,170.6 266,169.5 267,168.5 268,167.4 269,166.3 270,165.3 271,164.3 272,163.3 273,162.4 274,161.5 275,160.7 276,159.9 277,159.2 278,158.6 279,158 280,157.5 281,157 282,156.7 283,156.4 284,156.2 285,156 286,156 287,156 288,156.2 289,156.4 290,156.7 291,157 292,157.5 293,158 294,158.6 295,159.2 296,159.9 297,160.7 298,161.5 299,162.4 300,163.3 301,164.3 302,165.3 303,166.3 304,167.4 305,168.5 306,169.5 307,170.6 308,171.7 309,172.8 310,173.9 311,175 312,176.1 313,177.2 314,178.2 315,179.2 316,180.2 317,181.2 318,182.1 319,183 320,183.9 321,184.7 322,185.5 323,186.3 324,187 325,187.7 326,188.3 327,189 328,189.5 329,190.1 330,190.6 331,191.1 332,191.5 333,191.9 334,192.3 335,192.7 336,193 337,193.3 338,193.6 339,193.8 340,194 341,194.2 342,194.4\" class=\"v-thin v-dash\"/><text x=\"294\" y=\"60.4\" class=\"v-text v-small v-b\">M spike</text></g><g data-k=\"p-hypo\"><path d=\"M22,196 L22,196 L23,195.9 L24,195.9 L25,195.9 L26,195.8 L27,195.7 L28,195.6 L29,195.4 L30,195.2 L31,194.9 L32,194.4 L33,193.9 L34,193.2 L35,192.3 L36,191.2 L37,189.8 L38,188.1 L39,186.1 L40,183.6 L41,180.6 L42,177.1 L43,173 L44,168.3 L45,163 L46,157.1 L47,150.5 L48,143.5 L49,135.9 L50,127.9 L51,119.5 L52,111.1 L53,102.6 L54,94.3 L55,86.4 L56,79.1 L57,72.5 L58,66.8 L59,62.2 L60,58.8 L61,56.7 L62,56 L63,56.7 L64,58.8 L65,62.2 L66,66.8 L67,72.5 L68,79.1 L69,86.4 L70,94.3 L71,102.6 L72,111.1 L73,119.5 L74,127.9 L75,135.9 L76,143.5 L77,150.5 L78,157.1 L79,163 L80,168.3 L81,173 L82,177.1 L83,180.6 L84,183.6 L85,186.1 L86,188.1 L87,189.8 L88,191.2 L89,192.3 L90,193.2 L91,193.9 L92,194.4 L93,194.9 L94,195.2 L95,195.4 L96,195.6 L97,195.7 L98,195.8 L99,195.8 L100,195.8 L101,195.8 L102,195.8 L103,195.7 L104,195.5 L105,195.3 L106,194.9 L107,194.5 L108,193.8 L109,193 L110,192 L111,190.8 L112,189.4 L113,187.9 L114,186.3 L115,184.7 L116,183.2 L117,181.9 L118,180.9 L119,180.2 L120,180 L121,180.2 L122,180.9 L123,181.9 L124,183.2 L125,184.7 L126,186.3 L127,187.9 L128,189.4 L129,190.8 L130,192 L131,193 L132,193.8 L133,194.5 L134,194.9 L135,195.3 L136,195.5 L137,195.7 L138,195.7 L139,195.8 L140,195.8 L141,195.7 L142,195.6 L143,195.4 L144,195.2 L145,194.9 L146,194.5 L147,194 L148,193.3 L149,192.4 L150,191.4 L151,190.1 L152,188.6 L153,186.9 L154,185 L155,182.8 L156,180.4 L157,177.9 L158,175.4 L159,172.8 L160,170.3 L161,168 L162,166 L163,164.3 L164,163 L165,162.3 L166,162 L167,162.3 L168,163 L169,164.3 L170,166 L171,168 L172,170.3 L173,172.8 L174,175.4 L175,177.9 L176,180.4 L177,182.8 L178,185 L179,186.9 L180,188.6 L181,190.1 L182,191.4 L183,192.4 L184,193.2 L185,193.9 L186,194.4 L187,194.7 L188,195 L189,195.1 L190,195.2 L191,195.1 L192,195 L193,194.7 L194,194.4 L195,194 L196,193.4 L197,192.7 L198,191.9 L199,191 L200,189.8 L201,188.5 L202,187 L203,185.4 L204,183.7 L205,181.8 L206,179.8 L207,177.8 L208,175.8 L209,173.8 L210,172 L211,170.3 L212,168.8 L213,167.6 L214,166.7 L215,166.1 L216,166 L217,166.1 L218,166.7 L219,167.6 L220,168.7 L221,170.2 L222,171.9 L223,173.7 L224,175.7 L225,177.7 L226,179.6 L227,181.6 L228,183.4 L229,185.2 L230,186.8 L231,188.2 L232,189.5 L233,190.6 L234,191.5 L235,192.3 L236,192.9 L237,193.4 L238,193.8 L239,194.1 L240,194.4 L241,194.5 L242,194.6 L243,194.6 L244,194.6 L245,194.6 L246,194.5 L247,194.5 L248,194.4 L249,194.3 L250,194.1 L251,194 L252,193.9 L253,193.7 L254,193.6 L255,193.4 L256,193.2 L257,193.1 L258,192.9 L259,192.7 L260,192.5 L261,192.3 L262,192.1 L263,191.9 L264,191.8 L265,191.6 L266,191.4 L267,191.2 L268,191 L269,190.8 L270,190.6 L271,190.5 L272,190.3 L273,190.1 L274,190 L275,189.8 L276,189.7 L277,189.6 L278,189.4 L279,189.3 L280,189.3 L281,189.2 L282,189.1 L283,189.1 L284,189 L285,189 L286,189 L287,189 L288,189 L289,189.1 L290,189.1 L291,189.2 L292,189.3 L293,189.3 L294,189.4 L295,189.6 L296,189.7 L297,189.8 L298,190 L299,190.1 L300,190.3 L301,190.5 L302,190.6 L303,190.8 L304,191 L305,191.2 L306,191.4 L307,191.6 L308,191.8 L309,191.9 L310,192.1 L311,192.3 L312,192.5 L313,192.7 L314,192.9 L315,193.1 L316,193.2 L317,193.4 L318,193.6 L319,193.7 L320,193.9 L321,194 L322,194.2 L323,194.3 L324,194.4 L325,194.5 L326,194.7 L327,194.8 L328,194.9 L329,195 L330,195.1 L331,195.1 L332,195.2 L333,195.3 L334,195.4 L335,195.4 L336,195.5 L337,195.5 L338,195.6 L339,195.6 L340,195.7 L341,195.7 L342,195.7 L342,196 Z\" class=\"v-tint-2\"/><polyline points=\"22,196 23,195.9 24,195.9 25,195.9 26,195.8 27,195.7 28,195.6 29,195.4 30,195.2 31,194.9 32,194.4 33,193.9 34,193.2 35,192.3 36,191.2 37,189.8 38,188.1 39,186.1 40,183.6 41,180.6 42,177.1 43,173 44,168.3 45,163 46,157.1 47,150.5 48,143.5 49,135.9 50,127.9 51,119.5 52,111.1 53,102.6 54,94.3 55,86.4 56,79.1 57,72.5 58,66.8 59,62.2 60,58.8 61,56.7 62,56 63,56.7 64,58.8 65,62.2 66,66.8 67,72.5 68,79.1 69,86.4 70,94.3 71,102.6 72,111.1 73,119.5 74,127.9 75,135.9 76,143.5 77,150.5 78,157.1 79,163 80,168.3 81,173 82,177.1 83,180.6 84,183.6 85,186.1 86,188.1 87,189.8 88,191.2 89,192.3 90,193.2 91,193.9 92,194.4 93,194.9 94,195.2 95,195.4 96,195.6 97,195.7 98,195.8 99,195.8 100,195.8 101,195.8 102,195.8 103,195.7 104,195.5 105,195.3 106,194.9 107,194.5 108,193.8 109,193 110,192 111,190.8 112,189.4 113,187.9 114,186.3 115,184.7 116,183.2 117,181.9 118,180.9 119,180.2 120,180 121,180.2 122,180.9 123,181.9 124,183.2 125,184.7 126,186.3 127,187.9 128,189.4 129,190.8 130,192 131,193 132,193.8 133,194.5 134,194.9 135,195.3 136,195.5 137,195.7 138,195.7 139,195.8 140,195.8 141,195.7 142,195.6 143,195.4 144,195.2 145,194.9 146,194.5 147,194 148,193.3 149,192.4 150,191.4 151,190.1 152,188.6 153,186.9 154,185 155,182.8 156,180.4 157,177.9 158,175.4 159,172.8 160,170.3 161,168 162,166 163,164.3 164,163 165,162.3 166,162 167,162.3 168,163 169,164.3 170,166 171,168 172,170.3 173,172.8 174,175.4 175,177.9 176,180.4 177,182.8 178,185 179,186.9 180,188.6 181,190.1 182,191.4 183,192.4 184,193.2 185,193.9 186,194.4 187,194.7 188,195 189,195.1 190,195.2 191,195.1 192,195 193,194.7 194,194.4 195,194 196,193.4 197,192.7 198,191.9 199,190.9 200,189.8 201,188.5 202,187 203,185.4 204,183.6 205,181.7 206,179.8 207,177.7 208,175.7 209,173.7 210,171.9 211,170.2 212,168.7 213,167.5 214,166.5 215,166 216,165.7 217,165.9 218,166.4 219,167.2 220,168.4 221,169.8 222,171.4 223,173.2 224,175 225,176.9 226,178.8 227,180.7 228,182.4 229,184 230,185.5 231,186.8 232,187.9 233,188.8 234,189.5 235,190 236,190.4 237,190.7 238,190.8 239,190.8 240,190.6 241,190.4 242,190.1 243,189.7 244,189.3 245,188.8 246,188.2 247,187.6 248,186.9 249,186.2 250,185.5 251,184.7 252,183.9 253,183 254,182.1 255,181.2 256,180.2 257,179.2 258,178.2 259,177.2 260,176.1 261,175 262,173.9 263,172.8 264,171.7 265,170.6 266,169.5 267,168.5 268,167.4 269,166.3 270,165.3 271,164.3 272,163.3 273,162.4 274,161.5 275,160.7 276,159.9 277,159.2 278,158.6 279,158 280,157.5 281,157 282,156.7 283,156.4 284,156.2 285,156 286,156 287,156 288,156.2 289,156.4 290,156.7 291,157 292,157.5 293,158 294,158.6 295,159.2 296,159.9 297,160.7 298,161.5 299,162.4 300,163.3 301,164.3 302,165.3 303,166.3 304,167.4 305,168.5 306,169.5 307,170.6 308,171.7 309,172.8 310,173.9 311,175 312,176.1 313,177.2 314,178.2 315,179.2 316,180.2 317,181.2 318,182.1 319,183 320,183.9 321,184.7 322,185.5 323,186.3 324,187 325,187.7 326,188.3 327,189 328,189.5 329,190.1 330,190.6 331,191.1 332,191.5 333,191.9 334,192.3 335,192.7 336,193 337,193.3 338,193.6 339,193.8 340,194 341,194.2 342,194.4\" class=\"v-thin v-dash\"/><text x=\"286\" y=\"144\" class=\"v-text v-mid v-small v-b\">↓↓ γ</text></g><line x1=\"8\" y1=\"248\" x2=\"352\" y2=\"248\" class=\"v-line\"/><g data-k=\"row-infl\"><text x=\"8\" y=\"268\" class=\"v-text\">Acute inflammation</text><text x=\"194\" y=\"268\" class=\"v-text\">↑ α1, ↑ α2</text><line x1=\"8\" y1=\"275\" x2=\"352\" y2=\"275\" class=\"v-thin\"/></g><g data-k=\"row-neph\"><text x=\"8\" y=\"294\" class=\"v-text\">Nephrotic syndrome</text><text x=\"194\" y=\"294\" class=\"v-text\">↓↓ alb, ↑↑ α2, ↓ γ</text><line x1=\"8\" y1=\"301\" x2=\"352\" y2=\"301\" class=\"v-thin\"/></g><g data-k=\"row-cirr\"><text x=\"8\" y=\"320\" class=\"v-text\">Cirrhosis</text><text x=\"194\" y=\"320\" class=\"v-text\">↓ alb, β–γ bridging</text><line x1=\"8\" y1=\"327\" x2=\"352\" y2=\"327\" class=\"v-thin\"/></g><g data-k=\"row-mono\"><text x=\"8\" y=\"346\" class=\"v-text\">Monoclonal gammopathy</text><text x=\"194\" y=\"346\" class=\"v-text\">narrow M spike</text><line x1=\"8\" y1=\"353\" x2=\"352\" y2=\"353\" class=\"v-thin\"/></g><g data-k=\"row-hypo\"><text x=\"8\" y=\"372\" class=\"v-text\">Hypogammaglobulinemia</text><text x=\"194\" y=\"372\" class=\"v-text\">↓↓ γ</text><line x1=\"8\" y1=\"379\" x2=\"352\" y2=\"379\" class=\"v-thin\"/></g>",
+   "steps": [
+    {
+     "caption": "On **serum protein electrophoresis** (pH 8.6), albumin moves farthest toward the anode, followed by α1, α2, β and γ. Main proteins: α1-antitrypsin (α1), α2-macroglobulin and haptoglobin (α2), transferrin and C3 (β), immunoglobulins (γ). A nearly absent α1 band suggests α1-antitrypsin deficiency.",
+     "show": [
+      "normal"
+     ],
+     "hl": [
+      "normal"
+     ]
+    },
+    {
+     "caption": "**Acute inflammation:** acute-phase proteins such as α1-antitrypsin, haptoglobin and ceruloplasmin raise the α1 and α2 bands. Albumin, a negative acute-phase protein, may fall slightly.",
+     "show": [
+      "p-infl",
+      "refkey",
+      "row-infl"
+     ],
+     "hl": [
+      "row-infl"
+     ]
+    },
+    {
+     "caption": "**Nephrotic syndrome:** smaller proteins such as albumin and IgG leak into urine, so albumin and γ fall. Large α2-macroglobulin is kept back and rises, giving a striking α2 peak.",
+     "show": [
+      "p-neph",
+      "refkey",
+      "row-infl",
+      "row-neph"
+     ],
+     "hl": [
+      "row-neph"
+     ]
+    },
+    {
+     "caption": "**Cirrhosis:** albumin falls because the liver makes less, and polyclonal immunoglobulins rise. Increased IgA fills the dip between β and γ, giving **β–γ bridging**.",
+     "show": [
+      "p-cirr",
+      "refkey",
+      "row-infl",
+      "row-neph",
+      "row-cirr"
+     ],
+     "hl": [
+      "row-cirr"
+     ]
+    },
+    {
+     "caption": "**Monoclonal gammopathy** (e.g. multiple myeloma): one plasma-cell clone makes one immunoglobulin, seen as a narrow, tall **M spike**, usually in γ. Immunofixation electrophoresis confirms it and identifies the heavy and light chain.",
+     "show": [
+      "p-mono",
+      "refkey",
+      "row-infl",
+      "row-neph",
+      "row-cirr",
+      "row-mono"
+     ],
+     "hl": [
+      "row-mono"
+     ]
+    },
+    {
+     "caption": "**Hypogammaglobulinemia:** the γ band is faint or almost flat, as in inherited or acquired antibody deficiency. The other bands are usually normal.",
+     "show": [
+      "p-hypo",
+      "refkey",
+      "row-infl",
+      "row-neph",
+      "row-cirr",
+      "row-mono",
+      "row-hypo"
+     ],
+     "hl": [
+      "row-hypo"
+     ]
+    },
+    {
+     "caption": "**To remember:** a broad γ rise is polyclonal (chronic inflammation, cirrhosis); a narrow spike is monoclonal. Low albumin with a big α2 points to nephrotic syndrome.",
+     "show": [
+      "normal",
+      "row-infl",
+      "row-neph",
+      "row-cirr",
+      "row-mono",
+      "row-hypo"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A densitometer trace of serum protein electrophoresis from the anode (+) on the left to the cathode on the right, with peaks for albumin (tallest), alpha-1 (alpha-1-antitrypsin), alpha-2 (alpha-2-macroglobulin, haptoglobin), beta (transferrin, C3) and a broad gamma peak (immunoglobulins). Each later step overlays a pattern on the dashed normal trace: acute inflammation with raised alpha-1 and alpha-2; nephrotic syndrome with much lower albumin, a very high alpha-2 and lower gamma; cirrhosis with lower albumin and beta-gamma bridging; a monoclonal gammopathy with a narrow tall M spike in gamma; and hypogammaglobulinemia with an almost flat gamma region. A table lists each condition with its key sign.",
+   "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (amino acids and proteins; electrophoresis)."
+  },
+  {
+   "id": "cc-acid-base",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-F.1"
+   ],
+   "title": "Reading a blood gas: ROME and compensation",
+   "keywords": [
+    "arterial blood gas",
+    "blood gas shows",
+    "respiratory acidosis",
+    "respiratory alkalosis",
+    "metabolic acidosis",
+    "metabolic alkalosis",
+    "acid-base",
+    "acid–base",
+    "pco₂",
+    "pco2",
+    "henderson",
+    "compensated",
+    "hypoventilation",
+    "hyperventilation"
+   ],
+   "viewBox": "0 0 360 480",
+   "svg": "<g data-k=\"ratio\"><rect x=\"8\" y=\"8\" width=\"344\" height=\"90\" rx=\"6\" class=\"v-box\"/><text x=\"20\" y=\"60\" class=\"v-text v-b\">pH ∝</text><text x=\"98\" y=\"42\" class=\"v-text v-mid v-b\">HCO₃⁻</text><line x1=\"68\" y1=\"51\" x2=\"128\" y2=\"51\" class=\"v-line\"/><text x=\"98\" y=\"70\" class=\"v-text v-mid v-b\">pCO₂</text><text x=\"144\" y=\"42\" class=\"v-text v-small\">kidneys: metabolic</text><text x=\"144\" y=\"70\" class=\"v-text v-small\">lungs: respiratory</text><text x=\"20\" y=\"90\" class=\"v-text v-small v-muted\">Normal ratio 20 : 1 gives pH 7.40</text></g><g data-k=\"g-ph\"><text x=\"8\" y=\"151\" class=\"v-text v-b\">pH</text><rect x=\"200\" y=\"138\" width=\"40\" height=\"16\" rx=\"2\" class=\"v-tint-3\"/><line x1=\"100\" y1=\"146\" x2=\"340\" y2=\"146\" class=\"v-line\"/><line x1=\"100\" y1=\"141\" x2=\"100\" y2=\"151\" class=\"v-line\"/><line x1=\"340\" y1=\"141\" x2=\"340\" y2=\"151\" class=\"v-line\"/><text x=\"200\" y=\"170\" class=\"v-text v-mid v-small\">7.35</text><text x=\"240\" y=\"170\" class=\"v-text v-mid v-small\">7.45</text><text x=\"100\" y=\"170\" class=\"v-text v-small v-muted\">acidosis</text><text x=\"340\" y=\"170\" class=\"v-text v-end v-small v-muted\">alkalosis</text></g><g data-k=\"g-co2\"><text x=\"8\" y=\"217\" class=\"v-text v-b\">pCO₂</text><text x=\"8\" y=\"233\" class=\"v-text v-small v-muted\">mmHg</text><rect x=\"160\" y=\"204\" width=\"40\" height=\"16\" rx=\"2\" class=\"v-tint-3\"/><line x1=\"100\" y1=\"212\" x2=\"340\" y2=\"212\" class=\"v-line\"/><line x1=\"100\" y1=\"207\" x2=\"100\" y2=\"217\" class=\"v-line\"/><line x1=\"340\" y1=\"207\" x2=\"340\" y2=\"217\" class=\"v-line\"/><text x=\"160\" y=\"236\" class=\"v-text v-mid v-small\">35</text><text x=\"200\" y=\"236\" class=\"v-text v-mid v-small\">45</text><text x=\"100\" y=\"236\" class=\"v-text v-small v-muted\">low</text><text x=\"340\" y=\"236\" class=\"v-text v-end v-small v-muted\">high</text></g><g data-k=\"g-hco3\"><text x=\"8\" y=\"283\" class=\"v-text v-b\">HCO₃⁻</text><text x=\"8\" y=\"299\" class=\"v-text v-small v-muted\">mmol/L</text><rect x=\"196\" y=\"270\" width=\"32\" height=\"16\" rx=\"2\" class=\"v-tint-3\"/><line x1=\"100\" y1=\"278\" x2=\"340\" y2=\"278\" class=\"v-line\"/><line x1=\"100\" y1=\"273\" x2=\"100\" y2=\"283\" class=\"v-line\"/><line x1=\"340\" y1=\"273\" x2=\"340\" y2=\"283\" class=\"v-line\"/><text x=\"196\" y=\"302\" class=\"v-text v-mid v-small\">22</text><text x=\"228\" y=\"302\" class=\"v-text v-mid v-small\">26</text><text x=\"100\" y=\"302\" class=\"v-text v-small v-muted\">low</text><text x=\"340\" y=\"302\" class=\"v-text v-end v-small v-muted\">high</text></g><g data-k=\"ex-ra\"><path d=\"M142,132 L154,132 L148,143 Z\" class=\"v-fill-2\"/><text x=\"148\" y=\"127\" class=\"v-text v-mid v-b\">7.22 ↓</text><path d=\"M254,198 L266,198 L260,209 Z\" class=\"v-fill-2\"/><text x=\"260\" y=\"193\" class=\"v-text v-mid v-b\">60 ↑</text><path d=\"M206,264 L218,264 L212,275 Z\" class=\"v-fill-2\"/><text x=\"212\" y=\"259\" class=\"v-text v-mid v-b\">24</text><rect x=\"8\" y=\"314\" width=\"344\" height=\"46\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"332.5\" class=\"v-text v-mid v-small\">pH ↓ and pCO₂ ↑ move opposite ways:</text><text x=\"180\" y=\"349.5\" class=\"v-text v-mid v-b\">Respiratory acidosis</text></g><g data-k=\"ex-ma\"><path d=\"M134,132 L146,132 L140,143 Z\" class=\"v-fill-2\"/><text x=\"140\" y=\"127\" class=\"v-text v-mid v-b\">7.20 ↓</text><path d=\"M174,198 L186,198 L180,209 Z\" class=\"v-fill-2\"/><text x=\"180\" y=\"193\" class=\"v-text v-mid v-b\">40</text><path d=\"M134,264 L146,264 L140,275 Z\" class=\"v-fill-2\"/><text x=\"140\" y=\"259\" class=\"v-text v-mid v-b\">15 ↓</text><rect x=\"8\" y=\"314\" width=\"344\" height=\"46\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"332.5\" class=\"v-text v-mid v-small\">pH ↓ and HCO₃⁻ ↓ move the same way:</text><text x=\"180\" y=\"349.5\" class=\"v-text v-mid v-b\">Metabolic acidosis</text></g><g data-k=\"ex-pc\"><path d=\"M178,132 L190,132 L184,143 Z\" class=\"v-fill-2\"/><text x=\"184\" y=\"127\" class=\"v-text v-mid v-b\">7.31 ↓</text><path d=\"M254,198 L266,198 L260,209 Z\" class=\"v-fill-2\"/><text x=\"260\" y=\"193\" class=\"v-text v-mid v-b\">60 ↑</text><path d=\"M246,264 L258,264 L252,275 Z\" class=\"v-fill-2\"/><text x=\"252\" y=\"259\" class=\"v-text v-mid v-b\">29 ↑</text><rect x=\"8\" y=\"314\" width=\"344\" height=\"46\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"332.5\" class=\"v-text v-mid v-small\">pCO₂ ↑ primary; HCO₃⁻ ↑ compensating:</text><text x=\"180\" y=\"349.5\" class=\"v-text v-mid v-b\">Partly compensated resp. acidosis</text></g><g data-k=\"ex-fc\"><path d=\"M198,132 L210,132 L204,143 Z\" class=\"v-fill-2\"/><text x=\"204\" y=\"127\" class=\"v-text v-mid v-b\">7.36</text><path d=\"M254,198 L266,198 L260,209 Z\" class=\"v-fill-2\"/><text x=\"260\" y=\"193\" class=\"v-text v-mid v-b\">60 ↑</text><path d=\"M278,264 L290,264 L284,275 Z\" class=\"v-fill-2\"/><text x=\"284\" y=\"259\" class=\"v-text v-mid v-b\">33 ↑</text><rect x=\"8\" y=\"314\" width=\"344\" height=\"46\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"332.5\" class=\"v-text v-mid v-small\">pH back in range, both abnormal:</text><text x=\"180\" y=\"349.5\" class=\"v-text v-mid v-b\">Fully compensated resp. acidosis</text></g><g data-k=\"table\"><text x=\"8\" y=\"336\" class=\"v-text v-small v-b v-muted\">Disorder</text><text x=\"214\" y=\"336\" class=\"v-text v-mid v-small v-b v-muted\">pH</text><text x=\"266\" y=\"336\" class=\"v-text v-mid v-small v-b v-muted\">pCO₂</text><text x=\"322\" y=\"336\" class=\"v-text v-mid v-small v-b v-muted\">HCO₃⁻</text><line x1=\"8\" y1=\"344\" x2=\"352\" y2=\"344\" class=\"v-line\"/><text x=\"8\" y=\"364\" class=\"v-text\">Respiratory acidosis</text><text x=\"214\" y=\"364\" class=\"v-text v-mid v-b\">↓</text><text x=\"266\" y=\"364\" class=\"v-text v-mid v-b\">↑</text><text x=\"322\" y=\"364\" class=\"v-text v-mid\">(↑)</text><line x1=\"8\" y1=\"372\" x2=\"352\" y2=\"372\" class=\"v-thin\"/><text x=\"8\" y=\"390\" class=\"v-text\">Respiratory alkalosis</text><text x=\"214\" y=\"390\" class=\"v-text v-mid v-b\">↑</text><text x=\"266\" y=\"390\" class=\"v-text v-mid v-b\">↓</text><text x=\"322\" y=\"390\" class=\"v-text v-mid\">(↓)</text><line x1=\"8\" y1=\"398\" x2=\"352\" y2=\"398\" class=\"v-thin\"/><text x=\"8\" y=\"416\" class=\"v-text\">Metabolic acidosis</text><text x=\"214\" y=\"416\" class=\"v-text v-mid v-b\">↓</text><text x=\"266\" y=\"416\" class=\"v-text v-mid\">(↓)</text><text x=\"322\" y=\"416\" class=\"v-text v-mid v-b\">↓</text><line x1=\"8\" y1=\"424\" x2=\"352\" y2=\"424\" class=\"v-thin\"/><text x=\"8\" y=\"442\" class=\"v-text\">Metabolic alkalosis</text><text x=\"214\" y=\"442\" class=\"v-text v-mid v-b\">↑</text><text x=\"266\" y=\"442\" class=\"v-text v-mid\">(↑)</text><text x=\"322\" y=\"442\" class=\"v-text v-mid v-b\">↑</text><line x1=\"8\" y1=\"450\" x2=\"352\" y2=\"450\" class=\"v-thin\"/><text x=\"8\" y=\"470\" class=\"v-text v-small v-muted\">( ) = compensation, same direction as the primary change</text></g>",
+   "steps": [
+    {
+     "caption": "pH depends on the ratio of **bicarbonate** (HCO₃⁻, set by the kidneys: the metabolic part) to **pCO₂** (set by the lungs: the respiratory part); at 20 : 1, pH is 7.40. Reference ranges: pH 7.35–7.45, pCO₂ 35–45 mmHg, HCO₃⁻ 22–26 mmol/L.",
+     "show": [],
+     "hl": [
+      "ratio"
+     ]
+    },
+    {
+     "caption": "First read pH: below 7.35 is acidosis, above 7.45 alkalosis. **Respiratory = Opposite:** here pH (7.22) falls while pCO₂ (60 mmHg) rises, so this is respiratory acidosis, as in hypoventilation.",
+     "show": [
+      "ex-ra"
+     ],
+     "hl": [
+      "g-ph",
+      "g-co2"
+     ]
+    },
+    {
+     "caption": "**Metabolic = Equal:** pH and HCO₃⁻ move in the same direction. Here both fall (pH 7.20, HCO₃⁻ 15 mmol/L) with normal pCO₂: metabolic acidosis, as in diabetic ketoacidosis. Both rising would be metabolic alkalosis, as in vomiting.",
+     "show": [
+      "ex-ma"
+     ],
+     "hl": [
+      "g-ph",
+      "g-hco3"
+     ]
+    },
+    {
+     "caption": "**Compensation:** the other system moves in the same direction as the primary change to restore the ratio. Here the kidneys retain HCO₃⁻ (29 mmol/L), but pH (7.31) is still below 7.35: **partially compensated** respiratory acidosis.",
+     "show": [
+      "ex-pc"
+     ],
+     "hl": [
+      "g-hco3"
+     ]
+    },
+    {
+     "caption": "When pH returns to 7.35–7.45 while pCO₂ and HCO₃⁻ both stay abnormal, the disorder is **fully compensated**; pH usually stays on the side of the primary problem (7.36: acidosis). If the other value is still normal, it is uncompensated.",
+     "show": [
+      "ex-fc"
+     ],
+     "hl": [
+      "g-ph"
+     ]
+    },
+    {
+     "caption": "**To remember (ROME):** Respiratory, pH and pCO₂ go Opposite ways; Metabolic, pH and HCO₃⁻ go the same way (Equal). Compensation moves the other value the same way as the primary one.",
+     "show": [
+      "table"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A box shows pH as proportional to bicarbonate (kidneys, metabolic) over pCO₂ (lungs, respiratory), normally 20 to 1 at pH 7.40. Three scales show pH with a shaded reference range of 7.35 to 7.45, pCO₂ 35 to 45 mmHg and HCO₃⁻ 22 to 26 mmol/L. Examples are marked on the scales: respiratory acidosis (pH 7.22, pCO₂ 60, HCO₃⁻ 24), metabolic acidosis (pH 7.20, pCO₂ 40, HCO₃⁻ 15), partially compensated respiratory acidosis (pH 7.31, pCO₂ 60, HCO₃⁻ 29) and fully compensated respiratory acidosis (pH 7.36, pCO₂ 60, HCO₃⁻ 33). A final table lists the four primary disorders: respiratory acidosis pH down, pCO₂ up, HCO₃⁻ up as compensation; respiratory alkalosis pH up, pCO₂ down, HCO₃⁻ down as compensation; metabolic acidosis pH down, HCO₃⁻ down, pCO₂ down as compensation; metabolic alkalosis pH up, HCO₃⁻ up, pCO₂ up as compensation.",
+   "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (blood gases, pH and buffer systems). Example values are consistent with pH = 6.1 + log[HCO₃⁻ ÷ (0.03 × pCO₂)]."
+  }
+ ]
+}

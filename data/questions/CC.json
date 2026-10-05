@@ -1541,6 +1541,707 @@
     "3": "Falling pO₂ and rising pCO₂ result from continued cell metabolism when analysis is delayed at room temperature, not from air exposure."
    },
    "ref": "Bishop 9e, ch. on blood gases and acid–base (specimen handling); Tietz Fundamentals 9e, blood gases"
+  },
+  {
+   "id": "CC-0069",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A basic metabolic panel is drawn from the same arm in which 0.9% sodium chloride is infusing, above the IV site. Compared with a properly collected specimen, which pattern of results is most likely?",
+   "options": [
+    "Increased glucose with decreased sodium and chloride",
+    "Increased potassium with decreased calcium and magnesium",
+    "Increased chloride with decreased glucose, potassium, and total protein",
+    "Increased potassium, LD, and AST with all other analytes unchanged"
+   ],
+   "answer": 2,
+   "why": "Normal saline contains about 154 mmol/L each of sodium and chloride and nothing else. **The infusate raises chloride (and to a lesser degree sodium) while diluting every analyte it lacks**, such as glucose, potassium, calcium, and protein. Specimens should be drawn from the opposite arm, or below the IV after the infusion is stopped as institutional policy allows.",
+   "whyNot": {
+    "0": "This is the pattern of contamination with a dextrose infusion such as D5W, which adds glucose and dilutes the electrolytes.",
+    "1": "This is the pattern of K₂EDTA carryover, which adds potassium and chelates the divalent cations.",
+    "3": "This is the pattern of hemolysis, which releases intracellular potassium and enzymes; saline does not add these."
+   },
+   "ref": "Bishop 9e, ch. on specimen collection and processing (IV contamination); Tietz Fundamentals 9e, preanalytical variables"
+  },
+  {
+   "id": "CC-0070",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During a spectrophotometer performance check, the technologist must confirm that the instrument's wavelength setting matches the wavelength of light actually passing through the cuvet. Which device is used for this check?",
+   "options": [
+    "Holmium oxide glass filter",
+    "Neutral-density glass filters",
+    "Sharp-cutoff filter",
+    "Cuvet filled with deionized water"
+   ],
+   "answer": 0,
+   "why": "Holmium oxide glass has several narrow absorption peaks at precisely known wavelengths. **If the recorded peaks fall at the expected wavelengths, the wavelength calibration is accurate.** This is part of routine spectrophotometer verification along with stray light and photometric accuracy checks.",
+   "whyNot": {
+    "1": "Neutral-density filters have known absorbances across a broad range and are used to check photometric (absorbance) accuracy and linearity, not wavelength.",
+    "2": "Sharp-cutoff filters block all light below a given wavelength and are used to detect stray light.",
+    "3": "A water-filled cuvet serves as a blank for setting 100% transmittance; it has no peaks to locate a wavelength."
+   },
+   "ref": "Bishop 9e, ch. on analytic techniques (spectrophotometry, instrument checks); Tietz Fundamentals 9e, optical techniques"
+  },
+  {
+   "id": "CC-0071",
+   "tos": "CC-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a competitive fluorescence polarization immunoassay (FPIA) for a therapeutic drug, the patient's drug competes with fluorescein-labeled drug for a limited amount of antibody. How does a high drug concentration in the patient sample affect the signal?",
+   "options": [
+    "Polarization increases, because more labeled drug becomes bound to antibody",
+    "Polarization increases, because free labeled drug rotates too slowly to depolarize light",
+    "Polarization decreases, because antibody-bound labeled drug rotates rapidly",
+    "Polarization decreases, because more labeled drug stays free and rotates rapidly"
+   ],
+   "answer": 3,
+   "why": "Small, free fluorescein-labeled drug tumbles quickly and emits depolarized light, whereas the large antibody-bound label rotates slowly and keeps the light polarized. A high patient drug level displaces the label from the antibody, so more of it is free. **The degree of polarization is therefore inversely related to the drug concentration.**",
+   "whyNot": {
+    "0": "High patient drug occupies the antibody sites, so less label is bound, not more; this describes a low drug level.",
+    "1": "Free labeled drug is small and rotates rapidly, which depolarizes the emitted light.",
+    "2": "The antibody-bound complex is large and rotates slowly, which preserves polarization."
+   },
+   "ref": "Bishop 9e, ch. on immunochemical techniques (FPIA); Tietz Fundamentals 9e, immunochemical techniques"
+  },
+  {
+   "id": "CC-0072",
+   "tos": "CC-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A highly purified, stable chemical of known composition can be weighed directly and dissolved to give a solution of exactly known concentration, without being checked against another solution. Such a substance is called a:",
+   "options": [
+    "Secondary standard",
+    "Primary standard",
+    "Quality control material",
+    "Technical-grade chemical"
+   ],
+   "answer": 1,
+   "why": "A primary standard is a substance of very high, known purity that can be weighed and dissolved to yield an exact concentration. **Its concentration is known from its mass alone, so it needs no standardization against another solution.** Secondary standards are then assigned values by comparison with a primary standard.",
+   "whyNot": {
+    "0": "A secondary standard has its concentration assigned by comparison with a primary standard; it cannot stand on its own.",
+    "2": "Control material monitors assay performance; its expected value is established by repeated testing, not by weighing a pure substance.",
+    "3": "Technical (commercial) grade chemicals are of low purity and are unsuitable for any quantitative standard."
+   },
+   "ref": "Bishop 9e, ch. on basic laboratory principles (reagent grades, standards); Tietz Fundamentals 9e, laboratory principles"
+  },
+  {
+   "id": "CC-0073",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "How many grams of copper(II) sulfate pentahydrate (CuSO₄·5H₂O) are needed to prepare 500 mL of a 0.100 mol/L CuSO₄ solution? (Molar masses: CuSO₄ = 159.6 g/mol; H₂O = 18.0 g/mol.)",
+   "options": [
+    "8.0 g",
+    "8.9 g",
+    "25.0 g",
+    "12.5 g"
+   ],
+   "answer": 3,
+   "why": "Moles needed = 0.100 mol/L × 0.500 L = 0.0500 mol. Each mole of the pentahydrate supplies one mole of CuSO₄, so its molar mass must include the five waters: 159.6 + 5(18.0) = 249.6 g/mol. **Mass = 0.0500 mol × 249.6 g/mol = 12.5 g of the hydrate**, dissolved and brought to 500 mL.",
+   "whyNot": {
+    "0": "This uses the anhydrous molar mass (0.0500 × 159.6 = 7.98 g), ignoring the water of hydration that is weighed along with the salt.",
+    "1": "This adds only one water of hydration (159.6 + 18.0 = 177.6 g/mol) instead of five.",
+    "2": "This calculates the mass for 1 L instead of 500 mL."
+   },
+   "ref": "Bishop 9e, ch. on basic laboratory principles (molarity, hydrates); Tietz Fundamentals 9e, laboratory calculations",
+   "worked": {
+    "problem": "How many grams of magnesium sulfate heptahydrate (MgSO₄·7H₂O) are needed to make 250 mL of 0.200 mol/L MgSO₄? (MgSO₄ = 120.4 g/mol; H₂O = 18.0 g/mol.)",
+    "steps": [
+     "Moles needed = 0.200 mol/L × 0.250 L = 0.0500 mol",
+     "Molar mass of the hydrate = 120.4 + 7(18.0) = 246.4 g/mol",
+     "Mass = 0.0500 mol × 246.4 g/mol = 12.32 g",
+     "Dissolve 12.32 g in water and bring to 250 mL in a volumetric flask"
+    ],
+    "result": "12.3 g of MgSO₄·7H₂O"
+   }
+  },
+  {
+   "id": "CC-0074",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "During method validation, a known amount of pure analyte is added to aliquots of several patient specimens, and the measured increase in concentration is compared with the amount added. What type of analytical error does this experiment estimate?",
+   "options": [
+    "Proportional systematic error",
+    "Constant systematic error",
+    "Random error (imprecision)",
+    "Sample carryover between specimens"
+   ],
+   "answer": 0,
+   "why": "This is a recovery experiment: the percentage of added analyte that is measured shows whether the method reads a fixed fraction too high or too low. **Incomplete or excessive recovery reveals proportional systematic error, which grows with analyte concentration.** Constant error is instead studied with an interference experiment.",
+   "whyNot": {
+    "1": "Constant systematic error is estimated by the interference experiment, in which a suspected interferent rather than the analyte is added.",
+    "2": "Random error is estimated by the replication experiment, which repeats measurements of the same sample.",
+    "3": "Carryover is assessed by running high- and low-concentration samples in sequence, not by adding analyte to specimens."
+   },
+   "ref": "Bishop 9e, ch. on method evaluation (recovery and interference experiments); Tietz Fundamentals 9e, method evaluation"
+  },
+  {
+   "id": "CC-0075",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory applies Lean principles to its specimen-processing area. What is the central aim of Lean?",
+   "options": [
+    "Reduce process variation to 3.4 defects per million",
+    "Detect analytical errors using control rules",
+    "Eliminate waste, meaning steps that add no value",
+    "Compare results with those of peer laboratories"
+   ],
+   "answer": 2,
+   "why": "Lean, derived from the Toyota Production System, studies a process flow (for example, by value-stream mapping). **Its goal is to remove waste such as waiting, extra motion, and unnecessary steps so that work flows faster.** Six Sigma complements it by reducing variation and defects.",
+   "whyNot": {
+    "0": "Reducing variation to about 3.4 defects per million opportunities is the goal of Six Sigma, not Lean.",
+    "1": "Control rules such as Westgard multirules detect analytical error in QC runs; they are not a process-improvement method.",
+    "3": "Comparison with peer laboratories is proficiency testing (external quality assessment)."
+   },
+   "ref": "Bishop 9e, ch. on quality management (Lean and Six Sigma); Tietz Fundamentals 9e, quality management"
+  },
+  {
+   "id": "CC-0076",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A laboratory will establish a new reference interval from healthy volunteers using the nonparametric method recommended by CLSI. Which plan follows that guidance?",
+   "options": [
+    "At least 20 reference individuals; report the mean ± 2 SD",
+    "At least 120 reference individuals; report the 2.5th and 97.5th percentiles",
+    "At least 40 reference individuals; report the 5th and 95th percentiles",
+    "At least 120 reference individuals; report the mean ± 3 SD"
+   ],
+   "answer": 1,
+   "why": "A reference interval normally covers the central 95% of a healthy reference population. **CLSI recommends at least 120 reference individuals per group for the nonparametric estimate, with the limits taken at the 2.5th and 97.5th percentiles.** The nonparametric approach makes no assumption that the data are Gaussian.",
+   "whyNot": {
+    "0": "Twenty individuals are used to verify (transfer) an existing reference interval, not to establish a new one, and ± 2 SD assumes a Gaussian distribution.",
+    "2": "Forty specimens is the usual minimum for a method-comparison study, and the 5th–95th percentiles would cover only the central 90%.",
+    "3": "Mean ± 3 SD covers about 99.7% of a Gaussian population, which is wider than a reference interval, and it is a parametric approach."
+   },
+   "ref": "Bishop 9e, ch. on method evaluation (reference intervals, CLSI EP28); Tietz Fundamentals 9e, reference intervals"
+  },
+  {
+   "id": "CC-0077",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which document, supplied by the manufacturer for a specific chemical, lists its hazards, required protective equipment, first-aid measures, and spill-cleanup procedures?",
+   "options": [
+    "Safety data sheet (SDS)",
+    "Certificate of analysis",
+    "Chemical hygiene plan",
+    "Reagent package insert"
+   ],
+   "answer": 0,
+   "why": "Hazard communication rules require the manufacturer to provide a safety data sheet for every hazardous chemical. **The SDS describes the chemical's hazards, safe handling and storage, PPE, first aid, and spill response**, and it must be readily accessible to workers.",
+   "whyNot": {
+    "1": "A certificate of analysis reports the purity and test results of a particular lot; it does not give safety procedures.",
+    "2": "The chemical hygiene plan is the laboratory's own written safety program covering all chemicals, not a manufacturer's document for one chemical.",
+    "3": "A package insert explains how to perform the assay and its performance; safety information there is limited."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety (hazard communication); Tietz Fundamentals 9e, laboratory safety"
+  },
+  {
+   "id": "CC-0078",
+   "tos": "CC-C.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A patient has Na⁺ 142 mmol/L, K⁺ 4.0 mmol/L, Cl⁻ 100 mmol/L, and HCO₃⁻ 12 mmol/L. Using the formula anion gap = Na⁺ − (Cl⁻ + HCO₃⁻), what is the anion gap?",
+   "options": [
+    "34 mmol/L",
+    "42 mmol/L",
+    "54 mmol/L",
+    "30 mmol/L"
+   ],
+   "answer": 3,
+   "why": "Anion gap = 142 − (100 + 12) = 30 mmol/L. **Potassium is not part of the stated formula**, so it is ignored here. A gap this high with a low bicarbonate points to an increased-anion-gap metabolic acidosis, such as ketoacidosis or lactic acidosis.",
+   "whyNot": {
+    "0": "This adds potassium, (Na⁺ + K⁺) − (Cl⁻ + HCO₃⁻); that alternative formula exists, but the question specifies the formula without K⁺.",
+    "1": "This subtracts only chloride and leaves out bicarbonate.",
+    "2": "This adds bicarbonate instead of subtracting it: 142 − 100 + 12."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (anion gap); Tietz Fundamentals 9e, electrolytes",
+   "worked": {
+    "problem": "Na⁺ 138 mmol/L, Cl⁻ 104 mmol/L, HCO₃⁻ 24 mmol/L. Find the anion gap using Na⁺ − (Cl⁻ + HCO₃⁻).",
+    "steps": [
+     "Add the measured anions: 104 + 24 = 128 mmol/L",
+     "Subtract from sodium: 138 − 128 = 10 mmol/L",
+     "Compare with the laboratory's reference interval for this formula"
+    ],
+    "result": "10 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0079",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with essential thrombocythemia (platelet count 1,400 × 10⁹/L) has a serum potassium of 6.6 mmol/L but no ECG changes. A heparinized plasma specimen drawn at the same venipuncture gives 4.2 mmol/L. Neither specimen is hemolyzed. What best explains the difference?",
+   "options": [
+    "Heparin moving potassium into red cells and lowering the plasma value",
+    "Potassium released from platelets during clotting of the serum specimen",
+    "True hyperkalemia that heparin masks by interfering with the electrode",
+    "Potassium shifted out of cells by acidosis at the time of collection"
+   ],
+   "answer": 1,
+   "why": "During clotting, platelets release potassium into the serum. With an extreme platelet count, this release is large enough to raise serum potassium falsely, while plasma, which never clots, reflects the true value. **This in vitro artifact is called pseudohyperkalemia**, and plasma potassium should be used for such patients.",
+   "whyNot": {
+    "0": "Heparin does not drive potassium into cells; it simply prevents clotting.",
+    "2": "Heparin does not interfere with the potassium ion-selective electrode, and the normal ECG argues against true hyperkalemia.",
+    "3": "An acid–base shift happens in the patient, so it would raise potassium equally in both specimens drawn at the same time."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (potassium, pseudohyperkalemia); Tietz Fundamentals 9e, electrolytes"
+  },
+  {
+   "id": "CC-0080",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Most automated methods for serum inorganic phosphorus react phosphate with which reagent in acid solution?",
+   "options": [
+    "o-Cresolphthalein complexone",
+    "Calmagite",
+    "Ammonium molybdate",
+    "Ferrozine"
+   ],
+   "answer": 2,
+   "why": "Inorganic phosphate combines with ammonium molybdate in acid to form a phosphomolybdate complex. **The unreduced complex is read in the ultraviolet near 340 nm**, or it can be reduced to molybdenum blue and read in the visible range.",
+   "whyNot": {
+    "0": "o-Cresolphthalein complexone is the dye for total calcium.",
+    "1": "Calmagite is a metallochromic dye used for magnesium.",
+    "3": "Ferrozine forms a colored complex with ferrous iron in serum iron methods."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes and minerals (phosphate methods); Tietz Fundamentals 9e, minerals and bone"
+  },
+  {
+   "id": "CC-0081",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with long-standing rheumatoid arthritis has a mild anemia. Iron studies show decreased serum iron, decreased total iron-binding capacity (TIBC), decreased transferrin saturation, and an increased serum ferritin. Which condition best fits?",
+   "options": [
+    "Iron-deficiency anemia",
+    "Anemia of chronic inflammation",
+    "Hereditary hemochromatosis",
+    "Iron overload from repeated transfusion"
+   ],
+   "answer": 1,
+   "why": "Inflammatory cytokines raise hepcidin, which traps iron in macrophages and blocks its release to plasma, so serum iron falls even though body stores are adequate. **Ferritin, an acute-phase protein that reflects stores, is normal or increased, and transferrin (TIBC) is low or low-normal.** This combination separates it from iron deficiency.",
+   "whyNot": {
+    "0": "Iron deficiency also lowers serum iron and saturation, but TIBC rises and ferritin is low because stores are depleted.",
+    "2": "Hemochromatosis shows increased serum iron and a high transferrin saturation, not low values.",
+    "3": "Transfusional iron overload gives high serum iron and saturation along with very high ferritin."
+   },
+   "ref": "Bishop 9e, ch. on trace and toxic elements (iron, TIBC, ferritin); Tietz Fundamentals 9e, iron metabolism"
+  },
+  {
+   "id": "CC-0082",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which single result, if confirmed by repeat testing, meets the diagnostic criteria for diabetes mellitus in a nonpregnant adult?",
+   "options": [
+    "Fasting plasma glucose of 112 mg/dL",
+    "2-hour plasma glucose of 168 mg/dL after a 75-g load",
+    "Fasting plasma glucose of 132 mg/dL",
+    "Hemoglobin A1c of 6.0%"
+   ],
+   "answer": 2,
+   "why": "Diabetes is diagnosed by a fasting plasma glucose of 126 mg/dL (7.0 mmol/L) or more, a 2-hour glucose of 200 mg/dL or more during a 75-g OGTT, an HbA1c of 6.5% or more, or a random glucose of 200 mg/dL or more with classic symptoms. **A fasting glucose of 132 mg/dL exceeds the 126 mg/dL cutoff**, so it is diagnostic once confirmed.",
+   "whyNot": {
+    "0": "112 mg/dL is above the normal fasting value but below 126 mg/dL; it falls in the impaired fasting glucose range.",
+    "1": "A 2-hour value of 168 mg/dL is below 200 mg/dL and indicates impaired glucose tolerance, not diabetes.",
+    "3": "An HbA1c of 6.0% is below the 6.5% diagnostic threshold; the ADA classifies it as prediabetes."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (diagnostic criteria for diabetes); Tietz Fundamentals 9e, carbohydrates; ADA Standards of Care"
+  },
+  {
+   "id": "CC-0083",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A plasma glucose is measured by a glucose oxidase method coupled to peroxidase and an oxidizable chromogen. How does a high concentration of ascorbic acid in the specimen affect the result?",
+   "options": [
+    "Falsely decreased, because ascorbic acid consumes the hydrogen peroxide",
+    "Falsely increased, because glucose oxidase also oxidizes ascorbic acid",
+    "Unaffected, because glucose oxidase is specific for β-D-glucose",
+    "Falsely decreased, because ascorbic acid inhibits hexokinase"
+   ],
+   "answer": 0,
+   "why": "Glucose oxidase converts glucose to gluconic acid and hydrogen peroxide, and peroxidase then uses the peroxide to oxidize a chromogen. **Reducing substances such as ascorbic acid, uric acid, and bilirubin compete for the peroxide, so less color forms and glucose reads falsely low.**",
+   "whyNot": {
+    "1": "Glucose oxidase does not act on ascorbic acid; the interference occurs in the peroxidase step.",
+    "2": "The glucose oxidase step is specific, but the peroxidase indicator step is not, so reducing agents still interfere.",
+    "3": "Hexokinase is not used in this method; it belongs to the hexokinase/G6PD reference method."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glucose methods and interferences); Tietz Fundamentals 9e, carbohydrates"
+  },
+  {
+   "id": "CC-0084",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's diabetes treatment was changed three weeks ago. The physician wants a test that reflects the average glycemia over roughly the past 2 to 3 weeks rather than the past 2 to 3 months. Which test is most appropriate?",
+   "options": [
+    "Hemoglobin A1c",
+    "C-peptide",
+    "Fasting plasma glucose",
+    "Fructosamine"
+   ],
+   "answer": 3,
+   "why": "Fructosamine measures glycated serum proteins, mainly albumin. **Because albumin has a half-life of about 20 days, fructosamine reflects glycemic control over the preceding 2 to 3 weeks.** It is also useful when red cell disorders make HbA1c unreliable.",
+   "whyNot": {
+    "0": "HbA1c reflects the life span of red cells and summarizes the past 2 to 3 months, so it lags behind a recent change.",
+    "1": "C-peptide indicates endogenous insulin secretion, not average glucose.",
+    "2": "A fasting glucose shows glycemia at a single point in time, not an average over weeks."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (glycated proteins); Tietz Fundamentals 9e, carbohydrates"
+  },
+  {
+   "id": "CC-0085",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the enzymatic method for total serum cholesterol, which enzyme acts first so that both free and esterified cholesterol are measured?",
+   "options": [
+    "Cholesterol oxidase",
+    "Peroxidase",
+    "Lipoprotein lipase",
+    "Cholesterol esterase"
+   ],
+   "answer": 3,
+   "why": "About two-thirds of plasma cholesterol is esterified with fatty acids. **Cholesterol esterase first hydrolyzes these esters to free cholesterol**, which cholesterol oxidase then oxidizes, producing hydrogen peroxide that peroxidase uses to form a colored dye.",
+   "whyNot": {
+    "0": "Cholesterol oxidase acts on free cholesterol only, so it is the second step after the esters are hydrolyzed.",
+    "1": "Peroxidase is the final indicator step that uses hydrogen peroxide to form the dye.",
+    "2": "Lipoprotein lipase hydrolyzes triglycerides and is the first enzyme of the triglyceride method."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (cholesterol methods); Tietz Fundamentals 9e, lipids"
+  },
+  {
+   "id": "CC-0086",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Lipoprotein(a) is an LDL-like particle in which apolipoprotein(a) is linked to apo B-100. Why is an elevated Lp(a) thought to promote thrombosis as well as atherosclerosis?",
+   "options": [
+    "Apo(a) activates lipoprotein lipase and increases remnant formation",
+    "Apo(a) resembles plasminogen and can interfere with fibrinolysis",
+    "Apo(a) transfers cholesteryl esters from HDL to LDL particles",
+    "Apo(a) levels rise sharply with dietary saturated fat"
+   ],
+   "answer": 1,
+   "why": "Apo(a) contains kringle domains that are structurally homologous to plasminogen. **This similarity lets Lp(a) compete with plasminogen and impair clot lysis**, while its LDL-like core contributes cholesterol to the arterial wall. Lp(a) levels are largely genetically determined.",
+   "whyNot": {
+    "0": "Lipoprotein lipase is activated by apo C-II, not apo(a).",
+    "2": "Transfer of cholesteryl esters from HDL to other lipoproteins is the function of cholesteryl ester transfer protein (CETP).",
+    "3": "Lp(a) concentration is mainly genetically determined and changes little with diet."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (Lp(a)); Tietz Fundamentals 9e, lipids"
+  },
+  {
+   "id": "CC-0087",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During reverse cholesterol transport, which enzyme, activated by apolipoprotein A-I, esterifies free cholesterol taken up by HDL particles?",
+   "options": [
+    "Lecithin–cholesterol acyltransferase (LCAT)",
+    "Lipoprotein lipase (LPL)",
+    "Acyl-CoA:cholesterol acyltransferase (ACAT)",
+    "HMG-CoA reductase"
+   ],
+   "answer": 0,
+   "why": "HDL picks up free cholesterol from peripheral cells. **LCAT, activated by apo A-I, transfers a fatty acid from lecithin to this cholesterol**, forming cholesteryl esters that move into the HDL core so that HDL can take up more cholesterol and carry it back toward the liver.",
+   "whyNot": {
+    "1": "LPL is activated by apo C-II and hydrolyzes triglycerides in chylomicrons and VLDL.",
+    "2": "ACAT esterifies cholesterol inside cells for storage, not on circulating HDL.",
+    "3": "HMG-CoA reductase is the rate-limiting enzyme of cholesterol synthesis and does not esterify cholesterol."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (reverse cholesterol transport); Tietz Fundamentals 9e, lipids"
+  },
+  {
+   "id": "CC-0088",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A serum protein electrophoresis shows a narrow, sharp band in the gamma region. Which test should be done next to determine whether the band is monoclonal and to identify its heavy- and light-chain type?",
+   "options": [
+    "Protein electrophoresis repeated on a plasma specimen",
+    "Quantitative IgG, IgA, and IgM by nephelometry",
+    "Serum immunofixation electrophoresis",
+    "Total protein by the biuret method"
+   ],
+   "answer": 2,
+   "why": "In immunofixation, the separated proteins are overlaid with antisera against each heavy chain (γ, α, μ) and each light chain (κ, λ). **A single precipitated band with one heavy-chain and one light-chain antiserum confirms a monoclonal protein and identifies its type.**",
+   "whyNot": {
+    "0": "Plasma contains fibrinogen, which itself forms a narrow band between beta and gamma; electrophoresis of plasma creates confusion rather than identifying the band.",
+    "1": "Nephelometry measures the total amount of each immunoglobulin class but cannot show whether it is monoclonal or which light chain it carries.",
+    "3": "Total protein gives only the overall protein concentration and cannot characterize a band."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (electrophoresis, immunofixation); Tietz Fundamentals 9e, proteins"
+  },
+  {
+   "id": "CC-0089",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A hospitalized patient is started on nutritional support. Which serum protein, with a half-life of about 2 days, changes quickly enough to show the patient's response within days?",
+   "options": [
+    "Prealbumin",
+    "Albumin",
+    "Haptoglobin",
+    "Ceruloplasmin"
+   ],
+   "answer": 0,
+   "why": "Prealbumin (transthyretin) is synthesized by the liver and has a short half-life of about 2 days. **Its level falls quickly in protein–calorie undernutrition and rises soon after adequate feeding**, making it a sensitive marker of nutritional status. It also transports thyroxine and retinol-binding protein.",
+   "whyNot": {
+    "1": "Albumin has a half-life of about 20 days, so it responds too slowly to reflect a recent change in nutrition.",
+    "2": "Haptoglobin binds free hemoglobin and is used to detect hemolysis.",
+    "3": "Ceruloplasmin is the main copper-carrying protein and is used in evaluating Wilson disease."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (prealbumin); Tietz Fundamentals 9e, proteins"
+  },
+  {
+   "id": "CC-0090",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Unconjugated bilirubin is carried in plasma bound to which protein, and which hepatic enzyme conjugates it?",
+   "options": [
+    "Albumin; β-glucuronidase",
+    "Haptoglobin; UDP-glucuronyltransferase",
+    "Transferrin; heme oxygenase",
+    "Albumin; UDP-glucuronyltransferase"
+   ],
+   "answer": 3,
+   "why": "Unconjugated bilirubin is water-insoluble and travels to the liver bound to albumin. **In the hepatocyte, UDP-glucuronyltransferase attaches glucuronic acid to bilirubin**, making it water-soluble so that it can be excreted into bile.",
+   "whyNot": {
+    "0": "β-Glucuronidase removes glucuronic acid, which is the reverse of conjugation.",
+    "1": "Haptoglobin binds free hemoglobin, not bilirubin.",
+    "2": "Transferrin carries iron, and heme oxygenase converts heme to biliverdin; neither handles bilirubin conjugation."
+   },
+   "ref": "Bishop 9e, ch. on liver function (bilirubin metabolism); Tietz Fundamentals 9e, liver function"
+  },
+  {
+   "id": "CC-0091",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with a long history of heavy alcohol use has AST 210 U/L, ALT 80 U/L, and a markedly elevated GGT. Which condition is most consistent with these findings?",
+   "options": [
+    "Acute viral hepatitis",
+    "Acetaminophen-induced liver injury",
+    "Alcoholic liver disease",
+    "Extrahepatic biliary obstruction"
+   ],
+   "answer": 2,
+   "why": "**An AST:ALT ratio above 2 (here about 2.6) with only moderately increased transaminases is characteristic of alcoholic liver disease.** Alcohol injures mitochondria, which contain much of the AST, and pyridoxal phosphate deficiency in heavy drinkers lowers ALT activity. A high GGT supports alcohol use.",
+   "whyNot": {
+    "0": "Acute viral hepatitis typically shows ALT higher than AST, often in the thousands.",
+    "1": "Acetaminophen toxicity produces very high transaminases, often several thousand U/L, not a moderate rise.",
+    "3": "Biliary obstruction is marked mainly by high ALP and conjugated bilirubin, with only mild transaminase changes."
+   },
+   "ref": "Bishop 9e, ch. on liver function (enzyme patterns in liver disease); Tietz Fundamentals 9e, liver function"
+  },
+  {
+   "id": "CC-0092",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "One international unit (U) of enzyme activity is the amount of enzyme that catalyzes the conversion of:",
+   "options": [
+    "1 mol of substrate per second",
+    "1 µmol of substrate per minute",
+    "1 mg of substrate per minute",
+    "1 µmol of substrate per hour"
+   ],
+   "answer": 1,
+   "why": "The international unit was defined by the IUB as the enzyme activity that converts **1 micromole of substrate per minute** under specified conditions of temperature, pH, and substrate concentration. Results are reported in U/L.",
+   "whyNot": {
+    "0": "One mole per second defines the katal, the SI unit of enzyme activity (1 U ≈ 16.7 nkat).",
+    "2": "The unit is based on moles of substrate, not mass, so it is independent of molecular weight.",
+    "3": "The time base of the international unit is one minute, not one hour."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (units of enzyme activity); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0093",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After surgery, a patient remains apneic for several hours following a standard dose of succinylcholine. Measurement of which serum enzyme is most useful in investigating this reaction?",
+   "options": [
+    "Creatine kinase",
+    "Pseudocholinesterase",
+    "Glucose-6-phosphate dehydrogenase",
+    "Aldolase"
+   ],
+   "answer": 1,
+   "why": "Succinylcholine is normally broken down within minutes by pseudocholinesterase (serum cholinesterase) made in the liver. **Patients with low activity or an atypical, dibucaine-resistant variant of this enzyme cannot clear the drug and stay paralyzed for hours.** Low activity is also seen with organophosphate poisoning and severe liver disease.",
+   "whyNot": {
+    "0": "Creatine kinase rises in muscle injury, including malignant hyperthermia, but it does not metabolize succinylcholine.",
+    "2": "G6PD deficiency causes drug-induced hemolysis, not prolonged neuromuscular blockade.",
+    "3": "Aldolase is a glycolytic enzyme used as a marker of muscle damage, not of drug metabolism."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (cholinesterase); Tietz Fundamentals 9e, enzymes"
+  },
+  {
+   "id": "CC-0094",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman with a painless, firm goiter has an elevated TSH and a low free T4. Which antibody result most strongly supports chronic autoimmune (Hashimoto) thyroiditis?",
+   "options": [
+    "Anti-thyroid peroxidase antibodies",
+    "TSH receptor–stimulating antibodies",
+    "Anti-mitochondrial antibodies",
+    "Anti-intrinsic factor antibodies"
+   ],
+   "answer": 0,
+   "why": "Hashimoto thyroiditis is the most common cause of primary hypothyroidism in iodine-sufficient areas. **Anti-TPO antibodies are found in the large majority of these patients and are the most sensitive marker of the disease.** Anti-thyroglobulin antibodies may also be present.",
+   "whyNot": {
+    "1": "TSH receptor–stimulating antibodies cause Graves disease, which produces hyperthyroidism with a low TSH.",
+    "2": "Anti-mitochondrial antibodies are the marker of primary biliary cholangitis, a liver disease.",
+    "3": "Anti-intrinsic factor antibodies indicate pernicious anemia, not thyroid disease."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function (autoimmune thyroid disease); Tietz Fundamentals 9e, thyroid"
+  },
+  {
+   "id": "CC-0095",
+   "tos": "CC-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A tall adult man with small, firm testes and infertility has a low serum testosterone with increased LH and FSH. How is his hypogonadism classified?",
+   "options": [
+    "Secondary (pituitary) hypogonadism",
+    "Tertiary (hypothalamic) hypogonadism",
+    "Androgen excess from adrenal hyperplasia",
+    "Primary (testicular) hypogonadism"
+   ],
+   "answer": 3,
+   "why": "When the testes fail, low testosterone and inhibin remove negative feedback, so the pituitary raises LH and FSH. **Low testosterone with high gonadotropins indicates primary (hypergonadotropic) hypogonadism**, as seen in Klinefelter syndrome.",
+   "whyNot": {
+    "0": "Pituitary failure would give low testosterone with low or inappropriately normal LH and FSH.",
+    "1": "Hypothalamic GnRH deficiency also gives low or normal LH and FSH, not high values.",
+    "2": "Adrenal hyperplasia raises androgens; it would not produce a low testosterone with high gonadotropins."
+   },
+   "ref": "Bishop 9e, ch. on gonadal function (male hypogonadism); Tietz Fundamentals 9e, reproductive endocrinology"
+  },
+  {
+   "id": "CC-0096",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with coarse facial features and enlarged hands has an increased serum IGF-1. Which dynamic test is used to confirm growth hormone (GH) excess?",
+   "options": [
+    "Insulin-induced hypoglycemia: GH fails to rise",
+    "Dexamethasone administration: cortisol fails to suppress",
+    "Oral glucose load: GH fails to suppress",
+    "ACTH (cosyntropin) stimulation: cortisol fails to rise"
+   ],
+   "answer": 2,
+   "why": "In healthy people, a glucose load suppresses GH secretion. **In acromegaly, GH remains high after an oral glucose load, confirming autonomous GH secretion.** IGF-1 is the preferred screening test because it reflects integrated GH secretion.",
+   "whyNot": {
+    "0": "Insulin tolerance is a stimulation test used to diagnose GH deficiency, not excess.",
+    "1": "The dexamethasone suppression test evaluates cortisol excess (Cushing syndrome).",
+    "3": "The ACTH stimulation test evaluates adrenal insufficiency."
+   },
+   "ref": "Bishop 9e, ch. on the pituitary (growth hormone testing); Tietz Fundamentals 9e, pituitary function"
+  },
+  {
+   "id": "CC-0097",
+   "tos": "CC-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine specimen is positive for amphetamines by immunoassay screening, and the result may have legal consequences. Which method is the accepted confirmatory test?",
+   "options": [
+    "Repeat of the same immunoassay in duplicate",
+    "Thin-layer chromatography",
+    "Gas chromatography–mass spectrometry",
+    "A second immunoassay from another manufacturer"
+   ],
+   "answer": 2,
+   "why": "Immunoassays are fast screening tests, but their antibodies can cross-react with structurally similar compounds such as over-the-counter sympathomimetics. **GC-MS separates the compounds and identifies them by their mass spectra, providing definitive confirmation.** Chain-of-custody documentation is also required for forensic testing.",
+   "whyNot": {
+    "0": "Repeating the same immunoassay repeats the same cross-reactivity, so it cannot confirm the result.",
+    "1": "Thin-layer chromatography is a qualitative screening technique with limited specificity and sensitivity.",
+    "3": "Another immunoassay uses the same antibody-based principle and remains subject to cross-reactivity."
+   },
+   "ref": "Bishop 9e, ch. on toxicology and drugs of abuse (screening and confirmation); Tietz Fundamentals 9e, toxicology"
+  },
+  {
+   "id": "CC-0098",
+   "tos": "CC-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient rescued from a house fire has a headache and confusion. Pulse oximetry reads 98%, and the arterial pO₂ is normal. Which measurement establishes the diagnosis of carbon monoxide poisoning?",
+   "options": [
+    "Repeat pulse oximetry on a different finger",
+    "Carboxyhemoglobin by multiwavelength CO-oximetry",
+    "Oxygen saturation calculated from the measured pO₂",
+    "Total hemoglobin by the cyanmethemoglobin method"
+   ],
+   "answer": 1,
+   "why": "Standard pulse oximeters use only two wavelengths and read carboxyhemoglobin as if it were oxyhemoglobin, so SpO₂ appears normal. The pO₂ reflects dissolved oxygen, which CO does not reduce. **A CO-oximeter measures absorbance at several wavelengths and directly quantifies carboxyhemoglobin.**",
+   "whyNot": {
+    "0": "Any standard two-wavelength pulse oximeter has the same blind spot, regardless of the finger used.",
+    "2": "A saturation calculated from pO₂ assumes normal hemoglobin and ignores carboxyhemoglobin, so it is falsely normal.",
+    "3": "The cyanmethemoglobin method converts hemoglobin derivatives to one colored form to measure total hemoglobin, so it cannot quantify carboxyhemoglobin separately."
+   },
+   "ref": "Bishop 9e, ch. on toxicology (carbon monoxide) and blood gases (CO-oximetry); Tietz Fundamentals 9e, toxicology"
+  },
+  {
+   "id": "CC-0099",
+   "tos": "CC-E.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A drug with an elimination half-life of 8 hours is started at a fixed dose and fixed dosing interval with no loading dose. About how long after therapy begins should steady-state levels be expected before TDM specimens are collected?",
+   "options": [
+    "40 hours",
+    "8 hours",
+    "16 hours",
+    "120 hours"
+   ],
+   "answer": 0,
+   "why": "With repeated dosing, the drug accumulates until intake equals elimination. **Steady state is reached after about five half-lives (about 97% of the final level)**, so 5 × 8 hours = 40 hours. Earlier specimens underestimate the eventual concentration.",
+   "whyNot": {
+    "1": "After only one half-life the drug is at about 50% of its steady-state level.",
+    "2": "After two half-lives the drug reaches only about 75% of steady state.",
+    "3": "Fifteen half-lives far exceeds what is needed; steady state is essentially reached after about five."
+   },
+   "ref": "Bishop 9e, ch. on therapeutic drug monitoring (pharmacokinetics); Tietz Fundamentals 9e, therapeutic drug monitoring"
+  },
+  {
+   "id": "CC-0100",
+   "tos": "CC-F.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A venous specimen has a total CO₂ content of 15.3 mmol/L and a pCO₂ of 30 mmHg. Using pH = 6.1 + log[HCO₃⁻ / (0.03 × pCO₂)], and taking total CO₂ = HCO₃⁻ + (0.03 × pCO₂), what is the pH?",
+   "options": [
+    "7.33",
+    "5.78",
+    "4.90",
+    "7.30"
+   ],
+   "answer": 3,
+   "why": "Dissolved CO₂ = 0.03 × 30 = 0.9 mmol/L, so HCO₃⁻ = 15.3 − 0.9 = 14.4 mmol/L. The ratio is 14.4/0.9 = 16, and log 16 = 1.20. **pH = 6.1 + 1.20 = 7.30.**",
+   "whyNot": {
+    "0": "This uses total CO₂ (15.3) as bicarbonate without subtracting dissolved CO₂: 6.1 + log(15.3/0.9) = 7.33.",
+    "1": "This omits the 0.03 solubility factor and divides bicarbonate by pCO₂ in mmHg: 6.1 + log(14.4/30) = 5.78.",
+    "2": "This inverts the ratio: 6.1 + log(0.9/14.4) = 4.90."
+   },
+   "ref": "Bishop 9e, ch. on blood gases and acid–base (Henderson–Hasselbalch, total CO₂); Tietz Fundamentals 9e, blood gases",
+   "worked": {
+    "problem": "Total CO₂ is 25.2 mmol/L and pCO₂ is 40 mmHg. Find the pH using the same equations.",
+    "steps": [
+     "Dissolved CO₂ = 0.03 × 40 = 1.2 mmol/L",
+     "HCO₃⁻ = 25.2 − 1.2 = 24.0 mmol/L",
+     "Ratio = 24.0/1.2 = 20; log 20 = 1.30",
+     "pH = 6.1 + 1.30 = 7.40"
+    ],
+    "result": "pH 7.40"
+   }
   }
  ]
 }

@@ -1,0 +1,517 @@
+{
+ "subject": "CM",
+ "visuals": [
+  {
+   "id": "cm-nephron",
+   "type": "svg",
+   "subject": "CM",
+   "tos": [
+    "CM-A.1",
+    "CM-A.4"
+   ],
+   "title": "The nephron and urine formation",
+   "keywords": [
+    "nephron",
+    "renal threshold",
+    "loop of henle",
+    "countercurrent",
+    "collecting duct",
+    "proximal convoluted",
+    "distal convoluted",
+    "antidiuretic",
+    "aldosterone",
+    "shield of negativity",
+    "glomerular filtration barrier",
+    "podocyte"
+   ],
+   "viewBox": "0 0 360 560",
+   "svg": "<line x1=\"8\" y1=\"214\" x2=\"182\" y2=\"214\" class=\"v-thin v-dash\"/><text x=\"8\" y=\"206\" class=\"v-text v-small v-muted\">Cortex</text><text x=\"8\" y=\"232\" class=\"v-text v-small v-muted\">Medulla</text><circle cx=\"46\" cy=\"92\" r=\"30\" class=\"v-line\"/><circle cx=\"38\" cy=\"85\" r=\"8\" class=\"v-line v-stroke-5\"/><circle cx=\"54\" cy=\"85\" r=\"8\" class=\"v-line v-stroke-5\"/><circle cx=\"38\" cy=\"100\" r=\"8\" class=\"v-line v-stroke-5\"/><circle cx=\"54\" cy=\"100\" r=\"8\" class=\"v-line v-stroke-5\"/><path d=\"M74,84 C84,52 108,52 102,76 C96,100 116,104 108,128 L108,448\" class=\"v-line v-stroke-1\" style=\"stroke-width:5;stroke-linecap:round;stroke-linejoin:round\"/><path d=\"M108,448 C108,470 140,470 140,448 L140,196\" class=\"v-line v-stroke-2\" style=\"stroke-width:5;stroke-linecap:round;stroke-linejoin:round\"/><path d=\"M140,196 C140,168 160,166 158,184 C156,202 176,200 176,178\" class=\"v-line v-stroke-5\" style=\"stroke-width:5;stroke-linecap:round;stroke-linejoin:round\"/><line x1=\"176\" y1=\"34\" x2=\"176\" y2=\"500\" class=\"v-line v-stroke-5\" style=\"stroke-width:5;stroke-linecap:round;stroke-linejoin:round\"/><line x1=\"176\" y1=\"500\" x2=\"176\" y2=\"536\" class=\"v-line v-arrow\"/><text x=\"168\" y=\"526\" class=\"v-text v-small v-end v-muted\">Urine to</text><text x=\"168\" y=\"542\" class=\"v-text v-small v-end v-muted\">renal pelvis</text><g data-k=\"glom\"><rect x=\"192\" y=\"10\" width=\"162\" height=\"108\" rx=\"6\" class=\"v-tint-3\"/><text x=\"200\" y=\"29\" class=\"v-text v-b\">1  Glomerulus</text><text x=\"200\" y=\"45\" class=\"v-text v-small\">Filters plasma</text><text x=\"200\" y=\"61\" class=\"v-text v-small\">Barrier: capillary</text><text x=\"200\" y=\"77\" class=\"v-text v-small\">endothelium, basement</text><text x=\"200\" y=\"93\" class=\"v-text v-small\">membrane, podocytes</text><text x=\"200\" y=\"109\" class=\"v-text v-small\">− charge repels albumin</text><circle cx=\"46\" cy=\"46\" r=\"10\" class=\"v-box\"/><text x=\"46\" y=\"50.5\" class=\"v-text v-small v-b v-mid\">1</text></g><g data-k=\"pct\"><rect x=\"192\" y=\"126\" width=\"162\" height=\"108\" rx=\"6\" class=\"v-tint-1\"/><text x=\"200\" y=\"145\" class=\"v-text v-b\">2  Proximal tubule</text><text x=\"200\" y=\"161\" class=\"v-text v-small\">Takes back glucose,</text><text x=\"200\" y=\"177\" class=\"v-text v-small\">amino acids, salts,</text><text x=\"200\" y=\"193\" class=\"v-text v-small\">most of the water</text><text x=\"200\" y=\"209\" class=\"v-text v-small\">Glucose threshold:</text><text x=\"200\" y=\"225\" class=\"v-text v-small\">plasma 160–180 mg/dL</text><circle cx=\"128\" cy=\"60\" r=\"10\" class=\"v-box\"/><text x=\"128\" y=\"64.5\" class=\"v-text v-small v-b v-mid\">2</text></g><g data-k=\"loop\"><rect x=\"192\" y=\"242\" width=\"162\" height=\"92\" rx=\"6\" class=\"v-tint-2\"/><text x=\"200\" y=\"261\" class=\"v-text v-b\">3  Loop of Henle</text><text x=\"200\" y=\"277\" class=\"v-text v-small\">Down: water leaves</text><text x=\"200\" y=\"293\" class=\"v-text v-small\">Up: NaCl pumped out,</text><text x=\"200\" y=\"309\" class=\"v-text v-small\">water cannot follow</text><text x=\"200\" y=\"325\" class=\"v-text v-small\">→ salty medulla</text><circle cx=\"124\" cy=\"490\" r=\"10\" class=\"v-box\"/><text x=\"124\" y=\"494.5\" class=\"v-text v-small v-b v-mid\">3</text></g><g data-k=\"distal\"><rect x=\"192\" y=\"342\" width=\"162\" height=\"108\" rx=\"6\" class=\"v-tint-5\"/><text x=\"200\" y=\"361\" class=\"v-text v-b\">4  Distal tubule and</text><text x=\"200\" y=\"377\" class=\"v-text v-small\">collecting duct</text><text x=\"200\" y=\"393\" class=\"v-text v-small\">Aldosterone: keeps Na⁺,</text><text x=\"200\" y=\"409\" class=\"v-text v-small\">excretes K⁺</text><text x=\"200\" y=\"425\" class=\"v-text v-small\">ADH: water leaves the</text><text x=\"200\" y=\"441\" class=\"v-text v-small\">collecting duct</text><circle cx=\"158\" cy=\"152\" r=\"10\" class=\"v-box\"/><text x=\"158\" y=\"156.5\" class=\"v-text v-small v-b v-mid\">4</text></g><g data-k=\"casts\"><rect x=\"192\" y=\"458\" width=\"162\" height=\"92\" rx=\"6\" class=\"v-tint-4\"/><text x=\"200\" y=\"477\" class=\"v-text v-b\">5  Casts form here</text><text x=\"200\" y=\"493\" class=\"v-text v-small\">Distal tubule and</text><text x=\"200\" y=\"509\" class=\"v-text v-small\">collecting duct lumen</text><text x=\"200\" y=\"525\" class=\"v-text v-small\">Matrix: uromodulin</text><text x=\"200\" y=\"541\" class=\"v-text v-small\">(Tamm–Horsfall protein)</text><circle cx=\"154\" cy=\"330\" r=\"10\" class=\"v-box\"/><text x=\"154\" y=\"334.5\" class=\"v-text v-small v-b v-mid\">5</text></g><g data-k=\"salt\"><line x1=\"30\" y1=\"250\" x2=\"30\" y2=\"420\" class=\"v-line v-arrow\"/><text x=\"40\" y=\"300\" class=\"v-text v-small\">Medulla</text><text x=\"40\" y=\"316\" class=\"v-text v-small\">gets</text><text x=\"40\" y=\"332\" class=\"v-text v-small\">saltier</text><text x=\"40\" y=\"348\" class=\"v-text v-small\">deeper</text><line x1=\"102\" y1=\"392\" x2=\"70\" y2=\"392\" class=\"v-line v-arrow\"/><text x=\"62\" y=\"396\" class=\"v-text v-small v-b v-end\">H₂O</text></g><g data-k=\"castmark\"><rect x=\"169\" y=\"300\" width=\"14\" height=\"40\" rx=\"6\" class=\"v-hatch\"/><rect x=\"169\" y=\"400\" width=\"14\" height=\"34\" rx=\"6\" class=\"v-hatch\"/></g>",
+   "steps": [
+    {
+     "caption": "Plasma is filtered at the **glomerulus**. The barrier has three layers (capillary endothelium, basement membrane, podocytes), and its negative charge, the **shield of negativity**, repels albumin, so normal filtrate is nearly protein-free with a specific gravity of 1.010.",
+     "show": [
+      "glom"
+     ],
+     "hl": [
+      "glom"
+     ]
+    },
+    {
+     "caption": "The **proximal convoluted tubule** reabsorbs most of the filtrate: glucose, amino acids, salts and most of the water (about two-thirds). Glucose is actively reabsorbed only up to the **renal threshold**, a plasma glucose of about 160–180 mg/dL; above it, glucose spills into the urine.",
+     "show": [
+      "glom",
+      "pct"
+     ],
+     "hl": [
+      "pct"
+     ]
+    },
+    {
+     "caption": "The **loop of Henle** is the **countercurrent** system: the descending limb lets water out, while the ascending limb pumps out sodium and chloride but is impermeable to water. This builds a salty (hypertonic) medulla that later pulls water from the collecting duct.",
+     "show": [
+      "glom",
+      "pct",
+      "loop",
+      "salt"
+     ],
+     "hl": [
+      "loop"
+     ]
+    },
+    {
+     "caption": "Final adjustments happen in the **distal convoluted tubule and collecting duct**. **Aldosterone** makes the distal tubule reabsorb sodium and secrete potassium; **ADH** makes the collecting duct (and late distal tubule) permeable to water, so water leaves into the salty medulla and urine is concentrated.",
+     "show": [
+      "glom",
+      "pct",
+      "loop",
+      "salt",
+      "distal"
+     ],
+     "hl": [
+      "distal"
+     ]
+    },
+    {
+     "caption": "**Casts** form in the lumen of the distal convoluted tubule and collecting duct, where **uromodulin (Tamm–Horsfall protein)**, a glycoprotein secreted by renal tubular epithelial cells (mainly of the thick ascending limb of the loop of Henle and the distal tubule), gels into a mold of the tubule. Acidic pH, concentrated urine, stasis and protein favor cast formation.",
+     "show": [
+      "glom",
+      "pct",
+      "loop",
+      "salt",
+      "distal",
+      "casts",
+      "castmark"
+     ],
+     "hl": [
+      "casts"
+     ]
+    },
+    {
+     "caption": "**To remember:** filter (glomerulus) → reabsorb (PCT) → concentrate the medulla (loop) → fine-tune with aldosterone and ADH (distal tubule, collecting duct). Casts are molds of the distal tubule and collecting duct.",
+     "show": [
+      "glom",
+      "pct",
+      "loop",
+      "salt",
+      "distal",
+      "casts",
+      "castmark"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "A single nephron drawn from cortex to medulla, with five numbered parts. 1: the glomerulus inside Bowman's capsule filters plasma; its barrier is capillary endothelium, basement membrane and podocytes, and its negative charge repels albumin. 2: the proximal convoluted tubule reabsorbs glucose, amino acids, salts and most water; the renal threshold for glucose is a plasma level of about 160 to 180 mg/dL. 3: the loop of Henle, where the descending limb loses water and the ascending limb pumps out sodium chloride, making the medulla saltier with depth. 4: the distal tubule and collecting duct, where aldosterone retains sodium and excretes potassium and ADH lets water leave the collecting duct. 5: casts form in the lumen of the distal tubule and collecting duct, with uromodulin (Tamm-Horsfall protein) as the matrix.",
+   "source": "Original diagram. Facts per Strasinger & Di Lorenzo, Urinalysis and Body Fluids 7e (renal function and urine sediment chapters), and Brunzel, Fundamentals of Urine and Body Fluid Analysis."
+  },
+  {
+   "id": "cm-reagent-strip",
+   "type": "svg",
+   "subject": "CM",
+   "tos": [
+    "CM-A.3"
+   ],
+   "title": "Urine reagent strip: how each pad works",
+   "keywords": [
+    "reagent strip",
+    "dipstick",
+    "protein error of indicators",
+    "double sequential",
+    "glucose oxidase",
+    "ketone pad",
+    "ketone reaction",
+    "pseudoperoxidase",
+    "diazo",
+    "ehrlich",
+    "greiss",
+    "griess",
+    "leukocyte esterase",
+    "ascorbic acid",
+    "double indicator",
+    "polyelectrolyte"
+   ],
+   "viewBox": "0 0 360 450",
+   "svg": "<rect x=\"16\" y=\"10\" width=\"34\" height=\"426\" rx=\"4\" class=\"v-box\"/><g data-k=\"pad-ph\"><rect x=\"21\" y=\"22\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"39\" class=\"v-text v-small\">pH</text></g><g data-k=\"pad-sg\"><rect x=\"21\" y=\"64\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"81\" class=\"v-text v-small\">SG</text></g><g data-k=\"pad-prot\"><rect x=\"21\" y=\"106\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"123\" class=\"v-text v-small\">Protein</text></g><g data-k=\"pad-glu\"><rect x=\"21\" y=\"148\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"165\" class=\"v-text v-small\">Glucose</text></g><g data-k=\"pad-ket\"><rect x=\"21\" y=\"190\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"207\" class=\"v-text v-small\">Ketones</text></g><g data-k=\"pad-bld\"><rect x=\"21\" y=\"232\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"249\" class=\"v-text v-small\">Blood</text></g><g data-k=\"pad-bil\"><rect x=\"21\" y=\"274\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"291\" class=\"v-text v-small\">Bilirubin</text></g><g data-k=\"pad-uro\"><rect x=\"21\" y=\"316\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"333\" class=\"v-text v-small\">Urobilinogen</text></g><g data-k=\"pad-nit\"><rect x=\"21\" y=\"358\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"375\" class=\"v-text v-small\">Nitrite</text></g><g data-k=\"pad-le\"><rect x=\"21\" y=\"400\" width=\"24\" height=\"24\" rx=\"2\" class=\"v-box\"/><text x=\"58\" y=\"417\" class=\"v-text v-small\">Leukocytes</text></g><g data-k=\"d1\"><rect x=\"148\" y=\"16\" width=\"206\" height=\"108\" rx=\"6\" class=\"v-tint-3\"/><text x=\"156\" y=\"35\" class=\"v-text v-b\">pH</text><text x=\"156\" y=\"51\" class=\"v-text v-small\">Double indicator (methyl</text><text x=\"156\" y=\"67\" class=\"v-text v-small\">red + bromthymol blue):</text><text x=\"156\" y=\"83\" class=\"v-text v-small\">orange at 5 → blue at 9</text><text x=\"156\" y=\"99\" class=\"v-text v-small\">Error: runover from the</text><text x=\"156\" y=\"115\" class=\"v-text v-small\">acid protein pad</text><line x1=\"74.8\" y1=\"34\" x2=\"146\" y2=\"34\" class=\"v-thin\"/><rect x=\"148\" y=\"132\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-3\"/><text x=\"156\" y=\"151\" class=\"v-text v-b\">Specific gravity</text><text x=\"156\" y=\"167\" class=\"v-text v-small\">pKa change of a</text><text x=\"156\" y=\"183\" class=\"v-text v-small\">polyelectrolyte: ions free</text><text x=\"156\" y=\"199\" class=\"v-text v-small\">H⁺ → indicator changes</text><text x=\"156\" y=\"215\" class=\"v-text v-small\">Ions only: misses glucose</text><text x=\"156\" y=\"231\" class=\"v-text v-small\">False low: alkaline urine</text><text x=\"156\" y=\"247\" class=\"v-text v-small\">(+0.005 if pH ≥ 6.5)</text><line x1=\"74.8\" y1=\"76\" x2=\"146\" y2=\"142\" class=\"v-thin\"/></g><g data-k=\"d2\"><rect x=\"148\" y=\"100\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-1\"/><text x=\"156\" y=\"119\" class=\"v-text v-b\">Protein</text><text x=\"156\" y=\"135\" class=\"v-text v-small\">Protein error of indicators:</text><text x=\"156\" y=\"151\" class=\"v-text v-small\">dye buffered at pH 3</text><text x=\"156\" y=\"167\" class=\"v-text v-small\">changes color when protein</text><text x=\"156\" y=\"183\" class=\"v-text v-small\">(mainly albumin) is present</text><text x=\"156\" y=\"199\" class=\"v-text v-small\">False +: highly alkaline,</text><text x=\"156\" y=\"215\" class=\"v-text v-small\">buffered urine</text><line x1=\"106.8\" y1=\"118\" x2=\"146\" y2=\"118\" class=\"v-thin\"/></g><g data-k=\"d3\"><rect x=\"148\" y=\"142\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-1\"/><text x=\"156\" y=\"161\" class=\"v-text v-b\">Glucose</text><text x=\"156\" y=\"177\" class=\"v-text v-small\">Double sequential reaction:</text><text x=\"156\" y=\"193\" class=\"v-text v-small\">glucose oxidase → H₂O₂,</text><text x=\"156\" y=\"209\" class=\"v-text v-small\">then peroxidase oxidizes</text><text x=\"156\" y=\"225\" class=\"v-text v-small\">a chromogen</text><text x=\"156\" y=\"241\" class=\"v-text v-small\">False −: ascorbic acid</text><text x=\"156\" y=\"257\" class=\"v-text v-small\">(vitamin C)</text><line x1=\"106.8\" y1=\"160\" x2=\"146\" y2=\"160\" class=\"v-thin\"/><rect x=\"148\" y=\"274\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-4\"/><text x=\"156\" y=\"293\" class=\"v-text v-b\">Ketones</text><text x=\"156\" y=\"309\" class=\"v-text v-small\">Sodium nitroprusside:</text><text x=\"156\" y=\"325\" class=\"v-text v-small\">acetoacetate (acetone too</text><text x=\"156\" y=\"341\" class=\"v-text v-small\">if glycine is added)</text><text x=\"156\" y=\"357\" class=\"v-text v-small\">Not β-hydroxybutyrate</text><text x=\"156\" y=\"373\" class=\"v-text v-small\">False +: sulfhydryl drugs</text><text x=\"156\" y=\"389\" class=\"v-text v-small\">(captopril, MESNA)</text><line x1=\"106.8\" y1=\"202\" x2=\"146\" y2=\"284\" class=\"v-thin\"/></g><g data-k=\"d4\"><rect x=\"148\" y=\"226\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-5\"/><text x=\"156\" y=\"245\" class=\"v-text v-b\">Blood</text><text x=\"156\" y=\"261\" class=\"v-text v-small\">Pseudoperoxidase activity</text><text x=\"156\" y=\"277\" class=\"v-text v-small\">of heme: peroxide oxidizes</text><text x=\"156\" y=\"293\" class=\"v-text v-small\">a chromogen (green-blue)</text><text x=\"156\" y=\"309\" class=\"v-text v-small\">Intact RBCs give speckles</text><text x=\"156\" y=\"325\" class=\"v-text v-small\">False +: bleach or other</text><text x=\"156\" y=\"341\" class=\"v-text v-small\">oxidizing detergents</text><line x1=\"94\" y1=\"244\" x2=\"146\" y2=\"244\" class=\"v-thin\"/></g><g data-k=\"d5\"><rect x=\"148\" y=\"216\" width=\"206\" height=\"108\" rx=\"6\" class=\"v-tint-2\"/><text x=\"156\" y=\"235\" class=\"v-text v-b\">Bilirubin</text><text x=\"156\" y=\"251\" class=\"v-text v-small\">Diazo reaction: conjugated</text><text x=\"156\" y=\"267\" class=\"v-text v-small\">bilirubin + diazonium salt</text><text x=\"156\" y=\"283\" class=\"v-text v-small\">→ azodye</text><text x=\"156\" y=\"299\" class=\"v-text v-small\">False −: light exposure</text><text x=\"156\" y=\"315\" class=\"v-text v-small\">(oxidizes to biliverdin)</text><line x1=\"119.6\" y1=\"286\" x2=\"146\" y2=\"286\" class=\"v-thin\"/><rect x=\"148\" y=\"332\" width=\"206\" height=\"108\" rx=\"6\" class=\"v-tint-2\"/><text x=\"156\" y=\"351\" class=\"v-text v-b\">Urobilinogen</text><text x=\"156\" y=\"367\" class=\"v-text v-small\">Ehrlich's reagent or diazo</text><text x=\"156\" y=\"383\" class=\"v-text v-small\">reagent, by brand</text><text x=\"156\" y=\"399\" class=\"v-text v-small\">False +: Ehrlich-reactive</text><text x=\"156\" y=\"415\" class=\"v-text v-small\">compounds such as</text><text x=\"156\" y=\"431\" class=\"v-text v-small\">porphobilinogen</text><line x1=\"138.8\" y1=\"328\" x2=\"146\" y2=\"342\" class=\"v-thin\"/></g><g data-k=\"d6\"><rect x=\"148\" y=\"200\" width=\"206\" height=\"124\" rx=\"6\" class=\"v-tint-4\"/><text x=\"156\" y=\"219\" class=\"v-text v-b\">Nitrite</text><text x=\"156\" y=\"235\" class=\"v-text v-small\">Griess reaction: bacteria</text><text x=\"156\" y=\"251\" class=\"v-text v-small\">reduce nitrate to nitrite,</text><text x=\"156\" y=\"267\" class=\"v-text v-small\">which forms a pink azo dye</text><text x=\"156\" y=\"283\" class=\"v-text v-small\">False −: urine in bladder</text><text x=\"156\" y=\"299\" class=\"v-text v-small\">&lt; 4 h, or non-reducers</text><text x=\"156\" y=\"315\" class=\"v-text v-small\">(gram-positives, yeast)</text><line x1=\"106.8\" y1=\"370\" x2=\"146\" y2=\"314\" class=\"v-thin\"/><rect x=\"148\" y=\"332\" width=\"206\" height=\"108\" rx=\"6\" class=\"v-tint-4\"/><text x=\"156\" y=\"351\" class=\"v-text v-b\">Leukocyte esterase</text><text x=\"156\" y=\"367\" class=\"v-text v-small\">Granulocyte esterase splits</text><text x=\"156\" y=\"383\" class=\"v-text v-small\">an ester → indoxyl + diazo</text><text x=\"156\" y=\"399\" class=\"v-text v-small\">salt → purple azo dye</text><text x=\"156\" y=\"415\" class=\"v-text v-small\">False −: lymphocytes</text><text x=\"156\" y=\"431\" class=\"v-text v-small\">(they lack esterase)</text><line x1=\"126\" y1=\"412\" x2=\"146\" y2=\"412\" class=\"v-thin\"/></g><g data-k=\"dsum\"><rect x=\"148\" y=\"150\" width=\"206\" height=\"172\" rx=\"6\" class=\"v-tint-4\"/><text x=\"156\" y=\"169\" class=\"v-text v-b\">Vitamin C warning</text><text x=\"156\" y=\"185\" class=\"v-text v-small\">Ascorbic acid is a strong</text><text x=\"156\" y=\"201\" class=\"v-text v-small\">reducing agent. It can give</text><text x=\"156\" y=\"217\" class=\"v-text v-small\">false negatives on:</text><text x=\"156\" y=\"233\" class=\"v-text v-small\">• glucose  • blood</text><text x=\"156\" y=\"249\" class=\"v-text v-small\">• bilirubin  • nitrite</text><text x=\"156\" y=\"265\" class=\"v-text v-small\">• leukocyte esterase</text><text x=\"156\" y=\"297\" class=\"v-text v-small\">Read each pad at its</text><text x=\"156\" y=\"313\" class=\"v-text v-small\">stated time, in good light.</text></g>",
+   "steps": [
+    {
+     "caption": "**pH** uses a double indicator (methyl red and bromthymol blue); runover from the acid-buffered protein pad can falsely lower it. **Specific gravity** uses the pKa change of a polyelectrolyte: only ions register, so glucose is missed, and alkaline urine reads falsely low (add 0.005 when pH ≥ 6.5).",
+     "show": [
+      "d1"
+     ],
+     "hl": [
+      "pad-ph",
+      "pad-sg"
+     ]
+    },
+    {
+     "caption": "**Protein** uses the **protein error of indicators**: a dye held at pH 3 changes color when protein, mainly albumin, binds it. A highly alkaline, buffered urine overrides the buffer and gives a false positive.",
+     "show": [
+      "d2"
+     ],
+     "hl": [
+      "pad-prot"
+     ]
+    },
+    {
+     "caption": "**Glucose** uses glucose oxidase and peroxidase, a **double sequential reaction**; ascorbic acid gives false negatives. **Ketones** use sodium nitroprusside, which detects acetoacetate (and acetone with glycine) but not β-hydroxybutyrate; drugs with free sulfhydryl groups, such as captopril, give false positives.",
+     "show": [
+      "d3"
+     ],
+     "hl": [
+      "pad-glu",
+      "pad-ket"
+     ]
+    },
+    {
+     "caption": "**Blood** relies on the **pseudoperoxidase activity of heme**: hemoglobin or myoglobin turns the pad uniformly green-blue, while intact RBCs give speckles. Strong oxidizing detergents such as bleach give false positives.",
+     "show": [
+      "d4"
+     ],
+     "hl": [
+      "pad-bld"
+     ]
+    },
+    {
+     "caption": "**Bilirubin** uses the **diazo reaction**; light exposure oxidizes bilirubin to biliverdin and gives a false negative. **Urobilinogen** uses Ehrlich's reagent or a diazo reagent depending on the brand; Ehrlich-reactive compounds such as porphobilinogen give false positives on the Ehrlich type.",
+     "show": [
+      "d5"
+     ],
+     "hl": [
+      "pad-bil",
+      "pad-uro"
+     ]
+    },
+    {
+     "caption": "**Nitrite** uses the **Griess reaction** (spelled “Greiss” in some reviewers); it is falsely negative if urine stayed under 4 hours in the bladder or the organism cannot reduce nitrate. **Leukocyte esterase** detects granulocytes and monocytes, not lymphocytes.",
+     "show": [
+      "d6"
+     ],
+     "hl": [
+      "pad-nit",
+      "pad-le"
+     ]
+    },
+    {
+     "caption": "**To remember:** each pad has its own chemistry, and ascorbic acid (vitamin C) is the classic false negative for glucose, blood, bilirubin, nitrite and leukocyte esterase.",
+     "show": [
+      "dsum"
+     ],
+     "hl": [
+      "pad-glu",
+      "pad-bld",
+      "pad-bil",
+      "pad-nit",
+      "pad-le"
+     ]
+    }
+   ],
+   "alt": "A urine reagent strip with ten pads: pH, specific gravity, protein, glucose, ketones, blood, bilirubin, urobilinogen, nitrite and leukocytes. A panel beside the strip gives each pad's principle and a classic error. pH: double indicator, methyl red and bromthymol blue; runover from the acid protein pad. Specific gravity: pKa change of a polyelectrolyte, ions only, reads low in alkaline urine. Protein: protein error of indicators at pH 3, mainly albumin; false positive in highly alkaline buffered urine. Glucose: glucose oxidase and peroxidase double sequential reaction; false negative with ascorbic acid. Ketones: sodium nitroprusside for acetoacetate and acetone with glycine, not beta-hydroxybutyrate; false positive with sulfhydryl drugs. Blood: pseudoperoxidase activity of heme; false positive with oxidizing detergents. Bilirubin: diazo reaction; false negative after light exposure. Urobilinogen: Ehrlich's or diazo reagent by brand; false positive with porphobilinogen on Ehrlich strips. Nitrite: Griess reaction; false negative with short bladder time or non-reducing organisms. Leukocyte esterase: does not detect lymphocytes. Final panel: ascorbic acid causes false negatives for glucose, blood, bilirubin, nitrite and leukocyte esterase.",
+   "source": "Original diagram. Principles and interferences per Strasinger & Di Lorenzo, Urinalysis and Body Fluids 7e (chemical examination of urine), and Brunzel. Pad order shown is for teaching; real strips vary by brand."
+  },
+  {
+   "id": "cm-casts",
+   "type": "svg",
+   "subject": "CM",
+   "tos": [
+    "CM-A.4",
+    "CM-A.5"
+   ],
+   "title": "Urinary casts: formation and meaning",
+   "keywords": [
+    "cast",
+    "casts",
+    "uromodulin",
+    "tamm-horsfall",
+    "hyaline",
+    "waxy",
+    "granular cast",
+    "broad cast",
+    "renal failure cast",
+    "pyelonephritis",
+    "glomerulonephritis"
+   ],
+   "viewBox": "0 0 360 600",
+   "svg": "<g data-k=\"tube\"><text x=\"180\" y=\"16\" class=\"v-text v-small v-mid v-muted\">Lumen of distal tubule / collecting duct</text><line x1=\"10\" y1=\"34\" x2=\"350\" y2=\"34\" class=\"v-line\"/><line x1=\"10\" y1=\"82\" x2=\"350\" y2=\"82\" class=\"v-line\"/><rect x=\"12\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"12\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"36\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"36\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"60\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"60\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"84\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"84\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"108\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"108\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"132\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"132\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"156\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"156\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"180\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"180\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"204\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"204\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"228\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"228\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"252\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"252\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"276\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"276\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"300\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"300\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"324\" y=\"22\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"324\" y=\"82\" width=\"21\" height=\"12\" rx=\"2\" class=\"v-box\"/><rect x=\"58\" y=\"41\" width=\"244\" height=\"34\" rx=\"15\" class=\"v-tint-3\"/><text x=\"180\" y=\"63\" class=\"v-text v-small v-mid v-b\">uromodulin gel = cast</text></g><g data-k=\"hyaline\"><rect x=\"14\" y=\"108\" width=\"118\" height=\"26\" rx=\"12\" class=\"v-box\"/><line x1=\"28\" y1=\"118\" x2=\"118\" y2=\"118\" class=\"v-thin\"/><line x1=\"34\" y1=\"125\" x2=\"110\" y2=\"125\" class=\"v-thin\"/><text x=\"146\" y=\"116\" class=\"v-text v-b\">Hyaline</text><text x=\"146\" y=\"132\" class=\"v-text v-small\">Uromodulin only; 0–2/LPF</text><text x=\"146\" y=\"148\" class=\"v-text v-small\">normal; more after exercise,</text><text x=\"146\" y=\"164\" class=\"v-text v-small\">stress, dehydration</text></g><g data-k=\"rbc\"><rect x=\"14\" y=\"184\" width=\"118\" height=\"26\" rx=\"12\" class=\"v-box\"/><circle cx=\"26\" cy=\"193\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"37.8\" cy=\"201\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"49.6\" cy=\"193\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"61.4\" cy=\"201\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"73.2\" cy=\"193\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"85\" cy=\"201\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"96.8\" cy=\"193\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"108.6\" cy=\"201\" r=\"4.5\" class=\"v-fill-5\"/><circle cx=\"120.4\" cy=\"193\" r=\"4.5\" class=\"v-fill-5\"/><text x=\"146\" y=\"192\" class=\"v-text v-b\">RBC cast</text><text x=\"146\" y=\"208\" class=\"v-text v-small\">Bleeding in the nephron:</text><text x=\"146\" y=\"224\" class=\"v-text v-small\">glomerulonephritis</text></g><g data-k=\"wbc\"><rect x=\"14\" y=\"236\" width=\"118\" height=\"26\" rx=\"12\" class=\"v-box\"/><circle cx=\"28\" cy=\"246\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"25.5\" cy=\"244.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"30.5\" cy=\"247.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"46\" cy=\"252\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"43.5\" cy=\"250.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"48.5\" cy=\"253.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"64\" cy=\"246\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"61.5\" cy=\"244.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"66.5\" cy=\"247.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"82\" cy=\"252\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"79.5\" cy=\"250.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"84.5\" cy=\"253.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"100\" cy=\"246\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"97.5\" cy=\"244.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"102.5\" cy=\"247.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"118\" cy=\"252\" r=\"7\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"115.5\" cy=\"250.5\" r=\"1.8\" class=\"v-fill-ink\"/><circle cx=\"120.5\" cy=\"253.5\" r=\"1.8\" class=\"v-fill-ink\"/><text x=\"146\" y=\"244\" class=\"v-text v-b\">WBC cast</text><text x=\"146\" y=\"260\" class=\"v-text v-small\">Infection inside the kidney:</text><text x=\"146\" y=\"276\" class=\"v-text v-small\">pyelonephritis</text></g><g data-k=\"rte\"><rect x=\"14\" y=\"288\" width=\"118\" height=\"26\" rx=\"12\" class=\"v-box\"/><rect x=\"22\" y=\"292\" width=\"19\" height=\"18\" rx=\"5\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"31.5\" cy=\"301\" r=\"3\" class=\"v-fill-ink\"/><rect x=\"43\" y=\"292\" width=\"19\" height=\"18\" rx=\"5\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"52.5\" cy=\"301\" r=\"3\" class=\"v-fill-ink\"/><rect x=\"64\" y=\"292\" width=\"19\" height=\"18\" rx=\"5\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"73.5\" cy=\"301\" r=\"3\" class=\"v-fill-ink\"/><rect x=\"85\" y=\"292\" width=\"19\" height=\"18\" rx=\"5\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"94.5\" cy=\"301\" r=\"3\" class=\"v-fill-ink\"/><rect x=\"106\" y=\"292\" width=\"19\" height=\"18\" rx=\"5\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"115.5\" cy=\"301\" r=\"3\" class=\"v-fill-ink\"/><text x=\"146\" y=\"296\" class=\"v-text v-b\">Renal tubular cell cast</text><text x=\"146\" y=\"312\" class=\"v-text v-small\">Tubular injury: ATN, heavy</text><text x=\"146\" y=\"328\" class=\"v-text v-small\">metals, drugs, toxins</text></g><g data-k=\"gran\"><rect x=\"14\" y=\"364\" width=\"52\" height=\"26\" rx=\"11\" class=\"v-box\"/><rect x=\"80\" y=\"364\" width=\"52\" height=\"26\" rx=\"11\" class=\"v-box\"/><line x1=\"69\" y1=\"377\" x2=\"77\" y2=\"377\" class=\"v-line v-arrow\"/><circle cx=\"33.658\" cy=\"372.112\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"45.4336\" cy=\"371.014\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"41.2918\" cy=\"375.12\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"24.088\" cy=\"377.104\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"23.3498\" cy=\"376.071\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"24.5148\" cy=\"371.27\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"37.2827\" cy=\"381.576\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"26.4569\" cy=\"373.125\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"44.5876\" cy=\"383.268\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"42.7757\" cy=\"375.554\" r=\"2.3\" class=\"v-fill-ink\"/><circle cx=\"125.05\" cy=\"369.745\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"120.339\" cy=\"373.634\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"91.7702\" cy=\"370.885\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"98.3393\" cy=\"382.058\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"93.2291\" cy=\"378.306\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"111.557\" cy=\"374.958\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"107.91\" cy=\"370.005\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"88.384\" cy=\"372.295\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"113.216\" cy=\"375.841\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"98.5659\" cy=\"378.369\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"104.127\" cy=\"373.796\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"117.775\" cy=\"380.184\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"95.7639\" cy=\"378.191\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"107.008\" cy=\"383.002\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"115.178\" cy=\"373.607\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"125.207\" cy=\"370.889\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"102.725\" cy=\"381.114\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"92.0794\" cy=\"376.823\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"87.5683\" cy=\"379.691\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"116.583\" cy=\"378.168\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"121.019\" cy=\"374.02\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"113.812\" cy=\"378.51\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"109.196\" cy=\"376.299\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"119.599\" cy=\"384.115\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"104.964\" cy=\"379.626\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"88.4268\" cy=\"380.224\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"111.885\" cy=\"384.89\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"118.877\" cy=\"373.554\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"101.432\" cy=\"379.698\" r=\"0.9\" class=\"v-fill-ink\"/><circle cx=\"86.9025\" cy=\"376.387\" r=\"0.9\" class=\"v-fill-ink\"/><text x=\"146\" y=\"372\" class=\"v-text v-b\">Granular: coarse → fine</text><text x=\"146\" y=\"388\" class=\"v-text v-small\">Degenerating cells in a</text><text x=\"146\" y=\"404\" class=\"v-text v-small\">cast held by stasis; a few</text><text x=\"146\" y=\"420\" class=\"v-text v-small\">may follow exercise</text></g><g data-k=\"waxy\"><rect x=\"14\" y=\"440\" width=\"118\" height=\"26\" rx=\"3\" class=\"v-tint-4\"/><path d=\"M44,440 L48,447 L52,440\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M80,440 L84,447 L88,440\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M112,440 L116,447 L120,440\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M60,466 L64,459 L68,466\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M98,466 L102,459 L106,466\" class=\"v-line\" style=\"stroke-width:1.25\"/><text x=\"146\" y=\"448\" class=\"v-text v-b\">Waxy</text><text x=\"146\" y=\"464\" class=\"v-text v-small\">Brittle, refractile, cracked,</text><text x=\"146\" y=\"480\" class=\"v-text v-small\">blunt ends: extreme stasis,</text><text x=\"146\" y=\"496\" class=\"v-text v-small\">chronic renal failure</text></g><g data-k=\"broad\"><line x1=\"8\" y1=\"502\" x2=\"352\" y2=\"502\" class=\"v-thin v-dash\"/><rect x=\"14\" y=\"516\" width=\"118\" height=\"46\" rx=\"3\" class=\"v-tint-4\"/><path d=\"M40,516 L44,524 L48,516\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M74,516 L78,524 L82,516\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M108,516 L112,524 L116,516\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M56,562 L60,554 L64,562\" class=\"v-line\" style=\"stroke-width:1.25\"/><path d=\"M92,562 L96,554 L100,562\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"41.7965\" cy=\"532.108\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"31.5417\" cy=\"543.828\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"38.158\" cy=\"534.457\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"62.7493\" cy=\"545.686\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"33.5746\" cy=\"538.085\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"77.6474\" cy=\"545.901\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"103.012\" cy=\"545.552\" r=\"2\" class=\"v-fill-ink\"/><circle cx=\"52.1716\" cy=\"537.475\" r=\"2\" class=\"v-fill-ink\"/><text x=\"146\" y=\"526\" class=\"v-text v-b\">Broad (any type)</text><text x=\"146\" y=\"542\" class=\"v-text v-small\">Formed in widened, damaged</text><text x=\"146\" y=\"558\" class=\"v-text v-small\">tubules or collecting ducts:</text><text x=\"146\" y=\"574\" class=\"v-text v-small\">“renal failure casts”</text></g><g data-k=\"a1\"><line x1=\"30\" y1=\"138\" x2=\"30\" y2=\"164\" class=\"v-line v-arrow\"/><text x=\"40\" y=\"156\" class=\"v-text v-small v-muted\">cells trapped</text></g><g data-k=\"a2\"><line x1=\"30\" y1=\"318\" x2=\"30\" y2=\"344\" class=\"v-line v-arrow\"/><text x=\"40\" y=\"336\" class=\"v-text v-small v-muted\">cells break down</text></g><g data-k=\"a3\"><line x1=\"30\" y1=\"394\" x2=\"30\" y2=\"420\" class=\"v-line v-arrow\"/><text x=\"40\" y=\"412\" class=\"v-text v-small v-muted\">longer stasis</text></g>",
+   "steps": [
+    {
+     "caption": "Casts form in the distal convoluted tubule and collecting duct when **uromodulin (Tamm–Horsfall protein)** gels into a mold of the lumen. A cast of protein alone is **hyaline**: 0–2 per low-power field is normal, and more appear after strenuous exercise, dehydration, heat or stress.",
+     "show": [
+      "tube",
+      "hyaline"
+     ],
+     "hl": [
+      "hyaline"
+     ]
+    },
+    {
+     "caption": "Cells in the lumen get trapped in the matrix, and the cast shows where they came from. **RBC casts** mean bleeding within the nephron (glomerulonephritis); **WBC casts** mean infection or inflammation within the kidney (pyelonephritis); **renal tubular epithelial cell casts** mean tubular injury.",
+     "show": [
+      "tube",
+      "hyaline",
+      "a1",
+      "rbc",
+      "wbc",
+      "rte"
+     ],
+     "hl": [
+      "rbc",
+      "wbc",
+      "rte"
+     ]
+    },
+    {
+     "caption": "If the cast stays in the tubule (stasis), its cells disintegrate: **coarse granular**, then **fine granular**. Granules can also come from lysosomes of tubular cells, so a few granular casts may appear after strenuous exercise.",
+     "show": [
+      "tube",
+      "hyaline",
+      "a1",
+      "rbc",
+      "wbc",
+      "rte",
+      "a2",
+      "gran"
+     ],
+     "hl": [
+      "gran"
+     ]
+    },
+    {
+     "caption": "With even longer stasis, the granules break down completely into a **waxy cast**: brittle, highly refractile, with cracked or notched edges and blunt ends. Waxy casts mean extreme urine stasis, as in **chronic renal failure**.",
+     "show": [
+      "tube",
+      "hyaline",
+      "a1",
+      "rbc",
+      "wbc",
+      "rte",
+      "a2",
+      "gran",
+      "a3",
+      "waxy"
+     ],
+     "hl": [
+      "waxy"
+     ]
+    },
+    {
+     "caption": "**Broad casts** form in distal tubules widened by destruction or in collecting ducts, where flow is sluggish. Any type can be broad, most often granular or waxy; they are called **renal failure casts**.",
+     "show": [
+      "tube",
+      "hyaline",
+      "a1",
+      "rbc",
+      "wbc",
+      "rte",
+      "a2",
+      "gran",
+      "a3",
+      "waxy",
+      "broad"
+     ],
+     "hl": [
+      "broad"
+     ]
+    },
+    {
+     "caption": "**To remember:** a cast’s contents show where its cells came from, and cellular → coarse granular → fine granular → waxy tracks how long it sat in the tubule. The wider and more degenerated the cast, the worse the stasis and the kidney damage.",
+     "show": [
+      "tube",
+      "hyaline",
+      "a1",
+      "rbc",
+      "wbc",
+      "rte",
+      "a2",
+      "gran",
+      "a3",
+      "waxy",
+      "broad"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Top: the lumen of a distal tubule or collecting duct lined by tubular cells, with uromodulin gel filling it to form a cast. Below, cast types in order of degeneration: hyaline (uromodulin only, 0 to 2 per low-power field normal, more after exercise, stress or dehydration); cellular casts: RBC cast (glomerulonephritis), WBC cast (pyelonephritis), renal tubular cell cast (tubular injury); then coarse to fine granular casts (degenerating cells held by stasis); then waxy casts (brittle, refractile, cracked, blunt ends; extreme stasis, chronic renal failure). Last, broad casts of any type, formed in widened damaged tubules or collecting ducts, called renal failure casts.",
+   "source": "Original diagram. Facts per Strasinger & Di Lorenzo, Urinalysis and Body Fluids 7e (microscopic examination of urine: casts), and Brunzel."
+  },
+  {
+   "id": "cm-fluid-tubes",
+   "type": "svg",
+   "subject": "CM",
+   "tos": [
+    "CM-C.1",
+    "CM-C.3",
+    "CM-H.3"
+   ],
+   "title": "CSF tubes and the bloody tap",
+   "keywords": [
+    "traumatic tap",
+    "subarachnoid",
+    "xanthochrom",
+    "csf tube",
+    "three tubes",
+    "tube 1",
+    "tube 3",
+    "lumbar puncture",
+    "erythrophagocytosis"
+   ],
+   "viewBox": "0 0 360 520",
+   "svg": "<text x=\"8\" y=\"18\" class=\"v-text v-small v-b\">CSF tubes, numbered in the order collected</text><line x1=\"8\" y1=\"214\" x2=\"352\" y2=\"214\" class=\"v-thin\"/><g data-k=\"t1\"><rect x=\"36\" y=\"32\" width=\"32\" height=\"12\" rx=\"2\" class=\"v-box\"/><path d=\"M39,46 L39,122 A13,13 0 0 0 65,122 L65,46\" class=\"v-line\"/><text x=\"52\" y=\"98\" class=\"v-text v-b v-mid\">1</text><text x=\"52\" y=\"160\" class=\"v-text v-small v-mid v-b\">Chemistry,</text><text x=\"52\" y=\"176\" class=\"v-text v-small v-mid v-b\">serology</text><text x=\"52\" y=\"194\" class=\"v-text v-small v-mid v-muted\">Freeze</text></g><g data-k=\"t2\"><rect x=\"120\" y=\"32\" width=\"32\" height=\"12\" rx=\"2\" class=\"v-box\"/><path d=\"M123,46 L123,122 A13,13 0 0 0 149,122 L149,46\" class=\"v-line\"/><text x=\"136\" y=\"98\" class=\"v-text v-b v-mid\">2</text><text x=\"136\" y=\"160\" class=\"v-text v-small v-mid v-b\">Microbiology</text><text x=\"136\" y=\"176\" class=\"v-text v-small v-mid v-muted\">Room temp</text></g><g data-k=\"t3\"><rect x=\"204\" y=\"32\" width=\"32\" height=\"12\" rx=\"2\" class=\"v-box\"/><path d=\"M207,46 L207,122 A13,13 0 0 0 233,122 L233,46\" class=\"v-line\"/><text x=\"220\" y=\"98\" class=\"v-text v-b v-mid\">3</text><text x=\"220\" y=\"160\" class=\"v-text v-small v-mid v-b\">Hematology</text><text x=\"220\" y=\"176\" class=\"v-text v-small v-mid v-b\">(cell count)</text><text x=\"220\" y=\"194\" class=\"v-text v-small v-mid v-muted\">Refrigerate</text></g><g data-k=\"t4\"><rect x=\"288\" y=\"32\" width=\"32\" height=\"12\" rx=\"2\" class=\"v-box\"/><path d=\"M291,46 L291,122 A13,13 0 0 0 317,122 L317,46\" class=\"v-line v-dash\"/><text x=\"304\" y=\"98\" class=\"v-text v-b v-mid\">4</text><text x=\"304\" y=\"160\" class=\"v-text v-small v-mid v-b\">Extra micro</text><text x=\"304\" y=\"176\" class=\"v-text v-small v-mid v-b\">or serology</text><text x=\"304\" y=\"194\" class=\"v-text v-small v-mid v-muted\">If collected</text></g><g data-k=\"trauma\"><rect x=\"8\" y=\"226\" width=\"168\" height=\"282\" rx=\"6\" class=\"v-tint-3\"/><text x=\"18\" y=\"246\" class=\"v-text v-b\">Traumatic tap</text><path d=\"M30,270 L30,330 A12,12 0 0 0 54,330 L54,270\" class=\"v-line\"/><path d=\"M32,278 L32,330 A10,10 0 0 0 52,330 L52,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M32,278 L32,330 A10,10 0 0 0 52,330 L52,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.9;stroke:none\"/><text x=\"42\" y=\"264\" class=\"v-text v-small v-b v-mid\">1</text><text x=\"42\" y=\"362\" class=\"v-text v-small v-mid\">heavy</text><path d=\"M80,270 L80,330 A12,12 0 0 0 104,330 L104,270\" class=\"v-line\"/><path d=\"M82,278 L82,330 A10,10 0 0 0 102,330 L102,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M82,278 L82,330 A10,10 0 0 0 102,330 L102,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.45;stroke:none\"/><text x=\"92\" y=\"264\" class=\"v-text v-small v-b v-mid\">2</text><text x=\"92\" y=\"362\" class=\"v-text v-small v-mid\">less</text><path d=\"M130,270 L130,330 A12,12 0 0 0 154,330 L154,270\" class=\"v-line\"/><path d=\"M132,278 L132,330 A10,10 0 0 0 152,330 L152,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M132,278 L132,330 A10,10 0 0 0 152,330 L152,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.12;stroke:none\"/><text x=\"142\" y=\"264\" class=\"v-text v-small v-b v-mid\">3</text><text x=\"142\" y=\"362\" class=\"v-text v-small v-mid\">least</text><text x=\"18\" y=\"392\" class=\"v-text v-small\">Blood decreases from</text><text x=\"18\" y=\"408\" class=\"v-text v-small\">tube 1 to tube 3</text><text x=\"18\" y=\"424\" class=\"v-text v-small\">Clots may form (blood</text><text x=\"18\" y=\"440\" class=\"v-text v-small\">brings fibrinogen)</text><text x=\"18\" y=\"456\" class=\"v-text v-small\">Supernatant clear</text></g><g data-k=\"sah\"><rect x=\"184\" y=\"226\" width=\"168\" height=\"282\" rx=\"6\" class=\"v-tint-2\"/><text x=\"194\" y=\"246\" class=\"v-text v-b\">Subarachnoid bleed</text><path d=\"M206,270 L206,330 A12,12 0 0 0 230,330 L230,270\" class=\"v-line\"/><path d=\"M208,278 L208,330 A10,10 0 0 0 228,330 L228,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M208,278 L208,330 A10,10 0 0 0 228,330 L228,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.7;stroke:none\"/><text x=\"218\" y=\"264\" class=\"v-text v-small v-b v-mid\">1</text><text x=\"218\" y=\"362\" class=\"v-text v-small v-mid\">even</text><path d=\"M256,270 L256,330 A12,12 0 0 0 280,330 L280,270\" class=\"v-line\"/><path d=\"M258,278 L258,330 A10,10 0 0 0 278,330 L278,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M258,278 L258,330 A10,10 0 0 0 278,330 L278,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.7;stroke:none\"/><text x=\"268\" y=\"264\" class=\"v-text v-small v-b v-mid\">2</text><text x=\"268\" y=\"362\" class=\"v-text v-small v-mid\">even</text><path d=\"M306,270 L306,330 A12,12 0 0 0 330,330 L330,270\" class=\"v-line\"/><path d=\"M308,278 L308,330 A10,10 0 0 0 328,330 L328,278 Z\" class=\"v-real\" style=\"fill:#f7f3ea;stroke:none\"/><path d=\"M308,278 L308,330 A10,10 0 0 0 328,330 L328,278 Z\" class=\"v-real\" style=\"fill:#9b1b1b;fill-opacity:0.7;stroke:none\"/><text x=\"318\" y=\"264\" class=\"v-text v-small v-b v-mid\">3</text><text x=\"318\" y=\"362\" class=\"v-text v-small v-mid\">even</text><text x=\"194\" y=\"392\" class=\"v-text v-small\">Blood evenly mixed in</text><text x=\"194\" y=\"408\" class=\"v-text v-small\">all tubes</text><text x=\"194\" y=\"424\" class=\"v-text v-small\">No clots</text><text x=\"194\" y=\"440\" class=\"v-text v-small\">Xanthochromic (yellow)</text><text x=\"194\" y=\"456\" class=\"v-text v-small\">supernatant</text><text x=\"194\" y=\"472\" class=\"v-text v-small\">Macrophages that have</text><text x=\"194\" y=\"488\" class=\"v-text v-small\">eaten RBCs</text></g>",
+   "steps": [
+    {
+     "caption": "CSF is collected by lumbar puncture into sterile tubes, usually three, **numbered in the order they are filled**. Each tube goes to a different section, and the order matters.",
+     "show": [],
+     "hl": []
+    },
+    {
+     "caption": "**Tube 1 → chemistry and serology** (frozen if testing is delayed). **Tube 2 → microbiology**, kept at room temperature so fragile organisms survive.",
+     "show": [],
+     "hl": [
+      "t1",
+      "t2"
+     ]
+    },
+    {
+     "caption": "**Tube 3 → hematology (cell count)**, refrigerated if testing is delayed; it is the tube least likely to contain blood and cells picked up by the needle. A **tube 4**, if collected, goes to microbiology (to exclude skin contamination) or extra serology.",
+     "show": [],
+     "hl": [
+      "t3",
+      "t4"
+     ]
+    },
+    {
+     "caption": "**Traumatic tap:** blood picked up by the needle is heaviest in tube 1 and clears by tube 3 (**uneven distribution**). The fluid may **clot** because the blood brings fibrinogen, and the supernatant is clear.",
+     "show": [
+      "trauma"
+     ],
+     "hl": [
+      "trauma"
+     ]
+    },
+    {
+     "caption": "**Subarachnoid hemorrhage:** blood is **evenly distributed** in all tubes and does not clot. A **xanthochromic** (yellow) supernatant from hemoglobin breakdown, and macrophages containing RBCs (erythrophagocytosis), point to bleeding that happened before the tap.",
+     "show": [
+      "trauma",
+      "sah"
+     ],
+     "hl": [
+      "sah"
+     ]
+    },
+    {
+     "caption": "**To remember:** 1 chemistry, 2 micro, 3 cell count. Blood that clears from tube 1 to 3 with clots = traumatic tap; even blood with xanthochromia = hemorrhage.",
+     "show": [
+      "trauma",
+      "sah"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Top: four CSF tubes numbered in collection order. If testing is delayed: tube 1 chemistry and serology, frozen; tube 2 microbiology, room temperature; tube 3 hematology cell count, refrigerated. Tube 4, if collected, extra microbiology or serology. Bottom left, traumatic tap: three tubes with blood heavy in tube 1, less in tube 2 and least in tube 3; clots may form; clear supernatant. Bottom right, subarachnoid hemorrhage: blood even in all three tubes; no clots; xanthochromic supernatant; macrophages containing RBCs.",
+   "source": "Original diagram. Facts per Strasinger & Di Lorenzo, Urinalysis and Body Fluids 7e (cerebrospinal fluid chapter), and Brunzel."
+  },
+  {
+   "id": "cm-transudate-exudate",
+   "type": "svg",
+   "subject": "CM",
+   "tos": [
+    "CM-G.2",
+    "CM-G.1"
+   ],
+   "title": "Serous fluids: transudate or exudate",
+   "keywords": [
+    "transudate",
+    "exudate",
+    "light's criteria",
+    "pleural fluid",
+    "fluid:serum",
+    "fluid to serum",
+    "effusion",
+    "exudative",
+    "saag",
+    "serum-ascites albumin gradient",
+    "serum–ascites albumin gradient"
+   ],
+   "viewBox": "0 0 360 580",
+   "svg": "<g data-k=\"mech\"><rect x=\"8\" y=\"8\" width=\"168\" height=\"92\" rx=\"6\" class=\"v-tint-3\"/><text x=\"16\" y=\"27\" class=\"v-text v-b\">Transudate</text><text x=\"16\" y=\"43\" class=\"v-text v-small\">Systemic imbalance:</text><text x=\"16\" y=\"59\" class=\"v-text v-small\">↑ hydrostatic or</text><text x=\"16\" y=\"75\" class=\"v-text v-small\">↓ oncotic pressure</text><text x=\"16\" y=\"91\" class=\"v-text v-small\">Membrane intact</text><rect x=\"184\" y=\"8\" width=\"168\" height=\"92\" rx=\"6\" class=\"v-tint-2\"/><text x=\"192\" y=\"27\" class=\"v-text v-b\">Exudate</text><text x=\"192\" y=\"43\" class=\"v-text v-small\">Membrane damage:</text><text x=\"192\" y=\"59\" class=\"v-text v-small\">infection, inflammation,</text><text x=\"192\" y=\"75\" class=\"v-text v-small\">cancer → protein and</text><text x=\"192\" y=\"91\" class=\"v-text v-small\">cells leak in</text></g><g data-k=\"lighthead\"><text x=\"8\" y=\"122\" class=\"v-text v-b\">Light's criteria (pleural fluid)</text><text x=\"8\" y=\"139\" class=\"v-text v-small v-muted\">Any ONE of these → exudate</text></g><g data-k=\"g1\"><text x=\"8\" y=\"158\" class=\"v-text v-small v-b\">Fluid : serum protein ratio</text><rect x=\"16\" y=\"168\" width=\"164\" height=\"12\" rx=\"0\" class=\"v-box\"/><rect x=\"180\" y=\"168\" width=\"164\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><line x1=\"180\" y1=\"162\" x2=\"180\" y2=\"186\" class=\"v-line\" style=\"stroke-width:2.5\"/><text x=\"180\" y=\"200\" class=\"v-text v-small v-b v-mid\">0.5</text><text x=\"16\" y=\"200\" class=\"v-text v-small\">transudate</text><text x=\"344\" y=\"200\" class=\"v-text v-small v-end\">exudate</text></g><g data-k=\"g2\"><text x=\"8\" y=\"224\" class=\"v-text v-small v-b\">Fluid : serum LDH ratio</text><rect x=\"16\" y=\"234\" width=\"196.8\" height=\"12\" rx=\"0\" class=\"v-box\"/><rect x=\"212.8\" y=\"234\" width=\"131.2\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><line x1=\"212.8\" y1=\"228\" x2=\"212.8\" y2=\"252\" class=\"v-line\" style=\"stroke-width:2.5\"/><text x=\"212.8\" y=\"266\" class=\"v-text v-small v-b v-mid\">0.6</text><text x=\"16\" y=\"266\" class=\"v-text v-small\">transudate</text><text x=\"344\" y=\"266\" class=\"v-text v-small v-end\">exudate</text></g><g data-k=\"g3\"><text x=\"8\" y=\"290\" class=\"v-text v-small v-b\">Fluid LDH vs serum upper limit</text><rect x=\"16\" y=\"300\" width=\"218.667\" height=\"12\" rx=\"0\" class=\"v-box\"/><rect x=\"234.667\" y=\"300\" width=\"109.333\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><line x1=\"234.667\" y1=\"294\" x2=\"234.667\" y2=\"318\" class=\"v-line\" style=\"stroke-width:2.5\"/><text x=\"234.667\" y=\"332\" class=\"v-text v-small v-b v-mid\">2/3</text><text x=\"16\" y=\"332\" class=\"v-text v-small\">transudate</text><text x=\"344\" y=\"332\" class=\"v-text v-small v-end\">exudate</text></g><g data-k=\"clues\"><rect x=\"8\" y=\"348\" width=\"344\" height=\"112\" rx=\"6\" class=\"v-box\"/><text x=\"16\" y=\"366\" class=\"v-text v-b\">Other clues</text><text x=\"196\" y=\"366\" class=\"v-text v-small v-b v-mid\">Trans.</text><text x=\"286\" y=\"366\" class=\"v-text v-small v-b v-mid\">Exud.</text><text x=\"16\" y=\"386\" class=\"v-text v-small\">Appearance</text><text x=\"196\" y=\"386\" class=\"v-text v-small v-mid\">clear</text><text x=\"286\" y=\"386\" class=\"v-text v-small v-mid\">cloudy</text><text x=\"16\" y=\"404\" class=\"v-text v-small\">WBCs per µL</text><text x=\"196\" y=\"404\" class=\"v-text v-small v-mid\">&lt; 1,000</text><text x=\"286\" y=\"404\" class=\"v-text v-small v-mid\">&gt; 1,000</text><text x=\"16\" y=\"422\" class=\"v-text v-small\">Clots on standing</text><text x=\"196\" y=\"422\" class=\"v-text v-small v-mid\">no</text><text x=\"286\" y=\"422\" class=\"v-text v-small v-mid\">possible</text><text x=\"16\" y=\"440\" class=\"v-text v-small\">SAAG (ascites), g/dL</text><text x=\"196\" y=\"440\" class=\"v-text v-small v-mid\">≥ 1.1</text><text x=\"286\" y=\"440\" class=\"v-text v-small v-mid\">&lt; 1.1</text><line x1=\"241\" y1=\"354\" x2=\"241\" y2=\"454\" class=\"v-thin\"/><line x1=\"16\" y1=\"372\" x2=\"344\" y2=\"372\" class=\"v-thin\"/></g><g data-k=\"causes\"><rect x=\"8\" y=\"474\" width=\"168\" height=\"92\" rx=\"6\" class=\"v-tint-3\"/><text x=\"16\" y=\"493\" class=\"v-text v-b\">Transudate causes</text><text x=\"16\" y=\"509\" class=\"v-text v-small\">Congestive heart failure</text><text x=\"16\" y=\"525\" class=\"v-text v-small\">Cirrhosis</text><text x=\"16\" y=\"541\" class=\"v-text v-small\">Nephrotic syndrome</text><text x=\"16\" y=\"557\" class=\"v-text v-small\">(low protein)</text><rect x=\"184\" y=\"474\" width=\"168\" height=\"92\" rx=\"6\" class=\"v-tint-2\"/><text x=\"192\" y=\"493\" class=\"v-text v-b\">Exudate causes</text><text x=\"192\" y=\"509\" class=\"v-text v-small\">Infection: pneumonia, TB</text><text x=\"192\" y=\"525\" class=\"v-text v-small\">Malignancy</text><text x=\"192\" y=\"541\" class=\"v-text v-small\">Pancreatitis</text><text x=\"192\" y=\"557\" class=\"v-text v-small\">Rheumatoid arthritis, SLE</text></g>",
+   "steps": [
+    {
+     "caption": "A **transudate** comes from a systemic imbalance (raised hydrostatic pressure or low oncotic pressure) with an intact membrane. An **exudate** comes from damage to the membrane itself (infection, inflammation, malignancy), so protein and cells leak in.",
+     "show": [
+      "mech"
+     ],
+     "hl": [
+      "mech"
+     ]
+    },
+    {
+     "caption": "**Light's criteria** classify pleural fluid. First: a **fluid:serum protein ratio greater than 0.5** means exudate.",
+     "show": [
+      "mech",
+      "lighthead",
+      "g1"
+     ],
+     "hl": [
+      "g1"
+     ]
+    },
+    {
+     "caption": "Second: a **fluid:serum LDH ratio greater than 0.6**. Third: a **fluid LDH greater than 2/3 of the upper reference limit for serum LDH**. Meeting any one of the three criteria classifies the fluid as an exudate.",
+     "show": [
+      "mech",
+      "lighthead",
+      "g1",
+      "g2",
+      "g3"
+     ],
+     "hl": [
+      "g2",
+      "g3"
+     ]
+    },
+    {
+     "caption": "Supporting clues: exudates tend to be **cloudy**, with more than 1,000 WBCs/µL, and may clot. For peritoneal fluid, a **serum–ascites albumin gradient (SAAG)**, serum albumin minus fluid albumin, of **1.1 g/dL or more** points to a transudate from portal hypertension; below 1.1 suggests an exudate.",
+     "show": [
+      "mech",
+      "lighthead",
+      "g1",
+      "g2",
+      "g3",
+      "clues"
+     ],
+     "hl": [
+      "clues"
+     ]
+    },
+    {
+     "caption": "Typical **transudate** causes: congestive heart failure, cirrhosis, nephrotic syndrome. Typical **exudate** causes: infections such as pneumonia and tuberculosis, malignancy, pancreatitis, and rheumatoid or lupus pleuritis.",
+     "show": [
+      "mech",
+      "lighthead",
+      "g1",
+      "g2",
+      "g3",
+      "clues",
+      "causes"
+     ],
+     "hl": [
+      "causes"
+     ]
+    },
+    {
+     "caption": "**To remember:** protein ratio > 0.5, LDH ratio > 0.6, or fluid LDH > 2/3 of the serum upper limit: any one makes it an exudate, which means the membrane itself is diseased.",
+     "show": [
+      "mech",
+      "lighthead",
+      "g1",
+      "g2",
+      "g3",
+      "clues",
+      "causes"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Top: transudate (systemic imbalance of hydrostatic or oncotic pressure, membrane intact) beside exudate (membrane damage from infection, inflammation or cancer, so protein and cells leak in). Middle: Light's criteria for pleural fluid as three bars, each with a cutoff; values above the cutoff mean exudate: fluid to serum protein ratio above 0.5, fluid to serum LDH ratio above 0.6, fluid LDH above two-thirds of the serum upper reference limit. Any one means exudate. Other clues table: transudates are clear, under 1,000 WBCs per microliter, do not clot, and in ascites have a SAAG of 1.1 g/dL or more; exudates are cloudy, over 1,000 WBCs, may clot, SAAG under 1.1. Bottom: transudate causes are congestive heart failure, cirrhosis and nephrotic syndrome; exudate causes are infections such as pneumonia and TB, malignancy, pancreatitis, and rheumatoid arthritis or SLE.",
+   "source": "Original diagram. Facts per Strasinger & Di Lorenzo, Urinalysis and Body Fluids 7e (serous fluid chapter), and Brunzel; Light's criteria as published (Light et al., 1972)."
+  }
+ ]
+}

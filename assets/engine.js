@@ -343,6 +343,25 @@
     return out;
   }
 
+  /* The diagram that best fits a question: its keywords must appear in the question's text; the same subtopic,
+     topic or subject breaks ties. Returns null when nothing fits well. */
+  function relatedVisual(q, visuals) {
+    if (!q) return null;
+    var text = (q.stem + " " + (q.options || []).join(" ") + " " + (q.why || "")).toLowerCase(), best = null, bestScore = 0;
+    (visuals || []).forEach(function (v) {
+      var hits = 0;
+      (v.keywords || []).forEach(function (k) { if (k && String(k).length >= 4 && text.indexOf(String(k).toLowerCase()) > -1) hits++; });
+      if (!hits) return;
+      var tos = v.tos || [];
+      var score = hits * 2 + (tos.indexOf(q.tos) > -1 ? 3 : tos.some(function (t) { return topicOf(t) === topicOf(q.tos); }) ? 1 : 0) + (v.subject === q.subject ? 1 : 0);
+      if (score > bestScore) { best = v; bestScore = score; }
+    });
+    return bestScore >= 3 ? best : null;
+  }
+  function visualsForTopic(visuals, topicCode) {
+    return (visuals || []).filter(function (v) { return (v.tos || []).some(function (t) { return t === topicCode || topicOf(t) === topicCode; }); });
+  }
+
   /* Exam simulation: every question in a subject (up to 100), in a fixed random order. */
   function examQueue(bank, subjects, seed) {
     var rand = rng(seed || Date.now()), out = [];
@@ -439,7 +458,7 @@
     topicIndex: topicIndex, topicOf: topicOf, imageItems: imageItems, buildBank: buildBank,
     buildCards: buildCards, mastered: mastered, ratingFor: ratingFor,
     pickNew: pickNew, spread: spread, todayPlan: todayPlan, pickQod: pickQod, todayQueue: todayQueue,
-    practiceQueue: practiceQueue, learnQueue: learnQueue, diagnosticQueue: diagnosticQueue, drillQueue: drillQueue, examQueue: examQueue, examMinutes: examMinutes,
+    practiceQueue: practiceQueue, learnQueue: learnQueue, diagnosticQueue: diagnosticQueue, relatedVisual: relatedVisual, visualsForTopic: visualsForTopic, drillQueue: drillQueue, examQueue: examQueue, examMinutes: examMinutes,
     subjectStats: subjectStats, topicStats: topicStats, calibration: calibration, weekDays: weekDays, readiness: readiness,
     mergeReviews: mergeReviews, mergeRecords: mergeRecords
   };

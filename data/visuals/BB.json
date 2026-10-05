@@ -1,0 +1,623 @@
+{
+ "subject": "BB",
+ "visuals": [
+  {
+   "id": "bb-abo-typing",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-A.1"
+   ],
+   "title": "ABO: genes, inheritance and typing",
+   "keywords": [
+    "forward typing",
+    "reverse typing",
+    "forward grouping",
+    "reverse grouping",
+    "forward and reverse",
+    "abo discrepanc",
+    "a1 cells",
+    "anti-h",
+    "bombay",
+    "h gene",
+    "galactosamine",
+    "l-fucose",
+    "landsteiner"
+   ],
+   "viewBox": "0 0 360 602",
+   "svg": "<g data-k=\"genes\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Genes build the antigens</text><rect x=\"8\" y=\"32\" width=\"112\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"64\" y=\"49\" class=\"v-text v-small v-b v-mid\">Precursor</text><text x=\"64\" y=\"64\" class=\"v-text v-small v-mid\">chain</text><text x=\"175\" y=\"45\" class=\"v-text v-small v-b v-mid\">H gene</text><text x=\"175\" y=\"66\" class=\"v-text v-small v-mid\">adds L-fucose</text><rect x=\"232\" y=\"32\" width=\"120\" height=\"40\" rx=\"4\" class=\"v-tint-3\"/><text x=\"292\" y=\"56.5\" class=\"v-text v-b v-mid\">H antigen</text><line x1=\"292\" y1=\"72\" x2=\"292\" y2=\"88\" class=\"v-line\"/><line x1=\"64\" y1=\"88\" x2=\"296\" y2=\"88\" class=\"v-line\"/><text x=\"73\" y=\"108\" class=\"v-text v-small v-b\">A gene</text><text x=\"189\" y=\"108\" class=\"v-text v-small v-b\">B gene</text><text x=\"305\" y=\"108\" class=\"v-text v-small v-b\">O gene</text><rect x=\"10\" y=\"122\" width=\"108\" height=\"56\" rx=\"4\" class=\"v-tint-1\"/><text x=\"64\" y=\"139.5\" class=\"v-text v-b v-mid\">A antigen</text><text x=\"64\" y=\"154.5\" class=\"v-text v-small v-mid\">+ N-acetyl-D-</text><text x=\"64\" y=\"169.5\" class=\"v-text v-small v-mid\">galactosamine</text><rect x=\"126\" y=\"122\" width=\"108\" height=\"56\" rx=\"4\" class=\"v-tint-2\"/><text x=\"180\" y=\"147\" class=\"v-text v-b v-mid\">B antigen</text><text x=\"180\" y=\"162\" class=\"v-text v-small v-mid\">+ D-galactose</text><rect x=\"242\" y=\"122\" width=\"108\" height=\"56\" rx=\"4\" class=\"v-tint-4\"/><text x=\"296\" y=\"139.5\" class=\"v-text v-b v-mid\">Group O</text><text x=\"296\" y=\"154.5\" class=\"v-text v-small v-mid\">nothing added:</text><text x=\"296\" y=\"169.5\" class=\"v-text v-small v-mid\">most H antigen</text></g><g data-k=\"genes-ar\"><line x1=\"122\" y1=\"52\" x2=\"228\" y2=\"52\" class=\"v-line v-arrow\"/><line x1=\"64\" y1=\"88\" x2=\"64\" y2=\"118\" class=\"v-line v-arrow\"/><line x1=\"180\" y1=\"88\" x2=\"180\" y2=\"118\" class=\"v-line v-arrow\"/><line x1=\"296\" y1=\"88\" x2=\"296\" y2=\"118\" class=\"v-line v-arrow\"/></g><g data-k=\"punnett\"><text x=\"8\" y=\"206\" class=\"v-text v-b\">Inheritance: AO × BO parents</text><text x=\"244\" y=\"222\" class=\"v-text v-small v-muted v-mid\">BO parent</text><text x=\"88\" y=\"308\" class=\"v-text v-small v-muted v-end\">AO parent</text><rect x=\"140\" y=\"236\" width=\"104\" height=\"24\" rx=\"4\" class=\"v-box\"/><text x=\"192\" y=\"252.5\" class=\"v-text v-b v-mid\">B</text><rect x=\"244\" y=\"236\" width=\"104\" height=\"24\" rx=\"4\" class=\"v-box\"/><text x=\"296\" y=\"252.5\" class=\"v-text v-b v-mid\">O</text><rect x=\"96\" y=\"260\" width=\"44\" height=\"44\" rx=\"4\" class=\"v-box\"/><text x=\"118\" y=\"286.5\" class=\"v-text v-b v-mid\">A</text><rect x=\"96\" y=\"304\" width=\"44\" height=\"44\" rx=\"4\" class=\"v-box\"/><text x=\"118\" y=\"330.5\" class=\"v-text v-b v-mid\">O</text><rect x=\"140\" y=\"260\" width=\"104\" height=\"44\" rx=\"4\" class=\"v-tint-3\"/><text x=\"192\" y=\"279\" class=\"v-text v-b v-mid\">AB</text><text x=\"192\" y=\"294\" class=\"v-text v-small v-mid\">group AB</text><rect x=\"244\" y=\"260\" width=\"104\" height=\"44\" rx=\"4\" class=\"v-tint-1\"/><text x=\"296\" y=\"279\" class=\"v-text v-b v-mid\">AO</text><text x=\"296\" y=\"294\" class=\"v-text v-small v-mid\">group A</text><rect x=\"140\" y=\"304\" width=\"104\" height=\"44\" rx=\"4\" class=\"v-tint-2\"/><text x=\"192\" y=\"323\" class=\"v-text v-b v-mid\">BO</text><text x=\"192\" y=\"338\" class=\"v-text v-small v-mid\">group B</text><rect x=\"244\" y=\"304\" width=\"104\" height=\"44\" rx=\"4\" class=\"v-tint-4\"/><text x=\"296\" y=\"323\" class=\"v-text v-b v-mid\">OO</text><text x=\"296\" y=\"338\" class=\"v-text v-small v-mid\">group O</text></g><g data-k=\"tbl\"><text x=\"8\" y=\"380\" class=\"v-text v-b\">Forward vs reverse typing</text><rect x=\"8\" y=\"428\" width=\"58\" height=\"144\" rx=\"0\" class=\"v-box\"/><text x=\"37\" y=\"445\" class=\"v-text v-small v-b v-mid\">Group</text><text x=\"37\" y=\"472\" class=\"v-text v-b v-mid\">A</text><line x1=\"8\" y1=\"452\" x2=\"66\" y2=\"452\" class=\"v-thin\"/><text x=\"37\" y=\"502\" class=\"v-text v-b v-mid\">B</text><line x1=\"8\" y1=\"482\" x2=\"66\" y2=\"482\" class=\"v-thin\"/><text x=\"37\" y=\"532\" class=\"v-text v-b v-mid\">AB</text><line x1=\"8\" y1=\"512\" x2=\"66\" y2=\"512\" class=\"v-thin\"/><text x=\"37\" y=\"562\" class=\"v-text v-b v-mid\">O</text><line x1=\"8\" y1=\"542\" x2=\"66\" y2=\"542\" class=\"v-thin\"/><g data-k=\"fwd\"><rect x=\"66\" y=\"390\" width=\"142\" height=\"38\" rx=\"4\" class=\"v-tint-1\"/><text x=\"137\" y=\"406\" class=\"v-text v-small v-b v-mid\">Forward: cells</text><text x=\"137\" y=\"421\" class=\"v-text v-small v-mid\">finds antigens</text><rect x=\"66\" y=\"428\" width=\"142\" height=\"144\" rx=\"0\" class=\"v-box\"/><text x=\"102\" y=\"445\" class=\"v-text v-small v-b v-mid\">anti-A</text><text x=\"102\" y=\"473\" class=\"v-text v-b v-mid\">+</text><text x=\"102\" y=\"503\" class=\"v-text v-muted v-mid\">0</text><text x=\"102\" y=\"533\" class=\"v-text v-b v-mid\">+</text><text x=\"102\" y=\"563\" class=\"v-text v-muted v-mid\">0</text><text x=\"173\" y=\"445\" class=\"v-text v-small v-b v-mid\">anti-B</text><line x1=\"138\" y1=\"428\" x2=\"138\" y2=\"572\" class=\"v-thin\"/><text x=\"173\" y=\"473\" class=\"v-text v-muted v-mid\">0</text><text x=\"173\" y=\"503\" class=\"v-text v-b v-mid\">+</text><text x=\"173\" y=\"533\" class=\"v-text v-b v-mid\">+</text><text x=\"173\" y=\"563\" class=\"v-text v-muted v-mid\">0</text><line x1=\"66\" y1=\"452\" x2=\"208\" y2=\"452\" class=\"v-thin\"/><line x1=\"66\" y1=\"482\" x2=\"208\" y2=\"482\" class=\"v-thin\"/><line x1=\"66\" y1=\"512\" x2=\"208\" y2=\"512\" class=\"v-thin\"/><line x1=\"66\" y1=\"542\" x2=\"208\" y2=\"542\" class=\"v-thin\"/></g><g data-k=\"rev\"><rect x=\"208\" y=\"390\" width=\"144\" height=\"38\" rx=\"4\" class=\"v-tint-2\"/><text x=\"280\" y=\"406\" class=\"v-text v-small v-b v-mid\">Reverse: plasma</text><text x=\"280\" y=\"421\" class=\"v-text v-small v-mid\">finds antibodies</text><rect x=\"208\" y=\"428\" width=\"144\" height=\"144\" rx=\"0\" class=\"v-box\"/><text x=\"244\" y=\"445\" class=\"v-text v-small v-b v-mid\">A1 cells</text><text x=\"244\" y=\"473\" class=\"v-text v-muted v-mid\">0</text><text x=\"244\" y=\"503\" class=\"v-text v-b v-mid\">+</text><text x=\"244\" y=\"533\" class=\"v-text v-muted v-mid\">0</text><text x=\"244\" y=\"563\" class=\"v-text v-b v-mid\">+</text><text x=\"316\" y=\"445\" class=\"v-text v-small v-b v-mid\">B cells</text><line x1=\"280\" y1=\"428\" x2=\"280\" y2=\"572\" class=\"v-thin\"/><text x=\"316\" y=\"473\" class=\"v-text v-b v-mid\">+</text><text x=\"316\" y=\"503\" class=\"v-text v-muted v-mid\">0</text><text x=\"316\" y=\"533\" class=\"v-text v-muted v-mid\">0</text><text x=\"316\" y=\"563\" class=\"v-text v-b v-mid\">+</text><line x1=\"208\" y1=\"452\" x2=\"352\" y2=\"452\" class=\"v-thin\"/><line x1=\"208\" y1=\"482\" x2=\"352\" y2=\"482\" class=\"v-thin\"/><line x1=\"208\" y1=\"512\" x2=\"352\" y2=\"512\" class=\"v-thin\"/><line x1=\"208\" y1=\"542\" x2=\"352\" y2=\"542\" class=\"v-thin\"/></g><text x=\"8\" y=\"592\" class=\"v-text v-small v-muted\">+ = agglutination</text><text x=\"150\" y=\"592\" class=\"v-text v-small v-muted\">0 = no agglutination</text></g>",
+   "steps": [
+    {
+     "caption": "The **H gene** adds L-fucose to a precursor chain, making H antigen; without a working H gene (Bombay, hh) no H, A or B antigen is made. The A gene's transferase then adds N-acetyl-D-galactosamine (A antigen) and the B gene's adds D-galactose (B antigen). The O gene makes no working enzyme, so group O cells keep the most H.",
+     "show": [
+      "genes",
+      "genes-ar"
+     ],
+     "hl": []
+    },
+    {
+     "caption": "A, B and O are alleles at one locus; A and B are codominant and O is silent. An **AO × BO** couple can have children of all four groups, each with a 1 in 4 chance: AB, A (AO), B (BO) and O (OO).",
+     "show": [
+      "genes",
+      "punnett",
+      "genes-ar"
+     ],
+     "hl": [
+      "punnett"
+     ]
+    },
+    {
+     "caption": "**Forward typing** tests the patient's red cells with anti-A and anti-B reagents. Agglutination (+) shows which antigens are on the cells.",
+     "show": [
+      "genes",
+      "punnett",
+      "tbl",
+      "fwd",
+      "genes-ar"
+     ],
+     "hl": [
+      "fwd"
+     ]
+    },
+    {
+     "caption": "**Reverse typing** tests the patient's plasma with A1 and B reagent cells. Plasma has antibodies to the A or B antigen the cells lack (**Landsteiner's rule**): group A has anti-B, group B has anti-A, group O has both, group AB has neither.",
+     "show": [
+      "genes",
+      "punnett",
+      "tbl",
+      "fwd",
+      "rev",
+      "genes-ar"
+     ],
+     "hl": [
+      "rev"
+     ]
+    },
+    {
+     "caption": "**To remember:** forward (cells) and reverse (plasma) results must agree. If they don't, it's an **ABO discrepancy**, and it must be resolved before the group is reported.",
+     "show": [
+      "genes",
+      "punnett",
+      "tbl",
+      "fwd",
+      "rev",
+      "genes-ar"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Three panels. 1: the H gene adds L-fucose to a precursor chain to make H antigen; the A gene adds N-acetyl-D-galactosamine (A antigen), the B gene adds D-galactose (B antigen), and the O gene adds nothing, so group O keeps the most H. 2: a Punnett square for AO × BO parents giving AB, AO (group A), BO (group B) and OO (group O), one in four each. 3: a typing table. Forward typing (cells with anti-A, anti-B): A is + and 0; B is 0 and +; AB is + and +; O is 0 and 0. Reverse typing (plasma with A1 cells, B cells): A is 0 and +; B is + and 0; AB is 0 and 0; O is + and +.",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  },
+  {
+   "id": "bb-antibody-structure",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-F.2",
+    "BB-E.1"
+   ],
+   "title": "IgG and IgM structure",
+   "keywords": [
+    "pentamer",
+    "j chain",
+    "heavy chain",
+    "light chain",
+    "fab fragment",
+    "f(ab')",
+    "pepsin",
+    "hinge region",
+    "cross the placenta",
+    "crosses the placenta",
+    "immunoglobulin class",
+    "fc portion",
+    "fc region"
+   ],
+   "viewBox": "0 0 360 566",
+   "svg": "<g><g data-k=\"chains\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">IgG: a monomer</text><polygon points=\"141.5,236 141.5,150 132.5,150 132.5,236\" class=\"v-fill-1\"/><polygon points=\"140.2,146.8 80.8,87.4 74.4,93.8 133.8,153.2\" class=\"v-fill-1\"/><circle cx=\"137\" cy=\"150\" r=\"4.5\" class=\"v-fill-1\"/><polygon points=\"159.5,236 159.5,150 150.5,150 150.5,236\" class=\"v-fill-1\"/><polygon points=\"158.2,153.2 217.6,93.8 211.2,87.4 151.8,146.8\" class=\"v-fill-1\"/><circle cx=\"155\" cy=\"150\" r=\"4.5\" class=\"v-fill-1\"/><polygon points=\"106,131.1 71.6,96.6 65.2,103 99.7,137.4\" class=\"v-hatch\"/><polygon points=\"192.3,137.4 226.8,103 220.4,96.6 186,131.1\" class=\"v-hatch\"/><line x1=\"141.5\" y1=\"160\" x2=\"150.5\" y2=\"160\" class=\"v-line\" style=\"stroke-width:2\"/><line x1=\"141.5\" y1=\"168\" x2=\"150.5\" y2=\"168\" class=\"v-line\" style=\"stroke-width:2\"/><line x1=\"103.9\" y1=\"128.9\" x2=\"106.7\" y2=\"126.1\" class=\"v-line\" style=\"stroke-width:2\"/><line x1=\"188.1\" y1=\"128.9\" x2=\"185.3\" y2=\"126.1\" class=\"v-line\" style=\"stroke-width:2\"/><line x1=\"183.4\" y1=\"113.1\" x2=\"200\" y2=\"62\" class=\"v-thin\"/><text x=\"204\" y=\"58\" class=\"v-text v-small v-b\">Heavy chain ×2</text><text x=\"204\" y=\"72\" class=\"v-text v-small v-muted\">(solid)</text><line x1=\"210.6\" y1=\"121.3\" x2=\"250\" y2=\"136\" class=\"v-thin\"/><text x=\"254\" y=\"134\" class=\"v-text v-small v-b\">Light chain ×2</text><text x=\"254\" y=\"148\" class=\"v-text v-small v-muted\">(hatched)</text><line x1=\"130\" y1=\"174\" x2=\"142\" y2=\"165\" class=\"v-thin\"/><text x=\"128\" y=\"180\" class=\"v-text v-small v-end\">S–S bonds</text></g><g data-k=\"parts\"><circle cx=\"71.6\" cy=\"93.8\" r=\"13\" class=\"v-line v-dash\" style=\"stroke-width:1.5\"/><circle cx=\"220.4\" cy=\"93.8\" r=\"13\" class=\"v-line v-dash\" style=\"stroke-width:1.5\"/><text x=\"146\" y=\"44\" class=\"v-text v-small v-b v-mid\">antigen-binding sites (2)</text><polyline points=\"108.7,155.7 104.5,159.9 56.4,111.8 60.6,107.6\" class=\"v-line\"/><text x=\"60\" y=\"140\" class=\"v-text v-b v-end\">Fab</text><text x=\"60\" y=\"154\" class=\"v-text v-small v-end\">binds</text><text x=\"60\" y=\"168\" class=\"v-text v-small v-end\">antigen</text><polyline points=\"163.5,180 169.5,180 169.5,240 163.5,240\" class=\"v-line\"/><text x=\"177.5\" y=\"202\" class=\"v-text v-b\">Fc</text><text x=\"177.5\" y=\"216\" class=\"v-text v-small\">binds Fc receptors</text><text x=\"177.5\" y=\"230\" class=\"v-text v-small\">and complement (C1q)</text><line x1=\"161.5\" y1=\"152\" x2=\"176\" y2=\"158\" class=\"v-thin\"/><text x=\"180\" y=\"162\" class=\"v-text v-small v-b\">hinge</text></g></g><g data-k=\"iggfacts\"><rect x=\"196\" y=\"248\" width=\"156\" height=\"42\" rx=\"4\" class=\"v-tint-1\"/><text x=\"274\" y=\"266\" class=\"v-text v-small v-b v-mid\">Crosses the placenta</text><text x=\"274\" y=\"281\" class=\"v-text v-small v-mid\">only IgG does</text></g><g data-k=\"igm\"><text x=\"8\" y=\"318\" class=\"v-text v-b\">IgM: a pentamer</text><circle cx=\"104\" cy=\"416\" r=\"14\" class=\"v-line\" style=\"stroke-width:2\"/><line x1=\"104\" y1=\"402\" x2=\"104\" y2=\"370\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"104\" y1=\"370\" x2=\"88\" y2=\"349.5\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"104\" y1=\"370\" x2=\"120\" y2=\"349.5\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"117.3\" y1=\"411.7\" x2=\"147.7\" y2=\"401.8\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"147.7\" y1=\"401.8\" x2=\"162.3\" y2=\"380.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"147.7\" y1=\"401.8\" x2=\"172.2\" y2=\"410.7\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"112.2\" y1=\"427.3\" x2=\"131\" y2=\"453.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"131\" y1=\"453.2\" x2=\"156\" y2=\"460.4\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"131\" y1=\"453.2\" x2=\"130.1\" y2=\"479.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"95.8\" y1=\"427.3\" x2=\"77\" y2=\"453.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"77\" y1=\"453.2\" x2=\"77.9\" y2=\"479.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"77\" y1=\"453.2\" x2=\"52\" y2=\"460.4\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"90.7\" y1=\"411.7\" x2=\"60.3\" y2=\"401.8\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"60.3\" y1=\"401.8\" x2=\"35.8\" y2=\"410.7\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><line x1=\"60.3\" y1=\"401.8\" x2=\"45.7\" y2=\"380.2\" class=\"v-line v-stroke-1\" style=\"stroke-width:7;stroke-linecap:round\"/><circle cx=\"88\" cy=\"349.5\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"120\" cy=\"349.5\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"162.3\" cy=\"380.2\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"172.2\" cy=\"410.7\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"156\" cy=\"460.4\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"130.1\" cy=\"479.2\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"77.9\" cy=\"479.2\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"52\" cy=\"460.4\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"35.8\" cy=\"410.7\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"45.7\" cy=\"380.2\" r=\"4\" class=\"v-fill-ink\"/><rect x=\"95\" y=\"436\" width=\"18\" height=\"12\" rx=\"6\" class=\"v-tint-2\"/><line x1=\"104\" y1=\"449\" x2=\"104\" y2=\"488\" class=\"v-thin\"/><text x=\"104\" y=\"502\" class=\"v-text v-small v-b v-mid\">J chain</text><line x1=\"177.2\" y1=\"407.7\" x2=\"200\" y2=\"348\" class=\"v-thin\"/><text x=\"204\" y=\"344\" class=\"v-text v-small v-b\">10 antigen-binding</text><text x=\"204\" y=\"358\" class=\"v-text v-small\">sites (dots)</text><text x=\"204\" y=\"420\" class=\"v-text v-small\">5 monomers,</text><text x=\"204\" y=\"434\" class=\"v-text v-small\">S–S linked</text></g><g data-k=\"igmfacts\"><rect x=\"8\" y=\"514\" width=\"344\" height=\"44\" rx=\"4\" class=\"v-tint-2\"/><text x=\"180\" y=\"533\" class=\"v-text v-small v-b v-mid\">Best at agglutination and complement activation</text><text x=\"180\" y=\"548\" class=\"v-text v-small v-mid\">Too big to cross the placenta</text></g>",
+   "steps": [
+    {
+     "caption": "**IgG** is a monomer: two identical heavy chains and two identical light chains (kappa or lambda), held together by disulfide (S–S) bonds.",
+     "show": [],
+     "hl": [
+      "chains"
+     ]
+    },
+    {
+     "caption": "Each arm is a **Fab**; its tip binds antigen, so IgG has 2 binding sites. The stem is the **Fc**, which binds Fc receptors and complement. Papain cuts at the **hinge** into 2 Fab + 1 Fc; pepsin cuts below it, giving one F(ab')2.",
+     "show": [
+      "parts"
+     ],
+     "hl": [
+      "parts"
+     ]
+    },
+    {
+     "caption": "IgG is the **only class that crosses the placenta** (its Fc is carried across actively). That is why maternal IgG antibodies cause HDFN.",
+     "show": [
+      "parts",
+      "iggfacts"
+     ],
+     "hl": [
+      "iggfacts"
+     ]
+    },
+    {
+     "caption": "**IgM** is a pentamer: five monomers joined by disulfide bonds and one **J chain**. That gives 10 antigen-binding sites. IgM is the first antibody made in a primary response.",
+     "show": [
+      "parts",
+      "iggfacts",
+      "igm"
+     ],
+     "hl": [
+      "igm"
+     ]
+    },
+    {
+     "caption": "With so many binding sites, IgM is the best at **agglutination** and at activating complement: one IgM bound to a cell can start the classical pathway, while IgG needs two molecules side by side. IgM is too big to cross the placenta.",
+     "show": [
+      "parts",
+      "iggfacts",
+      "igm",
+      "igmfacts"
+     ],
+     "hl": [
+      "igmfacts"
+     ]
+    },
+    {
+     "caption": "**To remember:** IgG = monomer, 2 sites, crosses the placenta. IgM = pentamer with a J chain, 10 sites, best agglutinator and complement activator, does not cross.",
+     "show": [
+      "parts",
+      "iggfacts",
+      "igm",
+      "igmfacts"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Top: an IgG monomer drawn as a Y. Two solid heavy chains form the stem and continue into each arm; a hatched light chain lies along the outer side of each arm. Disulfide bonds join the heavy chains at the hinge and each light chain to its heavy chain. Each arm is a Fab with an antigen-binding site at its tip (2 sites); the stem is the Fc, which binds Fc receptors and complement C1q. A note says only IgG crosses the placenta. Bottom: an IgM pentamer, five Y-shaped monomers radiating from a disulfide-linked centre with one J chain, giving 10 antigen-binding sites. A note says IgM is best at agglutination and complement activation and is too big to cross the placenta.",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  },
+  {
+   "id": "bb-dat-iat",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-D.2",
+    "BB-D.1",
+    "BB-E.2"
+   ],
+   "title": "DAT vs IAT (antiglobulin tests)",
+   "keywords": [
+    "antiglobulin",
+    "coombs",
+    "check cells",
+    "anti-c3d",
+    "positive dat",
+    "ahg crossmatch"
+   ],
+   "viewBox": "0 0 360 518",
+   "svg": "<g data-k=\"dat\"><rect x=\"8\" y=\"26\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"43\" class=\"v-text v-b v-mid\">DAT (direct)</text><text x=\"90\" y=\"58\" class=\"v-text v-small v-mid\">cells coated in the body</text><rect x=\"8\" y=\"80\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"90\" y=\"97\" class=\"v-text v-small v-b v-mid\">Patient's red cells</text><text x=\"90\" y=\"112\" class=\"v-text v-small v-mid\">(EDTA sample)</text><rect x=\"8\" y=\"196\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"90\" y=\"213\" class=\"v-text v-small v-b v-mid\">Wash 3–4 times</text><text x=\"90\" y=\"228\" class=\"v-text v-small v-mid\">removes unbound globulin</text><rect x=\"8\" y=\"254\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"90\" y=\"271\" class=\"v-text v-small v-b v-mid\">Add AHG reagent</text><text x=\"90\" y=\"286\" class=\"v-text v-small v-mid\">and centrifuge</text><rect x=\"8\" y=\"312\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"90\" y=\"329\" class=\"v-text v-small v-b v-mid\">Read: clumping =</text><text x=\"90\" y=\"344\" class=\"v-text v-small v-mid\">cells were coated</text><text x=\"98\" y=\"163\" class=\"v-text v-small v-muted\">no incubation</text></g><g data-k=\"dat-ar\"><line x1=\"90\" y1=\"66\" x2=\"90\" y2=\"77\" class=\"v-line v-arrow\"/><line x1=\"90\" y1=\"120\" x2=\"90\" y2=\"193\" class=\"v-line v-arrow v-draw\"/><line x1=\"90\" y1=\"236\" x2=\"90\" y2=\"251\" class=\"v-line v-arrow v-draw\"/><line x1=\"90\" y1=\"294\" x2=\"90\" y2=\"309\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"iat\"><rect x=\"188\" y=\"26\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"43\" class=\"v-text v-b v-mid\">IAT (indirect)</text><text x=\"270\" y=\"58\" class=\"v-text v-small v-mid\">cells coated in the tube</text><rect x=\"188\" y=\"80\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"97\" class=\"v-text v-small v-b v-mid\">Patient's serum +</text><text x=\"270\" y=\"112\" class=\"v-text v-small v-mid\">reagent red cells</text><rect x=\"188\" y=\"138\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"155\" class=\"v-text v-small v-b v-mid\">Incubate at 37 °C</text><text x=\"270\" y=\"170\" class=\"v-text v-small v-mid\">antibody coats cells</text><rect x=\"188\" y=\"196\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"213\" class=\"v-text v-small v-b v-mid\">Wash 3–4 times</text><text x=\"270\" y=\"228\" class=\"v-text v-small v-mid\">removes unbound globulin</text><rect x=\"188\" y=\"254\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"271\" class=\"v-text v-small v-b v-mid\">Add AHG reagent</text><text x=\"270\" y=\"286\" class=\"v-text v-small v-mid\">and centrifuge</text><rect x=\"188\" y=\"312\" width=\"164\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"270\" y=\"329\" class=\"v-text v-small v-b v-mid\">Read: clumping =</text><text x=\"270\" y=\"344\" class=\"v-text v-small v-mid\">antibody in serum</text></g><g data-k=\"iat-ar\"><line x1=\"270\" y1=\"66\" x2=\"270\" y2=\"77\" class=\"v-line v-arrow\"/><line x1=\"270\" y1=\"120\" x2=\"270\" y2=\"135\" class=\"v-line v-arrow v-draw\"/><line x1=\"270\" y1=\"178\" x2=\"270\" y2=\"193\" class=\"v-line v-arrow v-draw\"/><line x1=\"270\" y1=\"236\" x2=\"270\" y2=\"251\" class=\"v-line v-arrow v-draw\"/><line x1=\"270\" y1=\"294\" x2=\"270\" y2=\"309\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"check\"><text x=\"100\" y=\"368\" class=\"v-text v-small v-muted\">if negative</text><text x=\"280\" y=\"368\" class=\"v-text v-small v-muted\">if negative</text><rect x=\"8\" y=\"378\" width=\"344\" height=\"42\" rx=\"4\" class=\"v-tint-4\"/><text x=\"180\" y=\"396\" class=\"v-text v-small v-b v-mid\">Add IgG-coated check cells (Coombs control)</text><text x=\"180\" y=\"411\" class=\"v-text v-small v-mid\">They must agglutinate, or the test is invalid</text></g><g data-k=\"check-ar\"><line x1=\"90\" y1=\"352\" x2=\"90\" y2=\"375\" class=\"v-line v-arrow\"/><line x1=\"270\" y1=\"352\" x2=\"270\" y2=\"375\" class=\"v-line v-arrow\"/></g><g data-k=\"datuses\"><rect x=\"8\" y=\"436\" width=\"164\" height=\"74\" rx=\"4\" class=\"v-tint-1\"/><text x=\"90\" y=\"455\" class=\"v-text v-small v-b v-mid\">DAT is used for</text><text x=\"90\" y=\"470\" class=\"v-text v-small v-mid\">HDFN (cord cells)</text><text x=\"90\" y=\"485\" class=\"v-text v-small v-mid\">transfusion reactions</text><text x=\"90\" y=\"500\" class=\"v-text v-small v-mid\">AIHA, drug-induced</text></g><g data-k=\"iatuses\"><rect x=\"188\" y=\"436\" width=\"164\" height=\"74\" rx=\"4\" class=\"v-tint-2\"/><text x=\"270\" y=\"455\" class=\"v-text v-small v-b v-mid\">IAT is used for</text><text x=\"270\" y=\"470\" class=\"v-text v-small v-mid\">antibody screen and ID</text><text x=\"270\" y=\"485\" class=\"v-text v-small v-mid\">AHG crossmatch</text><text x=\"270\" y=\"500\" class=\"v-text v-small v-mid\">weak D, antigen typing</text></g>",
+   "steps": [
+    {
+     "caption": "The **direct antiglobulin test (DAT)** asks whether the patient's red cells are already coated with antibody or complement in the body (in vivo). The cells are washed and AHG is added straight away, with no incubation.",
+     "show": [
+      "dat",
+      "dat-ar"
+     ],
+     "hl": [
+      "dat"
+     ]
+    },
+    {
+     "caption": "Use the DAT when cells may be coated in vivo: **HDFN** (the baby's cells coated by maternal IgG), hemolytic **transfusion reactions** (donor cells coated by the recipient's antibody), and **autoimmune or drug-induced** hemolytic anemia.",
+     "show": [
+      "dat",
+      "datuses",
+      "dat-ar"
+     ],
+     "hl": [
+      "datuses"
+     ]
+    },
+    {
+     "caption": "The **indirect antiglobulin test (IAT)** asks whether the patient's serum has antibody to red cell antigens. Serum and reagent cells are incubated at 37 °C so antibody can coat the cells in vitro; then they are washed and AHG is added.",
+     "show": [
+      "dat",
+      "datuses",
+      "iat",
+      "dat-ar",
+      "iat-ar"
+     ],
+     "hl": [
+      "iat"
+     ]
+    },
+    {
+     "caption": "Washing removes unbound globulin, which would neutralize the AHG and cause a false negative. Every negative tube test read with an anti-IgG–containing AHG gets **IgG-coated check cells**: they must agglutinate, proving AHG was added and not neutralized by leftover globulin.",
+     "show": [
+      "dat",
+      "datuses",
+      "iat",
+      "check",
+      "dat-ar",
+      "iat-ar",
+      "check-ar"
+     ],
+     "hl": [
+      "check"
+     ]
+    },
+    {
+     "caption": "Use the IAT to find antibodies before transfusion: the **antibody screen**, antibody identification and the **AHG crossmatch**. The same method detects antigens with IgG reagents, such as the **weak D** test.",
+     "show": [
+      "dat",
+      "datuses",
+      "iat",
+      "check",
+      "iatuses",
+      "dat-ar",
+      "iat-ar",
+      "check-ar"
+     ],
+     "hl": [
+      "iatuses"
+     ]
+    },
+    {
+     "caption": "**To remember:** DAT = coated in vivo, no incubation (HDFN, transfusion reaction, AIHA). IAT = coated in vitro after 37 °C incubation (screen, crossmatch). Both are washed, get AHG, and negatives are checked with check cells.",
+     "show": [
+      "dat",
+      "datuses",
+      "iat",
+      "check",
+      "iatuses",
+      "dat-ar",
+      "iat-ar",
+      "check-ar"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Two flow columns. DAT (direct): patient's red cells from an EDTA sample, no incubation, wash 3 to 4 times, add AHG and centrifuge, read; clumping means the cells were coated in the body. IAT (indirect): patient's serum plus reagent red cells, incubate at 37 °C so antibody coats the cells, wash, add AHG and centrifuge, read; clumping means antibody in the serum. If either is negative, IgG-coated check cells are added and must agglutinate or the test is invalid. DAT uses: HDFN, transfusion reactions, autoimmune and drug-induced hemolytic anemia. IAT uses: antibody screen and identification, AHG crossmatch, weak D and antigen typing.",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  },
+  {
+   "id": "bb-complement",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-F.4"
+   ],
+   "title": "Complement pathways",
+   "keywords": [
+    "complement pathway",
+    "complement activation",
+    "c3 convertase",
+    "c5 convertase",
+    "membrane attack",
+    "anaphylatoxin",
+    "properdin",
+    "mannose-binding",
+    "classical pathway",
+    "alternative pathway",
+    "lectin pathway",
+    "opsonin",
+    "c5b-9"
+   ],
+   "viewBox": "0 0 360 536",
+   "svg": "<text x=\"8\" y=\"20\" class=\"v-text v-b\">Complement: three ways to start</text><g data-k=\"cl\"><text x=\"62\" y=\"42\" class=\"v-text v-b v-mid\">Classical</text><rect x=\"6\" y=\"50\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-1\"/><text x=\"62\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">C1q binds</text><text x=\"62\" y=\"80.5\" class=\"v-text v-small v-mid\">antibody bound</text><text x=\"62\" y=\"95.5\" class=\"v-text v-small v-mid\">to antigen</text><rect x=\"6\" y=\"120\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-1\"/><text x=\"62\" y=\"143\" class=\"v-text v-small v-b v-mid\">C1r → C1s;</text><text x=\"62\" y=\"158\" class=\"v-text v-small v-mid\">C1s splits C4, C2</text></g><g data-k=\"cl-ar\"><line x1=\"62\" y1=\"102\" x2=\"62\" y2=\"117\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"le\"><text x=\"180\" y=\"42\" class=\"v-text v-b v-mid\">Lectin</text><rect x=\"124\" y=\"50\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-3\"/><text x=\"180\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">MBL binds</text><text x=\"180\" y=\"80.5\" class=\"v-text v-small v-mid\">mannose on</text><text x=\"180\" y=\"95.5\" class=\"v-text v-small v-mid\">microbes</text><rect x=\"124\" y=\"120\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-3\"/><text x=\"180\" y=\"143\" class=\"v-text v-small v-b v-mid\">MASPs</text><text x=\"180\" y=\"158\" class=\"v-text v-small v-mid\">split C4 and C2</text></g><g data-k=\"le-ar\"><line x1=\"180\" y1=\"102\" x2=\"180\" y2=\"117\" class=\"v-line v-arrow v-draw\"/><line x1=\"180\" y1=\"172\" x2=\"160\" y2=\"193\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"al\"><text x=\"298\" y=\"42\" class=\"v-text v-b v-mid\">Alternative</text><rect x=\"242\" y=\"50\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-2\"/><text x=\"298\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">C3 hydrolyzes</text><text x=\"298\" y=\"80.5\" class=\"v-text v-small v-mid\">on its own</text><text x=\"298\" y=\"95.5\" class=\"v-text v-small v-mid\">(tickover)</text><rect x=\"242\" y=\"120\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-2\"/><text x=\"298\" y=\"135.5\" class=\"v-text v-small v-b v-mid\">factors B and D;</text><text x=\"298\" y=\"150.5\" class=\"v-text v-small v-mid\">properdin</text><text x=\"298\" y=\"165.5\" class=\"v-text v-small v-mid\">stabilizes</text></g><g data-k=\"al-ar\"><line x1=\"298\" y1=\"102\" x2=\"298\" y2=\"117\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"c4b2a\"><rect x=\"36\" y=\"196\" width=\"170\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"121\" y=\"213\" class=\"v-text v-b v-mid\">C4b2a</text><text x=\"121\" y=\"228\" class=\"v-text v-small v-mid\">C3 convertase</text></g><g data-k=\"c4b2a-ar\"><line x1=\"62\" y1=\"172\" x2=\"82\" y2=\"193\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"c3bbb\"><rect x=\"248\" y=\"196\" width=\"100\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"298\" y=\"213\" class=\"v-text v-b v-mid\">C3bBb</text><text x=\"298\" y=\"228\" class=\"v-text v-small v-mid\">C3 convertase</text></g><g data-k=\"c3bbb-ar\"><line x1=\"298\" y1=\"172\" x2=\"298\" y2=\"193\" class=\"v-line v-arrow v-draw\"/></g><g data-k=\"c3\"><rect x=\"134\" y=\"262\" width=\"92\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"180\" y=\"279\" class=\"v-text v-b v-mid\">C3</text><text x=\"180\" y=\"294\" class=\"v-text v-small v-mid\">is split</text><rect x=\"6\" y=\"262\" width=\"112\" height=\"40\" rx=\"4\" class=\"v-tint-4\"/><text x=\"62\" y=\"279\" class=\"v-text v-b v-mid\">C3a</text><text x=\"62\" y=\"294\" class=\"v-text v-small v-mid\">anaphylatoxin</text><rect x=\"242\" y=\"262\" width=\"112\" height=\"40\" rx=\"4\" class=\"v-tint-5\"/><text x=\"298\" y=\"279\" class=\"v-text v-b v-mid\">C3b</text><text x=\"298\" y=\"294\" class=\"v-text v-small v-mid\">opsonin</text></g><g data-k=\"c3-ar\"><line x1=\"121\" y1=\"236\" x2=\"160\" y2=\"259\" class=\"v-line v-arrow\"/><line x1=\"298\" y1=\"236\" x2=\"214\" y2=\"259\" class=\"v-line v-arrow\"/><line x1=\"134\" y1=\"282\" x2=\"121\" y2=\"282\" class=\"v-line v-arrow\"/><line x1=\"226\" y1=\"282\" x2=\"239\" y2=\"282\" class=\"v-line v-arrow\"/></g><g data-k=\"c5\"><text x=\"290\" y=\"319\" class=\"v-text v-small v-muted v-end\">C3b joins</text><rect x=\"36\" y=\"328\" width=\"288\" height=\"40\" rx=\"4\" class=\"v-box\"/><text x=\"180\" y=\"345\" class=\"v-text v-small v-b v-mid\">C5 convertase</text><text x=\"180\" y=\"360\" class=\"v-text v-small v-mid\">C4b2a3b  or  C3bBb3b</text><rect x=\"134\" y=\"394\" width=\"92\" height=\"52\" rx=\"4\" class=\"v-box\"/><text x=\"180\" y=\"417\" class=\"v-text v-b v-mid\">C5</text><text x=\"180\" y=\"432\" class=\"v-text v-small v-mid\">is split</text><rect x=\"6\" y=\"394\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-4\"/><text x=\"62\" y=\"409.5\" class=\"v-text v-b v-mid\">C5a</text><text x=\"62\" y=\"424.5\" class=\"v-text v-small v-mid\">anaphylatoxin,</text><text x=\"62\" y=\"439.5\" class=\"v-text v-small v-mid\">chemotaxis</text><rect x=\"242\" y=\"394\" width=\"112\" height=\"52\" rx=\"4\" class=\"v-tint-5\"/><text x=\"298\" y=\"417\" class=\"v-text v-b v-mid\">C5b</text><text x=\"298\" y=\"432\" class=\"v-text v-small v-mid\">starts the MAC</text></g><g data-k=\"c5-ar\"><line x1=\"180\" y1=\"302\" x2=\"180\" y2=\"325\" class=\"v-line v-arrow\"/><line x1=\"298\" y1=\"302\" x2=\"298\" y2=\"325\" class=\"v-line v-arrow\"/><line x1=\"180\" y1=\"368\" x2=\"180\" y2=\"391\" class=\"v-line v-arrow\"/><line x1=\"134\" y1=\"420\" x2=\"121\" y2=\"420\" class=\"v-line v-arrow\"/><line x1=\"226\" y1=\"420\" x2=\"239\" y2=\"420\" class=\"v-line v-arrow\"/></g><g data-k=\"mac\"><rect x=\"6\" y=\"472\" width=\"348\" height=\"56\" rx=\"4\" class=\"v-tint-5\"/><text x=\"180\" y=\"489.5\" class=\"v-text v-small v-b v-mid\">Membrane attack complex (C5b-9)</text><text x=\"180\" y=\"504.5\" class=\"v-text v-small v-mid\">C5b + C6 + C7 + C8 + many C9</text><text x=\"180\" y=\"519.5\" class=\"v-text v-small v-mid\">forms a pore: the cell lyses</text></g><g data-k=\"mac-ar\"><line x1=\"298\" y1=\"446\" x2=\"298\" y2=\"469\" class=\"v-line v-arrow\"/></g>",
+   "steps": [
+    {
+     "caption": "**Classical pathway:** C1q binds antibody (IgM, or IgG) that is bound to antigen. C1r activates C1s, which splits C4 and C2 to build the C3 convertase **C4b2a** (newer texts, which rename the large C2 fragment C2b, write C4b2b).",
+     "show": [
+      "cl",
+      "c4b2a",
+      "cl-ar",
+      "c4b2a-ar"
+     ],
+     "hl": [
+      "cl"
+     ]
+    },
+    {
+     "caption": "**Lectin pathway:** mannose-binding lectin (MBL) binds carbohydrates on microbes, with no antibody needed. Its MASPs split C4 and C2 just as C1s does, making the same **C4b2a**.",
+     "show": [
+      "cl",
+      "c4b2a",
+      "le",
+      "cl-ar",
+      "c4b2a-ar",
+      "le-ar"
+     ],
+     "hl": [
+      "le"
+     ]
+    },
+    {
+     "caption": "**Alternative pathway:** C3 hydrolyzes slowly on its own (tickover). Factor B binds, factor D cleaves it, and the C3 convertase **C3bBb** forms; **properdin** stabilizes it.",
+     "show": [
+      "cl",
+      "c4b2a",
+      "le",
+      "al",
+      "c3bbb",
+      "cl-ar",
+      "c4b2a-ar",
+      "le-ar",
+      "al-ar",
+      "c3bbb-ar"
+     ],
+     "hl": [
+      "al",
+      "c3bbb"
+     ]
+    },
+    {
+     "caption": "All three pathways meet at **C3**. Each C3 convertase splits C3 into **C3a**, an anaphylatoxin, and **C3b**, an opsonin that coats cells for phagocytosis.",
+     "show": [
+      "cl",
+      "c4b2a",
+      "le",
+      "al",
+      "c3bbb",
+      "c3",
+      "cl-ar",
+      "c4b2a-ar",
+      "le-ar",
+      "al-ar",
+      "c3bbb-ar",
+      "c3-ar"
+     ],
+     "hl": [
+      "c3"
+     ]
+    },
+    {
+     "caption": "C3b joins the C3 convertase to make a **C5 convertase**, which splits C5. **C5a** is the most potent anaphylatoxin and attracts neutrophils; C5b binds C6, C7, C8 and C9 to form the **membrane attack complex**, a pore that lyses the cell.",
+     "show": [
+      "cl",
+      "c4b2a",
+      "le",
+      "al",
+      "c3bbb",
+      "c3",
+      "c5",
+      "mac",
+      "cl-ar",
+      "c4b2a-ar",
+      "le-ar",
+      "al-ar",
+      "c3bbb-ar",
+      "c3-ar",
+      "c5-ar",
+      "mac-ar"
+     ],
+     "hl": [
+      "c5",
+      "mac"
+     ]
+    },
+    {
+     "caption": "**To remember:** three starts (antibody, MBL, spontaneous C3), one common end. C3b opsonizes, C3a and C5a are anaphylatoxins, and C5b-9 lyses.",
+     "show": [
+      "cl",
+      "c4b2a",
+      "le",
+      "al",
+      "c3bbb",
+      "c3",
+      "c5",
+      "mac",
+      "cl-ar",
+      "c4b2a-ar",
+      "le-ar",
+      "al-ar",
+      "c3bbb-ar",
+      "c3-ar",
+      "c5-ar",
+      "mac-ar"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Three columns start the complement cascade. Classical: C1q binds antibody bound to antigen; C1r activates C1s, which splits C4 and C2. Lectin: MBL binds mannose on microbes; MASPs split C4 and C2. Both make the C3 convertase C4b2a (written C4b2b in newer nomenclature). Alternative: C3 hydrolyzes on its own; factors B and D act and properdin stabilizes the C3 convertase C3bBb. All C3 convertases split C3 into C3a (anaphylatoxin) and C3b (opsonin). C3b joins to form the C5 convertase (C4b2a3b or C3bBb3b), which splits C5 into C5a (anaphylatoxin, chemotaxis) and C5b. C5b with C6, C7, C8 and many C9 forms the membrane attack complex C5b-9, a pore that lyses the cell.",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  },
+  {
+   "id": "bb-elisa",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-H.2",
+    "BB-H.1"
+   ],
+   "title": "ELISA: sandwich vs indirect",
+   "keywords": [
+    "elisa",
+    "enzyme immunoassay",
+    "enzyme-linked",
+    "enzyme-labeled",
+    "sandwich",
+    "capture antibody",
+    "anti-human globulin",
+    "conjugate"
+   ],
+   "viewBox": "0 0 360 474",
+   "svg": "<text x=\"8\" y=\"20\" class=\"v-text v-b\">Sandwich ELISA: measures antigen</text><g data-k=\"s1\"><line x1=\"8\" y1=\"126\" x2=\"88\" y2=\"126\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"10\" y=\"44\" class=\"v-text v-small v-b v-muted\">1</text><text x=\"48\" y=\"143\" class=\"v-text v-small v-b v-mid\">capture Ab</text><text x=\"48\" y=\"157\" class=\"v-text v-small v-mid\">coats the well</text><line x1=\"30\" y1=\"126\" x2=\"30\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"30\" y1=\"111\" x2=\"22\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"30\" y1=\"111\" x2=\"38\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"66\" y1=\"126\" x2=\"66\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"66\" y1=\"111\" x2=\"58\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"66\" y1=\"111\" x2=\"74\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/></g><g data-k=\"s2\"><line x1=\"96\" y1=\"126\" x2=\"176\" y2=\"126\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"98\" y=\"44\" class=\"v-text v-small v-b v-muted\">2</text><text x=\"136\" y=\"143\" class=\"v-text v-small v-b v-mid\">+ sample,</text><text x=\"136\" y=\"157\" class=\"v-text v-small v-mid\">then wash</text><line x1=\"118\" y1=\"126\" x2=\"118\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"118\" y1=\"111\" x2=\"110\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"118\" y1=\"111\" x2=\"126\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"118,94 125,101 118,108 111,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"154\" y1=\"126\" x2=\"154\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"154\" y1=\"111\" x2=\"146\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"154\" y1=\"111\" x2=\"162\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"154,94 161,101 154,108 147,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/></g><g data-k=\"s3\"><line x1=\"184\" y1=\"126\" x2=\"264\" y2=\"126\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"186\" y=\"44\" class=\"v-text v-small v-b v-muted\">3</text><text x=\"224\" y=\"143\" class=\"v-text v-small v-b v-mid\">+ enzyme Ab</text><text x=\"224\" y=\"157\" class=\"v-text v-small v-mid\">then wash</text><line x1=\"206\" y1=\"126\" x2=\"206\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"206\" y1=\"111\" x2=\"198\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"206\" y1=\"111\" x2=\"214\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"206,94 213,101 206,108 199,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"198\" y1=\"95\" x2=\"206\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"214\" y1=\"95\" x2=\"206\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"206\" y1=\"84\" x2=\"206\" y2=\"69\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"197\" y=\"54\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"206\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">E</text><line x1=\"242\" y1=\"126\" x2=\"242\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"242\" y1=\"111\" x2=\"234\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"242\" y1=\"111\" x2=\"250\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"242,94 249,101 242,108 235,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"234\" y1=\"95\" x2=\"242\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"250\" y1=\"95\" x2=\"242\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"242\" y1=\"84\" x2=\"242\" y2=\"69\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"233\" y=\"54\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"242\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">E</text></g><g data-k=\"s4\"><line x1=\"272\" y1=\"126\" x2=\"352\" y2=\"126\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"274\" y=\"44\" class=\"v-text v-small v-b v-muted\">4</text><text x=\"312\" y=\"143\" class=\"v-text v-small v-b v-mid\">+ substrate</text><text x=\"312\" y=\"157\" class=\"v-text v-small v-mid\">→ color</text><line x1=\"294\" y1=\"126\" x2=\"294\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"294\" y1=\"111\" x2=\"286\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"294\" y1=\"111\" x2=\"302\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"294,94 301,101 294,108 287,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"286\" y1=\"95\" x2=\"294\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"302\" y1=\"95\" x2=\"294\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"294\" y1=\"84\" x2=\"294\" y2=\"69\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"285\" y=\"54\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"294\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">E</text><circle cx=\"278\" cy=\"55\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"310\" cy=\"53\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"280\" cy=\"69\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"308\" cy=\"69\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"292\" cy=\"45\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"301\" cy=\"40\" r=\"3\" class=\"v-fill-2\"/><line x1=\"330\" y1=\"126\" x2=\"330\" y2=\"111\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"330\" y1=\"111\" x2=\"322\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"330\" y1=\"111\" x2=\"338\" y2=\"100\" class=\"v-line v-stroke-1\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"330,94 337,101 330,108 323,101\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"322\" y1=\"95\" x2=\"330\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"338\" y1=\"95\" x2=\"330\" y2=\"84\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"330\" y1=\"84\" x2=\"330\" y2=\"69\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"321\" y=\"54\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"330\" y=\"65.5\" class=\"v-text v-small v-b v-mid\">E</text><circle cx=\"314\" cy=\"55\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"346\" cy=\"53\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"316\" cy=\"69\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"344\" cy=\"69\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"323\" cy=\"42\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"337\" cy=\"40\" r=\"3\" class=\"v-fill-2\"/></g><g data-k=\"graph\"><line x1=\"60\" y1=\"256\" x2=\"192\" y2=\"198\" class=\"v-line v-stroke-2\" style=\"stroke-width:3\"/><text x=\"131\" y=\"278\" class=\"v-text v-small v-mid v-muted\">antigen in sample</text><text x=\"48\" y=\"210\" class=\"v-text v-small v-muted v-end\">color</text><text x=\"232\" y=\"212\" class=\"v-text v-small v-b\">More antigen,</text><text x=\"232\" y=\"226\" class=\"v-text v-small v-b\">more color:</text><text x=\"232\" y=\"240\" class=\"v-text v-small\">directly</text><text x=\"232\" y=\"254\" class=\"v-text v-small\">proportional</text></g><g data-k=\"graph-ar\"><line x1=\"56\" y1=\"262\" x2=\"206\" y2=\"262\" class=\"v-line v-arrow\"/><line x1=\"56\" y1=\"262\" x2=\"56\" y2=\"190\" class=\"v-line v-arrow\"/></g><g data-k=\"ind\"><text x=\"8\" y=\"318\" class=\"v-text v-b\">Indirect ELISA: measures antibody</text><line x1=\"8\" y1=\"430\" x2=\"88\" y2=\"430\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"10\" y=\"333\" class=\"v-text v-small v-b v-muted\">1</text><text x=\"48\" y=\"447\" class=\"v-text v-small v-b v-mid\">antigen</text><text x=\"48\" y=\"461\" class=\"v-text v-small v-mid\">coats the well</text><polygon points=\"30,415 37,422 30,429 23,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><polygon points=\"66,415 73,422 66,429 59,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"96\" y1=\"430\" x2=\"176\" y2=\"430\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"98\" y=\"333\" class=\"v-text v-small v-b v-muted\">2</text><text x=\"136\" y=\"447\" class=\"v-text v-small v-b v-mid\">+ serum,</text><text x=\"136\" y=\"461\" class=\"v-text v-small v-mid\">then wash</text><polygon points=\"118,415 125,422 118,429 111,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"110\" y1=\"417\" x2=\"118\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"126\" y1=\"417\" x2=\"118\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"118\" y1=\"406\" x2=\"118\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><polygon points=\"154,415 161,422 154,429 147,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"146\" y1=\"417\" x2=\"154\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"162\" y1=\"417\" x2=\"154\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"154\" y1=\"406\" x2=\"154\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"184\" y1=\"430\" x2=\"264\" y2=\"430\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"186\" y=\"333\" class=\"v-text v-small v-b v-muted\">3</text><text x=\"224\" y=\"447\" class=\"v-text v-small v-b v-mid\">+ enzyme</text><text x=\"224\" y=\"461\" class=\"v-text v-small v-mid\">anti-IgG</text><polygon points=\"206,415 213,422 206,429 199,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"198\" y1=\"417\" x2=\"206\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"214\" y1=\"417\" x2=\"206\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"206\" y1=\"406\" x2=\"206\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"198\" y1=\"389\" x2=\"206\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"214\" y1=\"389\" x2=\"206\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"206\" y1=\"378\" x2=\"206\" y2=\"363\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"197\" y=\"348\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"206\" y=\"359.5\" class=\"v-text v-small v-b v-mid\">E</text><polygon points=\"242,415 249,422 242,429 235,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"234\" y1=\"417\" x2=\"242\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"250\" y1=\"417\" x2=\"242\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"242\" y1=\"406\" x2=\"242\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"234\" y1=\"389\" x2=\"242\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"250\" y1=\"389\" x2=\"242\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"242\" y1=\"378\" x2=\"242\" y2=\"363\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"233\" y=\"348\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"242\" y=\"359.5\" class=\"v-text v-small v-b v-mid\">E</text><line x1=\"272\" y1=\"430\" x2=\"352\" y2=\"430\" class=\"v-line\" style=\"stroke-width:3\"/><text x=\"274\" y=\"333\" class=\"v-text v-small v-b v-muted\">4</text><text x=\"312\" y=\"447\" class=\"v-text v-small v-b v-mid\">+ substrate</text><text x=\"312\" y=\"461\" class=\"v-text v-small v-mid\">→ color</text><polygon points=\"294,415 301,422 294,429 287,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"286\" y1=\"417\" x2=\"294\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"302\" y1=\"417\" x2=\"294\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"294\" y1=\"406\" x2=\"294\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"286\" y1=\"389\" x2=\"294\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"302\" y1=\"389\" x2=\"294\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"294\" y1=\"378\" x2=\"294\" y2=\"363\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"285\" y=\"348\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"294\" y=\"359.5\" class=\"v-text v-small v-b v-mid\">E</text><circle cx=\"278\" cy=\"349\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"310\" cy=\"347\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"280\" cy=\"363\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"308\" cy=\"363\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"292\" cy=\"339\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"301\" cy=\"334\" r=\"3\" class=\"v-fill-2\"/><polygon points=\"330,415 337,422 330,429 323,422\" class=\"v-line v-fill-4\" style=\"stroke-width:1.25\"/><line x1=\"322\" y1=\"417\" x2=\"330\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"338\" y1=\"417\" x2=\"330\" y2=\"406\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"330\" y1=\"406\" x2=\"330\" y2=\"391\" class=\"v-line\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"322\" y1=\"389\" x2=\"330\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"338\" y1=\"389\" x2=\"330\" y2=\"378\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><line x1=\"330\" y1=\"378\" x2=\"330\" y2=\"363\" class=\"v-line v-stroke-5\" style=\"stroke-width:3;stroke-linecap:round\"/><rect x=\"321\" y=\"348\" width=\"18\" height=\"15\" rx=\"3\" class=\"v-tint-2\"/><text x=\"330\" y=\"359.5\" class=\"v-text v-small v-b v-mid\">E</text><circle cx=\"314\" cy=\"349\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"346\" cy=\"347\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"316\" cy=\"363\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"344\" cy=\"363\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"323\" cy=\"336\" r=\"3\" class=\"v-fill-2\"/><circle cx=\"337\" cy=\"334\" r=\"3\" class=\"v-fill-2\"/></g>",
+   "steps": [
+    {
+     "caption": "In a **sandwich ELISA**, the well is coated with a **capture antibody** specific for the antigen to be measured.",
+     "show": [
+      "s1"
+     ],
+     "hl": [
+      "s1"
+     ]
+    },
+    {
+     "caption": "The patient sample is added. Antigen, if present, is caught by the capture antibody; a wash then removes everything unbound.",
+     "show": [
+      "s1",
+      "s2"
+     ],
+     "hl": [
+      "s2"
+     ]
+    },
+    {
+     "caption": "An **enzyme-labeled detection antibody** (E) binds another site on the antigen, completing the sandwich. A second wash removes unbound labeled antibody, so enzyme stays only where antigen was caught.",
+     "show": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "hl": [
+      "s3"
+     ]
+    },
+    {
+     "caption": "Substrate is added and the enzyme turns it into a colored product. The color is **directly proportional** to the amount of antigen in the sample.",
+     "show": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "graph",
+      "graph-ar"
+     ],
+     "hl": [
+      "s4",
+      "graph"
+     ]
+    },
+    {
+     "caption": "An **indirect ELISA** measures antibody instead (for example, HIV antibody screening). The well is coated with antigen, patient antibody binds it, and an **enzyme-labeled anti-human IgG** detects the bound patient antibody.",
+     "show": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "graph",
+      "ind",
+      "graph-ar"
+     ],
+     "hl": [
+      "ind"
+     ]
+    },
+    {
+     "caption": "**To remember:** sandwich = capture antibody, antigen, enzyme-labeled antibody, so it measures **antigen**. Indirect = antigen, patient antibody, enzyme-labeled anti-IgG, so it measures **antibody**. Wash between every layer.",
+     "show": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "graph",
+      "ind",
+      "graph-ar"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Top row, sandwich ELISA in four panels: 1, capture antibodies coat the well; 2, sample antigen (diamonds) binds them, then a wash; 3, enzyme-labeled detection antibodies (marked E) bind the antigen, then a wash; 4, substrate is added and colored product forms around each enzyme. A small graph shows color rising in direct proportion to the amount of antigen. Bottom row, indirect ELISA: 1, antigen coats the well; 2, patient serum antibody binds, then a wash; 3, enzyme-labeled anti-human IgG binds the patient antibody, then a wash; 4, substrate gives color.",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  },
+  {
+   "id": "bb-hbv-markers",
+   "type": "svg",
+   "subject": "BB",
+   "tos": [
+    "BB-H.2",
+    "BB-C.2"
+   ],
+   "title": "Hepatitis B serologic markers",
+   "keywords": [
+    "hbsag",
+    "hbeag",
+    "anti-hbs",
+    "anti-hbc",
+    "anti-hbe",
+    "hepatitis b",
+    "core window"
+   ],
+   "viewBox": "0 0 360 506",
+   "svg": "<g><text x=\"8\" y=\"22\" class=\"v-text v-b\">Hepatitis B: acute infection that resolves</text><text x=\"352\" y=\"64\" class=\"v-text v-small v-b v-muted v-end\">Viral antigens</text><text x=\"48\" y=\"168\" class=\"v-text v-small v-b v-muted\">Antibodies</text><line x1=\"46\" y1=\"140\" x2=\"262.5\" y2=\"140\" class=\"v-line\"/><line x1=\"46\" y1=\"140\" x2=\"46\" y2=\"46\" class=\"v-line\"/><line x1=\"46\" y1=\"320\" x2=\"262.5\" y2=\"320\" class=\"v-line\"/><line x1=\"46\" y1=\"320\" x2=\"46\" y2=\"174\" class=\"v-line\"/><text x=\"40\" y=\"138\" class=\"v-text v-small v-muted v-end\">0</text><text x=\"40\" y=\"318\" class=\"v-text v-small v-muted v-end\">0</text><text x=\"260.5\" y=\"354\" class=\"v-text v-small v-muted v-end\">time after exposure →</text></g><g data-k=\"win\"><line x1=\"131.8\" y1=\"50\" x2=\"131.8\" y2=\"320\" class=\"v-thin v-dash\"/><line x1=\"159.1\" y1=\"50\" x2=\"159.1\" y2=\"320\" class=\"v-thin v-dash\"/><rect x=\"131.8\" y=\"324\" width=\"27.3\" height=\"10\" rx=\"0\" class=\"v-hatch\"/><text x=\"145.4\" y=\"40\" class=\"v-text v-small v-b v-mid\">window</text></g><g data-k=\"ag\"><polyline points=\"57.7,140 59.6,140 61.6,140 63.5,138.7 65.5,135.1 67.5,129.6 69.4,122.6 71.3,114.3 73.3,105.4 75.2,96 77.2,86.6 79.2,77.7 81.1,69.4 83,62.4 85,56.9 86.9,53.3 88.9,52 90.8,52 92.8,52 94.8,52 96.7,52 98.7,52 100.6,52 102.5,52 104.5,52 106.4,53.3 108.4,56.9 110.3,62.4 112.3,69.4 114.2,77.7 116.2,86.6 118.1,96 120.1,105.4 122,114.3 124,122.6 126,129.6 127.9,135.1 129.8,138.7 131.8,140 133.8,140 135.7,140 137.6,140 139.6,140\" class=\"v-line v-stroke-1\" style=\"stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round\"/><polyline points=\"65.5,140 67.5,140 69.4,140 71.3,138.1 73.3,133.1 75.2,125.9 77.2,117.2 79.2,108.2 81.1,99.6 83,92.3 85,87.3 86.9,85.4 88.9,85.4 90.8,85.4 92.8,86.7 94.8,90.2 96.7,95.4 98.7,101.8 100.6,109 102.5,116.4 104.5,123.6 106.4,130 108.4,135.2 110.3,138.7 112.3,140 114.2,140 116.2,140\" class=\"v-line v-stroke-2 v-dash\" style=\"stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round\"/><text x=\"96.7\" y=\"47\" class=\"v-text v-small v-b v-mid\">HBsAg</text><text x=\"172\" y=\"108\" class=\"v-text v-small v-b\">HBeAg</text><line x1=\"168\" y1=\"104\" x2=\"106.5\" y2=\"123.6\" class=\"v-thin\"/></g><g data-k=\"core\"><polyline points=\"73.3,320 75.2,320 77.2,320 79.2,319.2 81.1,316.7 83,312.9 85,307.8 86.9,301.6 88.9,294.4 90.8,286.5 92.8,277.9 94.8,268.9 96.7,259.5 98.7,250 100.6,240.5 102.5,231.1 104.5,222.1 106.4,213.5 108.4,205.6 110.3,198.4 112.3,192.2 114.2,187.1 116.2,183.3 118.1,180.8 120.1,180 122,180 124,180 126,180 127.9,180 129.8,180 131.8,180 133.8,180 135.7,180 137.6,180 139.6,180 141.6,180 143.5,180 145.4,180 147.4,180 149.3,180 151.3,180 153.2,180 155.2,180 157.1,180 159.1,180 161.1,180 163,180 164.9,180 166.9,180 168.8,180 170.8,180 172.8,180 174.7,180 176.7,180 178.6,180 180.5,180 182.5,180 184.4,180 186.4,180 188.3,180 190.3,180 192.2,180 194.2,180 196.2,180 198.1,180 200,180 202,180 203.9,180 205.9,180 207.8,180 209.8,180 211.8,180 213.7,180 215.7,180 217.6,180 219.5,180 221.5,180 223.4,180 225.4,180 227.3,180 229.3,180 231.2,180 233.2,180 235.2,180 237.1,180 239,180 241,180 242.9,180 244.9,180 246.8,180 248.8,180 250.8,180 252.7,180 254.7,180 256.6,180 258.5,180 260.5,180\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round\"/><polyline points=\"73.3,320 75.2,320 77.2,320 79.2,318.3 81.1,313.8 83,306.9 85,298.2 86.9,288.4 88.9,278 90.8,267.6 92.8,257.8 94.8,249.1 96.7,242.2 98.7,237.7 100.6,236 102.5,236 104.5,236 106.4,236 108.4,236 110.3,236.1 112.3,236.4 114.2,236.9 116.2,237.7 118.1,238.5 120.1,239.6 122,240.8 124,242.2 126,243.8 127.9,245.4 129.8,247.2 131.8,249.1 133.8,251.1 135.7,253.3 137.6,255.5 139.6,257.8 141.6,260.1 143.5,262.6 145.4,265.1 147.4,267.6 149.3,270.2 151.3,272.8 153.2,275.4 155.2,278 157.1,280.6 159.1,283.2 161.1,285.8 163,288.4 164.9,290.9 166.9,293.4 168.8,295.9 170.8,298.2 172.8,300.5 174.7,302.7 176.7,304.9 178.6,306.9 180.5,308.8 182.5,310.6 184.4,312.2 186.4,313.8 188.3,315.2 190.3,316.4 192.2,317.5 194.2,318.3 196.2,319.1 198.1,319.6 200,319.9 202,320 203.9,320 205.9,320 207.8,320 209.8,320\" class=\"v-line v-stroke-5 v-dot\" style=\"stroke-width:3;stroke-linecap:round\"/><text x=\"264.5\" y=\"184\" class=\"v-text v-small v-b\">total anti-HBc</text><text x=\"208\" y=\"312\" class=\"v-text v-small v-b\">IgM anti-HBc</text></g><g data-k=\"hbe\"><polyline points=\"104.5,320 106.4,320 108.4,320 110.3,319.5 112.3,318.2 114.2,316.1 116.2,313.3 118.1,309.9 120.1,306.1 122,301.9 124,297.3 126,292.6 127.9,287.8 129.8,283 131.8,278.3 133.8,273.7 135.7,269.5 137.6,265.7 139.6,262.3 141.6,259.5 143.5,257.4 145.4,256.1 147.4,255.6 149.3,255.6 151.3,255.6 153.2,255.6 155.2,255.6 157.1,255.6 159.1,255.7 161.1,255.7 163,255.9 164.9,256 166.9,256.2 168.8,256.3 170.8,256.6 172.8,256.8 174.7,257.1 176.7,257.3 178.6,257.6 180.5,258 182.5,258.3 184.4,258.6 186.4,259 188.3,259.4 190.3,259.8 192.2,260.2 194.2,260.6 196.2,261 198.1,261.4 200,261.9 202,262.3 203.9,262.8 205.9,263.2 207.8,263.6 209.8,264.1 211.8,264.5 213.7,265 215.7,265.4 217.6,265.9 219.5,266.3 221.5,266.7 223.4,267.1 225.4,267.5 227.3,267.9 229.3,268.3 231.2,268.7 233.2,269 235.2,269.3 237.1,269.7 239,270 241,270.2 242.9,270.5 244.9,270.7 246.8,271 248.8,271.1 250.8,271.3 252.7,271.4 254.7,271.6 256.6,271.6 258.5,271.7 260.5,271.7\" class=\"v-line v-stroke-2 v-dash\" style=\"stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round\"/><text x=\"264.5\" y=\"275.7\" class=\"v-text v-small v-b\">anti-HBe</text></g><g data-k=\"hbs\"><polyline points=\"155.2,320 157.1,320 159.1,320 161.1,319.4 163,317.6 164.9,314.7 166.9,311 168.8,306.4 170.8,301.1 172.8,295.2 174.7,288.9 176.7,282.2 178.6,275.2 180.5,268.2 182.5,261.2 184.4,254.2 186.4,247.5 188.3,241.2 190.3,235.3 192.2,230 194.2,225.4 196.2,221.7 198.1,218.8 200,217 202,216.4 203.9,216.4 205.9,216.4 207.8,216.4 209.8,216.4 211.8,216.4 213.7,216.4 215.7,216.4 217.6,216.4 219.5,216.4 221.5,216.4 223.4,216.4 225.4,216.4 227.3,216.4 229.3,216.4 231.2,216.4 233.2,216.4 235.2,216.4 237.1,216.4 239,216.4 241,216.4 242.9,216.4 244.9,216.4 246.8,216.4 248.8,216.4 250.8,216.4 252.7,216.4 254.7,216.4 256.6,216.4 258.5,216.4 260.5,216.4\" class=\"v-line v-stroke-1\" style=\"stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round\"/><text x=\"264.5\" y=\"220.4\" class=\"v-text v-small v-b\">anti-HBs</text></g><g data-k=\"tbl\"><text x=\"8\" y=\"384\" class=\"v-text v-b\">Which markers are positive?</text><rect x=\"8\" y=\"394\" width=\"344\" height=\"104\" rx=\"0\" class=\"v-box\"/><text x=\"16\" y=\"412\" class=\"v-text v-small v-b\">Marker</text><text x=\"199\" y=\"412\" class=\"v-text v-small v-b v-mid\">Recovered</text><line x1=\"8\" y1=\"420\" x2=\"352\" y2=\"420\" class=\"v-thin\"/><text x=\"16\" y=\"438\" class=\"v-text v-small\">HBsAg</text><text x=\"199\" y=\"438\" class=\"v-text v-muted v-mid\">−</text><line x1=\"8\" y1=\"446\" x2=\"352\" y2=\"446\" class=\"v-thin\"/><text x=\"16\" y=\"464\" class=\"v-text v-small\">total anti-HBc</text><text x=\"199\" y=\"464\" class=\"v-text v-b v-mid\">+</text><line x1=\"8\" y1=\"472\" x2=\"352\" y2=\"472\" class=\"v-thin\"/><text x=\"16\" y=\"490\" class=\"v-text v-small\">anti-HBs</text><text x=\"199\" y=\"490\" class=\"v-text v-b v-mid\">+</text><line x1=\"148\" y1=\"394\" x2=\"148\" y2=\"498\" class=\"v-thin\"/><g data-k=\"vacc\"><rect x=\"250\" y=\"394\" width=\"102\" height=\"104\" rx=\"0\" class=\"v-tint-1\"/><text x=\"301\" y=\"412\" class=\"v-text v-small v-b v-mid\">Vaccinated</text><line x1=\"250\" y1=\"420\" x2=\"352\" y2=\"420\" class=\"v-thin\"/><text x=\"301\" y=\"438\" class=\"v-text v-muted v-mid\">−</text><line x1=\"250\" y1=\"446\" x2=\"352\" y2=\"446\" class=\"v-thin\"/><text x=\"301\" y=\"464\" class=\"v-text v-muted v-mid\">−</text><line x1=\"250\" y1=\"472\" x2=\"352\" y2=\"472\" class=\"v-thin\"/><text x=\"301\" y=\"490\" class=\"v-text v-b v-mid\">+</text></g></g>",
+   "steps": [
+    {
+     "caption": "In acute hepatitis B, **HBsAg** is the first serologic marker to appear, before symptoms. **HBeAg** follows; it marks active viral replication and high infectivity.",
+     "show": [
+      "ag"
+     ],
+     "hl": [
+      "ag"
+     ]
+    },
+    {
+     "caption": "**Anti-HBc** appears around the time symptoms start. The IgM form marks recent infection and fades over months; total anti-HBc stays for life after any infection.",
+     "show": [
+      "ag",
+      "core"
+     ],
+     "hl": [
+      "core"
+     ]
+    },
+    {
+     "caption": "As HBeAg disappears, **anti-HBe** appears. This seroconversion means replication and infectivity are falling.",
+     "show": [
+      "ag",
+      "core",
+      "hbe"
+     ],
+     "hl": [
+      "hbe"
+     ]
+    },
+    {
+     "caption": "The **core window**: HBsAg has gone but anti-HBs is not yet detectable, so **anti-HBc (IgM)** is the only marker of recent infection; anti-HBe may also be present. Do not confuse it with the donor-screening window period, the early time before HBsAg is detectable.",
+     "show": [
+      "ag",
+      "core",
+      "hbe",
+      "win"
+     ],
+     "hl": [
+      "win",
+      "core"
+     ]
+    },
+    {
+     "caption": "**Anti-HBs** appears after HBsAg is gone and persists: it marks recovery and immunity.",
+     "show": [
+      "ag",
+      "core",
+      "hbe",
+      "win",
+      "hbs"
+     ],
+     "hl": [
+      "hbs"
+     ]
+    },
+    {
+     "caption": "**To remember:** after recovery, anti-HBc and anti-HBs are both positive. A **vaccinated** person has anti-HBs only, because the vaccine contains only HBsAg.",
+     "show": [
+      "ag",
+      "core",
+      "hbe",
+      "win",
+      "hbs",
+      "tbl"
+     ],
+     "hl": [
+      "vacc"
+     ]
+    }
+   ],
+   "alt": "Schematic curves over time after exposure, no numbers. Viral antigens: HBsAg appears first, rises and falls; HBeAg appears just after it and disappears sooner. Antibodies: total anti-HBc rises around symptom onset and stays for life; IgM anti-HBc rises at the same time, then fades over months; anti-HBe appears as HBeAg disappears and persists at a lower level; anti-HBs appears last, after HBsAg is gone, and persists. A dashed band marks the core window between the loss of HBsAg and the appearance of anti-HBs, when IgM anti-HBc is the marker of recent infection. A table compares recovered infection (HBsAg negative, total anti-HBc positive, anti-HBs positive) with vaccination (anti-HBs positive only).",
+   "source": "Original diagram. Facts per Harmening, Modern Blood Banking & Transfusion Practices 7e; AABB Technical Manual; Stevens, Clinical Immunology & Serology 5e; Turgeon, Immunology & Serology in Laboratory Medicine."
+  }
+ ]
+}

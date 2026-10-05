@@ -1427,6 +1427,729 @@
     "3": "Weak D affects Rh typing and anti-D, not ABO incompatibility."
    },
    "ref": "AABB Technical Manual, 21st ed., quality management and hemovigilance chapters; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Quality management chapter"
+  },
+  {
+   "id": "BB-0067",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 70-year-old man with colon cancer and gram-negative sepsis has always typed as group A. His red cells now react 4+ with anti-A and 1+ with a monoclonal anti-B reagent. His plasma agglutinates B cells 4+, does not react with A1 cells, and his autologous control is negative. The most likely cause of the weak anti-B reaction is:",
+   "options": [
+    "An inherited B(A) phenotype from an unusual B transferase",
+    "Chimerism from an exchange of blood cells with a twin",
+    "T activation of his red cells by bacterial neuraminidase",
+    "Bacterial deacetylation of his A antigen (acquired B)"
+   ],
+   "answer": 3,
+   "why": "Bacterial deacetylase enzymes remove the acetyl group from N-acetylgalactosamine, the A-specific sugar, leaving galactosamine, which resembles D-galactose and is recognized by some anti-B reagents. **His own plasma anti-B does not agglutinate his cells (negative autocontrol)**, which is typical of acquired B in a group A1 patient with colorectal disease or gram-negative infection.",
+   "whyNot": {
+    "0": "B(A) individuals are group B whose cells react weakly with some monoclonal anti-A; this patient is a lifelong group A whose new reaction is with anti-B.",
+    "1": "Twin chimerism is present from birth and gives mixed-field reactions; it would not appear suddenly in an elderly patient with sepsis.",
+    "2": "T-activated cells are agglutinated by the anti-T found in human sera, not by monoclonal anti-B reagents, so T activation does not explain this forward-typing result."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (acquired B phenotype); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0068",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Reverse (serum or plasma) ABO grouping is not required for infants younger than 4 months. The main reason is that:",
+   "options": [
+    "The infant has not yet made its own anti-A and anti-B",
+    "Newborn red cells carry no A or B antigens until about 6 months",
+    "Fetal hemoglobin interferes with agglutination in the reverse grouping",
+    "An infant's own anti-A and anti-B are IgG and do not agglutinate"
+   ],
+   "answer": 0,
+   "why": "ABO antibodies are formed in response to A- and B-like substances in the environment and usually become detectable only at about 3 to 6 months of age. Any anti-A or anti-B in a newborn is **maternal IgG that crossed the placenta**, so it does not reflect the infant's own ABO group, and only forward grouping is performed.",
+   "whyNot": {
+    "1": "A and B antigens are present on newborn red cells, though less developed than in adults, so forward grouping is still performed.",
+    "2": "Fetal hemoglobin is inside the red cells and has no effect on reverse grouping, which tests the plasma against reagent red cells.",
+    "3": "When the infant's own ABO antibodies develop they are mainly IgM; the IgG anti-A,B seen in newborns comes from the mother."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter; AABB Technical Manual, 21st ed. (pretransfusion testing of infants under 4 months)"
+  },
+  {
+   "id": "BB-0069",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which description fits most clinically significant antibodies of the Rh blood group system?",
+   "options": [
+    "IgM antibodies that react best at room temperature and are destroyed by enzymes",
+    "IgG antibodies that react at 37 °C or AHG and seldom activate complement",
+    "IgG antibodies that bind complement and usually cause intravascular hemolysis",
+    "IgM antibodies that occur naturally without prior red cell exposure"
+   ],
+   "answer": 1,
+   "why": "Rh antibodies are almost always immune, formed after transfusion or pregnancy, and are IgG antibodies detected at 37 °C or in the antiglobulin phase, often enhanced by enzyme-treated cells. Because **they generally do not activate complement**, red cells they coat are removed extravascularly by macrophages in the spleen.",
+   "whyNot": {
+    "0": "This describes antibodies such as anti-M or anti-N; Rh antibodies are IgG and their reactions are enhanced, not destroyed, by enzymes.",
+    "2": "Complement binding and intravascular hemolysis are typical of ABO and some Kidd antibodies, not Rh antibodies.",
+    "3": "Naturally occurring IgM antibodies are characteristic of the ABO system; Rh antibodies usually require exposure to foreign red cells."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0070",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A donor's red cells do not react with anti-D at immediate spin but react 2+ when the weak D test is carried to the antiglobulin phase. Under AABB Standards, the red cell unit should be labeled:",
+   "options": [
+    "D-negative (Rh-negative)",
+    "Weak D, for weak D recipients only",
+    "Unsuitable for transfusion",
+    "D-positive (Rh-positive)"
+   ],
+   "answer": 3,
+   "why": "Donor units are tested by a method that detects weak D because even weakly expressed D antigen can immunize a D-negative recipient. A donor whose cells react only in the weak D test is therefore **labeled D-positive**, so the unit will not be given to D-negative patients.",
+   "whyNot": {
+    "0": "Labeling the unit D-negative could expose a D-negative recipient to D antigen and cause anti-D formation; treating weak D as D-negative applies to some patients, not to donors.",
+    "1": "There is no separate weak D label for donor units; the unit is simply labeled D-positive.",
+    "2": "A weak D donor is a healthy donor, and the unit is fully usable for D-positive recipients."
+   },
+   "ref": "AABB Technical Manual, 21st ed.; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (weak D testing of donors). Value per AABB Standards; PH DOH/NVBSP may specify their own."
+  },
+  {
+   "id": "BB-0071",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient scheduled for elective hip surgery in 3 weeks wants to donate autologous blood. AABB sets a minimum hemoglobin of 11 g/dL for autologous donors. Which finding should defer her from donating today?",
+   "options": [
+    "A current bacterial infection with fever",
+    "An age of 74 years",
+    "A hemoglobin of 11.6 g/dL",
+    "An autologous unit collected 7 days earlier"
+   ],
+   "answer": 0,
+   "why": "Autologous donors may be older, smaller, or more anemic than allogeneic donors, and many criteria are relaxed. A key exclusion is **any condition that could cause bacteremia**, because bacteria that enter the unit can multiply during storage and cause a septic reaction when the blood is returned to the patient.",
+   "whyNot": {
+    "1": "There is no upper age limit for autologous donation; the patient's physician decides whether she can tolerate collection.",
+    "2": "A hemoglobin of 11.6 g/dL meets the 11 g/dL minimum stated in the question.",
+    "3": "Autologous donors may give more often than allogeneic donors, as long as the hemoglobin requirement is met and the last collection is at least 72 hours before surgery."
+   },
+   "ref": "AABB Technical Manual, 21st ed.; Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., donor selection chapter (autologous donation). Value per AABB Standards; PH DOH/NVBSP may specify their own."
+  },
+  {
+   "id": "BB-0072",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A whole blood bag designed for 450 mL of blood with 63 mL of anticoagulant is removed from the donor after only 330 mL has been collected. The red cells may be kept as a low-volume unit, but plasma and platelets should not be prepared from it. Why?",
+   "options": [
+    "There is too little citrate to stop the unit from clotting",
+    "Adenine is too dilute to preserve the coagulation factors",
+    "The plasma contains too much citrate for its volume",
+    "Underfilled bags are more often contaminated by skin bacteria"
+   ],
+   "answer": 2,
+   "why": "The anticoagulant volume in the bag is set for a full collection, so a short draw leaves **an abnormally high ratio of anticoagulant to blood**. Plasma from such a unit is diluted and carries excess citrate, so only the red cells are used, labeled as a low-volume unit.",
+   "whyNot": {
+    "0": "An underfilled bag has relatively more anticoagulant, not less; clotting is a concern with overfilled bags.",
+    "1": "Adenine supports red cell ATP production and has no role in preserving coagulation factors in plasma.",
+    "3": "Bacterial contamination comes mainly from donor skin or bacteremia and does not depend on how full the bag is."
+   },
+   "ref": "AABB Technical Manual, 21st ed. (low-volume units); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., donor collection and blood preservation chapters. Value per AABB Standards; PH DOH/NVBSP may specify their own."
+  },
+  {
+   "id": "BB-0073",
+   "tos": "BB-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Red cells frozen with a high concentration of glycerol are deglycerolized before transfusion by washing with saline solutions of decreasing concentration (for example, 12%, then 1.6%, then 0.9% NaCl). This stepwise approach is used mainly to:",
+   "options": [
+    "Prevent osmotic lysis of glycerol-loaded red cells",
+    "Restore 2,3-DPG lost during frozen storage",
+    "Remove cold agglutinins bound during freezing",
+    "Warm the cells slowly to avoid cold hemolysis"
+   ],
+   "answer": 0,
+   "why": "Glycerol enters the red cells during freezing. If thawed cells were placed directly in isotonic saline, water would rush into the glycerol-laden cells and lyse them, so **glycerol is removed gradually by stepping down the external osmolality**. The washing also removes most plasma, leukocytes, and free hemoglobin.",
+   "whyNot": {
+    "1": "Frozen storage essentially halts metabolism, so 2,3-DPG is preserved at about its level at the time of freezing rather than lost.",
+    "2": "Freezing does not cause cold agglutinins to bind, and saline washing steps are not designed to remove antibodies from the cells.",
+    "3": "Thawing is done separately in a 37 °C water bath or dry warmer; the saline series addresses osmotic stress, not temperature."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., blood preservation chapter (frozen red cells); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0074",
+   "tos": "BB-B.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A 2.0-kg neonate has a hematocrit of 24%. The neonatologist wants to raise it to 39% using a red cell unit with a hematocrit of 60%. Assuming a blood volume of 90 mL/kg, about how much of the unit should be transfused?",
+   "options": [
+    "27 mL",
+    "69 mL",
+    "45 mL",
+    "117 mL"
+   ],
+   "answer": 2,
+   "why": "Blood volume = 2.0 kg × 90 mL/kg = 180 mL. Volume to transfuse = blood volume × (desired Hct − current Hct) ÷ Hct of the unit = 180 × (39 − 24) ÷ 60 = **45 mL**.",
+   "whyNot": {
+    "0": "27 mL (180 × 0.15) forgets to divide by the unit hematocrit, as if the unit were pure red cells.",
+    "1": "69 mL divides by the desired hematocrit (39%) instead of the hematocrit of the unit (60%).",
+    "3": "117 mL multiplies by the desired hematocrit (39%) instead of the needed rise of 15 percentage points."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., blood component therapy chapter (neonatal and pediatric transfusion); AABB Technical Manual, 21st ed.",
+   "worked": {
+    "problem": "A 3.0-kg infant has a hematocrit of 28%. The goal is a hematocrit of 40%, and the red cell unit has a hematocrit of 70%. Assume a blood volume of 85 mL/kg. How much should be transfused?",
+    "steps": [
+     "Estimate blood volume: 3.0 kg × 85 mL/kg = 255 mL.",
+     "Find the needed rise in hematocrit: 40% − 28% = 12 percentage points.",
+     "Volume = blood volume × rise ÷ unit Hct = 255 × 12 ÷ 70 = 43.7 mL."
+    ],
+    "result": "About 44 mL of red cells."
+   }
+  },
+  {
+   "id": "BB-0075",
+   "tos": "BB-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Prestorage leukoreduction of red cells and platelets is used mainly to reduce the risk of:",
+   "options": [
+    "Graft-versus-host disease in immunocompromised recipients",
+    "Anaphylaxis in IgA-deficient patients who have anti-IgA",
+    "Circulatory overload in patients with heart failure",
+    "Febrile reactions, HLA alloimmunization, and CMV transmission"
+   ],
+   "answer": 3,
+   "why": "Filtering out white cells soon after collection removes the leukocytes whose cytokines and HLA antigens cause **febrile nonhemolytic reactions and HLA alloimmunization**, a major cause of platelet refractoriness. Because CMV resides in leukocytes, leukoreduction also lowers the risk of CMV transmission.",
+   "whyNot": {
+    "0": "The few viable lymphocytes left after filtration can still cause TA-GVHD; irradiation is used to prevent it.",
+    "1": "Leukoreduction does not remove plasma proteins such as IgA; washed or IgA-deficient components are needed.",
+    "2": "Circulatory overload depends on the volume and rate of transfusion, which leukoreduction does not change."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., blood component preparation chapter (leukocyte reduction); AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0076",
+   "tos": "BB-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 79-year-old woman with heart failure receives 2 red cell units over 3 hours. Near the end of the second unit she becomes short of breath, with a blood pressure of 182/100 mm Hg, distended neck veins, and bilateral crackles. Her BNP is much higher than before transfusion, and she improves after intravenous furosemide. The most likely diagnosis is:",
+   "options": [
+    "Transfusion-related acute lung injury (TRALI)",
+    "Transfusion-associated circulatory overload (TACO)",
+    "Anaphylactic transfusion reaction",
+    "Acute hemolytic transfusion reaction"
+   ],
+   "answer": 1,
+   "why": "TACO occurs when the volume or rate of transfusion exceeds what the circulation can handle, causing hydrostatic pulmonary edema; elderly patients and those with cardiac or renal disease are at highest risk. **Hypertension, a rising BNP, and a prompt response to diuretics** point to volume overload rather than TRALI.",
+   "whyNot": {
+    "0": "TRALI is a noncardiogenic, permeability edema that typically causes hypotension and fever and does not improve with diuretics.",
+    "2": "Anaphylaxis presents with hypotension, bronchospasm, and often urticaria, not hypertension with distended neck veins.",
+    "3": "An acute hemolytic reaction causes fever, chills, hypotension, hemoglobinuria, and pain rather than isolated volume overload that responds to diuretics."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., adverse effects of blood transfusion chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0077",
+   "tos": "BB-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient who received 2 red cell units 3 weeks ago now needs another transfusion. Under AABB Standards, which sample is acceptable for the antibody screen and crossmatch?",
+   "options": [
+    "A sample collected no more than 3 days before the transfusion",
+    "A sample collected no more than 7 days before the transfusion",
+    "The sample that was tested for the transfusion 3 weeks ago",
+    "Any sample collected during the patient's current admission"
+   ],
+   "answer": 0,
+   "why": "Transfusion or pregnancy within the past 3 months can stimulate new or anamnestic antibodies that appear within days. For these patients AABB requires **a sample collected within 3 days of the scheduled transfusion** (the day of collection is day 0), so testing reflects the antibodies currently present.",
+   "whyNot": {
+    "1": "A 7-day-old sample could miss an antibody that has formed since collection in a recently transfused patient.",
+    "2": "A sample taken before the last transfusion cannot detect antibodies stimulated by those red cells.",
+    "3": "An admission can last weeks, and an older sample from it may not reflect newly formed antibodies."
+   },
+   "ref": "AABB Technical Manual, 21st ed. (pretransfusion sample requirements); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., compatibility testing chapter. Value per AABB Standards; PH DOH/NVBSP may specify their own."
+  },
+  {
+   "id": "BB-0078",
+   "tos": "BB-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A DAT with polyspecific AHG is ordered for a patient with suspected cold agglutinin disease. Why is a sample collected in EDTA preferred over a clotted sample?",
+   "options": [
+    "EDTA keeps bound IgG from eluting off the cells during storage",
+    "EDTA inactivates cold autoantibodies so they cannot agglutinate",
+    "Fibrin in clotted samples neutralizes the antiglobulin reagent",
+    "EDTA chelates calcium and blocks in vitro complement binding"
+   ],
+   "answer": 3,
+   "why": "Cold autoantibodies can bind red cells as a clotted sample cools and activate complement, coating the cells with C3 in the tube. Complement activation needs calcium and magnesium, so **EDTA prevents this in vitro C3 uptake**, and a positive DAT then reflects coating that occurred in the patient.",
+   "whyNot": {
+    "0": "EDTA has no effect on whether IgG dissociates from red cells; its value lies in stopping complement activation.",
+    "1": "EDTA does not inactivate antibodies; cold autoantibodies can still bind, but without calcium they cannot activate complement.",
+    "2": "AHG is neutralized by unbound serum globulin left after inadequate washing, not by fibrin."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., antiglobulin test chapter; AABB Technical Manual, 21st ed. (DAT specimen requirements)"
+  },
+  {
+   "id": "BB-0079",
+   "tos": "BB-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Compared with HDFN caused by anti-D, HDFN caused by ABO antibodies:",
+   "options": [
+    "Usually causes severe anemia and hydrops fetalis",
+    "Typically gives a strongly positive DAT on cord cells",
+    "Can occur in a first pregnancy, mainly with group O mothers",
+    "Can be prevented with antenatal Rh immune globulin"
+   ],
+   "answer": 2,
+   "why": "Group O people often have IgG anti-A,B formed without prior red cell exposure, so **ABO HDFN can occur in a first pregnancy**. It is usually mild, with a weak or negative DAT, because A and B antigens are poorly developed on fetal red cells and A and B substances in fetal tissues absorb much of the antibody.",
+   "whyNot": {
+    "0": "ABO HDFN is usually mild, needing at most phototherapy; hydrops is characteristic of severe anti-D disease.",
+    "1": "The DAT in ABO HDFN is often weak or negative because fetal cells carry few A and B sites.",
+    "3": "Rh immune globulin contains only anti-D and prevents D alloimmunization; it has no effect on ABO antibodies."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., hemolytic disease of the fetus and newborn chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0080",
+   "tos": "BB-E.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 4-year-old develops sudden hemoglobinuria and anemia one week after a viral upper respiratory infection. The DAT is positive with anti-C3d only. When his serum and group O red cells are incubated first at 4 °C and then at 37 °C, hemolysis occurs; no hemolysis occurs in a tube kept only at 37 °C. The antibody most likely is:",
+   "options": [
+    "A monophasic IgM with anti-I specificity",
+    "A biphasic IgG with anti-P specificity",
+    "A warm-reactive IgG with Rh-related specificity",
+    "A cold-reactive IgM with anti-i specificity"
+   ],
+   "answer": 1,
+   "why": "This is paroxysmal cold hemoglobinuria. The **Donath-Landsteiner antibody is a biphasic IgG hemolysin with anti-P specificity**: it binds red cells and fixes early complement components in the cold, and the cells lyse when warmed to 37 °C. Because the IgG dissociates at warm temperatures, the DAT usually shows only C3.",
+   "whyNot": {
+    "0": "Anti-I of cold agglutinin disease is IgM and does not require the cold-then-warm sequence; it usually follows Mycoplasma infection in adults.",
+    "2": "Warm autoantibodies react at 37 °C without a cold phase and usually give a DAT positive for IgG.",
+    "3": "Anti-i is associated with infectious mononucleosis and is IgM; it does not produce the biphasic Donath-Landsteiner pattern."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., autoimmune hemolytic anemias chapter; AABB Technical Manual, 21st ed."
+  },
+  {
+   "id": "BB-0081",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Lysozyme, found in tears, saliva, and neutrophil granules, protects against bacteria by:",
+   "options": [
+    "Binding iron so that bacteria cannot use it for growth",
+    "Coating bacteria so that phagocytes can ingest them",
+    "Hydrolyzing the peptidoglycan of bacterial cell walls",
+    "Neutralizing toxins that bacteria release into tissues"
+   ],
+   "answer": 2,
+   "why": "Lysozyme **cleaves the β-1,4 bonds between N-acetylmuramic acid and N-acetylglucosamine in peptidoglycan**, weakening the cell wall so the bacterium lyses. Gram-positive bacteria, with their thick and exposed peptidoglycan layer, are the most susceptible.",
+   "whyNot": {
+    "0": "Iron sequestration is the role of lactoferrin and transferrin, not lysozyme.",
+    "1": "Opsonization is performed by complement fragments such as C3b and by IgG antibodies.",
+    "3": "Toxin neutralization is a function of specific antibodies (antitoxins), not of lysozyme."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., natural (innate) immunity chapter; Turgeon, Immunology & Serology in Laboratory Medicine, innate immunity chapter"
+  },
+  {
+   "id": "BB-0082",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Lipopolysaccharide from gram-negative bacteria is recognized by innate immune cells mainly through which pattern-recognition receptor?",
+   "options": [
+    "Toll-like receptor 3 (TLR3)",
+    "Toll-like receptor 5 (TLR5)",
+    "Toll-like receptor 4 (TLR4)",
+    "Toll-like receptor 9 (TLR9)"
+   ],
+   "answer": 2,
+   "why": "**TLR4, together with MD-2 and CD14, recognizes the lipid A portion of LPS** on macrophages and dendritic cells. The resulting release of IL-1, IL-6, and TNF-α contributes to the fever and shock of gram-negative sepsis.",
+   "whyNot": {
+    "0": "TLR3 is an endosomal receptor for double-stranded viral RNA.",
+    "1": "TLR5 recognizes flagellin, the protein of bacterial flagella.",
+    "3": "TLR9 is an endosomal receptor for unmethylated CpG motifs in bacterial and viral DNA."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., natural (innate) immunity chapter; Turgeon, Immunology & Serology in Laboratory Medicine, innate immunity chapter"
+  },
+  {
+   "id": "BB-0083",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 3-year-old boy has had recurrent Staphylococcus aureus abscesses and an Aspergillus pneumonia. His neutrophil count is normal. In the nitroblue tetrazolium (NBT) test, his stimulated neutrophils fail to reduce the yellow dye to dark blue formazan. Which component is defective?",
+   "options": [
+    "Phagocyte NADPH oxidase",
+    "The CD18 β2-integrin for neutrophil adhesion",
+    "The LYST protein for lysosomal trafficking",
+    "Bruton tyrosine kinase in developing B cells"
+   ],
+   "answer": 0,
+   "why": "This is chronic granulomatous disease. Without functional NADPH oxidase, neutrophils cannot generate superoxide in the respiratory burst, so they ingest catalase-positive organisms but cannot kill them; **failure to reduce NBT reflects the absent respiratory burst**.",
+   "whyNot": {
+    "1": "CD18 deficiency (leukocyte adhesion deficiency type 1) impairs neutrophil migration into tissues, but the respiratory burst and NBT reduction are normal.",
+    "2": "LYST defects cause Chediak-Higashi syndrome, with giant granules and partial albinism; the NBT test is normal.",
+    "3": "Bruton tyrosine kinase defects cause X-linked agammaglobulinemia, a B-cell disorder in which neutrophil killing is normal."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., immunodeficiency chapter (phagocytic defects); Turgeon, Immunology & Serology in Laboratory Medicine, primary immunodeficiencies chapter"
+  },
+  {
+   "id": "BB-0084",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which substance, injected into a rabbit, is most likely to be strongly immunogenic?",
+   "options": [
+    "Albumin purified from the same rabbit's own serum",
+    "A 150-kDa glycoprotein purified from horse serum",
+    "A 1-kDa synthetic peptide given without any carrier",
+    "A large polymer made of one repeating amino acid"
+   ],
+   "answer": 1,
+   "why": "Strong immunogens are **foreign to the host, large (generally above about 100 kDa), and chemically complex**, and proteins are the most effective. A horse glycoprotein meets all of these conditions in a rabbit.",
+   "whyNot": {
+    "0": "The rabbit's own albumin is self, and tolerance normally prevents a response to it.",
+    "2": "A 1-kDa peptide is too small to be immunogenic by itself; it acts like a hapten unless coupled to a carrier.",
+    "3": "A homopolymer of a single amino acid lacks chemical complexity and is a poor immunogen regardless of its size."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., antigens and antibodies chapter (immunogenicity); Turgeon, Immunology & Serology in Laboratory Medicine, antigens and antibodies chapter"
+  },
+  {
+   "id": "BB-0085",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Gm markers are inherited amino acid differences in the constant region of IgG heavy chains that vary from one person to another within the same species. Such variants are classified as:",
+   "options": [
+    "Isotypes",
+    "Allotypes",
+    "Idiotypes",
+    "Paratopes"
+   ],
+   "answer": 1,
+   "why": "Allotypes are **allelic variants that differ among individuals of the same species**, such as Gm markers on γ heavy chains and Km markers on κ light chains. They are inherited codominantly and can stimulate antibodies after transfusion or pregnancy.",
+   "whyNot": {
+    "0": "Isotypes are the heavy-chain classes and subclasses (and κ and λ light chains) present in every normal member of a species.",
+    "2": "Idiotypes are unique determinants in the variable region of a particular antibody, related to its antigen-binding site.",
+    "3": "A paratope is the antigen-binding site of an antibody itself, not an inherited constant-region marker."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., immunoglobulins chapter; Turgeon, Immunology & Serology in Laboratory Medicine, immunoglobulin structure chapter"
+  },
+  {
+   "id": "BB-0086",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 2-year-old boy has recurrent sinopulmonary infections and Pneumocystis pneumonia. His serum IgM is elevated, but IgG, IgA, and IgE are very low, and his B cells are present in normal numbers. The most likely defect is in:",
+   "options": [
+    "Bruton tyrosine kinase in pre-B cells",
+    "CD40 ligand on activated helper T cells",
+    "The common gamma chain of cytokine receptors",
+    "Thymic development from the pharyngeal pouches"
+   ],
+   "answer": 1,
+   "why": "Class switching from IgM to IgG, IgA, or IgE requires helper T cells to engage CD40 on B cells through **CD40 ligand (CD154)**; without it, B cells continue to make only IgM. X-linked hyper-IgM syndrome also weakens T-cell activation of macrophages, which explains the susceptibility to Pneumocystis.",
+   "whyNot": {
+    "0": "Bruton tyrosine kinase defects block B-cell maturation, so B cells are nearly absent and all immunoglobulin classes, including IgM, are low.",
+    "2": "Common gamma chain defects cause X-linked SCID, with absent T and NK cells and low levels of all immunoglobulins rather than raised IgM.",
+    "3": "DiGeorge syndrome is a T-cell deficiency from thymic hypoplasia with hypocalcemia; immunoglobulin levels are usually near normal."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., immunodeficiency chapter; Turgeon, Immunology & Serology in Laboratory Medicine, primary immunodeficiencies chapter"
+  },
+  {
+   "id": "BB-0087",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which cytokine, produced mainly by Th2 cells, induces B cells to switch to IgE production?",
+   "options": [
+    "Interferon-gamma",
+    "Interleukin-4",
+    "Interleukin-17",
+    "Interleukin-2"
+   ],
+   "answer": 1,
+   "why": "Th2 cells secrete IL-4, IL-5, and IL-13. **IL-4 drives B cells to class switch to IgE**, linking Th2 responses to allergy and to defense against helminths.",
+   "whyNot": {
+    "0": "Interferon-gamma is the Th1 cytokine; it promotes opsonizing IgG and suppresses IgE switching.",
+    "2": "IL-17 is made by Th17 cells and recruits neutrophils; it does not direct IgE class switching.",
+    "3": "IL-2 is mainly a T-cell growth factor that drives T-cell proliferation."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., cells of the immune system and cytokines chapters; Turgeon, Immunology & Serology in Laboratory Medicine, cytokines chapter"
+  },
+  {
+   "id": "BB-0088",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Regulatory T cells, which suppress immune responses and help maintain self-tolerance, are identified by expression of CD4, CD25, and which transcription factor?",
+   "options": [
+    "FOXP3",
+    "T-bet",
+    "GATA-3",
+    "RORγt"
+   ],
+   "answer": 0,
+   "why": "**FOXP3 is the master transcription factor of regulatory T cells**, which suppress other lymphocytes in part through IL-10 and TGF-β. Mutations in FOXP3 cause IPEX syndrome, a severe autoimmune disease affecting many organs.",
+   "whyNot": {
+    "1": "T-bet directs differentiation of Th1 cells, which produce interferon-gamma.",
+    "2": "GATA-3 directs differentiation of Th2 cells, which produce IL-4, IL-5, and IL-13.",
+    "3": "RORγt directs differentiation of Th17 cells, which produce IL-17."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., cells of the immune system chapter (T-cell subsets); Turgeon, Immunology & Serology in Laboratory Medicine, T cells chapter"
+  },
+  {
+   "id": "BB-0089",
+   "tos": "BB-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman awaiting a kidney transplant, who has had three pregnancies and several transfusions, has a calculated panel reactive antibody (cPRA) of 95%. This result means that she:",
+   "options": [
+    "Shares about 95% of her HLA antigens with her intended donor",
+    "Has about a 95% chance that her graft will survive one year",
+    "Has HLA antibodies against about 95% of potential donors",
+    "Has serum that killed 95% of her intended donor's lymphocytes"
+   ],
+   "answer": 2,
+   "why": "PRA estimates the proportion of a donor population carrying HLA antigens to which the patient has antibodies; cPRA calculates it from the patient's identified HLA antibodies and population HLA frequencies. Pregnancy, transfusion, and earlier transplants sensitize patients, and **a high cPRA means few donors will give a negative crossmatch**.",
+   "whyNot": {
+    "0": "PRA measures antibodies against a population, not the degree of HLA matching with one donor.",
+    "1": "PRA is a measure of sensitization and is not a graft-survival estimate; highly sensitized patients actually face higher rejection risk.",
+    "3": "Killing of a specific donor's lymphocytes is the result of a crossmatch with that donor, not a PRA."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., transplantation immunology chapter; Turgeon, Immunology & Serology in Laboratory Medicine, transplantation chapter (HLA antibody testing)"
+  },
+  {
+   "id": "BB-0090",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A man has a rash on his palms and soles and condylomata lata. His undiluted serum gives a nonreactive RPR result, but the same serum is clearly reactive when diluted 1:8. This pattern is best explained by:",
+   "options": [
+    "A prozone caused by antibody excess",
+    "A postzone caused by antigen excess",
+    "A biologic false-positive reaction",
+    "Early primary syphilis before reagin forms"
+   ],
+   "answer": 0,
+   "why": "Secondary syphilis produces very high reagin titers. In undiluted serum the antibody can so outnumber the cardiolipin antigen particles that the lattice needed for visible flocculation does not form, a **prozone** effect; diluting the serum restores the antibody-antigen balance.",
+   "whyNot": {
+    "1": "A postzone reflects too little antibody relative to antigen; diluting the serum would make it worse, not reveal reactivity.",
+    "2": "A biologic false positive describes reactivity in a person without syphilis; here the patient has signs of secondary syphilis and the problem is a falsely nonreactive result.",
+    "3": "If reagin had not yet formed, the serum would stay nonreactive when diluted, and the clinical features here are those of secondary syphilis."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., syphilis serology chapter; Turgeon, Immunology & Serology in Laboratory Medicine, syphilis chapter"
+  },
+  {
+   "id": "BB-0091",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the Widal test for typhoid fever, which antigen of Salmonella Typhi is located on the flagella?",
+   "options": [
+    "O antigen",
+    "Vi antigen",
+    "Fimbrial antigen",
+    "H antigen"
+   ],
+   "answer": 3,
+   "why": "**The H antigen is the flagellar protein**; antibodies against it give loose, floccular agglutination and tend to persist longer after infection or vaccination. The O antigen is the somatic LPS side chain, and anti-O gives compact, granular agglutination.",
+   "whyNot": {
+    "0": "The O antigen is the somatic (cell wall) lipopolysaccharide antigen, not a flagellar one.",
+    "1": "Vi is a capsular polysaccharide antigen of S. Typhi; it is not one of the antigens on the flagella.",
+    "2": "Fimbriae (pili) are adhesion structures distinct from flagella, and they are not the H antigen used in the Widal test."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, serology of bacterial infections chapter; Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., bacterial serology chapter"
+  },
+  {
+   "id": "BB-0092",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a patient with chronic hepatitis B, a positive HBeAg indicates:",
+   "options": [
+    "Immunity to HBV from a past infection",
+    "A successful response to hepatitis B vaccine",
+    "Resolution of infection with loss of HBsAg",
+    "Active viral replication and high infectivity"
+   ],
+   "answer": 3,
+   "why": "HBeAg is a soluble viral protein released during active replication, so its presence correlates with **high levels of circulating virus and high infectivity**. Seroconversion from HBeAg to anti-HBe usually signals reduced replication, although precore mutant strains can replicate without making HBeAg.",
+   "whyNot": {
+    "0": "Immunity from past infection is shown by anti-HBs together with anti-HBc, with HBsAg negative.",
+    "1": "Vaccine response is shown by anti-HBs alone; the vaccine contains only HBsAg and does not produce HBeAg.",
+    "2": "Resolution is marked by loss of HBsAg and HBeAg with appearance of antibodies, not by a positive HBeAg."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., viral hepatitis chapter; Turgeon, Immunology & Serology in Laboratory Medicine, hepatitis chapter"
+  },
+  {
+   "id": "BB-0093",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient in Metro Manila has had high fever, headache, and myalgia for 2 days, and dengue is suspected. Assuming this is a primary (first) dengue infection, which test is most likely to be positive this early?",
+   "options": [
+    "Dengue IgM antibody",
+    "Dengue NS1 antigen",
+    "Dengue IgG antibody",
+    "Fourfold rise in hemagglutination-inhibition titer"
+   ],
+   "answer": 1,
+   "why": "NS1 is a nonstructural viral protein secreted into the blood from the first day of fever and usually detectable through the first week, **before antibodies are reliably present**. In a primary infection IgM becomes detectable in most patients only from about day 5 of illness and IgG later still, so an early negative antibody test does not exclude dengue.",
+   "whyNot": {
+    "0": "IgM is often not yet detectable on day 2 of a primary infection; it is most useful from about day 5 onward.",
+    "2": "In a primary infection IgG appears late, after IgM, and is not expected on day 2.",
+    "3": "A fourfold rise requires paired acute and convalescent samples taken weeks apart, so it cannot be positive this early."
+   },
+   "ref": "WHO, Dengue: Guidelines for Diagnosis, Treatment, Prevention and Control (2009), laboratory diagnosis chapter; Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., viral infections chapter"
+  },
+  {
+   "id": "BB-0094",
+   "tos": "BB-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A man with fever and right upper quadrant pain has a single liver abscess. Aspiration yields odorless, brownish 'anchovy paste' material with no bacteria on Gram stain, and three stool examinations are negative for parasites. Which test best supports the suspected diagnosis?",
+   "options": [
+    "Serum antibody to Echinococcus granulosus",
+    "Stool antigen test for Giardia duodenalis",
+    "Toxoplasma gondii IgG avidity testing",
+    "Serum antibody to Entamoeba histolytica"
+   ],
+   "answer": 3,
+   "why": "Anchovy-paste aspirate is classic for amebic liver abscess, and trophozoites are often absent from stool by that stage. Invasive amebiasis produces a strong antibody response, so **serum anti-E. histolytica antibodies are found in most patients with amebic liver abscess**; because antibodies can persist for years, results are interpreted with the clinical picture, especially in endemic areas.",
+   "whyNot": {
+    "0": "Echinococcus causes hydatid cysts containing clear fluid and hydatid sand, not anchovy-paste material.",
+    "1": "Giardia infects the small intestine and does not cause liver abscess, so a Giardia stool antigen would not address this lesion.",
+    "2": "Toxoplasma avidity testing dates a Toxoplasma infection, mainly in pregnancy, and is unrelated to liver abscess."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, parasitic infections chapter; Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., serology of parasitic infections"
+  },
+  {
+   "id": "BB-0095",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with biopsy-proven pancreatic adenocarcinoma has an undetectable CA 19-9. Which red cell phenotype best explains why this marker cannot be used to monitor her disease?",
+   "options": [
+    "Le(a−b−), lacking the Lewis fucosyltransferase",
+    "Le(a+b−), a nonsecretor of ABH substances",
+    "Group O, lacking the A and B transferases",
+    "P2 phenotype, lacking the P1 antigen"
+   ],
+   "answer": 0,
+   "why": "CA 19-9 is the sialylated Lewis a carbohydrate (sialyl-Lea). People who are Le(a−b−) (genotype lele) lack the Lewis fucosyltransferase (FUT3), so **they cannot make CA 19-9 even when a tumor is present**, giving falsely low results; this phenotype is found in a minority of people and is more common in those of African ancestry.",
+   "whyNot": {
+    "1": "Le(a+b−) nonsecretors still have the Lewis enzyme and make Lea structures, so they can produce CA 19-9.",
+    "2": "CA 19-9 is built on the Lewis pathway, not on A or B sugars, so group O does not prevent its synthesis.",
+    "3": "The P1 antigen belongs to an unrelated glycosphingolipid system and has no role in CA 19-9 synthesis."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Lewis blood group system chapter; Turgeon, Immunology & Serology in Laboratory Medicine, tumor markers chapter"
+  },
+  {
+   "id": "BB-0096",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Serum protein electrophoresis on a 66-year-old man with bone pain shows a narrow band in the gamma region. Which test is used next to identify the heavy-chain and light-chain type of this protein?",
+   "options": [
+    "Quantitative IgG, IgA, and IgM by nephelometry",
+    "Immunofixation electrophoresis",
+    "Heat precipitation test for Bence Jones protein",
+    "Serum viscosity measurement"
+   ],
+   "answer": 1,
+   "why": "Immunofixation separates serum proteins by electrophoresis and then overlays the lanes with antisera to γ, α, μ, κ, and λ chains. **A single sharp band with one heavy-chain and one light-chain antiserum** confirms a monoclonal protein and identifies its type, for example IgG κ.",
+   "whyNot": {
+    "0": "Nephelometry measures total immunoglobulin levels but cannot show whether an increase is monoclonal or which light chain is involved.",
+    "2": "The heat test detects free light chains in urine, is insensitive, and cannot identify a heavy chain or distinguish κ from λ.",
+    "3": "Viscosity assesses the risk of hyperviscosity syndrome and gives no information on the protein's identity."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., immunoproliferative diseases chapter; Turgeon, Immunology & Serology in Laboratory Medicine, monoclonal gammopathies chapter"
+  },
+  {
+   "id": "BB-0097",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Measuring HIV viral load by RT-PCR requires an enzyme that copies the viral RNA into complementary DNA before amplification. That enzyme is:",
+   "options": [
+    "Taq DNA polymerase",
+    "DNA ligase",
+    "Reverse transcriptase",
+    "Restriction endonuclease"
+   ],
+   "answer": 2,
+   "why": "PCR polymerases amplify DNA templates, so RNA targets such as HIV must first be copied into cDNA by **reverse transcriptase**, an RNA-dependent DNA polymerase. The cDNA is then amplified and measured.",
+   "whyNot": {
+    "0": "Taq polymerase is the heat-stable DNA-dependent polymerase that amplifies the cDNA after it has been made.",
+    "1": "DNA ligase joins DNA fragments and is used in cloning, not to copy RNA.",
+    "3": "Restriction endonucleases cut DNA at specific sequences and cannot make DNA from RNA."
+   },
+   "ref": "Stevens, Clinical Immunology & Serology: A Laboratory Perspective, 5th ed., molecular diagnostic techniques chapter; Turgeon, Immunology & Serology in Laboratory Medicine, molecular techniques chapter"
+  },
+  {
+   "id": "BB-0098",
+   "tos": "BB-J.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "For the daily quality control of anti-A typing reagent, which red cells serve as the positive and negative controls?",
+   "options": [
+    "B cells positive; A1 cells negative",
+    "A1 cells positive; A2 cells negative",
+    "A1 cells positive; B cells negative",
+    "O cells positive; B cells negative"
+   ],
+   "answer": 2,
+   "why": "Each day of use, antisera are tested with cells that carry the target antigen and cells that lack it. For anti-A, **A1 cells should agglutinate and B cells should not**, confirming both reactivity and specificity.",
+   "whyNot": {
+    "0": "This reverses the controls; anti-A reacts with A1 cells, not B cells, and is the setup for anti-B.",
+    "1": "A2 cells carry A antigen and are agglutinated by anti-A, so they cannot serve as a negative control.",
+    "3": "Group O cells lack A antigen and would not react with anti-A, so they cannot be a positive control."
+   },
+   "ref": "AABB Technical Manual, 21st ed. (reagent quality control); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., quality assurance chapter"
+  },
+  {
+   "id": "BB-0099",
+   "tos": "BB-J.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A regular blood donor tests positive for HCV on her latest donation, and the result is confirmed. The blood center then identifies her earlier donations, quarantines any in-date components, and arranges for recipients of her previous units to be notified. This process is called:",
+   "options": [
+    "Traceback",
+    "Hemovigilance",
+    "Donor reentry",
+    "Lookback"
+   ],
+   "answer": 3,
+   "why": "**Lookback starts from an infected donor** and works forward to the components made from that donor's earlier donations and the patients who received them, so they can be tested and treated. It is a quality assurance requirement for transfusion-transmissible infections such as HIV and HCV.",
+   "whyNot": {
+    "0": "Traceback works in the opposite direction, from an infected recipient back to the donors of the units received.",
+    "1": "Hemovigilance is the overall surveillance system for adverse events across the transfusion chain, not this specific donor-to-recipient trace.",
+    "2": "Donor reentry is the process of requalifying a deferred donor after a falsely positive screening result."
+   },
+   "ref": "AABB Technical Manual, 21st ed. (lookback); Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., transfusion-transmitted diseases and quality assurance chapters"
+  },
+  {
+   "id": "BB-0100",
+   "tos": "BB-J.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A phlebotomist sticks herself with a needle that was just used to draw a patient's blood. What should she do first?",
+   "options": [
+    "Wash the site with soap and water",
+    "Squeeze the wound to force out blood",
+    "Soak the site in undiluted bleach",
+    "Wait for the patient's test results"
+   ],
+   "answer": 0,
+   "why": "Immediate first aid is to **wash the puncture site with soap and water**, then report the exposure at once so the source patient can be tested and postexposure prophylaxis, if indicated, can start within hours.",
+   "whyNot": {
+    "1": "Squeezing the wound has not been shown to reduce infection risk and is not recommended.",
+    "2": "Bleach and other caustic agents damage the skin and are not recommended for wound care.",
+    "3": "Waiting delays reporting and prophylaxis, which work best when started as soon as possible."
+   },
+   "ref": "CDC/U.S. Public Health Service guidelines for occupational exposure to bloodborne pathogens; Turgeon, Immunology & Serology in Laboratory Medicine, laboratory safety chapter"
   }
  ]
 }

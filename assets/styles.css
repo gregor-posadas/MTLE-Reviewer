@@ -603,3 +603,89 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 }
 .road__today.is-start span { transform: none; left: -3px; padding-left: 0; }
 .road__today.is-end span { transform: translateX(-100%); }
+
+/* ---------- Visual explainers ---------- */
+:root {
+  --v1: #385F96; --v2: #CF5921; --v3: #9EB8DB; --v4: #E7B800; --v5: #800000;
+  --v1t: rgba(56, 95, 150, 0.16); --v2t: rgba(207, 89, 33, 0.16); --v3t: rgba(158, 184, 219, 0.38); --v4t: rgba(231, 184, 0, 0.26); --v5t: rgba(128, 0, 0, 0.12);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --v1: #7EA1D3; --v2: #ff8a4c; --v3: #9EB8DB; --v4: #E7B800; --v5: #d46a6a;
+    --v1t: rgba(126, 161, 211, 0.26); --v2t: rgba(255, 138, 76, 0.24); --v3t: rgba(158, 184, 219, 0.22); --v4t: rgba(231, 184, 0, 0.24); --v5t: rgba(212, 106, 106, 0.24);
+  }
+}
+:root[data-theme="dark"] {
+  --v1: #7EA1D3; --v2: #ff8a4c; --v3: #9EB8DB; --v4: #E7B800; --v5: #d46a6a;
+  --v1t: rgba(126, 161, 211, 0.26); --v2t: rgba(255, 138, 76, 0.24); --v3t: rgba(158, 184, 219, 0.22); --v4t: rgba(231, 184, 0, 0.24); --v5t: rgba(212, 106, 106, 0.24);
+}
+.viz { margin: 0; border: 2px solid var(--rule-strong); background: var(--surface); max-width: 40rem; }
+.viz:focus { outline: none; }
+.viz__title { font-size: var(--f3); padding: 16px 16px 0; }
+.viz__stage { padding: 12px 8px 8px; }
+.viz__stage svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; overflow: visible; font-family: "Atkinson", system-ui, sans-serif; }
+.viz__stage--img { background: #ffffff; }
+.viz__stage--img img { display: block; width: 100%; max-width: 640px; height: auto; margin: 0 auto; }
+.viz__panel { border-top: 2px solid var(--rule-strong); padding: 14px 16px 12px; display: grid; gap: 8px; }
+.viz__count { font-size: var(--f1); color: var(--ink-2); font-weight: 700; font-variant-numeric: tabular-nums; }
+.viz__cap { min-height: 4.6em; max-width: var(--read); }
+.viz__nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.viz__nav .btn { min-width: 6.5rem; }
+.viz__dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.viz__dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--ink); display: block; }
+.viz__dot.is-past { background: var(--ink-2); border-color: var(--ink-2); }
+.viz__dot.is-on { background: var(--ink); transform: scale(1.25); }
+.viz__alt { padding: 0 16px 6px; }
+.viz__alt summary { min-height: var(--tap); display: flex; align-items: center; cursor: pointer; font-size: var(--f1); font-weight: 700; }
+.viz__alt p { font-size: var(--f1); max-width: var(--read); padding-bottom: 8px; }
+.viz__src { padding: 0 16px 14px; font-size: var(--f1); color: var(--ink-2); }
+.viz-inline { margin-top: 18px; }
+.viz-inline > summary { min-height: var(--tap); display: flex; align-items: center; gap: 10px; cursor: pointer; font-weight: 700; border: 2px solid var(--ink); padding: 8px 14px; background: var(--paper); list-style: none; }
+.viz-inline > summary::-webkit-details-marker { display: none; }
+.viz-inline > summary::after { content: "▸"; margin-left: auto; }
+.viz-inline[open] > summary::after { content: "▾"; }
+.viz-inline[open] > summary { border-bottom-width: 0; }
+.viz-inline .viz { max-width: none; }
+
+/* Drawing classes for diagram authors (see data/visuals/README.md) */
+.viz svg .v-line { stroke: var(--ink); stroke-width: 1.75; fill: none; }
+.viz svg .v-thin { stroke: var(--ink-2); stroke-width: 1; fill: none; }
+.viz svg .v-dash { stroke-dasharray: 6 4; }
+.viz svg .v-dot { stroke-dasharray: 1.5 3.5; stroke-linecap: round; }
+.viz svg .v-arrow { marker-end: url(#v-arr); }
+.viz svg .v-box { fill: var(--surface); stroke: var(--ink); stroke-width: 1.75; }
+.viz svg .v-text { fill: var(--ink); font-size: 14px; }
+.viz svg .v-small { font-size: 12px; }
+.viz svg .v-b { font-weight: 700; }
+.viz svg .v-muted { fill: var(--ink-2); }
+.viz svg .v-mid { text-anchor: middle; }
+.viz svg .v-end { text-anchor: end; }
+.viz svg .v-fill-ink, .v-fill-ink { fill: var(--ink); }
+.viz svg .v-hatch { fill: url(#v-hatch-p); stroke: var(--ink); stroke-width: 1.25; }
+.viz svg .v-tint-1 { fill: var(--v1t); stroke: var(--v1); stroke-width: 1.5; }
+.viz svg .v-tint-2 { fill: var(--v2t); stroke: var(--v2); stroke-width: 1.5; }
+.viz svg .v-tint-3 { fill: var(--v3t); stroke: var(--v1); stroke-width: 1.5; }
+.viz svg .v-tint-4 { fill: var(--v4t); stroke: var(--ink); stroke-width: 1.5; }
+.viz svg .v-tint-5 { fill: var(--v5t); stroke: var(--v5); stroke-width: 1.5; }
+.viz svg .v-fill-1 { fill: var(--v1); } .viz svg .v-fill-2 { fill: var(--v2); } .viz svg .v-fill-3 { fill: var(--v3); } .viz svg .v-fill-4 { fill: var(--v4); } .viz svg .v-fill-5 { fill: var(--v5); }
+.viz svg .v-stroke-1 { stroke: var(--v1); } .viz svg .v-stroke-2 { stroke: var(--v2); } .viz svg .v-stroke-3 { stroke: var(--v3); } .viz svg .v-stroke-4 { stroke: var(--v4); } .viz svg .v-stroke-5 { stroke: var(--v5); }
+.viz svg .v-real { stroke: var(--ink); stroke-width: 1.25; }
+.viz svg [data-k] { transition: opacity 320ms ease; }
+.viz svg [data-k].is-off { opacity: 0; pointer-events: none; }
+.viz svg .is-hl .v-box, .viz svg .v-box.is-hl, .viz svg .is-hl [class*="v-tint"], .viz svg [class*="v-tint"].is-hl, .viz svg .is-hl .v-real, .viz svg .v-real.is-hl { stroke: var(--ink); stroke-width: 3.5; }
+.viz svg .is-hl .v-line, .viz svg .v-line.is-hl { stroke-width: 3.25; }
+.viz svg .is-hl .v-text, .viz svg .v-text.is-hl { font-weight: 700; }
+@keyframes viz-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes viz-draw { from { stroke-dashoffset: 900; } to { stroke-dashoffset: 0; } }
+@keyframes viz-hl { 0% { opacity: 0.35; } 100% { opacity: 1; } }
+.viz svg .is-new { animation: viz-in 380ms cubic-bezier(.2, .6, .2, 1) both; transform-box: fill-box; }
+.viz svg .is-new.is-hl { animation: viz-hl 450ms ease-out both; }
+.viz svg .is-new .v-draw, .viz svg .v-draw.is-new { stroke-dasharray: 900; animation: viz-draw 900ms ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .viz svg [data-k] { transition: none; }
+  .viz svg .is-new, .viz svg .is-new .v-draw, .viz svg .v-draw.is-new { animation: none; }
+  .viz__dot.is-on { transform: none; }
+}
+@media (max-width: 480px) { .viz__dots { display: none; } }
+.viz__alt summary::before { content: "▸"; margin-right: 8px; }
+.viz__alt[open] summary::before { content: "▾"; }
