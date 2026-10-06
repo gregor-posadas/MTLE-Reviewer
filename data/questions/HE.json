@@ -2195,6 +2195,2251 @@
     "3": "The 10x rule needs ten consecutive values on one side of the mean, which has not happened."
    },
    "ref": "Rodak's Hematology: Clinical Principles and Applications, 7th ed., chapter on quality assurance in hematology and hemostasis testing; Westgard multirule QC"
+  },
+  {
+   "id": "HE-0101",
+   "tos": "HE-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A finger puncture will supply blood for a CBC (EDTA microtainer), a lithium heparin microtainer, and a serum microtainer. In what order should these skin-puncture containers be filled?",
+   "options": [
+    "Serum, then lithium heparin, then EDTA",
+    "Lithium heparin, then serum, then EDTA",
+    "EDTA, then lithium heparin, then serum",
+    "Serum, then EDTA, then lithium heparin"
+   ],
+   "answer": 2,
+   "why": "For skin puncture the order differs from venipuncture: blood gases first, then the EDTA container, then other additive containers, and serum last. **The EDTA specimen is filled first so platelets are counted before they begin to clump at the wound.** Serum containers go last because clotting at the site does not harm a specimen that is meant to clot.",
+   "whyNot": {
+    "0": "This is the reverse of the recommended order; by the time the EDTA container is filled, platelet clumping can give a falsely low platelet count.",
+    "1": "Filling heparin and serum before EDTA delays the hematology specimen and risks platelet aggregation and microclots in the CBC sample.",
+    "3": "Serum is collected last in skin puncture, not first, and the EDTA container should not be delayed behind it."
+   },
+   "ref": "CLSI GP42 (Collection of Capillary Blood Specimens); Rodak's Hematology: Clinical Principles and Applications, 6th ed., specimen collection chapter"
+  },
+  {
+   "id": "HE-0102",
+   "tos": "HE-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has normal saline running through an IV line in the left forearm. A CBC is ordered, and the right arm has good veins. What should the phlebotomist do?",
+   "options": [
+    "Collect the specimen by venipuncture from the right arm",
+    "Collect from the left arm just above the IV site",
+    "Draw through the IV catheter and discard the first 1 mL",
+    "Collect from the left antecubital vein after a 30-second pause"
+   ],
+   "answer": 0,
+   "why": "Blood drawn near an infusion is diluted by the IV fluid, which lowers cell counts and hemoglobin. **The preferred site is the opposite arm, away from the infusion.** Only if no other site is available should blood be drawn below the IV after the infusion has been stopped for at least 2 minutes, with the first few milliliters discarded.",
+   "whyNot": {
+    "1": "Above the IV site, the vein carries infused fluid back toward the heart, so the specimen would be diluted.",
+    "2": "Drawing through an infusing catheter contaminates the specimen with IV fluid; a 1 mL discard is not adequate and this is not done for routine CBCs.",
+    "3": "The same arm proximal to the IV is contaminated with saline, and a 30-second pause is far shorter than the recommended minimum stoppage."
+   },
+   "ref": "CLSI GP41 (Collection of Diagnostic Venous Blood Specimens); Rodak's Hematology: Clinical Principles and Applications, 6th ed., specimen collection chapter"
+  },
+  {
+   "id": "HE-0103",
+   "tos": "HE-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An EDTA tube collected for a CBC was left on a bench at room temperature and is first analyzed 26 hours after collection. Compared with an analysis done right after collection, which change is most expected?",
+   "options": [
+    "The MCHC is higher because the red cells have shrunk",
+    "The RBC count is much lower because the red cells have lysed",
+    "The hemoglobin is lower because hemoglobin has broken down",
+    "The MCV is higher because the red cells have swollen"
+   ],
+   "answer": 3,
+   "why": "As EDTA blood ages at room temperature, red cells take up water and swell. **The MCV rises, and the calculated hematocrit rises with it, while the MCHC falls.** The RBC count and hemoglobin stay fairly stable for about a day, but the smear also shows storage artifacts, so smears should be made within a few hours.",
+   "whyNot": {
+    "0": "Stored cells swell rather than shrink, so the MCHC tends to fall, not rise.",
+    "1": "The RBC count is fairly stable for about 24 hours at room temperature; marked lysis is not expected.",
+    "2": "Hemoglobin is one of the most stable CBC values in stored EDTA blood and does not drop significantly in a day."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., specimen collection and CBC chapters; McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter"
+  },
+  {
+   "id": "HE-0104",
+   "tos": "HE-A.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 3-mL lavender-top (K2EDTA) tube was filled with only 0.6 mL of blood. A manual (spun) microhematocrit and a cyanmethemoglobin hemoglobin are done on it. Which pattern of results is expected?",
+   "options": [
+    "Hematocrit falsely high, hemoglobin accurate, MCHC falsely low",
+    "Hematocrit falsely low, hemoglobin accurate, MCHC falsely high",
+    "Hematocrit accurate, hemoglobin falsely low, MCHC falsely low",
+    "Hematocrit falsely low, hemoglobin falsely low, MCHC accurate"
+   ],
+   "answer": 1,
+   "why": "Underfilling leaves too much EDTA for the blood volume, and the hypertonic excess draws water out of the red cells. **The shrunken cells pack into a smaller column, so the spun hematocrit is falsely low.** Hemoglobin is measured after lysis and is not affected, so the MCHC calculated from these two values is falsely high.",
+   "whyNot": {
+    "0": "Excess EDTA shrinks red cells; it does not swell them, so the spun hematocrit drops rather than rises.",
+    "2": "The cyanmethemoglobin method lyses the cells and is not changed by excess EDTA, while the spun hematocrit is the value that is affected.",
+    "3": "Hemoglobin is unaffected by cell shrinkage; only the packed-cell volume falls, so the MCHC cannot remain accurate."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., specimen collection and manual procedures chapters; CLSI GP41"
+  },
+  {
+   "id": "HE-0105",
+   "tos": "HE-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which anticoagulant form is recommended by ICSH and CLSI for routine blood cell counting and sizing?",
+   "options": [
+    "Tripotassium EDTA (K3EDTA) as a liquid solution",
+    "Lithium heparin, spray-dried in the tube",
+    "Dipotassium EDTA (K2EDTA), spray-dried in the tube",
+    "Buffered 3.2% sodium citrate as a liquid solution"
+   ],
+   "answer": 2,
+   "why": "EDTA preserves cell morphology and prevents platelet aggregation better than other anticoagulants. **Spray-dried K2EDTA is the recommended form because it does not dilute the sample and shrinks red cells less than K3EDTA.** Liquid K3EDTA dilutes the specimen slightly and lowers the hematocrit and cell counts.",
+   "whyNot": {
+    "0": "Liquid K3EDTA dilutes the specimen by about 1-2% and causes more red cell shrinkage, so it is not the recommended form.",
+    "1": "Heparin causes platelet and leukocyte clumping and gives a blue background on Romanowsky-stained smears, so it is not used for routine counts.",
+    "3": "Citrate is the anticoagulant for coagulation testing; its liquid volume dilutes the blood and it is not used for routine cell counts."
+   },
+   "ref": "ICSH recommendations for EDTA anticoagulation (1993); CLSI GP41; Rodak's Hematology: Clinical Principles and Applications, 6th ed., specimen collection chapter"
+  },
+  {
+   "id": "HE-0106",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "Blood is diluted 1:200 in isotonic saline and loaded into an improved Neubauer hemocytometer (depth 0.1 mm). Red cells are counted in 5 of the small squares of the central large square, each small square measuring 0.2 mm x 0.2 mm. A total of 452 red cells is counted. What is the RBC count?",
+   "options": [
+    "2.26 x 10^12/L",
+    "4.52 x 10^12/L",
+    "0.90 x 10^12/L",
+    "45.2 x 10^12/L"
+   ],
+   "answer": 1,
+   "why": "Cells per uL = cells counted x dilution factor / (area counted x depth). The 5 squares cover 5 x 0.04 = 0.2 mm2, so the volume counted is 0.2 x 0.1 = 0.02 uL. **452 x 200 / 0.02 = 4,520,000/uL, which is 4.52 x 10^12/L.**",
+   "whyNot": {
+    "0": "This uses a 1:100 dilution instead of 1:200, which halves the result.",
+    "2": "This treats the area counted as 1 mm2 instead of 0.2 mm2.",
+    "3": "This is ten times too high; it comes from using a depth of 0.01 mm instead of 0.1 mm."
+   },
+   "worked": {
+    "problem": "With the same 1:200 dilution and the same 5 small squares (total 0.2 mm2, depth 0.1 mm), 386 red cells are counted. Find the RBC count.",
+    "steps": [
+     "Volume counted = 0.2 mm2 x 0.1 mm = 0.02 mm3 (0.02 uL).",
+     "Cells/uL = 386 x 200 / 0.02 = 3,860,000/uL.",
+     "Convert: 3,860,000/uL = 3.86 x 10^6/uL = 3.86 x 10^12/L."
+    ],
+    "result": "3.86 x 10^12/L"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., manual cell counts chapter; CLSI H20 context"
+  },
+  {
+   "id": "HE-0107",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "An anemic patient's CBC shows RBC 3.60 x 10^12/L, hemoglobin 8.1 g/dL, and hematocrit 26%. What is the mean cell hemoglobin (MCH)?",
+   "options": [
+    "31.2 pg",
+    "72.2 pg",
+    "2.25 pg",
+    "22.5 pg"
+   ],
+   "answer": 3,
+   "why": "MCH is the average weight of hemoglobin in one red cell: MCH (pg) = hemoglobin (g/dL) x 10 / RBC (x 10^12/L). **8.1 x 10 / 3.60 = 22.5 pg, below the adult reference interval of roughly 26-34 pg.** A low MCH usually goes with a low MCV and hypochromic cells, as in iron deficiency.",
+   "whyNot": {
+    "0": "This divides hemoglobin by hematocrit, which gives the MCHC (31.2 g/dL), not the MCH.",
+    "1": "This divides hematocrit by the RBC count, which gives the MCV (72.2 fL), not the MCH.",
+    "2": "This misplaces the decimal; the hemoglobin must be multiplied by 10 before dividing by the RBC count."
+   },
+   "worked": {
+    "problem": "RBC 4.80 x 10^12/L and hemoglobin 14.4 g/dL. Find the MCH.",
+    "steps": [
+     "MCH = Hb x 10 / RBC.",
+     "= 14.4 x 10 / 4.80.",
+     "= 144 / 4.80 = 30.0 pg."
+    ],
+    "result": "30.0 pg"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., CBC and red cell indices chapter"
+  },
+  {
+   "id": "HE-0108",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A manual WBC count is done on a newborn's blood diluted 1:20 in a hypotonic acid diluent. The 4 corner large squares (total 4 mm2, depth 0.1 mm) are counted on each side of the chamber: 118 cells on side 1 and 126 on side 2. The differential shows 22 nucleated RBCs per 100 WBCs. What is the corrected WBC count?",
+   "options": [
+    "5,000/uL",
+    "6,100/uL",
+    "4,760/uL",
+    "7,440/uL"
+   ],
+   "answer": 0,
+   "why": "The acid diluent lyses mature red cells but not nucleated RBCs, so nRBCs are counted as WBCs. The average of the two sides is 122, giving 122 x 20 / 0.4 = 6,100/uL uncorrected. **Corrected WBC = 6,100 x 100 / (100 + 22) = 5,000/uL, or 5.0 x 10^9/L.**",
+   "whyNot": {
+    "1": "This is the uncorrected count; it still includes the nucleated RBCs that the diluent did not lyse.",
+    "2": "This subtracts 22% from the count (6,100 x 0.78), which overcorrects because the nRBCs are expressed per 100 WBCs, not per 100 total cells.",
+    "3": "This multiplies by 1.22 and moves the result in the wrong direction; removing nRBCs must lower the count."
+   },
+   "worked": {
+    "problem": "A 1:20 dilution, 4 corner squares counted on each side: 150 and 160 cells. The differential shows 10 nRBCs/100 WBCs. Find the corrected WBC.",
+    "steps": [
+     "Average count = (150 + 160) / 2 = 155 cells in 0.4 uL.",
+     "Uncorrected WBC = 155 x 20 / 0.4 = 7,750/uL.",
+     "Corrected WBC = 7,750 x 100 / (100 + 10) = 7,045/uL."
+    ],
+    "result": "7.0 x 10^9/L"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., manual cell counts and CBC chapters"
+  },
+  {
+   "id": "HE-0109",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "For a direct eosinophil count, blood is diluted 1:10 in a phloxine-propylene glycol diluent and loaded into a Fuchs-Rosenthal chamber. Each of the two ruled grids measures 16 mm2 and the chamber depth is 0.2 mm. A total of 80 eosinophils is counted over both grids. What is the eosinophil count?",
+   "options": [
+    "250 cells/uL",
+    "25 cells/uL",
+    "125 cells/uL",
+    "12.5 cells/uL"
+   ],
+   "answer": 2,
+   "why": "The general hemocytometer formula applies to any chamber once its area and depth are known. Both grids together give 32 mm2 x 0.2 mm = 6.4 uL counted. **80 x 10 / 6.4 = 125 eosinophils/uL (0.125 x 10^9/L), within the usual adult range.**",
+   "whyNot": {
+    "0": "This uses the area of only one grid (16 mm2) even though both grids were counted.",
+    "1": "This leaves out the 0.2 mm chamber depth, so the count is divided by area instead of by volume.",
+    "3": "This leaves out the 1:10 dilution factor."
+   },
+   "worked": {
+    "problem": "Eosinophils diluted 1:20 are counted in both 16-mm2 grids of a 0.2-mm-deep chamber; 52 cells are found. Find the eosinophil count.",
+    "steps": [
+     "Volume counted = 2 x 16 mm2 x 0.2 mm = 6.4 uL.",
+     "Eosinophils/uL = 52 x 20 / 6.4.",
+     "= 1,040 / 6.4 = 162.5/uL."
+    ],
+    "result": "163 cells/uL (0.16 x 10^9/L)"
+   },
+   "ref": "McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter; Rodak's Hematology: Clinical Principles and Applications, 6th ed., manual cell counts chapter"
+  },
+  {
+   "id": "HE-0110",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A woman's results are hemoglobin 8.7 g/dL and hematocrit 30%. What is her MCHC, and how is it classified?",
+   "options": [
+    "34.5 g/dL; normochromic",
+    "29.0 g/dL; hypochromic",
+    "29.0 g/dL; normochromic",
+    "2.9 g/dL; hypochromic"
+   ],
+   "answer": 1,
+   "why": "MCHC = hemoglobin (g/dL) / hematocrit (%) x 100. **8.7 / 30 x 100 = 29.0 g/dL, below the reference interval of about 32-36 g/dL, so the cells are hypochromic.** Hypochromia of this degree is typical of iron deficiency and thalassemia.",
+   "whyNot": {
+    "0": "This inverts the formula (hematocrit divided by hemoglobin x 10); hemoglobin must be the numerator.",
+    "2": "The value is right but the classification is wrong; 29 g/dL is below the normochromic range.",
+    "3": "This misplaces the decimal; the hemoglobin-to-hematocrit ratio must be multiplied by 100."
+   },
+   "worked": {
+    "problem": "Hemoglobin 13.5 g/dL, hematocrit 40%. Find the MCHC.",
+    "steps": [
+     "MCHC = Hb / Hct x 100.",
+     "= 13.5 / 40 x 100 = 33.75 g/dL.",
+     "This falls within 32-36 g/dL (normochromic)."
+    ],
+    "result": "33.8 g/dL; normochromic"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., CBC and red cell indices chapter"
+  },
+  {
+   "id": "HE-0111",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A manual reticulocyte count is done with a Miller disc in the eyepiece. Over successive fields, 36 reticulocytes are counted in the large square (A), and 150 red cells are counted in the small square (B). What is the reticulocyte percentage?",
+   "options": [
+    "24.0%",
+    "0.27%",
+    "0.30%",
+    "2.7%"
+   ],
+   "answer": 3,
+   "why": "Square B has one-ninth the area of square A, so the red cells counted in B must be multiplied by 9 to estimate the red cells in A. **Retics (%) = 36 / (150 x 9) x 100 = 36 / 1,350 x 100 = 2.7%.** The Miller disc lets a technologist reach the equivalent of about 1,000 cells without counting every one.",
+   "whyNot": {
+    "0": "This divides by the 150 cells in square B without the factor of 9, which overstates the count ninefold.",
+    "1": "This places the decimal wrongly; 36/1,350 x 100 is 2.7, not 0.27.",
+    "2": "This multiplies by 81 instead of 9, treating square B as one-eighty-first of square A."
+   },
+   "worked": {
+    "problem": "With a Miller disc, 20 reticulocytes are counted in square A and 120 red cells in square B. Find the reticulocyte percentage.",
+    "steps": [
+     "Estimated red cells in A = 120 x 9 = 1,080.",
+     "Retics (%) = 20 / 1,080 x 100.",
+     "= 1.85%."
+    ],
+    "result": "1.9%"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., reticulocyte count section; CLSI H44 (Methods for Reticulocyte Counting)"
+  },
+  {
+   "id": "HE-0112",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A Kleihauer-Betke acid elution smear from a woman who has just delivered shows 24 fetal red cells among 2,000 red cells counted. Assuming a maternal blood volume of 5,000 mL, what volume of fetal whole blood entered her circulation?",
+   "options": [
+    "60 mL",
+    "120 mL",
+    "6.0 mL",
+    "30 mL"
+   ],
+   "answer": 0,
+   "why": "Fetal cells keep their Hb F after acid elution and stand out as pink cells among pale maternal ghosts. The fetal cells are 24 / 2,000 x 100 = 1.2% of the red cells, and the bleed is that fraction of the maternal blood volume. **1.2% x 5,000 mL = 60 mL of fetal whole blood.** This volume is then used to work out the dose of Rh immune globulin.",
+   "whyNot": {
+    "1": "This divides the 24 fetal cells by 1,000 instead of the 2,000 cells actually counted, doubling the result.",
+    "2": "This misplaces the decimal; 1.2% of 5,000 mL is 60 mL, not 6 mL.",
+    "3": "This halves the result, which estimates fetal red cells rather than the fetal whole blood asked for."
+   },
+   "worked": {
+    "problem": "A Kleihauer-Betke smear shows 36 fetal cells among 2,000 red cells; the maternal blood volume is 5,000 mL. Find the fetal whole blood volume.",
+    "steps": [
+     "Fetal cells (%) = 36 / 2,000 x 100 = 1.8%.",
+     "Fetal bleed = 1.8 / 100 x 5,000 mL.",
+     "= 90 mL."
+    ],
+    "result": "90 mL of fetal whole blood"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., fetal hemoglobin testing (acid elution) section; AABB Technical Manual, fetomaternal hemorrhage quantitation"
+  },
+  {
+   "id": "HE-0113",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A leukocyte alkaline phosphatase (LAP) stain is done on a fresh smear from a patient with a WBC of 48 x 10^9/L. One hundred segmented and band neutrophils are graded: 10 at 0, 20 at 1+, 30 at 2+, 25 at 3+, and 15 at 4+. What is the LAP score?",
+   "options": [
+    "90",
+    "315",
+    "215",
+    "2.15"
+   ],
+   "answer": 2,
+   "why": "The LAP (Kaplow) score is the sum of each grade multiplied by the number of cells with that grade. (0 x 10) + (1 x 20) + (2 x 30) + (3 x 25) + (4 x 15) = 0 + 20 + 60 + 75 + 60. **The score is 215, which is high and favors a leukemoid reaction over chronic myeloid leukemia, where the score is typically low.**",
+   "whyNot": {
+    "0": "90 is only the number of cells with any staining; the score weights each cell by its grade.",
+    "1": "This counts each grade one step too high (0 as 1, 1+ as 2, and so on).",
+    "3": "The score is a sum over 100 cells and is not divided by 100."
+   },
+   "worked": {
+    "problem": "100 neutrophils graded: 85 at 0, 10 at 1+, 4 at 2+, 1 at 3+, 0 at 4+. Find the LAP score.",
+    "steps": [
+     "(0 x 85) + (1 x 10) + (2 x 4) + (3 x 1) + (4 x 0).",
+     "= 0 + 10 + 8 + 3 + 0.",
+     "= 21."
+    ],
+    "result": "21 (low, as seen in CML)"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytochemistry section; McKenzie's Clinical Laboratory Hematology, 4th ed., myeloproliferative neoplasms chapter"
+  },
+  {
+   "id": "HE-0114",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "In a quantitative osmotic fragility test, the supernatant of the 0.85% NaCl tube reads 0.020 absorbance (0% hemolysis), the distilled-water tube reads 0.820 (100% hemolysis), and the 0.40% NaCl tube reads 0.356. What is the percent hemolysis in the 0.40% tube?",
+   "options": [
+    "43%",
+    "42%",
+    "45%",
+    "58%"
+   ],
+   "answer": 1,
+   "why": "Percent hemolysis = (A of test tube - A of 0% tube) / (A of 100% tube - A of 0% tube) x 100. (0.356 - 0.020) / (0.820 - 0.020) = 0.336 / 0.800. **The result is 42% hemolysis.** These percentages are plotted against NaCl concentration to draw the fragility curve.",
+   "whyNot": {
+    "0": "This divides 0.356 by 0.820 without subtracting the 0% (blank) reading from either value.",
+    "2": "This subtracts the blank only from the denominator, so the test reading is not blank-corrected.",
+    "3": "This is the percentage of cells that did not lyse (100 - 42), not the percent hemolysis."
+   },
+   "worked": {
+    "problem": "0% tube A = 0.015, 100% tube A = 0.915, test tube A = 0.465. Find the percent hemolysis.",
+    "steps": [
+     "Corrected test = 0.465 - 0.015 = 0.450.",
+     "Corrected 100% = 0.915 - 0.015 = 0.900.",
+     "% hemolysis = 0.450 / 0.900 x 100 = 50%."
+    ],
+    "result": "50%"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemolytic anemia testing section; McKenzie's Clinical Laboratory Hematology, 4th ed., red cell membrane disorders chapter"
+  },
+  {
+   "id": "HE-0115",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A manual cyanmethemoglobin assay uses 0.02 mL of blood in 5.0 mL of Drabkin reagent (dilution 1:251). A cyanmethemoglobin standard of 60 mg/dL reads 0.300 absorbance at 540 nm, and the patient's tube reads 0.290. What is the patient's hemoglobin?",
+   "options": [
+    "15.6 g/dL",
+    "5.8 g/dL",
+    "1.5 g/dL",
+    "14.6 g/dL"
+   ],
+   "answer": 3,
+   "why": "Beer's law gives the HiCN concentration in the tube: 0.290 / 0.300 x 60 = 58 mg/dL. That is multiplied by the dilution factor and converted to g/dL: 58 x 251 = 14,558 mg/dL. **14,558 / 1,000 = 14.6 g/dL.**",
+   "whyNot": {
+    "0": "This inverts the absorbance ratio (standard over patient), which gives a falsely high result.",
+    "1": "This multiplies by 100 instead of the true dilution factor of 251.",
+    "2": "This divides by 10,000 instead of 1,000 when converting mg/dL to g/dL."
+   },
+   "worked": {
+    "problem": "Same 1:251 dilution. An 80 mg/dL standard reads 0.400; the patient reads 0.250. Find the hemoglobin.",
+    "steps": [
+     "Tube concentration = 0.250 / 0.400 x 80 = 50 mg/dL.",
+     "Undiluted = 50 x 251 = 12,550 mg/dL.",
+     "12,550 / 1,000 = 12.55 g/dL."
+    ],
+    "result": "12.6 g/dL"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobin determination section; CLSI H15 (Reference and Selected Procedures for Hemoglobin)"
+  },
+  {
+   "id": "HE-0116",
+   "tos": "HE-A.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient with HIV has a WBC count of 5.0 x 10^9/L with 32% lymphocytes. Flow cytometry shows that 20% of the lymphocytes are CD3+CD4+ T cells. What is the absolute CD4 count?",
+   "options": [
+    "1,600 cells/uL",
+    "1,000 cells/uL",
+    "320 cells/uL",
+    "64 cells/uL"
+   ],
+   "answer": 2,
+   "why": "In the dual-platform method, the absolute lymphocyte count from the hematology analyzer is multiplied by the CD4 percentage from the flow cytometer. Absolute lymphocytes = 5,000 x 0.32 = 1,600/uL. **CD4 count = 1,600 x 0.20 = 320 cells/uL.**",
+   "whyNot": {
+    "0": "This is the absolute lymphocyte count; the CD4 fraction has not been applied.",
+    "1": "This applies the 20% to the total WBC count, but the 20% refers to lymphocytes only.",
+    "3": "This multiplies the two percentages but uses 1,000 instead of the true WBC of 5,000/uL."
+   },
+   "worked": {
+    "problem": "WBC 7.5 x 10^9/L, lymphocytes 24%, CD4+ T cells 35% of lymphocytes. Find the absolute CD4 count.",
+    "steps": [
+     "Absolute lymphocytes = 7,500 x 0.24 = 1,800/uL.",
+     "CD4 count = 1,800 x 0.35.",
+     "= 630 cells/uL."
+    ],
+    "result": "630 cells/uL"
+   },
+   "ref": "McKenzie's Clinical Laboratory Hematology, 4th ed., flow cytometry chapter; Rodak's Hematology: Clinical Principles and Applications, 6th ed., flow cytometric analysis chapter"
+  },
+  {
+   "id": "HE-0117",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A laboratory without a spectrophotometer considers the alkali hematin method for hemoglobin. Why is this method unsuitable for specimens from newborns?",
+   "options": [
+    "Hb F resists denaturation by alkali, so it is not fully converted",
+    "Newborn red cells are too large to lyse in sodium hydroxide",
+    "High newborn bilirubin bleaches the alkali hematin color",
+    "Hb F binds cyanide instead of forming alkali hematin"
+   ],
+   "answer": 0,
+   "why": "In the alkali hematin method, sodium hydroxide converts hemoglobin to alkaline hematin, whose color is compared with a standard. **Fetal hemoglobin resists alkali denaturation, so in newborn blood with much Hb F the conversion is incomplete and the result is falsely low.** The same property of Hb F is the basis of the alkali denaturation test for Hb F.",
+   "whyNot": {
+    "1": "Newborn macrocytes lyse readily in hypotonic or alkaline reagents; cell size is not the problem.",
+    "2": "Bilirubin is a source of interference in some photometric methods, but it does not explain the specific failure with Hb F.",
+    "3": "No cyanide is used in the alkali hematin method; cyanide is a reagent in the cyanmethemoglobin method."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobin determination section; McKenzie's Clinical Laboratory Hematology, 4th ed., hemoglobinopathies chapter"
+  },
+  {
+   "id": "HE-0118",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the cyanmethemoglobin method, which component of Drabkin reagent oxidizes the ferrous (Fe2+) heme iron of hemoglobin to the ferric (Fe3+) state?",
+   "options": [
+    "Potassium cyanide",
+    "Potassium ferricyanide",
+    "Nonionic detergent",
+    "Dihydrogen potassium phosphate"
+   ],
+   "answer": 1,
+   "why": "Drabkin reagent works in two steps. **Potassium ferricyanide oxidizes hemoglobin iron to the ferric state, forming methemoglobin (hemiglobin).** Potassium cyanide then combines with methemoglobin to form stable cyanmethemoglobin, which is read at 540 nm.",
+   "whyNot": {
+    "0": "Cyanide acts in the second step, binding methemoglobin to form cyanmethemoglobin; it does not oxidize the iron.",
+    "2": "The detergent lyses red cells and reduces turbidity; it has no oxidizing role.",
+    "3": "The phosphate buffer shortens the conversion time so the tube can be read sooner; it does not oxidize iron."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobin determination section; CLSI H15"
+  },
+  {
+   "id": "HE-0119",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with sickle cell anemia has a spun microhematocrit of 28%, while the analyzer's calculated hematocrit (RBC x MCV) is 25%. The centrifuge was recently calibrated and the tube was spun for the validated time. What best explains the difference?",
+   "options": [
+    "Excess EDTA shrank the red cells before the microhematocrit was spun",
+    "Sickled cells hemolyzed in the capillary tube during centrifugation",
+    "Sickled cells pack poorly and trap extra plasma in the red cell column",
+    "The buffy coat was left out of the packed-cell reading"
+   ],
+   "answer": 2,
+   "why": "Rigid or abnormally shaped red cells do not pack tightly, so more plasma stays trapped among them. **Increased trapped plasma makes the spun hematocrit read higher than the calculated hematocrit.** The same effect occurs with spherocytes, macrocytes and hypochromic cells, while the calculated hematocrit is unaffected by packing.",
+   "whyNot": {
+    "0": "Excess EDTA shrinks red cells and would lower, not raise, the spun hematocrit.",
+    "1": "Hemolysis in the tube would shrink the packed-cell column and lower the spun hematocrit, not raise it.",
+    "3": "Leaving the buffy coat out of the reading is correct technique; including it would be the error that raises the value."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hematocrit section; McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter"
+  },
+  {
+   "id": "HE-0120",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During a Westergren ESR, the rack holding one tube is found to be leaning a few degrees from vertical for the full hour. How does this affect that patient's result?",
+   "options": [
+    "The ESR is falsely decreased",
+    "The ESR is unaffected if the reading is taken at exactly 60 minutes",
+    "The ESR is unaffected because rouleaux formation is unchanged",
+    "The ESR is falsely increased"
+   ],
+   "answer": 3,
+   "why": "Red cells in a tilted tube slide down the lower wall while plasma rises along the upper wall, which speeds settling. **Even a tilt of a few degrees can raise the ESR markedly, so tubes must be kept exactly vertical.** Other technical errors that raise the ESR include high room temperature and vibration.",
+   "whyNot": {
+    "0": "Tilting speeds sedimentation; it does not slow it.",
+    "1": "Correct timing does not cancel the error; the cells have already fallen faster during the hour.",
+    "2": "Even with normal rouleaux, the tilt itself speeds the fall of the red cell column."
+   },
+   "ref": "ICSH review of the measurement of the ESR (2011); CLSI H02; Rodak's Hematology: Clinical Principles and Applications, 6th ed., ESR section"
+  },
+  {
+   "id": "HE-0121",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with an acute inflammatory illness has a high plasma fibrinogen and a markedly raised ESR. How does fibrinogen speed up sedimentation?",
+   "options": [
+    "It lowers the zeta potential, so red cells stack into rouleaux",
+    "It increases plasma viscosity, so single red cells fall faster",
+    "It lyses red cells, so the red cell column drops more quickly",
+    "It makes red cells spherical, so they sink with less drag"
+   ],
+   "answer": 0,
+   "why": "Red cells normally carry a negative surface charge (mainly from sialic acid) that makes them repel each other. **Large, asymmetric plasma proteins such as fibrinogen reduce this repulsive zeta potential, so the cells stack into rouleaux that sediment much faster than single cells.** Albumin has the opposite effect and slows the ESR.",
+   "whyNot": {
+    "1": "Higher viscosity would slow the fall of red cells; the faster ESR is due to aggregation, not viscosity.",
+    "2": "Fibrinogen does not lyse red cells; lysis would not create a clear plasma-cell boundary in any case.",
+    "3": "Spherocytes do not form rouleaux well and actually lower the ESR; fibrinogen does not change red cell shape."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., ESR section; McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter"
+  },
+  {
+   "id": "HE-0122",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory runs the modified Westergren ESR on EDTA blood. According to ICSH and CLSI, how should the EDTA blood be prepared before it is drawn into the tube?",
+   "options": [
+    "Dilute 1 part blood with 4 parts saline or 3.8% citrate",
+    "Dilute 4 parts blood with 1 part saline or 3.8% citrate",
+    "Use the EDTA blood undiluted, without any added diluent",
+    "Dilute 9 parts blood with 1 part distilled water"
+   ],
+   "answer": 1,
+   "why": "The modified Westergren method allows ESR testing from the same EDTA tube used for the CBC. **EDTA blood is diluted 4:1 with saline or citrate (for example 2 mL blood plus 0.5 mL diluent), matching the dilution of the original citrate method.** The diluted blood is then drawn into a 200-mm Westergren tube and read at 60 minutes.",
+   "whyNot": {
+    "0": "This reverses the ratio and would dilute the red cells fivefold, giving a falsely rapid ESR.",
+    "2": "Undiluted EDTA blood is used in the Wintrobe method; the Westergren method requires the 4:1 dilution.",
+    "3": "Distilled water would lyse the red cells, and 9:1 is the citrate ratio for coagulation tubes."
+   },
+   "ref": "ICSH review of the measurement of the ESR (2011); CLSI H02; Rodak's Hematology: Clinical Principles and Applications, 6th ed., ESR section"
+  },
+  {
+   "id": "HE-0123",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with rheumatoid arthritis has a normocytic anemia. A Prussian blue stain of the bone marrow aspirate is reviewed. Which finding is expected?",
+   "options": [
+    "Absent iron in macrophages with no sideroblasts",
+    "Ringed sideroblasts making up 15% of erythroid precursors",
+    "Normal macrophage iron with many sideroblasts",
+    "Increased iron in macrophages with few sideroblasts"
+   ],
+   "answer": 3,
+   "why": "In anemia of chronic inflammation, hepcidin traps iron inside macrophages and blocks its release to developing red cells. **The marrow therefore shows plentiful or increased storage iron in macrophages but few iron-containing erythroid precursors (sideroblasts).** This pattern separates it from iron deficiency, in which storage iron is absent.",
+   "whyNot": {
+    "0": "Absent macrophage iron is the marrow picture of iron deficiency anemia.",
+    "1": "Ringed sideroblasts with iron in mitochondria around the nucleus define sideroblastic anemia, not anemia of inflammation.",
+    "2": "Many sideroblasts mean iron is reaching the erythroid cells, which is not the case when hepcidin is high."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., iron metabolism and hypochromic anemias chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., anemias of disordered iron metabolism chapter"
+  },
+  {
+   "id": "HE-0124",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Cytochemistry is done on a new acute leukemia. Which result most clearly classifies the blasts as myeloid rather than lymphoid?",
+   "options": [
+    "Myeloperoxidase positivity in at least 3% of the blasts",
+    "Periodic acid-Schiff positivity in coarse blocks",
+    "Terminal deoxynucleotidyl transferase positivity in most blasts",
+    "Diffuse acid phosphatase positivity inhibited by tartrate"
+   ],
+   "answer": 0,
+   "why": "Myeloperoxidase is found in the primary granules of granulocytic cells and is absent from lymphoblasts. **Positivity in 3% or more of blasts is the accepted cutoff for assigning myeloid lineage.** Sudan black B gives a similar pattern, and Auer rods stain strongly with both.",
+   "whyNot": {
+    "1": "Coarse block PAS positivity is the pattern typical of lymphoblasts, not myeloblasts.",
+    "2": "TdT is a marker of immature lymphoid cells and is typically present in ALL.",
+    "3": "Tartrate-sensitive acid phosphatase occurs in many cell types and is not specific for myeloid lineage; T lymphoblasts often show it in a focal pattern."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytochemistry and acute leukemias chapters; WHO Classification of Haematolymphoid Tumours"
+  },
+  {
+   "id": "HE-0125",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Marrow cells from a new acute leukemia are stained with a combined esterase stain. One population of blasts stains with naphthol AS-D chloroacetate esterase, and a second population stains with alpha-naphthyl acetate esterase that is inhibited by sodium fluoride. Which AML subtype fits best?",
+   "options": [
+    "Promyelocytic (FAB M3)",
+    "Myelomonocytic (FAB M4)",
+    "Monoblastic (FAB M5a)",
+    "Megakaryoblastic (FAB M7)"
+   ],
+   "answer": 1,
+   "why": "Naphthol AS-D chloroacetate (specific) esterase marks the neutrophilic (granulocytic) line, while fluoride-sensitive nonspecific esterase marks the monocytic line. **Two separate blast populations, one with each enzyme, indicate both lineages, which is the pattern of acute myelomonocytic leukemia.** Each population should be at least 20% of the marrow cells.",
+   "whyNot": {
+    "0": "In acute promyelocytic leukemia the abnormal promyelocytes stain strongly with chloroacetate esterase, but there is no separate fluoride-sensitive monocytic population.",
+    "2": "Acute monoblastic leukemia is almost purely nonspecific esterase positive, with little or no chloroacetate esterase activity.",
+    "3": "Megakaryoblasts lack the granulocytic chloroacetate esterase population and are identified by platelet glycoproteins such as CD41 and CD61, not by this two-population esterase pattern."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytochemistry and acute myeloid leukemia chapters; McKenzie's Clinical Laboratory Hematology, 4th ed., acute myeloid leukemias chapter"
+  },
+  {
+   "id": "HE-0126",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A marrow from an adult with pancytopenia shows a large majority of immature, dysplastic erythroid precursors. Which cytochemical result would support acute erythroid leukemia?",
+   "options": [
+    "Strong myeloperoxidase positivity in the erythroblasts",
+    "Tartrate-resistant acid phosphatase in the erythroblasts",
+    "Strong PAS positivity in the erythroblasts",
+    "A high leukocyte alkaline phosphatase score"
+   ],
+   "answer": 2,
+   "why": "Normal erythroid precursors are PAS negative. **In acute erythroid leukemia the neoplastic erythroblasts often show strong PAS positivity, diffuse or in coarse granules.** Erythroid cells do not contain myeloperoxidase, so MPO is not used to identify them.",
+   "whyNot": {
+    "0": "Myeloperoxidase is found in granulocytic and monocytic cells, not in erythroid precursors.",
+    "1": "Tartrate-resistant acid phosphatase is a marker for hairy cell leukemia, not for erythroid neoplasms.",
+    "3": "The LAP score measures enzyme activity in mature neutrophils and does not assess erythroblasts."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytochemistry section; McKenzie's Clinical Laboratory Hematology, 4th ed., acute myeloid leukemias chapter"
+  },
+  {
+   "id": "HE-0127",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A physician orders a leukocyte alkaline phosphatase (LAP) score. Which specimen is acceptable?",
+   "options": [
+    "EDTA blood held overnight at 4 degrees C, then smeared",
+    "Citrated blood from a coagulation tube, smeared after 24 hours",
+    "EDTA blood smeared and air-dried for 3 days before fixing",
+    "Fresh capillary blood or heparinized blood, smeared and fixed promptly"
+   ],
+   "answer": 3,
+   "why": "Alkaline phosphatase activity in neutrophils declines quickly after collection and needs divalent cations such as zinc and magnesium. **EDTA chelates these cations and inhibits the enzyme, so fresh capillary blood or heparinized blood smeared and fixed within a few hours is used.** Delayed or improperly handled specimens give falsely low scores.",
+   "whyNot": {
+    "0": "EDTA inhibits alkaline phosphatase, and overnight storage further reduces enzyme activity.",
+    "1": "A 24-hour delay allows enzyme activity to fall, giving a falsely low score.",
+    "2": "EDTA inhibits the enzyme, and smears left unfixed for days lose activity."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytochemistry section; McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter"
+  },
+  {
+   "id": "HE-0128",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with beta-thalassemia minor has an osmotic fragility test. Many target cells are seen on the smear. Compared with normal red cells, what result is expected?",
+   "options": [
+    "Decreased fragility: hemolysis begins at a lower NaCl concentration",
+    "Increased fragility: hemolysis begins at a higher NaCl concentration",
+    "Normal fragility, but only after 24-hour incubation at 37 degrees C",
+    "Increased fragility in the unincubated test only"
+   ],
+   "answer": 0,
+   "why": "Thin, flat cells such as target cells have a high surface-area-to-volume ratio and can swell a great deal before they burst. **Their osmotic fragility is decreased, so the curve shifts to the left (hemolysis starts at lower saline concentrations).** Decreased fragility is also seen in iron deficiency, sickle cell anemia and liver disease.",
+   "whyNot": {
+    "1": "Increased fragility is the pattern of spherocytes, which have a low surface-area-to-volume ratio.",
+    "2": "Incubation accentuates abnormal fragility, especially in hereditary spherocytosis; it does not make target cells normal.",
+    "3": "Target cells are resistant to osmotic lysis in both unincubated and incubated tests."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemolytic anemia testing section; McKenzie's Clinical Laboratory Hematology, 4th ed., red cell membrane disorders chapter"
+  },
+  {
+   "id": "HE-0129",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A tube-based hemoglobin S solubility test (sodium dithionite in high-molarity phosphate buffer) is turbid, but hemoglobin electrophoresis shows no Hb S. Which specimen condition most likely caused the false-positive screen?",
+   "options": [
+    "Severe anemia with hemoglobin 6 g/dL",
+    "Marked hyperlipidemia",
+    "A specimen from a 3-month-old infant",
+    "A specimen collected in EDTA"
+   ],
+   "answer": 1,
+   "why": "The solubility test depends on reduced Hb S precipitating and making the solution turbid. **Anything that makes the solution turbid, such as heavy lipemia, high plasma proteins or a very high hematocrit, can give a false-positive result.** Positive screens are confirmed by electrophoresis or HPLC.",
+   "whyNot": {
+    "0": "Severe anemia lowers the amount of hemoglobin in the tube and causes false-negative, not false-positive, results.",
+    "2": "Infants have mostly Hb F and little Hb S, which tends to give false-negative results.",
+    "3": "EDTA is an acceptable anticoagulant for this test and does not cause turbidity."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobinopathies chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., hemoglobinopathies chapter"
+  },
+  {
+   "id": "HE-0130",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A hemoglobin electrophoresis is run on cellulose acetate in an alkaline buffer (pH 8.4-8.6). Of the following, which hemoglobin ends up farthest from the point of application, toward the anode?",
+   "options": [
+    "Hb F",
+    "Hb S",
+    "Hb A",
+    "Hb C"
+   ],
+   "answer": 2,
+   "why": "At alkaline pH, hemoglobins carry a net negative charge and move toward the anode at rates set by their charge. **Of these four, Hb A is the fastest, followed by Hb F, then Hb S, with Hb C slowest and closest to the point of application.** Hb S and Hb C carry fewer negative charges because their beta-chain substitutions remove glutamic acid.",
+   "whyNot": {
+    "0": "Hb F migrates slightly behind Hb A at alkaline pH.",
+    "1": "Hb S migrates more slowly than Hb A because valine replaces glutamic acid at beta-6, removing a negative charge.",
+    "3": "Hb C is the slowest of the four because lysine replaces glutamic acid, giving it the least negative charge."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobinopathies chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., hemoglobinopathies chapter"
+  },
+  {
+   "id": "HE-0131",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman has microcytosis, a high RBC count, normal ferritin, and suspected beta-thalassemia minor. Which method is preferred to measure her Hb A2 accurately?",
+   "options": [
+    "Hemoglobin solubility test",
+    "Kleihauer-Betke acid elution",
+    "Alkaline cellulose acetate electrophoresis with visual reading",
+    "Cation-exchange high-performance liquid chromatography"
+   ],
+   "answer": 3,
+   "why": "Beta-thalassemia minor is diagnosed mainly by an elevated Hb A2, usually above 3.5%. **Cation-exchange HPLC (or microcolumn chromatography) separates and quantifies Hb A2 precisely, which a visual electrophoresis reading cannot do.** Iron deficiency should be ruled out because it can lower Hb A2.",
+   "whyNot": {
+    "0": "The solubility test screens for Hb S and gives no quantitative information on Hb A2.",
+    "1": "The Kleihauer-Betke test detects cells containing Hb F, mainly to estimate fetal-maternal hemorrhage.",
+    "2": "On alkaline electrophoresis Hb A2 runs with Hb C and Hb E, and visual estimation of a small band is not precise enough."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., thalassemias chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., thalassemia chapter"
+  },
+  {
+   "id": "HE-0132",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On a flow cytometry plot of CD45 intensity versus side scatter, where do myeloblasts usually appear?",
+   "options": [
+    "Dim CD45 with low side scatter",
+    "Bright CD45 with low side scatter",
+    "Moderate CD45 with high side scatter",
+    "Negative CD45 with very high side scatter"
+   ],
+   "answer": 0,
+   "why": "CD45 is expressed on all leukocytes, but its intensity increases as cells mature, and side scatter reflects granularity. **Blasts express CD45 weakly and have little granularity, so they fall in a dim-CD45, low-side-scatter region often called the blast gate.** This gating is the first step in most acute leukemia panels.",
+   "whyNot": {
+    "1": "Bright CD45 with low side scatter is where mature lymphocytes appear.",
+    "2": "Moderate CD45 with high side scatter is the region of granulocytes, which are heavily granulated.",
+    "3": "CD45-negative events are mainly nucleated red cells or debris, which do not have very high side scatter."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., flow cytometric analysis chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., flow cytometry chapter"
+  },
+  {
+   "id": "HE-0133",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Blasts from a new acute leukemia are CD34+, HLA-DR+, CD13+, CD33+, and CD117+, and negative for CD19, CD10, and cytoplasmic CD3. Which lineage is indicated?",
+   "options": [
+    "B lymphoid",
+    "Myeloid",
+    "T lymphoid",
+    "Mixed B and T lymphoid"
+   ],
+   "answer": 1,
+   "why": "CD34 and HLA-DR mark immaturity but are not lineage specific. **CD13, CD33 and CD117 are myeloid-associated antigens, so this pattern indicates myeloid blasts.** The absence of CD19 and cytoplasmic CD3 argues against B- and T-lymphoid lineage.",
+   "whyNot": {
+    "0": "B lymphoblasts express CD19, often with CD10, both of which are negative here.",
+    "2": "T lymphoblasts express cytoplasmic CD3, which is negative here.",
+    "3": "Neither B nor T lineage markers are present, so a mixed lymphoid phenotype is not supported."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., flow cytometric analysis chapter; WHO Classification of Haematolymphoid Tumours"
+  },
+  {
+   "id": "HE-0134",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A new technologist is making wedge smears from a patient with a hematocrit of 62%. Her smears are short and thick, with no good thin area. Which change should she make?",
+   "options": [
+    "Use a larger drop and raise the angle of the spreader slide",
+    "Use a larger drop and keep the same spreader angle",
+    "Use a smaller drop and lower the angle of the spreader slide",
+    "Let the drop sit on the slide for a minute before spreading"
+   ],
+   "answer": 2,
+   "why": "Blood with a high hematocrit is viscous and makes thick, short smears. **Lowering the spreader angle (and using a smaller drop, spread smoothly) gives a longer, thinner film with a usable feathered edge.** For a very low hematocrit, the opposite adjustment is made by raising the angle.",
+   "whyNot": {
+    "0": "A larger drop and a steeper angle make the film even shorter and thicker; raising the angle is the adjustment for anemic blood, not viscous blood.",
+    "1": "A larger drop puts more viscous blood on the slide and makes the film even thicker.",
+    "3": "Letting the drop sit allows cells to settle and the drop to dry at the edges, causing uneven distribution."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., blood smear preparation chapter; CLSI H20"
+  },
+  {
+   "id": "HE-0135",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A marrow aspirate from a patient with suspected CML yields no analyzable metaphases after culture. Which test can still detect the BCR-ABL1 fusion directly in non-dividing cells?",
+   "options": [
+    "Conventional G-banded karyotyping",
+    "Sudan black B cytochemical staining",
+    "Hemoglobin electrophoresis at pH 8.6",
+    "Fluorescence in situ hybridization (FISH)"
+   ],
+   "answer": 3,
+   "why": "Conventional karyotyping requires cells that divide in culture so chromosomes can be seen in metaphase. **FISH uses fluorescent DNA probes that bind target sequences in interphase nuclei, so it can detect a BCR-ABL1 fusion even when no metaphases are available.** Dual-color fusion probes show the BCR and ABL1 signals joined together.",
+   "whyNot": {
+    "0": "Karyotyping needs metaphase cells, which this culture failed to produce.",
+    "1": "Sudan black B stains lipids in granulocytic cells and gives no genetic information.",
+    "2": "Hemoglobin electrophoresis studies globin variants and has no role in detecting translocations."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., cytogenetics and molecular diagnostics chapters; McKenzie's Clinical Laboratory Hematology, 4th ed., cytogenetics chapter"
+  },
+  {
+   "id": "HE-0136",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "After a technologist reviews a smear under oil immersion and switches back to the 40x high-dry objective, the image stays hazy and cannot be focused sharply. What is the most likely cause and fix?",
+   "options": [
+    "Oil on the 40x lens; clean it with lens paper",
+    "Iris diaphragm fully open; close it completely",
+    "Light bulb nearing failure; replace the lamp",
+    "Condenser set too high; lower it fully"
+   ],
+   "answer": 0,
+   "why": "The 40x objective is a dry lens with a short working distance, and it easily touches oil left on the slide. **Oil on a dry objective blurs the image, so the lens should be cleaned with lens paper (with lens cleaner if needed).** Using only lens paper protects the lens coatings.",
+   "whyNot": {
+    "1": "An open diaphragm increases light and may lower contrast, but it does not cause a hazy, unfocusable image; closing it fully would make the field too dark.",
+    "2": "A failing bulb dims the field evenly but does not stop the image from coming into focus.",
+    "3": "Lowering the condenser to its bottom stop reduces resolution and light; a raised condenser is normal for brightfield work."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., microscopy chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., microscopy and laboratory equipment chapter"
+  },
+  {
+   "id": "HE-0137",
+   "tos": "HE-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A rural clinic uses a handheld point-of-care hemoglobin photometer with dry-reagent microcuvettes (HemoCue type). What is the measuring principle?",
+   "options": [
+    "Hemoglobin is calculated from a conductivity-based hematocrit",
+    "Hemoglobin is converted to azidemethemoglobin and read photometrically",
+    "A drop of blood is timed as it falls through copper sulfate",
+    "Hemoglobin is converted to acid hematin and matched to a color block"
+   ],
+   "answer": 1,
+   "why": "The microcuvette contains dried reagents that lyse the cells and convert hemoglobin. **Sodium nitrite oxidizes hemoglobin to methemoglobin, which combines with azide to form azidemethemoglobin, read at about 570 nm with a second wavelength to correct for turbidity.** The method correlates well with the cyanmethemoglobin reference method.",
+   "whyNot": {
+    "0": "Conductivity-derived hematocrit is used in some blood gas and POC chemistry analyzers, not in these hemoglobin photometers.",
+    "2": "The copper sulfate specific-gravity test is a qualitative donor screen, not a photometric measurement.",
+    "3": "Acid hematin with visual comparison is the old Sahli method, not a photometric point-of-care method."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., hemoglobin determination and point-of-care testing sections; McKenzie's Clinical Laboratory Hematology, 4th ed., hematology procedures chapter"
+  },
+  {
+   "id": "HE-0138",
+   "tos": "HE-C.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "On a well-made Wright-stained smear, 72 platelets are seen per 1,000 red cells. The patient's RBC count is 4.0 x 10^12/L. What is the platelet count by this indirect method?",
+   "options": [
+    "72 x 10^9/L",
+    "28.8 x 10^9/L",
+    "288 x 10^9/L",
+    "2,880 x 10^9/L"
+   ],
+   "answer": 2,
+   "why": "The indirect method multiplies the platelet-to-red cell ratio on the smear by the RBC count. 72 / 1,000 = 0.072 platelets per red cell. **0.072 x 4.0 x 10^12/L = 2.88 x 10^11/L, which is 288 x 10^9/L.**",
+   "whyNot": {
+    "0": "This reports the number of platelets seen without multiplying by the RBC count.",
+    "1": "This is ten times too low; it treats the ratio as 72 per 10,000 red cells.",
+    "3": "This is ten times too high; it treats the ratio as 72 per 100 red cells."
+   },
+   "worked": {
+    "problem": "A smear shows 35 platelets per 1,000 RBCs; the RBC count is 3.6 x 10^12/L. Find the platelet count.",
+    "steps": [
+     "Platelets per RBC = 35 / 1,000 = 0.035.",
+     "Platelet count = 0.035 x 3.6 x 10^12/L = 1.26 x 10^11/L.",
+     "= 126 x 10^9/L."
+    ],
+    "result": "126 x 10^9/L"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., peripheral blood smear examination chapter"
+  },
+  {
+   "id": "HE-0139",
+   "tos": "HE-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient on chemotherapy has a WBC count of 0.6 x 10^9/L, and a routine wedge smear shows only a few white cells per slide. What is the best way to obtain a smear for a reliable differential?",
+   "options": [
+    "Make thicker wedge smears with a larger drop of blood",
+    "Count 25 cells on the routine smear and report percentages",
+    "Prepare a thick smear as used for malaria parasites",
+    "Prepare smears from the buffy coat of a centrifuged sample"
+   ],
+   "answer": 3,
+   "why": "When the WBC count is very low, a routine smear does not contain enough white cells for a meaningful differential. **Centrifuging the blood and smearing the buffy coat concentrates the leukocytes.** Even so, a reduced count (for example 50 cells) may be reported, with a note.",
+   "whyNot": {
+    "0": "Thick wedge smears distort cell morphology and do not concentrate white cells enough to help.",
+    "1": "A 25-cell differential is statistically unreliable; percentages based on so few cells have very wide error.",
+    "2": "Thick smears lyse red cells and distort leukocytes; they are designed to detect parasites, not to perform differentials."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., blood smear preparation chapter; CLSI H20"
+  },
+  {
+   "id": "HE-0140",
+   "tos": "HE-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Before starting a differential, a technologist scans a wedge smear under the 10x objective. Which part of the smear should be checked specifically for platelet clumps and large abnormal cells?",
+   "options": [
+    "The feathered edge and the lateral edges",
+    "The thick area near the drop origin",
+    "The exact center of the smear",
+    "The zone where red cells overlap in thick layers"
+   ],
+   "answer": 0,
+   "why": "During wedge spreading, large cells and platelet aggregates are pushed to the edges of the film. **Scanning the feathered edge and the lateral edges at low power detects platelet clumps, blasts, and other large cells that would be missed in the counting area.** The differential itself is done in the thin area where red cells just touch.",
+   "whyNot": {
+    "1": "The thick area is too crowded to see cells well, and large cells are carried away from it.",
+    "2": "The center is not where large cells and clumps collect, so this check would miss them.",
+    "3": "Areas with overlapping red cells are too thick for morphology and are not where platelet clumps gather."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., peripheral blood smear examination chapter; CLSI H20"
+  },
+  {
+   "id": "HE-0141",
+   "tos": "HE-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A smear shows red cells stacked like coins. To find out whether this is rouleaux or true agglutination, a technologist replaces the plasma with saline and examines a wet preparation. Which result indicates rouleaux?",
+   "options": [
+    "The cells remain in irregular clumps in saline",
+    "The stacks disperse into single cells in saline",
+    "The cells disperse only after warming to 37 degrees C",
+    "The cells lyse completely in saline"
+   ],
+   "answer": 1,
+   "why": "Rouleaux are caused by abnormal plasma proteins, such as the paraprotein of multiple myeloma, that reduce the repulsion between red cells. **Removing the plasma and adding saline breaks up rouleaux, whereas antibody-mediated agglutination persists.** Agglutination that disperses on warming suggests a cold autoantibody.",
+   "whyNot": {
+    "0": "Clumps that persist after saline replacement are typical of agglutination by antibody.",
+    "2": "Dispersal only on warming points to cold agglutinins, a form of agglutination, not rouleaux.",
+    "3": "Normal red cells do not lyse in isotonic saline; lysis would point to a different problem."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., peripheral blood smear examination chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., red cell morphology chapter"
+  },
+  {
+   "id": "HE-0142",
+   "tos": "HE-C.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with sudden thrombocytopenia has a smear review for schistocytes. Following ICSH guidance, the technologist counts 1,000 red cells and finds 14 schistocytes. How should this be interpreted?",
+   "options": [
+    "14%; far above the cutoff, typical of mechanical heart valves",
+    "0.14%; within the range seen in healthy adults",
+    "1.4%; above the ICSH 1% cutoff, supporting thrombotic microangiopathy",
+    "1.4%; insignificant unless above 5% in adults"
+   ],
+   "answer": 2,
+   "why": "ICSH recommends counting schistocytes in at least 1,000 red cells and reporting a percentage: 14 / 1,000 x 100 = 1.4%. **In adults, a schistocyte count above 1% strongly suggests thrombotic microangiopathy when the clinical picture fits.** Only typical fragments, such as helmet cells, triangles, and microspherocytes in their presence, should be counted.",
+   "whyNot": {
+    "0": "This places the decimal wrongly; 14 of 1,000 cells is 1.4%, not 14%.",
+    "1": "This places the decimal wrongly in the other direction; 14 of 1,000 is 1.4%.",
+    "3": "The ICSH threshold in adults is 1%, not 5%; a count of 1.4% is significant."
+   },
+   "ref": "ICSH recommendations for identification and quantitation of schistocytes (Zini et al., 2012; updated 2021); Rodak's Hematology: Clinical Principles and Applications, 6th ed., red cell morphology chapter"
+  },
+  {
+   "id": "HE-0143",
+   "tos": "HE-C.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "An impedance analyzer measures RBC 4.40 x 10^12/L, MCV 90 fL, and hemoglobin 12.8 g/dL. Which hematocrit and MCHC will it report?",
+   "options": [
+    "20.5%; 62.4 g/dL",
+    "38.4%; 33.3 g/dL",
+    "39.6%; 29.1 g/dL",
+    "39.6%; 32.3 g/dL"
+   ],
+   "answer": 3,
+   "why": "Automated analyzers do not spin the blood; they calculate hematocrit from the measured RBC count and MCV. Hct (%) = RBC x MCV / 10 = 4.40 x 90 / 10 = 39.6%. **MCHC = Hb / Hct x 100 = 12.8 / 39.6 x 100 = 32.3 g/dL.**",
+   "whyNot": {
+    "0": "This divides MCV by RBC instead of multiplying, which gives an impossible MCHC.",
+    "1": "This uses the rule of three (Hb x 3) to estimate hematocrit; the analyzer uses RBC x MCV.",
+    "2": "The hematocrit is right, but 29.1 is the MCH (Hb / RBC x 10, in pg), not the MCHC."
+   },
+   "worked": {
+    "problem": "An analyzer measures RBC 5.10 x 10^12/L, MCV 82 fL, and Hb 13.6 g/dL. Find the reported Hct and MCHC.",
+    "steps": [
+     "Hct = 5.10 x 82 / 10 = 41.8%.",
+     "MCHC = 13.6 / 41.8 x 100.",
+     "= 32.5 g/dL."
+    ],
+    "result": "Hct 41.8%; MCHC 32.5 g/dL"
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., automated blood cell analysis chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., automation in hematology chapter"
+  },
+  {
+   "id": "HE-0144",
+   "tos": "HE-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A grossly lipemic specimen gives Hb 15.8 g/dL, Hct 36%, MCH 38 pg, and MCHC 44 g/dL. The smear shows normochromic, normocytic red cells. What should the technologist do?",
+   "options": [
+    "Replace the plasma with an equal volume of diluent and rerun",
+    "Warm the specimen to 37 degrees C for 30 minutes and rerun",
+    "Dilute the specimen 1:2 with distilled water and multiply by 2",
+    "Report the results with a comment about spherocytes"
+   ],
+   "answer": 0,
+   "why": "Lipid droplets cause turbidity in the hemoglobin channel and raise the hemoglobin reading, which then raises MCH and MCHC. **Plasma replacement (spin, remove plasma, add an equal volume of diluent, mix and rerun) removes the lipid and gives a correct hemoglobin.** The red cell count and MCV are not affected by lipemia.",
+   "whyNot": {
+    "1": "Warming corrects interference by cold agglutinins, not by lipemia.",
+    "2": "Water would lyse the red cells and does not remove the lipid that causes turbidity.",
+    "3": "The smear shows normal cells, and an MCHC of 44 g/dL is not physiologic, so the results must not be reported as true."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., automated blood cell analysis chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., automation in hematology chapter"
+  },
+  {
+   "id": "HE-0145",
+   "tos": "HE-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "An impedance analyzer reports a platelet count of 62 x 10^9/L with a flag. The WBC is 11.8 x 10^9/L, and the WBC histogram shows an abnormal rise at its far left edge, below the 35 fL discriminator. The patient's platelet count was normal yesterday. Which interference is most likely?",
+   "options": [
+    "Microcytic red cells counted as platelets",
+    "Platelet clumps counted as small white cells",
+    "Lipemia raising the hemoglobin reading",
+    "Cold agglutinin doublets counted as one large red cell"
+   ],
+   "answer": 1,
+   "why": "Large platelet aggregates are too big to fall in the platelet channel and may be counted in the white cell channel. **This gives a falsely low platelet count, a falsely high WBC, and a peak at the left edge of the WBC histogram.** The smear should be checked for clumps and the sample recollected (for example in citrate) if they are confirmed.",
+   "whyNot": {
+    "0": "Microcytic red cells counted as platelets would raise the platelet count, not lower it.",
+    "2": "Lipemia affects the hemoglobin and its indices, not the platelet count or the WBC histogram.",
+    "3": "Cold agglutinin doublets distort the RBC count and MCV; they do not explain a low platelet count with a left-edge WBC peak."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., automated blood cell analysis chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., automation in hematology chapter"
+  },
+  {
+   "id": "HE-0146",
+   "tos": "HE-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Many hematology analyzers use hydrodynamic focusing, in which a stream of sheath fluid surrounds the diluted sample. What is its main purpose?",
+   "options": [
+    "To lyse red cells before the white cells are counted",
+    "To stain nucleic acids so reticulocytes can be identified",
+    "To pass cells singly through the center of the sensing zone",
+    "To warm the sample to body temperature before counting"
+   ],
+   "answer": 2,
+   "why": "Without focusing, two cells may pass the sensor together or pass near the edge, giving distorted pulses. **Sheath fluid narrows the sample stream so cells pass in single file through the center of the aperture or flow cell.** This reduces coincidence errors and recirculation and makes pulse size more consistent.",
+   "whyNot": {
+    "0": "Red cells are lysed by a lytic reagent in the WBC channel, not by the sheath fluid.",
+    "1": "Reticulocytes are identified with fluorescent or supravital dyes added to the sample, not by sheath flow.",
+    "3": "Sheath flow does not control the temperature of the sample."
+   },
+   "ref": "Rodak's Hematology: Clinical Principles and Applications, 6th ed., automated blood cell analysis chapter; McKenzie's Clinical Laboratory Hematology, 4th ed., automation in hematology chapter"
+  },
+  {
+   "id": "HE-0147",
+   "tos": "HE-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which embryonic hemoglobin is made of two zeta and two epsilon globin chains?",
+   "options": [
+    "Hb Portland",
+    "Hb Gower-2",
+    "Hb Barts",
+    "Hb Gower-1"
+   ],
+   "answer": 3,
+   "why": "Embryonic hemoglobins are produced by yolk sac-derived erythroblasts before the switch to fetal hemoglobin. **Hb Gower-1 has the composition zeta2 epsilon2.** As the liver becomes the main site of erythropoiesis, gamma-chain production rises and Hb F becomes the main hemoglobin.",
+   "whyNot": {
+    "0": "Hb Portland is zeta2 gamma2; it contains gamma chains rather than epsilon chains.",
+    "1": "Hb Gower-2 is alpha2 epsilon2, so it carries alpha chains rather than zeta chains.",
+    "2": "Hb Barts is a gamma4 tetramer formed when alpha chains are lacking, as in severe alpha-thalassemia; it is not a normal embryonic hemoglobin."
+   },
+   "ref": "Rodak's Hematology 6e, hemoglobin metabolism chapter"
+  },
+  {
+   "id": "HE-0148",
+   "tos": "HE-B.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A 500-cell bone marrow differential gives these counts: granulocytic cells at all stages (myeloblasts through segmented neutrophils, plus eosinophils and basophils) 240, nucleated erythroid precursors 200, lymphocytes 40, monocytes 15, and plasma cells 5. The laboratory's adult reference interval for the myeloid-to-erythroid (M:E) ratio is 1.5:1 to 3.3:1. What is the M:E ratio, and how is it interpreted?",
+   "options": [
+    "0.8:1; myeloid hyperplasia",
+    "1.0:1; erythroid hyperplasia or reduced granulopoiesis",
+    "1.2:1; erythroid hyperplasia or reduced granulopoiesis",
+    "1.5:1; within the reference interval"
+   ],
+   "answer": 2,
+   "why": "The M:E ratio compares all granulocytic cells and their precursors with nucleated erythroid precursors; lymphocytes, monocytes, and plasma cells are left out. Here 240 / 200 = 1.2, so **the M:E ratio is 1.2:1, below the reference interval**. A low ratio means relatively more erythroid activity (as after hemolysis or blood loss) or reduced granulocyte production.",
+   "whyNot": {
+    "0": "This divides erythroid by myeloid cells, inverting the ratio; a value below 1 would in any case mean erythroid excess, not myeloid hyperplasia.",
+    "1": "This adds the lymphocytes to the erythroid side; lymphocytes belong to neither side of the ratio.",
+    "3": "This adds lymphocytes and monocytes to the myeloid side; only granulocytic cells are counted as myeloid."
+   },
+   "worked": {
+    "problem": "A 400-cell marrow differential has 270 granulocytic cells (all stages), 90 nucleated erythroid precursors, 30 lymphocytes, 6 monocytes, and 4 plasma cells. Find the M:E ratio.",
+    "steps": [
+     "Myeloid side = granulocytic cells only = 270",
+     "Erythroid side = nucleated erythroid precursors = 90",
+     "Leave out lymphocytes, monocytes, and plasma cells",
+     "M:E = 270 / 90 = 3.0"
+    ],
+    "result": "3.0:1, within a 1.5:1 to 3.3:1 reference interval"
+   },
+   "ref": "Rodak's Hematology 6e, bone marrow examination chapter"
+  },
+  {
+   "id": "HE-0149",
+   "tos": "HE-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A core biopsy from a 75-year-old man with mild anemia shows hematopoietic cells filling about 25% of the marrow space, with fat in the rest. All cell lines are present and maturing normally. How should the cellularity be reported?",
+   "options": [
+    "Normocellular for his age",
+    "Hypocellular, because adult marrow should be about 50% cellular",
+    "Hypercellular for his age",
+    "Aplastic, because cellularity is below 30%"
+   ],
+   "answer": 0,
+   "why": "Marrow cellularity falls with age as fat replaces hematopoietic tissue; a common rule of thumb puts the expected cellularity at roughly 100 minus the patient's age, in percent. For a 75-year-old, about 25% is expected, so **this marrow is normocellular for age**. Judging it against a young-adult value would wrongly label it hypocellular.",
+   "whyNot": {
+    "1": "About 50% cellularity is typical of younger adults; applying it at age 75 ignores the normal age-related increase in marrow fat.",
+    "2": "Hypercellularity would require hematopoietic tissue clearly above the roughly 25% expected at his age.",
+    "3": "Aplastic anemia needs a markedly hypocellular marrow for age with significant cytopenias; normal trilineage maturation at an age-appropriate cellularity does not fit."
+   },
+   "ref": "Rodak's Hematology 6e, bone marrow examination chapter"
+  },
+  {
+   "id": "HE-0150",
+   "tos": "HE-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Before a peripheral blood stem cell collection, the transplant team asks the laboratory to count circulating hematopoietic stem and progenitor cells by flow cytometry. Which marker is counted?",
+   "options": [
+    "CD3",
+    "CD19",
+    "CD34",
+    "CD41"
+   ],
+   "answer": 2,
+   "why": "Hematopoietic stem cells and early progenitors express CD34, a surface glycoprotein that is lost as cells mature. **Flow cytometric CD34 enumeration is the standard measure of stem cell content** in blood and apheresis products. The count guides the timing of collection and whether the graft is adequate.",
+   "whyNot": {
+    "0": "CD3 is a pan-T-cell marker found on mature T lymphocytes.",
+    "1": "CD19 is a B-lineage marker.",
+    "3": "CD41 (GPIIb) marks megakaryocytes and platelets."
+   },
+   "ref": "Rodak's Hematology 6e, hematopoiesis and flow cytometry chapters"
+  },
+  {
+   "id": "HE-0151",
+   "tos": "HE-B.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "While scanning a posterior iliac crest aspirate from a child, a technologist finds a very large cell with abundant granular cytoplasm and about eight separate, round, similar-sized nuclei that do not touch one another. What is this cell most likely to be?",
+   "options": [
+    "Mature megakaryocyte",
+    "Osteoclast",
+    "Osteoblast",
+    "Gaucher cell"
+   ],
+   "answer": 1,
+   "why": "Osteoclasts are bone-resorbing giant cells formed by fusion of monocyte-macrophage precursors, so **many separate, round, uniform nuclei identify an osteoclast**. A megakaryocyte, by contrast, has one large nucleus whose lobes remain connected. Osteoclasts and osteoblasts are seen more often in aspirates from children, whose bones are actively remodeling.",
+   "whyNot": {
+    "0": "A megakaryocyte becomes polyploid by endomitosis, giving one lobulated nucleus rather than several separate nuclei.",
+    "2": "Osteoblasts have a single eccentric nucleus and resemble plasma cells; they are not multinucleated.",
+    "3": "Gaucher cells are lipid-laden macrophages with one or a few small nuclei and wrinkled, striated cytoplasm."
+   },
+   "ref": "Rodak's Hematology 6e, bone marrow examination chapter"
+  },
+  {
+   "id": "HE-0152",
+   "tos": "HE-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 25-year-old has had bluish lips since childhood but no shortness of breath. His blood is chocolate-brown, arterial pO2 is normal, and methemoglobin is 18%. His brother has the same findings. Deficiency of which enzyme best explains this?",
+   "options": [
+    "NADH-cytochrome b5 reductase",
+    "Glucose-6-phosphate dehydrogenase",
+    "Pyruvate kinase",
+    "Bisphosphoglycerate mutase"
+   ],
+   "answer": 0,
+   "why": "The methemoglobin reductase pathway uses NADH and cytochrome b5 reductase to return oxidized (ferric) heme iron to the ferrous state. **Inherited deficiency of NADH-cytochrome b5 reductase causes lifelong methemoglobinemia**, often with cyanosis but few symptoms. A normal pO2 with chocolate-brown blood points to abnormal hemoglobin rather than lung disease.",
+   "whyNot": {
+    "1": "G6PD deficiency limits NADPH and causes episodes of oxidant hemolysis with Heinz bodies; it does not cause lifelong methemoglobinemia, although it makes methylene blue treatment ineffective.",
+    "2": "Pyruvate kinase deficiency lowers ATP from glycolysis and causes chronic hemolytic anemia, not cyanosis from methemoglobin.",
+    "3": "Bisphosphoglycerate mutase makes 2,3-BPG; its deficiency raises oxygen affinity and can cause erythrocytosis, not methemoglobinemia."
+   },
+   "ref": "Rodak's Hematology 6e, erythrocyte metabolism and membrane chapter"
+  },
+  {
+   "id": "HE-0153",
+   "tos": "HE-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Within an hour of an ABO-incompatible red cell transfusion, a patient develops fever, back pain, and red-brown urine. Which set of results reflects intravascular hemolysis?",
+   "options": [
+    "Haptoglobin increased, plasma free hemoglobin normal, urine hemoglobin negative",
+    "Haptoglobin normal, plasma free hemoglobin normal, urine bilirubin strongly positive",
+    "Haptoglobin increased, plasma free hemoglobin increased, urine hemoglobin positive",
+    "Haptoglobin decreased, plasma free hemoglobin increased, urine hemoglobin positive"
+   ],
+   "answer": 3,
+   "why": "When red cells lyse inside vessels, free hemoglobin binds haptoglobin and the complex is quickly cleared, so haptoglobin falls. **Once haptoglobin is saturated, free hemoglobin rises in plasma and passes into the urine as hemoglobinuria.** Hemosiderinuria follows several days later as renal tubular cells shed stored iron.",
+   "whyNot": {
+    "0": "Haptoglobin can rise as an acute-phase protein, but brisk intravascular hemolysis consumes it; normal plasma hemoglobin and negative urine hemoglobin do not fit red-brown urine.",
+    "1": "Unconjugated bilirubin from hemolysis is bound to albumin and does not enter urine, so urine bilirubin is not a hemolysis marker; haptoglobin and plasma hemoglobin would also be abnormal.",
+    "2": "Haptoglobin binds and removes free hemoglobin, so it falls rather than rises when plasma hemoglobin is high."
+   },
+   "ref": "Rodak's Hematology 6e, hemolytic anemia (intravascular and extravascular hemolysis) chapter"
+  },
+  {
+   "id": "HE-0154",
+   "tos": "HE-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A child who has been eating paint chips has microcytic anemia, coarse basophilic stippling, increased zinc protoporphyrin, and increased urine delta-aminolevulinic acid (ALA). Lead blocks which two enzymes of heme synthesis to produce this pattern?",
+   "options": [
+    "ALA synthase and ferrochelatase",
+    "ALA dehydratase and ferrochelatase",
+    "Porphobilinogen deaminase and uroporphyrinogen decarboxylase",
+    "ALA synthase and coproporphyrinogen oxidase"
+   ],
+   "answer": 1,
+   "why": "Lead inhibits ALA dehydratase, so ALA builds up and spills into the urine, and it inhibits ferrochelatase, so iron cannot be inserted and zinc is placed into protoporphyrin instead. **Inhibition of ALA dehydratase and ferrochelatase explains the high urine ALA and zinc protoporphyrin.** Lead also inhibits pyrimidine 5'-nucleotidase, leaving undegraded RNA that shows as coarse basophilic stippling.",
+   "whyNot": {
+    "0": "ALA synthase is the first, rate-limiting enzyme; if lead blocked it, ALA would fall rather than accumulate in urine.",
+    "2": "Deficiencies of these enzymes cause acute intermittent porphyria and porphyria cutanea tarda; they are not the main lead targets.",
+    "3": "Blocking ALA synthase would lower ALA rather than raise it; the hallmark lead targets are ALA dehydratase and ferrochelatase."
+   },
+   "ref": "Rodak's Hematology 6e, hemoglobin metabolism and disorders of iron and heme chapters"
+  },
+  {
+   "id": "HE-0155",
+   "tos": "HE-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A firefighter rescued from a house fire has a headache and confusion. His pulse oximeter reads 98%, but co-oximetry shows 28% carboxyhemoglobin. How does carbon monoxide impair oxygen delivery?",
+   "options": [
+    "It oxidizes heme iron to the ferric state and shifts the curve to the right",
+    "It binds heme irreversibly and denatures the globin chains",
+    "It binds heme far more tightly than O2 and shifts the dissociation curve to the left",
+    "It binds the globin chains and shifts the curve to the right"
+   ],
+   "answer": 2,
+   "why": "Carbon monoxide binds heme iron with roughly 200 to 250 times the affinity of oxygen, so less hemoglobin is available to carry O2. **It also raises the oxygen affinity of the remaining hemes, shifting the curve to the left** so tissues receive even less oxygen. Standard pulse oximeters read carboxyhemoglobin as oxyhemoglobin, which explains the falsely normal reading.",
+   "whyNot": {
+    "0": "Oxidation of heme iron to Fe3+ describes methemoglobin formation by oxidant drugs or nitrites, not carbon monoxide.",
+    "1": "Irreversible change with denatured globin describes sulfhemoglobin; carbon monoxide binding is reversible and clears with oxygen therapy.",
+    "3": "Binding to globin amino groups is how carbon dioxide is carried; carbon monoxide binds the heme iron and shifts the curve to the left."
+   },
+   "ref": "Rodak's Hematology 6e, hemoglobin metabolism chapter"
+  },
+  {
+   "id": "HE-0156",
+   "tos": "HE-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During a family study for thalassemia, which statement about the location of the human globin genes is correct?",
+   "options": [
+    "Alpha and zeta genes are on chromosome 11; beta, gamma, delta, and epsilon genes are on chromosome 16",
+    "Alpha and zeta genes are on chromosome 16; beta, gamma, delta, and epsilon genes are on chromosome 11",
+    "Alpha and gamma genes are on chromosome 16; beta, delta, epsilon, and zeta genes are on chromosome 11",
+    "All of the globin genes lie in a single cluster on chromosome 11"
+   ],
+   "answer": 1,
+   "why": "**The alpha-like genes (zeta and two alpha genes) lie on chromosome 16, and the beta-like genes (epsilon, two gamma, delta, and beta) lie on chromosome 11.** Each person therefore has four alpha genes, which is why alpha-thalassemia severity depends on how many are deleted. Beta-thalassemia involves the single beta gene on each chromosome 11.",
+   "whyNot": {
+    "0": "This reverses the two gene clusters.",
+    "2": "Gamma genes belong to the beta-like cluster on chromosome 11, and zeta belongs to the alpha-like cluster on chromosome 16.",
+    "3": "The alpha-like and beta-like genes are on different chromosomes, so chain production must be balanced between two loci."
+   },
+   "ref": "Rodak's Hematology 6e, hemoglobin metabolism chapter"
+  },
+  {
+   "id": "HE-0157",
+   "tos": "HE-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A marrow aspirate from a patient with a chronic infection shows increased plasma cells. Each has an eccentric nucleus with coarse chromatin, deep blue cytoplasm, and a pale zone beside the nucleus. What does this pale perinuclear zone represent?",
+   "options": [
+    "Stored immunoglobulin globules (Russell bodies)",
+    "A large lysosome",
+    "Glycogen deposits",
+    "A well-developed Golgi apparatus"
+   ],
+   "answer": 3,
+   "why": "Plasma cells are terminally differentiated B cells devoted to antibody production. Abundant rough endoplasmic reticulum makes the cytoplasm deeply basophilic, while **the pale perinuclear hof is the prominent Golgi apparatus** where immunoglobulin is processed for secretion. The hof is a key feature for recognizing plasma cells on a smear.",
+   "whyNot": {
+    "0": "Russell bodies are round globules of condensed immunoglobulin scattered in the cytoplasm, not a pale zone beside the nucleus.",
+    "1": "Lysosomes are not prominent in plasma cells and do not form a clear area next to the nucleus.",
+    "2": "Glycogen is shown with the PAS stain and does not form the perinuclear clear zone."
+   },
+   "ref": "Rodak's Hematology 6e, leukocyte development (lymphocytes and plasma cells) chapter"
+  },
+  {
+   "id": "HE-0158",
+   "tos": "HE-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Circulating monocytes leave the blood and mature into tissue macrophages whose names depend on where they live. What are the resident macrophages that line the liver sinusoids called?",
+   "options": [
+    "Kupffer cells",
+    "Microglial cells",
+    "Osteoclasts",
+    "Langerhans cells"
+   ],
+   "answer": 0,
+   "why": "Monocytes circulate only briefly before entering tissues, where they become macrophages of the mononuclear phagocyte system. **In the liver, the macrophages lining the sinusoids are Kupffer cells**, which remove aged cells, debris, and bacteria from portal blood.",
+   "whyNot": {
+    "1": "Microglia are the resident macrophages of the central nervous system.",
+    "2": "Osteoclasts are multinucleated bone-resorbing cells of the monocyte-macrophage lineage found in bone.",
+    "3": "Langerhans cells are antigen-presenting dendritic cells of the epidermis."
+   },
+   "ref": "Rodak's Hematology 6e, leukocyte development (monocytes and macrophages) chapter"
+  },
+  {
+   "id": "HE-0159",
+   "tos": "HE-B.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 19-year-old with fever, sore throat, and enlarged lymph nodes has many large lymphocytes with abundant blue cytoplasm that scallops around neighboring red cells. The heterophile antibody test is positive. Which cells make up most of these reactive lymphocytes?",
+   "options": [
+    "B cells directly infected by EBV",
+    "Natural killer cells activated by interferon",
+    "Cytotoxic T cells reacting to EBV-infected B cells",
+    "Clonal neoplastic B lymphoblasts"
+   ],
+   "answer": 2,
+   "why": "Epstein-Barr virus enters B cells through the CD21 receptor. **The reactive lymphocytes seen in the blood are mostly CD8-positive cytotoxic T cells** proliferating in response to the infected B cells. Their varied, polyclonal, transient nature separates them from a lymphoid neoplasm.",
+   "whyNot": {
+    "0": "EBV infects B cells, but infected B cells are relatively few in the blood; the large scalloped cells are mainly reactive T cells.",
+    "1": "NK cells take part in the response, but they are a minor fraction of the reactive lymphocytes.",
+    "3": "A heterophile-positive picture with varied reactive forms is a benign polyclonal response, not a lymphoblastic leukemia."
+   },
+   "ref": "Rodak's Hematology 6e, nonmalignant leukocyte disorders chapter"
+  },
+  {
+   "id": "HE-0160",
+   "tos": "HE-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which peripheral blood leukocyte carries high-affinity IgE receptors and has dark purple-black granules containing histamine and heparin that may dissolve during water-based staining?",
+   "options": [
+    "Eosinophil",
+    "Segmented neutrophil",
+    "Monocyte",
+    "Basophil"
+   ],
+   "answer": 3,
+   "why": "Basophils have large metachromatic granules rich in histamine and heparin and bind IgE through high-affinity Fc-epsilon receptors. **These features make the basophil a circulating effector of immediate (type I) hypersensitivity.** Because the granules are water-soluble, they can wash out during staining and leave empty-looking areas in the cytoplasm.",
+   "whyNot": {
+    "0": "Eosinophils have orange-red granules containing major basic protein and eosinophil cationic protein, not mainly histamine and heparin.",
+    "1": "Neutrophil granules contain myeloperoxidase, lysozyme, and lactoferrin and stain lilac to pink.",
+    "2": "Monocytes have fine azurophilic granules in gray-blue cytoplasm, without large histamine-containing granules."
+   },
+   "ref": "Rodak's Hematology 6e, leukocyte development chapter"
+  },
+  {
+   "id": "HE-0161",
+   "tos": "HE-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Within hours of a bacterial infection, a patient's neutrophil count rises and band forms increase, well before new myeloblasts could have matured. Which marrow compartment supplies these cells?",
+   "options": [
+    "The storage pool of metamyelocytes, bands, and segmented neutrophils",
+    "The mitotic pool of myeloblasts, promyelocytes, and myelocytes",
+    "The stem cell pool of CD34-positive progenitors",
+    "The tissue pool of neutrophils already in the tissues"
+   ],
+   "answer": 0,
+   "why": "Granulopoiesis has a mitotic (proliferating) pool, from myeloblast to myelocyte, and a post-mitotic maturation and storage pool. **The marrow storage pool holds several days' supply of non-dividing neutrophils and bands that can be released quickly**, which explains the rapid neutrophilia with a left shift in infection. Increased production from the mitotic pool takes days to add cells.",
+   "whyNot": {
+    "1": "Cells in the mitotic pool still need several days of division and maturation before release, so they cannot explain a rise within hours.",
+    "2": "Stem and progenitor cells must pass through all maturation stages first and are not released as functional neutrophils.",
+    "3": "Neutrophils that have migrated into tissues do not return to the blood."
+   },
+   "ref": "Rodak's Hematology 6e, leukocyte development (neutrophil kinetics) chapter"
+  },
+  {
+   "id": "HE-0162",
+   "tos": "HE-B.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Megakaryocytes become very large cells with up to 32N or 64N DNA content. By what process does this polyploidy develop?",
+   "options": [
+    "Fusion of several promegakaryocytes",
+    "Repeated mitosis with complete cell division",
+    "DNA replication without cell division (endomitosis)",
+    "Nuclear budding into separate daughter cells"
+   ],
+   "answer": 2,
+   "why": "Megakaryocytes replicate their DNA repeatedly but do not complete nuclear separation or cytoplasmic division. **This endomitosis produces one large, lobulated, polyploid nucleus.** Higher ploidy goes with larger cell size and greater platelet output.",
+   "whyNot": {
+    "0": "Cell fusion produces multinucleated cells such as osteoclasts, which have many separate nuclei rather than one lobulated nucleus.",
+    "1": "Mitosis with cell division would produce more cells of normal ploidy, not one giant polyploid cell.",
+    "3": "Budding describes platelet release from proplatelet extensions of the cytoplasm, not the development of nuclear polyploidy."
+   },
+   "ref": "Rodak's Hematology 6e, megakaryopoiesis and platelet production chapter"
+  },
+  {
+   "id": "HE-0163",
+   "tos": "HE-B.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "When platelets are activated, they release an alpha-granule protein that binds heparin with high affinity and neutralizes its anticoagulant effect. Which protein is this?",
+   "options": [
+    "Beta-thromboglobulin",
+    "Platelet factor 4",
+    "Adenosine diphosphate",
+    "Thrombospondin"
+   ],
+   "answer": 1,
+   "why": "Platelet factor 4 (PF4) is a positively charged chemokine stored in alpha granules. **PF4 binds heparin tightly and neutralizes it**, and complexes of PF4 with heparin are the antigen recognized in heparin-induced thrombocytopenia. Plasma PF4, like beta-thromboglobulin, can be measured as a marker of platelet activation.",
+   "whyNot": {
+    "0": "Beta-thromboglobulin is another platelet-specific alpha-granule protein used as an activation marker, but it is not the main heparin-neutralizing protein.",
+    "2": "ADP is stored in dense granules and promotes aggregation; it has no heparin-neutralizing action.",
+    "3": "Thrombospondin is an alpha-granule adhesive glycoprotein whose main role is stabilizing aggregates, not neutralizing heparin."
+   },
+   "ref": "Rodak's Hematology 6e, platelet structure and function chapter"
+  },
+  {
+   "id": "HE-0164",
+   "tos": "HE-B.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Within the platelet, which membrane system sequesters calcium ions and contains the cyclooxygenase and thromboxane synthase that convert arachidonic acid to thromboxane A2?",
+   "options": [
+    "Dense tubular system",
+    "Open canalicular system",
+    "Surface glycocalyx",
+    "Circumferential microtubule band"
+   ],
+   "answer": 0,
+   "why": "The dense tubular system is derived from the megakaryocyte's endoplasmic reticulum and stays within the platelet. **It stores calcium and is the site of prostaglandin and thromboxane A2 synthesis**, so it controls key activation signals. The open canalicular system, in contrast, is a network of channels connected to the surface.",
+   "whyNot": {
+    "1": "The open canalicular system connects to the surface; it adds membrane area and is a route for granule release, not the calcium store.",
+    "2": "The glycocalyx is the outer surface coat carrying glycoprotein receptors and adsorbed plasma proteins.",
+    "3": "The circumferential microtubule band maintains the resting disc shape and is not a membrane system."
+   },
+   "ref": "Rodak's Hematology 6e, platelet structure and function chapter"
+  },
+  {
+   "id": "HE-0165",
+   "tos": "HE-B.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Resting platelets keep phosphatidylserine on the inner leaflet of the plasma membrane. After strong activation, it moves to the outer surface. What is the main hemostatic effect of this change?",
+   "options": [
+    "It provides binding sites for von Willebrand factor during adhesion",
+    "It blocks fibrinogen binding to GPIIb/IIIa to limit aggregation",
+    "It is the direct substrate of cyclooxygenase for thromboxane synthesis",
+    "It provides a negative surface for assembling tenase and prothrombinase"
+   ],
+   "answer": 3,
+   "why": "Exposed phosphatidylserine gives the activated platelet a negatively charged surface. **Vitamin K-dependent factors bind this surface through calcium bridges, assembling the tenase (IXa-VIIIa) and prothrombinase (Xa-Va) complexes** that generate thrombin. This procoagulant activity was historically called platelet factor 3.",
+   "whyNot": {
+    "0": "VWF binds the GPIb-IX-V complex, not phosphatidylserine.",
+    "1": "Activation increases, rather than blocks, fibrinogen binding to GPIIb/IIIa.",
+    "2": "Cyclooxygenase acts on arachidonic acid released from membrane phospholipids by phospholipase A2; phosphatidylserine exposure is a separate event."
+   },
+   "ref": "Rodak's Hematology 6e, platelet structure and function chapter"
+  },
+  {
+   "id": "HE-0166",
+   "tos": "HE-B.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Blood allowed to clot in a glass tube normally shrinks over the next hour and expels serum. Which mechanism drives this clot retraction?",
+   "options": [
+    "Factor XIIIa cross-linking adjacent fibrin strands",
+    "Platelet actomyosin pulling on GPIIb/IIIa-bound fibrin",
+    "Plasmin digesting fibrin at the edges of the clot",
+    "Thrombin releasing fibrinopeptides from fibrinogen"
+   ],
+   "answer": 1,
+   "why": "Activated platelets attach to fibrin through GPIIb/IIIa and contract their actin-myosin (thrombosthenin) filaments. **This platelet contraction pulls the fibrin strands together and squeezes out serum.** Clot retraction is therefore poor in severe thrombocytopenia and in Glanzmann thrombasthenia.",
+   "whyNot": {
+    "0": "Factor XIIIa stabilizes fibrin with covalent cross-links but does not contract the clot.",
+    "2": "Plasmin dissolves the clot (fibrinolysis) rather than retracting it.",
+    "3": "Fibrinopeptide release lets fibrin monomers polymerize; it forms the clot but does not shrink it."
+   },
+   "ref": "Rodak's Hematology 6e, platelet structure and function chapter"
+  },
+  {
+   "id": "HE-0167",
+   "tos": "HE-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman with long-standing rheumatoid arthritis has hemoglobin 9.8 g/dL and MCV 82 fL. Which set of iron results best fits anemia of chronic inflammation?",
+   "options": [
+    "Serum iron decreased, TIBC increased, ferritin decreased",
+    "Serum iron increased, TIBC decreased, ferritin increased",
+    "Serum iron decreased, TIBC decreased, ferritin normal or increased",
+    "Serum iron normal, TIBC normal or increased, ferritin decreased"
+   ],
+   "answer": 2,
+   "why": "In chronic inflammation, interleukin-6 raises hepcidin, which blocks iron release from macrophages and iron absorption from the gut. **Serum iron is low while storage iron (ferritin) is normal or high, and TIBC is low or normal.** Iron deficiency differs because TIBC rises and ferritin falls.",
+   "whyNot": {
+    "0": "This is the iron deficiency pattern, with depleted stores and a compensatory rise in transferrin.",
+    "1": "High serum iron with high ferritin fits iron overload, as in hemochromatosis or sideroblastic anemia.",
+    "3": "A low ferritin indicates depleted stores, as in early iron deficiency, rather than iron held in macrophages."
+   },
+   "ref": "Rodak's Hematology 6e, disorders of iron kinetics and heme metabolism chapter"
+  },
+  {
+   "id": "HE-0168",
+   "tos": "HE-D.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 24-year-old woman with no symptoms has hemoglobin 11.4 g/dL, RBC 6.10 x 10^12/L, MCV 63 fL, MCH 18.7 pg, and RDW 13.4% (reference 11.5-14.5%). Serum ferritin is 80 ng/mL. Which condition is most likely?",
+   "options": [
+    "Iron deficiency anemia",
+    "Thalassemia minor (trait)",
+    "Anemia of chronic inflammation",
+    "Sideroblastic anemia"
+   ],
+   "answer": 1,
+   "why": "Marked microcytosis with a high RBC count and a normal RDW is typical of thalassemia trait. The Mentzer index (MCV / RBC) is 63 / 6.10 = 10.3, and **a value below 13 favors thalassemia trait over iron deficiency**; the normal ferritin also argues against iron deficiency. Hb A2 quantitation (raised in beta-thalassemia trait) or DNA testing for alpha-thalassemia identifies the type.",
+   "whyNot": {
+    "0": "Iron deficiency usually gives a low RBC count, a raised RDW, a Mentzer index above 13, and a low ferritin.",
+    "2": "Anemia of chronic inflammation is normocytic or mildly microcytic with a low RBC count, not an MCV of 63 fL with a high RBC count.",
+    "3": "Sideroblastic anemia typically shows a dimorphic red cell population with a raised RDW, high iron and ferritin, and ringed sideroblasts in the marrow."
+   },
+   "ref": "Rodak's Hematology 6e, thalassemias chapter"
+  },
+  {
+   "id": "HE-0169",
+   "tos": "HE-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Several weeks after treatment with chloramphenicol, a patient has hemoglobin 7.2 g/dL, WBC 1.6 x 10^9/L, platelets 18 x 10^9/L, and a corrected reticulocyte count of 0.2%. There is no splenomegaly and no abnormal cells on the smear. A marrow biopsy is about 10% cellular and mostly fat. What is the most likely diagnosis?",
+   "options": [
+    "Cobalamin or folate deficiency",
+    "Hypersplenism",
+    "Primary myelofibrosis",
+    "Acquired aplastic anemia"
+   ],
+   "answer": 3,
+   "why": "Aplastic anemia is failure of hematopoietic stem cells, giving pancytopenia with a very low reticulocyte count. **A hypocellular, fat-filled marrow without abnormal cells confirms marrow failure** rather than peripheral destruction or marrow infiltration. Drugs such as chloramphenicol, benzene exposure, and radiation are classic acquired causes.",
+   "whyNot": {
+    "0": "Megaloblastic anemia can cause pancytopenia, but the marrow is hypercellular with megaloblasts, and the blood shows macro-ovalocytes and hypersegmented neutrophils.",
+    "1": "Hypersplenism causes cytopenias by splenic pooling, so splenomegaly and a normal or hypercellular marrow would be expected.",
+    "2": "Primary myelofibrosis usually shows splenomegaly, teardrop cells, a leukoerythroblastic smear, and a fibrotic marrow, often with a dry tap."
+   },
+   "ref": "Rodak's Hematology 6e, bone marrow failure chapter"
+  },
+  {
+   "id": "HE-0170",
+   "tos": "HE-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "An adult with fatigue and cytopenias has 12% myeloblasts in the bone marrow, some with Auer rods. Cytogenetics shows t(8;21)(q22;q22.1), producing a RUNX1::RUNX1T1 fusion. Under the WHO Classification of Haematolymphoid Tumours (5th edition, 2022), how is this classified?",
+   "options": [
+    "AML with RUNX1::RUNX1T1 fusion",
+    "MDS with increased blasts-2 (MDS-IB2)",
+    "MDS with increased blasts-1 (MDS-IB1)",
+    "AML with maturation"
+   ],
+   "answer": 0,
+   "why": "WHO 5e divides AML into types defined by genetic abnormalities and types defined by differentiation. **For most defining genetic abnormalities, including RUNX1::RUNX1T1, AML is diagnosed whatever the blast percentage**; the 20% cutoff still applies to AML defined by differentiation and to a few genetic types such as BCR::ABL1 fusion and CEBPA mutation. A 12% blast count therefore does not place this case in MDS.",
+   "whyNot": {
+    "1": "MDS-IB2 covers 10-19% marrow blasts, but it cannot be diagnosed when an AML-defining fusion such as RUNX1::RUNX1T1 is present.",
+    "2": "MDS-IB1 covers 5-9% marrow blasts, which is below this count, and the defining fusion would override it in any case.",
+    "3": "AML with maturation is a differentiation-defined type, used only when no defining genetic abnormality is found and requiring at least 20% blasts."
+   },
+   "ref": "WHO Classification of Haematolymphoid Tumours 5e (2022), myeloid neoplasms (AML with defining genetic abnormalities)"
+  },
+  {
+   "id": "HE-0171",
+   "tos": "HE-D.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 68-year-old has back pain, hypercalcemia, rising creatinine, and lytic skull lesions. The smear shows marked rouleaux, serum protein electrophoresis shows an IgG kappa M-protein, and clonal plasma cells make up 35% of the marrow cells. What is the diagnosis?",
+   "options": [
+    "Lymphoplasmacytic lymphoma with Waldenstrom macroglobulinemia",
+    "Monoclonal gammopathy of undetermined significance",
+    "Plasma cell myeloma",
+    "Chronic lymphocytic leukemia"
+   ],
+   "answer": 2,
+   "why": "Myeloma is a clonal plasma cell neoplasm that secretes a monoclonal immunoglobulin, which coats red cells and causes rouleaux and a high ESR. **At least 10% clonal marrow plasma cells plus myeloma-related end-organ damage (hypercalcemia, renal insufficiency, anemia, or bone lesions) defines plasma cell myeloma.** IgG is the most common type of M-protein.",
+   "whyNot": {
+    "0": "Waldenstrom macroglobulinemia involves an IgM protein and hyperviscosity; lytic bone lesions and hypercalcemia are uncommon.",
+    "1": "MGUS has fewer than 10% marrow plasma cells and no myeloma-related end-organ damage.",
+    "3": "CLL is a neoplasm of small mature B lymphocytes with smudge cells; it does not cause lytic lesions with marrow plasmacytosis."
+   },
+   "ref": "WHO Classification of Haematolymphoid Tumours 5e (2022), plasma cell neoplasms; Rodak's Hematology 6e, mature lymphoid neoplasms chapter"
+  },
+  {
+   "id": "HE-0172",
+   "tos": "HE-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A child with partial albinism and repeated pyogenic infections has neutrophils, monocytes, and lymphocytes containing giant, irregular gray-to-red cytoplasmic granules. Which inherited disorder is most likely?",
+   "options": [
+    "Alder-Reilly anomaly",
+    "May-Hegglin anomaly",
+    "Chronic granulomatous disease",
+    "Chediak-Higashi syndrome"
+   ],
+   "answer": 3,
+   "why": "Chediak-Higashi syndrome is an autosomal recessive defect in lysosomal trafficking (LYST gene) in which granules fuse into giant inclusions. **Giant leukocyte granules with partial albinism and frequent infections form the classic picture**; platelets also lack dense granules, so bleeding can occur. The abnormal granules impair killing of ingested bacteria.",
+   "whyNot": {
+    "0": "Alder-Reilly granules are dark purple-black mucopolysaccharide deposits seen in mucopolysaccharidoses; they are not linked to albinism, and leukocyte function is normal.",
+    "1": "May-Hegglin anomaly shows pale blue Dohle-like inclusions with giant platelets and thrombocytopenia, not albinism or giant granules.",
+    "2": "Chronic granulomatous disease impairs the NADPH oxidase respiratory burst, but neutrophil morphology is normal."
+   },
+   "ref": "Rodak's Hematology 6e, nonmalignant leukocyte disorders chapter"
+  },
+  {
+   "id": "HE-0173",
+   "tos": "HE-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A young man with lifelong nosebleeds has a platelet count of 70 x 10^9/L, and many platelets on the smear are as large as red cells. Aggregation is normal with ADP, collagen, and epinephrine but absent with ristocetin, and adding normal plasma does not restore the ristocetin response. What is the most likely diagnosis?",
+   "options": [
+    "Bernard-Soulier syndrome (GPIb-IX-V defect)",
+    "von Willebrand disease (plasma VWF defect)",
+    "Glanzmann thrombasthenia (GPIIb/IIIa defect)",
+    "Gray platelet syndrome (alpha-granule defect)"
+   ],
+   "answer": 0,
+   "why": "Bernard-Soulier syndrome is an inherited deficiency of the GPIb-IX-V complex, the platelet receptor for von Willebrand factor. **Absent ristocetin aggregation that normal plasma does not correct, with giant platelets and mild thrombocytopenia, points to this receptor defect.** Responses to other agonists stay normal because their receptors are intact.",
+   "whyNot": {
+    "1": "In von Willebrand disease the defect is in plasma VWF, so normal plasma restores ristocetin aggregation, and platelet size is normal.",
+    "2": "Glanzmann thrombasthenia gives absent aggregation with ADP, collagen, and epinephrine but a normal ristocetin response, with normal platelet count and size.",
+    "3": "Gray platelet syndrome has large pale platelets lacking alpha granules, but ristocetin aggregation is normal."
+   },
+   "ref": "Rodak's Hematology 6e, qualitative platelet disorders chapter"
+  },
+  {
+   "id": "HE-0174",
+   "tos": "HE-D.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Two weeks after a viral illness, a 5-year-old develops sudden petechiae and bruising. The platelet count is 12 x 10^9/L with some large platelets; hemoglobin, WBC, and the rest of the smear are normal, and the PT and APTT are normal. What is the mechanism of the most likely disorder?",
+   "options": [
+    "Marrow failure reduces megakaryocyte production",
+    "Platelets are consumed in widespread microthrombi with clotting factor depletion",
+    "Autoantibodies coat platelets, which are cleared by splenic macrophages",
+    "Antibodies to PF4-heparin complexes activate platelets"
+   ],
+   "answer": 2,
+   "why": "Childhood immune thrombocytopenia (ITP) often follows a viral infection and begins abruptly with bleeding into the skin. **IgG autoantibodies, often against GPIIb/IIIa, coat platelets that are then removed by splenic macrophages.** The marrow has normal or increased megakaryocytes, young larger platelets appear in the blood, and most children recover within weeks to months.",
+   "whyNot": {
+    "0": "Marrow failure would usually affect other cell lines and would not produce large young platelets.",
+    "1": "Consumption with factor depletion describes DIC, which would prolong the PT and APTT.",
+    "3": "Anti-PF4-heparin antibodies cause heparin-induced thrombocytopenia, which needs heparin exposure and causes thrombosis rather than petechiae."
+   },
+   "ref": "Rodak's Hematology 6e, quantitative platelet disorders chapter"
+  },
+  {
+   "id": "HE-0175",
+   "tos": "HE-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An adult has platelet counts near 1,050 x 10^9/L on repeated testing, with normal hemoglobin, WBC, iron studies, and C-reactive protein, and no history of splenectomy. BCR::ABL1 is not detected, a CALR mutation is found, and the marrow shows increased large megakaryocytes with hyperlobulated nuclei and no fibrosis. What is the most likely diagnosis?",
+   "options": [
+    "Reactive thrombocytosis",
+    "Essential thrombocythemia",
+    "Chronic myeloid leukemia",
+    "Polycythemia vera"
+   ],
+   "answer": 1,
+   "why": "Essential thrombocythemia (ET) is a myeloproliferative neoplasm with a sustained platelet count of at least 450 x 10^9/L. **A JAK2, CALR, or MPL driver mutation with large hyperlobulated megakaryocytes, after other causes are excluded, supports ET under WHO criteria.** Patients are at risk of both thrombosis and bleeding because platelet function is abnormal.",
+   "whyNot": {
+    "0": "Reactive thrombocytosis follows iron deficiency, inflammation, infection, or splenectomy, which were excluded, and it has no clonal driver mutation.",
+    "2": "CML requires the BCR::ABL1 fusion, which is absent here.",
+    "3": "Polycythemia vera requires raised hemoglobin or red cell mass, usually with a JAK2 mutation; hemoglobin is normal here."
+   },
+   "ref": "WHO Classification of Haematolymphoid Tumours 5e (2022), myeloproliferative neoplasms"
+  },
+  {
+   "id": "HE-0176",
+   "tos": "HE-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A citrated plasma specimen for factor assays was left uncapped at room temperature for most of the day. Activity of which two factors is most likely to have fallen because they are labile?",
+   "options": [
+    "Factor V and factor VIII",
+    "Factor VII and factor IX",
+    "Prothrombin and factor X",
+    "Factor XI and factor XII"
+   ],
+   "answer": 0,
+   "why": "Factors V and VIII are the labile factors and lose activity quickly in plasma kept at room temperature. **Their decay falsely prolongs the PT (factor V) and APTT (factor VIII) and lowers their measured activities.** Coagulation specimens should therefore be tested promptly or the plasma frozen.",
+   "whyNot": {
+    "1": "Factors VII and IX are stable in stored plasma; aged plasma still contains them.",
+    "2": "Prothrombin and factor X are stable vitamin K-dependent factors.",
+    "3": "Factors XI and XII are stable in stored plasma and are even present in serum."
+   },
+   "ref": "Rodak's Hematology 6e, normal hemostasis and coagulation chapter; CLSI H21"
+  },
+  {
+   "id": "HE-0177",
+   "tos": "HE-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A clotted red-top tube is centrifuged and the serum is saved as a reagent. Which group of factors is essentially absent from this serum because they are used up during clotting?",
+   "options": [
+    "Factors II, VII, IX, and X",
+    "Factors XI, XII, prekallikrein, and HMWK",
+    "Factors VII, IX, X, and XII",
+    "Factors I, V, VIII, and XIII"
+   ],
+   "answer": 3,
+   "why": "Thrombin acts on fibrinogen and on factors V, VIII, and XIII during clotting, so these fibrinogen-group factors are consumed. **Serum therefore lacks factors I, V, VIII, and XIII**, and most of the prothrombin is also used up. Factors VII, IX, X, XI, and XII remain in serum, which is why aged serum is used in correction studies.",
+   "whyNot": {
+    "0": "Factors VII, IX, and X survive clotting and stay in serum; only prothrombin in this group is largely consumed.",
+    "1": "The contact factors are not consumed during clotting and remain in serum.",
+    "2": "These factors all remain in serum, which is why aged serum supplies them in substitution studies."
+   },
+   "ref": "Harmening's Clinical Hematology and Fundamentals of Hemostasis 5e, coagulation factors chapter"
+  },
+  {
+   "id": "HE-0178",
+   "tos": "HE-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Normal plasma treated with barium sulfate loses factors II, VII, IX, and X but keeps factors I, V, VIII, XI, XII, and XIII. Why are only the first four removed?",
+   "options": [
+    "They are consumed when the plasma is exposed to barium",
+    "Their gamma-carboxyglutamic acid residues bind the barium salt",
+    "They circulate bound to von Willebrand factor, which is adsorbed",
+    "They are activated by contact with the barium surface"
+   ],
+   "answer": 1,
+   "why": "Factors II, VII, IX, and X undergo vitamin K-dependent carboxylation, which gives them gamma-carboxyglutamic acid (Gla) residues. **These Gla domains bind divalent cations, so the factors attach to barium sulfate or aluminum hydroxide and are removed.** Adsorbed plasma is therefore a source of factors I, V, VIII, XI, XII, and XIII in substitution studies.",
+   "whyNot": {
+    "0": "Adsorption does not start clotting; the factors are bound and removed, not consumed.",
+    "2": "VWF carries factor VIII, which stays in adsorbed plasma; the vitamin K-dependent factors are not VWF-bound.",
+    "3": "Barium sulfate does not activate these factors; contact activation involves factor XII, which stays in adsorbed plasma."
+   },
+   "ref": "Harmening's Clinical Hematology and Fundamentals of Hemostasis 5e, coagulation factors chapter"
+  },
+  {
+   "id": "HE-0179",
+   "tos": "HE-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In the cell-based model of coagulation, a small amount of thrombin is first made on tissue factor-bearing cells. Where does the large burst of thrombin generation (propagation) then take place?",
+   "options": [
+    "On intact endothelium bearing thrombomodulin",
+    "On the tissue factor-bearing cell itself",
+    "On the surface of activated platelets",
+    "Free in the plasma, away from cell surfaces"
+   ],
+   "answer": 2,
+   "why": "The cell-based model has three overlapping phases: initiation on tissue factor-bearing cells, amplification as the first thrombin activates platelets and factors V, VIII, and XI, and propagation. **During propagation, tenase and prothrombinase complexes assemble on the activated platelet surface and produce a burst of thrombin.** The model shows platelets and clotting factors working together rather than as separate pathways.",
+   "whyNot": {
+    "0": "Intact endothelium with thrombomodulin turns thrombin into an activator of protein C, which limits clotting rather than propagating it.",
+    "1": "The tissue factor-bearing cell supports initiation and makes only a small amount of thrombin before tissue factor pathway inhibitor limits it.",
+    "3": "Coagulation enzymes work efficiently only when assembled on phospholipid surfaces; free in plasma they act slowly and are quickly inhibited."
+   },
+   "ref": "Rodak's Hematology 6e, normal hemostasis and coagulation chapter"
+  },
+  {
+   "id": "HE-0180",
+   "tos": "HE-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A child with type 3 (severe) von Willebrand disease has almost no VWF and a factor VIII activity of only 4%, even though the factor VIII gene is normal. What explains the low factor VIII?",
+   "options": [
+    "VWF is the enzyme that activates factor VIII",
+    "Without VWF as a carrier, factor VIII is rapidly cleared from plasma",
+    "All type 3 patients form inhibitors against factor VIII",
+    "The VWF and factor VIII genes are inherited together on the X chromosome"
+   ],
+   "answer": 1,
+   "why": "In plasma, factor VIII circulates bound to VWF, which protects it from proteolysis and early clearance. **When VWF is absent, the half-life of factor VIII falls sharply, so its activity drops** even though it is produced normally. This is why severe VWD can cause hemophilia-like joint and muscle bleeding and a prolonged APTT.",
+   "whyNot": {
+    "0": "Factor VIII is activated by thrombin (and factor Xa), not by VWF.",
+    "2": "Inhibitors are uncommon in VWD and, when they occur, are usually against VWF; they do not explain the low factor VIII at diagnosis.",
+    "3": "The VWF gene is on chromosome 12 and VWD is mostly autosomal; only the factor VIII gene is on the X chromosome."
+   },
+   "ref": "Rodak's Hematology 6e, von Willebrand disease and hemophilia chapter"
+  },
+  {
+   "id": "HE-0181",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 70-year-old woman with no earlier bleeding history develops large bruises. The PT is normal and the APTT is 78 s (reference 25-35 s). A 1:1 mix with normal plasma gives an APTT of 33 s when tested immediately, but 64 s after the mix is incubated for 2 hours at 37 degrees C (incubated normal plasma control: 34 s). What is the most likely cause?",
+   "options": [
+    "Lupus anticoagulant",
+    "Factor IX deficiency",
+    "Unfractionated heparin in the sample",
+    "Acquired factor VIII inhibitor"
+   ],
+   "answer": 3,
+   "why": "Correction on the immediate mix followed by prolongation after incubation shows a time- and temperature-dependent inhibitor. **This pattern is typical of an autoantibody against factor VIII (acquired hemophilia A)**, which inactivates factor VIII slowly and is seen in older adults, after childbirth, and with autoimmune disease. A factor VIII assay and a Bethesda titer are the next steps.",
+   "whyNot": {
+    "0": "A lupus anticoagulant usually acts immediately, so the immediate mix stays prolonged, and it is associated with thrombosis rather than bleeding.",
+    "1": "A single factor deficiency corrects on mixing and stays corrected after incubation.",
+    "2": "Heparin acts immediately, so the immediate mix would not correct, and the thrombin time would also be prolonged."
+   },
+   "ref": "Rodak's Hematology 6e, laboratory evaluation of hemostasis chapter; CLSI H47"
+  },
+  {
+   "id": "HE-0182",
+   "tos": "HE-E.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "In a Bethesda assay, a patient's plasma is diluted 1:16 and incubated with an equal volume of normal pooled plasma for 2 hours at 37 degrees C. The residual factor VIII activity of this mixture is 50% of the control. What is the inhibitor titer?",
+   "options": [
+    "1 BU/mL",
+    "8 BU/mL",
+    "16 BU/mL",
+    "32 BU/mL"
+   ],
+   "answer": 2,
+   "why": "One Bethesda unit is the amount of inhibitor that destroys half of the factor VIII in an equal volume of normal plasma during the 2-hour incubation, leaving 50% residual activity. **At a 1:16 dilution with 50% residual activity, the undiluted plasma contains 1 x 16 = 16 BU/mL.** Inhibitors of 5 BU/mL or more are classed as high-titer.",
+   "whyNot": {
+    "0": "1 BU/mL is the titer of the diluted sample; it must be multiplied by the dilution factor of 16.",
+    "1": "This halves the result as if the equal-volume mixing step were an extra dilution; the Bethesda unit definition already includes that step.",
+    "3": "This doubles the result for the mixing step, which the Bethesda unit definition already accounts for."
+   },
+   "worked": {
+    "problem": "Patient plasma diluted 1:10 leaves 50% residual factor VIII activity after 2 hours of incubation with an equal volume of normal plasma. Find the inhibitor titer.",
+    "steps": [
+     "By definition, 1 BU/mL leaves 50% residual factor VIII activity",
+     "So the diluted plasma contains 1 BU/mL",
+     "Multiply by the dilution factor: 1 x 10"
+    ],
+    "result": "10 BU/mL"
+   },
+   "ref": "Rodak's Hematology 6e, laboratory evaluation of hemostasis chapter"
+  },
+  {
+   "id": "HE-0183",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Light transmission aggregometry on a patient with easy bruising shows no response to arachidonic acid, a primary wave without a secondary wave with ADP and with epinephrine, a reduced response to low-dose collagen, and normal agglutination with ristocetin. Platelet count and size are normal. What is the most likely cause?",
+   "options": [
+    "Recent aspirin ingestion",
+    "Glanzmann thrombasthenia",
+    "Bernard-Soulier syndrome",
+    "von Willebrand disease"
+   ],
+   "answer": 0,
+   "why": "Aspirin irreversibly blocks platelet cyclooxygenase-1, so arachidonic acid cannot be converted to thromboxane A2. **An absent arachidonic acid response with loss of the secondary wave to ADP and epinephrine is the aspirin-like pattern**, because the secondary wave depends on thromboxane formation and granule release. Ask about aspirin and NSAIDs, and repeat testing 7-10 days after the drug is stopped.",
+   "whyNot": {
+    "1": "Glanzmann thrombasthenia gives no aggregation at all, not even a primary wave, with ADP, epinephrine, collagen, and arachidonic acid.",
+    "2": "Bernard-Soulier syndrome gives absent ristocetin agglutination with giant platelets and normal responses to the other agonists.",
+    "3": "von Willebrand disease reduces the ristocetin response, while responses to arachidonic acid, ADP, and epinephrine are normal."
+   },
+   "ref": "Rodak's Hematology 6e, platelet function testing and qualitative platelet disorders chapters"
+  },
+  {
+   "id": "HE-0184",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient has a prolonged PT and a prolonged APTT that both correct with normal plasma. In substitution studies, both tests correct when aged normal serum is added but not when barium sulfate-adsorbed normal plasma is added. Which factor is deficient?",
+   "options": [
+    "Proaccelerin (V)",
+    "Prothrombin (II)",
+    "Stuart factor (X)",
+    "Proconvertin (VII)"
+   ],
+   "answer": 2,
+   "why": "Adsorbed plasma contains factors I, V, VIII, XI, XII, and XIII but lacks the vitamin K-dependent factors, while aged serum contains VII, IX, X, XI, and XII but lacks I, II, V, VIII, and XIII. A prolonged PT and APTT point to the common pathway (I, II, V, or X). **Only factor X is present in aged serum and absent from adsorbed plasma, so factor X is deficient.**",
+   "whyNot": {
+    "0": "Factor V is present in adsorbed plasma but absent from aged serum, which would give the opposite correction pattern.",
+    "1": "Prothrombin is removed by adsorption and largely consumed in serum, so neither reagent would correct it.",
+    "3": "Factor VII deficiency prolongs only the PT; the APTT would be normal."
+   },
+   "ref": "Harmening's Clinical Hematology and Fundamentals of Hemostasis 5e, laboratory evaluation of coagulation chapter"
+  },
+  {
+   "id": "HE-0185",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has a prolonged PT, a normal APTT, and a normal Russell viper venom time (RVVT). Which conclusion is correct?",
+   "options": [
+    "Factor X deficiency, because the venom activates factor VII directly",
+    "Factor V deficiency, because the venom pathway does not need factor V",
+    "Prothrombin deficiency, because the venom clots fibrinogen directly",
+    "Factor VII deficiency, because the venom activates factor X directly"
+   ],
+   "answer": 3,
+   "why": "Russell viper venom contains an enzyme that activates factor X directly, so the RVVT depends on factor X, factor V, prothrombin, and fibrinogen but bypasses factor VII. **A prolonged PT with a normal APTT and a normal RVVT localizes the defect to factor VII.** Deficiencies of X, V, or II would prolong the RVVT and usually the APTT as well.",
+   "whyNot": {
+    "0": "The venom activates factor X, not factor VII, and factor X deficiency would prolong both the RVVT and the APTT.",
+    "1": "The prothrombinase complex formed after factor X activation needs factor V, so factor V deficiency prolongs the RVVT.",
+    "2": "Clotting fibrinogen directly describes thrombin-like venoms such as reptilase; prothrombin deficiency prolongs the RVVT."
+   },
+   "ref": "Rodak's Hematology 6e, laboratory evaluation of hemostasis chapter"
+  },
+  {
+   "id": "HE-0186",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A newborn bleeds from the umbilical stump several days after birth. PT, APTT, thrombin time, fibrinogen, and platelet count are all normal. Which screening test is most appropriate next?",
+   "options": [
+    "Clot solubility in 5 M urea",
+    "Reptilase time",
+    "Euglobulin lysis time",
+    "Ristocetin-induced platelet aggregation"
+   ],
+   "answer": 0,
+   "why": "Factor XIII cross-links fibrin after the clot has formed, so tests that end at fibrin formation (PT, APTT, thrombin time) stay normal. **In severe factor XIII deficiency the un-cross-linked clot dissolves in 5 M urea (or 1% monochloroacetic acid) within 24 hours**, while a normal clot does not. A quantitative factor XIII activity assay is preferred to confirm the diagnosis and to detect milder deficiency.",
+   "whyNot": {
+    "1": "The reptilase time measures fibrin formation from fibrinogen and would be normal, like the thrombin time.",
+    "2": "The euglobulin lysis time screens for increased fibrinolysis, not for absent fibrin cross-linking.",
+    "3": "Ristocetin studies evaluate VWF and GPIb function; delayed umbilical bleeding with all clotting tests normal is the hallmark of factor XIII deficiency."
+   },
+   "ref": "Rodak's Hematology 6e, hemorrhagic coagulation disorders and laboratory evaluation of hemostasis chapters"
+  },
+  {
+   "id": "HE-0187",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient starting warfarin for a deep vein thrombosis asks what INR the physician will aim for. For most indications, such as venous thromboembolism and atrial fibrillation, what is the usual therapeutic INR range?",
+   "options": [
+    "0.8-1.2",
+    "1.5-2.0",
+    "2.0-3.0",
+    "3.5-4.5"
+   ],
+   "answer": 2,
+   "why": "The INR standardizes the PT for patients taking vitamin K antagonists. **A target INR of 2.0-3.0 is used for most indications, including venous thromboembolism and atrial fibrillation**, while some mechanical heart valves need a higher target such as 2.5-3.5. Values above the range raise the risk of bleeding.",
+   "whyNot": {
+    "0": "This is the expected INR of a person not taking an anticoagulant.",
+    "1": "This range is below the usual target and gives inadequate protection against thrombosis for most indications.",
+    "3": "This is above usual targets and carries a high bleeding risk."
+   },
+   "ref": "Rodak's Hematology 6e, antithrombotic therapy and monitoring chapter"
+  },
+  {
+   "id": "HE-0188",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A laboratory processing citrated plasma for lupus anticoagulant testing centrifuges it twice so that the plasma platelet count is below 10 x 10^9/L before freezing. Why is this important?",
+   "options": [
+    "Platelets release factor VIII, which makes the APTT falsely prolonged",
+    "Platelets release PF4, which makes clotting times falsely prolonged",
+    "Platelet phospholipid can neutralize the antibody and cause a false negative",
+    "The second spin removes red cells that disturb optical clot detection"
+   ],
+   "answer": 2,
+   "why": "Lupus anticoagulants are antibodies against phospholipid-bound proteins and prolong phospholipid-dependent tests. **Platelets, especially once broken by freezing and thawing, release phospholipid that can neutralize the antibody and cause a false-negative result.** Guidelines therefore require platelet-poor plasma with fewer than 10 x 10^9/L platelets, usually prepared by double centrifugation.",
+   "whyNot": {
+    "0": "Platelets do not release factor VIII, and the problem residual platelets cause in LA testing is a false-negative result.",
+    "1": "PF4 neutralizes heparin, which would shorten rather than prolong clotting times in a heparinized sample; it is not the main reason for removing platelets.",
+    "3": "Red cells are removed by the first centrifugation; the second spin targets residual platelets."
+   },
+   "ref": "CLSI H60 (Laboratory Testing for the Lupus Anticoagulant); ISTH SSC guidance on lupus anticoagulant detection (2020)"
+  },
+  {
+   "id": "HE-0189",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient on heparin has a falling platelet count, and the PF4-heparin antibody immunoassay is positive. The physician asks for a test showing whether the antibodies actually activate platelets. Which assay is the reference functional test?",
+   "options": [
+    "Anti-factor Xa assay",
+    "Serotonin release assay",
+    "Direct antiglobulin test",
+    "Ristocetin-induced platelet aggregation"
+   ],
+   "answer": 1,
+   "why": "The PF4-heparin immunoassay is sensitive but also detects antibodies that do not activate platelets, so a positive screen has limited specificity. **The serotonin release assay measures labeled serotonin released from donor platelets exposed to patient serum and heparin, confirming platelet-activating antibodies.** Release occurs at therapeutic heparin concentrations and is suppressed at very high heparin concentrations.",
+   "whyNot": {
+    "0": "The anti-Xa assay measures the heparin level in plasma, not antibodies against PF4-heparin.",
+    "2": "The DAT detects antibody or complement on red cells and is used for immune hemolysis.",
+    "3": "Ristocetin-induced aggregation evaluates VWF and GPIb function, not heparin-dependent antibodies."
+   },
+   "ref": "Rodak's Hematology 6e, thrombotic disorders (heparin-induced thrombocytopenia) chapter"
+  },
+  {
+   "id": "HE-0190",
+   "tos": "HE-E.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An outpatient with a low clinical probability of deep vein thrombosis has a D-dimer result below the laboratory's exclusion cutoff. How is this result used?",
+   "options": [
+    "It helps exclude venous thromboembolism because the test is highly sensitive",
+    "It confirms deep vein thrombosis because the test is highly specific",
+    "It indicates primary fibrinolysis because no fibrin was formed",
+    "It must be confirmed with a thrombin time before reporting"
+   ],
+   "answer": 0,
+   "why": "D-dimer is released when plasmin digests cross-linked fibrin, so it rises in nearly every active thrombosis. **Because the test is highly sensitive, a normal D-dimer with low clinical probability helps rule out venous thromboembolism.** A raised D-dimer is nonspecific, since surgery, pregnancy, infection, cancer, and older age also increase it.",
+   "whyNot": {
+    "1": "D-dimer is not specific, so a positive result cannot confirm thrombosis, and here the result is negative.",
+    "2": "A normal D-dimer does not diagnose any disorder; primary fibrinolysis would also show low fibrinogen and raised fibrinogen degradation products.",
+    "3": "The thrombin time assesses fibrin formation and heparin effect and is not used to confirm D-dimer results."
+   },
+   "ref": "Rodak's Hematology 6e, laboratory evaluation of hemostasis and thrombotic disorders chapters"
+  },
+  {
+   "id": "HE-0191",
+   "tos": "HE-E.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two patients each have a platelet count near 25 x 10^9/L and schistocytes on the smear. Which additional result most strongly favors disseminated intravascular coagulation over thrombotic thrombocytopenic purpura?",
+   "options": [
+    "Increased LDH",
+    "Decreased haptoglobin",
+    "Increased reticulocyte count",
+    "Prolonged PT with low fibrinogen"
+   ],
+   "answer": 3,
+   "why": "DIC and TTP both cause microangiopathic hemolysis with schistocytes, thrombocytopenia, high LDH, and low haptoglobin. **In DIC, widespread thrombin generation consumes clotting factors, so the PT and APTT are prolonged and fibrinogen falls**, with a markedly raised D-dimer. In TTP (and usually in HIT), platelet-rich microthrombi form without major factor consumption, so routine clotting tests stay near normal.",
+   "whyNot": {
+    "0": "LDH rises from hemolysis and tissue ischemia in both disorders.",
+    "1": "Haptoglobin falls with intravascular hemolysis in both disorders.",
+    "2": "A reticulocyte response follows hemolysis in either disorder and does not separate them."
+   },
+   "ref": "Rodak's Hematology 6e, thrombotic disorders and DIC chapters"
+  },
+  {
+   "id": "HE-0192",
+   "tos": "HE-E.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A woman whose father had severe hemophilia A has children with an unaffected man. What is the chance that each of her sons will have hemophilia A?",
+   "options": [
+    "100%",
+    "50%",
+    "25%",
+    "0%"
+   ],
+   "answer": 1,
+   "why": "Hemophilia A is X-linked recessive, and a daughter of an affected man always receives his X chromosome, so she is an obligate carrier. **Each son of a carrier mother has a 50% chance of inheriting the affected X and having hemophilia A**, and each daughter has a 50% chance of being a carrier.",
+   "whyNot": {
+    "0": "All sons would be affected only if the mother carried the defect on both X chromosomes.",
+    "2": "25% is the chance that any child, son or daughter, is an affected son; for each son the chance is 50%.",
+    "3": "Sons receive their X chromosome from their mother, so a carrier mother can pass hemophilia to them."
+   },
+   "ref": "Rodak's Hematology 6e, hemorrhagic coagulation disorders chapter"
+  },
+  {
+   "id": "HE-0193",
+   "tos": "HE-E.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Two patients have similarly prolonged PTs: one has cirrhosis, and the other has vitamin K deficiency from malabsorption. Which factor result best supports liver disease rather than vitamin K deficiency?",
+   "options": [
+    "Decreased factor VII",
+    "Decreased factor V",
+    "Decreased factor VIII",
+    "Decreased factor IX"
+   ],
+   "answer": 1,
+   "why": "Vitamin K deficiency lowers only the vitamin K-dependent factors (II, VII, IX, and X), while liver failure reduces synthesis of most factors, including factor V. **A low factor V therefore points to impaired hepatic synthesis rather than vitamin K deficiency.** Factor VIII is usually normal or raised in liver disease because it is made mainly by endothelial cells.",
+   "whyNot": {
+    "0": "Factor VII falls early in both conditions because of its short half-life.",
+    "2": "Factor VIII is typically normal or increased in liver disease, so a low value would not support it.",
+    "3": "Factor IX is vitamin K-dependent and falls in both conditions."
+   },
+   "ref": "Rodak's Hematology 6e, hemorrhagic coagulation disorders (acquired) chapter"
+  },
+  {
+   "id": "HE-0194",
+   "tos": "HE-E.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "During a radical prostatectomy, a patient begins oozing from wound edges. Results: platelets 230 x 10^9/L, PT and APTT mildly prolonged, fibrinogen 70 mg/dL, fibrinogen degradation products markedly increased, D-dimer normal, and no schistocytes. What is the most likely cause?",
+   "options": [
+    "Disseminated intravascular coagulation",
+    "Primary fibrinolysis (fibrinogenolysis)",
+    "Thrombotic thrombocytopenic purpura",
+    "Dilutional coagulopathy"
+   ],
+   "answer": 1,
+   "why": "In primary fibrinolysis, plasminogen activators released from tissues such as the prostate generate plasmin without prior thrombin formation, and plasmin digests circulating fibrinogen. **High fibrinogen degradation products with a normal D-dimer show that fibrinogen, not cross-linked fibrin, is being broken down.** The normal platelet count and absence of schistocytes also argue against DIC.",
+   "whyNot": {
+    "0": "DIC forms and then lyses cross-linked fibrin, so D-dimer would be markedly raised and platelets usually low.",
+    "2": "TTP causes severe thrombocytopenia and schistocytes with essentially normal clotting tests.",
+    "3": "Dilution after massive transfusion lowers platelets and clotting factors but does not raise degradation products."
+   },
+   "ref": "Rodak's Hematology 6e, fibrinolysis and thrombotic disorders (DIC) chapters"
+  },
+  {
+   "id": "HE-0195",
+   "tos": "HE-E.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Before elective surgery, a 40-year-old man has an APTT of 95 s (reference 25-35 s) with a normal PT. The APTT corrects completely on a 1:1 mix with normal plasma. He has had a tonsillectomy and dental extractions without any abnormal bleeding. Which deficiency best explains these results?",
+   "options": [
+    "Factor VIII (antihemophilic factor) deficiency",
+    "Factor IX (Christmas factor) deficiency",
+    "Factor VII (proconvertin) deficiency",
+    "Factor XII (Hageman factor) deficiency"
+   ],
+   "answer": 3,
+   "why": "Factor XII, like prekallikrein and HMWK, is needed for contact activation in the APTT test tube but not for hemostasis in the body. **Factor XII deficiency can markedly prolong the APTT yet causes no bleeding**, even after surgery. Recognizing it avoids unnecessary plasma transfusion or a cancelled operation.",
+   "whyNot": {
+    "0": "An APTT this long from factor VIII deficiency would mean moderate-to-severe hemophilia A, which would have caused bleeding after tonsillectomy and extractions.",
+    "1": "An APTT this long from factor IX deficiency would mean moderate-to-severe hemophilia B, which would have caused surgical bleeding.",
+    "2": "Factor VII deficiency prolongs the PT, not the APTT."
+   },
+   "ref": "Rodak's Hematology 6e, hemorrhagic coagulation disorders chapter"
+  },
+  {
+   "id": "HE-0196",
+   "tos": "HE-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On a hematology analyzer, the low-level hemoglobin control in today's run is +2.3 SD from its mean, and the high-level control in the same run is -2.1 SD from its mean. How should the run be handled under Westgard multirules?",
+   "options": [
+    "Reject; the R-4s rule is violated, indicating random error",
+    "Reject; the 2-2s rule is violated, indicating systematic error",
+    "Accept; each control is within 3 SD, so only a 1-2s warning applies",
+    "Reject; the 4-1s rule is violated, indicating systematic error"
+   ],
+   "answer": 0,
+   "why": "The R-4s rule is violated when, within one run, one control exceeds +2 SD and another exceeds -2 SD, so the two differ by more than 4 SD. **Controls moving in opposite directions in the same run signal random error**, such as an air bubble, a pipetting fault, or poor mixing. The run is rejected, the cause corrected, and patient samples rerun.",
+   "whyNot": {
+    "1": "The 2-2s rule needs two control values beyond the same 2 SD limit on the same side of the mean; these are on opposite sides.",
+    "2": "A 1-2s warning only prompts checking of the other rules, and here the R-4s rule is clearly violated.",
+    "3": "The 4-1s rule needs four consecutive results beyond 1 SD on the same side of the mean."
+   },
+   "ref": "Rodak's Hematology 6e, quality assurance in hematology chapter"
+  },
+  {
+   "id": "HE-0197",
+   "tos": "HE-F.1",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "Twenty runs of a hemoglobin control give a mean of 12.0 g/dL and a standard deviation of 0.24 g/dL. What is the coefficient of variation (CV)?",
+   "options": [
+    "0.02%",
+    "2.0%",
+    "4.0%",
+    "50%"
+   ],
+   "answer": 1,
+   "why": "The CV expresses the SD as a percentage of the mean, so precision can be compared across control levels and methods. **CV = (0.24 / 12.0) x 100 = 2.0%.** A lower CV means better precision.",
+   "whyNot": {
+    "0": "0.02 is the ratio SD / mean before it is multiplied by 100.",
+    "2": "This uses 2 SD instead of 1 SD in the numerator.",
+    "3": "This divides the mean by the SD instead of the SD by the mean."
+   },
+   "worked": {
+    "problem": "A platelet control run 20 times has a mean of 250 x 10^9/L and an SD of 10 x 10^9/L. Find the CV.",
+    "steps": [
+     "CV = (SD / mean) x 100",
+     "SD / mean = 10 / 250 = 0.04",
+     "0.04 x 100 = 4.0"
+    ],
+    "result": "4.0%"
+   },
+   "ref": "Rodak's Hematology 6e, quality assurance in hematology chapter"
+  },
+  {
+   "id": "HE-0198",
+   "tos": "HE-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A control with an assigned hemoglobin value of 14.0 g/dL is run ten times, and the results range from 15.1 to 15.3 g/dL. How should the method's performance be described?",
+   "options": [
+    "Accurate but not precise",
+    "Both accurate and precise",
+    "Neither accurate nor precise",
+    "Precise but not accurate"
+   ],
+   "answer": 3,
+   "why": "Precision is how closely repeated results agree with each other, while accuracy is how close they are to the true value. **Results tightly grouped around 15.2 g/dL but well above 14.0 g/dL are precise but inaccurate**, which points to a systematic error (bias) such as a calibration problem. The cause should be investigated and the analyzer recalibrated if needed.",
+   "whyNot": {
+    "0": "The results are close to each other, so precision is good, but they are not close to the assigned value.",
+    "1": "The results are consistently about 1.2 g/dL above the assigned value, so they are not accurate.",
+    "2": "The narrow 0.2 g/dL spread shows good precision, so they are not imprecise."
+   },
+   "ref": "Rodak's Hematology 6e, quality assurance in hematology chapter"
+  },
+  {
+   "id": "HE-0199",
+   "tos": "HE-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A laboratory changes to a new lot of PT thromboplastin reagent. According to CLSI guidance, what must be done before INRs are reported with the new lot?",
+   "options": [
+    "Use the new lot's ISI and a new mean normal PT from 20 or more donors",
+    "Keep the previous mean normal PT and change only the ISI",
+    "Keep the previous ISI and change only the mean normal PT",
+    "Report the PT in seconds only until patients are restabilized"
+   ],
+   "answer": 0,
+   "why": "The INR is calculated as (patient PT / mean normal PT) raised to the power of the ISI, and both values depend on the reagent lot and instrument. **A new mean normal PT, the geometric mean of PTs from at least 20 healthy individuals, must be established together with the ISI for the new lot.** Carrying over values from the old lot would give wrong INRs and could lead to unsafe warfarin dosing.",
+   "whyNot": {
+    "1": "The mean normal PT changes with the reagent lot, so using the old value makes the PT ratio and INR inaccurate.",
+    "2": "Each lot has its own ISI, and the old ISI would distort the INR even with a correct mean normal PT.",
+    "3": "Reporting only seconds removes the standardization that warfarin dosing depends on; the new values should be in place before the lot goes into use."
+   },
+   "ref": "CLSI H47 (One-Stage PT and APTT Tests); CLSI H54 (INR procedures)"
+  },
+  {
+   "id": "HE-0200",
+   "tos": "HE-F.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "While loading an EDTA tube for a CBC, a technologist finds a small clot. The ward nurse phones and asks that the CBC be run anyway because the patient is hard to draw. What is the appropriate response?",
+   "options": [
+    "Reject the specimen, explain why, request a new sample, and document the call",
+    "Run the sample and add a comment that a clot may affect the results",
+    "Remove the clot with applicator sticks and run the remaining blood",
+    "Run only the hemoglobin and white cell count, which a clot does not affect"
+   ],
+   "answer": 0,
+   "why": "Clotting consumes platelets and traps cells, so a clotted EDTA specimen gives falsely low counts that no comment can correct. **The specimen should be rejected, the reason explained to the caregiver, a new sample requested, and the communication documented** according to laboratory policy. Clear, documented communication keeps unreliable results from guiding treatment.",
+   "whyNot": {
+    "1": "A disclaimer does not make results from a clotted specimen reliable, and clinicians may still act on them.",
+    "2": "Removing the clot does not return the platelets and cells already trapped in it.",
+    "3": "A clot traps white cells and causes uneven mixing, so no CBC parameter from the tube is reliable."
+   },
+   "ref": "CLSI GP33 (Accuracy in Patient and Sample Identification) and GP41; Rodak's Hematology 6e, quality assurance in hematology chapter"
   }
  ]
 }

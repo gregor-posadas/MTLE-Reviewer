@@ -3220,6 +3220,1149 @@
     "2": "Saline has no disinfecting action."
    },
    "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Laboratory safety / Transfusion-transmitted diseases chapter; CDC/OSHA Bloodborne Pathogens guidance"
+  },
+  {
+   "id": "BB-0151",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A healthy blood donor with no history of transfusion or stem cell transplant gives the following results. Anti-A: small agglutinates scattered among many free red cells (mixed field). Anti-A,B: same mixed-field pattern. Anti-B: 0. A1 cells: 0. B cells: 4+. Which ABO phenotype best fits?",
+   "options": [
+    "A3",
+    "Ax",
+    "A2",
+    "Am"
+   ],
+   "answer": 0,
+   "why": "A characteristic **mixed-field reaction with anti-A and anti-A,B** in a person who has not been transfused or transplanted is the hallmark of the A3 subgroup. Anti-A1 is found in only some A3 persons, so the negative A1 cell reaction fits.",
+   "whyNot": {
+    "1": "Ax cells are usually not agglutinated, or only very weakly, by anti-A but do react with anti-A,B, and many Ax persons make anti-A1.",
+    "2": "A2 cells give a strong, uniform reaction with anti-A; they are distinguished from A1 only by failing to react with anti-A1 lectin.",
+    "3": "Am cells are not agglutinated by anti-A or anti-A,B at all; the A antigen is shown only by adsorption-elution or by A substance in saliva."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (ABO subgroups)"
+  },
+  {
+   "id": "BB-0152",
+   "tos": "BB-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Ulex europaeus lectin (anti-H) is tested against red cells from donors of several ABO phenotypes. Which cells should give the weakest reaction?",
+   "options": [
+    "A2",
+    "A1B",
+    "B",
+    "O"
+   ],
+   "answer": 1,
+   "why": "Group O cells carry the most unconverted H antigen, and A1B cells the least, because both the A1 and B transferases convert H. The usual order of H reactivity is O > A2 > B > A2B > A1 > **A1B (least H)**.",
+   "whyNot": {
+    "0": "The A2 transferase converts H inefficiently, so A2 cells keep a large amount of H and react strongly with anti-H.",
+    "2": "Group B cells retain more H than A1 or A1B cells, so they react more strongly than A1B cells.",
+    "3": "Group O cells have no A or B transferase, so nearly all H stays unconverted and they react most strongly with anti-H."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., ABO blood group system chapter (H antigen)"
+  },
+  {
+   "id": "BB-0153",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A red cell phenotype is recorded in the Rosenfield numeric system as Rh:1,−2,3,4,5. Which antigens does the cell carry?",
+   "options": [
+    "C, E, c, and e, but not D",
+    "D, c, and e, but not C or E",
+    "D, E, c, and e, but not C",
+    "D, C, c, and e, but not E"
+   ],
+   "answer": 2,
+   "why": "In Rosenfield notation Rh1 = D, Rh2 = C, Rh3 = E, Rh4 = c, and Rh5 = e, and a minus sign means the antigen is absent. So Rh:1,−2,3,4,5 means **D+ C− E+ c+ e+**.",
+   "whyNot": {
+    "0": "D is Rh1, which is listed as present; a D-negative cell would be written with −1.",
+    "1": "E is Rh3, which is listed without a minus sign, so E is present.",
+    "3": "This would be written Rh:1,2,−3,4,5; here the minus sign is on Rh2 (C), not Rh3 (E)."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Rh blood group system chapter (nomenclature)"
+  },
+  {
+   "id": "BB-0154",
+   "tos": "BB-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A pregnant woman who types D−, C− (rr) and has never received Rh immune globulin has an antibody that reacts with every D+ cell and every C+ cell on the panel, including D−, C+ cells. Her plasma is adsorbed onto R0 (D+, C−) cells, and the eluate from those cells reacts with r′ (D−, C+) cells. What is the best interpretation?",
+   "options": [
+    "Anti-LW",
+    "Compound anti-Ce",
+    "Separate anti-D and anti-C",
+    "Anti-G"
+   ],
+   "answer": 3,
+   "why": "The G antigen is found on nearly all D+ cells and on all C+ cells, so anti-G looks like anti-D plus anti-C. An antibody that is taken up by D+C− cells and then reacts with D−C+ cells must recognize a shared antigen, which points to **anti-G**. Sorting this out matters because a woman with anti-G but no true anti-D is still a candidate for Rh immune globulin.",
+   "whyNot": {
+    "0": "Anti-LW reacts more strongly with D+ than D− adult cells, but it does not follow the C antigen as this antibody does.",
+    "1": "Anti-Ce needs C and e made by the same haplotype; R0 (Dce) cells lack C and could not adsorb it.",
+    "2": "Anti-D adsorbed onto R0 cells would not react with r′ cells, and R0 cells lack C, so they would not take up anti-C."
+   },
+   "ref": "AABB Technical Manual, 21st ed., Rh system chapter (G antigen)"
+  },
+  {
+   "id": "BB-0155",
+   "tos": "BB-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During a whole blood donation, the bag fills unusually fast with bright red blood, and the tubing pulses in time with the donor's heartbeat. What should the phlebotomist do?",
+   "options": [
+    "Remove the needle and apply firm pressure",
+    "Raise the donor's legs and give oral fluids",
+    "Continue, since the unit will simply fill faster",
+    "Loosen the blood pressure cuff and finish the collection"
+   ],
+   "answer": 0,
+   "why": "Rapid filling with bright red blood and a pulsing line indicate that an artery was entered. The collection is stopped, the needle withdrawn, and **firm direct pressure is applied for about 10 minutes** to prevent a hematoma, then the site is rechecked.",
+   "whyNot": {
+    "1": "These steps treat a vasovagal reaction, which causes pallor and faintness, not a pulsing, bright red flow.",
+    "2": "A fast-filling unit is a warning sign, not an advantage; the procedure must be stopped.",
+    "3": "An arterial puncture is not corrected by lowering cuff pressure; continuing risks a large hematoma or arterial injury."
+   },
+   "ref": "AABB Technical Manual, 21st ed., Allogeneic and autologous blood donor collection chapter (donor reactions)"
+  },
+  {
+   "id": "BB-0156",
+   "tos": "BB-B.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A healthy donor weighs 99 lb. The bag holds 63 mL of anticoagulant for a 450-mL collection. Using the standard reduced-volume method (collection volume in proportion to a 110-lb donor giving 450 mL, with 14 mL of anticoagulant per 100 mL of blood), how much anticoagulant should be removed from the bag before collection?",
+   "options": [
+    "56.7 mL",
+    "45.0 mL",
+    "14.0 mL",
+    "6.3 mL"
+   ],
+   "answer": 3,
+   "why": "Allowed collection = (99 ÷ 110) × 450 = 405 mL. Anticoagulant needed = (405 ÷ 100) × 14 = 56.7 mL, so **63 − 56.7 = 6.3 mL** is removed to keep the proper blood-to-anticoagulant ratio.",
+   "whyNot": {
+    "0": "This is the anticoagulant that should stay in the bag, not the amount to remove.",
+    "1": "This is how much less blood is drawn (450 − 405 mL), not an anticoagulant volume.",
+    "2": "This is the anticoagulant per 100 mL of blood, not the excess to be removed."
+   },
+   "ref": "Harmening, Modern Blood Banking & Transfusion Practices, 7th ed., Donor selection and component preparation chapter",
+   "worked": {
+    "problem": "A donor weighs 92 lb; the bag holds 63 mL of anticoagulant for 450 mL of blood. How much anticoagulant should be removed?",
+    "steps": [
+     "Collection volume = (92 ÷ 110) × 450 = 376.4 mL",
+     "Anticoagulant needed = (376.4 ÷ 100) × 14 = 52.7 mL",
+     "Anticoagulant to remove = 63 − 52.7 = 10.3 mL"
+    ],
+    "result": "Remove about 10.3 mL of anticoagulant and collect about 376 mL of blood."
+   }
+  },
+  {
+   "id": "BB-0157",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 4-week-old infant's umbilical cord did not separate until day 30. The cord stump is now infected but forms no pus, and the WBC count is 45 × 10^9/L, mostly neutrophils. Which defect is most likely?",
+   "options": [
+    "Mutated lysosomal trafficking regulator",
+    "Absent CD18 (β2 integrin) on leukocytes",
+    "Defective phagocyte NADPH oxidase",
+    "Absent Bruton tyrosine kinase"
+   ],
+   "answer": 1,
+   "why": "Leukocyte adhesion deficiency type 1 is caused by **lack of the CD18 β2-integrin subunit**, so neutrophils cannot stick to endothelium and leave the blood. The result is delayed cord separation, infections without pus, and a very high blood neutrophil count.",
+   "whyNot": {
+    "0": "Chédiak-Higashi syndrome shows giant cytoplasmic granules, partial albinism, and neutropenia rather than marked neutrophilia.",
+    "2": "In chronic granulomatous disease neutrophils reach tissues and form pus and granulomas; they fail only to kill catalase-positive organisms.",
+    "3": "XLA blocks B-cell maturation; it causes low antibodies and bacterial infections after maternal IgG wanes, not delayed cord separation."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Innate immunity chapter (phagocyte disorders)"
+  },
+  {
+   "id": "BB-0158",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Fibroblasts infected with a virus release an interferon that binds receptors on neighboring cells and makes them resistant to viral replication. Which interferon do fibroblasts chiefly produce?",
+   "options": [
+    "Interleukin-10",
+    "Interferon-beta",
+    "Interferon-gamma",
+    "Tumor necrosis factor-alpha"
+   ],
+   "answer": 1,
+   "why": "**Interferon-beta** is the type I interferon made mainly by virus-infected fibroblasts; it induces an antiviral state in nearby cells. Interferon-alpha is the other type I interferon, made mainly by leukocytes.",
+   "whyNot": {
+    "0": "IL-10 is a regulatory cytokine that dampens macrophage and T-cell responses rather than inducing antiviral resistance.",
+    "2": "IFN-γ is the type II (immune) interferon made by activated T cells and NK cells; it chiefly activates macrophages.",
+    "3": "TNF-α is an inflammatory cytokine from macrophages; it is not an interferon."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Cytokines chapter (interferons)"
+  },
+  {
+   "id": "BB-0159",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Bacteria coated with which complement fragment are most readily engulfed by neutrophils through complement receptor 1 (CR1)?",
+   "options": [
+    "C9",
+    "C5a",
+    "C3b",
+    "C3a"
+   ],
+   "answer": 2,
+   "why": "**C3b** is the main complement opsonin; it binds covalently to microbial surfaces and is recognized by CR1 on phagocytes, which speeds engulfment.",
+   "whyNot": {
+    "0": "C9 polymerizes to form the membrane attack complex pore; it lyses cells rather than promoting phagocytosis.",
+    "1": "C5a is a potent chemotactic factor and anaphylatoxin that draws neutrophils in, but it is not an opsonin.",
+    "3": "C3a is a small soluble anaphylatoxin released into the fluid phase; it does not coat the microbe."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Complement system chapter"
+  },
+  {
+   "id": "BB-0160",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A wooden splinter has been lodged in a finger for 6 hours, and the area is red, warm, and swollen. Which leukocytes are the first to arrive at the site in large numbers?",
+   "options": [
+    "Monocytes",
+    "Neutrophils",
+    "Lymphocytes",
+    "Eosinophils"
+   ],
+   "answer": 1,
+   "why": "**Neutrophils** are the first leukocytes to leave the blood in large numbers during acute inflammation, usually within hours. Monocytes follow later and mature into tissue macrophages.",
+   "whyNot": {
+    "0": "Monocytes migrate more slowly and dominate the infiltrate later, typically after 1 to 2 days.",
+    "2": "Lymphocytes are part of the adaptive response and accumulate later, especially in chronic inflammation.",
+    "3": "Eosinophils gather mainly in allergic reactions and helminth infections, not as first responders to a bacterial foreign body."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, 7th ed., Innate immunity chapter (inflammation)"
+  },
+  {
+   "id": "BB-0161",
+   "tos": "BB-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Fever during infection is triggered when cytokines such as IL-1, IL-6, and TNF-α act on the hypothalamus. Which cells are the main source of these endogenous pyrogens?",
+   "options": [
+    "Platelets and megakaryocytes",
+    "Antibody-secreting plasma cells",
+    "Eosinophils and basophils",
+    "Monocytes and macrophages"
+   ],
+   "answer": 3,
+   "why": "Microbial products stimulate **monocytes and macrophages** to release IL-1, IL-6, and TNF-α. These cytokines raise the hypothalamic set point through prostaglandin E2 and also trigger acute-phase protein synthesis in the liver.",
+   "whyNot": {
+    "0": "Platelets release growth factors and clotting mediators but are not the main source of IL-1, IL-6, or TNF-α.",
+    "1": "Plasma cells are specialized to secrete antibody, not pyrogenic cytokines.",
+    "2": "These granulocytes release major basic protein, histamine, and other mediators; they are not the main producers of these pyrogens."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Innate immunity chapter (acute-phase response)"
+  },
+  {
+   "id": "BB-0162",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Antibodies raised against the antigen-binding region of one patient's monoclonal paraprotein react with that paraprotein only, and not with other IgG molecules of the same subclass and allotype from the same patient. These antibodies recognize:",
+   "options": [
+    "Isotypes",
+    "Fc-region determinants",
+    "Idiotypes",
+    "Allotypes"
+   ],
+   "answer": 2,
+   "why": "**Idiotypes** are the unique determinants formed by the variable regions of a given antibody, mainly around its antigen-binding site. They differ from one clone to another, even within the same person.",
+   "whyNot": {
+    "0": "Isotypes are constant-region differences that define classes and subclasses, shared by all normal members of a species.",
+    "1": "The Fc region is part of the constant region and is shared by other IgG molecules of the same subclass.",
+    "3": "Allotypes are inherited constant-region variants (such as Gm markers) shared by all IgG of that allotype in one person."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antibody structure and function chapter"
+  },
+  {
+   "id": "BB-0163",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Adult antibodies to bacterial capsular polysaccharides are largely of one IgG subclass, and newborns get relatively little of this antibody from their mothers. Which IgG subclass crosses the placenta least efficiently?",
+   "options": [
+    "IgG1",
+    "IgG4",
+    "IgG2",
+    "IgG3"
+   ],
+   "answer": 2,
+   "why": "All IgG subclasses are carried across the placenta by the neonatal Fc receptor, but **IgG2 is transported least efficiently**. IgG1 is transported best.",
+   "whyNot": {
+    "0": "IgG1 is the most abundant subclass and crosses the placenta most efficiently.",
+    "1": "IgG4 is transported readily across the placenta; its notable trait is that it does not activate the classical pathway.",
+    "3": "IgG3 crosses the placenta well, although it has the shortest half-life of the subclasses."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antibody structure and function chapter (IgG subclasses)"
+  },
+  {
+   "id": "BB-0164",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A mature, naive B cell that has left the bone marrow but has not yet met its antigen carries which immunoglobulins on its surface as antigen receptors?",
+   "options": [
+    "Surface IgM alone",
+    "Surface IgD plus IgE",
+    "Surface IgM plus IgD",
+    "Surface IgG plus IgA"
+   ],
+   "answer": 2,
+   "why": "Mature naive B cells coexpress **surface IgM and IgD** with the same antigen specificity. Immature B cells in the marrow carry surface IgM only.",
+   "whyNot": {
+    "0": "Surface IgM alone marks the immature B cell, before IgD is added.",
+    "1": "IgE is a switched isotype, not part of the naive B-cell receptor.",
+    "3": "Surface IgG or IgA appears only after antigen-driven class switching, so naive cells lack them."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., B-cell development chapter"
+  },
+  {
+   "id": "BB-0165",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 12-year-old receives a tetanus toxoid booster years after her primary series. Compared with her primary response, the antibody response to this booster will show:",
+   "options": [
+    "The same lag and peak titer, but mostly IgA",
+    "A shorter lag, but mostly IgM that fades in days",
+    "A longer lag, a lower peak titer, and mostly IgM",
+    "A shorter lag, a higher peak titer, and mostly IgG"
+   ],
+   "answer": 3,
+   "why": "A secondary (anamnestic) response uses memory B and T cells, so it starts faster, reaches higher titers, and lasts longer. The antibody is **mostly IgG** of higher affinity, because class switching and affinity maturation occurred after the first exposure.",
+   "whyNot": {
+    "0": "A booster given by injection gives a faster, larger response that is mostly IgG, not IgA.",
+    "1": "Memory responses are dominated by IgG that persists, not short-lived IgM.",
+    "2": "This describes the primary response to a first encounter with an antigen."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antigens and antibodies chapter (primary and secondary responses)"
+  },
+  {
+   "id": "BB-0166",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The immunoglobulin heavy-chain gene locus, where V, D, and J segments are joined during B-cell development, maps to which chromosomal band?",
+   "options": [
+    "22q11",
+    "6p21",
+    "2p11",
+    "14q32"
+   ],
+   "answer": 3,
+   "why": "The heavy-chain locus is at **14q32 on chromosome 14**, which is why it takes part in translocations such as t(8;14) in Burkitt lymphoma. The kappa locus is at 2p11 and the lambda locus at 22q11.",
+   "whyNot": {
+    "0": "Band 22q11 on chromosome 22 carries the lambda light-chain locus.",
+    "1": "Band 6p21 on chromosome 6 carries the MHC (HLA) genes, not the immunoglobulin genes.",
+    "2": "Band 2p11 on chromosome 2 carries the kappa light-chain locus, which uses V and J segments only."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antibody diversity chapter"
+  },
+  {
+   "id": "BB-0167",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 14-month-old given a plain pneumococcal polysaccharide vaccine makes almost no protective antibody, but the same polysaccharides coupled to a protein carrier work well. The main reason the conjugate vaccine works is that the protein carrier:",
+   "options": [
+    "Brings in helper T cells, allowing class switching and memory",
+    "Makes the polysaccharide large enough to be immunogenic",
+    "Prevents maternal IgG from neutralizing the vaccine",
+    "Stimulates B cells directly through TLR4"
+   ],
+   "answer": 0,
+   "why": "Pure polysaccharides are T-independent antigens: they give weak, mostly IgM responses without memory, and children under about 2 years respond poorly. Linking them to a protein lets B cells present carrier peptides on MHC class II and **obtain T-cell help**, which drives class switching, affinity maturation, and memory.",
+   "whyNot": {
+    "1": "Capsular polysaccharides are already large; their weakness is the lack of T-cell help, not their size.",
+    "2": "Maternal antibody has largely waned by 14 months and does not explain the difference between the two vaccines.",
+    "3": "TLR4 recognizes lipopolysaccharide; the carrier protein acts by recruiting T-cell help, not as a B-cell mitogen."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antigens and antibodies chapter (T-independent antigens) and vaccines chapter"
+  },
+  {
+   "id": "BB-0168",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Each antigen-binding site on IgM has fairly low affinity, yet pentameric IgM agglutinates red cells far more efficiently than IgG does. The main reason is that IgM has:",
+   "options": [
+    "High affinity conferred by its J chain",
+    "A long, flexible hinge region",
+    "High avidity from ten binding sites",
+    "A strong positive charge on its Fc"
+   ],
+   "answer": 2,
+   "why": "Avidity is the total binding strength of a multivalent antibody to a multivalent antigen. With **ten binding sites**, IgM can attach to many epitopes at once and bridge cells far apart, so it agglutinates well despite low affinity per site.",
+   "whyNot": {
+    "0": "The J chain joins the monomers; it does not raise the affinity of each binding site.",
+    "1": "IgM lacks a true hinge region; its strength comes from the number of binding sites.",
+    "3": "Agglutination by IgM is explained by valency and size, not by the charge of its Fc region."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antigen-antibody interactions chapter (affinity and avidity)"
+  },
+  {
+   "id": "BB-0169",
+   "tos": "BB-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which two immunoglobulin classes have four constant-region domains on each heavy chain and lack a true hinge region?",
+   "options": [
+    "IgG and IgD",
+    "IgA and IgD",
+    "IgM and IgE",
+    "IgG and IgA"
+   ],
+   "answer": 2,
+   "why": "**IgM and IgE** each have an extra heavy-chain constant domain (CH4) in place of a hinge region. IgG, IgA, and IgD have three constant domains and a hinge.",
+   "whyNot": {
+    "0": "Both have a hinge; IgD's hinge is long and easily cleaved by proteases.",
+    "1": "Both have three constant domains and a hinge region.",
+    "3": "IgG and IgA have three constant domains and a hinge region."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Antibody structure and function chapter"
+  },
+  {
+   "id": "BB-0170",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the classic E-rosette test, human T cells bind sheep red cells and form rosettes. Which T-cell surface molecule is responsible?",
+   "options": [
+    "CD21",
+    "CD19",
+    "CD2",
+    "CD16"
+   ],
+   "answer": 2,
+   "why": "**CD2** on human T cells binds a ligand on sheep red cells, so the E-rosette test was an early way to count T cells.",
+   "whyNot": {
+    "0": "CD21 is complement receptor 2 on B cells and the receptor used by Epstein-Barr virus.",
+    "1": "CD19 is a pan-B-cell marker and does not mediate sheep-cell rosetting.",
+    "3": "CD16 is an Fc gamma receptor on NK cells and neutrophils."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Cells of the immune system chapter"
+  },
+  {
+   "id": "BB-0171",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Developing thymocytes whose T-cell receptors bind self-peptide on self-MHC too strongly are eliminated by apoptosis. This process is called:",
+   "options": [
+    "Clonal anergy",
+    "Negative selection",
+    "Positive selection",
+    "Isotype switching"
+   ],
+   "answer": 1,
+   "why": "**Negative selection** in the thymus deletes thymocytes that react strongly to self-antigens, a key mechanism of central tolerance. Positive selection is the earlier step that keeps only cells able to recognize self-MHC.",
+   "whyNot": {
+    "0": "Anergy is functional inactivation of mature T cells in the periphery, usually from signaling without costimulation.",
+    "2": "Positive selection saves thymocytes that bind self-MHC weakly; it does not remove strongly self-reactive cells.",
+    "3": "Isotype switching is a B-cell process that changes the heavy-chain class of an antibody."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., T-cell development chapter (central tolerance)"
+  },
+  {
+   "id": "BB-0172",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An antigen-activated T cell expresses CD25 and multiplies in response to a growth factor it secretes itself. CD25 is part of the receptor for:",
+   "options": [
+    "Interleukin-2",
+    "Interferon-gamma",
+    "Interleukin-6",
+    "Interleukin-4"
+   ],
+   "answer": 0,
+   "why": "CD25 is the alpha chain of the high-affinity **interleukin-2 receptor**. Activated T cells make IL-2 and upregulate CD25, which drives their own clonal expansion.",
+   "whyNot": {
+    "1": "IFN-γ activates macrophages and signals through its own receptor, not CD25.",
+    "2": "IL-6 stimulates acute-phase proteins and plasma cell growth; CD25 is not part of its receptor.",
+    "3": "IL-4 drives Th2 differentiation and IgE class switching; its receptor does not include CD25."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Cytokines chapter"
+  },
+  {
+   "id": "BB-0173",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 3-month-old with hypocalcemic seizures, a conotruncal heart defect, and no thymic shadow on chest film has lymphocyte proliferation studies. Which result is expected?",
+   "options": [
+    "Markedly reduced response to phytohemagglutinin",
+    "Normal response to PHA and concanavalin A",
+    "Increased response to concanavalin A",
+    "Markedly reduced response to lipopolysaccharide only"
+   ],
+   "answer": 0,
+   "why": "This picture fits DiGeorge syndrome, in which an underdeveloped thymus leaves too few functional T cells. Phytohemagglutinin is a T-cell mitogen, so the **response to PHA is markedly reduced**.",
+   "whyNot": {
+    "1": "Both are T-cell mitogens, so a normal response would argue against a significant T-cell defect.",
+    "2": "A T-cell deficiency lowers, not raises, the response to this T-cell mitogen.",
+    "3": "LPS acts mainly on B cells; an isolated poor LPS response would not reflect a thymic defect."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Immunodeficiency chapter (T-cell function testing)"
+  },
+  {
+   "id": "BB-0174",
+   "tos": "BB-F.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Toxic shock syndrome toxin-1 can cause shock and multi-organ failure within hours. It triggers this massive cytokine release because it:",
+   "options": [
+    "Activates the alternative complement pathway on T cells",
+    "Is processed and presented, activating a single T-cell clone",
+    "Binds CD16 on NK cells, triggering ADCC",
+    "Links MHC class II to TCR Vβ, activating many T-cell clones"
+   ],
+   "answer": 3,
+   "why": "Superantigens bind MHC class II outside the peptide groove and attach to the variable beta region of the T-cell receptor. Because they skip normal antigen processing, they can **activate a large fraction of all T cells**, which release a flood of cytokines.",
+   "whyNot": {
+    "0": "Complement activation is not how superantigens act; their effect depends on cross-linking MHC II and the TCR.",
+    "1": "Normal processed peptides activate only a tiny fraction of T cells and could not cause such a sudden cytokine storm.",
+    "2": "ADCC requires antibody bound to a target; it does not explain the T-cell cytokine flood."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Cell-mediated immunity chapter (superantigens)"
+  },
+  {
+   "id": "BB-0175",
+   "tos": "BB-F.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A 25-year-old woman has recurrent episodes of nonpitting swelling of the face and larynx, with no hives; her father had similar attacks. Which complement findings are expected between attacks?",
+   "options": [
+    "Low C3, normal C4, normal C1-INH",
+    "Normal C3 and C4, undetectable CH50",
+    "High C4 and C3, low C1-INH function",
+    "Low C4, low C1-INH function, normal C3"
+   ],
+   "answer": 3,
+   "why": "Hereditary angioedema is due to deficient or dysfunctional C1 inhibitor, so C1 keeps cleaving C4 and C2 unchecked. The typical pattern is **low C4 with low C1-INH function and a normal C3**, and the swelling itself is mediated by bradykinin.",
+   "whyNot": {
+    "0": "Isolated low C3 suggests alternative-pathway consumption (for example C3 nephritic factor or factor H deficiency).",
+    "1": "This pattern suggests a deficiency of a terminal or other single component, not C1 inhibitor deficiency.",
+    "2": "Unregulated C1 consumes C4, so C4 is low rather than high."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Complement system chapter (complement deficiencies)"
+  },
+  {
+   "id": "BB-0176",
+   "tos": "BB-F.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 19-year-old has her second episode of meningococcal meningitis. Her CH50 is undetectable, while C3 and C4 levels are normal. A deficiency of which component is most likely?",
+   "options": [
+    "Mannose-binding lectin",
+    "C1 inhibitor",
+    "C3",
+    "One of C5 through C9"
+   ],
+   "answer": 3,
+   "why": "Recurrent Neisseria infections with an undetectable CH50 and normal C3 and C4 point to a **terminal complement (C5–C9) deficiency**. Without the membrane attack complex, these bacteria cannot be lysed effectively.",
+   "whyNot": {
+    "0": "MBL deficiency affects only the lectin pathway, so the CH50 (a classical-pathway test) stays normal.",
+    "1": "C1-INH deficiency causes hereditary angioedema and low C4, not recurrent neisserial infection.",
+    "2": "C3 deficiency causes severe pyogenic infections and a very low C3 level, which this patient does not have."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Complement system chapter (complement deficiencies)"
+  },
+  {
+   "id": "BB-0177",
+   "tos": "BB-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 24-year-old man has had low-back pain and morning stiffness for 6 months that improves with exercise, and imaging shows bilateral sacroiliitis. Which HLA antigen is most strongly associated with his likely diagnosis?",
+   "options": [
+    "HLA-B27",
+    "HLA-DR3",
+    "HLA-DR4",
+    "HLA-DQ2"
+   ],
+   "answer": 0,
+   "why": "Inflammatory back pain with sacroiliitis in a young man suggests ankylosing spondylitis, which has one of the strongest known HLA associations: **HLA-B27**. Most patients carry it, although most B27-positive people never develop the disease.",
+   "whyNot": {
+    "1": "HLA-DR3 is linked to SLE, type 1 diabetes, and Graves disease, not sacroiliitis.",
+    "2": "HLA-DR4 is associated with rheumatoid arthritis, which mainly affects peripheral joints.",
+    "3": "HLA-DQ2 is associated mainly with celiac disease."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Transplantation immunology chapter (HLA and disease)"
+  },
+  {
+   "id": "BB-0178",
+   "tos": "BB-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a one-way mixed lymphocyte culture, the potential donor's lymphocytes are irradiated or treated with mitomycin C before being mixed with the recipient's lymphocytes. Why is this done?",
+   "options": [
+    "To destroy donor HLA class II antigens",
+    "To remove contaminating donor B cells",
+    "So that only the recipient's cells can proliferate",
+    "To help donor cells take up tritiated thymidine"
+   ],
+   "answer": 2,
+   "why": "Irradiation or mitomycin C stops the donor cells from dividing but leaves their HLA antigens intact, so they act only as stimulators. Any proliferation, measured for example by tritiated thymidine uptake, therefore reflects **recipient cells responding to donor antigens**, mainly class II differences.",
+   "whyNot": {
+    "0": "The donor antigens must stay intact; they are the stimulus being tested.",
+    "1": "The treatment blocks cell division in all donor cells; it is not a B-cell depletion step.",
+    "3": "Blocking donor DNA synthesis stops them from taking up thymidine, so that only responder cells are measured."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Transplantation immunology chapter (histocompatibility testing)"
+  },
+  {
+   "id": "BB-0179",
+   "tos": "BB-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a complement-dependent microlymphocytotoxicity test for HLA typing, lymphocytes are incubated with a known HLA antiserum and complement, then a vital dye such as eosin or trypan blue is added. A positive reaction is shown by lymphocytes that:",
+   "options": [
+    "Form rosettes with sheep red cells",
+    "Clump together in large aggregates",
+    "Exclude the dye and stay refractile",
+    "Stain with the dye as dead cells"
+   ],
+   "answer": 3,
+   "why": "When the antiserum binds HLA antigens on the cells, complement is activated and damages the membrane. Dead cells **take up the vital dye** and appear stained, while living cells exclude it and stay bright.",
+   "whyNot": {
+    "0": "Rosetting is used to identify T cells; it is not the endpoint of a cytotoxicity test.",
+    "1": "The test reads cell death by dye uptake, not agglutination of the lymphocytes.",
+    "2": "Dye exclusion shows intact, living cells, which is a negative reaction."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Transplantation immunology chapter (HLA typing)"
+  },
+  {
+   "id": "BB-0180",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 30-year-old woman with systemic lupus erythematosus has a reactive RPR at a titer of 1:2. Her TP-PA is nonreactive. What is the best interpretation?",
+   "options": [
+    "Adequately treated past syphilis",
+    "Biologic false-positive nontreponemal result",
+    "Late latent syphilis needing treatment",
+    "Prozone reaction in early primary syphilis"
+   ],
+   "answer": 1,
+   "why": "Nontreponemal tests detect antibody to cardiolipin-lipid antigen, which can occur in autoimmune disease, pregnancy, and some infections. A low-titer reactive RPR with a **nonreactive treponemal test** is best interpreted as a biologic false positive.",
+   "whyNot": {
+    "0": "Treated syphilis usually leaves the treponemal test reactive for life.",
+    "2": "Latent syphilis would give a reactive treponemal test such as TP-PA.",
+    "3": "Prozone causes a false-negative, not a false-positive, nontreponemal result in a high-titer specimen."
+   },
+   "ref": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 (syphilis serology)"
+  },
+  {
+   "id": "BB-0181",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The RPR card test can be read with the naked eye, while the VDRL slide test needs a microscope. This is because the RPR antigen suspension contains:",
+   "options": [
+    "Charcoal particles",
+    "Choline chloride",
+    "EDTA",
+    "Lecithin"
+   ],
+   "answer": 0,
+   "why": "The RPR antigen is a modified VDRL antigen with **charcoal particles** added. They are caught in the flocculated antigen-antibody clumps and make the clumps visible without a microscope.",
+   "whyNot": {
+    "1": "Choline chloride lets unheated serum be tested by removing the need for heat inactivation; it does not make clumps visible.",
+    "2": "EDTA stabilizes the antigen suspension and extends its shelf life.",
+    "3": "Lecithin is part of both VDRL and RPR antigens, so it does not explain the macroscopic reading."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Spirochete diseases chapter (syphilis serology)"
+  },
+  {
+   "id": "BB-0182",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with known syphilis develops confusion and an unsteady gait, and neurosyphilis is suspected. Which test on CSF, if reactive in a specimen not contaminated with blood, is considered diagnostic?",
+   "options": [
+    "VDRL",
+    "TP-PA titer",
+    "FTA-ABS",
+    "RPR"
+   ],
+   "answer": 0,
+   "why": "The **CSF-VDRL** is the standard serologic test for neurosyphilis; it is highly specific, so a reactive result without blood contamination establishes the diagnosis. Because it is not very sensitive, a nonreactive result does not exclude neurosyphilis.",
+   "whyNot": {
+    "1": "Treponemal tests stay reactive after any past infection and may reflect passive transfer from serum, so they do not confirm neurosyphilis.",
+    "2": "CSF FTA-ABS is sensitive but less specific; it is mainly useful when nonreactive, to help exclude neurosyphilis.",
+    "3": "The RPR has not been validated for CSF and is not recommended for diagnosing neurosyphilis."
+   },
+   "ref": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 (neurosyphilis)"
+  },
+  {
+   "id": "BB-0183",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A clinic screens for syphilis using the reverse algorithm. A 45-year-old's treponemal enzyme immunoassay is reactive, but the RPR is nonreactive. What is the recommended next step?",
+   "options": [
+    "Diagnose active syphilis and treat without more testing",
+    "Perform darkfield microscopy on the patient's serum",
+    "Test with a different treponemal assay, such as TP-PA",
+    "Report the EIA as a false positive and stop testing"
+   ],
+   "answer": 2,
+   "why": "When a treponemal screen is reactive and the RPR nonreactive, CDC recommends **a second, different treponemal test** such as TP-PA. If it is reactive, the person has present or past syphilis; if it is nonreactive, the first result is probably a false positive.",
+   "whyNot": {
+    "0": "A discordant pattern can reflect treated past infection or a false positive, so it must be resolved first.",
+    "1": "Darkfield microscopy is done on lesion exudate, not serum, and has no role in resolving this pattern.",
+    "3": "The EIA result cannot be dismissed without a second treponemal test, since it may reflect past or early syphilis."
+   },
+   "ref": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 (syphilis serologic algorithms)"
+  },
+  {
+   "id": "BB-0184",
+   "tos": "BB-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a tube antistreptolysin O titration, serial dilutions of patient serum are incubated with streptolysin O reagent, then red cells are added. The ASO titer is reported as the highest dilution that shows:",
+   "options": [
+    "Agglutination of the red cells",
+    "Complete hemolysis",
+    "Partial hemolysis in the cell control",
+    "No hemolysis"
+   ],
+   "answer": 3,
+   "why": "Antibody to streptolysin O neutralizes the toxin so it cannot lyse the indicator red cells. The titer is therefore the highest dilution with **no hemolysis**; hemolysis means too little antibody was present to neutralize the toxin.",
+   "whyNot": {
+    "0": "The ASO test is a neutralization assay; the endpoint is absence of hemolysis, not agglutination.",
+    "1": "Complete hemolysis means the toxin was not neutralized, so the antibody was too dilute at that point.",
+    "2": "The red cell control must show no hemolysis; any hemolysis there makes the test invalid."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Streptococcal infections chapter (ASO)"
+  },
+  {
+   "id": "BB-0185",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with fever and a rash 2 weeks after a possible exposure has a reactive 4th-generation HIV-1/2 antigen/antibody immunoassay. The HIV-1/HIV-2 antibody differentiation immunoassay is negative for both. What is the next step?",
+   "options": [
+    "Report the patient as HIV-negative",
+    "Perform an HIV-1 nucleic acid test",
+    "Confirm with an HIV-1 Western blot",
+    "Repeat the differentiation assay in 6 months"
+   ],
+   "answer": 1,
+   "why": "A reactive antigen/antibody screen with a negative differentiation assay may be acute HIV-1 infection, when p24 antigen is present before antibody. CDC's algorithm resolves this with an **HIV-1 nucleic acid test**; a positive NAT confirms acute infection.",
+   "whyNot": {
+    "0": "Antibody may not yet be detectable in acute infection, so a negative differentiation assay alone does not rule it out.",
+    "2": "The Western blot is no longer part of the recommended algorithm and is often negative in acute infection.",
+    "3": "Waiting delays diagnosis during the most infectious phase; NAT gives the answer now."
+   },
+   "ref": "CDC/APHL Laboratory Testing for the Diagnosis of HIV Infection: Updated Recommendations"
+  },
+  {
+   "id": "BB-0186",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A man who has carried HBsAg for 10 years after injecting drugs develops new jaundice and a sharp rise in ALT. Serology now shows HBsAg reactive, total anti-HBc reactive, IgM anti-HBc nonreactive, and antibody to hepatitis D virus reactive. Which explanation fits best?",
+   "options": [
+    "Simultaneous HBV and HDV coinfection",
+    "Acute hepatitis B; HDV plays no role",
+    "HDV superinfection of a chronic HBV carrier",
+    "Resolved HBV with HDV infection alone"
+   ],
+   "answer": 2,
+   "why": "HDV can replicate only in a person who has HBsAg. Anti-HDV with a negative IgM anti-HBc means the HBV infection is old, so this is **HDV superinfection** of a chronic carrier, which is more likely to become chronic and severe.",
+   "whyNot": {
+    "0": "Coinfection with a new HBV infection would show IgM anti-HBc.",
+    "1": "IgM anti-HBc is negative, so this is not acute HBV, and anti-HDV shows delta infection.",
+    "3": "HDV cannot replicate without HBsAg, and HBsAg here is positive, so HBV has not resolved."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, 7th ed., Viral hepatitis chapter (hepatitis D)"
+  },
+  {
+   "id": "BB-0187",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A clinic patient's anti-HCV screening test is reactive. Which test determines whether he has current HCV infection?",
+   "options": [
+    "Total anti-HBc",
+    "HCV RNA by nucleic acid testing",
+    "Repeat anti-HCV by enzyme immunoassay",
+    "Serum ALT activity"
+   ],
+   "answer": 1,
+   "why": "Anti-HCV stays reactive after a cleared infection, so it cannot tell current from past infection. CDC recommends **HCV RNA testing**; detectable RNA means current infection.",
+   "whyNot": {
+    "0": "Anti-HBc is a hepatitis B marker and gives no information about HCV.",
+    "2": "A repeat antibody test would still not separate current from resolved infection.",
+    "3": "ALT can be normal in chronic HCV and raised for many other reasons."
+   },
+   "ref": "CDC Testing for HCV Infection: An Update of Guidance for Clinicians and Laboratorians"
+  },
+  {
+   "id": "BB-0188",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 4-year-old has fever, sore throat, cervical lymphadenopathy, and reactive lymphocytes, but the heterophile antibody test is negative. EBV serology: VCA IgM positive, VCA IgG positive, EBNA antibody negative. What is the best interpretation?",
+   "options": [
+    "No EBV infection, since the heterophile test is negative",
+    "Past EBV infection",
+    "Reactivation of an old EBV infection",
+    "Current primary EBV infection"
+   ],
+   "answer": 3,
+   "why": "Young children often do not make heterophile antibodies, so EBV-specific serology is needed. **VCA IgM with no EBNA antibody** indicates a current primary infection, because anti-EBNA appears only weeks to months after onset.",
+   "whyNot": {
+    "0": "Heterophile tests are often negative in young children, and VCA IgM shows EBV infection.",
+    "1": "Past infection shows VCA IgG and anti-EBNA without VCA IgM.",
+    "2": "Reactivation would be expected to show anti-EBNA, which is absent here."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Epstein-Barr virus chapter"
+  },
+  {
+   "id": "BB-0189",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "During an outbreak, a jaundiced food handler is tested for hepatitis A. Which single test best confirms acute infection?",
+   "options": [
+    "IgM anti-HAV",
+    "IgG anti-HAV",
+    "Serum ALT activity",
+    "IgM anti-HBc"
+   ],
+   "answer": 0,
+   "why": "**IgM anti-HAV** is present at the onset of symptoms and lasts a few months, so it marks acute hepatitis A.",
+   "whyNot": {
+    "1": "IgG anti-HAV persists for life after infection or vaccination and does not show that the infection is recent.",
+    "2": "ALT rises in hepatitis of any cause and cannot identify the virus.",
+    "3": "IgM anti-HBc marks acute hepatitis B, not hepatitis A."
+   },
+   "ref": "Turgeon, Immunology & Serology in Laboratory Medicine, 7th ed., Viral hepatitis chapter (hepatitis A)"
+  },
+  {
+   "id": "BB-0190",
+   "tos": "BB-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "At her first prenatal visit, a woman who was vaccinated in childhood has rubella IgG positive and rubella IgM negative. What does this mean?",
+   "options": [
+    "Her infant has congenital rubella",
+    "She is susceptible and needs vaccination now",
+    "She is immune to rubella",
+    "She has acute rubella"
+   ],
+   "answer": 2,
+   "why": "**Rubella IgG without IgM** indicates immunity from earlier vaccination or infection. No action is needed apart from routine care.",
+   "whyNot": {
+    "0": "Maternal IgG says nothing about fetal infection; congenital rubella is shown by IgM in the infant.",
+    "1": "A positive IgG shows immunity; and live rubella vaccine is not given during pregnancy anyway.",
+    "3": "Acute rubella would usually show IgM antibody."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Rubella chapter (immune status testing)"
+  },
+  {
+   "id": "BB-0191",
+   "tos": "BB-H.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with prolonged neutropenia after chemotherapy has persistent fever and nodular lung infiltrates with a surrounding halo on CT. Which serum antigen test best supports a diagnosis of invasive aspergillosis?",
+   "options": [
+    "Coccidioides complement-fixing antibody",
+    "Galactomannan",
+    "Cryptococcal capsular antigen",
+    "Histoplasma polysaccharide antigen"
+   ],
+   "answer": 1,
+   "why": "**Galactomannan** is a cell wall polysaccharide released by growing Aspergillus, and an enzyme immunoassay for it in serum or bronchoalveolar lavage fluid supports invasive aspergillosis in high-risk patients.",
+   "whyNot": {
+    "0": "This is an antibody test for coccidioidomycosis, not an antigen test for aspergillosis.",
+    "2": "This detects glucuronoxylomannan from Cryptococcus, not Aspergillus.",
+    "3": "This antigen test is used for histoplasmosis and can cross-react with other dimorphic fungi, not Aspergillus."
+   },
+   "ref": "Mahon, Textbook of Diagnostic Microbiology, 7th ed., Mycology chapters; IDSA aspergillosis guidelines"
+  },
+  {
+   "id": "BB-0192",
+   "tos": "BB-H.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Two weeks after successful treatment of Plasmodium falciparum malaria, a patient feels well and repeated thick smears are negative, but an HRP-2-based rapid diagnostic test is still positive. What is the best explanation?",
+   "options": [
+    "Persisting HRP-2 antigen after parasite clearance",
+    "A P. vivax infection missed on the smears",
+    "A new P. falciparum infection beginning",
+    "Drug-resistant parasites still in the blood"
+   ],
+   "answer": 0,
+   "why": "Histidine-rich protein 2 is specific for P. falciparum, but it is cleared slowly from the blood. **HRP-2 tests can stay positive for weeks after cure**, so they are not used to judge treatment response; smears are.",
+   "whyNot": {
+    "1": "HRP-2 is made by P. falciparum, not P. vivax, so this would not explain a positive HRP-2 line.",
+    "2": "A new infection would soon produce parasites on smears and symptoms; a well patient with repeatedly negative smears fits leftover antigen.",
+    "3": "Resistance would normally show persisting or returning parasites on the smear and symptoms."
+   },
+   "ref": "WHO Malaria Rapid Diagnostic Test Performance reports; Garcia, Diagnostic Medical Parasitology, 6th ed."
+  },
+  {
+   "id": "BB-0193",
+   "tos": "BB-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Health workers in a lymphatic filariasis survey use a card test that detects circulating Wuchereria bancrofti antigen. What is the main practical advantage over thick-smear examination?",
+   "options": [
+    "Blood can be collected at any time of day",
+    "It also detects Brugia malayi infection",
+    "It identifies infective larvae in mosquitoes",
+    "It counts microfilariae per mL of blood"
+   ],
+   "answer": 0,
+   "why": "Microfilariae of W. bancrofti are mainly nocturnal, so smears need blood drawn at night. The card test detects **antigen from adult worms, which is present day and night**, so blood can be taken at any time.",
+   "whyNot": {
+    "1": "The circulating antigen test is specific for W. bancrofti and does not detect Brugia infection.",
+    "2": "The card test is done on human blood to detect infection, not on mosquitoes.",
+    "3": "The card test gives a qualitative antigen result; counting microfilariae still requires a measured blood film or filtration."
+   },
+   "ref": "WHO Global Programme to Eliminate Lymphatic Filariasis, monitoring and epidemiological assessment manual"
+  },
+  {
+   "id": "BB-0194",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 62-year-old woman has a pelvic mass that is suspected to be epithelial ovarian cancer. Which tumor marker is most useful for assessing the mass and later monitoring treatment?",
+   "options": [
+    "Alpha-fetoprotein",
+    "CA 19-9",
+    "CA 15-3",
+    "CA 125"
+   ],
+   "answer": 3,
+   "why": "**CA 125** is the standard serum marker for epithelial ovarian cancer and is used to monitor response and recurrence. It is not specific enough for population screening.",
+   "whyNot": {
+    "0": "AFP is used for hepatocellular carcinoma and some germ cell tumors, not epithelial ovarian cancer.",
+    "1": "CA 19-9 is used mainly for pancreatic and biliary cancers.",
+    "2": "CA 15-3 is used mainly to monitor metastatic breast cancer."
+   },
+   "ref": "Henry's Clinical Diagnosis and Management by Laboratory Methods, 24th ed., tumor markers chapter"
+  },
+  {
+   "id": "BB-0195",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Two men each have a total PSA of 7 ng/mL. In man A, free PSA is 8% of the total; in man B it is 30%. Which statement is correct?",
+   "options": [
+    "Free PSA is useful only when total PSA exceeds 20 ng/mL",
+    "Man B has the higher probability of prostate cancer",
+    "Both have the same risk, since total PSA is equal",
+    "Man A has the higher probability of prostate cancer"
+   ],
+   "answer": 3,
+   "why": "Prostate cancer produces relatively more PSA that is bound to protease inhibitors, so the free fraction tends to be lower. In the 4–10 ng/mL range, a **lower percent free PSA means a higher chance of cancer**.",
+   "whyNot": {
+    "0": "Percent free PSA is used mainly in the 4–10 ng/mL range, where total PSA is least discriminating.",
+    "1": "A high percent free PSA is more typical of benign prostatic hyperplasia.",
+    "2": "Percent free PSA is used precisely to separate risk among men with similar total PSA."
+   },
+   "ref": "Henry's Clinical Diagnosis and Management by Laboratory Methods, 24th ed., tumor markers chapter"
+  },
+  {
+   "id": "BB-0196",
+   "tos": "BB-H.5",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A woman with a suspected molar pregnancy has a uterus much larger than dates, yet a one-step sandwich immunoassay for hCG gives only a moderately raised result. When the sample is diluted 1:100, the corrected hCG is far higher. What is the best explanation?",
+   "options": [
+    "Heterophile antibodies bridging the two antibodies",
+    "Antigen excess saturating both antibodies (hook effect)",
+    "Cross-reaction with luteinizing hormone",
+    "Antibody excess in the patient's serum (prozone)"
+   ],
+   "answer": 1,
+   "why": "In a one-step sandwich assay, very high antigen levels saturate both capture and labeled antibodies separately, so fewer sandwiches form and the signal falls. This **high-dose hook effect** is revealed when dilution gives a higher corrected result.",
+   "whyNot": {
+    "0": "Heterophile antibodies usually cause falsely high results that do not rise in proportion on dilution.",
+    "2": "Cross-reaction with LH would add a small amount of signal, not hide a very high hCG.",
+    "3": "Here the excess is of antigen (hCG), not of patient antibody."
+   },
+   "ref": "Tietz Fundamentals of Clinical Chemistry, 8th ed., immunochemical techniques chapter"
+  },
+  {
+   "id": "BB-0197",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An 8-month-old boy has had recurrent pneumococcal ear infections and pneumonia since about 6 months of age. All immunoglobulin classes are very low, CD19+ cells are almost absent, and T-cell numbers are normal. Which defect is most likely?",
+   "options": [
+    "Bruton tyrosine kinase",
+    "Adenosine deaminase",
+    "Thymic development",
+    "CD40 ligand on helper T cells"
+   ],
+   "answer": 0,
+   "why": "X-linked agammaglobulinemia is caused by mutations in **Bruton tyrosine kinase (BTK)**, which stops B-cell maturation at the pre-B stage. Infections begin as maternal IgG wanes, and mature B cells are nearly absent.",
+   "whyNot": {
+    "1": "ADA deficiency causes SCID, with severe loss of T cells as well as B cells.",
+    "2": "A thymic defect such as DiGeorge syndrome lowers T cells, not B cells, and causes hypocalcemia.",
+    "3": "CD40L deficiency gives normal B-cell numbers with normal or high IgM and low IgG and IgA."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Immunodeficiency diseases chapter"
+  },
+  {
+   "id": "BB-0198",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In Graves disease, hyperthyroidism is caused by autoantibodies that:",
+   "options": [
+    "Target thyroglobulin",
+    "Stimulate the TSH receptor",
+    "Block the TSH receptor",
+    "Target thyroid peroxidase"
+   ],
+   "answer": 1,
+   "why": "Graves disease is caused by **TSH-receptor-stimulating antibodies** (thyroid-stimulating immunoglobulins) that mimic TSH, so the gland overproduces hormone.",
+   "whyNot": {
+    "0": "Antithyroglobulin antibodies are markers of autoimmune thyroid disease, not the cause of hyperthyroidism.",
+    "2": "Blocking TSH-receptor antibodies cause hypothyroidism, not hyperthyroidism.",
+    "3": "Anti-TPO antibodies are typical of Hashimoto thyroiditis and do not cause excess hormone production."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Autoimmunity chapter (autoimmune thyroid disease)"
+  },
+  {
+   "id": "BB-0199",
+   "tos": "BB-H.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with a positive ANA and suspected SLE is tested for anti-double-stranded DNA by indirect immunofluorescence on Crithidia luciliae. A positive result is fluorescence of the organism's:",
+   "options": [
+    "Nucleus",
+    "Basal body",
+    "Kinetoplast",
+    "Flagellum"
+   ],
+   "answer": 2,
+   "why": "The kinetoplast of Crithidia luciliae is a giant mitochondrion containing circular double-stranded DNA without histones. **Kinetoplast staining** therefore shows anti-dsDNA specifically, a marker that is highly specific for SLE.",
+   "whyNot": {
+    "0": "Nuclear staining alone can be caused by other antinuclear antibodies, such as antihistone, and is not read as positive.",
+    "1": "Basal body staining is not specific for anti-dsDNA and is not read as positive.",
+    "3": "Flagellar staining is not related to dsDNA antibodies."
+   },
+   "ref": "Stevens, Clinical Immunology and Serology, 5th ed., Systemic lupus erythematosus chapter"
+  },
+  {
+   "id": "BB-0200",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a standard PCR cycle, which step is carried out at about 72 °C, the optimum temperature for Taq DNA polymerase?",
+   "options": [
+    "Extension",
+    "Reverse transcription",
+    "Annealing",
+    "Denaturation"
+   ],
+   "answer": 0,
+   "why": "During **extension** at about 72 °C, Taq polymerase adds nucleotides to the annealed primers to copy the target. Denaturation is at about 94–95 °C and annealing usually at about 50–65 °C.",
+   "whyNot": {
+    "1": "Reverse transcription is a separate step in RT-PCR that makes cDNA from RNA, usually at a lower temperature.",
+    "2": "Annealing lets primers bind their targets at a lower temperature, usually about 50–65 °C.",
+    "3": "Denaturation separates the strands at about 94–95 °C."
+   },
+   "ref": "Buckingham, Molecular Diagnostics: Fundamentals, Methods and Clinical Applications, 3rd ed., amplification methods chapter"
+  },
+  {
+   "id": "BB-0201",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In real-time PCR using a hydrolysis (TaqMan) probe, the fluorescent signal increases with each cycle because:",
+   "options": [
+    "Taq's 5′ nuclease cleaves the bound probe, unquenching the reporter",
+    "An intercalating dye binds all double-stranded DNA formed in the tube",
+    "Two probes binding side by side allow energy transfer between their dyes",
+    "A hairpin-shaped probe opens and fluoresces once it hybridizes to target"
+   ],
+   "answer": 0,
+   "why": "The probe carries a reporter dye and a quencher and binds the target between the primers. As Taq extends the primer, its **5′→3′ exonuclease activity cleaves the probe**, separating the reporter from the quencher so fluorescence builds up with each cycle.",
+   "whyNot": {
+    "1": "This describes intercalating dyes such as SYBR Green, which do not use a probe.",
+    "2": "This describes FRET hybridization probes, not hydrolysis probes.",
+    "3": "This is how a molecular beacon works; it is not cleaved."
+   },
+   "ref": "Buckingham, Molecular Diagnostics, 3rd ed., amplification methods chapter (real-time PCR)"
+  },
+  {
+   "id": "BB-0202",
+   "tos": "BB-I.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "To prevent false positives from amplicon carryover, a laboratory uses dUTP instead of dTTP in every PCR and adds uracil-N-glycosylase (UNG) to each new reaction before thermal cycling. How does this prevent contamination?",
+   "options": [
+    "Incorporated dUTP makes newly formed amplicons resistant to UNG digestion",
+    "UNG destroys uracil-containing old amplicons but not native template DNA",
+    "UNG removes thymine bases from any contaminating patient DNA in the tube",
+    "UNG digests primer-dimers that form while reactions sit at room temperature"
+   ],
+   "answer": 1,
+   "why": "All amplicons made in the lab contain uracil, while genuine patient DNA contains thymine. **UNG removes uracil from contaminating amplicons**, so they break apart and cannot be amplified; UNG is then inactivated by heat at the first denaturation step.",
+   "whyNot": {
+    "0": "Uracil-containing DNA is exactly what UNG attacks; new amplicons are protected only because UNG is heat-inactivated before they form.",
+    "2": "UNG acts on uracil, not thymine, so native template is left intact.",
+    "3": "UNG acts on uracil in DNA; it does not target primer-dimers made of normal primers."
+   },
+   "ref": "Buckingham, Molecular Diagnostics, 3rd ed., amplification methods chapter (contamination control)"
+  },
+  {
+   "id": "BB-0203",
+   "tos": "BB-J.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After a new reagent lot is put into use for a quantitative C-reactive protein assay, the control values for 10 consecutive runs all fall between the mean and +2 SD. Under Westgard rules, this pattern indicates:",
+   "options": [
+    "Gradually increasing imprecision of the method",
+    "A systematic shift, likely from the new reagent lot",
+    "Random error from pipetting",
+    "Acceptable performance, as all are within 2 SD"
+   ],
+   "answer": 1,
+   "why": "Ten consecutive values on the same side of the mean violate the 10x̄ rule, which detects **systematic error**. An abrupt change coinciding with a new lot points to a shift that must be investigated before reporting patient results.",
+   "whyNot": {
+    "0": "Increasing imprecision widens the spread around the mean rather than moving all values to one side.",
+    "2": "Random error scatters results on both sides of the mean; it does not produce a run of values on one side.",
+    "3": "Each value is within limits, but the pattern itself violates a multirule and signals bias."
+   },
+   "ref": "Westgard, Basic QC Practices, 4th ed.; CLSI C24"
+  },
+  {
+   "id": "BB-0204",
+   "tos": "BB-J.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Under the Philippine DOH color code for health care waste, where should serum-soaked cotton balls and used plastic serology tubes (with no sharps) be discarded?",
+   "options": [
+    "Green bin (biodegradable, not infectious)",
+    "Yellow bin (infectious)",
+    "Black bin (general, dry, not infectious)",
+    "Orange bin (radioactive)"
+   ],
+   "answer": 1,
+   "why": "Materials contaminated with blood or body fluids are infectious waste, which the DOH color code assigns to a **yellow container or bag**.",
+   "whyNot": {
+    "0": "Green is for biodegradable, non-infectious waste such as food scraps.",
+    "2": "Black is for general waste that is dry and not contaminated with blood or body fluids.",
+    "3": "Orange is reserved for radioactive waste, which these items are not."
+   },
+   "ref": "Philippine DOH Health Care Waste Management Manual, 4th ed."
   }
  ]
 }

@@ -2128,6 +2128,2145 @@
     "3": "An organizational chart shows positions and lines of authority, not the qualifications for a position."
    },
    "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Human resource management: job analysis)"
+  },
+  {
+   "id": "HL-0101",
+   "tos": "HL-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "After reviewing the biopsy, the oncologist tells a patient that with treatment most people with this stage of disease are alive and well five years later. This forecast of the probable course and outcome of the disease is its:",
+   "options": [
+    "Prognosis",
+    "Diagnosis",
+    "Pathogenesis",
+    "Etiology"
+   ],
+   "answer": 0,
+   "why": "The expected course and likely outcome of a disease, such as survival or chance of recovery, is its **prognosis**. It is based on factors like tumor grade, stage and response to treatment, and it is a prediction rather than a label for the disease itself.",
+   "whyNot": {
+    "1": "Diagnosis is the identification of what disease the patient has, not a forecast of how it will turn out.",
+    "2": "Pathogenesis is the sequence of cellular and molecular events by which the disease develops.",
+    "3": "Etiology is the cause of the disease, not its expected outcome."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Introduction to pathology)"
+  },
+  {
+   "id": "HL-0102",
+   "tos": "HL-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A breast mass feels stony hard and grates when cut. Microscopy shows small cords and nests of carcinoma cells scattered through abundant dense collagen. A tumor with this abundant fibrous stroma is described as:",
+   "options": [
+    "Colloid (mucinous)",
+    "Papillary",
+    "Scirrhous",
+    "Medullary"
+   ],
+   "answer": 2,
+   "why": "Some carcinomas induce a heavy growth of collagen-rich stroma (desmoplasia), making the tumor rock-hard; such tumors are called **scirrhous**. The tumor cells (parenchyma) are relatively sparse compared with the fibrous stroma.",
+   "whyNot": {
+    "0": "A colloid (mucinous) carcinoma floats in pools of extracellular mucin and is soft and gelatinous, not stony hard.",
+    "1": "Papillary describes finger-like fronds of tumor cells on fibrovascular cores, not a dense fibrous stroma.",
+    "3": "A medullary tumor is the opposite: soft and fleshy, with sheets of tumor cells and very little stroma."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Neoplasia: nomenclature and characteristics)"
+  },
+  {
+   "id": "HL-0103",
+   "tos": "HL-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 60-year-old man has progressive scarring of both lungs. Exposures, drugs, infections and autoimmune disease are all excluded after a full work-up, so the fibrosis is labeled as having no identifiable cause. Such a disease is described as:",
+   "options": [
+    "Iatrogenic",
+    "Nosocomial",
+    "Congenital",
+    "Idiopathic"
+   ],
+   "answer": 3,
+   "why": "A disease whose cause remains unknown after investigation is called **idiopathic**, as in idiopathic pulmonary fibrosis. The term describes the gap in our knowledge of the etiology, not the severity of the disease.",
+   "whyNot": {
+    "0": "Iatrogenic means caused by medical treatment or a procedure, which was excluded here.",
+    "1": "Nosocomial means acquired in a hospital or health-care setting, usually an infection.",
+    "2": "Congenital means present at birth, which does not fit a disease that developed at age 60."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Introduction; Diseases of the lung)"
+  },
+  {
+   "id": "HL-0104",
+   "tos": "HL-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Type 2 diabetes mellitus clusters in families, yet it usually appears only when inherited susceptibility combines with obesity and physical inactivity. In terms of etiology, this disease is best classified as:",
+   "options": [
+    "Chromosomal",
+    "Single-gene (Mendelian)",
+    "Purely environmental",
+    "Multifactorial"
+   ],
+   "answer": 3,
+   "why": "Disorders that arise from several susceptibility genes acting together with environmental influences are **multifactorial (complex) disorders**. Type 2 diabetes, hypertension and coronary artery disease are typical examples.",
+   "whyNot": {
+    "0": "Chromosomal disorders result from abnormal chromosome number or structure, such as trisomy 21.",
+    "1": "A single-gene (Mendelian) disorder follows a clear inheritance pattern from one mutant gene and does not need environmental triggers.",
+    "2": "A purely environmental cause would not explain the strong familial clustering of the disease."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Genetic and pediatric diseases; The endocrine system)"
+  },
+  {
+   "id": "HL-0105",
+   "tos": "HL-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "After induction chemotherapy, a patient with acute leukemia has a normal blood count, no detectable blasts in the marrow, and no symptoms, although the physician does not yet consider her cured. This phase in the course of the disease is a:",
+   "options": [
+    "Exacerbation",
+    "Complication",
+    "Remission",
+    "Relapse"
+   ],
+   "answer": 2,
+   "why": "A period in which the signs and symptoms of a disease abate or disappear, without proof of permanent cure, is a **remission**. If the disease later returns, that event is called a relapse.",
+   "whyNot": {
+    "0": "An exacerbation is a worsening or flare of signs and symptoms.",
+    "1": "A complication is a new, secondary problem arising from the disease or its treatment.",
+    "3": "A relapse is the return of the disease after a period of improvement, the opposite of what is described."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Introduction to pathology; Diseases of white blood cells)"
+  },
+  {
+   "id": "HL-0106",
+   "tos": "HL-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Celsus described four cardinal signs of acute inflammation: redness, heat, swelling and pain. Which fifth sign was later added by Rudolf Virchow?",
+   "options": [
+    "Tissue hardening (induration)",
+    "Skin itching (pruritus)",
+    "Raised body temperature (pyrexia)",
+    "Loss of function (functio laesa)"
+   ],
+   "answer": 3,
+   "why": "The four classic signs listed by Celsus are rubor, calor, tumor and dolor. Virchow added a fifth, **loss of function (functio laesa)**, which results from pain, swelling and tissue damage at the inflamed site.",
+   "whyNot": {
+    "0": "Induration (firmness) can accompany chronic inflammation and fibrosis but is not one of the classic cardinal signs.",
+    "1": "Itching is a symptom of some allergic reactions but is not one of the cardinal signs of inflammation.",
+    "2": "Fever is a systemic acute-phase response, not a local cardinal sign of inflammation."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Inflammation and repair)"
+  },
+  {
+   "id": "HL-0107",
+   "tos": "HL-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "At autopsy of a patient who died of acute pancreatitis, the peripancreatic fat contains scattered chalky-white, firm foci. Microscopy shows shadowy outlines of fat cells with basophilic calcium deposits. This pattern of cell death is:",
+   "options": [
+    "Caseous necrosis",
+    "Gangrenous necrosis",
+    "Coagulative necrosis",
+    "Fat necrosis"
+   ],
+   "answer": 3,
+   "why": "Lipases released from the injured pancreas split triglycerides in adipocytes, and the freed fatty acids combine with calcium to form chalky-white soaps (saponification). This is **enzymatic fat necrosis**, the typical lesion of acute pancreatitis.",
+   "whyNot": {
+    "0": "Caseous necrosis is the cheesy, friable necrosis seen in granulomas such as tuberculosis.",
+    "1": "Gangrenous necrosis refers to ischemic necrosis of a limb or bowel, often with superimposed bacterial infection.",
+    "2": "Coagulative necrosis preserves tissue architecture in solid organs after ischemia, such as myocardial or renal infarcts, and is not linked to saponification."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Cell injury, cell death and adaptations)"
+  },
+  {
+   "id": "HL-0108",
+   "tos": "HL-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A skin biopsy shows occasional single keratinocytes that are shrunken, with dense eosinophilic cytoplasm and condensed, fragmented nuclei. Neighboring cells are intact and there is no surrounding inflammation. These findings best indicate:",
+   "options": [
+    "Coagulative necrosis",
+    "Apoptosis",
+    "Liquefactive necrosis",
+    "Hydropic (reversible) swelling"
+   ],
+   "answer": 1,
+   "why": "Death of isolated single cells with cell shrinkage, chromatin condensation and fragmentation, and no inflammatory reaction is characteristic of **apoptosis**. The plasma membrane stays intact and the fragments are removed by phagocytes before cell contents leak out, so inflammation is not triggered.",
+   "whyNot": {
+    "0": "Coagulative necrosis usually affects groups of cells in an area, with cell swelling, membrane damage and an inflammatory reaction.",
+    "2": "Liquefactive necrosis digests tissue into a fluid mass, typically in abscesses or brain infarcts, with abundant inflammation.",
+    "3": "Hydropic swelling is a reversible change in which cells enlarge and become pale, not shrunken and dense."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Cell injury, cell death and adaptations)"
+  },
+  {
+   "id": "HL-0109",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A whole brain removed at autopsy is to be fixed intact in 10% formalin for later cutting. How should it be placed in the fixative to prevent distortion of its shape?",
+   "options": [
+    "Pack the container tightly with dry cotton around the brain",
+    "Cut it into 1 cm coronal slabs before placing it in fixative",
+    "Lay it flat on the bottom of the container, base downward",
+    "Suspend it upside down by a string passed under the basilar artery"
+   ],
+   "answer": 3,
+   "why": "A fresh brain is very soft and will flatten under its own weight if it rests on the container floor. It is therefore **suspended in a large volume of formalin by a thread passed beneath the basilar artery**, so it floats free while it hardens over about two weeks.",
+   "whyNot": {
+    "0": "Dry cotton does not support the brain evenly and would leave parts of it out of contact with fixative.",
+    "1": "Fresh brain is too soft to slice cleanly; it is normally fixed whole and cut only after it has hardened.",
+    "2": "Resting the soft fresh brain on the container floor flattens and distorts it."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation); Bruce-Gregorios, Histopathologic Techniques (Fixation of special specimens)"
+  },
+  {
+   "id": "HL-0110",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A testicular biopsy fixed in Bouin's fluid is bright yellow. What is the recommended way to remove the excess picric acid after fixation?",
+   "options": [
+    "Transfer it into 50–70% ethanol",
+    "Immerse it in 5% sodium thiosulfate",
+    "Treat it with alcoholic iodine",
+    "Wash it in running tap water overnight"
+   ],
+   "answer": 0,
+   "why": "Picric acid is removed with alcohol, so Bouin's-fixed tissue is taken **directly into 50–70% ethanol**, which is also the first dehydration step. Washing in water is avoided because the picrate–protein complexes are water-soluble and can be lost.",
+   "whyNot": {
+    "1": "Sodium thiosulfate removes the iodine color after mercury pigment removal; it has no role with picric acid.",
+    "2": "Alcoholic iodine is used to remove mercuric chloride pigment, not picric acid.",
+    "3": "Water washing is the step to avoid after Bouin's, because the picrate–protein complexes are water-soluble."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: picric acid fixatives); Bruce-Gregorios, Histopathologic Techniques (Fixation)"
+  },
+  {
+   "id": "HL-0111",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A hematopathology service asks for a fixative containing mercuric chloride and sodium acetate, with formaldehyde added just before use. It is chosen for crisp nuclear detail in bone marrow and lymph node biopsies. Which fixative is this?",
+   "options": [
+    "Bouin's fluid",
+    "Carnoy's fluid",
+    "Orth's fluid",
+    "B-5 fixative"
+   ],
+   "answer": 3,
+   "why": "**B-5** is a mercuric chloride–sodium acetate stock to which formaldehyde is added at the time of use. It gives sharp nuclear chromatin detail valued in lymphoma and marrow diagnosis, but it leaves mercury pigment and requires hazardous-waste disposal.",
+   "whyNot": {
+    "0": "Bouin's fluid is a picric acid–formaldehyde–acetic acid mixture and contains no mercury.",
+    "1": "Carnoy's fluid is a mixture of ethanol, chloroform and glacial acetic acid.",
+    "2": "Orth's fluid is a potassium dichromate–formaldehyde (chromate) fixative."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Fixation); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation)"
+  },
+  {
+   "id": "HL-0112",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which fixative both preserves lipids and stains them black, and is also used as a secondary fixative for electron microscopy specimens?",
+   "options": [
+    "Osmium tetroxide (osmic acid)",
+    "Saturated mercuric chloride",
+    "Aqueous potassium dichromate",
+    "Buffered glutaraldehyde"
+   ],
+   "answer": 0,
+   "why": "**Osmium tetroxide** reacts with unsaturated lipids, fixing them and being reduced to a black deposit. In electron microscopy it is used after glutaraldehyde to fix membranes and add electron density.",
+   "whyNot": {
+    "1": "Mercuric chloride is a protein-coagulating fixative that leaves black mercury pigment, not stained lipids.",
+    "2": "Potassium dichromate preserves some lipids and mitochondria but does not stain lipids black.",
+    "3": "Glutaraldehyde is the primary aldehyde fixative for electron microscopy but does not fix or blacken lipids."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: osmium tetroxide); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Fixation)"
+  },
+  {
+   "id": "HL-0113",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An intact, unopened spleen weighing 400 g was placed in a generous volume of 10% formalin. Sections taken two days later show good fixation at the surface but autolysis in the center. What should have been done when the specimen was received?",
+   "options": [
+    "Fix it whole in formalin heated to 60 °C",
+    "Use 20% formalin instead of 10% formalin",
+    "Slice it at about 1 cm intervals before immersion",
+    "Store it whole at 4 °C in the same formalin"
+   ],
+   "answer": 2,
+   "why": "Formaldehyde penetrates tissue slowly, about a millimeter per hour, so the center of a large solid organ autolyzes before fixative reaches it. Large organs should be **sliced into thin slabs (bread-loafed) so that fixative reaches all surfaces quickly**.",
+   "whyNot": {
+    "0": "Heating a whole organ overfixes and cooks the outside before the center is reached.",
+    "1": "Doubling the formalin strength does not overcome slow penetration and increases hardening at the surface.",
+    "3": "Cold slows autolysis but also slows penetration and fixation; it does not solve the problem of thickness."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: factors affecting fixation)"
+  },
+  {
+   "id": "HL-0114",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A fresh muscle sample is to be fixed for demonstration of phosphatase and lipase activity, which diffuse easily and are destroyed by most fixatives. Which fixative is classically used for such enzyme studies?",
+   "options": [
+    "Cold acetone",
+    "Bouin's fluid",
+    "Hot 10% formalin",
+    "Zenker's fluid"
+   ],
+   "answer": 0,
+   "why": "**Cold acetone** fixes rapidly by dehydration while preserving much enzyme activity, so it is the classic fixative for water-diffusible enzymes such as phosphatases and lipases. Many enzyme methods use unfixed cryostat sections or only brief cold fixation for the same reason.",
+   "whyNot": {
+    "1": "Bouin's fluid is strongly acidic because of picric and acetic acids and destroys enzyme activity.",
+    "2": "Heat denatures enzymes; hot formalin would inactivate the very activity to be demonstrated.",
+    "3": "Zenker's fluid contains mercuric chloride and acetic acid, which inactivate most enzymes."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Fixation: acetone); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Enzyme histochemistry)"
+  },
+  {
+   "id": "HL-0115",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Sections of a hemorrhagic tumor contain brown-black birefringent deposits identified as formalin pigment. Which treatment of the sections before staining will remove this pigment?",
+   "options": [
+    "Alcoholic ammonia solution (Kardasewitsch method)",
+    "Alcoholic iodine followed by sodium thiosulfate",
+    "Potassium permanganate followed by oxalic acid",
+    "Distilled water warmed to about 60 °C"
+   ],
+   "answer": 0,
+   "why": "Acid formaldehyde hematin forms when acidic formalin reacts with hemoglobin. It dissolves in alkaline alcohol, so it is removed with **ammonia in alcohol (Kardasewitsch method)** or with alcoholic picric acid.",
+   "whyNot": {
+    "1": "Iodine followed by thiosulfate removes mercuric chloride pigment and does not dissolve formalin pigment.",
+    "2": "Permanganate followed by oxalic acid is an oxidative bleaching method for melanin, not for formalin pigment.",
+    "3": "Warm water does not dissolve formalin pigment and may loosen sections from the slide."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: artifacts and pigments); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Pigments and minerals)"
+  },
+  {
+   "id": "HL-0116",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which fixative acts by removing water from proteins so that they coagulate, without becoming chemically bound to the tissue?",
+   "options": [
+    "Ethanol",
+    "Glutaraldehyde",
+    "Mercuric chloride",
+    "Formaldehyde"
+   ],
+   "answer": 0,
+   "why": "Alcohols such as **ethanol** fix by dehydrating and coagulating proteins; they are coagulant, non-additive fixatives because they are not incorporated into the tissue. They preserve some antigens and nucleic acids well but cause shrinkage and hardening.",
+   "whyNot": {
+    "1": "Glutaraldehyde is also an additive cross-linking aldehyde, with two aldehyde groups per molecule.",
+    "2": "Mercuric chloride is additive: it combines with protein groups and leaves mercury in the tissue.",
+    "3": "Formaldehyde is additive: it binds to proteins and cross-links them with methylene bridges."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: mechanisms of fixation)"
+  },
+  {
+   "id": "HL-0117",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 2 mm endoscopic gastric biopsy was left on a dry gauze pad on the bench for 40 minutes before it was put into formalin. Which handling would have best protected it from artifact?",
+   "options": [
+    "Wrapping it in dry tissue paper to keep it flat",
+    "Placing it in formalin immediately after removal",
+    "Placing it in a −20 °C freezer until it is collected",
+    "Holding it in normal saline overnight before fixing"
+   ],
+   "answer": 1,
+   "why": "Tiny biopsies dry out within minutes, causing shrinkage and distortion, and autolysis starts as soon as tissue loses its blood supply. The specimen should be **put into an adequate volume of fixative immediately after removal**.",
+   "whyNot": {
+    "0": "Dry paper draws fluid out of the biopsy and makes the drying artifact worse.",
+    "2": "Slow freezing forms ice crystals that disrupt the tissue structure.",
+    "3": "Prolonged storage in saline allows autolysis and swelling before fixation."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: practical aspects); Bruce-Gregorios, Histopathologic Techniques (Handling of specimens)"
+  },
+  {
+   "id": "HL-0118",
+   "tos": "HL-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A study of mitochondria uses Regaud's fluid, a potassium dichromate–formalin fixative. Before the tissue is dehydrated, it must be handled correctly to keep an insoluble dark deposit from forming in it. What should be done?",
+   "options": [
+    "Transfer it directly into 70% ethanol",
+    "Wash it thoroughly in running water",
+    "Treat it with iodine, then sodium thiosulfate",
+    "Rinse it briefly in alcoholic ammonia"
+   ],
+   "answer": 1,
+   "why": "If dichromate-fixed tissue goes straight into alcohol, chromium compounds precipitate as a dark, insoluble chrome pigment. The tissue is therefore **washed well in running water, preferably for several hours or overnight, before dehydration**.",
+   "whyNot": {
+    "0": "Going straight into alcohol is what causes the chrome precipitate; direct transfer to 70% ethanol is the rule for Bouin's-fixed tissue, not dichromate-fixed tissue.",
+    "2": "Iodine followed by sodium thiosulfate removes mercury pigment left by mercuric chloride fixatives.",
+    "3": "Alcoholic ammonia removes formalin (acid formaldehyde hematin) pigment from sections; it is not the step after dichromate fixation."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fixation: dichromate fixatives); Bruce-Gregorios, Histopathologic Techniques (Fixation: chromate fixatives)"
+  },
+  {
+   "id": "HL-0119",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A small bone biopsy must be decalcified without spoiling nuclear staining or later immunohistochemistry. Which acid is slower than the strong mineral acids but gentle enough to be the usual choice for such specimens?",
+   "options": [
+    "Hydrochloric acid, about 10%",
+    "Formic acid, about 10%",
+    "Nitric acid, about 10%",
+    "Sulfuric acid, about 10%"
+   ],
+   "answer": 1,
+   "why": "**Formic acid** is a weak organic acid that decalcifies more slowly than nitric or hydrochloric acid but causes much less damage to nuclear staining and antigens. It is often used with formalin or a buffer and suits most routine surgical bone specimens.",
+   "whyNot": {
+    "0": "Hydrochloric acid is also a strong mineral acid that works fast but harms nuclear staining.",
+    "2": "Nitric acid is a strong, rapid decalcifier that easily damages staining and antigens if exposure is prolonged.",
+    "3": "Sulfuric acid is unsuitable because it forms insoluble calcium sulfate that stays in the tissue."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Bone: decalcification); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Decalcification)"
+  },
+  {
+   "id": "HL-0120",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A femoral head was placed in 10% nitric acid, and the decalcification endpoint was not checked until a week later. In the H&E sections, the nuclei are pale and stain poorly with hematoxylin, while the eosin is bright. What is the most likely cause?",
+   "options": [
+    "Sections cut too thin on the microtome",
+    "Incomplete dehydration before clearing",
+    "Over-exposure to the decalcifying acid",
+    "Formalin pigment covering the nuclei"
+   ],
+   "answer": 2,
+   "why": "Strong acid hydrolyzes nucleic acids, so **over-decalcification** leaves nuclei that take up hematoxylin weakly while eosin staining is preserved or enhanced. This is why the endpoint must be checked and the tissue removed and rinsed as soon as decalcification is complete.",
+   "whyNot": {
+    "0": "Thin sections stain somewhat lighter overall, but would not selectively spare eosin.",
+    "1": "Incomplete dehydration causes milky clearing and poor wax infiltration, not selective loss of nuclear staining.",
+    "3": "Formalin pigment appears as brown-black granules, not as pale, weakly stained nuclei."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Bone: decalcification); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Decalcification)"
+  },
+  {
+   "id": "HL-0121",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In electrolytic decalcification, a current is passed through an acid solution containing the bone. Toward which electrode do the released calcium ions move?",
+   "options": [
+    "Toward the anode (positive electrode)",
+    "Equally toward both electrodes",
+    "Toward neither electrode, staying bound in the bone",
+    "Toward the cathode (negative electrode)"
+   ],
+   "answer": 3,
+   "why": "Calcium ions carry a positive charge (Ca²⁺), so in an electric field they migrate **toward the cathode, the negative electrode**. Removing them from around the bone speeds decalcification, although the heat produced can damage tissue.",
+   "whyNot": {
+    "0": "The anode is positive and repels the positively charged calcium ions.",
+    "1": "Charged ions move toward the electrode of opposite charge, not equally to both.",
+    "2": "The acid releases calcium from the bone mineral; once released, the ions are free to move in the field."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Decalcification); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Bone)"
+  },
+  {
+   "id": "HL-0122",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A small, delicate embryo is to be processed into paraffin. How should dehydration be started compared with routine adult surgical tissue?",
+   "options": [
+    "Begin in 95% ethanol warmed to 60 °C",
+    "Begin in xylene before any alcohol",
+    "Begin directly in absolute ethanol",
+    "Begin in a lower-grade alcohol, about 30%"
+   ],
+   "answer": 3,
+   "why": "Abrupt transfer from an aqueous fixative into strong alcohol creates strong diffusion currents that shrink and distort fragile tissue. Delicate specimens such as embryos are therefore **started in a low grade of alcohol (around 30%)** and moved through gradual steps.",
+   "whyNot": {
+    "0": "Strong, heated alcohol makes the shrinkage and hardening even worse.",
+    "1": "Xylene is not miscible with water, so it cannot be used before the tissue is dehydrated.",
+    "2": "Going straight into absolute alcohol causes severe shrinkage and distortion of delicate tissue."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: dehydration); Bruce-Gregorios, Histopathologic Techniques (Dehydration)"
+  },
+  {
+   "id": "HL-0123",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A layer of anhydrous copper sulfate is kept under a filter paper at the bottom of the last absolute alcohol bath. If this white powder turns blue, what should the technologist do?",
+   "options": [
+    "Nothing, as blue shows the alcohol is fully anhydrous",
+    "Replace the alcohol, which has taken up water",
+    "Shorten the clearing step that follows",
+    "Add xylene to the bath to remove the color"
+   ],
+   "answer": 1,
+   "why": "Anhydrous copper sulfate is white and turns blue when it absorbs water. A blue color means the **'absolute' alcohol is contaminated with water and should be changed**, otherwise dehydration will be incomplete.",
+   "whyNot": {
+    "0": "Blue is the hydrated form of copper sulfate, which shows that water is present, not that the alcohol is dry.",
+    "2": "Shortening clearing does not correct water left in the tissue and would cause further problems.",
+    "3": "Xylene would not remove water and is not miscible with water, so it would make clearing worse."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Dehydration); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing)"
+  },
+  {
+   "id": "HL-0124",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "With most clearing agents, the endpoint of clearing is judged by the tissue becoming translucent. Which clearing agent does NOT make tissue translucent, so its endpoint cannot be judged this way?",
+   "options": [
+    "Chloroform",
+    "Toluene",
+    "Xylene",
+    "Cedarwood oil"
+   ],
+   "answer": 0,
+   "why": "**Chloroform** removes alcohol and is miscible with paraffin, but it does not raise the refractive index of tissue enough to make it look clear. Clearing time must therefore be based on block size and experience rather than on appearance.",
+   "whyNot": {
+    "1": "Toluene behaves much like xylene and also renders tissue translucent.",
+    "2": "Xylene makes tissue translucent quickly, so clearing is easy to judge visually.",
+    "3": "Cedarwood oil is slow but makes tissue very clear, and is used for delicate specimens such as the central nervous system."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Clearing); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: clearing)"
+  },
+  {
+   "id": "HL-0125",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Because of a long holiday weekend, a batch of tissues stayed in xylene for three days during processing. What is the most likely effect on the tissues?",
+   "options": [
+    "They lose all affinity for eosin when stained",
+    "They remain soft, as if they had never been fixed",
+    "They become hard and brittle and crumble when cut",
+    "They become milky and opaque in the paraffin"
+   ],
+   "answer": 2,
+   "why": "Xylene clears quickly, and prolonged exposure **over-hardens tissue, making it brittle so that sections crumble or crack**. Clearing times are therefore kept short and matched to block size.",
+   "whyNot": {
+    "0": "Prolonged xylene does not specifically remove eosin staining.",
+    "1": "Soft, mushy tissue suggests incomplete fixation, the opposite of overhardening.",
+    "3": "A milky, opaque appearance in xylene points to water left from incomplete dehydration, not overlong clearing."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: clearing); Bruce-Gregorios, Histopathologic Techniques (Clearing)"
+  },
+  {
+   "id": "HL-0126",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Lung and other spongy tissues are often infiltrated with paraffin under reduced pressure in a vacuum infiltrator. What is the main purpose of the vacuum?",
+   "options": [
+    "To lower the melting point of the paraffin wax",
+    "To harden the tissue further before embedding",
+    "To remove remaining water left after dehydration",
+    "To remove trapped air so wax penetrates faster"
+   ],
+   "answer": 3,
+   "why": "Reduced pressure pulls air bubbles and volatile clearing agent out of the tissue spaces, so **molten wax replaces them more quickly and completely**. This shortens infiltration time and gives better blocks of lung, bone and dense tissue.",
+   "whyNot": {
+    "0": "Vacuum has no meaningful effect on the melting point of paraffin wax.",
+    "1": "The vacuum does not harden tissue; hardening comes from fixation and processing reagents.",
+    "2": "Water should already be removed during dehydration; vacuum infiltration cannot correct poor dehydration."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: infiltration); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Processing)"
+  },
+  {
+   "id": "HL-0127",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Fixed tissue is taken straight from aqueous solution into a molten wax-like medium, skipping dehydration and clearing, so that lipids and some enzymes are not extracted by solvents. Which embedding medium is used this way?",
+   "options": [
+    "Celloidin (nitrocellulose)",
+    "Paraffin wax",
+    "Polyethylene glycol (Carbowax)",
+    "Epoxy resin"
+   ],
+   "answer": 2,
+   "why": "**Polyethylene glycol (Carbowax)** is water-soluble, so tissue can go into it without dehydration or clearing, preserving lipids and some enzymes. A drawback is that the sections dissolve or distort when floated on plain water.",
+   "whyNot": {
+    "0": "Celloidin is dissolved in ether–alcohol, so the tissue must first be dehydrated.",
+    "1": "Paraffin is not miscible with water, so tissue must be dehydrated and cleared first, which extracts lipids.",
+    "3": "Epoxy resins need the tissue dehydrated, usually through ethanol and often propylene oxide, before infiltration."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: embedding media); Bruce-Gregorios, Histopathologic Techniques (Infiltration and embedding)"
+  },
+  {
+   "id": "HL-0128",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "For electron microscopy, tissue embedded in epoxy resin is first cut into 0.5–1 µm 'semithin' sections to choose the area for ultrathin sectioning. Which stain is routinely applied to these semithin sections?",
+   "options": [
+    "Toluidine blue",
+    "Hematoxylin and eosin",
+    "Uranyl acetate",
+    "Oil red O"
+   ],
+   "answer": 0,
+   "why": "Semithin resin sections are stained with **toluidine blue**, often on a hot plate, which penetrates resin and gives a quick view of the tissue under the light microscope. The block is then trimmed to the chosen area for ultrathin sections.",
+   "whyNot": {
+    "1": "Routine H&E stains resin-embedded tissue poorly because the resin is not removed from the section.",
+    "2": "Uranyl acetate is a heavy-metal contrast stain for ultrathin sections on EM grids, not a light microscopy stain.",
+    "3": "Oil red O is a fat stain for frozen sections, not for resin-embedded tissue."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Electron microscopy; Plastic embedding)"
+  },
+  {
+   "id": "HL-0129",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During trimming, a paraffin block smells strongly of xylene and the tissue is soft and crumbles out of the wax. What is the most likely cause?",
+   "options": [
+    "Incomplete infiltration with paraffin wax",
+    "A dull edge on the microtome knife",
+    "Overfixation of the tissue in formalin",
+    "Prolonged decalcification of the tissue"
+   ],
+   "answer": 0,
+   "why": "A smell of clearing agent in the block means that **xylene was not fully replaced by wax during infiltration**, often because the wax was contaminated or infiltration was too short. The tissue should be returned to fresh molten wax and re-embedded.",
+   "whyNot": {
+    "1": "A dull knife produces sectioning faults; it does not cause the block to smell of clearing agent.",
+    "2": "Overfixation makes tissue hard and brittle, not soft and smelling of xylene.",
+    "3": "Over-decalcification damages staining and may soften bone, but does not leave xylene in the block."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Tissue processing: troubleshooting); Bruce-Gregorios, Histopathologic Techniques (Faults in processing)"
+  },
+  {
+   "id": "HL-0130",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "On a warm afternoon, paraffin sections come off the microtome compressed and wrinkled, and wax builds up on the knife edge. Which corrective step should be tried first?",
+   "options": [
+    "Chill the block on ice and use a sharp blade area",
+    "Switch to egg albumin as the adhesive",
+    "Raise the flotation bath to about 65 °C",
+    "Warm the block in the oven before cutting"
+   ],
+   "answer": 0,
+   "why": "Compression and wrinkling come mainly from a block that is too soft or warm and from a dull or wax-coated edge. **Cooling the block face on ice and using a clean, sharp part of the blade** usually corrects the fault.",
+   "whyNot": {
+    "1": "The adhesive acts only after flotation and has no effect on compression during cutting.",
+    "2": "A very hot bath melts the wax and makes the sections fall apart; it does not prevent compression at the knife.",
+    "3": "Warming makes the wax softer and increases compression."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: troubleshooting); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Microtomy)"
+  },
+  {
+   "id": "HL-0131",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A ribbon of paraffin sections comes off the microtome curved to one side instead of straight. What is the most likely cause?",
+   "options": [
+    "A flotation bath that is too warm",
+    "Over-decalcification of the specimen",
+    "Upper and lower block edges not parallel",
+    "Static electricity in very dry air"
+   ],
+   "answer": 2,
+   "why": "When the top and bottom edges of the block face are not parallel to each other and to the knife edge, one side of each section is longer than the other, so **the ribbon curves**. Re-trimming the block so these edges are parallel corrects it.",
+   "whyNot": {
+    "0": "The flotation bath is used after cutting and cannot change the shape of the ribbon at the knife.",
+    "1": "Over-decalcification affects staining quality, not the shape of the ribbon.",
+    "3": "Static makes sections cling to the knife or fly about, but does not cause a curved ribbon."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: troubleshooting); Bruce-Gregorios, Histopathologic Techniques (Sectioning faults)"
+  },
+  {
+   "id": "HL-0132",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A block of hard, densely fibrous tissue yields sections with regular bands of alternating thick and thin zones running parallel to the knife edge, like a venetian blind. The knife and block holder are tight. What is the most likely cause?",
+   "options": [
+    "A nick in the cutting edge of the knife",
+    "Knife vibration against the hard tissue",
+    "Static electricity in the cutting area",
+    "Incomplete dehydration of the tissue"
+   ],
+   "answer": 1,
+   "why": "Bands parallel to the knife edge within each section are **chatter, caused by the knife vibrating as it meets very hard tissue** (or a block that is not held rigidly). Softening the block face, cutting more slowly and checking the knife tilt help.",
+   "whyNot": {
+    "0": "A nick produces a score line running perpendicular to the knife edge, at the same place in every section.",
+    "2": "Static makes sections cling or curl, but does not cause bands of varying thickness.",
+    "3": "Incomplete dehydration causes poor infiltration and crumbling, not regular bands."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: troubleshooting); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Microtomy)"
+  },
+  {
+   "id": "HL-0133",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a cold, air-conditioned room, a technologist cuts a block embedded in a high-melting-point paraffin. The block edges are parallel and the knife is sharp, but the sections come off one at a time and will not join into a ribbon. Which remedy is most likely to help?",
+   "options": [
+    "Chill the block face on ice before each cut",
+    "Coat the block's top and bottom edges with softer wax",
+    "Increase the knife tilt to a steeper angle",
+    "Cut thicker sections, at about 15–20 µm"
+   ],
+   "answer": 1,
+   "why": "Sections join into a ribbon because the wax at their edges is just soft enough to stick together. When the wax is too hard for the room temperature, they separate, so **coating the upper and lower edges of the block with a softer, lower-melting-point wax (or re-embedding in softer wax)** restores ribboning.",
+   "whyNot": {
+    "0": "Chilling makes the wax harder still, which is the opposite of what an over-hard block needs.",
+    "2": "Excessive knife tilt is itself a cause of failure to form a ribbon, so increasing it would make the fault worse.",
+    "3": "Sections that are too thick also fail to ribbon, and routine paraffin sections are cut at only about 3–5 µm."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Sectioning: faults and remedies); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy: troubleshooting)"
+  },
+  {
+   "id": "HL-0134",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Of the three traditional steel microtome knife profiles, one has a plain triangular cross-section with neither side hollow-ground, which gives it the most rigid edge. Which profile is this, and for what work is it traditionally recommended?",
+   "options": [
+    "Plane-wedge; frozen sections and very hard tissue in paraffin",
+    "Biconcave; frozen sections and very hard tissue in paraffin",
+    "Plano-concave; celloidin blocks on a sliding microtome",
+    "Plane-wedge; celloidin blocks on a sliding microtome"
+   ],
+   "answer": 0,
+   "why": "A **plane-wedge knife** has two flat sides meeting at the edge, so the edge is thick and rigid. It is traditionally recommended for frozen sections and for tough or hard tissue embedded in paraffin.",
+   "whyNot": {
+    "1": "A biconcave knife has both sides hollow-ground, giving a thinner, less rigid edge suited to routine paraffin sections, not frozen or very hard tissue.",
+    "2": "A plano-concave knife does suit celloidin on a sliding microtome, but it has one flat and one concave side, not a plain triangular profile.",
+    "3": "The profile is named correctly, but celloidin sectioning is traditionally done with a plano-concave knife, not a plane-wedge knife."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Microtome knives); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microtomy)"
+  },
+  {
+   "id": "HL-0135",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Paraffin sections keep floating off their slides during heat-induced antigen retrieval for immunohistochemistry. What change is most likely to prevent this?",
+   "options": [
+    "Dry the slides at room temperature only",
+    "Cut thicker sections of about 10 µm",
+    "Use positively charged or silane-coated slides",
+    "Float sections on a cooler water bath"
+   ],
+   "answer": 2,
+   "why": "Heating in retrieval buffer loosens sections from plain glass. **Positively charged, poly-L-lysine or silane (APES)-coated slides** bind the negatively charged tissue firmly so sections survive retrieval and long staining runs.",
+   "whyNot": {
+    "0": "Thorough drying, often at about 60 °C, improves adhesion; drying only at room temperature makes lifting more likely.",
+    "1": "Thicker sections are heavier and more likely to lift, and they spoil IHC interpretation.",
+    "3": "Bath temperature affects flattening, not how strongly the section adheres during retrieval."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Immunohistochemistry); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemical techniques)"
+  },
+  {
+   "id": "HL-0136",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "For an intraoperative frozen section, the fresh tissue is surrounded by a water-soluble mixture of glycols and resins and frozen onto the cryostat chuck. What is this medium?",
+   "options": [
+    "Celloidin",
+    "OCT compound",
+    "Paraffin wax",
+    "Canada balsam"
+   ],
+   "answer": 1,
+   "why": "**OCT compound** is a water-soluble glycol–resin medium that freezes around fresh tissue, holding it on the chuck and supporting it during cryostat sectioning. It washes off the section in aqueous solutions during staining.",
+   "whyNot": {
+    "0": "Celloidin is a slow nitrocellulose embedding medium for large or hard tissue, not for frozen sections.",
+    "2": "Paraffin requires fixed, dehydrated and cleared tissue and is not used for fresh frozen sections.",
+    "3": "Canada balsam is a resinous mounting medium used under the coverslip, not an embedding medium."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Frozen sections); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Frozen sections)"
+  },
+  {
+   "id": "HL-0137",
+   "tos": "HL-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Cryostat sections keep curling up and rolling onto the knife as they are cut. Which part of the cryostat is adjusted to keep each section flat on the knife?",
+   "options": [
+    "The anti-roll plate",
+    "The defrost timer",
+    "The section thickness setting",
+    "The chuck temperature dial"
+   ],
+   "answer": 0,
+   "why": "The **anti-roll plate** is a glass or plastic guide set just above and parallel to the knife edge, so each section slides flat beneath it instead of curling. Its height and angle must be adjusted carefully, or a fine brush can be used instead.",
+   "whyNot": {
+    "1": "The defrost timer controls periodic defrosting of the chamber and has nothing to do with rolling sections.",
+    "2": "Changing thickness alters the section but is not the device that keeps it flat.",
+    "3": "Temperature affects how well tissue cuts but does not by itself stop a section from rolling."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Frozen sections: the cryostat)"
+  },
+  {
+   "id": "HL-0138",
+   "tos": "HL-B.2",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "How many mL of concentrated (70%) nitric acid are needed to prepare 250 mL of a 5% nitric acid decalcifying solution? (Treat both percentages as v/v.)",
+   "options": [
+    "25.0 mL",
+    "232.1 mL",
+    "12.5 mL",
+    "17.9 mL"
+   ],
+   "answer": 3,
+   "why": "Use C1V1 = C2V2: (70%)(V1) = (5%)(250 mL), so V1 = 1,250 / 70 = **about 17.9 mL of 70% nitric acid**, made up to 250 mL with water. Acid is always added to the water, never the reverse.",
+   "whyNot": {
+    "0": "25 mL of 70% acid in 250 mL is a 1-in-10 dilution, which gives 7% acid, not 5%.",
+    "1": "About 232.1 mL is the volume of water to add (250 − 17.9), not the volume of acid.",
+    "2": "12.5 mL is 5% of 250 mL; this assumes the stock is 100% acid and ignores its 70% strength."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Bone: decalcification); Bruce-Gregorios, Histopathologic Techniques (Laboratory solutions)",
+   "worked": {
+    "problem": "How many mL of 90% formic acid are needed to make 500 mL of 10% formic acid?",
+    "steps": [
+     "Use C1V1 = C2V2.",
+     "(90%)(V1) = (10%)(500 mL)",
+     "V1 = 5,000 / 90 = 55.6 mL",
+     "Add the acid to about 444 mL of water to make a final volume of 500 mL."
+    ],
+    "result": "About 55.6 mL of 90% formic acid, diluted to 500 mL"
+   }
+  },
+  {
+   "id": "HL-0139",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Encapsulated yeasts are seen in a lung biopsy. Which stain colors the mucopolysaccharide capsule red, helping to identify Cryptococcus neoformans among yeasts of similar size?",
+   "options": [
+    "Mucicarmine",
+    "Grocott methenamine silver",
+    "Perls' Prussian blue",
+    "Ziehl–Neelsen"
+   ],
+   "answer": 0,
+   "why": "**Mucicarmine** stains epithelial mucin and the mucopolysaccharide capsule of Cryptococcus red. Most other yeasts of similar size do not have a mucicarmine-positive capsule, so the stain helps confirm the organism.",
+   "whyNot": {
+    "1": "GMS stains the cell walls of almost all fungi black, so it shows yeasts but does not single out Cryptococcus by its capsule.",
+    "2": "Perls' Prussian blue demonstrates ferric iron (hemosiderin), not fungi.",
+    "3": "Ziehl–Neelsen stains acid-fast bacilli such as mycobacteria, not fungal capsules."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Microorganisms); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microorganisms)"
+  },
+  {
+   "id": "HL-0140",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Two serial sections of a mucin-rich tumor are stained with Alcian blue, one at pH 2.5 and one at pH 1.0. Mucin that stains blue at pH 1.0 is mainly of which type?",
+   "options": [
+    "Glycogen",
+    "Neutral glycoproteins",
+    "Mucins rich in sulfate esters",
+    "Mucins rich in carboxyl (sialic acid) groups"
+   ],
+   "answer": 2,
+   "why": "At pH 2.5, Alcian blue binds both carboxylated and sulfated acid mucins. At pH 1.0 the carboxyl groups are no longer ionized, so **only the strongly acidic sulfated mucins** still stain.",
+   "whyNot": {
+    "0": "Glycogen is not an acidic mucosubstance and is demonstrated with PAS and diastase, not Alcian blue.",
+    "1": "Neutral mucins carry no acidic groups and do not stain with Alcian blue at either pH; they are PAS-positive.",
+    "3": "Carboxylated (sialylated) mucins stain at pH 2.5 but lose their charge and stop staining at pH 1.0."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Carbohydrates); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Carbohydrates)"
+  },
+  {
+   "id": "HL-0141",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a liver biopsy, the pathologist wants to see whether the fine framework of fibers supporting the hepatocyte plates has collapsed. Which stain is best, and how do these fibers appear?",
+   "options": [
+    "Masson's trichrome; fibers red",
+    "Perls' Prussian blue; fibers blue",
+    "Congo red; fibers apple-green",
+    "Silver impregnation; fibers black"
+   ],
+   "answer": 3,
+   "why": "Reticulin (type III collagen) fibers are argyrophilic and are shown by **silver impregnation methods such as Gordon and Sweets, which stain them black**. Collapse or loss of this framework is important in assessing liver necrosis and tumors.",
+   "whyNot": {
+    "0": "Masson's trichrome stains collagen blue or green and muscle and cytoplasm red; it is not the method for fine reticulin.",
+    "1": "Perls' method shows ferric iron, not connective tissue fibers.",
+    "2": "Congo red demonstrates amyloid, with apple-green birefringence under polarized light."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Connective tissues and mesenchymal tissues); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Connective tissue)"
+  },
+  {
+   "id": "HL-0142",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A temporal artery biopsy is examined for fragmentation of the internal elastic lamina. Which stain is commonly used, and what color are the elastic fibers?",
+   "options": [
+    "Van Gieson alone; red",
+    "Verhoeff–Van Gieson; black",
+    "Perls' Prussian blue; blue",
+    "Oil red O; red"
+   ],
+   "answer": 1,
+   "why": "**Verhoeff's iron hematoxylin stains elastic fibers black**, and the Van Gieson counterstain colors collagen red and muscle yellow. This makes breaks in the internal elastic lamina easy to see.",
+   "whyNot": {
+    "0": "Van Gieson alone stains collagen red and muscle yellow but does not demonstrate elastic fibers.",
+    "2": "Perls' method stains ferric iron and does not show elastic tissue.",
+    "3": "Oil red O is a frozen-section fat stain and does not show elastic fibers."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Connective tissues); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Connective tissue)"
+  },
+  {
+   "id": "HL-0143",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "When Harris hematoxylin is prepared, mercuric oxide is added to the hot dye solution. What is the purpose of this ingredient?",
+   "options": [
+    "It oxidizes hematoxylin to hematein, the colored dye",
+    "It is the mordant that links the dye to chromatin",
+    "It acidifies the solution to sharpen nuclear staining",
+    "It stops mold from growing during storage"
+   ],
+   "answer": 0,
+   "why": "Hematoxylin itself is nearly colorless and must be oxidized ('ripened') to **hematein**, the active coloring agent. Harris's formula ripens it chemically with mercuric oxide (many current formulas use sodium iodate instead), so the stain is ready almost at once instead of after weeks of natural oxidation.",
+   "whyNot": {
+    "1": "The mordant in Harris hematoxylin is the aluminum salt (potassium or ammonium alum), which binds hematein to nuclear chromatin.",
+    "2": "Acidity comes from glacial acetic acid, which many laboratories add to make nuclear staining more selective.",
+    "3": "Preservatives such as chloral hydrate or thymol, not mercuric oxide, are used in some hematoxylin formulas to prevent mold."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Hematoxylin and eosin); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Nuclear and cytoplasmic staining)"
+  },
+  {
+   "id": "HL-0144",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A light nuclear counterstain is needed after immunohistochemistry, applied until the right intensity is reached and with no differentiation step. Which hematoxylin is most commonly used in this progressive way?",
+   "options": [
+    "Mallory's PTAH",
+    "Heidenhain's iron hematoxylin",
+    "Mayer's hematoxylin",
+    "Weigert's iron hematoxylin"
+   ],
+   "answer": 2,
+   "why": "**Mayer's hematoxylin** is a dilute alum hematoxylin that is commonly used progressively, so nuclei are stained to the desired depth without acid differentiation. This makes it a common counterstain for IHC, where acid could harm the chromogen or the section.",
+   "whyNot": {
+    "0": "PTAH is a tungsten hematoxylin used for fibrin and muscle cross-striations, not as a routine counterstain.",
+    "1": "Heidenhain's iron hematoxylin is a regressive stain that is differentiated in iron alum, used for detail such as muscle striations.",
+    "3": "Weigert's iron hematoxylin resists acid and is used before picric acid–containing counterstains such as Van Gieson."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Hematoxylin and eosin); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Nuclear and cytoplasmic staining)"
+  },
+  {
+   "id": "HL-0145",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A section stained with toluidine blue shows blue nuclei, while the granules of mast cells are reddish-purple. Staining tissue a color different from that of the dye solution is called:",
+   "options": [
+    "Metachromasia",
+    "Birefringence",
+    "Argyrophilia",
+    "Orthochromasia"
+   ],
+   "answer": 0,
+   "why": "When a dye stains certain tissue components a color different from the dye itself, the reaction is **metachromasia**. Highly sulfated substances such as mast cell heparin stack the dye molecules and shift their color from blue to red-purple.",
+   "whyNot": {
+    "1": "Birefringence is double refraction seen under polarized light, not a staining color change.",
+    "2": "Argyrophilia is the ability to bind silver, which then requires a reducer to be seen.",
+    "3": "Orthochromasia is staining in the same color as the dye, as seen in the blue nuclei here."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Theory of staining); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Dyes and staining)"
+  },
+  {
+   "id": "HL-0146",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A skin biopsy from a patient with suspected leprosy is negative with the routine Ziehl–Neelsen stain. A modified acid-fast method uses an oil–xylene mixture to remove paraffin and a weaker acid decolorizer, and red bacilli are then seen. Which method is this?",
+   "options": [
+    "Grocott methenamine silver",
+    "Auramine–rhodamine method",
+    "Fite–Faraco method",
+    "Brown–Brenn method"
+   ],
+   "answer": 2,
+   "why": "Mycobacterium leprae is less acid-fast than M. tuberculosis and loses carbol fuchsin after harsh solvents and strong acid. The **Fite–Faraco (Wade–Fite) method** protects the bacterial lipid wall with oil during dewaxing and uses gentler decolorization, so the bacilli stay red.",
+   "whyNot": {
+    "0": "GMS is a silver method used mainly for fungi and Pneumocystis, not for acid-fast staining.",
+    "1": "Auramine–rhodamine is a fluorescent method in which mycobacteria glow yellow-orange under UV, not red under bright-field.",
+    "3": "Brown–Brenn is a tissue Gram stain that separates gram-positive from gram-negative bacteria."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Microorganisms); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Microorganisms)"
+  },
+  {
+   "id": "HL-0147",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A liver mass in a patient with no known primary is a metastatic adenocarcinoma. Immunohistochemistry shows CK7 negative, CK20 positive and CDX2 positive. Which primary site is most likely?",
+   "options": [
+    "Ovary (serous)",
+    "Lung",
+    "Breast",
+    "Colorectum"
+   ],
+   "answer": 3,
+   "why": "The pattern **CK7-negative, CK20-positive, with nuclear CDX2, is typical of colorectal adenocarcinoma**. Most carcinomas of the lung, breast and ovary show the reverse pattern, CK7-positive and CK20-negative.",
+   "whyNot": {
+    "0": "Ovarian serous carcinoma is typically CK7-positive, CK20-negative and WT1-positive.",
+    "1": "Lung adenocarcinoma is usually CK7-positive, CK20-negative and often TTF-1-positive.",
+    "2": "Breast carcinoma is usually CK7-positive and CK20-negative, often with GATA3 positivity."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Neoplasia: diagnosis); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemistry in diagnosis)"
+  },
+  {
+   "id": "HL-0148",
+   "tos": "HL-B.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An immunoperoxidase stain detected with DAB shows brown red cells and neutrophils in every section, including the negative control from which the primary antibody was left out. Which step was most likely omitted?",
+   "options": [
+    "Counterstaining with hematoxylin",
+    "Blocking endogenous alkaline phosphatase with levamisole",
+    "Blocking endogenous peroxidase with hydrogen peroxide",
+    "Heat-induced antigen retrieval"
+   ],
+   "answer": 2,
+   "why": "Red cells (pseudoperoxidase of hemoglobin) and granulocytes contain enzymes that convert DAB to a brown product on their own. **Treating sections with hydrogen peroxide (for example in methanol) blocks this endogenous peroxidase** before the antibodies are applied.",
+   "whyNot": {
+    "0": "Leaving out the counterstain would remove the blue nuclei, not cause brown staining of blood cells.",
+    "1": "Levamisole blocks endogenous alkaline phosphatase, which matters only for AP-based detection, not HRP–DAB.",
+    "3": "Omitting antigen retrieval weakens true staining; it does not cause brown staining in the no-primary control."
+   },
+   "ref": "Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemical techniques); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Immunohistochemistry)"
+  },
+  {
+   "id": "HL-0149",
+   "tos": "HL-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Cervical smears from a rural clinic were fixed with an alcohol spray fixative containing polyethylene glycol (Carbowax). What must be done in the laboratory before Papanicolaou staining?",
+   "options": [
+    "Heat-fix the slides by passing them through a flame",
+    "Soak the slides in 95% alcohol to dissolve the wax coat",
+    "Let the slides air-dry and stain them with Giemsa",
+    "Rinse the slides in xylene to remove the wax coat"
+   ],
+   "answer": 1,
+   "why": "The polyethylene glycol in spray fixatives leaves a protective film on the smear that blocks uptake of the stains. The **slides are soaked in 95% alcohol (or rinsed in water) for several minutes to remove the coating** before they enter the Pap staining series.",
+   "whyNot": {
+    "0": "Flame heat-fixing is used for bacteriologic smears and would destroy cell detail in a cytology smear.",
+    "2": "The smears are already alcohol-fixed for Pap staining; air-drying and Giemsa staining would change the method.",
+    "3": "Xylene is the clearing agent used at the end of the Pap sequence; the standard way to remove the coating is a soak in alcohol before staining begins."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Laboratory techniques); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Cytology)"
+  },
+  {
+   "id": "HL-0150",
+   "tos": "HL-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A large, protein-rich pleural effusion is to be sent for cytology, and fluids from this patient have formed fibrin clots before. What can be added at collection to prevent clotting?",
+   "options": [
+    "Heparin",
+    "An equal volume of 10% formalin",
+    "Normal saline",
+    "An equal volume of 95% ethanol"
+   ],
+   "answer": 0,
+   "why": "Fibrin clots trap cells and make smears and cytospins poor. A small amount of **heparin added to the collection container** prevents clotting without harming the cells.",
+   "whyNot": {
+    "1": "Formalin fixation hardens the cells and gives poor results with the Papanicolaou stain.",
+    "2": "Saline dilutes the specimen but does not stop the fibrin from clotting.",
+    "3": "Adding strong alcohol to a protein-rich fluid coagulates the protein into a dense clot that traps cells."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Effusions; Laboratory techniques)"
+  },
+  {
+   "id": "HL-0151",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Under The Bethesda System, what is the minimum number of well-preserved endocervical or squamous metaplastic cells needed to report that a transformation zone component is present?",
+   "options": [
+    "50 cells",
+    "5 cells",
+    "100 cells",
+    "10 cells"
+   ],
+   "answer": 3,
+   "why": "The Bethesda System notes a transformation zone component as present when **at least 10 well-preserved endocervical or squamous metaplastic cells** are seen, singly or in clusters. Its absence is reported as a quality indicator but does not by itself make the specimen unsatisfactory.",
+   "whyNot": {
+    "0": "Fifty cells is far above the Bethesda requirement for this component.",
+    "1": "Five cells is below the number Bethesda requires to report the transformation zone component as present.",
+    "2": "One hundred cells is not the Bethesda threshold for the transformation zone component."
+   },
+   "ref": "The Bethesda System for Reporting Cervical Cytology, 3rd ed. (2014 terminology) (Specimen adequacy)"
+  },
+  {
+   "id": "HL-0152",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A cervical smear shows mature squamous cells with enlarged, hyperchromatic, wrinkled nuclei, some binucleate, each surrounded by a sharply outlined clear perinuclear cavity. Under The Bethesda System, this is reported as:",
+   "options": [
+    "NILM",
+    "LSIL",
+    "HSIL",
+    "ASC-US"
+   ],
+   "answer": 1,
+   "why": "These are koilocytes, the cytopathic effect of HPV in mature squamous cells. Bethesda reports them as **LSIL**, which also includes mild dysplasia (CIN 1).",
+   "whyNot": {
+    "0": "NILM would ignore a definite viral cytopathic change that qualifies as an intraepithelial lesion.",
+    "2": "HSIL involves immature cells with high nuclear-to-cytoplasmic ratios, not mature koilocytes.",
+    "3": "ASC-US is used when changes are suggestive but not enough for SIL; well-formed koilocytes are definite LSIL."
+   },
+   "ref": "The Bethesda System for Reporting Cervical Cytology, 3rd ed. (2014 terminology) (Squamous cell abnormalities); Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Cervix)"
+  },
+  {
+   "id": "HL-0153",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A Pap smear from a 72-year-old woman on no hormone therapy consists almost entirely of small, round squamous cells with relatively large nuclei, and very few superficial cells. What does this maturation pattern indicate?",
+   "options": [
+    "A strong estrogen effect",
+    "A progesterone effect of pregnancy",
+    "Atrophy from lack of estrogen",
+    "Acute inflammation only"
+   ],
+   "answer": 2,
+   "why": "Without estrogen, the squamous epithelium does not mature, so parabasal cells predominate, a 'shift to the left' in the maturation index. This **atrophic pattern** is expected after menopause without hormone replacement.",
+   "whyNot": {
+    "0": "Strong estrogen effect produces mostly mature superficial cells, the opposite pattern.",
+    "1": "Progesterone effect gives mostly intermediate cells, often folded and clustered (navicular cells).",
+    "3": "Inflammation does not by itself cause a parabasal-predominant maturation pattern."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Normal female genital tract; hormonal cytology)"
+  },
+  {
+   "id": "HL-0154",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A thick, viscous sputum sample is to be spread for cytology. A small portion is placed between two slides, pressed gently, and the slides are drawn apart. What is this technique called?",
+   "options": [
+    "Touch (imprint) preparation",
+    "Cell block preparation",
+    "Pull-apart method",
+    "Cytocentrifugation"
+   ],
+   "answer": 2,
+   "why": "In the **pull-apart method**, material is pressed between two slides that are then separated in opposite directions, spreading thick or sticky specimens into two even smears. Both smears are fixed immediately while still wet.",
+   "whyNot": {
+    "0": "A touch preparation is made by pressing a cut tissue surface onto a slide, not by spreading fluid between slides.",
+    "1": "A cell block is a paraffin-embedded clot or pellet of sediment, not a smear.",
+    "3": "Cytocentrifugation concentrates cells from thin, low-cellularity fluids onto a small area."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Laboratory techniques: respiratory specimens)"
+  },
+  {
+   "id": "HL-0155",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 'sputum' specimen for lung cancer cytology contains only superficial squamous cells and oral bacteria. Which cell, if present, would show that material from the lower respiratory tract was obtained?",
+   "options": [
+    "Superficial squamous cells",
+    "Alveolar macrophages",
+    "Neutrophils",
+    "Candida yeasts"
+   ],
+   "answer": 1,
+   "why": "**Alveolar macrophages** (dust cells), often containing carbon pigment, come from the deep airways. Their absence means the sample is mostly saliva and is not adequate for evaluation.",
+   "whyNot": {
+    "0": "Superficial squamous cells come from the mouth and indicate saliva, not deep sputum.",
+    "2": "Neutrophils can come from the mouth or upper airway and do not prove a deep sample.",
+    "3": "Candida commonly comes from the mouth and does not show that material came from the lungs."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Respiratory tract: specimen adequacy)"
+  },
+  {
+   "id": "HL-0156",
+   "tos": "HL-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A vaginal smear shows squamous cells whose borders are blurred by a carpet of tiny coccobacilli, with few lactobacilli in the background. Under The Bethesda System, this is reported as:",
+   "options": [
+    "Fungal organisms consistent with Candida",
+    "Trichomonas vaginalis",
+    "Cellular changes consistent with herpes simplex virus",
+    "Shift in flora suggestive of bacterial vaginosis"
+   ],
+   "answer": 3,
+   "why": "Squamous cells covered by coccobacilli are clue cells, and loss of lactobacilli completes the picture. Bethesda reports this as a **shift in flora suggestive of bacterial vaginosis**, often associated with Gardnerella.",
+   "whyNot": {
+    "0": "Candida shows budding yeasts and pseudohyphae, not a coating of coccobacilli.",
+    "1": "Trichomonas appears as pear-shaped, gray-green organisms with eccentric nuclei, not as coccobacilli covering cells.",
+    "2": "Herpes causes multinucleation, nuclear molding and ground-glass chromatin in the infected cells."
+   },
+   "ref": "The Bethesda System for Reporting Cervical Cytology, 3rd ed. (2014 terminology) (Organisms); Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Inflammatory processes)"
+  },
+  {
+   "id": "HL-0157",
+   "tos": "HL-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a Pap-stained sputum smear, some malignant squamous cells have dense, bright orange cytoplasm caused by keratinization. Which dye in the Papanicolaou stain gives this color?",
+   "options": [
+    "Eosin Y",
+    "Orange G (OG-6)",
+    "Light green SF",
+    "Bismarck brown"
+   ],
+   "answer": 1,
+   "why": "**Orange G (OG-6)** is a small acidic dye that stains keratin bright orange, so keratinized benign or malignant squamous cells appear orange. This orangeophilia is an important clue to keratinizing squamous cell carcinoma.",
+   "whyNot": {
+    "0": "Eosin Y in the EA counterstain gives mature superficial cells, nucleoli and cilia a pink color, not keratin orange.",
+    "2": "Light green SF stains metabolically active, less mature cells blue-green.",
+    "3": "Bismarck brown contributes little to the final colors and does not produce bright orange keratin."
+   },
+   "ref": "Koss' Diagnostic Cytology and Its Histopathologic Bases, 5th ed. (Laboratory techniques: Papanicolaou stain); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Cytology)"
+  },
+  {
+   "id": "HL-0158",
+   "tos": "HL-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A cytology laboratory screens cervical smears under ultraviolet light after staining with the fluorochrome acridine orange. Cells rich in cytoplasmic RNA, such as actively dividing or malignant cells, stand out because their RNA fluoresces:",
+   "options": [
+    "Orange-red",
+    "Apple-green",
+    "Deep blue",
+    "Yellow-green"
+   ],
+   "answer": 0,
+   "why": "Acridine orange binds nucleic acids and fluoresces differently depending on how it binds: DNA in the nuclei gives yellow-green fluorescence, while **RNA gives orange-red fluorescence**. RNA-rich cells therefore glow orange-red and are easy to pick out for closer review.",
+   "whyNot": {
+    "1": "Apple-green is the birefringence of Congo red–stained amyloid under polarized light, not acridine orange fluorescence.",
+    "2": "Acridine orange does not give blue fluorescence; blue nuclear fluorescence is typical of DNA dyes such as DAPI or Hoechst.",
+    "3": "Yellow-green is the fluorescence of DNA in the nuclei, not of cytoplasmic RNA."
+   },
+   "ref": "Bruce-Gregorios, Histopathologic Techniques (Cytologic techniques: fluorescent staining); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Fluorescence microscopy)"
+  },
+  {
+   "id": "HL-0159",
+   "tos": "HL-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "At autopsy, a mass in a pulmonary artery branch is firmly attached to the vessel wall. Microscopy shows alternating pale layers of platelets and fibrin and darker layers of red cells. These alternating layers are known as:",
+   "options": [
+    "Livor mortis, marking dependent lividity",
+    "Lines of Zahn, marking an antemortem thrombus",
+    "Currant-jelly clot, marking a postmortem clot",
+    "Chicken-fat clot, marking a postmortem clot"
+   ],
+   "answer": 1,
+   "why": "Thrombi that form in flowing blood during life build up in layers, producing **lines of Zahn**, and they are attached to the vessel wall. Postmortem clots lack these laminations and are rubbery, unattached, with a dark red currant-jelly part and a yellow chicken-fat upper layer.",
+   "whyNot": {
+    "0": "Livor mortis is the purplish discoloration of dependent skin after death, not a finding inside a vessel.",
+    "2": "Currant-jelly clot is the dark red, unlaminated part of a postmortem clot formed by settled red cells.",
+    "3": "Chicken-fat clot is the yellow, plasma-rich upper part of a postmortem clot and has no alternating layers."
+   },
+   "ref": "Robbins Basic Pathology, 10th ed. (Hemodynamic disorders: thrombosis)"
+  },
+  {
+   "id": "HL-0160",
+   "tos": "HL-D.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In one classic autopsy technique, each organ is removed from the body separately, one at a time, and then examined and dissected individually. This method is credited to:",
+   "options": [
+    "Virchow",
+    "Ghon",
+    "Rokitansky",
+    "Letulle"
+   ],
+   "answer": 0,
+   "why": "In the **Virchow technique**, organs are taken out one by one and dissected individually. It is simple and fast but can make it harder to show how disease in neighboring organs is related.",
+   "whyNot": {
+    "1": "Ghon's technique removes organs in functional blocks, such as the thoracic, abdominal and urogenital blocks (en bloc).",
+    "2": "Rokitansky's technique examines organs largely by dissection in situ, within the body.",
+    "3": "Letulle's technique removes thoracic, cervical, abdominal and pelvic organs together as one mass (en masse)."
+   },
+   "ref": "Ludwig, Handbook of Autopsy Practice; Bruce-Gregorios, Histopathologic Techniques (Autopsy)"
+  },
+  {
+   "id": "HL-0161",
+   "tos": "HL-E.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In each immunohistochemistry run, a serial section of the patient tissue receives all reagents except that the primary antibody is replaced by antibody diluent or non-immune serum of the same species. What does this slide serve as?",
+   "options": [
+    "A positive control showing the antibody works",
+    "An internal control within the patient tissue",
+    "A negative reagent control showing background staining",
+    "A check on the hematoxylin counterstain"
+   ],
+   "answer": 2,
+   "why": "Leaving out the specific primary antibody shows any staining caused by the detection system, endogenous enzymes or non-specific binding. It is a **negative reagent control**, and any brown staining on it means patient staining cannot be assumed to be specific.",
+   "whyNot": {
+    "0": "A positive control is a known antigen-containing tissue stained with the primary antibody to prove the run works.",
+    "1": "An internal control is a normal structure within the same section that is expected to stain, or not stain, with the antibody.",
+    "3": "The counterstain is checked on every slide; it is not the purpose of omitting the primary antibody."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Immunohistochemistry: controls); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Immunohistochemical techniques)"
+  },
+  {
+   "id": "HL-0162",
+   "tos": "HL-E.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "An estrogen receptor stain on a breast core biopsy shows the carcinoma completely negative. The benign ducts in the same section, which normally show some positive nuclei, are also negative, while the external positive control slide stained well. What is the best interpretation?",
+   "options": [
+    "The external control has failed and the run is invalid",
+    "The negative result is unreliable; repeat on another block",
+    "The tumor is ER-negative and can be reported as such",
+    "The benign ducts prove the tumor is a triple-negative type"
+   ],
+   "answer": 1,
+   "why": "Normal breast epithelium acts as an internal positive control for ER. When **both tumor and normal ducts are negative while the external control works, the problem probably lies with that specimen (such as delayed or poor fixation), so the negative result should not be reported as reliable** and testing should be repeated on another block or specimen.",
+   "whyNot": {
+    "0": "The external control stained well, so the reagents and run are not at fault.",
+    "2": "Reporting ER-negative ignores the failed internal control and could deny the patient hormone therapy.",
+    "3": "The benign ducts are expected to contain some ER-positive nuclei; their negativity points to a technical problem, not a tumor type."
+   },
+   "ref": "ASCO/CAP Guideline for ER and PgR Testing in Breast Cancer (2020); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Immunohistochemistry)"
+  },
+  {
+   "id": "HL-0163",
+   "tos": "HL-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "At the start of the day, a shiny metallic film is seen on the surface of the Harris hematoxylin in the staining line. What should be done before staining?",
+   "options": [
+    "Dilute the hematoxylin with an equal volume of water",
+    "Filter the hematoxylin to remove the oxidized film",
+    "Heat the hematoxylin until the film dissolves",
+    "Add more acid alcohol to the hematoxylin"
+   ],
+   "answer": 1,
+   "why": "The metallic sheen is oxidized dye that forms on the surface and would otherwise be deposited on the slides as dark precipitate. The **hematoxylin should be filtered before use** (or the film skimmed off), as part of daily staining quality control.",
+   "whyNot": {
+    "0": "Diluting the stain weakens nuclear staining and does not remove the precipitate.",
+    "2": "Heating does not remove the oxidized film and may over-oxidize the hematoxylin.",
+    "3": "Acid alcohol is the differentiator and should never be added to the stain itself."
+   },
+   "ref": "Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Nuclear and cytoplasmic staining); Bancroft's Theory and Practice of Histological Techniques, 8th ed. (Hematoxylin and eosin)"
+  },
+  {
+   "id": "HL-0164",
+   "tos": "HL-E.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Which of the following activities is a form of external quality assessment for a histopathology laboratory?",
+   "options": [
+    "Recording the water bath temperature every morning",
+    "Taking part in an interlaboratory proficiency testing scheme",
+    "Performing scheduled maintenance on the tissue processor",
+    "Staining a known control section in each special stain run"
+   ],
+   "answer": 1,
+   "why": "In **proficiency testing (external quality assessment)**, an outside provider sends slides or cases that many laboratories stain or interpret, and each laboratory's results are compared with the others. The other options are internal quality control activities done within the laboratory.",
+   "whyNot": {
+    "0": "Temperature logs are internal monitoring of equipment, not external assessment.",
+    "2": "Preventive maintenance is an internal quality practice for equipment.",
+    "3": "Running a control slide with each batch is internal quality control."
+   },
+   "ref": "CLSI QMS01 (Quality management system model); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Laboratory quality)"
+  },
+  {
+   "id": "HL-0165",
+   "tos": "HL-E.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A specimen container arrives labeled with the patient's name only, while the requisition lists the name, hospital number and date of birth. What is the most appropriate action?",
+   "options": [
+    "Process it, since the name matches the requisition",
+    "Discard it and ask for a repeat biopsy",
+    "Write the hospital number on the container from the requisition",
+    "Hold the specimen and have the sender correct the labeling"
+   ],
+   "answer": 3,
+   "why": "Specimen identification requires at least two patient identifiers on both the container and the requisition. A biopsy often cannot be repeated, so the laboratory should **hold the specimen (in fixative) and have the submitting team correct the labeling following the documented procedure** before processing.",
+   "whyNot": {
+    "0": "A name alone is not enough to rule out a mix-up between patients with similar or identical names.",
+    "1": "Discarding an irreplaceable tissue specimen is never the first step when labeling can be corrected properly.",
+    "2": "Laboratory staff should not add identifiers themselves; that is how mislabeling errors are hidden rather than fixed."
+   },
+   "ref": "CAP Anatomic Pathology Checklist (specimen identification); Carson & Cappellano, Histotechnology: A Self-Instructional Text, 5th ed. (Laboratory quality)"
+  },
+  {
+   "id": "HL-0166",
+   "tos": "HL-F.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "An examinee's board ratings are: Clinical Chemistry 70, Microbiology & Parasitology 70, Hematology 72, Blood Banking & Serology 72, Clinical Microscopy 90, and Histopathologic Techniques/Cytotechnology/MT Laws & Ethics 86. Using the subject weights in Section 17 of RA 5527 (as amended by PD 498), what is the general average, and did the examinee pass under Section 19?",
+   "options": [
+    "74.4%; did not pass",
+    "76.7%; passed",
+    "74.4%; passed",
+    "76.7%; did not pass"
+   ],
+   "answer": 0,
+   "why": "Clinical Chemistry, Microbiology & Parasitology, Hematology and Blood Banking & Serology each carry 20%, while Clinical Microscopy and the histopathology/laws subject carry 10% each. Weighted average = 0.20(70 + 70 + 72 + 72) + 0.10(90 + 86) = 56.8 + 17.6 = **74.4%, which is below the 75% general average required to pass**. Having no rating below 50% does not make up for this, and the four 20% subjects, all rated below 75%, also mean the examinee failed 80% of the subjects by weight, beyond what the Section 19 proviso allows.",
+   "whyNot": {
+    "1": "76.7% is the simple (unweighted) mean of the six ratings. Section 19 uses the Section 17 weights, so high scores in the two 10% subjects count for less.",
+    "2": "Having no subject below 50% is only one of the passing conditions. The weighted general average must also reach 75%.",
+    "3": "76.7% comes from the unweighted mean, which is the wrong way to compute the general average, so the figure itself is wrong."
+   },
+   "ref": "RA 5527 Secs. 17 and 19 (Sec. 17 as amended by PD 498, 1974)",
+   "worked": {
+    "problem": "Ratings: Clinical Chemistry 78, Microbiology & Parasitology 80, Hematology 76, Blood Banking & Serology 74, Clinical Microscopy 65, Histopathologic Techniques/Laws & Ethics 70. What is the weighted general average, and does the examinee pass?",
+    "steps": [
+     "20% subjects: 78 + 80 + 76 + 74 = 308; 308 × 0.20 = 61.6",
+     "10% subjects: 65 + 70 = 135; 135 × 0.10 = 13.5",
+     "General average = 61.6 + 13.5 = 75.1",
+     "No subject is below 50%.",
+     "Subjects below 75% (Blood Banking & Serology 20%, Clinical Microscopy 10%, Histopathologic Techniques/Laws 10%) total 40% of the weights, under the 60% limit in the Section 19 proviso."
+    ],
+    "result": "75.1%: passes (average at least 75%, no subject below 50%, failed subjects under 60% by weight)"
+   }
+  },
+  {
+   "id": "HL-0167",
+   "tos": "HL-F.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "To keep up with molecular diagnostics, the Board of Medical Technology wants to add a new subject area to the licensure examination. Under Section 17 of RA 5527 as amended by PD 498, what is required before the change can apply to an examination?",
+   "options": [
+    "An amendment of RA 5527 by Congress, since the law fixes the exam subjects",
+    "A majority vote of the members of the accredited professional organization",
+    "Prior PRC approval, and publication of the change at least three months before the exam",
+    "Publication of the change at least 30 days before the exam, with no further approval"
+   ],
+   "answer": 2,
+   "why": "PD 498 lets the Board change, add to, or remove subjects from the examination as the science of medical technology advances. It may do so only with **prior approval of the Professional Regulation Commission and publication of the change at least three months before the examination**. This gives examinees fair notice of what will be tested.",
+   "whyNot": {
+    "0": "No new act of Congress is needed. Section 17 itself already gives the Board authority to revise the subjects.",
+    "1": "The professional organization has no approving role over examination subjects under Section 17.",
+    "3": "Thirty days is the notice period for announcing the examination itself (Section 15). Subject changes need PRC approval and three months' publication."
+   },
+   "ref": "RA 5527 Sec. 17, as amended by PD 498 (1974)"
+  },
+  {
+   "id": "HL-0168",
+   "tos": "HL-F.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Under Section 15 of RA 5527, how must the Secretary of the Board give notice of an upcoming medical technology licensure examination?",
+   "options": [
+    "Publication in one national newspaper, 10 or more days before the exam",
+    "Publication in at least three national newspapers, 30 or more days before the exam",
+    "Posting in every school of medical technology, 7 or more days before the exam",
+    "Registered mail to each applicant, 60 or more days before the exam"
+   ],
+   "answer": 1,
+   "why": "Section 15 requires the Secretary of the Board to publish **written notice in at least three newspapers of national circulation at least thirty days before the examination**. This gives applicants nationwide enough time to prepare and file.",
+   "whyNot": {
+    "0": "One newspaper and 10 days fall short of both the number of newspapers and the lead time the law requires.",
+    "2": "The law requires publication in national newspapers, not posting in schools, and a 30-day lead time.",
+    "3": "Section 15 does not require individual mailed notices. It requires newspaper publication at least 30 days ahead."
+   },
+   "ref": "RA 5527 Sec. 15"
+  },
+  {
+   "id": "HL-0169",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A newly successful board examinee wants to start working as a medical technologist as soon as the results are released. Under Section 20 of RA 5527, what must she do before entering practice?",
+   "options": [
+    "Complete a one-year probationary period under a pathologist",
+    "Join the accredited professional organization of medical technologists",
+    "Pass a separate practical examination given by the employing hospital",
+    "Take a professional oath before the Board or a person authorized to administer oaths"
+   ],
+   "answer": 3,
+   "why": "Section 20 requires every successful examinee to **take a professional oath before the Board or before any person authorized to administer oaths** before entering the practice of medical technology. The oath is a legal precondition to practice, alongside registration under Section 21.",
+   "whyNot": {
+    "0": "RA 5527 has no post-examination probationary period. Supervision by a pathologist is part of practice, not a step before it.",
+    "1": "Membership in a professional organization is not what Section 20 requires before practice.",
+    "2": "Employers may test applicants, but the law does not require a second examination before a successful examinee can practice."
+   },
+   "ref": "RA 5527 Sec. 20"
+  },
+  {
+   "id": "HL-0170",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A hospital HR officer wants to confirm that a job applicant is a registered medical technologist. Under Section 28 of RA 5527, which record is prepared for this kind of public checking?",
+   "options": [
+    "The yearly roster of medical technologists kept by the Board",
+    "The applicant's official transcript of records from her school",
+    "The membership list of the national professional organization",
+    "The credentials file kept by the applicant's previous employer"
+   ],
+   "answer": 0,
+   "why": "Section 28 requires the Secretary of the Board to prepare a roster every year listing each registered medical technologist's name, address, citizenship, date of registration and other pertinent data. **The roster is open to public inspection**, and copies go to government offices on request.",
+   "whyNot": {
+    "1": "A transcript shows that she graduated, not that she passed the board and is registered.",
+    "2": "Membership in a professional organization is separate from registration with the Board.",
+    "3": "A previous employer's file is not an official registration record and may be outdated or incomplete."
+   },
+   "ref": "RA 5527 Sec. 28"
+  },
+  {
+   "id": "HL-0171",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A foreign medical technologist applies to take the Philippine medical technology licensure examination. Under Section 27 of RA 5527, on what condition may she be admitted?",
+   "options": [
+    "She has worked for at least five years in a Philippine hospital laboratory",
+    "She is married to a Filipino citizen and has lived in the Philippines for five years",
+    "Her country allows Filipino medical technologists to practice there on equal terms",
+    "She passes an English proficiency test administered by the Professional Regulation Commission"
+   ],
+   "answer": 2,
+   "why": "Section 27 sets a rule of **reciprocity**. No foreigner may be admitted to the examination, registered, or given practice rights unless his or her country allows Filipino medical technologists to practice there on the same basis as its own citizens.",
+   "whyNot": {
+    "0": "Prior local work experience is not the test under Section 27, and practicing without registration would itself be unlawful.",
+    "1": "Marriage to a Filipino does not satisfy the reciprocity requirement in Section 27.",
+    "3": "RA 5527 has no language-test condition for foreigners. The deciding factor is reciprocity."
+   },
+   "ref": "RA 5527 Sec. 27"
+  },
+  {
+   "id": "HL-0172",
+   "tos": "HL-F.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Twelve months have passed since a medical technologist began serving a one-year Board suspension. Under Section 26 of RA 5527, where does that leave her registration?",
+   "options": [
+    "She must retake and pass the board examination before practicing again",
+    "The suspension ends automatically, and the certificate is reissued to her on request",
+    "She must wait another year and then petition the Board for reinstatement",
+    "The suspension becomes permanent unless the PRC Chairperson lifts it"
+   ],
+   "answer": 1,
+   "why": "Under Section 26, **a suspension terminates automatically when the suspension period expires**, and the certificate is reissued to the technologist on request. The Board may still act on any violation committed during the suspension. A revoked certificate is different: it is reissued only if the Board finds the application meritorious.",
+   "whyNot": {
+    "0": "Re-examination is not required after a suspension ends. She remains registered.",
+    "2": "No extra waiting period or petition is needed, because the suspension ends on its own.",
+    "3": "A suspension cannot become permanent by default. The law limits it to a fixed period of at most two years."
+   },
+   "ref": "RA 5527 Sec. 26 (see also Sec. 24)"
+  },
+  {
+   "id": "HL-0173",
+   "tos": "HL-F.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A hospital laboratory assigns a duly registered medical laboratory technician (MLT) to do tissue processing, embedding and section cutting. Under Section 2 of RA 5527 as amended by PD 498, is this allowed?",
+   "options": [
+    "No; histopathologic techniques may be done only by registered medical technologists",
+    "No; only a pathologist may perform any step of tissue processing",
+    "Yes, but only if the MLT has passed a separate PRC histotechnology examination",
+    "Yes; the law expressly does not bar a registered MLT from histopathologic techniques"
+   ],
+   "answer": 3,
+   "why": "PD 498 lists histopathologic techniques and cytotechnology among the procedures that make up the practice of medical technology. It then adds a proviso that **nothing in that paragraph prevents a duly registered medical laboratory technician from performing histopathologic techniques**. The MLT still works as an assistant to the medical technologist, as Section 2(d) defines the role.",
+   "whyNot": {
+    "0": "This ignores the PD 498 proviso that specifically keeps histopathologic techniques open to registered MLTs.",
+    "1": "Pathologists interpret tissue and supervise, but the law does not reserve the technical steps of tissue processing to them.",
+    "2": "RA 5527 has no separate histotechnology examination. The MLT's registration is enough under the proviso."
+   },
+   "ref": "RA 5527 Sec. 2(a)(4) and 2(d), as amended by PD 498 (1974)"
+  },
+  {
+   "id": "HL-0174",
+   "tos": "HL-F.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "The Board's ruling against a medical technologist is now final and executory. Under Section 24 of RA 5527, by when must she hand in her certificate, and what is the consequence of an unjustified failure to do so?",
+   "options": [
+    "Within 30 days after the decision becomes final; otherwise, perpetual disqualification from practice",
+    "Within 30 days after the decision becomes final; otherwise, the suspension period is doubled",
+    "Within 90 days after the hearing ends; otherwise, perpetual disqualification from practice",
+    "Within 90 days after the hearing ends; otherwise, a fine of ₱2,000–₱5,000"
+   ],
+   "answer": 0,
+   "why": "Section 24 requires a suspended or revoked medical technologist to surrender the certificate within 30 days after the decision becomes final. Failure to do so without satisfactory reason means **perpetual disqualification from the practice of medical technology in the Philippines**. The suspension period runs only from the date of surrender, so keeping the certificate gains nothing.",
+   "whyNot": {
+    "1": "The 30-day period is correct, but the law does not double the suspension. The consequence is perpetual disqualification.",
+    "2": "The penalty is right, but the period is counted as 30 days from the date the decision becomes final, not 90 days from the hearing.",
+    "3": "Both the period and the consequence are wrong. The ₱2,000–₱5,000 fine is the criminal penalty under Section 29, not the sanction for failing to surrender."
+   },
+   "ref": "RA 5527 Sec. 24"
+  },
+  {
+   "id": "HL-0175",
+   "tos": "HL-F.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The owner of a private clinical laboratory hires a BS Medical Technology graduate who has not yet passed the board examination and lets him perform and release laboratory tests. Under Section 29 of RA 5527 as amended by PD 498, who may be penalized?",
+   "options": [
+    "Only the graduate, since the owner did not personally perform the tests",
+    "Only the owner, since a graduate cannot be liable before registration",
+    "Both the unregistered graduate and the owner who allowed him to practice",
+    "Neither, because graduates awaiting the board exam are exempt"
+   ],
+   "answer": 2,
+   "why": "Section 29 penalizes anyone who practices medical technology without a certificate of registration. PD 498 amended item (j) to also penalize anyone who **allows an unregistered person in his employ to engage in the practice of medical technology**. The penalty is a fine of ₱2,000–₱5,000, imprisonment of 6 months to 2 years, or both.",
+   "whyNot": {
+    "0": "PD 498 specifically made the employer who allows unregistered practice liable as well.",
+    "1": "Practicing without registration is itself a violation, so the graduate is also liable.",
+    "3": "Section 14 exempts only specific groups, such as registered physicians and certain visiting foreign professionals. Graduates awaiting the board exam are not among them."
+   },
+   "ref": "RA 5527 Sec. 29, as amended by PD 498 (1974); Sec. 14"
+  },
+  {
+   "id": "HL-0176",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The Philippine HIV and AIDS Policy Act (RA 11166) generally prohibits compulsory HIV testing. In which situation does the law allow HIV testing without the person's consent?",
+   "options": [
+    "As a pre-employment requirement of a private company",
+    "Screening of blood or organs offered for donation",
+    "As a requirement for admission to a college or university",
+    "Routine screening of all patients on hospital admission"
+   ],
+   "answer": 1,
+   "why": "Section 30 of RA 11166 bans compulsory HIV testing except in a few cases: persons charged with certain crimes involving physical injuries or sexual offenses, determining HIV status to resolve certain issues under the Family Code, and **screening of donated blood, organs and tissues under RA 7170 and RA 7719**. Every other HIV test needs informed consent.",
+   "whyNot": {
+    "0": "Requiring an HIV test as a condition of employment is compulsory testing, which the law prohibits.",
+    "2": "School admission is not an exception. Requiring HIV testing for enrollment is prohibited compulsory testing.",
+    "3": "Hospital admission is not an exception. Patients must still give informed consent to an HIV test."
+   },
+   "ref": "RA 11166 Sec. 30 (see also Sec. 29)"
+  },
+  {
+   "id": "HL-0177",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Section 36 of RA 9165 separates groups that must be tested from groups tested by random selection. Which of these groups falls under random selection?",
+   "options": [
+    "People applying for a new or renewed driver's license",
+    "People seeking a permit to own or carry a gun",
+    "Uniformed personnel of the PNP and the AFP",
+    "High school and college students"
+   ],
+   "answer": 3,
+   "why": "Section 36 provides **random drug testing for students of secondary and tertiary schools**, done according to the school's student handbook, with notice to parents and at government expense. Officers and employees of public and private offices are also tested at random. License applicants and members of the military, police and other law enforcement agencies undergo mandatory testing.",
+   "whyNot": {
+    "0": "Driver's license applicants undergo mandatory testing and must present a drug test certificate before a license is issued or renewed.",
+    "1": "Firearms license applicants undergo mandatory testing before a license or permit is issued.",
+    "2": "Members of the military, police and other law enforcement agencies undergo mandatory annual drug testing."
+   },
+   "ref": "RA 9165 Sec. 36"
+  },
+  {
+   "id": "HL-0178",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A job applicant's urine drug screen at an accredited screening laboratory is positive for methamphetamine. Under Section 36 of RA 9165, what must happen before the result is treated as a positive drug test?",
+   "options": [
+    "A confirmatory test must confirm the positive screening result",
+    "The same screening test must be repeated twice more on the specimen",
+    "The applicant must sign a written admission of drug use",
+    "A physician must examine the applicant for signs of intoxication"
+   ],
+   "answer": 0,
+   "why": "Section 36 states that drug testing uses two methods: a screening test, and **a confirmatory test that confirms a positive screening test**. The confirmatory test is done by a government forensic laboratory or a DOH-accredited confirmatory laboratory, typically using GC-MS. A screen alone is not a final positive.",
+   "whyNot": {
+    "1": "Repeating the same screening method does not confirm the result. A different, more specific confirmatory method is required.",
+    "2": "An admission is not part of the testing process the law prescribes.",
+    "3": "A clinical examination cannot replace the confirmatory laboratory test that the law requires."
+   },
+   "ref": "RA 9165 Sec. 36 (see also Sec. 38)"
+  },
+  {
+   "id": "HL-0179",
+   "tos": "HL-G.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A baby born at 30 weeks is admitted to the neonatal ICU right after delivery and is too unstable for routine procedures during her first three days. Under the Newborn Screening Act of 2004 (RA 9288), what applies to her newborn screening?",
+   "options": [
+    "Screening is skipped and done only if symptoms appear later",
+    "Screening must still be done within 3 days, regardless of her condition",
+    "She may be exempted from the 3-day limit, but must be screened by 7 days of age",
+    "Screening is postponed until she is discharged from the NICU, however long that takes"
+   ],
+   "answer": 2,
+   "why": "Section 6 sets screening after 24 hours of life but not later than three days from complete delivery. However, **a newborn placed in intensive care to ensure survival may be exempted from the 3-day requirement but must be screened by 7 days of age**. Parents and the attending practitioner share responsibility for getting it done.",
+   "whyNot": {
+    "0": "Screening is meant to find heritable conditions before symptoms appear. Skipping it defeats the purpose of the Act.",
+    "1": "The law expressly allows an exception to the 3-day limit for infants in intensive care.",
+    "3": "The exception is limited. Even an infant in intensive care must be screened by 7 days of age."
+   },
+   "ref": "RA 9288 Sec. 6"
+  },
+  {
+   "id": "HL-0180",
+   "tos": "HL-G.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient notices that her laboratory report shows the wrong birth date. She asks the laboratory to fix it in its information system and to let her physician, who already received the report, know about the fix. Under the Data Privacy Act of 2012 (RA 10173), which right is she exercising?",
+   "options": [
+    "Right to data portability",
+    "Right to dispute inaccuracy and have the data corrected",
+    "Right to be informed before her data are processed",
+    "Right to be indemnified for damages"
+   ],
+   "answer": 1,
+   "why": "Section 16(d) gives the data subject the **right to dispute an inaccuracy or error in her personal information and have the controller correct it**. On her reasonable request, third parties who already received the data, such as her physician, must be told of the inaccuracy and the correction.",
+   "whyNot": {
+    "0": "Data portability (Section 18) means getting a copy of her electronically processed data in a structured format, not correcting it.",
+    "2": "The right to be informed concerns being told the purpose and scope of processing before or when data are collected.",
+    "3": "Indemnification is compensation for damages from inaccurate or unauthorized use of data, which she is not seeking here."
+   },
+   "ref": "RA 10173 Sec. 16(d) (see also Sec. 18)"
+  },
+  {
+   "id": "HL-0181",
+   "tos": "HL-G.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Under Section 12 of the National Blood Services Act of 1994 (RA 7719), a blood bank head, and the trained staff under his direct supervision, who dispense or transfuse blood proven contaminated with a transfusion-transmissible disease, or who fail to dispose of it within a set period, face 10 years' imprisonment. What is that disposal period?",
+   "options": [
+    "24 hours",
+    "48 hours",
+    "72 hours",
+    "7 days"
+   ],
+   "answer": 1,
+   "why": "Section 12 penalizes with 10 years' imprisonment the blood bank head and trained staff under his direct supervision who are responsible for dispensing, transfusing, or **failing to dispose of within 48 hours** blood proven contaminated with transfusion-transmissible disease. This is without prejudice to liability under the Revised Penal Code.",
+   "whyNot": {
+    "0": "Twenty-four hours is shorter than the period stated in Section 12.",
+    "2": "Seventy-two hours is longer than the 48 hours the law allows.",
+    "3": "Seven days is far beyond the 48-hour limit set by Section 12."
+   },
+   "ref": "RA 7719 Sec. 12"
+  },
+  {
+   "id": "HL-0182",
+   "tos": "HL-G.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A 17-year-old student of sound mind wants to sign a donor card leaving her kidneys for transplantation after her death. Under Section 3 of the Organ Donation Act of 1991 (RA 7170), can she make this legacy on her own?",
+   "options": [
+    "Yes; any person of sound mind may make a legacy, whatever her age",
+    "Yes; the minimum age is 15 years for a person of sound mind",
+    "No; the person must be at least 21 years old and of sound mind",
+    "No; the person must be at least 18 years old and of sound mind"
+   ],
+   "answer": 3,
+   "why": "Section 3 allows **any individual at least 18 years of age and of sound mind** to give all or part of his or her body by legacy, effective after death. At 17 she does not yet qualify, but she may execute the legacy once she turns 18, for example by a signed donor card (Section 8).",
+   "whyNot": {
+    "0": "The law sets a minimum age, so being of sound mind alone is not enough.",
+    "1": "Fifteen is not the age set by RA 7170. Ages 15 to 17 appear in RA 11166 for consenting to HIV testing, not here.",
+    "2": "Twenty-one is too high. It is the minimum age for a medical technologist's certificate of registration under RA 5527."
+   },
+   "ref": "RA 7170 Sec. 3 (amended by RA 7885 only in Secs. 9–10)"
+  },
+  {
+   "id": "HL-0183",
+   "tos": "HL-G.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A medical technologist attends a two-day hospital-sponsored training course on a new analyzer. The course was never accredited by the CPD Council, but she later applies to have it credited. Under RA 10912, this kind of activity is classified as:",
+   "options": [
+    "Formal learning",
+    "Informal learning",
+    "An accredited CPD program",
+    "Self-directed learning"
+   ],
+   "answer": 3,
+   "why": "Section 3(w) of RA 10912 defines **self-directed learning** as activities such as online training, local or international seminars or non-degree courses, and institution- or company-sponsored training that did not undergo CPD accreditation, but for which CPD units may be applied for and awarded.",
+   "whyNot": {
+    "0": "Formal learning refers to curricular programs in recognized education and training institutions that lead to diplomas and qualifications.",
+    "1": "Informal learning is learning that happens in daily life and is later assessed, recognized and validated. It is not a structured course.",
+    "2": "An accredited CPD program is a set of learning activities already accredited by the CPD Council, which this course was not."
+   },
+   "ref": "RA 10912 Sec. 3(w); compare Sec. 3(i), (k), (l)"
+  },
+  {
+   "id": "HL-0184",
+   "tos": "HL-G.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "When renewing her professional ID, a medical technologist submits a fake certificate of attendance to claim CPD units for a seminar she never attended. Under Section 16 of RA 10912, what may she face?",
+   "options": [
+    "Prosecution under the Revised Penal Code and other laws, plus suspension or revocation of her registration",
+    "Only a written reprimand from the CPD Council, since CPD matters are purely administrative",
+    "Forfeiture of the falsely claimed units, with no other sanction",
+    "A fixed fine of ₱5,000 payable to the CPD provider named on the certificate"
+   ],
+   "answer": 0,
+   "why": "Section 16 makes fraudulent acts related to CPD punishable under the Revised Penal Code, the New Civil Code and other applicable laws. On top of these, a guilty professional faces **suspension or revocation of the PRC certificate of registration** and/or certificate of specialization.",
+   "whyNot": {
+    "1": "CPD fraud is not purely administrative. The Act refers it to penal and civil laws as well.",
+    "2": "Losing the false units is not the only consequence. Registration itself may be suspended or revoked.",
+    "3": "RA 10912 sets no fixed fine payable to a provider. Penalties come from existing laws plus action against the registration."
+   },
+   "ref": "RA 10912 Sec. 16"
+  },
+  {
+   "id": "HL-0185",
+   "tos": "HL-G.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Under the PRC Modernization Act of 2000 (RA 8981), what is the term of office of the PRC Chairperson and the two Commissioners?",
+   "options": [
+    "3 years, renewable once",
+    "5 years, renewable once",
+    "7 years, without reappointment",
+    "Until age 65, with no fixed term"
+   ],
+   "answer": 2,
+   "why": "Section 5 of RA 8981 fixes the term of the Chairperson and Commissioners at **seven years without reappointment**. A person appointed to fill a vacancy serves only the unexpired term.",
+   "whyNot": {
+    "0": "Three years is the term of members of the Board of Medical Technology under RA 5527, not of the Commission.",
+    "1": "Five years appears in RA 8981 only as the minimum executive or management experience required of appointees, not as the term.",
+    "3": "The Commission's members serve a fixed seven-year term, not until a retirement age."
+   },
+   "ref": "RA 8981 Secs. 4–5"
+  },
+  {
+   "id": "HL-0186",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient asks why she must have her blood drawn again. The real reason is that the laboratory mislabeled her first sample. Instead of blaming a 'machine problem,' the medical technologist tells her the truth and apologizes. Which ethical principle does this most directly show?",
+   "options": [
+    "Veracity",
+    "Justice",
+    "Fidelity",
+    "Autonomy"
+   ],
+   "answer": 0,
+   "why": "**Veracity** is the duty to tell the truth and not to deceive patients. Honest disclosure of an error, even an embarrassing one, maintains the trust that the professional-patient relationship depends on.",
+   "whyNot": {
+    "1": "Justice is about fair distribution of benefits and burdens and equal treatment, not truthful disclosure.",
+    "2": "Fidelity is about keeping promises and loyalty to commitments. Here the key act is not deceiving the patient.",
+    "3": "Autonomy is respect for the patient's own informed decisions. The central act here is honesty, though honesty does support autonomy."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics (Veracity)"
+  },
+  {
+   "id": "HL-0187",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A mentally competent adult has asked to be told her biopsy result. Her physician decides not to tell her that it shows cancer, because he believes the news would harm her. Overriding a competent person's known wishes for that person's own supposed good is called:",
+   "options": [
+    "Respect for autonomy",
+    "Veracity",
+    "Distributive justice",
+    "Paternalism"
+   ],
+   "answer": 3,
+   "why": "Paternalism is the intentional overriding of a person's known preferences or actions, justified by the aim of benefiting that person or preventing harm to them. It sets **beneficence in conflict with respect for autonomy**. For a competent adult who has asked to know, withholding the result is hard to justify.",
+   "whyNot": {
+    "0": "Respect for autonomy would mean honoring her request to know the result, which is the opposite of what the physician did.",
+    "1": "Veracity, the duty to tell the truth, is what the physician is setting aside, not what he is applying.",
+    "2": "Distributive justice concerns the fair allocation of resources among people, not one patient's access to her own results."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics (Beneficence: paternalism)"
+  },
+  {
+   "id": "HL-0188",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A terminally ill patient in severe pain receives high-dose opioids intended only to relieve the pain, although the physician foresees that the drug may depress breathing and hasten death. Which principle is classically used to justify this?",
+   "options": [
+    "Principle of totality",
+    "Rule of double effect",
+    "Distributive justice",
+    "Respect for autonomy"
+   ],
+   "answer": 1,
+   "why": "The **rule of double effect** permits an act with a good and a bad effect if the act itself is not wrong, only the good effect is intended, the bad effect is not the means to the good effect, and there is a proportionate reason. Pain relief is intended. Respiratory depression is foreseen but not intended, and it is not how the pain is relieved.",
+   "whyNot": {
+    "0": "The principle of totality justifies sacrificing a part of the body, as in amputation, for the good of the whole person. It does not deal with foreseen side effects.",
+    "2": "Distributive justice is about fair allocation of resources among patients, not about weighing the effects of one treatment.",
+    "3": "Patient consent matters, but autonomy alone does not explain why a foreseen harmful side effect can be acceptable."
+   },
+   "ref": "Beauchamp & Childress, Principles of Biomedical Ethics (Nonmaleficence: rule of double effect)"
+  },
+  {
+   "id": "HL-0189",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A medical technologist who works full time in a hospital laboratory is offered a weekend job at a private clinic. Under the Code of Ethics for medical technologists, when may she accept a second employer?",
+   "options": [
+    "Never; a medical technologist may serve only one employer at a time",
+    "Only after the PRC issues a special permit for dual employment",
+    "Only when there is no conflict of interest between the two jobs",
+    "Anytime, since work outside regular hours is not covered by the code"
+   ],
+   "answer": 2,
+   "why": "The medical technologists' code of ethics allows a medical technologist to **accept employment from more than one employer only when there is no conflict of interest**. For example, a second job should not compete with, or compromise her duties and confidentiality obligations to, the first employer.",
+   "whyNot": {
+    "0": "The code does not forbid multiple employment outright. It conditions it on the absence of conflict of interest.",
+    "1": "No special PRC permit for dual employment exists. A valid registration already allows her to practice.",
+    "3": "The code's obligations apply to all professional work, not only to work done during regular hours."
+   },
+   "ref": "PAMET Code of Ethics for Medical Technologists (1997); PRBMT Resolution No. 72, s. 2022 (Code of Ethics of the Medical Technology Profession)"
+  },
+  {
+   "id": "HL-0190",
+   "tos": "HL-H.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A medical technologist notices that a coworker keeps releasing patient glucose results on days when the controls failed and were never rerun. According to the medical technologists' Code of Ethics, what should she do?",
+   "options": [
+    "Report the infraction to the proper authority, such as the laboratory head or ethics committee",
+    "Post an anonymous warning about the laboratory on social media",
+    "Say nothing, since criticizing a colleague goes against professional courtesy",
+    "Quietly rerun and replace the coworker's results without telling anyone"
+   ],
+   "answer": 0,
+   "why": "The code commits medical technologists to **report infractions of professional conduct to the authorities responsible**, while keeping criticism of others within constructive limits. Releasing results after failed QC endangers patients, so silence is not an option.",
+   "whyNot": {
+    "1": "Public posting bypasses proper channels, can breach confidentiality, and goes beyond constructive criticism.",
+    "2": "Professional courtesy does not override the duty to report conduct that puts patients at risk.",
+    "3": "Secretly changing results hides the problem, leaves the cause uncorrected, and is itself improper documentation."
+   },
+   "ref": "PAMET Code of Ethics for Medical Technologists (1997); PRBMT Resolution No. 72, s. 2022 (Code of Ethics of the Medical Technology Profession), Art. III Sec. 4"
+  },
+  {
+   "id": "HL-0191",
+   "tos": "HL-I.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A laboratory is pricing a new test. Fixed costs for it (instrument lease and allocated salaries) are ₱180,000 per month. Reagents and supplies cost ₱150 per test, and the laboratory will charge ₱450 per test. How many tests per month must it perform to break even?",
+   "options": [
+    "400 tests",
+    "600 tests",
+    "1,200 tests",
+    "300 tests"
+   ],
+   "answer": 1,
+   "why": "Break-even volume = fixed costs ÷ (price − variable cost per test) = 180,000 ÷ (450 − 150) = **600 tests per month**. Each test contributes ₱300 toward the fixed costs, and 600 × ₱300 covers the ₱180,000.",
+   "whyNot": {
+    "0": "400 tests (180,000 ÷ 450) ignores the ₱150 variable cost that each test uses up.",
+    "2": "1,200 tests (180,000 ÷ 150) divides by the variable cost instead of by the contribution margin.",
+    "3": "300 tests (180,000 ÷ 600) wrongly adds the variable cost to the price instead of subtracting it."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Financial management: break-even analysis)",
+   "worked": {
+    "problem": "Fixed costs are ₱120,000 per month, the price is ₱350 per test, and the variable cost is ₱110 per test. What is the break-even volume?",
+    "steps": [
+     "Contribution margin = 350 − 110 = ₱240 per test",
+     "Break-even volume = 120,000 ÷ 240",
+     "= 500 tests"
+    ],
+    "result": "500 tests per month"
+   }
+  },
+  {
+   "id": "HL-0192",
+   "tos": "HL-I.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A laboratory uses an average of 25 blood culture bottles per day. The supplier's lead time is 6 days, and the laboratory keeps a safety stock of 50 bottles. At what stock level should a new order be placed?",
+   "options": [
+    "75 bottles",
+    "150 bottles",
+    "200 bottles",
+    "300 bottles"
+   ],
+   "answer": 2,
+   "why": "Reorder point = (average daily usage × lead time) + safety stock = (25 × 6) + 50 = **200 bottles**. Ordering at this level covers use during the 6-day wait and still leaves the safety stock as a buffer against delays or surges.",
+   "whyNot": {
+    "0": "75 bottles is one day's use plus the safety stock, which runs out long before a 6-day delivery arrives.",
+    "1": "150 bottles covers use during the lead time but leaves out the 50-bottle safety stock.",
+    "3": "300 bottles counts the lead-time demand twice (25 × 6 × 2), which ties up money and storage space."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Inventory management); CLSI QMS01",
+   "worked": {
+    "problem": "A section uses 12 reagent cartridges per day. Lead time is 10 days and safety stock is 30 cartridges. What is the reorder point?",
+    "steps": [
+     "Lead-time demand = 12 × 10 = 120 cartridges",
+     "Reorder point = 120 + 30",
+     "= 150 cartridges"
+    ],
+    "result": "Reorder at 150 cartridges"
+   }
+  },
+  {
+   "id": "HL-0193",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist receives new reagent kits that expire in 10 months. The shelf still holds kits of the same reagent that expire in 3 months. How should the stock be used?",
+   "options": [
+    "Use the new kits first, because fresher reagents are more reliable",
+    "Open one kit from each lot at the same time for comparison",
+    "Discard the older kits now that the new shipment has arrived",
+    "Use the 3-month kits first, then the new kits, by expiry date"
+   ],
+   "answer": 3,
+   "why": "Stock is rotated so that **the lots expiring soonest are used first** (first-expired, first-out, closely related to FIFO). The new kits are placed behind the older ones. This prevents reagents from expiring unused on the shelf.",
+   "whyNot": {
+    "0": "Using new kits first lets the older, still-valid kits expire and be wasted.",
+    "1": "Opening several lots at once shortens their open-vial stability and does not solve the rotation problem.",
+    "2": "The older kits are still within their expiry date. Discarding them wastes money."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Inventory management); CLSI QMS01 (Purchasing and inventory)"
+  },
+  {
+   "id": "HL-0194",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory tallied 600 rejected specimens over three months by reason: hemolysis, clotting, mislabeling, insufficient volume and wrong tube. The manager wants to see which few reasons account for most rejections so that improvement efforts can be focused. Which quality tool is designed for this?",
+   "options": [
+    "Pareto chart",
+    "Levey-Jennings chart",
+    "Gantt chart",
+    "Cause-and-effect (fishbone) diagram"
+   ],
+   "answer": 0,
+   "why": "A **Pareto chart** shows categories as bars in descending order of frequency, with a cumulative-percentage line, so the 'vital few' causes behind most of the problem stand out (the 80/20 rule).",
+   "whyNot": {
+    "1": "A Levey-Jennings chart plots control results over time to monitor analytical QC, not to rank problem categories.",
+    "2": "A Gantt chart schedules project tasks over time.",
+    "3": "A fishbone diagram brainstorms the possible causes of one problem but does not rank causes by how often they occur."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Quality management tools); CLSI QMS01"
+  },
+  {
+   "id": "HL-0195",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A hospital laboratory wants international accreditation that covers both its quality management system and the technical competence of its clinical testing. Which standard is written specifically for this?",
+   "options": [
+    "ISO 9001",
+    "ISO/IEC 17025",
+    "ISO 15189",
+    "ISO 14001"
+   ],
+   "answer": 2,
+   "why": "**ISO 15189** sets requirements for quality and competence in medical laboratories. It combines quality management system requirements with technical requirements specific to clinical testing, across the pre-examination, examination and post-examination phases.",
+   "whyNot": {
+    "0": "ISO 9001 is a general quality management standard for any organization. It certifies the system but not technical testing competence.",
+    "1": "ISO/IEC 17025 covers testing and calibration laboratories in general. ISO 15189 is the version tailored to medical laboratories.",
+    "3": "ISO 14001 deals with environmental management systems."
+   },
+   "ref": "ISO 15189:2022, Medical laboratories — Requirements for quality and competence; Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Quality management)"
+  },
+  {
+   "id": "HL-0196",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After a salary increase and a renovated break room, the medical technologists in a laboratory say they are no longer dissatisfied, yet they feel no more driven to excel than before. In Herzberg's two-factor theory, salary and working conditions are:",
+   "options": [
+    "Motivators",
+    "Hygiene (maintenance) factors",
+    "Self-actualization needs",
+    "Theory Y assumptions"
+   ],
+   "answer": 1,
+   "why": "In Herzberg's theory, hygiene factors such as pay, working conditions, policies, supervision and coworker relations **prevent dissatisfaction when adequate but do not by themselves motivate**. Motivators such as achievement, recognition, responsibility and growth are what raise motivation.",
+   "whyNot": {
+    "0": "Motivators are intrinsic to the work, such as achievement and recognition, not pay or surroundings.",
+    "2": "Self-actualization is the top level of Maslow's hierarchy, not a Herzberg category.",
+    "3": "Theory Y is McGregor's view of workers as self-motivated. It does not classify job factors."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Human resource management: motivation theories)"
+  },
+  {
+   "id": "HL-0197",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "During annual appraisals, a supervisor gives one medical technologist top marks in every category, including punctuality and documentation, mainly because she is outstanding at troubleshooting analyzers. This rating error is called:",
+   "options": [
+    "Central tendency error",
+    "Recency effect",
+    "Halo effect",
+    "Contrast effect"
+   ],
+   "answer": 2,
+   "why": "The **halo effect** occurs when one strong positive trait colors the rater's judgment of all other, unrelated performance areas. Rating each criterion separately against written standards and documented examples helps prevent it.",
+   "whyNot": {
+    "0": "Central tendency error means rating everyone near the middle of the scale, avoiding high and low scores.",
+    "1": "Recency effect means letting the most recent events dominate the appraisal of the whole rating period.",
+    "3": "Contrast effect means rating an employee against the coworker evaluated just before, instead of against the standards."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Human resource management: performance appraisal)"
+  },
+  {
+   "id": "HL-0198",
+   "tos": "HL-I.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A laboratory Six Sigma team working on long emergency-room turnaround times has already defined the problem and collected baseline turnaround data. The team now uses a fishbone diagram and breaks down the data by shift to find the root causes of the delays. Which DMAIC phase is this?",
+   "options": [
+    "Define",
+    "Measure",
+    "Analyze",
+    "Improve"
+   ],
+   "answer": 2,
+   "why": "DMAIC stands for Define, Measure, Analyze, Improve and Control. **Finding root causes from the baseline data is the Analyze phase**. Solutions are then piloted in Improve and sustained in Control.",
+   "whyNot": {
+    "0": "Define (stating the problem, scope and goals) was already done.",
+    "1": "Measure (collecting baseline data on the current process) was also completed before the root-cause work.",
+    "3": "Improve comes after the root causes are known, when solutions are designed and tested."
+   },
+   "ref": "Garcia LS (ed.), Clinical Laboratory Management, ASM Press (Quality management: Six Sigma)"
+  },
+  {
+   "id": "HL-0199",
+   "tos": "HL-I.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A researcher surveying medical technologists' biosafety practices wants hospital-based, free-standing and government laboratories represented in the same proportions as in the whole population. She divides the sampling frame into these three groups and then randomly selects technologists from each group. Which sampling method is this?",
+   "options": [
+    "Cluster random sampling",
+    "Stratified random sampling",
+    "Proportional quota sampling",
+    "Systematic random sampling"
+   ],
+   "answer": 1,
+   "why": "In **stratified random sampling**, the population is divided into subgroups (strata) that share a characteristic, and a random sample is drawn from each stratum, often in proportion to its size. This ensures each subgroup is represented.",
+   "whyNot": {
+    "0": "Cluster sampling randomly selects whole groups (for example, entire laboratories) and studies all or most members of the chosen groups.",
+    "2": "Quota sampling also fills subgroup targets, but selection within each subgroup is not random.",
+    "3": "Systematic sampling picks every kth person from a single ordered list, without first dividing the population into strata."
+   },
+   "ref": "Polit & Beck, Nursing Research: Generating and Assessing Evidence (Sampling); Gordis Epidemiology"
+  },
+  {
+   "id": "HL-0200",
+   "tos": "HL-I.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In the usual hierarchy of evidence for questions about whether an intervention works, which source gives the strongest evidence?",
+   "options": [
+    "A large, well-designed prospective cohort study",
+    "A case series of consecutive patients from one hospital",
+    "Consensus opinion of a panel of senior pathologists",
+    "A systematic review with meta-analysis of randomized trials"
+   ],
+   "answer": 3,
+   "why": "For questions about therapy or intervention, **systematic reviews and meta-analyses of well-conducted randomized controlled trials** sit at the top of the evidence hierarchy. They pool trials that minimize bias through randomization.",
+   "whyNot": {
+    "0": "Cohort studies are observational and more prone to confounding, so they rank below randomized trials and their systematic reviews.",
+    "1": "Case series have no comparison group and rank near the bottom of the hierarchy.",
+    "2": "Expert opinion without systematic appraisal of evidence is the lowest level."
+   },
+   "ref": "Oxford Centre for Evidence-Based Medicine, Levels of Evidence; Polit & Beck, Nursing Research (Evidence hierarchy)"
   }
  ]
 }

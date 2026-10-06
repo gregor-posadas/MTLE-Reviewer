@@ -587,6 +587,103 @@
    ],
    "alt": "A box shows pH as proportional to bicarbonate (kidneys, metabolic) over pCO₂ (lungs, respiratory), normally 20 to 1 at pH 7.40. Three scales show pH with a shaded reference range of 7.35 to 7.45, pCO₂ 35 to 45 mmHg and HCO₃⁻ 22 to 26 mmol/L. Examples are marked on the scales: respiratory acidosis (pH 7.22, pCO₂ 60, HCO₃⁻ 24), metabolic acidosis (pH 7.20, pCO₂ 40, HCO₃⁻ 15), partially compensated respiratory acidosis (pH 7.31, pCO₂ 60, HCO₃⁻ 29) and fully compensated respiratory acidosis (pH 7.36, pCO₂ 60, HCO₃⁻ 33). A final table lists the four primary disorders: respiratory acidosis pH down, pCO₂ up, HCO₃⁻ up as compensation; respiratory alkalosis pH up, pCO₂ down, HCO₃⁻ down as compensation; metabolic acidosis pH down, HCO₃⁻ down, pCO₂ down as compensation; metabolic alkalosis pH up, HCO₃⁻ up, pCO₂ up as compensation.",
    "source": "Original diagram. Facts per Bishop’s Clinical Chemistry 9e and Tietz Fundamentals of Clinical Chemistry 9e (blood gases, pH and buffer systems). Example values are consistent with pH = 6.1 + log[HCO₃⁻ ÷ (0.03 × pCO₂)]."
+  },
+  {
+   "id": "cc-accuracy-precision",
+   "type": "svg",
+   "subject": "CC",
+   "tos": [
+    "CC-B.1",
+    "HE-F.1",
+    "BB-J.1",
+    "CM-J.2"
+   ],
+   "title": "Accuracy vs precision, shifts and trends",
+   "keywords": [
+    "accuracy",
+    "imprecision",
+    "precise",
+    "a trend",
+    "trends",
+    "abrupt shift",
+    "gradual",
+    "deteriorat",
+    "reagent lot",
+    "calibrator lot",
+    "random error",
+    "systematic error"
+   ],
+   "viewBox": "0 0 360 290",
+   "svg": "<g data-k=\"tA\"><circle cx=\"90\" cy=\"50\" r=\"40\" class=\"v-box\"/><circle cx=\"90\" cy=\"50\" r=\"27\" class=\"v-thin\"/><circle cx=\"90\" cy=\"50\" r=\"14\" class=\"v-thin\"/><circle cx=\"90\" cy=\"50\" r=\"3\" class=\"v-fill-ink\"/><circle cx=\"87\" cy=\"48\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"87\" cy=\"48\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"92\" cy=\"53\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"92\" cy=\"53\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"94\" cy=\"47\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"94\" cy=\"47\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"86\" cy=\"54\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"86\" cy=\"54\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"91\" cy=\"45\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"91\" cy=\"45\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"89\" cy=\"51\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"89\" cy=\"51\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"90\" y=\"108\" class=\"v-text v-b v-mid\">Accurate and precise</text><text x=\"90\" y=\"124\" class=\"v-text v-small v-mid\">little error</text></g><g data-k=\"tB\"><circle cx=\"270\" cy=\"50\" r=\"40\" class=\"v-box\"/><circle cx=\"270\" cy=\"50\" r=\"27\" class=\"v-thin\"/><circle cx=\"270\" cy=\"50\" r=\"14\" class=\"v-thin\"/><circle cx=\"270\" cy=\"50\" r=\"3\" class=\"v-fill-ink\"/><circle cx=\"287\" cy=\"32\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"287\" cy=\"32\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"292\" cy=\"36\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"292\" cy=\"36\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"289\" cy=\"27\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"289\" cy=\"27\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"284\" cy=\"36\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"284\" cy=\"36\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"294\" cy=\"30\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"294\" cy=\"30\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"288\" cy=\"38\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"288\" cy=\"38\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"270\" y=\"108\" class=\"v-text v-b v-mid\">Precise, not accurate</text><text x=\"270\" y=\"124\" class=\"v-text v-small v-mid\">systematic error (bias)</text></g><g data-k=\"tC\"><circle cx=\"90\" cy=\"176\" r=\"40\" class=\"v-box\"/><circle cx=\"90\" cy=\"176\" r=\"27\" class=\"v-thin\"/><circle cx=\"90\" cy=\"176\" r=\"14\" class=\"v-thin\"/><circle cx=\"90\" cy=\"176\" r=\"3\" class=\"v-fill-ink\"/><circle cx=\"66\" cy=\"168\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"66\" cy=\"168\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"110\" cy=\"190\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"110\" cy=\"190\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"96\" cy=\"149\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"96\" cy=\"149\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"80\" cy=\"200\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"80\" cy=\"200\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"117\" cy=\"170\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"117\" cy=\"170\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"74\" cy=\"154\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"74\" cy=\"154\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"90\" y=\"234\" class=\"v-text v-b v-mid\">Accurate, not precise</text><text x=\"90\" y=\"250\" class=\"v-text v-small v-mid\">random error</text></g><g data-k=\"tD\"><circle cx=\"270\" cy=\"176\" r=\"40\" class=\"v-box\"/><circle cx=\"270\" cy=\"176\" r=\"27\" class=\"v-thin\"/><circle cx=\"270\" cy=\"176\" r=\"14\" class=\"v-thin\"/><circle cx=\"270\" cy=\"176\" r=\"3\" class=\"v-fill-ink\"/><circle cx=\"266\" cy=\"148\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"266\" cy=\"148\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"296\" cy=\"174\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"296\" cy=\"174\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"278\" cy=\"156\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"278\" cy=\"156\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"298\" cy=\"154\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"298\" cy=\"154\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"290\" cy=\"184\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"290\" cy=\"184\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><circle cx=\"270\" cy=\"168\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"270\" cy=\"168\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"270\" y=\"234\" class=\"v-text v-b v-mid\">Neither</text><text x=\"270\" y=\"250\" class=\"v-text v-small v-mid\">random + systematic</text></g><g data-k=\"legend\"><circle cx=\"14\" cy=\"268\" r=\"4\" class=\"v-fill-2\"/><circle cx=\"14\" cy=\"268\" r=\"4\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"24\" y=\"272\" class=\"v-text v-small\">one result</text><circle cx=\"118\" cy=\"268\" r=\"3\" class=\"v-fill-ink\"/><circle cx=\"118\" cy=\"268\" r=\"8\" class=\"v-thin\"/><text x=\"132\" y=\"272\" class=\"v-text v-small\">centre = true value</text></g><g data-k=\"shift\"><text x=\"8\" y=\"18\" class=\"v-text v-b\">Shift</text><text x=\"352\" y=\"18\" class=\"v-text v-small v-end\">abrupt jump, then stays</text><line x1=\"56\" y1=\"28\" x2=\"350\" y2=\"28\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"32\" class=\"v-text v-small v-end v-muted\">+2 SD</text><line x1=\"56\" y1=\"44\" x2=\"350\" y2=\"44\" class=\"v-thin v-dot\"/><line x1=\"56\" y1=\"60\" x2=\"350\" y2=\"60\" class=\"v-line\"/><text x=\"50\" y=\"64\" class=\"v-text v-small v-end\">mean</text><line x1=\"56\" y1=\"76\" x2=\"350\" y2=\"76\" class=\"v-thin v-dot\"/><line x1=\"56\" y1=\"92\" x2=\"350\" y2=\"92\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"96\" class=\"v-text v-small v-end v-muted\">−2 SD</text><polyline points=\"64,55.2 84.5,69.6 105,52 125.5,64.8 146,72.8 166.5,53.6 187,37.6 207.5,44 228,34.4 248.5,40.8 269,45.6 289.5,36 310,42.4 330.5,37.6\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"64\" cy=\"55.2\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"84.5\" cy=\"69.6\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"105\" cy=\"52\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"125.5\" cy=\"64.8\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"146\" cy=\"72.8\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"166.5\" cy=\"53.6\" r=\"4\" class=\"v-fill-ink\"/><rect x=\"182.5\" y=\"33.1\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"182.5\" y=\"33.1\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"203\" y=\"39.5\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"203\" y=\"39.5\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"223.5\" y=\"29.9\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"223.5\" y=\"29.9\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"244\" y=\"36.3\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"244\" y=\"36.3\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"264.5\" y=\"41.1\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"264.5\" y=\"41.1\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"285\" y=\"31.5\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"285\" y=\"31.5\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"305.5\" y=\"37.9\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"305.5\" y=\"37.9\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"326\" y=\"33.1\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"326\" y=\"33.1\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"56\" y=\"116\" class=\"v-text v-small v-muted\">Cause: new reagent or calibrator lot, recalibration</text><line x1=\"176.75\" y1=\"24.4\" x2=\"176.75\" y2=\"92\" class=\"v-line v-dash\" style=\"stroke-width:1.25\"/><text x=\"180.75\" y=\"86\" class=\"v-text v-small v-b\">new lot</text></g><g data-k=\"trend\"><text x=\"8\" y=\"144\" class=\"v-text v-b\">Trend</text><text x=\"352\" y=\"144\" class=\"v-text v-small v-end\">gradual drift one way</text><line x1=\"56\" y1=\"154\" x2=\"350\" y2=\"154\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"158\" class=\"v-text v-small v-end v-muted\">+2 SD</text><line x1=\"56\" y1=\"170\" x2=\"350\" y2=\"170\" class=\"v-thin v-dot\"/><line x1=\"56\" y1=\"186\" x2=\"350\" y2=\"186\" class=\"v-line\"/><text x=\"50\" y=\"190\" class=\"v-text v-small v-end\">mean</text><line x1=\"56\" y1=\"202\" x2=\"350\" y2=\"202\" class=\"v-thin v-dot\"/><line x1=\"56\" y1=\"218\" x2=\"350\" y2=\"218\" class=\"v-thin v-dash\"/><text x=\"50\" y=\"222\" class=\"v-text v-small v-end v-muted\">−2 SD</text><polyline points=\"64,192.4 84.5,181.2 105,194 125.5,184.4 146,189.2 166.5,181.2 187,178.8 207.5,174.8 228,171.6 248.5,168.4 269,165.2 289.5,162 310,158.8 330.5,155.6\" class=\"v-line\" style=\"stroke-width:1.25\"/><circle cx=\"64\" cy=\"192.4\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"84.5\" cy=\"181.2\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"105\" cy=\"194\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"125.5\" cy=\"184.4\" r=\"4\" class=\"v-fill-ink\"/><circle cx=\"146\" cy=\"189.2\" r=\"4\" class=\"v-fill-ink\"/><rect x=\"162\" y=\"176.7\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"162\" y=\"176.7\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"182.5\" y=\"174.3\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"182.5\" y=\"174.3\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"203\" y=\"170.3\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"203\" y=\"170.3\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"223.5\" y=\"167.1\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"223.5\" y=\"167.1\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"244\" y=\"163.9\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"244\" y=\"163.9\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"264.5\" y=\"160.7\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"264.5\" y=\"160.7\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"285\" y=\"157.5\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"285\" y=\"157.5\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"305.5\" y=\"154.3\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"305.5\" y=\"154.3\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><rect x=\"326\" y=\"151.1\" width=\"9\" height=\"9\" class=\"v-fill-2\"/><rect x=\"326\" y=\"151.1\" width=\"9\" height=\"9\" class=\"v-line\" style=\"stroke-width:1\"/><text x=\"56\" y=\"242\" class=\"v-text v-small v-muted\">Cause: deteriorating reagent, aging lamp</text></g>",
+   "steps": [
+    {
+     "caption": "Picture each result as a shot at a target whose centre is the **true value**. **Accuracy** is how close results are to the true value; **precision** is how close repeated results are to each other. A good method is both: a tight cluster in the centre.",
+     "show": [
+      "tA",
+      "legend"
+     ],
+     "hl": [
+      "tA"
+     ]
+    },
+    {
+     "caption": "**Precise but not accurate:** the results agree with each other but sit off-centre, all in the same direction. That is **systematic error (bias)**, such as a calibration problem, and it shows up as poor accuracy.",
+     "show": [
+      "tA",
+      "tB",
+      "legend"
+     ],
+     "hl": [
+      "tB"
+     ]
+    },
+    {
+     "caption": "**Accurate but not precise:** the results scatter widely, though their average is near the true value. That is **random error**, such as bubbles, pipetting slips or temperature changes; it is measured as the SD or CV.",
+     "show": [
+      "tA",
+      "tB",
+      "tC",
+      "legend"
+     ],
+     "hl": [
+      "tC"
+     ]
+    },
+    {
+     "caption": "**Neither:** wide scatter and off-centre. Both random and systematic error are present, the worst case.",
+     "show": [
+      "tA",
+      "tB",
+      "tC",
+      "tD",
+      "legend"
+     ],
+     "hl": [
+      "tD"
+     ]
+    },
+    {
+     "caption": "On a Levey–Jennings chart, a **shift** is an abrupt change in the control mean that then persists: six or more results in a row on one side of the mean. It is systematic error from a single event, such as a new reagent or calibrator lot, a recalibration or a replaced part.",
+     "show": [
+      "shift"
+     ],
+     "hl": [
+      "shift"
+     ]
+    },
+    {
+     "caption": "A **trend** is a gradual drift in one direction, with six or more results in a row moving steadily up (or down). It is also systematic error, from something deteriorating slowly, such as a reagent or an aging photometer lamp. Westgard rules such as 2₂s, 4₁s and 10x catch both; see “Westgard rules on a Levey–Jennings chart”.",
+     "show": [
+      "shift",
+      "trend"
+     ],
+     "hl": [
+      "trend"
+     ]
+    }
+   ],
+   "alt": "Four targets whose centre is the true value, with six results each: a tight central cluster (accurate and precise, little error); a tight cluster off-centre (precise, not accurate: systematic error or bias); a wide scatter around the centre (accurate, not precise: random error); a wide scatter off-centre (neither: both errors). Then two Levey-Jennings charts with mean and plus or minus 1 and 2 SD lines: a shift, where after a new lot the results jump and stay above the mean for eight runs (causes: new reagent or calibrator lot, recalibration); and a trend, where results drift steadily upward over several runs (causes: deteriorating reagent, aging lamp).",
+   "source": "Original diagram. Facts per Bishop's Clinical Chemistry 9e (quality control: accuracy, precision, shifts and trends)."
   }
  ]
 }

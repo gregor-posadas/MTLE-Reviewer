@@ -452,6 +452,111 @@
    ],
    "alt": "A cycle of four boxes joined by clockwise arrows: Plan (plan the fix), Do (try it on a small scale), Check (measure), Act (standardize), then repeat. A panel walks through reducing mislabeled specimens at each phase: measure the baseline and plan bedside labelling with two identifiers; pilot it on one ward; compare the new rate with the baseline and target; standardize in the SOP or adjust and repeat. Another panel shows quality assurance spanning the pre-analytic, analytic and post-analytic phases, with quality control (a control slide with each run) inside the analytic phase, and a mislabeled specimen in the pre-analytic phase.",
    "source": "Original diagram. Facts per Bancroft's Theory and Practice of Histological Techniques; Bruce-Gregorios, Histopathologic Techniques (quality management and laboratory management sections); PDCA (Deming) cycle as taught in laboratory management."
+  },
+  {
+   "id": "hl-fixatives",
+   "type": "svg",
+   "subject": "HL",
+   "tos": [
+    "HL-B.1"
+   ],
+   "title": "Fixatives: families and how they act",
+   "keywords": [
+    "fixative",
+    "fixing agent",
+    "zenker",
+    "helly",
+    "bouin",
+    "carnoy",
+    "glutaraldehyde",
+    "osmium",
+    "mercuric",
+    "formalin pigment",
+    "coagulant",
+    "cross-link",
+    "methylene"
+   ],
+   "viewBox": "0 0 360 528",
+   "svg": "<g data-k=\"f-ald\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Aldehydes: formalin, glutaraldehyde</text><text x=\"30\" y=\"56\" class=\"v-text v-small\">protein chain</text><path d=\"M30 70 Q42.5 64 55 70 T80 70 Q92.5 64 105 70 T130 70 Q142.5 64 155 70 T180 70 Q192.5 64 205 70 T230 70 Q242.5 64 255 70 T280 70 Q292.5 64 305 70 T330 70\" class=\"v-line\"/><path d=\"M30 132 Q42.5 126 55 132 T80 132 Q92.5 126 105 132 T130 132 Q142.5 126 155 132 T180 132 Q192.5 126 205 132 T230 132 Q242.5 126 255 132 T280 132 Q292.5 126 305 132 T330 132\" class=\"v-line\"/><line x1=\"70\" y1=\"74\" x2=\"70\" y2=\"128\" class=\"v-line v-stroke-1\"/><text x=\"75\" y=\"105\" class=\"v-text v-small\">CH₂</text><line x1=\"150\" y1=\"74\" x2=\"150\" y2=\"128\" class=\"v-line v-stroke-1\"/><text x=\"155\" y=\"105\" class=\"v-text v-small\">CH₂</text><line x1=\"230\" y1=\"74\" x2=\"230\" y2=\"128\" class=\"v-line v-stroke-1\"/><text x=\"235\" y=\"105\" class=\"v-text v-small\">CH₂</text><line x1=\"300\" y1=\"74\" x2=\"300\" y2=\"128\" class=\"v-line v-stroke-1\"/><text x=\"305\" y=\"105\" class=\"v-text v-small\">CH₂</text><text x=\"180\" y=\"160\" class=\"v-text v-small v-mid v-muted\">methylene bridges cross-link proteins</text><text x=\"8\" y=\"186\" class=\"v-text v-small v-b\">Additive, non-coagulant: tissue sets as a gel</text><text x=\"8\" y=\"204\" class=\"v-text v-small\">10% formalin = about 4% formaldehyde</text><text x=\"8\" y=\"222\" class=\"v-text v-small\">Glutaraldehyde (two CHO groups): EM fixative</text><text x=\"8\" y=\"240\" class=\"v-text v-small\">Acid formalin + blood = brown-black formalin</text><text x=\"8\" y=\"258\" class=\"v-text v-small\">pigment; buffer (NBF) to prevent it, and</text><text x=\"8\" y=\"276\" class=\"v-text v-small\">remove it with alcoholic picric acid</text></g><g data-k=\"f-hg\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Mercurials: Zenker's, Helly's, B-5</text><rect x=\"14\" y=\"44\" width=\"64\" height=\"60\" rx=\"2\" class=\"v-box\"/><ellipse cx=\"46\" cy=\"74\" rx=\"24\" ry=\"20\" class=\"v-real\" fill=\"#E9B8C8\"/><circle cx=\"36\" cy=\"66\" r=\"2.5\" class=\"v-fill-ink\"/><circle cx=\"48\" cy=\"74\" r=\"2.5\" class=\"v-fill-ink\"/><circle cx=\"56\" cy=\"62\" r=\"2.5\" class=\"v-fill-ink\"/><circle cx=\"40\" cy=\"82\" r=\"2.5\" class=\"v-fill-ink\"/><circle cx=\"60\" cy=\"80\" r=\"2.5\" class=\"v-fill-ink\"/><circle cx=\"52\" cy=\"68\" r=\"2.5\" class=\"v-fill-ink\"/><rect x=\"150\" y=\"44\" width=\"64\" height=\"60\" rx=\"2\" class=\"v-box\"/><ellipse cx=\"182\" cy=\"74\" rx=\"24\" ry=\"20\" class=\"v-real\" fill=\"#B0763A\"/><rect x=\"286\" y=\"44\" width=\"64\" height=\"60\" rx=\"2\" class=\"v-box\"/><ellipse cx=\"318\" cy=\"74\" rx=\"24\" ry=\"20\" class=\"v-real\" fill=\"#E9B8C8\"/><line x1=\"82\" y1=\"74\" x2=\"144\" y2=\"74\" class=\"v-line v-arrow v-draw\"/><line x1=\"218\" y1=\"74\" x2=\"280\" y2=\"74\" class=\"v-line v-arrow v-draw\"/><text x=\"113\" y=\"66\" class=\"v-text v-small v-mid\">iodine</text><text x=\"249\" y=\"52\" class=\"v-text v-small v-mid\">sodium</text><text x=\"249\" y=\"66\" class=\"v-text v-small v-mid\">thiosulfate</text><text x=\"46\" y=\"124\" class=\"v-text v-small v-mid\">black Hg</text><text x=\"46\" y=\"140\" class=\"v-text v-small v-mid\">pigment</text><text x=\"182\" y=\"124\" class=\"v-text v-small v-mid\">brown</text><text x=\"182\" y=\"140\" class=\"v-text v-small v-mid\">(iodine)</text><text x=\"318\" y=\"124\" class=\"v-text v-small v-mid\">clean</text><text x=\"318\" y=\"140\" class=\"v-text v-small v-mid\">section</text><text x=\"8\" y=\"186\" class=\"v-text v-small v-b\">Mercuric chloride: additive, coagulant</text><text x=\"8\" y=\"204\" class=\"v-text v-small\">Sharp nuclear detail; B-5 for bone marrow</text><text x=\"8\" y=\"222\" class=\"v-text v-small\">and lymph nodes; Helly's = Zenker-formol</text><text x=\"8\" y=\"240\" class=\"v-text v-small\">Mercury pigment must be removed before</text><text x=\"8\" y=\"258\" class=\"v-text v-small\">staining: iodine, then sodium thiosulfate</text></g><g data-k=\"f-pic\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Picric acid: Bouin's fluid</text><rect x=\"30\" y=\"54\" width=\"90\" height=\"64\" rx=\"6\" class=\"v-real\" fill=\"#E8C73A\"/><rect x=\"220\" y=\"54\" width=\"90\" height=\"64\" rx=\"6\" class=\"v-real\" fill=\"#F1E3D3\"/><line x1=\"128\" y1=\"86\" x2=\"212\" y2=\"86\" class=\"v-line v-arrow v-draw\"/><text x=\"170\" y=\"78\" class=\"v-text v-small v-mid\">70% alcohol</text><text x=\"75\" y=\"138\" class=\"v-text v-small v-mid\">yellow tissue</text><text x=\"265\" y=\"138\" class=\"v-text v-small v-mid\">yellow washed out</text><text x=\"8\" y=\"186\" class=\"v-text v-small v-b\">Bouin's: picric acid + formalin + acetic acid</text><text x=\"8\" y=\"204\" class=\"v-text v-small\">Picric acid: additive, coagulant (picrates)</text><text x=\"8\" y=\"222\" class=\"v-text v-small\">Good for GI and testis biopsies, trichrome</text><text x=\"8\" y=\"240\" class=\"v-text v-small\">Acetic acid lyses red cells</text><text x=\"8\" y=\"258\" class=\"v-text v-small\">Dry picric acid is explosive: keep it wet</text></g><g data-k=\"f-alc\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Alcohols and acetone</text><rect x=\"22\" y=\"44\" width=\"126\" height=\"90\" rx=\"6\" class=\"v-box\"/><rect x=\"212\" y=\"44\" width=\"126\" height=\"90\" rx=\"6\" class=\"v-box\"/><circle cx=\"55.9653\" cy=\"61.2216\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"73.5664\" cy=\"64.8481\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"37.3167\" cy=\"82.1114\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"130.975\" cy=\"110.032\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"114.168\" cy=\"69.535\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"89.0348\" cy=\"73.3678\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"48.9931\" cy=\"61.4328\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"53.584\" cy=\"118.923\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"121.181\" cy=\"110.466\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"118.049\" cy=\"67.5405\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"64.0835\" cy=\"97.8883\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"110.508\" cy=\"113.825\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"126.806\" cy=\"60.0703\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"96.6437\" cy=\"101.019\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"85.6549\" cy=\"66.4453\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"82.0947\" cy=\"60.2542\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"132.805\" cy=\"114.584\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"90.2403\" cy=\"75.0172\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"129.976\" cy=\"94.0657\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"127.055\" cy=\"113.363\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"85.921\" cy=\"82.9762\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"95.8804\" cy=\"84.173\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"233.226\" cy=\"66.8818\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"246.252\" cy=\"62.6918\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"230.926\" cy=\"72.0216\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"235.609\" cy=\"70.5539\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"239.425\" cy=\"67.4855\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"249.946\" cy=\"65.1292\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"288.256\" cy=\"95.2427\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"292.653\" cy=\"96.4209\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"287.117\" cy=\"103.951\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"286.413\" cy=\"100.936\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"298.086\" cy=\"93.6157\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"281.232\" cy=\"95.6619\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"255.303\" cy=\"113.847\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"244.748\" cy=\"109.297\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"243.551\" cy=\"111.344\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"240.856\" cy=\"115.157\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"257.919\" cy=\"119.276\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"254.698\" cy=\"119.358\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"300.364\" cy=\"58.6239\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"319.32\" cy=\"66.4038\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"308.209\" cy=\"69.0929\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"312.41\" cy=\"67.0868\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"305.868\" cy=\"57.0626\" r=\"3\" class=\"v-fill-1\"/><circle cx=\"308.883\" cy=\"56.183\" r=\"3\" class=\"v-fill-1\"/><line x1=\"154\" y1=\"89\" x2=\"206\" y2=\"89\" class=\"v-line v-arrow v-draw\"/><text x=\"180\" y=\"80\" class=\"v-text v-small v-mid\">water out</text><text x=\"85\" y=\"152\" class=\"v-text v-small v-mid\">proteins in water</text><text x=\"275\" y=\"152\" class=\"v-text v-small v-mid\">precipitated</text><text x=\"8\" y=\"186\" class=\"v-text v-small v-b\">Non-additive, coagulant: they dehydrate</text><text x=\"8\" y=\"204\" class=\"v-text v-small\">Ethanol, methanol, Carnoy's, cold acetone</text><text x=\"8\" y=\"222\" class=\"v-text v-small\">Carnoy's: very fast; keeps glycogen</text><text x=\"8\" y=\"240\" class=\"v-text v-small\">Absolute alcohol keeps urate crystals (gout)</text><text x=\"8\" y=\"258\" class=\"v-text v-small\">Cold acetone keeps enzymes (phosphatases)</text><text x=\"8\" y=\"276\" class=\"v-text v-small\">Shrink and harden tissue; dissolve lipids</text></g><g data-k=\"f-os\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Osmium tetroxide (OsO₄)</text><ellipse cx=\"85\" cy=\"90\" rx=\"62\" ry=\"42\" class=\"v-box\"/><ellipse cx=\"275\" cy=\"90\" rx=\"62\" ry=\"42\" class=\"v-box\"/><circle cx=\"62\" cy=\"80\" r=\"9\" class=\"v-line\"/><circle cx=\"96\" cy=\"104\" r=\"7\" class=\"v-line\"/><circle cx=\"108\" cy=\"74\" r=\"6\" class=\"v-line\"/><circle cx=\"70\" cy=\"108\" r=\"5\" class=\"v-line\"/><circle cx=\"252\" cy=\"80\" r=\"9\" class=\"v-fill-ink\"/><circle cx=\"286\" cy=\"104\" r=\"7\" class=\"v-fill-ink\"/><circle cx=\"298\" cy=\"74\" r=\"6\" class=\"v-fill-ink\"/><circle cx=\"260\" cy=\"108\" r=\"5\" class=\"v-fill-ink\"/><line x1=\"150\" y1=\"90\" x2=\"210\" y2=\"90\" class=\"v-line v-arrow v-draw\"/><text x=\"180\" y=\"82\" class=\"v-text v-small v-mid\">OsO₄</text><text x=\"85\" y=\"152\" class=\"v-text v-small v-mid\">lipid droplets</text><text x=\"275\" y=\"152\" class=\"v-text v-small v-mid\">lipids now black</text><text x=\"8\" y=\"186\" class=\"v-text v-small v-b\">Additive, non-coagulant</text><text x=\"8\" y=\"204\" class=\"v-text v-small\">Fixes lipids and stains them black</text><text x=\"8\" y=\"222\" class=\"v-text v-small\">EM: post-fixative after glutaraldehyde</text><text x=\"8\" y=\"240\" class=\"v-text v-small\">Penetrates poorly; volatile and toxic</text><text x=\"8\" y=\"258\" class=\"v-text v-small\">(work in a fume hood)</text></g><g data-k=\"f-sum\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Coagulant vs non-coagulant</text><rect x=\"22\" y=\"40\" width=\"126\" height=\"82\" rx=\"6\" class=\"v-box\"/><path d=\"M34 60 L58 52 L74 70 L52 84 L34 60\" class=\"v-line\"/><path d=\"M74 70 L100 58 L126 66 L118 88 L92 92 L74 70\" class=\"v-line\"/><path d=\"M52 84 L60 108 L88 112 L92 92\" class=\"v-line\"/><path d=\"M118 88 L136 104 L112 112 L88 112\" class=\"v-line\"/><path d=\"M100 58 L108 48\" class=\"v-line\"/><path d=\"M34 96 L52 84\" class=\"v-line\"/><rect x=\"212\" y=\"40\" width=\"126\" height=\"82\" rx=\"6\" class=\"v-box\"/><line x1=\"220\" y1=\"56\" x2=\"330\" y2=\"56\" class=\"v-line\"/><line x1=\"220\" y1=\"82\" x2=\"330\" y2=\"82\" class=\"v-line\"/><line x1=\"220\" y1=\"108\" x2=\"330\" y2=\"108\" class=\"v-line\"/><line x1=\"236\" y1=\"56\" x2=\"236\" y2=\"108\" class=\"v-line v-stroke-1\"/><line x1=\"262\" y1=\"56\" x2=\"262\" y2=\"108\" class=\"v-line v-stroke-1\"/><line x1=\"288\" y1=\"56\" x2=\"288\" y2=\"108\" class=\"v-line v-stroke-1\"/><line x1=\"314\" y1=\"56\" x2=\"314\" y2=\"108\" class=\"v-line v-stroke-1\"/><text x=\"85\" y=\"142\" class=\"v-text v-small v-mid v-b\">coagulant:</text><text x=\"85\" y=\"158\" class=\"v-text v-small v-mid\">protein mesh</text><text x=\"275\" y=\"142\" class=\"v-text v-small v-mid v-b\">non-coagulant:</text><text x=\"275\" y=\"158\" class=\"v-text v-small v-mid\">cross-linked gel</text><text x=\"8\" y=\"196\" class=\"v-text v-small v-b\">Additive: becomes part of the tissue</text><text x=\"8\" y=\"214\" class=\"v-text v-small\">Non-additive: acts, then washes out</text><text x=\"8\" y=\"232\" class=\"v-text v-small\">Coagulant mesh: good morphology, poor EM</text><text x=\"8\" y=\"250\" class=\"v-text v-small\">Non-coagulant gel: keeps fine structure</text></g><g data-k=\"grid\"><text x=\"8\" y=\"322\" class=\"v-text v-b\">Where each family sits</text><rect x=\"100\" y=\"332\" width=\"126\" height=\"26\" rx=\"0\" class=\"v-tint-2\"/><rect x=\"226\" y=\"332\" width=\"126\" height=\"26\" rx=\"0\" class=\"v-tint-1\"/><text x=\"163\" y=\"350\" class=\"v-text v-small v-b v-mid\">Coagulant</text><text x=\"289\" y=\"350\" class=\"v-text v-small v-b v-mid\">Non-coagulant</text><rect x=\"8\" y=\"358\" width=\"344\" height=\"96\" rx=\"0\" class=\"v-box\"/><rect x=\"8\" y=\"454\" width=\"344\" height=\"66\" rx=\"0\" class=\"v-box\"/><line x1=\"100\" y1=\"358\" x2=\"100\" y2=\"520\" class=\"v-thin\"/><line x1=\"226\" y1=\"358\" x2=\"226\" y2=\"520\" class=\"v-thin\"/><text x=\"14\" y=\"378\" class=\"v-text v-small v-b\">Additive</text><text x=\"14\" y=\"394\" class=\"v-text v-small v-muted\">(binds)</text><text x=\"14\" y=\"474\" class=\"v-text v-small v-b\">Non-</text><text x=\"14\" y=\"490\" class=\"v-text v-small v-b\">additive</text></g><g data-k=\"g-hg\"><text x=\"108\" y=\"380\" class=\"v-text v-small\">mercuric chloride</text></g><g data-k=\"g-pic\"><text x=\"108\" y=\"402\" class=\"v-text v-small\">picric acid</text></g><g data-k=\"g-ald\"><text x=\"234\" y=\"380\" class=\"v-text v-small\">formaldehyde</text><text x=\"234\" y=\"402\" class=\"v-text v-small\">glutaraldehyde</text></g><g data-k=\"g-os\"><text x=\"234\" y=\"424\" class=\"v-text v-small\">osmium tetroxide</text></g><g data-k=\"g-alc\"><text x=\"108\" y=\"476\" class=\"v-text v-small\">alcohols</text><text x=\"108\" y=\"498\" class=\"v-text v-small\">acetone</text></g><g data-k=\"g-none\"><text x=\"234\" y=\"488\" class=\"v-text v-small v-muted\">none of these</text></g>",
+   "steps": [
+    {
+     "caption": "**Aldehydes** (formalin, glutaraldehyde) form **methylene bridges** that cross-link proteins: **additive** and **non-coagulant**, so the tissue sets as a gel. Acid formalin on bloody tissue leaves brown-black **formalin pigment**, prevented by buffering (NBF); glutaraldehyde is the primary EM fixative.",
+     "show": [
+      "f-ald",
+      "g-ald"
+     ],
+     "hl": [
+      "g-ald"
+     ]
+    },
+    {
+     "caption": "**Mercurial** fixatives (Zenker's, Helly's, B-5) contain mercuric chloride: additive, coagulant, with sharp nuclear detail. They leave black **mercury pigment**, removed before staining with **iodine**, then **sodium thiosulfate** to clear the iodine.",
+     "show": [
+      "f-hg",
+      "g-ald",
+      "g-hg"
+     ],
+     "hl": [
+      "g-hg"
+     ]
+    },
+    {
+     "caption": "**Picric acid** (in **Bouin's** fluid) is additive and coagulant and stains the tissue **yellow**, which is washed out with 70% alcohol. Bouin's suits GI and testis biopsies and trichrome stains, but its acetic acid lyses red cells.",
+     "show": [
+      "f-pic",
+      "g-ald",
+      "g-hg",
+      "g-pic"
+     ],
+     "hl": [
+      "g-pic"
+     ]
+    },
+    {
+     "caption": "**Alcohols** and **acetone** are **non-additive, coagulant** fixatives: they pull out water so proteins precipitate. **Carnoy's** is fast and keeps glycogen, absolute alcohol keeps urate crystals, and cold acetone keeps enzymes; all shrink and harden tissue.",
+     "show": [
+      "f-alc",
+      "g-ald",
+      "g-hg",
+      "g-pic",
+      "g-alc"
+     ],
+     "hl": [
+      "g-alc"
+     ]
+    },
+    {
+     "caption": "**Osmium tetroxide** fixes **lipids** and turns them **black**; it is additive and non-coagulant and is the EM **post-fixative** after glutaraldehyde. It penetrates poorly and its vapour is toxic.",
+     "show": [
+      "f-os",
+      "g-ald",
+      "g-hg",
+      "g-pic",
+      "g-alc",
+      "g-os"
+     ],
+     "hl": [
+      "g-os"
+     ]
+    },
+    {
+     "caption": "**To remember:** **additive** fixatives become part of the tissue; **non-additive** ones (alcohols, acetone) act and wash out. **Coagulant** fixatives leave a protein mesh (good for light microscopy, poor for EM), while **non-coagulant** cross-linkers make a gel that keeps fine structure.",
+     "show": [
+      "f-sum",
+      "g-ald",
+      "g-hg",
+      "g-pic",
+      "g-alc",
+      "g-os",
+      "g-none"
+     ],
+     "hl": [
+      "grid"
+     ]
+    }
+   ],
+   "alt": "Fixative families, each with a small drawing, and a grid that fills in as they are introduced. Aldehydes: two protein chains joined by CH2 methylene bridges; formalin (10% = about 4% formaldehyde) and glutaraldehyde are additive, non-coagulant cross-linkers; acid formalin leaves formalin pigment, prevented by buffering and removed with alcoholic picric acid; glutaraldehyde is the EM fixative. Mercurials (Zenker's, Helly's, B-5): mercuric chloride is additive and coagulant; black mercury pigment is removed with iodine, then sodium thiosulfate. Picric acid (Bouin's): additive and coagulant, stains tissue yellow, washed out with 70% alcohol; acetic acid lyses red cells; dry picric acid is explosive. Alcohols and acetone: non-additive and coagulant, they dehydrate so proteins precipitate; Carnoy's keeps glycogen, absolute alcohol keeps urate crystals, cold acetone keeps enzymes. Osmium tetroxide: additive, non-coagulant, fixes lipids and stains them black, EM post-fixative. Grid: additive coagulant = mercuric chloride, picric acid; additive non-coagulant = formaldehyde, glutaraldehyde, osmium tetroxide; non-additive coagulant = alcohols, acetone; non-additive non-coagulant = none of these. Summary drawings contrast a coagulant protein mesh with a cross-linked gel.",
+   "source": "Original diagram. Facts per Bancroft's Theory and Practice of Histological Techniques 8e, fixation chapter."
   }
  ]
 }

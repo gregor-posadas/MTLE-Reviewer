@@ -17,11 +17,11 @@ Nothing private lives in this repository. The access code and her answers are on
 |---|---|
 | Diagnostic | Shown once, right after the access code is entered (and on Today until it's taken or skipped): 18 questions, 3 per subject, with explanations. The results show where she stands by subject and which topic to start with, and the 18 questions join her review schedule. |
 | Today | The question of the day (2 questions fixed for the day), then today's session: reviews that are due plus up to 15 new questions, spread across subjects by exam weight. Also shows her progress bars (overall, weighted by exam share, and one per subject), a weekly goal (days, not a streak), and the road to exam day with the current phase. |
-| Visual explainers | 47 diagrams she steps through one idea at a time: 33 original drawings (the coagulation cascade, hematopoiesis, Westgard rules, the Gram stain, the nephron, reagent-strip pads, ABO typing, complement, HBV markers, tissue processing and more) plus 14 CDC parasite life cycles walked through stage by stage. They open before the questions in Learn a topic, and as **See it as a diagram** under the explanation of about 240 related questions. |
+| Visual explainers | 55 diagrams she steps through one idea at a time: 41 original drawings (the coagulation cascade, hematopoiesis, poikilocytes, RBC inclusions, Westgard rules, accuracy vs precision, the Gram stain, biosafety cabinets, the nephron, reagent-strip pads, urine crystals, ABO typing, Rh nomenclature, HDFN, complement, HBV markers, fixatives, tissue processing and more) plus 14 CDC parasite life cycles walked through stage by stage. They open before the questions in Learn a topic, and as **See it as a diagram** under the explanation of about 540 related questions. |
 | Practice | Mixed practice (weakest first, missed, never seen, flagged), Learn a topic (one TOS topic at a time), Image drill (46 CDC parasite images, look-alikes mixed), Lab math (worked example, then a similar problem), and Mock exam. |
 | Mock exam | Paper-style, like the MTLE: a question booklet plus a separate answer sheet with bubbles, timed at 1.2 minutes per question, with no feedback until it's handed in. Scored against the passing rule (75% weighted average, no subject below 50%). |
 | Progress | Study phases to the exam date, a readiness check ("On track" or "Not yet"), mastery by subject and by TOS topic, answers per day for the last 2 weeks, her diagnostic result, and how often she's right when sure vs. not sure. |
-| More | Settings (exam date, new questions per day, round size, weekly goal, break reminder, keyboard shortcuts), sync and backup, removing test answers, My questions (optional), flagged questions, two short exam-nerves exercises, how it works, credits. |
+| More | Settings (exam date, new questions per day, round size, weekly goal, animations, break reminder, keyboard shortcuts), sync and backup, removing test answers, My questions (optional), flagged questions, two short exam-nerves exercises, how it works, credits. |
 
 ### How a question works
 
@@ -36,6 +36,10 @@ Nothing private lives in this repository. The access code and her answers are on
 4. "Mastered" means 2 correct answers in a row. For images it means 2 correct answers in under 10 seconds each.
 
 The research behind each choice is summarized on the site under More > How it works, and in the research doc.
+
+### Animations
+
+Pages, questions and answers move a little: the page eases in, the next question slides in a few pixels, the right answer's highlight fades in, the explanation slides in, and numbers count up. The options themselves never change size or place. **More > Settings > Animations** has three choices: **Match this device** (the default: off when the phone or laptop has Reduce Motion turned on), **On**, and **Off**. Like the other settings it syncs to both devices.
 
 ## Publish it (about 2 minutes)
 
@@ -93,21 +97,23 @@ Every item was drafted by an AI writer and then checked by a separate AI reviewe
 
 A fourth batch (200 questions) covers concepts emphasised in the review books Marren studies from (Bishop for Clinical Chemistry, an Elsevier Micro/Para set, Strasinger for Clinical Microscopy, Harmening for Blood Banking). The books were used only to choose concepts: every question is newly written, and reviewers checked that none copies a book question. That review reworked 33 items for wording or overlap; no answer keys were wrong.
 
-The second and third batches filled the subtopics with the fewest questions. The bank now matches the Table of Specifications item for item: 100 questions per subject, with the same count per subtopic as the real exam and the Board's 30/50/20 easy/moderate/difficult mix.
+A fifth batch (409 questions) used Marren's MTLE folder (Must-to-Know notes, pocket notes and the Harr question sets) the same way: only to choose which concepts to test. It brought every subject to about twice the exam's item count, subtopic by subtopic. The reviewers replaced 9 items (mostly near-duplicates of older questions, one too close to a book question) and corrected or tightened about 40 more; no answer keys were wrong. Every law item was checked against the statute text on lawphil.
+
+The second and third batches filled the subtopics with the fewest questions, and the fifth doubled them. The bank now has at least twice the Table of Specifications count in every subtopic (about 200 questions per subject), with roughly the Board's 30/50/20 easy/moderate/difficult mix.
 
 | File | Items |
 |---|---|
-| `data/questions/CC.json` | Clinical Chemistry, 150 (20 lab math) |
-| `data/questions/MP.json` | Microbiology & Parasitology, 150 (2 lab math) |
-| `data/questions/CM.json` | Clinical Microscopy, 150 (15 lab math) |
-| `data/questions/HE.json` | Hematology, 100 (11 lab math) |
-| `data/questions/BB.json` | Blood Banking & Serology, 150 (7 lab math) |
-| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 100 (3 lab math) |
-| `data/visuals/*.json` | The visual explainers, 47 in all. How to write one: `data/visuals/README.md`. |
+| `data/questions/CC.json` | Clinical Chemistry, 201 (29 lab math) |
+| `data/questions/MP.json` | Microbiology & Parasitology, 201 (4 lab math) |
+| `data/questions/CM.json` | Clinical Microscopy, 203 (17 lab math) |
+| `data/questions/HE.json` | Hematology, 200 (27 lab math) |
+| `data/questions/BB.json` | Blood Banking & Serology, 204 (8 lab math) |
+| `data/questions/HL.json` | Histopath, MT Laws & Ethics, 200 (7 lab math) |
+| `data/visuals/*.json` | The visual explainers, 55 in all. How to write one: `data/visuals/README.md`. |
 | `data/images.json` + `data/morphology.json` | 46 CDC DPDx parasite images in 34 categories, plus identification notes. Image questions are built from these automatically. |
-| `data/tos.json` | The TOS: 6 subjects × 100 items, every topic and subtopic. Taken from a text extraction of the PRC PDF; still `"verified": false` until someone checks it against the PDF by eye. |
+| `data/tos.json` | The TOS: 6 subjects × 100 items, every topic and subtopic. Every topic and item count was checked against the Board's TOS document (October 2026), so it's marked `"verified": true`. |
 
-That's 846 questions (800 written, 46 image), enough for about 8 weeks of new questions at 15 a day. After that the daily session is reviews only, which is what the last months before the exam should mostly be anyway.
+That's 1,255 questions (1,209 written, 46 image), enough for about 12 weeks of new questions at 15 a day. After that the daily session is reviews only, which is what the last months before the exam should mostly be anyway.
 
 ### Adding or fixing a question
 

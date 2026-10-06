@@ -1,11 +1,12 @@
 /* Renders every step of every diagram to PNGs so you can check them by eye.
-   Usage (from the repo root, with a local server on port 8765: python3 -m http.server 8765):
+   Usage (from the repo root, with a local server, default port 8765: python3 -m http.server 8765; set PORT=… for another):
      node tools/render-visuals.js [subject-code or visual id] [out-dir]
    Needs Playwright. The site's Sheet connection is switched off for the render. */
 const { chromium } = require("playwright");
 const fs = require("fs");
 const only = process.argv[2] || "";
 const out = process.argv[3] || "visual-renders";
+const port = process.env.PORT || "8765";
 fs.mkdirSync(out, { recursive: true });
 (async () => {
   const codes = ["CC", "MP", "CM", "HE", "BB", "HL"];
@@ -20,7 +21,7 @@ fs.mkdirSync(out, { recursive: true });
     page.on("pageerror", (e) => errors.push(e.message));
     await page.route("**/assets/config.js*", (r) => r.fulfill({ contentType: "application/javascript", body: 'window.MT_CONFIG={apiUrl:"",examDate:"2027-03-01"};' }));
     for (const v of pick) {
-      await page.goto("http://localhost:8765/#/visual/" + v.id);
+      await page.goto("http://localhost:" + port + "/#/visual/" + v.id);
       await page.waitForSelector(".viz");
       await page.evaluate(() => document.documentElement.classList.add("no-anim"));
       for (let i = 0; i < v.steps.length; i++) {

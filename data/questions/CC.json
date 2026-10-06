@@ -3338,6 +3338,1158 @@
     "3": "Sulfate is present at very low concentration in plasma and is not the physiologic exchange partner for bicarbonate."
    },
    "ref": "Bishop 9e, ch. on blood gases, pH, and buffer systems (CO₂ transport)"
+  },
+  {
+   "id": "CC-0151",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An outpatient is told to open and close her hand repeatedly while the tourniquet stays on for about 3 minutes. Her serum potassium is 6.1 mmol/L with no visible hemolysis, a normal platelet count and a normal calcium. A specimen redrawn with a relaxed hand and a brief tourniquet time gives 4.3 mmol/L. What best explains the first result?",
+   "options": [
+    "Red cell rupture during transport that was too slight to see",
+    "Potassium released by forearm muscle during clenching",
+    "Carryover of K₂EDTA from a tube filled earlier in the draw",
+    "Potassium released from platelets while the specimen clotted"
+   ],
+   "answer": 1,
+   "why": "Repeated hand clenching with a tourniquet in place makes the forearm muscles release potassium into the local venous blood, and prolonged stasis adds to the effect. **Fist pumping can raise serum potassium by 1 to 2 mmol/L even without hemolysis.** The patient should keep the hand still, and the tourniquet should be released within about 1 minute.",
+   "whyNot": {
+    "0": "The specimen showed no hemolysis, and the redraw was normal with only the technique changed, which points to the collection maneuver rather than red cell damage.",
+    "2": "EDTA carryover would also lower calcium markedly, but the calcium was normal.",
+    "3": "Clotting-related potassium release is significant only with marked thrombocytosis, and the platelet count was normal."
+   },
+   "ref": "Bishop 9e, ch. on specimen collection and processing; CLSI GP41 (venipuncture)"
+  },
+  {
+   "id": "CC-0152",
+   "tos": "CC-A.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An outpatient's blood is drawn after she has been standing in line for 20 minutes. One week earlier, a specimen was drawn while she lay in a hospital bed. Which change in results is most likely due to posture alone?",
+   "options": [
+    "Sodium and potassium are about 10% higher in the standing specimen",
+    "Albumin and total calcium are about 10% lower in the standing specimen",
+    "Glucose and urea are about 10% higher in the standing specimen",
+    "Albumin and total calcium are about 10% higher in the standing specimen"
+   ],
+   "answer": 3,
+   "why": "When a person moves from lying to standing, water filters out of the blood vessels into the tissues, so large molecules that cannot follow it become more concentrated. **Proteins and protein-bound substances such as albumin, total calcium, cholesterol and enzymes rise by roughly 5% to 15% when upright.** Small freely diffusible solutes are hardly affected, so posture should be standardized for serial testing.",
+   "whyNot": {
+    "0": "Sodium and potassium are small ions that move with water across capillary walls, so their concentrations change very little with posture.",
+    "1": "The direction is reversed: lying down expands plasma volume and lowers protein-bound analytes, while standing raises them.",
+    "2": "Glucose and urea are small molecules that pass freely with water, so posture has little effect on them."
+   },
+   "ref": "Tietz Fundamentals 8e, ch. on preanalytical variables; Henry's 24e, ch. on preanalysis"
+  },
+  {
+   "id": "CC-0153",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A bag of normal saline is labeled 0.9% (w/v) sodium chloride. What is the NaCl concentration in mmol/L? (Molar mass of NaCl = 58.44 g/mol.)",
+   "options": [
+    "15.4 mmol/L",
+    "308 mmol/L",
+    "1,540 mmol/L",
+    "154 mmol/L"
+   ],
+   "answer": 3,
+   "why": "A w/v percentage means grams per 100 mL, so 0.9% is 0.9 g/100 mL, or 9 g/L. Dividing by the molar mass gives 9 ÷ 58.44 = 0.154 mol/L. **The solution contains 154 mmol/L of NaCl.**",
+   "whyNot": {
+    "0": "15.4 mmol/L results from treating 0.9% as 0.9 g per liter instead of 0.9 g per 100 mL.",
+    "1": "308 mmol/L is the approximate osmolarity, counting both Na⁺ and Cl⁻ particles, not the molar concentration of NaCl.",
+    "2": "1,540 mmol/L results from treating 0.9% as 9 g per 100 mL, a tenfold error."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (laboratory mathematics)",
+   "worked": {
+    "problem": "What is the molar concentration of a 5% (w/v) glucose solution? (Molar mass of glucose = 180 g/mol.)",
+    "steps": [
+     "5% (w/v) = 5 g per 100 mL = 50 g/L.",
+     "Moles per liter = 50 g/L ÷ 180 g/mol = 0.278 mol/L.",
+     "0.278 mol/L × 1,000 = 278 mmol/L."
+    ],
+    "result": "278 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0154",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A serum with a very high result is diluted in two steps. First, 1 volume of serum is mixed with 4 volumes of saline. Then 0.5 mL of this mixture is added to 4.5 mL of saline. The final tube reads 4.2 mg/dL. What is the concentration in the original serum?",
+   "options": [
+    "63 mg/dL",
+    "210 mg/dL",
+    "42 mg/dL",
+    "21 mg/dL"
+   ],
+   "answer": 1,
+   "why": "The first step is a 1/5 dilution (1 part in 1 + 4 = 5 total parts), and the second is a 1/10 dilution (0.5 mL in 0.5 + 4.5 = 5.0 mL). In serial dilutions the dilution factors are multiplied, giving 5 × 10 = 50. **The original serum contains 4.2 × 50 = 210 mg/dL.**",
+   "whyNot": {
+    "0": "63 mg/dL comes from adding the dilution factors (5 + 10 = 15) instead of multiplying them.",
+    "2": "42 mg/dL corrects only for the second (1/10) dilution and ignores the first.",
+    "3": "21 mg/dL corrects only for the first (1/5) dilution and ignores the second."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (dilutions)",
+   "worked": {
+    "problem": "A specimen is diluted 1 mL in 4 mL total, then 1 mL of that is diluted to 8 mL total. The final reading is 3.5 mmol/L. What is the original concentration?",
+    "steps": [
+     "First dilution factor = 4 ÷ 1 = 4; second dilution factor = 8 ÷ 1 = 8.",
+     "Total dilution factor = 4 × 8 = 32.",
+     "Original concentration = 3.5 mmol/L × 32 = 112 mmol/L."
+    ],
+    "result": "112 mmol/L"
+   }
+  },
+  {
+   "id": "CC-0155",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "easy",
+   "stem": "A laboratory needs 500 mL of 70% (v/v) ethanol for disinfecting work surfaces, and only 95% (v/v) ethanol is on the shelf. How much 95% ethanol is needed before adding water up to 500 mL?",
+   "options": [
+    "679 mL",
+    "132 mL",
+    "350 mL",
+    "368 mL"
+   ],
+   "answer": 3,
+   "why": "Use C₁V₁ = C₂V₂ with C₁ = 95%, C₂ = 70% and V₂ = 500 mL. V₁ = (70 × 500) ÷ 95 = 368 mL. **Measure about 368 mL of 95% ethanol and add water to a final volume of 500 mL.**",
+   "whyNot": {
+    "0": "679 mL comes from inverting the ratio (95 × 500 ÷ 70), which would need more stock than the final volume.",
+    "1": "132 mL is roughly the amount of water added (500 − 368), not the volume of stock.",
+    "2": "350 mL is 70% of 500 mL, which would only be right if the stock were 100% ethanol."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (laboratory mathematics)",
+   "worked": {
+    "problem": "How much 99% (v/v) isopropyl alcohol is needed to prepare 1,000 mL of 70% (v/v) isopropyl alcohol?",
+    "steps": [
+     "C₁V₁ = C₂V₂, so V₁ = C₂V₂ ÷ C₁.",
+     "V₁ = (70 × 1,000 mL) ÷ 99 = 707 mL.",
+     "Dilute 707 mL of 99% alcohol with water to a final volume of 1,000 mL."
+    ],
+    "result": "707 mL"
+   }
+  },
+  {
+   "id": "CC-0156",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "Concentrated hydrochloric acid is labeled 37% HCl (w/w) with a specific gravity of 1.19. What volume of the concentrated acid is needed to prepare 500 mL of 1.0 mol/L HCl? (Molar mass of HCl = 36.46 g/mol.)",
+   "options": [
+    "49 mL",
+    "15 mL",
+    "41 mL",
+    "414 mL"
+   ],
+   "answer": 2,
+   "why": "One liter of the concentrated acid weighs 1.19 × 1,000 = 1,190 g, of which 37% (440 g) is HCl, so its molarity is 440 ÷ 36.46 = 12.1 mol/L. Then C₁V₁ = C₂V₂ gives V₁ = (1.0 × 500) ÷ 12.1. **About 41 mL of concentrated HCl, added to water and brought to 500 mL, gives 1.0 mol/L HCl.**",
+   "whyNot": {
+    "0": "49 mL comes from ignoring the specific gravity, which gives a molarity of only 10.1 mol/L.",
+    "1": "15 mL comes from ignoring the 37% purity and treating the whole 1,190 g per liter as HCl.",
+    "3": "414 mL is a tenfold decimal error in the final step."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (concentrated reagents and specific gravity)",
+   "worked": {
+    "problem": "Concentrated sulfuric acid is 96% H₂SO₄ (w/w) with a specific gravity of 1.84. How much is needed to make 1 L of 0.50 mol/L H₂SO₄? (Molar mass = 98.08 g/mol.)",
+    "steps": [
+     "Mass of H₂SO₄ per liter of stock = 1.84 × 1,000 g × 0.96 = 1,766 g.",
+     "Molarity of stock = 1,766 g ÷ 98.08 g/mol = 18.0 mol/L.",
+     "V₁ = (0.50 mol/L × 1,000 mL) ÷ 18.0 mol/L = 27.8 mL, added to water and diluted to 1 L."
+    ],
+    "result": "27.8 mL"
+   }
+  },
+  {
+   "id": "CC-0157",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A serum total calcium is 9.0 mg/dL. Express this result in mmol/L and in mEq/L. (Atomic mass of calcium = 40.08; valence = 2.)",
+   "options": [
+    "4.5 mmol/L; 2.25 mEq/L",
+    "0.22 mmol/L; 0.45 mEq/L",
+    "2.25 mmol/L; 1.1 mEq/L",
+    "2.25 mmol/L; 4.5 mEq/L"
+   ],
+   "answer": 3,
+   "why": "First convert mg/dL to mg/L by multiplying by 10 (90 mg/L), then divide by the atomic mass: 90 ÷ 40.08 = 2.25 mmol/L. Because each calcium ion carries two charges, mEq/L = mmol/L × valence. **The result is 2.25 mmol/L, or 4.5 mEq/L.**",
+   "whyNot": {
+    "0": "The two values are swapped: for a divalent ion, mEq/L is twice the mmol/L value, not half.",
+    "1": "These values omit the factor of 10 needed to convert mg per deciliter to mg per liter.",
+    "2": "1.1 mEq/L divides by the valence instead of multiplying by it."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (unit conversions); Tietz Fundamentals 8e, SI units",
+   "worked": {
+    "problem": "Convert a serum magnesium of 2.4 mg/dL to mmol/L and mEq/L. (Atomic mass of Mg = 24.31; valence = 2.)",
+    "steps": [
+     "2.4 mg/dL × 10 = 24 mg/L.",
+     "24 mg/L ÷ 24.31 mg/mmol = 0.99 mmol/L.",
+     "0.99 mmol/L × 2 = 1.97 mEq/L."
+    ],
+    "result": "0.99 mmol/L; about 2.0 mEq/L"
+   }
+  },
+  {
+   "id": "CC-0158",
+   "tos": "CC-A.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "How many grams of anhydrous sodium carbonate (Na₂CO₃, molar mass 105.99 g/mol) are needed to prepare 250 mL of a 0.200 N solution for an acid–base titration?",
+   "options": [
+    "5.30 g",
+    "1.33 g",
+    "2.65 g",
+    "10.6 g"
+   ],
+   "answer": 2,
+   "why": "Sodium carbonate can neutralize two hydrogen ions, so its equivalent weight is 105.99 ÷ 2 = 53.0 g/Eq. Grams = normality × volume (L) × equivalent weight = 0.200 × 0.250 × 53.0. **Weigh 2.65 g of Na₂CO₃ and dilute to 250 mL.**",
+   "whyNot": {
+    "0": "5.30 g uses the molar mass instead of the equivalent weight, which is the amount for a 0.200 mol/L (0.400 N) solution.",
+    "1": "1.33 g divides the molar mass by 4; carbonate has only two reactive equivalents per mole.",
+    "3": "10.6 g is the amount for a full liter; the 0.250-L volume was not applied."
+   },
+   "ref": "Bishop 9e, ch. on basic principles and practice (normality and equivalent weight)",
+   "worked": {
+    "problem": "How many grams of CaCl₂ (molar mass 110.98 g/mol) are needed for 500 mL of a 0.100 N solution?",
+    "steps": [
+     "Calcium is divalent, so equivalent weight = 110.98 ÷ 2 = 55.49 g/Eq.",
+     "Equivalents needed = 0.100 Eq/L × 0.500 L = 0.0500 Eq.",
+     "Grams = 0.0500 Eq × 55.49 g/Eq = 2.77 g."
+    ],
+    "result": "2.77 g"
+   }
+  },
+  {
+   "id": "CC-0159",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In a two-level glucose run, the high control reads +3.4 SD from its mean and the low control is within 1 SD. Which interpretation is correct under Westgard multirules?",
+   "options": [
+    "1₃ₛ violation; reject the run, most likely random error",
+    "1₂ₛ warning only; accept the run and report results",
+    "2₂ₛ violation; reject the run, most likely systematic error",
+    "R₄ₛ violation; reject the run, most likely random error"
+   ],
+   "answer": 0,
+   "why": "A single control value beyond 3 SD of its mean breaks the 1₃ₛ rule. **A 1₃ₛ violation is a rejection rule that usually points to random error**, although a very large systematic error can also cause it. Patient results should be held while the cause is found and corrected.",
+   "whyNot": {
+    "1": "The 1₂ₛ rule is the warning that triggers inspection, but a value beyond 3 SD is itself a rejection, not just a warning.",
+    "2": "The 2₂ₛ rule requires two control values beyond the same 2 SD limit; here only one control is outside.",
+    "3": "R₄ₛ needs one control above +2 SD and another below −2 SD in the same run; the low control is within 1 SD."
+   },
+   "ref": "Westgard, Basic QC Practices (multirule QC); Bishop 9e, ch. on quality control"
+  },
+  {
+   "id": "CC-0160",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A cholesterol control gives these values on four consecutive runs: +1.3 SD, +1.6 SD, +1.2 SD and +1.8 SD. No value exceeds 2 SD. How should these results be interpreted?",
+   "options": [
+    "4₁ₛ violation, indicating systematic error",
+    "1₂ₛ warning, indicating random error",
+    "10x̄ violation, indicating random error",
+    "No rule violated, so the run is in control"
+   ],
+   "answer": 0,
+   "why": "The 4₁ₛ rule is broken when four consecutive control values fall beyond 1 SD on the same side of the mean. **This pattern indicates a small systematic error (bias), such as a calibration or reagent problem.** The run is rejected under a multirule scheme and the cause investigated before reporting.",
+   "whyNot": {
+    "1": "The 1₂ₛ warning needs a value beyond 2 SD, and none of these values exceeds 2 SD.",
+    "2": "The 10x̄ rule needs ten consecutive values on one side of the mean, and it also signals systematic, not random, error.",
+    "3": "Four consecutive values beyond the same 1 SD limit do break a Westgard rule even though each value alone looks acceptable."
+   },
+   "ref": "Westgard, Basic QC Practices (multirule QC); Bishop 9e, ch. on quality control"
+  },
+  {
+   "id": "CC-0161",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "On a Levey–Jennings chart for an ALT assay, both control levels move abruptly to about +1.5 SD on the day a new reagent lot is put into use and stay at that level for the next 10 runs. Which description fits this pattern?",
+   "options": [
+    "A trend, most likely from gradual reagent deterioration",
+    "Random error, most likely from a bubble in the sample probe",
+    "A shift, most likely from the change in reagent lot",
+    "Increased dispersion, most likely from an unstable power supply"
+   ],
+   "answer": 2,
+   "why": "A shift is a sudden change in the control mean that then persists at the new level. **Abrupt shifts are typical of a single event such as a new reagent or calibrator lot, a recalibration or a component change.** A trend, by contrast, drifts steadily in one direction over several days.",
+   "whyNot": {
+    "0": "A trend moves progressively in one direction over time; here the values jumped at once and then stayed level.",
+    "1": "A probe bubble produces an isolated outlying value, not a sustained change in both control levels.",
+    "3": "Increased dispersion widens the scatter around the mean, whereas these values clustered tightly at a new level."
+   },
+   "ref": "Bishop 9e, ch. on quality control (Levey–Jennings interpretation); Westgard, Basic QC Practices"
+  },
+  {
+   "id": "CC-0162",
+   "tos": "CC-B.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A new cardiac marker assay is tested on 400 patients. Of 100 patients with confirmed myocardial infarction, 88 test positive. Of 300 patients without infarction, 15 test positive. What is the diagnostic specificity of the assay?",
+   "options": [
+    "95.0%",
+    "88.0%",
+    "85.4%",
+    "96.0%"
+   ],
+   "answer": 0,
+   "why": "Specificity is the proportion of people without the disease who test negative: TN ÷ (TN + FP). Here TN = 300 − 15 = 285 and FP = 15, so specificity = 285 ÷ 300. **The specificity is 95.0%.**",
+   "whyNot": {
+    "1": "88.0% is the sensitivity (88 true positives ÷ 100 diseased patients).",
+    "2": "85.4% is the positive predictive value (88 ÷ 103 positive results).",
+    "3": "96.0% is the negative predictive value (285 ÷ 297 negative results)."
+   },
+   "ref": "Bishop 9e, ch. on method evaluation (diagnostic accuracy); Henry's 24e, ch. on interpreting laboratory results",
+   "worked": {
+    "problem": "A test is positive in 45 of 50 diseased patients and in 12 of 150 healthy patients. What is its specificity?",
+    "steps": [
+     "True negatives = 150 − 12 = 138; false positives = 12.",
+     "Specificity = TN ÷ (TN + FP) = 138 ÷ 150.",
+     "138 ÷ 150 = 0.92."
+    ],
+    "result": "92%"
+   }
+  },
+  {
+   "id": "CC-0163",
+   "tos": "CC-B.1",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A screening test has a sensitivity of 95% and a specificity of 90%. It is used on 10,000 people in a population where the disease prevalence is 2%. What is the positive predictive value?",
+   "options": [
+    "16.2%",
+    "95.0%",
+    "90.0%",
+    "99.9%"
+   ],
+   "answer": 0,
+   "why": "With 2% prevalence, 200 people have the disease and 9,800 do not. True positives = 0.95 × 200 = 190, and false positives = 0.10 × 9,800 = 980. **PPV = 190 ÷ (190 + 980) = 16.2%, because at low prevalence false positives far outnumber true positives.**",
+   "whyNot": {
+    "1": "95.0% is the sensitivity, which does not depend on prevalence and is not the chance that a positive result is correct.",
+    "2": "90.0% is the specificity, the proportion of disease-free people who test negative.",
+    "3": "99.9% is the negative predictive value (8,820 ÷ 8,830), which is high when the disease is rare."
+   },
+   "ref": "Bishop 9e, ch. on method evaluation (predictive values); Henry's 24e, ch. on interpreting laboratory results",
+   "worked": {
+    "problem": "A test with 90% sensitivity and 95% specificity is used on 1,000 people with a 10% disease prevalence. What is the PPV?",
+    "steps": [
+     "Diseased = 100; non-diseased = 900.",
+     "True positives = 0.90 × 100 = 90; false positives = 0.05 × 900 = 45.",
+     "PPV = 90 ÷ (90 + 45) = 0.667."
+    ],
+    "result": "66.7%"
+   }
+  },
+  {
+   "id": "CC-0164",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A newborn screening program tests for a serious metabolic disorder that is treatable if found early. Every positive screen is followed by a confirmatory test. Which characteristic matters most for the screening test?",
+   "options": [
+    "High diagnostic specificity",
+    "High diagnostic sensitivity",
+    "High positive predictive value",
+    "High analytical precision"
+   ],
+   "answer": 1,
+   "why": "A screening test for a serious, treatable condition must miss as few affected infants as possible. **High sensitivity keeps false negatives to a minimum**, and the false positives it allows are sorted out by the confirmatory test.",
+   "whyNot": {
+    "0": "High specificity limits false positives, which matters more for a confirmatory test than for a screen where missed cases are the main danger.",
+    "2": "Positive predictive value depends heavily on prevalence and is usually low for rare disorders, whatever the test design.",
+    "3": "Good precision is needed for any assay, but it does not by itself ensure that affected infants are detected."
+   },
+   "ref": "Henry's 24e, ch. on interpreting laboratory results; Bishop 9e, ch. on method evaluation"
+  },
+  {
+   "id": "CC-0165",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a comparison-of-methods study for glucose, regression of the new method (y) against the current method (x) gives y = 0.99x + 6.5 mg/dL with r = 0.995. Which type of error does the new method mainly show?",
+   "options": [
+    "A bias proportional to concentration",
+    "A constant bias across the range",
+    "Mainly random imprecision",
+    "No error of practical importance"
+   ],
+   "answer": 1,
+   "why": "In method comparison, the y-intercept reflects error that is the same at every concentration, while the slope reflects error that grows with concentration. **A slope close to 1.00 with an intercept of +6.5 mg/dL indicates a constant systematic error.** A constant bias often comes from an interfering substance or a blanking problem.",
+   "whyNot": {
+    "0": "A proportional bias appears as a slope that differs from 1.00; here the slope is 0.99, essentially ideal.",
+    "2": "Random imprecision is shown by scatter about the regression line (standard error of the estimate), and the high r suggests little scatter.",
+    "3": "An intercept of 6.5 mg/dL means every result runs about 6.5 mg/dL high, which can matter clinically at decision levels."
+   },
+   "ref": "Westgard, Basic Method Validation (comparison of methods); Bishop 9e, ch. on method evaluation"
+  },
+  {
+   "id": "CC-0166",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A laboratory process performing at a Six Sigma level produces about how many defects per million opportunities?",
+   "options": [
+    "233",
+    "6,210",
+    "3.4",
+    "66,807"
+   ],
+   "answer": 2,
+   "why": "Sigma metrics express process quality as the number of standard deviations that fit within the tolerance limit. **World-class Six Sigma performance corresponds to about 3.4 defects per million opportunities.** Lower sigma levels produce many more defects.",
+   "whyNot": {
+    "0": "About 233 defects per million corresponds to a five sigma process.",
+    "1": "About 6,210 defects per million corresponds to a four sigma process.",
+    "3": "About 66,807 defects per million corresponds to a three sigma process, the usual minimum for routine use."
+   },
+   "ref": "Westgard, Six Sigma QC Design and Control; Bishop 9e, ch. on quality management"
+  },
+  {
+   "id": "CC-0167",
+   "tos": "CC-B.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A sodium assay has a sigma metric of 2.9, and a creatinine assay on the same analyzer has a sigma metric of 6.4. Which statement about QC design for these assays is correct?",
+   "options": [
+    "The sodium assay can be controlled with a single 1₃ₛ rule and two control levels per run",
+    "The creatinine assay can be controlled with a single 1₃ₛ rule and two control levels per run",
+    "Both assays need the full multirule with four control levels, because sigma does not affect QC design",
+    "The creatinine assay needs no routine QC, because its sigma metric is above 6"
+   ],
+   "answer": 1,
+   "why": "The sigma metric tells how much error a method can have before results exceed the allowable total error. **A method at or above about 6 sigma can be monitored with a simple rule such as 1₃ₛ and two controls per run, while a method below 3 sigma is hard to control even with multirules.** The sodium method needs the most QC effort and, ideally, method improvement.",
+   "whyNot": {
+    "0": "A 2.9-sigma method needs multirule QC with more controls and frequent runs, and even then may not catch medically important errors reliably.",
+    "2": "Sigma-based QC design matches the rules and number of controls to method performance, so high-sigma and low-sigma assays should not be treated alike.",
+    "3": "Every assay needs routine QC; a high sigma permits simpler rules and fewer controls, not their removal."
+   },
+   "ref": "Westgard, Six Sigma QC Design and Control (Westgard Sigma Rules); CLSI C24"
+  },
+  {
+   "id": "CC-0168",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The white (bottom) quadrant of an NFPA 704 label on a container of metallic sodium shows the letter W with a line through it. What does this symbol warn?",
+   "options": [
+    "The material is a strong oxidizer",
+    "The material reacts dangerously with water",
+    "The material is radioactive",
+    "The material is a simple asphyxiant gas"
+   ],
+   "answer": 1,
+   "why": "The white quadrant of the NFPA 704 diamond is reserved for special hazards. **A W with a line through it means the substance reacts with water, so water must not be used on it or near it.** Alkali metals such as sodium and potassium release flammable hydrogen when wet.",
+   "whyNot": {
+    "0": "Oxidizers are marked OX in the white quadrant.",
+    "2": "Radioactive materials use the radiation trefoil symbol, not a crossed W.",
+    "3": "Simple asphyxiant gases are marked SA in the white quadrant."
+   },
+   "ref": "NFPA 704 (Standard System for the Identification of the Hazards of Materials); Bishop 9e, ch. on laboratory safety"
+  },
+  {
+   "id": "CC-0169",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist discovers a small fire in a hospital laboratory room where a phlebotomy patient is seated near the door. Following the RACE sequence, what should be done first?",
+   "options": [
+    "Pull the nearest fire alarm",
+    "Close the doors to contain the fire",
+    "Move the patient out of immediate danger",
+    "Use the nearest extinguisher on the fire"
+   ],
+   "answer": 2,
+   "why": "RACE stands for Rescue, Alarm, Contain and Extinguish, in that order. **Rescuing anyone in immediate danger comes first**, followed by sounding the alarm, confining the fire by closing doors, and then extinguishing it only if it is small and safe to fight.",
+   "whyNot": {
+    "0": "Activating the alarm is the second step, done right after people in immediate danger are moved.",
+    "1": "Containing the fire is the third step and must not trap a person inside the room.",
+    "3": "Extinguishing is the last step and is attempted only after people are safe and the alarm is raised."
+   },
+   "ref": "Henry's 24e, ch. on laboratory safety; Bishop 9e, ch. on laboratory safety"
+  },
+  {
+   "id": "CC-0170",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "About 50 mL of concentrated hydrochloric acid spills on a laboratory bench. Wearing gloves and eye protection, what is the best way to deal with the spill?",
+   "options": [
+    "Flood it with a large volume of water and mop it up",
+    "Cover it with sodium bicarbonate or an acid-spill kit, then wipe up",
+    "Sprinkle sodium hydroxide pellets on it to neutralize it fast",
+    "Soak it up with paper towels and discard them in the trash"
+   ],
+   "answer": 1,
+   "why": "Acid spills should be contained and neutralized with a weak base before cleanup. **Sodium bicarbonate or a commercial acid neutralizer makes the spill safe to wipe up without violent heat release.** The residue is then removed and discarded according to the safety data sheet.",
+   "whyNot": {
+    "0": "Flooding with water spreads the acid over a wider area and can splash it before it is neutralized.",
+    "2": "A strong base such as sodium hydroxide reacts violently and releases a lot of heat, which can cause spattering and burns.",
+    "3": "Paper towels do not neutralize the acid and leave a corrosive hazard in ordinary trash."
+   },
+   "ref": "Bishop 9e, ch. on laboratory safety (chemical spills); CLSI GP17 (clinical laboratory safety)"
+  },
+  {
+   "id": "CC-0171",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "While disposing of a used phlebotomy needle, a technologist sticks her finger. What should she do immediately?",
+   "options": [
+    "Squeeze the wound and soak it in bleach, then report it",
+    "Finish the task first, then report it at the end of the shift",
+    "Wash the site with soap and water, then report it at once",
+    "Wipe the site with alcohol and report only if symptoms appear"
+   ],
+   "answer": 2,
+   "why": "After a percutaneous exposure, the wound should be washed promptly with soap and water. **The exposure must then be reported right away so that source testing and post-exposure prophylaxis, if needed, can start without delay.** HIV prophylaxis works best when begun within hours.",
+   "whyNot": {
+    "0": "Squeezing the wound has no proven benefit, and caustic agents such as bleach damage tissue and are not recommended.",
+    "1": "Delaying the report can push post-exposure prophylaxis beyond the period in which it is most effective.",
+    "3": "Infection after exposure is often silent at first, so waiting for symptoms means losing the chance for prophylaxis."
+   },
+   "ref": "CDC Updated U.S. Public Health Service Guidelines for occupational exposures; OSHA Bloodborne Pathogens Standard 29 CFR 1910.1030"
+  },
+  {
+   "id": "CC-0172",
+   "tos": "CC-B.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A coworker collapses while still holding a frayed power cord attached to a running centrifuge. What should be done first?",
+   "options": [
+    "Switch off or unplug the power source before touching him",
+    "Pull him away from the cord by grasping his arm",
+    "Start chest compressions while he is still holding the cord",
+    "Pour water on the centrifuge to stop it running"
+   ],
+   "answer": 0,
+   "why": "A person in contact with a live electrical source can pass the current to anyone who touches him. **The first step is to cut the power at the switch, plug or breaker, or push the cord away with a nonconductive object.** Only then is it safe to touch the victim, call for help and begin CPR if needed.",
+   "whyNot": {
+    "1": "Touching the victim while he is still energized lets the current flow through the rescuer as well.",
+    "2": "CPR is started only after the victim is free from the electrical source, or the rescuer is also shocked.",
+    "3": "Water conducts electricity and greatly increases the risk of further shock."
+   },
+   "ref": "Henry's 24e, ch. on laboratory safety (electrical hazards); CLSI GP17"
+  },
+  {
+   "id": "CC-0173",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient in hyperosmolar hyperglycemic state has plasma glucose 900 mg/dL and sodium 128 mmol/L measured by direct ion-selective electrode. Lipids and proteins are normal. Which statement best explains the low sodium?",
+   "options": [
+    "Glucose draws water out of cells, diluting the sodium while osmolality is high",
+    "Excess solute displaces plasma water, so the sodium result is an analytic artifact",
+    "Inappropriate ADH secretion retains free water, so osmolality is low",
+    "Sodium is lost in the urine, which is the main cause of the low result"
+   ],
+   "answer": 0,
+   "why": "Glucose stays mostly outside cells when insulin is lacking, so high extracellular glucose pulls water out of cells and dilutes the sodium. **This is a hypertonic (translocational) hyponatremia: the sodium is truly low but the measured osmolality is high.** A common correction adds about 1.6 mmol/L of sodium for each 100 mg/dL of glucose above 100 mg/dL; some authors use about 2.4 mmol/L, especially at very high glucose.",
+   "whyNot": {
+    "1": "Pseudohyponatremia from displaced plasma water is caused by severe hyperlipidemia or hyperproteinemia, and it does not affect a direct electrode.",
+    "2": "SIADH causes a hypotonic hyponatremia with low serum osmolality, whereas this patient's osmolality is high from glucose.",
+    "3": "Osmotic diuresis does cause sodium loss, but the immediate fall in measured sodium is mainly due to water shifting out of cells."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (sodium); Tietz Fundamentals 8e, ch. on electrolytes"
+  },
+  {
+   "id": "CC-0174",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An infant has poor weight gain, bulky fatty stools and recurrent chest infections. Which test procedure and result best support a diagnosis of cystic fibrosis?",
+   "options": [
+    "Pilocarpine iontophoresis; sweat chloride 20 mmol/L",
+    "Secretin stimulation; sweat chloride 75 mmol/L",
+    "Pilocarpine iontophoresis; sweat chloride 75 mmol/L",
+    "Atropine iontophoresis; sweat chloride 75 mmol/L"
+   ],
+   "answer": 2,
+   "why": "Sweat is induced by delivering pilocarpine into the skin with a small electric current, then collected and analyzed for chloride. **A sweat chloride of 60 mmol/L or more is consistent with cystic fibrosis**, while 29 mmol/L or less makes it unlikely. Values in between are intermediate and need further testing.",
+   "whyNot": {
+    "0": "A sweat chloride of 20 mmol/L is in the range where cystic fibrosis is unlikely.",
+    "1": "Secretin stimulates pancreatic secretion and is used in pancreatic function testing, not to induce sweating.",
+    "3": "Atropine blocks sweat secretion; pilocarpine is the cholinergic drug used to stimulate it."
+   },
+   "ref": "CLSI C34 (sweat testing); Bishop 9e, ch. on electrolytes (chloride)"
+  },
+  {
+   "id": "CC-0175",
+   "tos": "CC-C.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "After a head injury, a patient passes about 6 L of urine a day. Serum sodium is 152 mmol/L, serum osmolality 312 mOsm/kg and urine osmolality 110 mOsm/kg. Glucose is normal. After a dose of desmopressin, urine osmolality rises to 480 mOsm/kg. Which condition is most likely?",
+   "options": [
+    "Central diabetes insipidus",
+    "Nephrogenic diabetes insipidus",
+    "Primary polydipsia",
+    "Osmotic diuresis"
+   ],
+   "answer": 0,
+   "why": "Dilute urine despite a high serum sodium and osmolality means the kidney is not concentrating urine, which points to a lack of ADH action. **A sharp rise in urine osmolality after desmopressin shows the kidneys can respond to ADH, so the defect is deficient pituitary ADH release (central diabetes insipidus).** Head trauma that damages the posterior pituitary or hypothalamus is a classic cause.",
+   "whyNot": {
+    "1": "In nephrogenic diabetes insipidus the kidneys do not respond to ADH, so desmopressin produces little or no rise in urine osmolality.",
+    "2": "Primary polydipsia dilutes the plasma, giving a low-normal sodium and osmolality rather than hypernatremia.",
+    "3": "Osmotic diuresis from glucose or other solutes produces urine with an osmolality near or above plasma, not 110 mOsm/kg, and glucose is normal here."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes and water balance; Tietz Fundamentals 8e, ch. on pituitary function"
+  },
+  {
+   "id": "CC-0176",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with chronic alcohol use disorder has a low total and ionized calcium that does not stay corrected despite repeated intravenous calcium. Albumin is normal, PTH is inappropriately low, and serum magnesium is 0.8 mg/dL (reference 1.7–2.4 mg/dL). What best explains the persistent hypocalcemia?",
+   "options": [
+    "Low magnesium impairs PTH secretion and blunts PTH action on its targets",
+    "Low magnesium increases calcium binding to albumin, lowering ionized calcium",
+    "Low magnesium interferes with the calcium assay and gives a false result",
+    "Low magnesium stimulates calcitonin release, which drives calcium into bone"
+   ],
+   "answer": 0,
+   "why": "Magnesium is needed both for the parathyroid glands to release PTH and for target tissues to respond to it. **Severe hypomagnesemia causes a functional hypoparathyroidism, so hypocalcemia will not correct until magnesium is replaced.** Hypokalemia that resists treatment likewise corrects only after magnesium is replaced.",
+   "whyNot": {
+    "1": "Calcium binding to albumin is changed mainly by blood pH, not by magnesium, and the ionized calcium here is truly low.",
+    "2": "Both total and ionized calcium are low and the clinical picture is real, so this is not an analytic artifact.",
+    "3": "Calcitonin has only a minor role in human calcium balance and is not the mechanism linking low magnesium to hypocalcemia."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (magnesium); Tietz Fundamentals 8e, ch. on bone and mineral metabolism"
+  },
+  {
+   "id": "CC-0177",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An anxious patient hyperventilates in the emergency department and develops tingling around the mouth and spasms of the hands. Total serum calcium and albumin are normal, and an arterial pH is 7.56. What explains the symptoms?",
+   "options": [
+    "Alkalosis releases calcium from albumin, raising the ionized calcium",
+    "Alkalosis lowers the albumin concentration, lowering the total calcium",
+    "Alkalosis increases urinary calcium loss, lowering the total calcium",
+    "Alkalosis increases calcium binding to albumin, lowering the ionized calcium"
+   ],
+   "answer": 3,
+   "why": "When hydrogen ions fall, albumin gives up hydrogen ions and binds more calcium in their place. **In alkalosis, ionized calcium falls even though total calcium is unchanged**, and the drop in free calcium increases neuromuscular excitability. The same effect makes an iCa specimen exposed to air (losing CO₂ and rising in pH) read falsely low.",
+   "whyNot": {
+    "0": "The direction is reversed: acidosis releases calcium from albumin, while alkalosis binds more of it.",
+    "1": "Albumin concentration is normal and is not changed by pH; only its calcium-binding is.",
+    "2": "The total calcium is normal, and an acute change in urinary loss does not explain symptoms that begin within minutes of hyperventilation."
+   },
+   "ref": "Bishop 9e, ch. on electrolytes (calcium); Tietz Fundamentals 8e, ch. on bone and mineral metabolism"
+  },
+  {
+   "id": "CC-0178",
+   "tos": "CC-C.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 48-year-old man has diabetes, darkened skin and a mildly increased ALT. Serum iron is 230 µg/dL, TIBC 260 µg/dL, transferrin saturation 88%, and ferritin 1,900 ng/mL. Which condition best fits?",
+   "options": [
+    "Iron deficiency anemia",
+    "Hereditary hemochromatosis",
+    "Anemia of chronic inflammation",
+    "β-Thalassemia minor"
+   ],
+   "answer": 1,
+   "why": "Hemochromatosis causes excessive intestinal iron absorption, which saturates transferrin and deposits iron in the liver, pancreas, skin and heart. **A transferrin saturation well above 45% with a markedly raised ferritin is the typical laboratory pattern.** Most hereditary cases involve mutations in the HFE gene.",
+   "whyNot": {
+    "0": "Iron deficiency shows low serum iron, high TIBC, low transferrin saturation and low ferritin, the opposite of this pattern.",
+    "2": "Anemia of chronic inflammation has low serum iron, low TIBC and low saturation, with ferritin that is normal or increased.",
+    "3": "β-Thalassemia minor usually has normal iron studies, and it would not cause diabetes and skin darkening."
+   },
+   "ref": "Bishop 9e, ch. on iron and porphyrins; Henry's 24e, ch. on iron metabolism"
+  },
+  {
+   "id": "CC-0179",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A pregnant woman at 26 weeks has a one-step 75-g oral glucose tolerance test. Her plasma glucose values are: fasting 88 mg/dL, 1 hour 192 mg/dL and 2 hours 140 mg/dL. The diagnostic thresholds are fasting ≥92, 1 hour ≥180 and 2 hours ≥153 mg/dL. How should the result be interpreted?",
+   "options": [
+    "No gestational diabetes, because at least two values must be abnormal",
+    "No gestational diabetes, because the fasting value is normal",
+    "Inconclusive, so a 50-g glucose challenge test is needed next",
+    "Gestational diabetes, because one value meets its threshold"
+   ],
+   "answer": 3,
+   "why": "In the one-step 75-g approach, the diagnosis is made when any single glucose value meets or exceeds its threshold. **The 1-hour value of 192 mg/dL is above 180 mg/dL, so gestational diabetes is diagnosed.** The rule requiring two abnormal values belongs to the two-step method with a 100-g load.",
+   "whyNot": {
+    "0": "Two abnormal values are required only in the two-step 100-g test, not in the one-step 75-g test.",
+    "1": "A normal fasting glucose does not exclude the diagnosis; any one of the three values is enough.",
+    "2": "The 50-g challenge is the first step of the two-step approach and is not used after a diagnostic one-step test."
+   },
+   "ref": "ADA Standards of Care in Diabetes, Classification and Diagnosis; Bishop 9e, ch. on carbohydrates"
+  },
+  {
+   "id": "CC-0180",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A whole-blood glucose meter and a laboratory plasma glucose are compared on the same specimen. Assuming a normal hematocrit and no analytic error, how do the results usually compare?",
+   "options": [
+    "Whole blood is about 10–15% higher, because red cells store glucose",
+    "The results are the same, because glucose crosses red cell membranes freely",
+    "Plasma is about 10–15% higher, because red cells contain less water",
+    "Plasma is about 10–15% lower, because red cells release glucose after collection"
+   ],
+   "answer": 2,
+   "why": "Glucose is dissolved in the water of the specimen, and plasma contains more water than red cells do. **Plasma glucose is therefore about 10% to 15% higher than whole-blood glucose at a normal hematocrit.** For this reason most meters are calibrated to report plasma-equivalent values.",
+   "whyNot": {
+    "0": "Red cells do not store glucose; they contain less water, so whole blood reads lower, not higher.",
+    "1": "Glucose does cross red cell membranes, but the lower water content of the cells still makes whole-blood values lower.",
+    "3": "Red cells consume glucose after collection rather than releasing it, and plasma reads higher, not lower."
+   },
+   "ref": "Bishop 9e, ch. on carbohydrates (specimen considerations); Tietz Fundamentals 8e, ch. on carbohydrates"
+  },
+  {
+   "id": "CC-0181",
+   "tos": "CC-C.3",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A patient's hemoglobin A1c is 8.0%. Using the formula estimated average glucose (eAG, mg/dL) = 28.7 × A1c − 46.7, what is the eAG?",
+   "options": [
+    "230 mg/dL",
+    "183 mg/dL",
+    "136 mg/dL",
+    "276 mg/dL"
+   ],
+   "answer": 1,
+   "why": "Multiply the A1c by 28.7 and subtract 46.7: 28.7 × 8.0 = 229.6, and 229.6 − 46.7 = 182.9. **The estimated average glucose is about 183 mg/dL (about 10.2 mmol/L).** Reporting eAG helps patients relate A1c to their daily glucose readings.",
+   "whyNot": {
+    "0": "230 mg/dL leaves out the subtraction of 46.7.",
+    "2": "136 mg/dL subtracts 46.7 twice.",
+    "3": "276 mg/dL adds 46.7 instead of subtracting it."
+   },
+   "ref": "ADA Standards of Care in Diabetes (A1c and eAG); Bishop 9e, ch. on carbohydrates",
+   "worked": {
+    "problem": "What is the eAG for an A1c of 6.5%? Give the answer in mg/dL and mmol/L.",
+    "steps": [
+     "eAG = 28.7 × 6.5 − 46.7.",
+     "28.7 × 6.5 = 186.6; 186.6 − 46.7 = 139.9 mg/dL.",
+     "139.9 mg/dL ÷ 18.0 = 7.8 mmol/L."
+    ],
+    "result": "About 140 mg/dL (7.8 mmol/L)"
+   }
+  },
+  {
+   "id": "CC-0182",
+   "tos": "CC-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A lean 19-year-old has new-onset thirst, weight loss and a fasting plasma glucose of 260 mg/dL. Which laboratory finding would best support autoimmune (type 1) diabetes?",
+   "options": [
+    "Hemoglobin A1c of 10.5%",
+    "Increased fasting C-peptide",
+    "Increased urine albumin-to-creatinine ratio",
+    "Positive GAD65 autoantibodies"
+   ],
+   "answer": 3,
+   "why": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells. **Autoantibodies against GAD65, IA-2, insulin or ZnT8 mark this autoimmune process** and help separate it from type 2 diabetes. A low C-peptide supports the finding of reduced insulin production.",
+   "whyNot": {
+    "0": "A high A1c confirms poor glycemic control but does not show the type of diabetes.",
+    "1": "An increased C-peptide shows preserved insulin secretion, which suggests type 2 diabetes with insulin resistance.",
+    "2": "Albuminuria reflects kidney damage from diabetes of any type and does not indicate the cause."
+   },
+   "ref": "ADA Standards of Care in Diabetes, Classification and Diagnosis; Bishop 9e, ch. on carbohydrates"
+  },
+  {
+   "id": "CC-0183",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "The laboratory usually reports a calculated LDL cholesterol. On a specimen from a patient with poorly controlled diabetes, the triglyceride result is 620 mg/dL. How should the LDL cholesterol be obtained?",
+   "options": [
+    "Measure LDL cholesterol directly instead of calculating it",
+    "Report LDL cholesterol calculated with the Friedewald equation",
+    "Recalculate with triglycerides divided by 2.2 instead of 5",
+    "Report total cholesterol minus HDL cholesterol as the LDL value"
+   ],
+   "answer": 0,
+   "why": "The Friedewald equation estimates VLDL cholesterol as triglycerides ÷ 5, which holds only when the cholesterol-to-triglyceride ratio of VLDL is typical. **At triglycerides above 400 mg/dL the estimate becomes unreliable, so LDL cholesterol should be measured directly** (or by ultracentrifugation). Chylomicrons and triglyceride-rich remnants distort the ratio.",
+   "whyNot": {
+    "1": "The Friedewald estimate is not valid when triglycerides exceed 400 mg/dL, so it would misstate the LDL cholesterol.",
+    "2": "Dividing by 2.2 is the form of the equation for results in mmol/L; it does not fix the problem at high triglyceride levels.",
+    "3": "Total minus HDL cholesterol is non-HDL cholesterol, which includes VLDL and remnants and is not the same as LDL cholesterol."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (LDL-C measurement); NCEP ATP III"
+  },
+  {
+   "id": "CC-0184",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "In a precipitation method for HDL cholesterol, serum is mixed with dextran sulfate and magnesium chloride and then centrifuged. What happens to the lipoproteins?",
+   "options": [
+    "HDL precipitates, and the LDL and VLDL stay in the supernatant",
+    "Only chylomicrons precipitate, and all other lipoproteins stay in solution",
+    "Apo B-containing lipoproteins precipitate, and HDL stays in the supernatant",
+    "All lipoproteins precipitate, and only free cholesterol stays in solution"
+   ],
+   "answer": 2,
+   "why": "Polyanions combined with divalent cations, such as dextran sulfate with Mg²⁺ or phosphotungstate with Mg²⁺, form insoluble complexes with lipoproteins that contain apo B. **LDL, VLDL and chylomicrons are spun down, so the cholesterol measured in the clear supernatant is HDL cholesterol.** Many newer homogeneous assays achieve the same result without a separation step.",
+   "whyNot": {
+    "0": "HDL lacks apo B and is the fraction left in solution, not the one precipitated.",
+    "1": "The reagent precipitates LDL and VLDL as well as chylomicrons, otherwise the supernatant would overestimate HDL cholesterol.",
+    "3": "HDL is not precipitated, and the supernatant contains HDL particles rather than free cholesterol alone."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (HDL-C methods); Tietz Fundamentals 8e, ch. on lipids"
+  },
+  {
+   "id": "CC-0185",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "On lipoprotein electrophoresis in agarose at pH 8.6, a heavy band appears in the pre-beta region. Which lipoprotein does this band represent?",
+   "options": [
+    "VLDL",
+    "LDL",
+    "HDL",
+    "Chylomicrons"
+   ],
+   "answer": 0,
+   "why": "Lipoproteins separate by charge and size, and their bands are named after the serum protein zones. **VLDL migrates in the pre-beta region**, LDL in the beta region, HDL farthest toward the anode in the alpha region, and chylomicrons stay at the origin. An increased pre-beta band is typical of type IV hyperlipoproteinemia.",
+   "whyNot": {
+    "1": "LDL migrates in the beta region, behind the pre-beta band.",
+    "2": "HDL migrates farthest toward the anode, in the alpha region.",
+    "3": "Chylomicrons are too large to move far and remain at or near the origin."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins; Tietz Fundamentals 8e, ch. on lipids"
+  },
+  {
+   "id": "CC-0186",
+   "tos": "CC-C.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A young man has enlarged orange-yellow tonsils, an enlarged spleen and a peripheral neuropathy. His HDL cholesterol is under 5 mg/dL, apolipoprotein A-I is nearly undetectable, and his LDL cholesterol is low. A defect in which protein is most likely?",
+   "options": [
+    "Lecithin–cholesterol acyltransferase (LCAT)",
+    "Apolipoprotein C-II",
+    "ATP-binding cassette transporter A1 (ABCA1)",
+    "LDL receptor"
+   ],
+   "answer": 2,
+   "why": "ABCA1 moves free cholesterol and phospholipid out of cells onto lipid-poor apo A-I, the first step in forming HDL. **When ABCA1 is defective (Tangier disease), apo A-I is rapidly cleared, HDL is almost absent, and cholesteryl esters build up in tonsils, spleen and nerves.** The orange tonsils are a distinctive clinical clue.",
+   "whyNot": {
+    "0": "LCAT deficiency also lowers HDL, but it typically causes corneal clouding, anemia and kidney disease rather than orange tonsils.",
+    "1": "Apo C-II deficiency impairs lipoprotein lipase and causes massive hypertriglyceridemia with chylomicrons, not an isolated absence of HDL.",
+    "3": "LDL receptor defects cause familial hypercholesterolemia with a very high LDL cholesterol, not a low one."
+   },
+   "ref": "Bishop 9e, ch. on lipids and lipoproteins (HDL disorders); Tietz Fundamentals 8e, ch. on lipids"
+  },
+  {
+   "id": "CC-0187",
+   "tos": "CC-C.5",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A serum protein electrophoresis shows decreased albumin and a broad polyclonal increase in gamma-globulins that runs into the beta zone, so the beta and gamma bands cannot be separated. Which condition best fits?",
+   "options": [
+    "Monoclonal gammopathy",
+    "Nephrotic syndrome",
+    "Acute-phase response",
+    "Alcoholic cirrhosis"
+   ],
+   "answer": 3,
+   "why": "In cirrhosis the liver makes less albumin, while immunoglobulin production rises in response to antigens that escape clearance by the damaged liver. **A large polyclonal increase in IgA, which migrates between the beta and gamma zones, fills the gap and produces beta–gamma bridging.** The pattern is characteristic of chronic liver disease.",
+   "whyNot": {
+    "0": "A monoclonal gammopathy gives a narrow, sharp spike from a single clone, not a broad polyclonal increase that bridges two zones.",
+    "1": "Nephrotic syndrome shows low albumin with a prominent alpha-2 band and usually a low gamma region.",
+    "2": "An acute-phase response mainly raises alpha-1 and alpha-2 globulins from acute-phase proteins, with little change in gamma-globulins."
+   },
+   "ref": "Bishop 9e, ch. on amino acids and proteins (electrophoresis patterns); Henry's 24e, ch. on specific proteins"
+  },
+  {
+   "id": "CC-0188",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A patient with hereditary spherocytosis is having a hemolytic crisis. Serum unconjugated bilirubin is increased, and liver enzymes are normal. Which urine findings are expected?",
+   "options": [
+    "Urine bilirubin positive; urine urobilinogen decreased",
+    "Urine bilirubin positive; urine urobilinogen increased",
+    "Urine bilirubin negative; urine urobilinogen increased",
+    "Urine bilirubin negative; urine urobilinogen absent"
+   ],
+   "answer": 2,
+   "why": "Unconjugated bilirubin is bound to albumin and is not water-soluble, so it does not pass into the urine. **In hemolysis, urine bilirubin stays negative, while the extra bilirubin delivered to the gut increases urobilinogen formation and urine urobilinogen rises.** Fecal urobilinogen is also increased.",
+   "whyNot": {
+    "0": "Positive bilirubin with low urobilinogen is the pattern of biliary obstruction, where conjugated bilirubin backs up and cannot reach the gut.",
+    "1": "Positive urine bilirubin requires an increase in conjugated bilirubin, as in hepatocellular injury, which is absent here.",
+    "3": "Absent urobilinogen indicates complete obstruction of bile flow, not increased bilirubin production."
+   },
+   "ref": "Bishop 9e, ch. on liver function (bilirubin metabolism); Strasinger, Urinalysis and Body Fluids 7e"
+  },
+  {
+   "id": "CC-0189",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 30-year-old has had 5 days of nausea, dark urine and jaundice. Results: ALT 1,850 U/L, AST 1,420 U/L, ALP 1.3 times the upper reference limit, and total bilirubin 6.2 mg/dL, mostly conjugated. Which condition is most consistent?",
+   "options": [
+    "Extrahepatic biliary obstruction",
+    "Acute viral hepatitis",
+    "Alcoholic hepatitis",
+    "Hemolytic anemia"
+   ],
+   "answer": 1,
+   "why": "Hepatocellular necrosis releases aminotransferases in large amounts, while bile flow is only mildly impaired. **Aminotransferases in the thousands with ALT higher than AST and only a slight rise in ALP point to acute hepatocellular injury such as viral hepatitis.** Serologic markers are then used to find the specific virus.",
+   "whyNot": {
+    "0": "Biliary obstruction raises ALP far more, often above three times the upper limit, with only moderate aminotransferase increases.",
+    "2": "Alcoholic hepatitis typically shows AST higher than ALT, often by a ratio of 2 or more, with AST rarely above several hundred U/L.",
+    "3": "Hemolysis raises unconjugated bilirubin with normal aminotransferases and no bilirubinuria."
+   },
+   "ref": "Bishop 9e, ch. on liver function; Henry's 24e, ch. on evaluation of liver function"
+  },
+  {
+   "id": "CC-0190",
+   "tos": "CC-C.6",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with acute liver failure after an acetaminophen overdose is being monitored. Which test is the earliest and most sensitive indicator of a change in the liver's synthetic function?",
+   "options": [
+    "Serum albumin",
+    "Serum alkaline phosphatase",
+    "Prothrombin time (INR)",
+    "Serum GGT"
+   ],
+   "answer": 2,
+   "why": "The prothrombin time depends on clotting factors made in the liver, including factor VII, whose half-life is only about 6 hours. **Because these factors disappear quickly, the PT/INR reflects a change in hepatic synthesis within a day**, and it is a key prognostic marker in acute liver failure.",
+   "whyNot": {
+    "0": "Albumin has a half-life of about 3 weeks, so its level changes too slowly to show an acute fall in synthesis.",
+    "1": "Alkaline phosphatase reflects cholestasis and bone activity, not the liver's ability to make proteins.",
+    "3": "GGT is a marker of cholestasis and enzyme induction, not of synthetic function."
+   },
+   "ref": "Bishop 9e, ch. on liver function (synthetic function tests); Henry's 24e, ch. on evaluation of liver function"
+  },
+  {
+   "id": "CC-0191",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A healthy, symptom-free man has a serum amylase that has stayed at about four times the upper reference limit for months. His serum lipase and creatinine are normal, and his urine amylase is low. Which explanation is most likely?",
+   "options": [
+    "Acute gallstone pancreatitis",
+    "Mumps parotitis",
+    "Macroamylasemia",
+    "Pancreatic pseudocyst"
+   ],
+   "answer": 2,
+   "why": "Amylase is small enough to be filtered by the glomerulus, so a high serum level is normally followed by a high urine level. **In macroamylasemia, amylase is bound to an immunoglobulin, forming a complex too large to be filtered, so serum amylase is high while urine amylase is low.** The condition is harmless, and a normal lipase confirms that the pancreas is not inflamed.",
+   "whyNot": {
+    "0": "Acute gallstone pancreatitis causes abdominal pain, raises lipase as well as amylase, and increases urinary amylase excretion.",
+    "1": "Mumps parotitis raises salivary-type serum amylase, but the free enzyme is filtered normally and urine amylase is increased.",
+    "3": "A pseudocyst follows pancreatitis and usually causes symptoms and increased urinary amylase."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (amylase); Tietz Fundamentals 8e, ch. on enzymes"
+  },
+  {
+   "id": "CC-0192",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A forensic laboratory tests a vaginal swab for acid phosphatase as evidence of semen. Which property identifies the prostatic form of the enzyme?",
+   "options": [
+    "It is inhibited by L-tartrate",
+    "It is resistant to L-tartrate",
+    "It is inhibited by formaldehyde and cupric ions",
+    "It is activated by magnesium ions"
+   ],
+   "answer": 0,
+   "why": "Acid phosphatase isoenzymes from different tissues respond differently to inhibitors. **The prostatic isoenzyme is inhibited by L-tartrate**, so the tartrate-inhibitable activity is attributed to prostate. Because semen contains very high prostatic acid phosphatase, the test is useful in sexual assault investigations.",
+   "whyNot": {
+    "1": "Tartrate resistance is the feature of the isoenzyme from osteoclasts and hairy cell leukemia cells, not prostate.",
+    "2": "Inhibition by formaldehyde and cupric ions is a feature of red cell acid phosphatase.",
+    "3": "Magnesium is an activator of alkaline phosphatase, not a way to identify prostatic acid phosphatase."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (acid phosphatase); Henry's 24e, ch. on clinical enzymology"
+  },
+  {
+   "id": "CC-0193",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Which cardiac injury marker rises earliest after a myocardial infarction, returns to normal within about 1 to 1½ days, and has poor cardiac specificity because it is also abundant in skeletal muscle?",
+   "options": [
+    "Cardiac troponin I",
+    "Myoglobin",
+    "CK-MB",
+    "Lactate dehydrogenase"
+   ],
+   "answer": 1,
+   "why": "Myoglobin is a small heme protein released quickly from damaged muscle cells. **It rises within 1 to 3 hours, peaks around 6 to 12 hours and clears within about 24 to 36 hours, but it is not specific for heart muscle.** Its main value is a negative result early after symptom onset.",
+   "whyNot": {
+    "0": "Cardiac troponin I is highly cardiac-specific and remains increased for about 7 to 10 days.",
+    "2": "CK-MB rises later than myoglobin, around 4 to 6 hours, and stays increased for 2 to 3 days.",
+    "3": "Lactate dehydrogenase rises slowly, over 1 to 2 days, and stays increased for more than a week."
+   },
+   "ref": "Bishop 9e, ch. on cardiac function; Tietz Fundamentals 8e, ch. on cardiac biomarkers"
+  },
+  {
+   "id": "CC-0194",
+   "tos": "CC-C.7",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "The IFCC reference methods for AST and ALT add a coenzyme to the reagent so that apoenzyme in the specimen is fully activated. Which coenzyme is it?",
+   "options": [
+    "Pyridoxal-5′-phosphate",
+    "NAD⁺",
+    "Thiamine pyrophosphate",
+    "Flavin adenine dinucleotide"
+   ],
+   "answer": 0,
+   "why": "Aminotransferases transfer amino groups using pyridoxal-5′-phosphate (vitamin B6) bound at the active site. **Adding pyridoxal-5′-phosphate to the reagent restores full activity**, which matters for patients with B6 deficiency, such as some dialysis patients, whose results would otherwise be falsely low.",
+   "whyNot": {
+    "1": "NAD⁺ or NADH is used in the coupled indicator reaction, not as the coenzyme of the aminotransferase itself.",
+    "2": "Thiamine pyrophosphate is the coenzyme of transketolase and pyruvate dehydrogenase, not of aminotransferases.",
+    "3": "FAD is a coenzyme of oxidases such as glucose oxidase, not of aminotransferases."
+   },
+   "ref": "Bishop 9e, ch. on enzymes (aminotransferases); IFCC primary reference procedures for ALT and AST"
+  },
+  {
+   "id": "CC-0195",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman has weight loss, tremor, a diffusely enlarged thyroid and bulging eyes. TSH is below 0.01 mIU/L and free T4 is increased. Which antibody test best confirms the most likely cause?",
+   "options": [
+    "Anti-thyroglobulin antibodies",
+    "Antinuclear antibodies",
+    "Anti-parietal cell antibodies",
+    "TSH receptor antibodies (TRAb)"
+   ],
+   "answer": 3,
+   "why": "Graves disease is caused by antibodies that bind and stimulate the TSH receptor, driving thyroid hormone production independent of TSH. **Detecting TSH receptor antibodies (including thyroid-stimulating immunoglobulins) confirms Graves disease.** The eye findings and diffuse goiter fit this diagnosis.",
+   "whyNot": {
+    "0": "Anti-thyroglobulin antibodies are common in autoimmune thyroid disease but are not specific for Graves disease and do not cause hyperthyroidism.",
+    "1": "Antinuclear antibodies are a screen for systemic autoimmune diseases such as lupus, not thyroid disorders.",
+    "2": "Anti-parietal cell antibodies are associated with pernicious anemia, not hyperthyroidism."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function; Tietz Fundamentals 8e, ch. on thyroid disorders"
+  },
+  {
+   "id": "CC-0196",
+   "tos": "CC-D.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An adult with no symptoms has a TSH of 7.8 mIU/L (reference 0.4–4.0) and a free T4 within its reference interval, confirmed on repeat testing. These results indicate:",
+   "options": [
+    "Subclinical hyperthyroidism",
+    "Central hypothyroidism",
+    "Overt primary hypothyroidism",
+    "Subclinical hypothyroidism"
+   ],
+   "answer": 3,
+   "why": "TSH is very sensitive to small changes in thyroid hormone, so it rises before free T4 falls below its reference interval. **A raised TSH with a normal free T4 defines subclinical hypothyroidism**, often an early stage of autoimmune thyroiditis.",
+   "whyNot": {
+    "0": "Subclinical hyperthyroidism has a suppressed TSH with a normal free T4.",
+    "1": "Central hypothyroidism shows a low free T4 with a low or inappropriately normal TSH.",
+    "2": "Overt primary hypothyroidism requires a free T4 below its reference interval in addition to the raised TSH."
+   },
+   "ref": "Bishop 9e, ch. on thyroid function; Henry's 24e, ch. on thyroid function"
+  },
+  {
+   "id": "CC-0197",
+   "tos": "CC-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A 40-year-old has episodes of pounding headache, sweating and palpitations with blood pressure spikes to 220/120 mmHg. Which initial biochemical test is most appropriate?",
+   "options": [
+    "Plasma free metanephrines",
+    "Urine 5-hydroxyindoleacetic acid",
+    "Overnight dexamethasone suppression test",
+    "Plasma aldosterone-to-renin ratio"
+   ],
+   "answer": 0,
+   "why": "Episodic headache, sweating and palpitations with paroxysmal hypertension suggest a pheochromocytoma. **Plasma free metanephrines (or urine fractionated metanephrines) are the preferred first test because tumors continuously convert catecholamines to metanephrines.** Imaging follows a positive result.",
+   "whyNot": {
+    "1": "Urine 5-HIAA is the marker for carcinoid (serotonin-secreting) tumors, which cause flushing and diarrhea.",
+    "2": "The dexamethasone suppression test screens for cortisol excess (Cushing syndrome), not catecholamine excess.",
+    "3": "The aldosterone-to-renin ratio screens for primary aldosteronism, which causes sustained hypertension with hypokalemia rather than spells."
+   },
+   "ref": "Bishop 9e, ch. on adrenal function (adrenal medulla); Endocrine Society guideline on pheochromocytoma and paraganglioma"
+  },
+  {
+   "id": "CC-0198",
+   "tos": "CC-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "An athlete's urine is tested for cannabis use. Both the screening immunoassay and the GC-MS confirmation are aimed at the main cannabinoid excreted in urine. Which compound is it?",
+   "options": [
+    "Δ⁹-Tetrahydrocannabinol",
+    "11-nor-9-carboxy-THC",
+    "11-Hydroxy-THC",
+    "Cannabidiol"
+   ],
+   "answer": 1,
+   "why": "Δ⁹-THC is rapidly metabolized, first to 11-hydroxy-THC and then to the inactive carboxylic acid metabolite. **THC-COOH is the main urinary metabolite and the target of cannabinoid screening and confirmation assays.** Because it is fat-soluble and stored in tissues, it can be detected for weeks in heavy users.",
+   "whyNot": {
+    "0": "Very little parent THC is excreted in urine, so it is not a practical urine target.",
+    "2": "11-Hydroxy-THC is the active intermediate metabolite, but it is quickly oxidized further and is present in urine at much lower levels than THC-COOH.",
+    "3": "Cannabidiol is a separate, nonintoxicating cannabis compound and is not the target of drug-use testing."
+   },
+   "ref": "Bishop 9e, ch. on toxicology (drugs of abuse); Tietz Fundamentals 8e, ch. on clinical toxicology"
+  },
+  {
+   "id": "CC-0199",
+   "tos": "CC-E.1",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A workplace urine specimen screens positive for opiates, and GC-MS confirms morphine. The employee says he ate several poppy-seed pastries the day before. Which confirmed finding would show that he used heroin?",
+   "options": [
+    "Codeine present along with morphine",
+    "Morphine above 300 ng/mL",
+    "Hydromorphone present along with morphine",
+    "6-Monoacetylmorphine present"
+   ],
+   "answer": 3,
+   "why": "Heroin (diacetylmorphine) is quickly converted to 6-monoacetylmorphine, which is then converted to morphine. **6-MAM comes only from heroin, so its presence proves heroin use**, whereas morphine and codeine can both come from poppy seeds. 6-MAM is short-lived, so it is usually found only within several hours of use.",
+   "whyNot": {
+    "0": "Poppy seeds contain both morphine and codeine, so finding both does not separate food from drug use.",
+    "1": "Poppy seeds can produce urine morphine above 300 ng/mL, which is why higher federal cutoffs are used for morphine.",
+    "2": "Hydromorphone can appear as a minor metabolite of morphine, so its presence does not identify heroin as the source."
+   },
+   "ref": "Bishop 9e, ch. on toxicology (opiates); SAMHSA Mandatory Guidelines for Federal Workplace Drug Testing"
+  },
+  {
+   "id": "CC-0200",
+   "tos": "CC-E.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient on lithium for bipolar disorder has a reported lithium of 4.2 mmol/L but no tremor, confusion or other signs of toxicity. The specimen was drawn in a green-top tube. What is the most likely explanation?",
+   "options": [
+    "The specimen was drawn too long after the last dose",
+    "The patient has developed tolerance to toxic lithium levels",
+    "Hemolysis released lithium stored inside the red cells",
+    "Lithium added by the tube's heparin anticoagulant"
+   ],
+   "answer": 3,
+   "why": "Green-top tubes commonly contain lithium heparin, which adds lithium to the specimen. **Lithium must be measured in serum or in plasma collected with a lithium-free anticoagulant**, usually about 12 hours after the last dose. A redraw in a plain red-top tube should be requested.",
+   "whyNot": {
+    "0": "A late draw would give a lower level, not a falsely toxic one.",
+    "1": "Lithium has a narrow therapeutic range, and 4.2 mmol/L would usually cause serious toxicity, so tolerance does not explain a well patient.",
+    "2": "Red cells do not hold enough lithium to raise the plasma level this much, and no hemolysis was reported."
+   },
+   "ref": "Bishop 9e, ch. on therapeutic drug monitoring (lithium); Tietz Fundamentals 8e, ch. on TDM"
+  },
+  {
+   "id": "CC-0201",
+   "tos": "CC-E.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with nephrotic syndrome has a serum albumin of 2.0 g/dL. His total phenytoin is 8 µg/mL (therapeutic range 10–20 µg/mL), yet he has nystagmus and an unsteady gait. What is the best next step?",
+   "options": [
+    "Increase the dose, because the total level is below the therapeutic range",
+    "Measure free phenytoin, because low albumin raises the unbound fraction",
+    "Repeat the total level as a peak, because troughs underestimate exposure",
+    "Measure phenytoin in whole blood, because the drug concentrates in red cells"
+   ],
+   "answer": 1,
+   "why": "Phenytoin is normally about 90% bound to albumin, and only the unbound drug is active. **When albumin is low, the free fraction rises, so a total level in or below the therapeutic range can hide a toxic free concentration.** Measuring free phenytoin gives the true picture in hypoalbuminemia, uremia and other binding disorders.",
+   "whyNot": {
+    "0": "Raising the dose based on the total level could worsen toxicity, since the active free drug is probably already high.",
+    "2": "Phenytoin has a long half-life with small peak-to-trough differences, and the problem is protein binding, not timing.",
+    "3": "Phenytoin is monitored in serum or plasma; it does not concentrate in red cells."
+   },
+   "ref": "Bishop 9e, ch. on therapeutic drug monitoring (anticonvulsants); Tietz Fundamentals 8e, ch. on TDM"
   }
  ]
 }

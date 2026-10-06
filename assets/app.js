@@ -10,15 +10,14 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261005160515";
+  var BUILD = "20261006051424";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
-  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var DEFAULTS = {
     examDate: cfg.examDate || "2027-03-01", examDateConfirmed: !!cfg.examDateConfirmed,
     newPerDay: 15, sessionSize: 20, goalDays: 5,
-    shortcuts: true, breaks: true, focusTip: true, myQuestions: false, showRefs: false
+    shortcuts: true, breaks: true, focusTip: true, myQuestions: false, showRefs: false, motion: "auto"
   };
 
   var state = {
@@ -80,7 +79,45 @@
     state.settings[k] = { v: v, at: new Date().toISOString() };
     DB.set("settings", state.settings);
     if (k === "examDate" || k === "myQuestions") rebuild();
+    if (k === "motion") applyMotion();
     syncSoon(3000);
+  }
+
+  /* ---------- motion (More > Settings > Animations) ----------
+     "auto" follows the device's reduce-motion setting, "on" always animates, "off" never does. The result is one class on
+     <html>, motion-on or motion-off, that every animation in styles.css keys off; motion driven from here asks motionOff().
+     The choice is also kept in localStorage so the page head can set the class before the first paint. The no-anim class
+     (tools/render-visuals.js) counts as off. */
+  var reduceQuery = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+  function motionChoice() {
+    var v = state.settings.motion ? setting("motion") : ls.get("motion");
+    return v === "on" || v === "off" ? v : "auto";
+  }
+  function motionOff() { var c = document.documentElement.classList; return c.contains("motion-off") || c.contains("no-anim"); }
+  function applyMotion() {
+    var m = motionChoice(), off = m === "off" || (m === "auto" && !!(reduceQuery && reduceQuery.matches)), c = document.documentElement.classList;
+    c.toggle("motion-off", off); c.toggle("motion-on", !off);
+    ls.set("motion", m);
+    if (off) {   // anything still waiting to fade in shows now
+      if (revealIO) { revealIO.disconnect(); revealIO = null; }
+      main.querySelectorAll(".rv").forEach(function (el) { el.classList.remove("rv", "rv-in"); });
+      main.classList.remove("pg-in", "nav-in", "q-in", "is-checked-now");
+    }
+  }
+  if (reduceQuery) {
+    if (reduceQuery.addEventListener) reduceQuery.addEventListener("change", applyMotion);
+    else if (reduceQuery.addListener) reduceQuery.addListener(applyMotion);
+  }
+  applyMotion();
+  document.addEventListener("touchstart", function () {}, { passive: true });   // lets iOS Safari show :active (the press feedback)
+  /* Scroll without the smooth scrolling that html gets when animations are on (page changes jump straight to the top) */
+  function jumpScroll(x, y) {
+    var r = document.documentElement;
+    r.style.scrollBehavior = "auto"; window.scrollTo(x, y); r.style.scrollBehavior = "";
+  }
+  function jumpTo(el) {
+    var r = document.documentElement;
+    r.style.scrollBehavior = "auto"; el.scrollIntoView(); r.style.scrollBehavior = "";
   }
 
   /* ---------- shapes: colour always comes with a shape and a word ---------- */
@@ -188,6 +225,7 @@
         var cur = state.settings[r.id];
         if (!cur || String(r.at || "") > String(cur.at || "")) state.settings[r.id] = { v: r.v, at: r.at };
       });
+      applyMotion();
       state.lastSync = new Date(); state.syncError = ""; state.syncing = false;
       return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("settings", state.settings), DB.set("lastSync", state.lastSync.toISOString())])
         .then(function () { rebuild(); showStatus(); return state.reviews.length !== before || dropped.length > 0; });
@@ -344,9 +382,11 @@
   function figure(q, revealed) {
     if (!q.image) return "";
     var im = q.image;
-    var cap = revealed
-      ? "<span>" + esc(im.what) + (im.detail ? " · " + esc(im.detail) : "") + '</span><span>Image: <a href="' + esc(im.page || im.src) + '" target="_blank" rel="noopener">' + esc(im.credit || "Source") + newTab() + "</a> (" + esc(im.license || "") + ")</span>"
-      : "<span>" + esc(im.specimen || "Microscope image") + "</span><span>Image: " + esc(im.credit || "") + "</span>";
+    // Both captions share one grid cell and the hidden one keeps its space, so checking the answer (which shows the
+    // longer caption) never pushes the options down.
+    var after = "<span>" + esc(im.what) + (im.detail ? " · " + esc(im.detail) : "") + '</span><span>Image: <a href="' + esc(im.page || im.src) + '" target="_blank" rel="noopener">' + esc(im.credit || "Source") + newTab() + "</a> (" + esc(im.license || "") + ")</span>";
+    var before = "<span>" + esc(im.specimen || "Microscope image") + "</span><span>Image: " + esc(im.credit || "") + "</span>";
+    var cap = '<span class="specimen__cap' + (revealed ? "" : " is-off") + '">' + after + '</span><span class="specimen__cap' + (revealed ? " is-off" : "") + '">' + before + "</span>";
     return '<figure class="specimen"><button type="button" data-act="zoom" aria-label="Open the image larger"><img src="' + esc(im.src) + '" alt="Microscope image: ' + esc(im.specimen || "specimen") + '" loading="eager" decoding="async" onerror="this.closest(\'figure\').classList.add(\'specimen--broken\');this.replaceWith(document.createTextNode(\'The image did not load. Check your connection; the question still counts if you skip it.\'))"></button><figcaption>' + cap + "</figcaption></figure>";
   }
   function optionRows(q, order, picked, reveal, readOnly) {
@@ -418,7 +458,7 @@
       var dis = s.picked == null ? " disabled" : "";
       html += '<div class="checkbar"><button type="button" class="btn btn--solid" data-act="check" data-sure="1"' + dis + ">Check" + kbd("S") + "<small>I'm sure</small></button>" +
         '<button type="button" class="btn" data-act="check" data-sure="0"' + dis + ">Check" + kbd("N") + "<small>Not sure</small></button></div>" +
-        '<p class="section__note">' + (s.picked == null ? "Choose an answer, then say how sure you are. " : "") + '<button type="button" class="btn btn--quiet btn--sm" data-act="dunno">I don\'t know</button></p>';
+        '<p class="section__note"><span class="pick-hint"' + (s.picked == null ? "" : " hidden") + ">Choose an answer, then say how sure you are. </span>" + '<button type="button" class="btn btn--quiet btn--sm" data-act="dunno">I don\'t know</button></p>';
       if (s.mode === "drill") html += '<p class="section__note">Answer quickly: an image counts as learned after 2 correct answers in under 10 seconds.</p>';
       html += '</div><aside class="qside qside--empty" aria-hidden="true"><p>The answer and the explanation appear here after you check.</p></aside></div>';
     } else {
@@ -449,8 +489,16 @@
     record(q, chosen, ok, !!sure && !dunno, s.mode, ms);
     s.reveal = { chosen: chosen, ok: ok, sure: !!sure && !dunno, ms: ms };
     s.answers.push({ q: q.id, ok: ok, chosen: chosen, sure: !!sure && !dunno });
-    saveSession(); refresh();
+    saveSession(); route._checked = true; refresh();
     var nb = document.getElementById("next-btn"); if (nb) nb.focus({ preventScroll: true });
+  }
+  /* Choosing an option updates the buttons in place (no re-render), so the selected state can ease in and focus stays put */
+  function showPick() {
+    var s = state.session, opts = main.querySelectorAll('.opts [data-act="pick"]');
+    if (!s || !opts.length) { refresh(); return; }
+    opts.forEach(function (b) { b.setAttribute("aria-pressed", s.picked === +b.getAttribute("data-i") ? "true" : "false"); });
+    main.querySelectorAll('[data-act="check"]').forEach(function (b) { b.disabled = s.picked == null; });
+    var hint = main.querySelector(".pick-hint"); if (hint) hint.hidden = s.picked != null;
   }
   function next() {
     var s = state.session; if (!s || !s.reveal) return;
@@ -724,6 +772,7 @@
       sel("newPerDay", "New questions per day", [[0, "0 (reviews only)"], [5, "5"], [10, "10"], [15, "15"], [20, "20"], [30, "30"]], setting("newPerDay"), "In the last 2 weeks before the exam there are no new questions.") +
       sel("sessionSize", "Questions per round", [[10, "10"], [20, "20"], [30, "30"], [40, "40"]], setting("sessionSize")) +
       sel("goalDays", "Weekly goal", [[3, "3 days"], [4, "4 days"], [5, "5 days"], [6, "6 days"], [7, "7 days"]], setting("goalDays")) +
+      sel("motion", "Animations", [["auto", "Match this device"], ["on", "On"], ["off", "Off"]], motionChoice(), "“Match this device” follows the Reduce Motion setting on the phone or laptop.") +
       tog("breaks", "Suggest a 5-minute break every 25 minutes") +
       tog("focusTip", "Show the Do Not Disturb tip on Today") +
       tog("shortcuts", "Keyboard shortcuts on a laptop (A to D or 1 to 4 to answer, S sure, N not sure, Enter next)") +
@@ -854,10 +903,13 @@
       el.classList.toggle("is-off", off);
       el.classList.toggle("is-hl", !!hl[k]);
       el.classList.remove("is-new");
-      if (animate && !off && (wasOff || hl[k]) && !reduceMotion) { void el.getBoundingClientRect(); el.classList.add("is-new"); }
+      if (animate && !off && (wasOff || hl[k]) && !motionOff()) { void el.getBoundingClientRect(); el.classList.add("is-new"); }
     });
     fig.querySelector(".viz__count").textContent = "Step " + (step + 1) + " of " + n;
-    fig.querySelector(".viz__cap").innerHTML = fmt(st.caption);
+    var cap = fig.querySelector(".viz__cap");
+    cap.innerHTML = fmt(st.caption);
+    cap.classList.remove("is-swap");
+    if (animate && !motionOff()) { void cap.offsetWidth; cap.classList.add("is-swap"); }
     fig.querySelectorAll(".viz__dot").forEach(function (d, i) { d.classList.toggle("is-on", i === step); d.classList.toggle("is-past", i < step); });
     var prev = fig.querySelector('[data-act="viz-prev"]'), nxt = fig.querySelector('[data-act="viz-next"]');
     prev.disabled = step === 0;
@@ -933,7 +985,7 @@
   }
 
   /* ---------- visuals: bars, the phase line, the activity chart ---------- */
-  /* A bar made of segments. Widths start at 0 and grow when the bar scrolls into view (instantly with reduced motion). */
+  /* A bar made of segments. Widths start at 0 and grow when the bar scrolls into view (at once when animations are off). */
   function bar(parts, label) {
     return '<div class="meter__bar" role="img" aria-label="' + esc(label) + '">' + parts.filter(function (p) { return p.w > 0.05; }).map(function (p) {
       return '<i class="seg seg--' + p.cls + '" style="width:0" data-w="' + Math.max(0, Math.min(100, p.w)).toFixed(1) + '"></i>';
@@ -1008,7 +1060,7 @@
       box.querySelectorAll("[data-h]").forEach(function (el) { el.style.height = el.getAttribute("data-h") + "%"; });
     };
     var boxes = main.querySelectorAll(".meter__bar, .quiz__bar, .chart");
-    if (instant || reduceMotion || !("IntersectionObserver" in window)) { boxes.forEach(set); return; }
+    if (instant || motionOff() || !("IntersectionObserver" in window)) { boxes.forEach(set); return; }
     barIO = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (!e.isIntersecting) return; barIO.unobserve(e.target); requestAnimationFrame(function () { requestAnimationFrame(function () { set(e.target); }); }); });
     }, { threshold: 0.3 });
@@ -1016,12 +1068,13 @@
   }
 
   /* Reveal on scroll, the same "gentle reveal" as the hubs: blocks below the fold fade up a few pixels as they scroll
-     into view. Blocks already on screen show at once, keyboard focus shows a block right away, and anyone who asked for
-     reduced motion gets no effect. Never used on the question screen or a running mock exam. */
+     into view. Blocks already on screen show at once, keyboard focus shows a block right away, and with animations off
+     (More > Settings, or the device asking for reduced motion) there is no effect. Never used on the question screen or a
+     running mock exam. */
   var revealIO = null;
   function reveal() {
     if (revealIO) { revealIO.disconnect(); revealIO = null; }
-    if (!("IntersectionObserver" in window) || reduceMotion) return;
+    if (!("IntersectionObserver" in window) || motionOff()) return;
     var LIST = "ul.result-list, ul.topic-list, .modes, .meters, ul.minimeters";
     var picked = [];
     main.querySelectorAll(".section, .today-grid > div, .wrap > .ready, .wrap > .route").forEach(function (sec) {
@@ -1048,6 +1101,51 @@
     }, { rootMargin: "0px 0px -8% 0px", threshold: 0 });
     pending.forEach(function (el) { revealIO.observe(el); });
   }
+  /* Numbers on Today, Progress and the mock-exam result count up briefly when they first show, and again when they've
+     changed since the last visit (for example "answered today" after a session). The final value is always what's in
+     the page; only the count is animated, and not at all with animations off. */
+  var countIO = null, countSeen = {};
+  var COUNT_SEL = ".plan b, .overall__n b, .minimeters__n, .calib b, .ready p > b, .score-big";
+  function countUp() {
+    if (countIO) { countIO.disconnect(); countIO = null; }
+    if (motionOff() || !window.requestAnimationFrame) return;
+    var vh = window.innerHeight, later = [];
+    main.querySelectorAll(COUNT_SEL).forEach(function (el, i) {
+      var m = /^(\d+)(\D.*)?$/.exec(el.textContent), key = route._key + "#" + i;
+      if (!m) return;
+      var to = +m[1], from = countSeen[key] == null ? 0 : countSeen[key];
+      countSeen[key] = to;
+      if (from === to) return;
+      var job = { el: el, from: from, to: to, rest: m[2] || "" };
+      if (el.getBoundingClientRect().top < vh) countRun(job); else later.push(job);
+    });
+    if (!later.length || !("IntersectionObserver" in window)) return;
+    countIO = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        countIO.unobserve(e.target);
+        later.forEach(function (j) { if (j.el === e.target) countRun(j); });
+      });
+    }, { threshold: 0.5 });
+    later.forEach(function (j) { countIO.observe(j.el); });
+  }
+  function countRun(j) {
+    var el = j.el, final = el.textContent, t0 = 0, dur = 600;
+    if (getComputedStyle(el).display === "inline") {   // keep the words after the number still while it counts
+      el.style.minWidth = el.getBoundingClientRect().width + "px"; el.style.display = "inline-block";
+    }
+    el.textContent = j.from + j.rest;
+    function frame(now) {
+      if (!t0) t0 = now;
+      var p = Math.min(1, (now - t0) / dur);
+      if (p < 1 && !motionOff() && document.contains(el)) {
+        el.textContent = Math.round(j.from + (j.to - j.from) * (1 - Math.pow(1 - p, 3))) + j.rest;
+        requestAnimationFrame(frame);
+      } else { el.textContent = final; el.style.display = ""; el.style.minWidth = ""; }
+    }
+    requestAnimationFrame(frame);
+  }
+
   document.addEventListener("focusin", function (e) { var el = e.target.closest && e.target.closest(".rv"); if (el) { if (revealIO) revealIO.unobserve(el); el.classList.remove("rv", "rv-in"); } });
   window.addEventListener("beforeprint", function () { main.querySelectorAll(".rv").forEach(function (el) { el.classList.remove("rv", "rv-in"); }); });
 
@@ -1077,25 +1175,52 @@
     else if (view === "more") { html = viewMore(); title = "More"; }
     else if (view === "my") { html = viewMyQuestion(h[1] || "new"); title = "My question"; }
     else { html = viewToday(); }
-    main.innerHTML = html;
-    main.setAttribute("aria-busy", "false");
     document.title = title === "MTLE Reviewer" ? title : title + " | MTLE Reviewer";
-    if (view === "exam" && h[1] === "run") wireExam(); else { clearInterval(examTick); if (examIO) { examIO.disconnect(); examIO = null; } }
-    var h1 = main.querySelector("h1");
-    if (route._moved && h1 && !route._keepFocus) h1.focus({ preventScroll: true });
-    route._moved = true;
-    if (!route._keepFocus) {
-      if (view === "more" && h[1]) { var sec = document.getElementById(h[1]); if (sec) { sec.scrollIntoView(); var hd = sec.querySelector("h2"); if (hd) hd.focus({ preventScroll: true }); } }
-      else window.scrollTo(0, 0);
-    }
-    var quiet = route._keepFocus;
-    route._keepFocus = false;
-    main.classList.toggle("hidden-kbd", !setting("shortcuts"));
-    fillBars(quiet);
-    wireViz();
-    if (!quiet && view !== "s" && !(view === "exam" && h[1] === "run")) reveal();
+    var quiet = !!route._keepFocus, checked = !!route._checked;
+    route._keepFocus = false; route._checked = false;
+    // How the change is shown: "load" (first page), "page" (another page), "step" (the next screen of a session),
+    // "scroll" (another section of More), or "" (re-drawn in place, e.g. after checking an answer: nothing moves)
+    var key = view === "more" ? "more" : view + "/" + (h[1] || ""), prev = route._key;
+    route._key = key;
+    var how = quiet ? "" : !prev ? "load" : prev !== key ? "page" : view === "s" ? "step" : view === "more" ? "scroll" : "";
+    var animate = !motionOff();
+    var useVT = animate && how === "page" && typeof document.startViewTransition === "function" && document.visibilityState === "visible";
+    var paint = function () {
+      var cl = main.classList;
+      cl.toggle("nav-in", animate && (how === "load" || how === "page"));
+      cl.toggle("pg-in", animate && (how === "load" || (how === "page" && !useVT)));
+      cl.toggle("q-in", animate && how === "step");
+      cl.toggle("is-checked-now", animate && checked);
+      main.innerHTML = html;
+      main.setAttribute("aria-busy", "false");
+      if (view === "exam" && h[1] === "run") wireExam(); else { clearInterval(examTick); if (examIO) { examIO.disconnect(); examIO = null; } }
+      var h1 = main.querySelector("h1");
+      if (route._moved && h1 && !quiet) h1.focus({ preventScroll: true });
+      route._moved = true;
+      if (!quiet) {
+        var sec = view === "more" && h[1] ? document.getElementById(h[1]) : null;
+        if (how === "scroll" && animate) { if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" }); else window.scrollTo({ top: 0, behavior: "smooth" }); }
+        else if (sec) jumpTo(sec);
+        else jumpScroll(0, 0);
+        if (sec) { var hd = sec.querySelector("h2"); if (hd) hd.focus({ preventScroll: true }); }
+      }
+      cl.toggle("hidden-kbd", !setting("shortcuts"));
+      fillBars(quiet);
+      wireViz();
+      if (!quiet && view !== "s" && !(view === "exam" && h[1] === "run")) reveal();
+      if (!quiet && how !== "step") countUp();
+    };
+    // A different page: with the View Transitions API the old page fades out as the new one eases in. If another
+    // change arrives before the transition draws, the newest one is the one drawn (route._paint).
+    if (useVT) {
+      route._paint = paint;
+      try {
+        var vt = document.startViewTransition(function () { var f = route._paint; route._paint = null; if (f) f(); });
+        [vt.ready, vt.finished, vt.updateCallbackDone].forEach(function (p) { if (p && p.catch) p.catch(function () { /* skipped: fine */ }); });
+      } catch (e) { route._paint = null; paint(); }
+    } else { route._paint = null; paint(); }
   }
-  function refresh() { var y = window.scrollY; route._keepFocus = true; route(); window.scrollTo(0, y); }
+  function refresh() { var y = window.scrollY; route._keepFocus = true; route(); jumpScroll(0, y); }
   window.addEventListener("hashchange", function () { route._moved = true; route(); });
 
   /* ================================================================== events */
@@ -1138,11 +1263,11 @@
     var act = el.getAttribute("data-act"), s = state.session;
     if (el.tagName === "A" && act.indexOf("learn") === 0) e.preventDefault();
     if (act === "learn-topic") { var lq = M.learnQueue(state.bank, el.getAttribute("data-t")); startSession("learn", lq, "Learn: " + topicName(el.getAttribute("data-t")), "#/learn/" + el.getAttribute("data-s"), false, M.visualsForTopic(state.visuals, el.getAttribute("data-t"))); return; }
-    if (act === "pick") { if (!s || s.reveal) return; var i = +el.getAttribute("data-i"); s.picked = s.picked === i ? null : i; saveSession(); refresh(); var b = main.querySelector('[data-act="pick"][data-i="' + i + '"]'); if (b) b.focus({ preventScroll: true }); }
+    if (act === "pick") { if (!s || s.reveal) return; var i = +el.getAttribute("data-i"); s.picked = s.picked === i ? null : i; saveSession(); showPick(); var b = main.querySelector('[data-act="pick"][data-i="' + i + '"]'); if (b && b !== document.activeElement) b.focus({ preventScroll: true }); }
     else if (act === "check") check(el.getAttribute("data-sure") === "1", false);
     else if (act === "dunno") check(false, true);
     else if (act === "next") next();
-    else if (act === "xp-jump") { var xp = document.getElementById("xp"); if (xp) xp.scrollIntoView({ block: "start", behavior: reduceMotion ? "auto" : "smooth" }); }
+    else if (act === "xp-jump") { var xp = document.getElementById("xp"); if (xp) xp.scrollIntoView({ block: "start", behavior: motionOff() ? "auto" : "smooth" }); }
     else if (act === "intro-next") { s.introI++; s.shownAt = 0; saveSession(); route._moved = true; route(); }
     else if (act === "intro-skip") { s.introI = s.intro.length; s.shownAt = 0; saveSession(); route._moved = true; route(); }
     else if (act === "viz-prev" || act === "viz-next") { var fig = el.closest(".viz"); if (fig) vizApply(fig, +fig.getAttribute("data-step") + (act === "viz-next" ? 1 : -1), true); }
@@ -1247,7 +1372,7 @@
     if (el.id === "mq-s") { document.getElementById("mq-t").innerHTML = topicOptions(el.value, ""); return; }
     if (el.id === "import-file") { importBackup(el.files && el.files[0]); return; }
     var k = el.getAttribute && el.getAttribute("data-setting"); if (!k) return;
-    var v = el.type === "checkbox" ? el.checked : el.tagName === "SELECT" ? +el.value : el.value;
+    var v = el.type === "checkbox" ? el.checked : el.tagName === "SELECT" && el.value !== "" && !isNaN(+el.value) ? +el.value : el.value;
     if (k === "examDate" && isNaN(M.parseDay(v))) { toast("That date isn't valid."); return; }
     setSetting(k, v); toast("Saved."); if (k === "myQuestions" || k === "shortcuts" || k === "showRefs") refresh();
   });
@@ -1267,7 +1392,7 @@
     if (s.stage === "worked" && q && q.worked) { if (k === "enter") { e.preventDefault(); s.stage = "ask"; s.shownAt = 0; saveSession(); route(); } return; }
     if (!s.reveal && q) {
       var idx = "abcd".indexOf(k); if (idx < 0) idx = "1234".indexOf(k);
-      if (idx > -1 && idx < q.options.length) { e.preventDefault(); s.picked = idx; saveSession(); refresh(); return; }
+      if (idx > -1 && idx < q.options.length) { e.preventDefault(); s.picked = idx; saveSession(); showPick(); return; }
       if (k === "s" && s.picked != null) { e.preventDefault(); check(true); return; }
       if (k === "n" && s.picked != null) { e.preventDefault(); check(false); return; }
     } else if (s.reveal && k === "enter" && tag !== "button") { e.preventDefault(); next(); }
@@ -1293,6 +1418,7 @@
       (d.flags || []).forEach(function (f) { status[f.id] = f.status; });
       state.flags.forEach(function (f) { if (status[f.id]) f.status = status[f.id]; }); state.mine = M.mergeRecords(state.mine, d.mine || []);
       (d.settings || []).forEach(function (r) { var cur = state.settings[r.id]; if (!cur || String(r.at || "") > String(cur.at || "")) state.settings[r.id] = { v: r.v, at: r.at }; });
+      applyMotion();
       return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("settings", state.settings)]).then(function () {
         rebuild(); syncSoon(0); toast("Restored " + plural(state.reviews.length - before, "answer") + "."); refresh();
       });
@@ -1310,9 +1436,14 @@
     b.textContent = next === "light" ? "Light mode" : "Dark mode";
     b.setAttribute("aria-label", "Switch to " + next + " mode");
   }
+  var themeFadeT = null;
   document.getElementById("theme-toggle").addEventListener("click", function () {
-    var next = effectiveTheme() === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
+    var next = effectiveTheme() === "dark" ? "light" : "dark", r = document.documentElement;
+    if (!motionOff()) {   // colours cross-fade for a moment instead of snapping; only during the switch, so nothing else slows down
+      r.classList.add("theme-fade"); void r.offsetWidth;
+      clearTimeout(themeFadeT); themeFadeT = setTimeout(function () { r.classList.remove("theme-fade"); }, 450);
+    }
+    r.setAttribute("data-theme", next);
     ls.set("theme", next); paintToggle();
   });
   if (window.matchMedia) { try { window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", paintToggle); } catch (e) { /* old browsers */ } }
@@ -1354,6 +1485,7 @@
     restoreRuns();
     return Promise.all([loadData(), loadLocal()]).then(function () {
       rebuild();
+      applyMotion();
       showStatus();
       if (cfg.apiUrl && !ls.get("code") && !ls.get("skipGate")) { state.ready = false; main.innerHTML = viewGate(""); main.setAttribute("aria-busy", "false"); return; }
       state.ready = true;

@@ -634,6 +634,199 @@
    ],
    "alt": "Plasminogen is converted to plasmin by tPA and uPA; PAI-1 inhibits the activators and alpha-2-antiplasmin inhibits plasmin. Plasmin breaks fibrinogen and non-cross-linked fibrin into FDPs (fragments X, Y, D and E) and breaks fibrin cross-linked by factor XIIIa into D-dimer. A note says a raised D-dimer means a clot formed and is being broken down (DVT, pulmonary embolism, DIC), and a normal D-dimer helps rule out venous thromboembolism.",
    "source": "Original diagram. Facts per Rodak's Hematology: Clinical Principles and Applications 7e, fibrinolysis and coagulation testing chapters."
+  },
+  {
+   "id": "he-poikilocytes",
+   "type": "svg",
+   "subject": "HE",
+   "tos": [
+    "HE-B.2",
+    "HE-C.1",
+    "HE-D.1"
+   ],
+   "title": "Poikilocytes: shapes and what they point to",
+   "keywords": [
+    "poikilocyt",
+    "spherocyt",
+    "elliptocyt",
+    "ovalocyt",
+    "stomatocyt",
+    "target cell",
+    "codocyt",
+    "sickle cell",
+    "drepanocyt",
+    "hb c crystal",
+    "schistocyt",
+    "helmet cell",
+    "keratocyt",
+    "bite cell",
+    "dacrocyt",
+    "teardrop",
+    "acanthocyt",
+    "echinocyt",
+    "burr cell",
+    "myelofibrosis"
+   ],
+   "viewBox": "0 0 360 549",
+   "svg": "<g><circle cx=\"28\" cy=\"26\" r=\"17\" class=\"v-fill-5\"/><circle cx=\"28\" cy=\"26\" r=\"6\" class=\"v-box\" style=\"stroke:none\"/><text x=\"56\" y=\"22\" class=\"v-text v-b\">Normal red cell (discocyte)</text><text x=\"56\" y=\"39\" class=\"v-text v-small v-muted\">central pallor about 1/3 of its diameter</text></g><g data-k=\"g1\"><text x=\"8\" y=\"68\" class=\"v-text v-small v-b v-muted\">Membrane or hemoglobin-content change</text><line x1=\"8\" y1=\"74\" x2=\"352\" y2=\"74\" class=\"v-thin\"/><circle cx=\"48\" cy=\"102\" r=\"12\" class=\"v-fill-5\"/><text x=\"48\" y=\"138\" class=\"v-text v-small v-mid\">Spherocyte</text><ellipse cx=\"136\" cy=\"102\" rx=\"20\" ry=\"10\" class=\"v-fill-5\"/><ellipse cx=\"136\" cy=\"102\" rx=\"10\" ry=\"3.5\" class=\"v-box\" style=\"stroke:none\"/><text x=\"136\" y=\"138\" class=\"v-text v-small v-mid\">Elliptocyte</text><circle cx=\"224\" cy=\"102\" r=\"17\" class=\"v-fill-5\"/><ellipse cx=\"224\" cy=\"102\" rx=\"9\" ry=\"2.4\" class=\"v-box\" style=\"stroke:none\"/><text x=\"224\" y=\"138\" class=\"v-text v-small v-mid\">Stomatocyte</text><circle cx=\"312\" cy=\"102\" r=\"17\" class=\"v-fill-5\"/><circle cx=\"312\" cy=\"102\" r=\"11.5\" class=\"v-box\" style=\"stroke:none\"/><circle cx=\"312\" cy=\"102\" r=\"5\" class=\"v-fill-5\"/><text x=\"312\" y=\"138\" class=\"v-text v-small v-mid\">Target cell</text></g><g data-k=\"g2\"><text x=\"8\" y=\"166\" class=\"v-text v-small v-b v-muted\">Abnormal hemoglobin: S and C</text><line x1=\"8\" y1=\"172\" x2=\"352\" y2=\"172\" class=\"v-thin\"/><path d=\"M27,204 A22,22 0 0 1 69,204 A40,40 0 0 0 27,204 Z\" class=\"v-fill-5\" transform=\"rotate(-12 48 200)\"/><text x=\"48\" y=\"236\" class=\"v-text v-small v-mid\">Sickle cell</text><circle cx=\"136\" cy=\"200\" r=\"17\" class=\"v-thin\"/><polygon points=\"125.4,205.63 127.24,198.43 139.6,191.86 146.6,194.37 144.76,201.57 132.4,208.14\" class=\"v-fill-5\"/><text x=\"136\" y=\"236\" class=\"v-text v-small v-mid\">Hb C crystal</text></g><g data-k=\"g3\"><text x=\"8\" y=\"264\" class=\"v-text v-small v-b v-muted\">Fragmentation</text><line x1=\"8\" y1=\"270\" x2=\"352\" y2=\"270\" class=\"v-thin\"/><polygon points=\"34,307 46,285 53,296 63,300 51,307\" class=\"v-fill-5\"/><text x=\"48\" y=\"334\" class=\"v-text v-small v-mid\">Schistocyte</text><path d=\"M118,307 L123,300 A15,15 0 1 1 149,300 L154,307 Z\" class=\"v-fill-5\"/><text x=\"136\" y=\"334\" class=\"v-text v-small v-mid\">Helmet cell</text><path d=\"M215,279 L221,289 Q224,294 227,289 L233,279 L235,292 A15,15 0 1 1 213,292 Z\" class=\"v-fill-5\"/><circle cx=\"224\" cy=\"302\" r=\"4.5\" class=\"v-box\" style=\"stroke:none\"/><text x=\"224\" y=\"334\" class=\"v-text v-small v-mid\">Keratocyte</text><path d=\"M325.5,288 A17,17 0 1 0 325.5,308 A10,10 0 0 1 325.5,288 Z\" class=\"v-fill-5\"/><circle cx=\"309\" cy=\"298\" r=\"5\" class=\"v-box\" style=\"stroke:none\"/><text x=\"312\" y=\"334\" class=\"v-text v-small v-mid\">Bite cell</text></g><g data-k=\"g4\"><text x=\"8\" y=\"362\" class=\"v-text v-small v-b v-muted\">Other shapes: tail or spicules</text><line x1=\"8\" y1=\"368\" x2=\"352\" y2=\"368\" class=\"v-thin\"/><path d=\"M69,385 L53.57,406.56 A13,13 0 1 1 42.51,386.01 Z\" class=\"v-fill-5\"/><circle cx=\"43\" cy=\"399\" r=\"4.5\" class=\"v-box\" style=\"stroke:none\"/><text x=\"48\" y=\"432\" class=\"v-text v-small v-mid\">Dacrocyte</text><line x1=\"145.66\" y1=\"398.59\" x2=\"155.32\" y2=\"401.18\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.25\"/><circle cx=\"155.32\" cy=\"401.18\" r=\"2.2\" class=\"v-fill-5\"/><line x1=\"134.26\" y1=\"405.85\" x2=\"133.22\" y2=\"411.76\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.25\"/><circle cx=\"133.22\" cy=\"411.76\" r=\"2.2\" class=\"v-fill-5\"/><line x1=\"127.34\" y1=\"401\" x2=\"117.81\" y2=\"406.5\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.25\"/><circle cx=\"117.81\" cy=\"406.5\" r=\"2.2\" class=\"v-fill-5\"/><line x1=\"127.81\" y1=\"390.26\" x2=\"122.07\" y2=\"386.25\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.25\"/><circle cx=\"122.07\" cy=\"386.25\" r=\"2.2\" class=\"v-fill-5\"/><line x1=\"141\" y1=\"387.34\" x2=\"145.5\" y2=\"379.55\" class=\"v-line v-stroke-5\" style=\"stroke-width:2.25\"/><circle cx=\"145.5\" cy=\"379.55\" r=\"2.2\" class=\"v-fill-5\"/><circle cx=\"136\" cy=\"396\" r=\"11.5\" class=\"v-fill-5\"/><text x=\"136\" y=\"432\" class=\"v-text v-small v-mid\">Acanthocyte</text><polygon points=\"241,396 237.24,398.63 239.71,402.51 235.22,403.5 236.02,408.02 231.5,407.22 230.51,411.71 226.63,409.24 224,413 221.37,409.24 217.49,411.71 216.5,407.22 211.98,408.02 212.78,403.5 208.29,402.51 210.76,398.63 207,396 210.76,393.37 208.29,389.49 212.78,388.5 211.98,383.98 216.5,384.78 217.49,380.29 221.37,382.76 224,379 226.63,382.76 230.51,380.29 231.5,384.78 236.02,383.98 235.22,388.5 239.71,389.49 237.24,393.37\" class=\"v-fill-5\"/><circle cx=\"224\" cy=\"396\" r=\"5\" class=\"v-box\" style=\"stroke:none\"/><text x=\"224\" y=\"432\" class=\"v-text v-small v-mid\">Echinocyte</text></g><g data-k=\"d1\"><rect x=\"4\" y=\"154\" width=\"352\" height=\"114\" rx=\"6\" class=\"v-box\"/><text x=\"14\" y=\"175\" class=\"v-text v-small\"><tspan class=\"v-b\">Spherocyte:</tspan> hereditary spherocytosis, WAIHA</text><text x=\"14\" y=\"192\" class=\"v-text v-small\"><tspan class=\"v-b\">Elliptocyte (ovalocyte):</tspan> hereditary</text><text x=\"26\" y=\"209\" class=\"v-text v-small\">elliptocytosis</text><text x=\"14\" y=\"226\" class=\"v-text v-small\"><tspan class=\"v-b\">Stomatocyte:</tspan> alcoholism, liver disease</text><text x=\"14\" y=\"243\" class=\"v-text v-small\"><tspan class=\"v-b\">Target cell (codocyte):</tspan> thalassemia,</text><text x=\"26\" y=\"260\" class=\"v-text v-small\">liver disease, Hb C</text></g><g data-k=\"d2\"><rect x=\"4\" y=\"252\" width=\"352\" height=\"63\" rx=\"6\" class=\"v-box\"/><text x=\"14\" y=\"273\" class=\"v-text v-small\"><tspan class=\"v-b\">Sickle cell (drepanocyte):</tspan> sickle cell</text><text x=\"26\" y=\"290\" class=\"v-text v-small\">disease (Hb SS, SC, S-beta-thalassemia)</text><text x=\"14\" y=\"307\" class=\"v-text v-small\"><tspan class=\"v-b\">Hb C crystal:</tspan> Hb CC disease</text></g><g data-k=\"d3\"><rect x=\"4\" y=\"350\" width=\"352\" height=\"97\" rx=\"6\" class=\"v-box\"/><text x=\"14\" y=\"371\" class=\"v-text v-small\"><tspan class=\"v-b\">Schistocyte:</tspan> DIC, TTP, HUS (MAHA),</text><text x=\"26\" y=\"388\" class=\"v-text v-small\">mechanical heart valves, burns</text><text x=\"14\" y=\"405\" class=\"v-text v-small\"><tspan class=\"v-b\">Helmet cell, keratocyte:</tspan> same causes</text><text x=\"14\" y=\"422\" class=\"v-text v-small\"><tspan class=\"v-b\">Bite cell:</tspan> G6PD deficiency (Heinz</text><text x=\"26\" y=\"439\" class=\"v-text v-small\">bodies pitted out by the spleen)</text></g><g data-k=\"d4\"><rect x=\"4\" y=\"448\" width=\"352\" height=\"97\" rx=\"6\" class=\"v-box\"/><text x=\"14\" y=\"469\" class=\"v-text v-small\"><tspan class=\"v-b\">Dacrocyte (teardrop):</tspan> myelofibrosis</text><text x=\"14\" y=\"486\" class=\"v-text v-small\"><tspan class=\"v-b\">Acanthocyte:</tspan> few, uneven spicules; severe</text><text x=\"26\" y=\"503\" class=\"v-text v-small\">liver disease, abetalipoproteinemia</text><text x=\"14\" y=\"520\" class=\"v-text v-small\"><tspan class=\"v-b\">Echinocyte (burr cell):</tspan> many even</text><text x=\"26\" y=\"537\" class=\"v-text v-small\">spicules; uremia, PK deficiency</text></g><g data-k=\"d5\"><rect x=\"4\" y=\"448\" width=\"352\" height=\"97\" rx=\"6\" class=\"v-tint-4\"/><text x=\"14\" y=\"469\" class=\"v-text v-small\"><tspan class=\"v-b\">Fragments</tspan> → MAHA (DIC, TTP, HUS), valves</text><text x=\"14\" y=\"486\" class=\"v-text v-small\"><tspan class=\"v-b\">Target cells</tspan> → thalassemia, liver, Hb C</text><text x=\"14\" y=\"503\" class=\"v-text v-small\"><tspan class=\"v-b\">Teardrops</tspan> → myelofibrosis</text><text x=\"14\" y=\"520\" class=\"v-text v-small\"><tspan class=\"v-b\">Spicules:</tspan> uneven = acanthocyte,</text><text x=\"26\" y=\"537\" class=\"v-text v-small\">evenly spaced = echinocyte</text></g>",
+   "steps": [
+    {
+     "caption": "A normal red cell is a biconcave disc whose central pallor is about one-third of its diameter. **Spherocytes** have lost membrane, so they are small and dense with no pallor; **elliptocytes (ovalocytes)** are oval to pencil-shaped, and **stomatocytes** have a slit-like pallor. **Target cells (codocytes)** have too much membrane for their hemoglobin, which collects in the centre as a bull’s-eye.",
+     "show": [
+      "g1",
+      "d1"
+     ],
+     "hl": [
+      "g1"
+     ]
+    },
+    {
+     "caption": "**Sickle cells (drepanocytes)** are crescents with pointed ends, formed when deoxygenated Hb S polymerizes; they are seen in sickle cell disease, not usually in sickle trait. **Hb C crystals** are dense, blunt-ended hexagonal rods inside an otherwise empty-looking cell, typical of Hb CC disease.",
+     "show": [
+      "g1",
+      "g2",
+      "d2"
+     ],
+     "hl": [
+      "g2"
+     ]
+    },
+    {
+     "caption": "**Schistocytes** are sharp-angled fragments torn off by fibrin strands or abnormal surfaces, so they mark microangiopathic hemolytic anemia (DIC, TTP, HUS) and mechanical heart valves; **helmet cells** (a straight cut edge) and **keratocytes** (two horn-like points) mean the same. **Bite cells** are different: the spleen has pitted out Heinz bodies, as in G6PD deficiency after oxidant stress.",
+     "show": [
+      "g1",
+      "g2",
+      "g3",
+      "d3"
+     ],
+     "hl": [
+      "g3"
+     ]
+    },
+    {
+     "caption": "**Dacrocytes (teardrop cells)** have one tapering tail and point to primary myelofibrosis or other marrow infiltration. Compare the spicules: an **acanthocyte** is dense, without pallor, with a few projections of uneven length and spacing, while an **echinocyte (burr cell)** has many short projections evenly spaced around the cell (uremia, pyruvate kinase deficiency, or a drying artifact).",
+     "show": [
+      "g1",
+      "g2",
+      "g3",
+      "g4",
+      "d4"
+     ],
+     "hl": [
+      "g4"
+     ]
+    },
+    {
+     "caption": "**To remember:** fragments mean shearing (MAHA, valves); target cells mean too much membrane (thalassemia, liver disease, Hb C); teardrops mean a fibrotic or infiltrated marrow. For spicules, uneven means acanthocyte and evenly spaced means echinocyte.",
+     "show": [
+      "g1",
+      "g2",
+      "g3",
+      "g4",
+      "d5"
+     ],
+     "hl": [
+      "d5"
+     ]
+    }
+   ],
+   "alt": "Schematic red cell shapes, each labelled, grouped by cause, below a normal discocyte with central pallor about one-third of its diameter. Membrane or hemoglobin-content change: spherocyte (small, no pallor; hereditary spherocytosis, WAIHA), elliptocyte or ovalocyte (oval; hereditary elliptocytosis), stomatocyte (slit-like pallor; alcoholism, liver disease), target cell or codocyte (bull's-eye; thalassemia, liver disease, Hb C). Abnormal hemoglobin: sickle cell or drepanocyte (crescent; sickle cell disease) and Hb C crystal (hexagonal rod in an empty-looking cell; Hb CC disease). Fragmentation: schistocyte, helmet cell and keratocyte (DIC, TTP, HUS, mechanical valves, burns) and bite cell (G6PD deficiency). Other shapes: dacrocyte or teardrop (myelofibrosis), acanthocyte (few uneven spicules, no pallor; severe liver disease, abetalipoproteinemia) and echinocyte or burr cell (many even spicules; uremia, pyruvate kinase deficiency, artifact).",
+   "source": "Original diagram. Facts per Rodak's Hematology 6e (erythrocyte morphology: variations in shape)."
+  },
+  {
+   "id": "he-rbc-inclusions",
+   "type": "svg",
+   "subject": "HE",
+   "tos": [
+    "HE-B.2",
+    "HE-C.1",
+    "HE-D.1"
+   ],
+   "title": "RBC inclusions: what they are and how to see them",
+   "keywords": [
+    "howell-jolly",
+    "basophilic stippling",
+    "pappenheimer",
+    "heinz",
+    "cabot ring",
+    "siderocyt",
+    "prussian blue",
+    "supravital",
+    "crystal violet",
+    "brilliant cresyl"
+   ],
+   "viewBox": "0 0 360 462",
+   "svg": "<g data-k=\"hj\"><circle cx=\"60\" cy=\"42\" r=\"30\" class=\"v-tint-5\"/><circle cx=\"75\" cy=\"51\" r=\"4\" class=\"v-fill-ink\"/><text x=\"60\" y=\"92\" class=\"v-text v-b v-mid\">Howell-Jolly</text><text x=\"60\" y=\"108\" class=\"v-text v-b v-mid\">body</text><text x=\"60\" y=\"124\" class=\"v-text v-small v-mid\">DNA remnant</text><text x=\"60\" y=\"139\" class=\"v-text v-small v-mid\">post-splenectomy</text></g><g data-k=\"bs\"><circle cx=\"180\" cy=\"42\" r=\"30\" class=\"v-tint-5\"/><circle cx=\"170.84\" cy=\"23.84\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"187.85\" cy=\"19.77\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"181.87\" cy=\"35.02\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"157.02\" cy=\"42.39\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"176.07\" cy=\"59\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"160.44\" cy=\"27.61\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"186.63\" cy=\"65.28\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"198.64\" cy=\"31.06\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"163.4\" cy=\"46.24\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"189.38\" cy=\"38.23\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"170.34\" cy=\"46.45\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"195.31\" cy=\"52.35\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"191.93\" cy=\"30.97\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"193.76\" cy=\"45.8\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"178.65\" cy=\"50.54\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"168.48\" cy=\"37.6\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"199.47\" cy=\"57.49\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"159.28\" cy=\"34.91\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"178.23\" cy=\"41.16\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"197.1\" cy=\"24.39\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"181.47\" cy=\"23.62\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"162.69\" cy=\"56.14\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"203.74\" cy=\"39.26\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"187.95\" cy=\"57.58\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"167.1\" cy=\"31.23\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"178.86\" cy=\"64.96\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"157.8\" cy=\"50.81\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"196.58\" cy=\"38.47\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"175.04\" cy=\"34.07\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"184.45\" cy=\"43.52\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"166.03\" cy=\"62.68\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"179.28\" cy=\"17.29\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"169.48\" cy=\"54.43\" r=\"1.5\" class=\"v-fill-ink\"/><circle cx=\"192.86\" cy=\"62.72\" r=\"1.5\" class=\"v-fill-ink\"/><text x=\"180\" y=\"92\" class=\"v-text v-b v-mid\">Basophilic</text><text x=\"180\" y=\"108\" class=\"v-text v-b v-mid\">stippling</text><text x=\"180\" y=\"124\" class=\"v-text v-small v-mid\">RNA (ribosomes)</text><text x=\"180\" y=\"139\" class=\"v-text v-small v-mid\">lead, thalassemia</text></g><g data-k=\"pap\"><circle cx=\"300\" cy=\"42\" r=\"30\" class=\"v-tint-5\"/><circle cx=\"316\" cy=\"27\" r=\"1.7\" class=\"v-fill-ink\"/><circle cx=\"320\" cy=\"31\" r=\"1.7\" class=\"v-fill-ink\"/><circle cx=\"313\" cy=\"32\" r=\"1.7\" class=\"v-fill-ink\"/><circle cx=\"318\" cy=\"24\" r=\"1.7\" class=\"v-fill-ink\"/><circle cx=\"322\" cy=\"26\" r=\"1.7\" class=\"v-fill-ink\"/><text x=\"300\" y=\"92\" class=\"v-text v-b v-mid\">Pappenheimer</text><text x=\"300\" y=\"108\" class=\"v-text v-b v-mid\">bodies</text><text x=\"300\" y=\"124\" class=\"v-text v-small v-mid\">iron granules</text><text x=\"300\" y=\"139\" class=\"v-text v-small v-mid\">sideroblastic</text><text x=\"300\" y=\"154\" class=\"v-text v-small v-mid\">anemia</text></g><g data-k=\"heinz\"><circle cx=\"60\" cy=\"196\" r=\"30\" class=\"v-box\"/><circle cx=\"80.89\" cy=\"210.63\" r=\"3.6\" class=\"v-fill-ink\"/><circle cx=\"36.04\" cy=\"204.72\" r=\"3.6\" class=\"v-fill-ink\"/><circle cx=\"55.57\" cy=\"170.89\" r=\"3.6\" class=\"v-fill-ink\"/><text x=\"60\" y=\"246\" class=\"v-text v-b v-mid\">Heinz bodies</text><text x=\"60\" y=\"262\" class=\"v-text v-small v-mid v-muted\">supravital stain</text><text x=\"60\" y=\"277\" class=\"v-text v-small v-mid\">denatured Hb</text><text x=\"60\" y=\"292\" class=\"v-text v-small v-mid\">G6PD deficiency</text></g><g data-k=\"cabot\"><circle cx=\"180\" cy=\"196\" r=\"30\" class=\"v-tint-5\"/><path d=\"M180,196 C188,182 202,186 201,197 C200,207 187,206 180,196 C172,184 159,185 159,196 C159,208 172,209 180,196 Z\" class=\"v-line\" style=\"stroke-width:1.4\"/><text x=\"180\" y=\"246\" class=\"v-text v-b v-mid\">Cabot ring</text><text x=\"180\" y=\"262\" class=\"v-text v-small v-mid\">spindle remnant</text><text x=\"180\" y=\"277\" class=\"v-text v-small v-mid\">megaloblastic</text><text x=\"180\" y=\"292\" class=\"v-text v-small v-mid\">anemia, lead</text></g><g data-k=\"pb\"><circle cx=\"300\" cy=\"196\" r=\"30\" class=\"v-box\"/><circle cx=\"316\" cy=\"181\" r=\"2.1\" class=\"v-fill-1\"/><circle cx=\"320\" cy=\"185\" r=\"2.1\" class=\"v-fill-1\"/><circle cx=\"313\" cy=\"186\" r=\"2.1\" class=\"v-fill-1\"/><circle cx=\"318\" cy=\"178\" r=\"2.1\" class=\"v-fill-1\"/><circle cx=\"322\" cy=\"180\" r=\"2.1\" class=\"v-fill-1\"/><text x=\"300\" y=\"246\" class=\"v-text v-b v-mid\">Prussian blue</text><text x=\"300\" y=\"262\" class=\"v-text v-small v-mid\">same cell type:</text><text x=\"300\" y=\"277\" class=\"v-text v-small v-mid\">iron stains blue</text><text x=\"300\" y=\"292\" class=\"v-text v-small v-mid\">= siderocyte</text></g><g data-k=\"table\"><text x=\"8\" y=\"322\" class=\"v-text v-b\">Which stain shows it?</text><rect x=\"4\" y=\"332\" width=\"114\" height=\"124\" rx=\"6\" class=\"v-tint-3\"/><text x=\"61\" y=\"352\" class=\"v-text v-b v-mid\">Wright stain</text><text x=\"61\" y=\"368\" class=\"v-text v-small v-mid v-muted\">routine smear</text><line x1=\"14\" y1=\"376\" x2=\"108\" y2=\"376\" class=\"v-thin\"/><text x=\"61\" y=\"394\" class=\"v-text v-small v-mid\">Howell-Jolly</text><text x=\"61\" y=\"410\" class=\"v-text v-small v-mid\">Stippling</text><text x=\"61\" y=\"426\" class=\"v-text v-small v-mid\">Pappenheimer</text><text x=\"61\" y=\"442\" class=\"v-text v-small v-mid\">Cabot rings</text><rect x=\"123\" y=\"332\" width=\"114\" height=\"124\" rx=\"6\" class=\"v-tint-4\"/><text x=\"180\" y=\"352\" class=\"v-text v-b v-mid\">Supravital</text><text x=\"180\" y=\"368\" class=\"v-text v-small v-mid v-muted\">living cells only</text><line x1=\"133\" y1=\"376\" x2=\"227\" y2=\"376\" class=\"v-thin\"/><text x=\"180\" y=\"394\" class=\"v-text v-small v-mid\">Heinz bodies</text><text x=\"180\" y=\"410\" class=\"v-text v-small v-mid\">Hb H inclusions</text><rect x=\"242\" y=\"332\" width=\"114\" height=\"124\" rx=\"6\" class=\"v-tint-1\"/><text x=\"299\" y=\"352\" class=\"v-text v-b v-mid\">Prussian blue</text><text x=\"299\" y=\"368\" class=\"v-text v-small v-mid v-muted\">iron stain</text><line x1=\"252\" y1=\"376\" x2=\"346\" y2=\"376\" class=\"v-thin\"/><text x=\"299\" y=\"394\" class=\"v-text v-small v-mid\">Pappenheimer: +</text><text x=\"299\" y=\"410\" class=\"v-text v-small v-mid\">(siderocyte)</text><text x=\"299\" y=\"426\" class=\"v-text v-small v-mid\">Stippling: −</text></g>",
+   "steps": [
+    {
+     "caption": "**Howell-Jolly bodies** are single, round, dark purple DNA remnants of the nucleus, about 1 µm across, normally removed by the spleen: think post-splenectomy, and megaloblastic anemia. **Basophilic stippling** is many fine to coarse dots of aggregated ribosomes (RNA) spread evenly through the cell; coarse stippling suggests lead poisoning, and it is also seen in thalassemia.",
+     "show": [
+      "hj",
+      "bs"
+     ],
+     "hl": [
+      "hj",
+      "bs"
+     ]
+    },
+    {
+     "caption": "**Pappenheimer bodies** are a few small iron granules, usually clustered near the edge of the cell on Wright stain. A Prussian blue stain confirms the iron: the granules turn blue and the cell is called a **siderocyte**. Think sideroblastic anemia and post-splenectomy.",
+     "show": [
+      "hj",
+      "bs",
+      "pap",
+      "pb"
+     ],
+     "hl": [
+      "pap",
+      "pb"
+     ]
+    },
+    {
+     "caption": "**Heinz bodies** are denatured, precipitated hemoglobin attached to the inner membrane. They don’t show on Wright stain, so they need a supravital stain such as new methylene blue or crystal violet. Think G6PD deficiency after an oxidant drug, and unstable hemoglobins; when the spleen pits them out, bite cells remain.",
+     "show": [
+      "hj",
+      "bs",
+      "pap",
+      "pb",
+      "heinz"
+     ],
+     "hl": [
+      "heinz"
+     ]
+    },
+    {
+     "caption": "**Cabot rings** are thin purple loops or figure-eights, thought to be remnants of the mitotic spindle. They are rare; think megaloblastic anemia and lead poisoning.",
+     "show": [
+      "hj",
+      "bs",
+      "pap",
+      "pb",
+      "heinz",
+      "cabot"
+     ],
+     "hl": [
+      "cabot"
+     ]
+    },
+    {
+     "caption": "**Which stain?** Howell-Jolly bodies, basophilic stippling, Pappenheimer bodies and Cabot rings all show on a Wright-stained smear. Heinz bodies (and Hb H inclusions) need a supravital stain of living cells. Prussian blue confirms iron: Pappenheimer bodies turn blue, basophilic stippling does not.",
+     "show": [
+      "hj",
+      "bs",
+      "pap",
+      "heinz",
+      "cabot",
+      "pb",
+      "table"
+     ],
+     "hl": [
+      "table"
+     ]
+    }
+   ],
+   "alt": "Six schematic red cells, each labelled. Howell-Jolly body: one round dark dot, a DNA remnant, seen after splenectomy. Basophilic stippling: many fine dots evenly through the cell, RNA (ribosomes), seen in lead poisoning and thalassemia. Pappenheimer bodies: a small cluster of iron granules near the edge, seen in sideroblastic anemia. Heinz bodies: round dots on the inner membrane of a supravitally stained cell, denatured hemoglobin, seen in G6PD deficiency. Cabot ring: a thin figure-eight loop, a mitotic spindle remnant, seen in megaloblastic anemia and lead poisoning. Prussian blue: the iron granules of a Pappenheimer-body cell stain blue, making it a siderocyte. A table shows that Howell-Jolly bodies, stippling, Pappenheimer bodies and Cabot rings show on Wright stain; Heinz bodies and Hb H inclusions need a supravital stain; Prussian blue is positive for Pappenheimer bodies and negative for basophilic stippling.",
+   "source": "Original diagram. Facts per Rodak's Hematology 6e (erythrocyte morphology: inclusions; supravital and Prussian blue stains)."
   }
  ]
 }

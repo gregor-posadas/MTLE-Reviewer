@@ -1,8 +1,8 @@
 {
   "source": "Board of Medical Technology Res. No. 13 s. 2023, Annex (as of Nov 2022)",
   "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2023-13%20published_Annex_TOS.pdf",
-  "verified": false,
-  "note": "Extracted via automated PDF-to-text (direct download blocked); item counts cross-checked by sums but not against the PDF by a human. Difficulty (Easy/Moderate/Difficult) splits omitted because extracted columns were inconsistent; Annex target is 30/50/20 per subject. Subject order follows the exam program (Day 1: CC, MP, CM; Day 2: HE, BB, HL); the Annex itself lists HE, BB, CC, CM, MP, HL.",
+  "verified": true,
+  "note": "Item counts and topic structure checked line by line against the Board of Medical Technology table of specifications (MTLE-NEW-TABLE-OF-SPECIFICATIONS, Oct 2026). Difficulty (Easy/Moderate/Difficult) splits omitted; target is 30/50/20 per subject. Subject order follows the exam program (Day 1: CC, MP, CM; Day 2: HE, BB, HL); the TOS itself lists BB, CM, HE, CC, MP, HL.",
   "subjects": [
     {
       "code": "CC",

@@ -1159,6 +1159,102 @@
    ],
    "alt": "CDC DPDx life cycle of Wuchereria bancrofti: mosquito depositing third-stage larvae, adults in lymphatics, sheathed microfilariae in blood, ingestion by a mosquito, and larval development to the infective stage in the mosquito, numbered 1 to 8.",
    "source": "CDC DPDx life cycle figure; captions written for this site."
+  },
+  {
+   "id": "mp-bsc",
+   "type": "svg",
+   "subject": "MP",
+   "tos": [
+    "MP-G.3",
+    "MP-E.1"
+   ],
+   "title": "Biosafety cabinets: who and what each one protects",
+   "keywords": [
+    "biological safety cabinet",
+    "biosafety cabinet",
+    "biosafety level",
+    "bsl-2",
+    "bsl-3",
+    "bsl-4",
+    "hepa-filtered",
+    "inward air",
+    "class ii",
+    "class iii",
+    "laminar flow"
+   ],
+   "viewBox": "0 0 360 444",
+   "svg": "<g data-k=\"c1\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Class I: open front</text><path d=\"M104 160 L104 66 L264 66 L264 222 L104 222 L104 200\" class=\"v-line\"/><line x1=\"104\" y1=\"200\" x2=\"264\" y2=\"200\" class=\"v-line\"/><circle cx=\"40\" cy=\"140\" r=\"10\" class=\"v-line\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"198\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"30\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"50\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"160\" x2=\"100\" y2=\"166\" class=\"v-line\"/><rect x=\"196\" y=\"72\" width=\"60\" height=\"14\" rx=\"0\" class=\"v-hatch\"/><path d=\"M56 186 L150 186 Q226 186 226 140 L226 92\" class=\"v-line v-arrow v-draw\"/><line x1=\"226\" y1=\"72\" x2=\"226\" y2=\"36\" class=\"v-line v-arrow v-draw\"/><text x=\"126\" y=\"178\" class=\"v-text v-small\">room air in</text><text x=\"272\" y=\"44\" class=\"v-text v-small\">exhaust</text><text x=\"272\" y=\"84\" class=\"v-text v-small\">HEPA filter</text><text x=\"8\" y=\"250\" class=\"v-text v-small\">Unfiltered room air flows in over the work,</text><text x=\"8\" y=\"267\" class=\"v-text v-small\">then out through the HEPA filter.</text><text x=\"8\" y=\"284\" class=\"v-text v-small v-muted\">Nothing filtered blows onto the work.</text></g><g data-k=\"c2\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Class II: inflow + downflow</text><path d=\"M104 160 L104 66 L264 66 L264 222 L104 222 L104 200\" class=\"v-line\"/><line x1=\"104\" y1=\"200\" x2=\"264\" y2=\"200\" class=\"v-line\"/><circle cx=\"40\" cy=\"140\" r=\"10\" class=\"v-line\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"198\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"30\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"50\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"160\" x2=\"112\" y2=\"166\" class=\"v-line\"/><rect x=\"170\" y=\"52\" width=\"60\" height=\"14\" rx=\"0\" class=\"v-hatch\"/><rect x=\"112\" y=\"90\" width=\"144\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><line x1=\"200\" y1=\"52\" x2=\"200\" y2=\"30\" class=\"v-line v-arrow v-draw\"/><line x1=\"150\" y1=\"106\" x2=\"150\" y2=\"150\" class=\"v-line v-arrow v-draw\"/><line x1=\"185\" y1=\"106\" x2=\"185\" y2=\"150\" class=\"v-line v-arrow v-draw\"/><line x1=\"220\" y1=\"106\" x2=\"220\" y2=\"150\" class=\"v-line v-arrow v-draw\"/><line x1=\"106\" y1=\"200\" x2=\"124\" y2=\"200\" class=\"v-line v-dot\"/><path d=\"M56 182 L100 182 Q114 182 114 194 L114 214\" class=\"v-line v-arrow v-draw\"/><text x=\"58\" y=\"214\" class=\"v-text v-small\">inflow</text><text x=\"272\" y=\"40\" class=\"v-text v-small\">exhaust</text><text x=\"272\" y=\"62\" class=\"v-text v-small\">HEPA</text><text x=\"272\" y=\"100\" class=\"v-text v-small\">supply HEPA</text><text x=\"272\" y=\"132\" class=\"v-text v-small\">filtered</text><text x=\"272\" y=\"148\" class=\"v-text v-small\">downflow</text><text x=\"128\" y=\"194\" class=\"v-text v-small\">front grille</text><rect x=\"8\" y=\"232\" width=\"168\" height=\"66\" rx=\"4\" class=\"v-tint-1\"/><text x=\"16\" y=\"250\" class=\"v-text v-small v-b\">Type A2</text><text x=\"16\" y=\"267\" class=\"v-text v-small\">about 70% recirculated,</text><text x=\"16\" y=\"284\" class=\"v-text v-small\">about 30% exhausted</text><rect x=\"184\" y=\"232\" width=\"168\" height=\"66\" rx=\"4\" class=\"v-tint-2\"/><text x=\"192\" y=\"250\" class=\"v-text v-small v-b\">Type B2</text><text x=\"192\" y=\"267\" class=\"v-text v-small\">total exhaust, hard-</text><text x=\"192\" y=\"284\" class=\"v-text v-small\">ducted outside</text></g><g data-k=\"c3\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Class III: glove box</text><rect x=\"104\" y=\"66\" width=\"160\" height=\"156\" rx=\"0\" class=\"v-line\"/><line x1=\"104\" y1=\"200\" x2=\"264\" y2=\"200\" class=\"v-line\"/><path d=\"M104 150 L148 146 Q156 152 148 160 L104 160\" class=\"v-box\"/><path d=\"M104 176 L148 172 Q156 178 148 186 L104 186\" class=\"v-box\"/><circle cx=\"40\" cy=\"140\" r=\"10\" class=\"v-line\"/><line x1=\"40\" y1=\"150\" x2=\"40\" y2=\"198\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"30\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"198\" x2=\"50\" y2=\"222\" class=\"v-line\"/><line x1=\"40\" y1=\"160\" x2=\"104\" y2=\"155\" class=\"v-line\"/><line x1=\"40\" y1=\"168\" x2=\"104\" y2=\"181\" class=\"v-line\"/><rect x=\"118\" y=\"52\" width=\"50\" height=\"14\" rx=\"0\" class=\"v-hatch\"/><line x1=\"143\" y1=\"30\" x2=\"143\" y2=\"50\" class=\"v-line v-arrow v-draw\"/><line x1=\"143\" y1=\"68\" x2=\"143\" y2=\"90\" class=\"v-line v-arrow v-draw\"/><rect x=\"200\" y=\"52\" width=\"50\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><rect x=\"200\" y=\"38\" width=\"50\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><line x1=\"225\" y1=\"38\" x2=\"225\" y2=\"24\" class=\"v-line v-arrow v-draw\"/><text x=\"8\" y=\"62\" class=\"v-text v-small\">air in</text><text x=\"8\" y=\"78\" class=\"v-text v-small\">via HEPA</text><text x=\"272\" y=\"40\" class=\"v-text v-small\">2 HEPA</text><text x=\"272\" y=\"56\" class=\"v-text v-small\">filters</text><text x=\"272\" y=\"120\" class=\"v-text v-small\">gas-tight,</text><text x=\"272\" y=\"136\" class=\"v-text v-small\">negative</text><text x=\"272\" y=\"152\" class=\"v-text v-small\">pressure</text><text x=\"184\" y=\"112\" class=\"v-text v-small v-mid\">sealed</text><text x=\"184\" y=\"128\" class=\"v-text v-small v-mid\">rubber gloves</text><rect x=\"8\" y=\"232\" width=\"344\" height=\"66\" rx=\"4\" class=\"v-tint-4\"/><text x=\"16\" y=\"250\" class=\"v-text v-small\">Totally enclosed; the worker never touches</text><text x=\"16\" y=\"267\" class=\"v-text v-small\">the agent. Items pass in and out through a</text><text x=\"16\" y=\"284\" class=\"v-text v-small\">dunk tank or double-door autoclave.</text></g><g data-k=\"bsl\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Biosafety levels and cabinets</text><rect x=\"8\" y=\"32\" width=\"344\" height=\"60\" rx=\"4\" class=\"v-box\"/><rect x=\"8\" y=\"32\" width=\"64\" height=\"60\" rx=\"4\" class=\"v-tint-3\"/><text x=\"40\" y=\"67\" class=\"v-text v-b v-mid\">BSL-1</text><text x=\"80\" y=\"50\" class=\"v-text v-small v-b\">Low risk to healthy adults</text><text x=\"80\" y=\"67\" class=\"v-text v-small\">e.g. <tspan style=\"font-style:italic\">Bacillus subtilis</tspan>, <tspan style=\"font-style:italic\">E. coli</tspan> K-12</text><text x=\"80\" y=\"84\" class=\"v-text v-small\">Open bench; no cabinet required</text><rect x=\"8\" y=\"98\" width=\"344\" height=\"60\" rx=\"4\" class=\"v-box\"/><rect x=\"8\" y=\"98\" width=\"64\" height=\"60\" rx=\"4\" class=\"v-tint-1\"/><text x=\"40\" y=\"133\" class=\"v-text v-b v-mid\">BSL-2</text><text x=\"80\" y=\"116\" class=\"v-text v-small v-b\">Moderate risk; most clinical labs</text><text x=\"80\" y=\"133\" class=\"v-text v-small\">e.g. <tspan style=\"font-style:italic\">Salmonella</tspan>, <tspan style=\"font-style:italic\">S. aureus</tspan>, HBV</text><text x=\"80\" y=\"150\" class=\"v-text v-small\">Class II BSC for aerosol-making work</text><rect x=\"8\" y=\"164\" width=\"344\" height=\"60\" rx=\"4\" class=\"v-box\"/><rect x=\"8\" y=\"164\" width=\"64\" height=\"60\" rx=\"4\" class=\"v-tint-4\"/><text x=\"40\" y=\"199\" class=\"v-text v-b v-mid\">BSL-3</text><text x=\"80\" y=\"182\" class=\"v-text v-small v-b\">Serious disease by inhalation</text><text x=\"80\" y=\"199\" class=\"v-text v-small\">e.g. <tspan style=\"font-style:italic\">M. tuberculosis</tspan> cultures, <tspan style=\"font-style:italic\">Brucella</tspan></text><text x=\"80\" y=\"216\" class=\"v-text v-small\">All open work in a Class II or III BSC</text><rect x=\"8\" y=\"230\" width=\"344\" height=\"60\" rx=\"4\" class=\"v-box\"/><rect x=\"8\" y=\"230\" width=\"64\" height=\"60\" rx=\"4\" class=\"v-tint-5\"/><text x=\"40\" y=\"265\" class=\"v-text v-b v-mid\">BSL-4</text><text x=\"80\" y=\"248\" class=\"v-text v-small v-b\">Life-threatening; no vaccine or cure</text><text x=\"80\" y=\"265\" class=\"v-text v-small\">e.g. Ebola, Marburg, variola</text><text x=\"80\" y=\"282\" class=\"v-text v-small\">Class III BSC, or Class II + full suit</text></g><g data-k=\"use\"><text x=\"8\" y=\"20\" class=\"v-text v-b\">Working in a Class II cabinet (top view)</text><text x=\"180\" y=\"48\" class=\"v-text v-small v-mid\">rear grille</text><rect x=\"30\" y=\"54\" width=\"300\" height=\"168\" rx=\"2\" class=\"v-box\"/><rect x=\"30\" y=\"54\" width=\"300\" height=\"12\" rx=\"0\" class=\"v-hatch\"/><rect x=\"30\" y=\"208\" width=\"300\" height=\"14\" rx=\"0\" class=\"v-hatch\"/><line x1=\"30\" y1=\"176\" x2=\"330\" y2=\"176\" class=\"v-line v-dash\"/><text x=\"180\" y=\"197\" class=\"v-text v-small v-mid\">keep clear: 10 cm (4 in) from front</text><text x=\"180\" y=\"238\" class=\"v-text v-small v-mid\">front grille</text><text x=\"180\" y=\"256\" class=\"v-text v-small v-mid v-muted\">(worker sits here)</text><rect x=\"120\" y=\"112\" width=\"70\" height=\"30\" rx=\"4\" class=\"v-box\"/><circle cx=\"136\" cy=\"127\" r=\"7\" class=\"v-line\"/><circle cx=\"155\" cy=\"127\" r=\"7\" class=\"v-line\"/><circle cx=\"174\" cy=\"127\" r=\"7\" class=\"v-line\"/><path d=\"M113 161 l5 6 l10 -12\" class=\"v-line\"/><text x=\"136\" y=\"166\" class=\"v-text v-small\">work here</text><rect x=\"48\" y=\"52\" width=\"46\" height=\"26\" rx=\"4\" class=\"v-box\"/><path d=\"M65 59 l12 12 M77 59 l-12 12\" class=\"v-line\"/><text x=\"42\" y=\"98\" class=\"v-text v-small\">nothing on</text><text x=\"42\" y=\"114\" class=\"v-text v-small\">the grilles</text><path d=\"M286 132 Q272 116 282 100 Q284 110 290 112 Q288 98 296 88 Q302 108 306 116 Q310 128 296 134 Z\" class=\"v-box\"/><path d=\"M282 98 l28 28 M310 98 l-28 28\" class=\"v-line\"/><text x=\"290\" y=\"152\" class=\"v-text v-small v-mid\">no open</text><text x=\"290\" y=\"168\" class=\"v-text v-small v-mid\">flame</text><text x=\"8\" y=\"288\" class=\"v-text v-small v-muted\">Use a microincinerator or disposable loops.</text></g><g data-k=\"tbl-head\"><text x=\"14\" y=\"334\" class=\"v-text v-small v-b\">Protects</text><text x=\"140\" y=\"334\" class=\"v-text v-small v-b v-mid\">personnel</text><text x=\"228\" y=\"334\" class=\"v-text v-small v-b v-mid\">product</text><text x=\"312\" y=\"334\" class=\"v-text v-small v-b v-mid\">environment</text></g><g data-k=\"r1\"><rect x=\"8\" y=\"342\" width=\"344\" height=\"28\" rx=\"4\" class=\"v-box\"/><text x=\"16\" y=\"361\" class=\"v-text v-b\">Class I</text><path d=\"M119 356 l5 6 l10 -12\" class=\"v-line\"/><text x=\"138\" y=\"361\" class=\"v-text\">yes</text><path d=\"M209 351 l10 10 M219 351 l-10 10\" class=\"v-line\"/><text x=\"226\" y=\"361\" class=\"v-text\">no</text><path d=\"M291 356 l5 6 l10 -12\" class=\"v-line\"/><text x=\"310\" y=\"361\" class=\"v-text\">yes</text></g><g data-k=\"r2\"><rect x=\"8\" y=\"374\" width=\"344\" height=\"28\" rx=\"4\" class=\"v-box\"/><text x=\"16\" y=\"393\" class=\"v-text v-b\">Class II</text><path d=\"M119 388 l5 6 l10 -12\" class=\"v-line\"/><text x=\"138\" y=\"393\" class=\"v-text\">yes</text><path d=\"M207 388 l5 6 l10 -12\" class=\"v-line\"/><text x=\"226\" y=\"393\" class=\"v-text\">yes</text><path d=\"M291 388 l5 6 l10 -12\" class=\"v-line\"/><text x=\"310\" y=\"393\" class=\"v-text\">yes</text></g><g data-k=\"r3\"><rect x=\"8\" y=\"406\" width=\"344\" height=\"28\" rx=\"4\" class=\"v-box\"/><text x=\"16\" y=\"425\" class=\"v-text v-b\">Class III</text><path d=\"M119 420 l5 6 l10 -12\" class=\"v-line\"/><text x=\"138\" y=\"425\" class=\"v-text\">yes</text><path d=\"M207 420 l5 6 l10 -12\" class=\"v-line\"/><text x=\"226\" y=\"425\" class=\"v-text\">yes</text><path d=\"M291 420 l5 6 l10 -12\" class=\"v-line\"/><text x=\"310\" y=\"425\" class=\"v-text\">yes</text></g>",
+   "steps": [
+    {
+     "caption": "A **Class I** cabinet pulls room air in through the open front, away from the worker, and out through a **HEPA** filter. It protects the **personnel** and the **environment** but not the **product**, because unfiltered room air sweeps over the work.",
+     "show": [
+      "c1",
+      "r1"
+     ],
+     "hl": [
+      "r1"
+     ]
+    },
+    {
+     "caption": "A **Class II** cabinet adds **HEPA-filtered downflow** over the work surface, so it protects the personnel (front inflow), the **product** (downflow) and the environment (HEPA exhaust). **Type A2** recirculates about 70% of its air; **type B2** is total exhaust, hard-ducted outside, so it suits volatile toxic chemicals.",
+     "show": [
+      "c2",
+      "r1",
+      "r2"
+     ],
+     "hl": [
+      "r2"
+     ]
+    },
+    {
+     "caption": "A **Class III** cabinet is a totally enclosed, gas-tight **glove box** under negative pressure. Supply air enters through a HEPA filter and exhaust leaves through two HEPA filters (or HEPA plus incineration); it gives maximum protection and is used for **BSL-4** agents.",
+     "show": [
+      "c3",
+      "r1",
+      "r2",
+      "r3"
+     ],
+     "hl": [
+      "r3"
+     ]
+    },
+    {
+     "caption": "The **biosafety level** matches the agent. **BSL-2** covers most clinical work, with a Class II BSC for aerosol-making steps; **M. tuberculosis** cultures need **BSL-3**, with all open work in a BSC; **Ebola** and other agents with no vaccine or cure need **BSL-4**, in a Class III cabinet or a Class II cabinet with a positive-pressure suit.",
+     "show": [
+      "bsl",
+      "r1",
+      "r2",
+      "r3"
+     ],
+     "hl": [
+      "bsl"
+     ]
+    },
+    {
+     "caption": "Work at least **10 cm (4 in) inside** the front grille, and never block the front or rear grilles with paper, racks or arms. **No open flame**: it disturbs the airflow and can damage the HEPA filter, so use a microincinerator or disposable loops.",
+     "show": [
+      "use",
+      "r1",
+      "r2",
+      "r3"
+     ],
+     "hl": [
+      "use"
+     ]
+    },
+    {
+     "caption": "**To remember:** only **Class I** leaves the product unprotected. **Class II** protects personnel, product and environment and is the workhorse of BSL-2 and BSL-3 labs; **Class III** is the sealed glove box of BSL-4.",
+     "show": [
+      "bsl",
+      "r1",
+      "r2",
+      "r3"
+     ],
+     "hl": []
+    }
+   ],
+   "alt": "Side views of three biosafety cabinets, plus a table of what each protects. Class I: open front, room air drawn in past the worker and over the work, then out through a HEPA exhaust filter; protects personnel and environment but not product. Class II: front inflow into the front grille, HEPA-filtered downflow onto the work surface, HEPA exhaust; protects personnel, product and environment; type A2 recirculates about 70% and exhausts about 30%, type B2 is total exhaust hard-ducted outside. Class III: a gas-tight glove box under negative pressure with HEPA supply and two HEPA exhaust filters; protects all three; items pass through a dunk tank or double-door autoclave. A biosafety level ladder: BSL-1 low risk, e.g. Bacillus subtilis, open bench; BSL-2 moderate risk, e.g. Salmonella, S. aureus, HBV, Class II BSC for aerosols; BSL-3 serious disease by inhalation, e.g. M. tuberculosis cultures and Brucella, all open work in a Class II or III BSC; BSL-4 life-threatening agents with no vaccine or cure, e.g. Ebola, Marburg, variola, Class III BSC or Class II with a full suit. A top view of a Class II work surface: work at least 10 cm (4 in) inside the front grille, keep the grilles clear, and use no open flame.",
+   "source": "Original diagram. Facts per CDC/NIH Biosafety in Microbiological and Biomedical Laboratories (BMBL) 6e, Appendix A on primary containment; WHO Laboratory Biosafety Manual 4e."
   }
  ]
 }

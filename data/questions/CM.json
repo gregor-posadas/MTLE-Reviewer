@@ -3293,6 +3293,1137 @@
     "3": "Built-in controls do not replace external liquid controls, which are still required at set intervals and with new lots or shipments."
    },
    "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Management (internal quality control)."
+  },
+  {
+   "id": "CM-0151",
+   "tos": "CM-A.1",
+   "type": "math",
+   "difficulty": "moderate",
+   "stem": "A urine specimen freezes at −1.488 °C in a freezing point osmometer. One osmole of solute per kilogram of water lowers the freezing point of water by 1.86 °C. What is the osmolality of the urine?",
+   "options": [
+    "400 mOsm/kg",
+    "800 mOsm/kg",
+    "1,250 mOsm/kg",
+    "2,768 mOsm/kg"
+   ],
+   "answer": 1,
+   "why": "Osmolality equals the freezing point depression divided by 1.86 °C per Osm/kg: 1.488 ÷ 1.86 = 0.800 Osm/kg. Converting to milliosmoles gives **800 mOsm/kg**, a concentrated urine that shows the tubules can reabsorb water.",
+   "whyNot": {
+    "0": "This halves the correct value, as if the depression had to be shared between two ions of a salt; the osmometer already responds to every dissolved particle, so no dissociation correction is applied.",
+    "2": "This inverts the ratio (1.86 ÷ 1.488), which would make a larger freezing point depression give a smaller osmolality.",
+    "3": "This multiplies the depression by the constant (1.488 × 1.86) instead of dividing by it."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (tubular reabsorption tests: osmolality).",
+   "worked": {
+    "problem": "A urine specimen freezes at −0.651 °C. Using the freezing point depression of 1.86 °C per Osm/kg of water, find its osmolality.",
+    "steps": [
+     "Divide the depression by the constant: 0.651 ÷ 1.86 = 0.350 Osm/kg.",
+     "Convert to milliosmoles: 0.350 × 1,000 = 350 mOsm/kg.",
+     "Check: a smaller depression than 1.86 °C must give less than 1,000 mOsm/kg."
+    ],
+    "result": "350 mOsm/kg"
+   }
+  },
+  {
+   "id": "CM-0152",
+   "tos": "CM-A.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient's plasma glucose is 110 mg/dL in the morning and 260 mg/dL after a large meal. Glucose is absent from the morning urine but present in the post-meal urine, and kidney function is otherwise normal. What best explains the post-meal glycosuria?",
+   "options": [
+    "The distal tubule secreted glucose into the urine after the meal",
+    "The glomerulus became more permeable to glucose after the meal",
+    "Antidiuretic hormone release was suppressed by the meal",
+    "Filtered glucose exceeded the tubular capacity to reabsorb it"
+   ],
+   "answer": 3,
+   "why": "Glucose is freely filtered and normally reabsorbed completely in the proximal convoluted tubule by carriers with a limited capacity. When plasma glucose rises above the **renal threshold of about 160 to 180 mg/dL**, the filtered load exceeds this capacity and glucose spills into the urine. At 110 mg/dL the carriers handle the whole load, so no glycosuria occurs.",
+   "whyNot": {
+    "0": "Glucose is not secreted by the tubules; it reaches the urine only when filtered glucose escapes reabsorption.",
+    "1": "Glucose is a small molecule that is already freely filtered, and a meal does not change glomerular permeability.",
+    "2": "Antidiuretic hormone regulates water reabsorption in the collecting duct and does not affect glucose handling."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (tubular reabsorption and renal threshold)."
+  },
+  {
+   "id": "CM-0153",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient with blistering skin lesions on sun-exposed areas submits a clear, port-wine red urine. The reagent strip blood pad is negative, no red blood cells are seen, and the specimen shows pink-red fluorescence under ultraviolet light. Which pigment most likely causes the color?",
+   "options": [
+    "Porphyrins from a heme synthesis defect",
+    "Free hemoglobin from hemolysis",
+    "Myoglobin from muscle injury",
+    "Methemoglobin from oxidized hemoglobin"
+   ],
+   "answer": 0,
+   "why": "Porphyrins color urine red to port-wine and fluoresce pink-red under ultraviolet light, but they lack the iron-containing heme that reacts with the blood pad. The combination of **red urine, a negative blood reaction and red fluorescence** points to porphyrins, as in porphyria cutanea tarda, rather than to a heme pigment.",
+   "whyNot": {
+    "1": "Free hemoglobin would give a uniform positive blood pad through the pseudoperoxidase activity of heme.",
+    "2": "Myoglobin also has heme pseudoperoxidase activity and would make the blood pad positive.",
+    "3": "Methemoglobin gives a brown rather than port-wine color and, as a heme pigment, still reacts with the blood pad."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (urine color) and chapter on Chemical Examination of Urine (porphyrins)."
+  },
+  {
+   "id": "CM-0154",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine with a 3+ blood reaction and a pH of 5.0 is red when collected but has turned brown by the time it is tested several hours later. Which change best explains the color shift?",
+   "options": [
+    "Oxidation of hemoglobin to methemoglobin",
+    "Oxidation of homogentisic acid on standing",
+    "Conversion of bilirubin to biliverdin",
+    "Conversion of urobilinogen to urobilin"
+   ],
+   "answer": 0,
+   "why": "Hemoglobin in an acidic urine is gradually oxidized to methemoglobin, which is brown. A specimen that is red when voided and becomes **brown on standing while acidic and blood-positive** reflects methemoglobin formation, one reason urine should be examined promptly.",
+   "whyNot": {
+    "1": "Homogentisic acid darkens urine mainly when it is alkaline and does not explain a strongly blood-positive specimen.",
+    "2": "Oxidation of bilirubin gives a yellow-green to green color, not a red specimen turning brown.",
+    "3": "Urobilin gives an orange tint to stale urine and is unrelated to the heme pigment that caused the red color and the positive blood reaction."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (red-brown and brown urine)."
+  },
+  {
+   "id": "CM-0155",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist holds a urine tube in front of a printed page. The print can be seen through the specimen, but the letters are blurred. Using standard clarity terms, how should the specimen be reported?",
+   "options": [
+    "Clear",
+    "Cloudy",
+    "Hazy",
+    "Turbid"
+   ],
+   "answer": 1,
+   "why": "Clarity is graded by how well print can be read through the specimen against a white background. Print that is visible but **blurred is reported as cloudy**, meaning many particulates are present. Print easily seen through a few particulates is hazy, and print that cannot be seen is turbid.",
+   "whyNot": {
+    "0": "Clear urine has no visible particulates, and print is seen through it without distortion.",
+    "2": "Hazy urine has few particulates, and print is still seen easily through it.",
+    "3": "Turbid urine is so dense that print cannot be seen through it."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (clarity)."
+  },
+  {
+   "id": "CM-0156",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A concentrated yellow urine produces a large amount of white foam that persists after the tube is shaken. Which reagent strip result is most likely to be abnormal?",
+   "options": [
+    "Increased bilirubin",
+    "Increased urobilinogen",
+    "Positive nitrite",
+    "Increased protein"
+   ],
+   "answer": 3,
+   "why": "Persistent **white foam after shaking suggests increased protein**, which stabilizes the bubbles. Yellow foam, in contrast, suggests bilirubin, so the foam color helps predict which reagent strip result will be abnormal.",
+   "whyNot": {
+    "0": "Bilirubin produces yellow, not white, foam and an amber color.",
+    "1": "Urobilinogen is colorless and does not produce a characteristic foam.",
+    "2": "Nitrite indicates bacteriuria and has no effect on foaming."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (color and foam)."
+  },
+  {
+   "id": "CM-0157",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A young woman is referred because her urine, sweat and breath have a strong rotting-fish odor despite good hygiene. Which inherited metabolic condition best fits?",
+   "options": [
+    "Isovaleric acidemia",
+    "Trimethylaminuria",
+    "Maple syrup urine disease",
+    "Tyrosinemia"
+   ],
+   "answer": 1,
+   "why": "In **trimethylaminuria**, the liver cannot oxidize trimethylamine, which gut bacteria produce from dietary choline and carnitine. The volatile amine is excreted in urine, sweat and breath and smells like rotting fish.",
+   "whyNot": {
+    "0": "Isovaleric acidemia produces a sweaty-feet odor.",
+    "2": "Maple syrup urine disease gives a sweet, burnt-sugar (maple) odor.",
+    "3": "Tyrosinemia is associated with a rancid-butter odor."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (odor)."
+  },
+  {
+   "id": "CM-0158",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine left uncapped near a window for most of the day has developed an orange-brown tint that was not present at collection, and its urobilinogen result is lower than expected. What explains both changes?",
+   "options": [
+    "Bacterial multiplication producing nitrite",
+    "Oxidation of urobilinogen to urobilin",
+    "Precipitation of amorphous urates",
+    "Conversion of bilirubin to biliverdin"
+   ],
+   "answer": 1,
+   "why": "Urobilinogen is colorless, but on standing, especially in light, it is oxidized to **urobilin, an orange-brown pigment**. The conversion darkens the specimen and removes urobilinogen, so the reagent strip result falls.",
+   "whyNot": {
+    "0": "Nitrite produced by bacteria does not color urine orange-brown or lower the urobilinogen result.",
+    "2": "Amorphous urates make an acidic urine cloudy with a pink precipitate rather than tinting the solution, and they do not lower urobilinogen.",
+    "3": "Bilirubin oxidizes to green biliverdin, which would give a greenish tint and lower the bilirubin, not the urobilinogen, result."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (urine pigments) and chapter on Specimen Handling (changes in unpreserved urine)."
+  },
+  {
+   "id": "CM-0159",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A dehydrated adult patient produces a total of 320 mL of urine in 24 hours. Which term describes this output?",
+   "options": [
+    "Anuria",
+    "Oliguria",
+    "Nocturia",
+    "Polyuria"
+   ],
+   "answer": 1,
+   "why": "In adults, a daily urine output below about 400 mL is **oliguria**. It commonly accompanies dehydration from vomiting, diarrhea or heavy sweating, and it also occurs in acute kidney injury.",
+   "whyNot": {
+    "0": "Anuria is cessation, or near cessation, of urine flow rather than a reduced but measurable volume.",
+    "2": "Nocturia is the excretion of more than 500 mL of urine at night, not a low daily total.",
+    "3": "Polyuria is an increased daily output, generally more than 2.5 L."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Renal Function (urine volume)."
+  },
+  {
+   "id": "CM-0160",
+   "tos": "CM-A.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An infant who takes no medications has repeated blue staining of the diapers and fails to thrive. Testing shows defective intestinal absorption of tryptophan. Which urinary substance produces the blue color?",
+   "options": [
+    "Homogentisic acid from tyrosine breakdown",
+    "Biliverdin from oxidized bilirubin",
+    "Porphobilinogen from heme synthesis",
+    "Indican derived from tryptophan"
+   ],
+   "answer": 3,
+   "why": "Unabsorbed tryptophan is converted by intestinal bacteria to indole, which is absorbed and excreted in the urine as **indican, a compound that oxidizes on exposure to air to indigo blue**. This is the basis of the blue diaper syndrome.",
+   "whyNot": {
+    "0": "Homogentisic acid darkens urine to brown-black on standing in alkaptonuria.",
+    "1": "Biliverdin gives a green to yellow-green color and comes from oxidized bilirubin, not tryptophan.",
+    "2": "Porphobilinogen is colorless when fresh and darkens to a red-brown pigment on standing."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urine Screening for Metabolic Disorders (tryptophan disorders)."
+  },
+  {
+   "id": "CM-0161",
+   "tos": "CM-A.2",
+   "type": "math",
+   "difficulty": "difficult",
+   "stem": "A urinometer calibrated at 20 °C reads 1.030 in a urine at 26 °C. The urine contains 2 g/dL of glucose. Applying corrections of 0.001 for every 3 °C difference from the calibration temperature and 0.004 for each g/dL of glucose, what is the corrected specific gravity?",
+   "options": [
+    "1.020",
+    "1.024",
+    "1.032",
+    "1.036"
+   ],
+   "answer": 1,
+   "why": "A warmer urine is less dense, so the reading is too low and 0.001 is added per 3 °C above 20 °C: 1.030 + 0.002 = 1.032. Glucose raises specific gravity without reflecting renal concentrating ability, so 0.004 per g/dL is subtracted: 1.032 − 0.008 = **1.024**.",
+   "whyNot": {
+    "0": "This subtracts the temperature correction instead of adding it; a warm urine is less dense and reads falsely low.",
+    "2": "This applies only the temperature correction and leaves out the glucose correction.",
+    "3": "This reverses both corrections, subtracting for temperature and adding for glucose."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 5th ed. F.A. Davis; 2008, chapter on Physical Examination of Urine (specific gravity: urinometer corrections).",
+   "worked": {
+    "problem": "A urinometer calibrated at 20 °C reads 1.022 in a urine at 14 °C that contains 1 g/dL of glucose. Correct the reading.",
+    "steps": [
+     "The urine is 6 °C below the calibration temperature, so it is denser and reads too high: 6 ÷ 3 = 2, so subtract 0.002 to get 1.020.",
+     "Subtract 0.004 for 1 g/dL of glucose: 1.020 − 0.004 = 1.016.",
+     "Check the directions: cold reads high (subtract), warm reads low (add), and glucose or protein is always subtracted."
+    ],
+    "result": "1.016"
+   }
+  },
+  {
+   "id": "CM-0162",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "In a glycosuric specimen with a quantitative glucose of 4 g/dL, the reagent strip specific gravity pad gives 1.020, whereas refractometry gives 1.036. Why do the two methods disagree?",
+   "options": [
+    "The pad detects ionized solutes, not nonionic glucose",
+    "Glucose inhibits the bromthymol blue on the pad",
+    "Warm urine falsely raised the refractometer reading",
+    "Strip readings need 0.005 added when glucose is present"
+   ],
+   "answer": 0,
+   "why": "The reagent strip pad contains a polyelectrolyte that releases hydrogen ions in proportion to the ionic concentration of the urine, and bromthymol blue registers the resulting pH change. Because glucose is not ionized, it **raises the refractometer reading but not the reagent strip specific gravity**, which explains the gap (about 0.004 per g/dL, or 0.016 here).",
+   "whyNot": {
+    "1": "Glucose does not react with the indicator at all; it simply goes undetected by the pad.",
+    "2": "Refractometers are temperature-compensated over the usual working range, so specimen temperature cannot explain a 0.016 gap.",
+    "3": "The 0.005 adjustment applies to strips read on urine with a pH of 6.5 or higher, not to glucose-containing urine."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (reagent strip specific gravity)."
+  },
+  {
+   "id": "CM-0163",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "During a 5-drop Clinitest, the reaction rushes through green and orange and ends greenish-brown before the 15-second waiting period is over. What does this observation indicate?",
+   "options": [
+    "A nonreducing sugar such as sucrose",
+    "Interference from ascorbic acid",
+    "A trace of reducing substance",
+    "Reducing sugar above 2 g/dL"
+   ],
+   "answer": 3,
+   "why": "With large amounts of reducing sugar, the copper reduction passes rapidly through the whole color sequence and then turns back toward green-brown: the **pass-through phenomenon, which signals more than 2 g/dL** of reducing sugar. If the color change is not watched, the final color can be misread as a low result, so the test is repeated by the 2-drop method, which reads up to 5 g/dL.",
+   "whyNot": {
+    "0": "Sucrose is not a reducing sugar, so it leaves the Clinitest negative (blue).",
+    "1": "Ascorbic acid can reduce copper and give a false-positive Clinitest, but it does not cause a rapid pass-through of colors.",
+    "2": "A trace result develops only a faint green and does not pass through orange."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (copper reduction test)."
+  },
+  {
+   "id": "CM-0164",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "After a reagent strip is dipped in urine, the nitrite pad shows a few pink spots and a faint pink rim at its edges, with the rest of the pad unchanged. How should the nitrite be reported?",
+   "options": [
+    "Positive, because any pink color means nitrite",
+    "Trace, because only part of the pad changed",
+    "Invalid, because the strip must be repeated",
+    "Negative, because only uniform pink is positive"
+   ],
+   "answer": 3,
+   "why": "The nitrite pad uses the Griess reaction, in which nitrite diazotizes an aromatic amine that then couples to form a pink azo dye. A positive result is **any uniform pink color over the pad**; pink spots or edges are considered negative, and the intensity is not graded because it does not reflect the number of bacteria.",
+   "whyNot": {
+    "0": "Pink spots or edges are not read as positive; only an even pink color over the pad is.",
+    "1": "The nitrite pad is reported only as positive or negative, so partial color is not graded as trace.",
+    "2": "Spots and edges are a recognized appearance that is read as negative, so the test does not have to be repeated."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (nitrite)."
+  },
+  {
+   "id": "CM-0165",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A technologist reading reagent strips manually reads every pad at 60 seconds. Which result is most likely to be underestimated by this practice?",
+   "options": [
+    "Glucose",
+    "Ketones",
+    "Leukocytes",
+    "Bilirubin"
+   ],
+   "answer": 2,
+   "why": "The leukocyte esterase reaction is the slowest on the strip and is read at **2 minutes**; reading it at 60 seconds can give a falsely low or negative result. The other pads listed have shorter reading times, so they have already developed by 60 seconds.",
+   "whyNot": {
+    "0": "The glucose pad is read at about 30 seconds, so a 60-second reading is late rather than too early.",
+    "1": "The ketone pad is read at about 40 seconds, so it has fully developed by 60 seconds.",
+    "3": "The bilirubin pad is read at about 30 seconds, so it has fully developed by 60 seconds."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (reagent strip technique and leukocyte esterase)."
+  },
+  {
+   "id": "CM-0166",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A urine collected in a container rinsed with a household bleach cleaner gives a 4+ (2 g/dL) glucose on the reagent strip, yet the Clinitest is negative and the patient's blood glucose is normal. Which explanation fits best?",
+   "options": [
+    "A nonglucose reducing sugar is present in the urine",
+    "An oxidizing agent caused a false-positive strip glucose",
+    "High-dose ascorbic acid suppressed the Clinitest",
+    "The glucose is below the Clinitest's sensitivity"
+   ],
+   "answer": 1,
+   "why": "On the strip, glucose oxidase forms hydrogen peroxide, which peroxidase uses to oxidize the chromogen. Strong oxidizers such as hypochlorite oxidize the chromogen directly, so a strongly positive strip with a negative copper reduction test points to **oxidizing-agent contamination rather than true glucosuria**.",
+   "whyNot": {
+    "0": "A nonglucose reducing sugar would give the opposite pattern: a positive Clinitest with a negative strip.",
+    "2": "Ascorbic acid is a reducing agent; it lowers the strip glucose reaction rather than making Clinitest negative.",
+    "3": "Clinitest is less sensitive than the strip but readily detects glucose far below 2 g/dL, so a true 4+ glucose would be positive."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (glucose: reagent strip and copper reduction correlations)."
+  },
+  {
+   "id": "CM-0167",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient has a normal anion gap metabolic acidosis with a plasma bicarbonate of 14 mmol/L. Repeated first morning urines have a pH of 7.0 or higher, and there is no urinary tract infection. Which condition best explains the urine pH?",
+   "options": [
+    "Renal tubular acidosis",
+    "Diabetic ketoacidosis",
+    "Prolonged starvation",
+    "High-protein diet"
+   ],
+   "answer": 0,
+   "why": "The kidney normally answers metabolic acidosis by secreting hydrogen ions and producing an acidic urine. In distal **renal tubular acidosis the tubules cannot secrete hydrogen ions**, so the urine stays alkaline even though the blood is acidic.",
+   "whyNot": {
+    "1": "Diabetic ketoacidosis causes a high anion gap acidosis with an acidic urine.",
+    "2": "Starvation produces ketones and an acidic urine.",
+    "3": "A high-protein diet makes the urine more acidic, not alkaline."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (pH: clinical significance)."
+  },
+  {
+   "id": "CM-0168",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A routine urine specimen received from a clinic has a reagent strip pH of 9.0 and a strong ammonia odor. What should the technologist do?",
+   "options": [
+    "Request a fresh, properly preserved specimen",
+    "Report the pH as 9.0 with the other results",
+    "Acidify the urine and repeat the reagent strip",
+    "Add 0.005 to the specific gravity and report"
+   ],
+   "answer": 0,
+   "why": "A urine pH of 9.0 is not a physiologic value; it **indicates an improperly preserved specimen** in which bacteria have converted urea to ammonia. Cells, casts, glucose and nitrite results are unreliable in such a specimen, so a fresh one is requested.",
+   "whyNot": {
+    "1": "A pH of 9.0 does not reflect the patient's physiology, so reporting it with the other unreliable results would mislead the clinician.",
+    "2": "Acidifying the urine cannot reverse bacterial changes such as lost glucose, lysed cells and dissolved casts.",
+    "3": "The specific gravity adjustment for alkaline urine does not correct the other changes in a deteriorated specimen."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (pH)."
+  },
+  {
+   "id": "CM-0169",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A diabetic patient's routine reagent strip protein is negative, and the physician wants to detect albumin at the low concentrations seen in early diabetic nephropathy. Which feature lets the Micral strip detect albumin at these levels?",
+   "options": [
+    "Acid precipitation measured as turbidity",
+    "Detection of pseudoperoxidase activity",
+    "Formation of a copper–albumin complex",
+    "An antibody that binds albumin specifically"
+   ],
+   "answer": 3,
+   "why": "The Micral strip is an immunochemical test in which **urine albumin binds an antibody–enzyme conjugate**; the bound conjugate reaches a substrate pad and produces a red color, while unbound conjugate is trapped by immobilized albumin. This specificity lets it detect albumin below the 15 to 30 mg/dL limit of the routine protein pad.",
+   "whyNot": {
+    "0": "Acid precipitation is the principle of the sulfosalicylic acid test, which reacts with all proteins and is not the Micral principle.",
+    "1": "Pseudoperoxidase activity is the principle of the blood pad, and albumin has no such activity.",
+    "2": "A copper complex detected by its peroxidase-like activity is the principle of the creatinine pad, not the Micral strip."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (microalbumin)."
+  },
+  {
+   "id": "CM-0170",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A patient with suspected acute intermittent porphyria needs a rapid screen for porphobilinogen. A small volume of urine is mixed into a much larger volume of Ehrlich reagent prepared in strong hydrochloric acid, and the mixture turns red at once. Which test is this?",
+   "options": [
+    "Watson-Schwartz test",
+    "Hoesch test",
+    "Ictotest",
+    "Lignin test"
+   ],
+   "answer": 1,
+   "why": "The Hoesch test, an inverse Ehrlich reaction, adds a small amount of urine to a large volume of strongly acidic Ehrlich reagent. The high acidity suppresses the urobilinogen reaction, so **an immediate red color indicates porphobilinogen**.",
+   "whyNot": {
+    "0": "The Watson-Schwartz test adds Ehrlich reagent and then uses chloroform and butanol extractions to separate the Ehrlich-reactive compounds.",
+    "2": "Ictotest is a diazo tablet test that confirms bilirubin.",
+    "3": "The lignin test uses newsprint and hydrochloric acid to detect sulfonamides."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urine Screening for Metabolic Disorders (porphyrin disorders)."
+  },
+  {
+   "id": "CM-0171",
+   "tos": "CM-A.3",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A urine from an asymptomatic patient was left at room temperature overnight before testing. The nitrite is positive and many bacteria are seen, but leukocyte esterase is negative and only 0–2 WBCs/hpf are present. What is the best interpretation?",
+   "options": [
+    "The patient has an infection in which the leukocytes have lysed",
+    "Ascorbic acid in the urine caused a false-positive nitrite",
+    "Dietary nitrate produced the nitrite without bacteria",
+    "Bacteria multiplied in the standing specimen and made nitrite"
+   ],
+   "answer": 3,
+   "why": "Bacteria contaminating an unrefrigerated specimen multiply and reduce urinary nitrate to nitrite, giving a **false-positive nitrite in an improperly preserved specimen**. The negative leukocyte esterase, which would detect even lysed cells, argues against true infection, so a properly collected fresh specimen is needed.",
+   "whyNot": {
+    "0": "The leukocyte esterase pad detects lysed leukocytes as well as intact ones, so its negative result argues against infection.",
+    "1": "Ascorbic acid causes false-negative, not false-positive, nitrite results.",
+    "2": "Nitrate must be reduced by bacterial reductase to form nitrite; it does not convert on its own."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Chemical Examination of Urine (nitrite: sources of error)."
+  },
+  {
+   "id": "CM-0172",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A leukemia patient receiving chemotherapy has an acidic urine (pH 5.0) containing many yellow-brown, four-sided whetstone-shaped plates and rosettes. Which crystal is this?",
+   "options": [
+    "Calcium oxalate dihydrate",
+    "Triple phosphate",
+    "Uric acid",
+    "Ammonium biurate"
+   ],
+   "answer": 2,
+   "why": "Yellow-brown **whetstone, rhombic and rosette forms in acidic urine are uric acid crystals**. Chemotherapy destroys tumor cells rapidly, and their nucleic acid purines are metabolized to uric acid, so increased uric acid crystals raise concern for urate deposition in the kidney.",
+   "whyNot": {
+    "0": "Calcium oxalate dihydrate forms colorless octahedral crystals that look like envelopes.",
+    "1": "Triple phosphate forms colorless coffin-lid prisms in alkaline urine.",
+    "3": "Ammonium biurate forms yellow-brown spheres with thorny projections in alkaline urine."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (normal crystals in acidic urine)."
+  },
+  {
+   "id": "CM-0173",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "Colorless hexagonal plates are seen in an acidic urine, and the technologist must decide whether they are cystine or an unusual hexagonal form of uric acid. Which finding indicates uric acid?",
+   "options": [
+    "Dissolving in dilute hydrochloric acid",
+    "A positive cyanide-nitroprusside test",
+    "Presence in a urine of pH 5.5",
+    "Strong birefringence with interference colors"
+   ],
+   "answer": 3,
+   "why": "Uric acid crystals are **strongly birefringent, showing a range of interference colors under polarized light**, whereas cystine is only weakly birefringent. Cystine also dissolves in dilute hydrochloric acid and gives a positive cyanide-nitroprusside test, while uric acid does neither.",
+   "whyNot": {
+    "0": "Solubility in dilute hydrochloric acid is a property of cystine; uric acid does not dissolve in it.",
+    "1": "The cyanide-nitroprusside test is positive with cystine, not uric acid.",
+    "2": "Both cystine and uric acid form in acidic urine, so the pH does not separate them."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (abnormal crystals: cystine)."
+  },
+  {
+   "id": "CM-0174",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A healthy person who ate a large spinach salad has a slightly acidic urine containing many small, colorless, octahedral crystals that look like envelopes with an X across them. What are these crystals?",
+   "options": [
+    "Calcium oxalate dihydrate",
+    "Cystine",
+    "Magnesium ammonium phosphate",
+    "Calcium carbonate"
+   ],
+   "answer": 0,
+   "why": "**Calcium oxalate dihydrate forms colorless octahedral crystals that resemble envelopes** with two crossing lines. They are common in normal acidic or neutral urine and increase after oxalate-rich foods such as spinach or high doses of vitamin C.",
+   "whyNot": {
+    "1": "Cystine forms colorless hexagonal plates and indicates cystinuria.",
+    "2": "Magnesium ammonium phosphate (triple phosphate) forms coffin-lid prisms in alkaline urine, not envelopes.",
+    "3": "Calcium carbonate forms tiny dumbbells or spheres in alkaline urine and effervesces with acetic acid."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (calcium oxalate)."
+  },
+  {
+   "id": "CM-0175",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine from a patient with a Proteus mirabilis infection has a pH of 8.0, a strong ammonia odor, and many colorless prisms with slanted ends resembling coffin lids. Which crystals are these?",
+   "options": [
+    "Cholesterol",
+    "Calcium oxalate monohydrate",
+    "Uric acid",
+    "Triple phosphate"
+   ],
+   "answer": 3,
+   "why": "**Triple phosphate (magnesium ammonium phosphate) forms colorless coffin-lid prisms** in alkaline urine. Urease-producing organisms such as Proteus split urea into ammonia, raising the pH and supplying the ammonium for these crystals, which also make up struvite calculi.",
+   "whyNot": {
+    "0": "Cholesterol forms flat plates with notched corners in acidic urine with lipiduria.",
+    "1": "Calcium oxalate monohydrate forms ovals and dumbbells, not coffin-lid prisms.",
+    "2": "Uric acid crystals form in acidic urine and are usually yellow-brown."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (normal crystals in alkaline urine)."
+  },
+  {
+   "id": "CM-0176",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A poorly hydrated patient taking trimethoprim-sulfamethoxazole has an acidic urine with hematuria and many yellow-brown needles arranged in sheaves and fans. Which simple confirmatory test is appropriate for these crystals?",
+   "options": [
+    "Cyanide-nitroprusside test",
+    "Prussian blue stain",
+    "Sudan III fat stain",
+    "Lignin (newsprint) test"
+   ],
+   "answer": 3,
+   "why": "Sulfonamide crystals form yellow-brown needles, sheaves, fans or rosettes in the acidic urine of poorly hydrated patients and can damage the tubules. In the **lignin test, a drop of sediment on newsprint plus dilute hydrochloric acid turns yellow-orange** when sulfonamides are present.",
+   "whyNot": {
+    "0": "The cyanide-nitroprusside test confirms cystine.",
+    "1": "Prussian blue stains iron in hemosiderin granules.",
+    "2": "Sudan III stains triglycerides and neutral fats."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (iatrogenic crystals)."
+  },
+  {
+   "id": "CM-0177",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A patient taking a sulfonamide has a urine of pH 7.5 containing colorless, thin prisms arranged in rosettes. The crystals dissolve when a drop of dilute acetic acid is added. Which crystal is this?",
+   "options": [
+    "Sulfamethoxazole",
+    "Calcium phosphate",
+    "Ampicillin",
+    "Tyrosine"
+   ],
+   "answer": 1,
+   "why": "Calcium phosphate forms colorless flat plates or thin prisms, often in rosettes, in neutral or alkaline urine, and these can be mistaken for sulfonamide rosettes. **Solubility in dilute acetic acid identifies calcium phosphate**, a normal crystal, even in a patient taking a sulfonamide.",
+   "whyNot": {
+    "0": "Sulfonamide crystals favor acidic urine, are usually yellow-brown, and do not dissolve in dilute acetic acid.",
+    "2": "Ampicillin forms colorless needles in acidic urine after massive doses.",
+    "3": "Tyrosine forms fine needles in acidic urine from patients with liver disease."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (calcium phosphate and sulfonamide crystals)."
+  },
+  {
+   "id": "CM-0178",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An alkaline urine that sat at room temperature for several hours contains yellow-brown spheres covered with irregular, thorny spicules. When a drop of glacial acetic acid is added, the spheres dissolve and a different crystal forms. Which crystal appears?",
+   "options": [
+    "Calcium oxalate dihydrate",
+    "Triple phosphate",
+    "Uric acid",
+    "Calcium carbonate"
+   ],
+   "answer": 2,
+   "why": "The thorny yellow-brown spheres are ammonium biurate, a normal crystal of alkaline, often old, urine. Glacial acetic acid releases the urate, which recrystallizes as **uric acid crystals**; ammonium biurate also dissolves when the specimen is warmed to about 60 °C.",
+   "whyNot": {
+    "0": "Calcium oxalate dihydrate forms colorless envelopes in acidic or neutral urine and is not produced from urate by adding acid.",
+    "1": "Triple phosphate dissolves in dilute acetic acid; it is not formed when acid is added to a urate crystal.",
+    "3": "Calcium carbonate dissolves in acetic acid with gas formation and contains no urate that could recrystallize."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (normal crystals in alkaline urine: ammonium biurate)."
+  },
+  {
+   "id": "CM-0179",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A urine sediment contains highly refractile, irregularly rounded granules with a central dimple. They show a Maltese cross under polarized light and are not inside cells or casts. What are they most likely to be?",
+   "options": [
+    "Cholesterol droplets from lipiduria",
+    "Calcium carbonate crystals",
+    "Starch granules from glove powder",
+    "Budding yeast cells"
+   ],
+   "answer": 2,
+   "why": "Starch from glove powder is the most common sediment artifact. Its granules are refractile, with a **dimpled center and a Maltese cross under polarized light**, so they can be mistaken for cholesterol droplets; the dimple and the absence of oval fat bodies, fatty casts or proteinuria identify starch.",
+   "whyNot": {
+    "0": "Cholesterol droplets are smooth and round without a dimple, and they usually appear in oval fat bodies and fatty casts with heavy proteinuria.",
+    "1": "Calcium carbonate forms tiny dumbbells or spheres that effervesce with acetic acid and have no central dimple.",
+    "3": "Yeast cells are oval with buds and do not form a Maltese cross under polarized light."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (artifacts)."
+  },
+  {
+   "id": "CM-0180",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Long, thin, wavy, ribbon-like strands with irregular, tapering ends and no parallel sides are seen in a female patient's urine sediment under reduced light. How should they be interpreted?",
+   "options": [
+    "Hyaline casts that indicate renal disease",
+    "Mucus threads of little clinical significance",
+    "Waxy casts that indicate urine stasis",
+    "Fungal hyphae that indicate infection"
+   ],
+   "answer": 1,
+   "why": "Mucus appears as **thread-like, irregular strands without the parallel sides and rounded ends of casts**. It is common, especially in female specimens, and has no clinical significance, but it must not be mistaken for hyaline casts.",
+   "whyNot": {
+    "0": "Hyaline casts have parallel sides and rounded ends, unlike irregular, tapering ribbons.",
+    "2": "Waxy casts are highly refractile with blunt ends and cracked edges.",
+    "3": "Fungal hyphae are branching, segmented tubes, often with budding yeast nearby."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (mucus)."
+  },
+  {
+   "id": "CM-0181",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A diabetic patient's urine has a 4+ glucose. The sediment contains small, colorless, oval structures, some with buds and some forming branching chains, and they stay intact after a drop of 2% acetic acid is added. What are they?",
+   "options": [
+    "Yeast cells",
+    "Red blood cells",
+    "Calcium oxalate monohydrate",
+    "Oil droplets"
+   ],
+   "answer": 0,
+   "why": "**Budding ovals and branching pseudohyphae identify yeast, usually Candida albicans**, which thrives in the glucose-rich urine of diabetic patients. Unlike red blood cells, yeast is not lysed by acetic acid.",
+   "whyNot": {
+    "1": "Red blood cells do not bud and are lysed by acetic acid.",
+    "2": "Calcium oxalate monohydrate forms ovals and dumbbells but never buds or forms branching chains.",
+    "3": "Oil droplets are highly refractile spheres of varying size without buds."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (yeast)."
+  },
+  {
+   "id": "CM-0182",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A woman's urine sediment contains cells about the size of white blood cells, some pear-shaped with an undulating membrane. Most are not moving, and Trichomonas vaginalis is suspected. What is needed to report the organism with confidence?",
+   "options": [
+    "Jerky, darting motility seen in a fresh specimen",
+    "A positive leukocyte esterase reaction",
+    "Lysis of the cells by 2% acetic acid",
+    "Orange-red staining of the cells with Sudan III"
+   ],
+   "answer": 0,
+   "why": "Trichomonas is identified in urine by its **rapid, jerky motility from its flagella and undulating membrane**. Nonmotile organisms resemble white blood cells or transitional or renal tubular cells, so they are not reported without motility, and examining a fresh, warm specimen helps preserve it.",
+   "whyNot": {
+    "1": "Leukocyte esterase is positive with neutrophils, so it cannot identify the organism.",
+    "2": "Acetic acid lyses red blood cells and does not identify Trichomonas.",
+    "3": "Sudan III stains lipids and plays no part in identifying Trichomonas."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (parasites)."
+  },
+  {
+   "id": "CM-0183",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine collected by catheterization contains clusters of round and some tailed (caudate) cells, each with a single central nucleus and larger than white blood cells. What are these cells, and what do they usually indicate?",
+   "options": [
+    "Transitional cells; a result of catheterization",
+    "Renal tubular cells; acute tubular necrosis",
+    "Squamous cells; vaginal contamination",
+    "Clue cells; bacterial vaginosis"
+   ],
+   "answer": 0,
+   "why": "Transitional (urothelial) cells line the renal pelvis, ureters, bladder and upper male urethra and may be spherical, polyhedral or caudate with a central nucleus. **Clumps of normal-looking transitional cells often follow catheterization** and are not clinically significant, although abnormal-looking cells call for cytology.",
+   "whyNot": {
+    "1": "Renal tubular cells have an eccentric nucleus and do not form caudate shapes, and a catheter specimen alone does not suggest tubular injury.",
+    "2": "Squamous cells are the largest cells in the sediment, flat with a small central nucleus, and are not caudate or spherical.",
+    "3": "Clue cells are squamous cells covered with coccobacilli."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (epithelial cells)."
+  },
+  {
+   "id": "CM-0184",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Under phase-contrast microscopy, many red cells in a patient's urine vary in size and shape, with fragments and ring forms bearing small blebs on their membranes. What does this finding suggest?",
+   "options": [
+    "Bleeding from a bladder tumor",
+    "Crenation in a concentrated urine",
+    "Bleeding of glomerular origin",
+    "Contamination with menstrual blood"
+   ],
+   "answer": 2,
+   "why": "**Dysmorphic red cells, especially ring forms with membrane blebs, indicate glomerular bleeding**, because the cells are damaged as they pass through the injured glomerular membrane and the changing osmolality of the tubules. A glomerular source is even more likely when red cell casts are also present.",
+   "whyNot": {
+    "0": "Bleeding from the lower urinary tract gives red cells of normal, uniform shape.",
+    "1": "Crenated cells are uniformly shrunken with spiky edges, without blebs or ring forms.",
+    "3": "Menstrual blood contains red cells of normal shape."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (red blood cells)."
+  },
+  {
+   "id": "CM-0185",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A febrile patient with flank pain has many bacteria and white blood cells in the urine. Some casts are packed with granules that could be either granular material or bacteria. Which step best confirms bacterial casts?",
+   "options": [
+    "Sudan III stain of the sediment",
+    "Prussian blue stain of the sediment",
+    "Gram stain of the dried sediment",
+    "Examination under polarized light"
+   ],
+   "answer": 2,
+   "why": "Bacterial casts contain bacilli bound in the protein matrix and look like granular casts in a wet mount. They are **confirmed with a Gram stain of the dried or cytocentrifuged sediment**, and they indicate pyelonephritis, often together with white blood cell casts.",
+   "whyNot": {
+    "0": "Sudan III stains lipids in fatty casts and oval fat bodies.",
+    "1": "Prussian blue detects iron in hemosiderin.",
+    "3": "Bacteria are not birefringent, so polarized light does not identify them."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (bacterial casts and sediment stains)."
+  },
+  {
+   "id": "CM-0186",
+   "tos": "CM-A.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "In spring, a urine sediment contains a few large, round structures with a thick, sculpted wall and concentric markings, much larger than any cell present. How should they be handled?",
+   "options": [
+    "Parasite ova, to be reported",
+    "Oval fat bodies, to be reported",
+    "Pollen grains, not to be reported",
+    "Renal tubular cells, to be reported"
+   ],
+   "answer": 2,
+   "why": "Pollen grains are seasonal contaminants that enter from the air or the container. They are recognized by **their large spherical shape, thick cell wall and concentric markings**, and as artifacts they are not reported.",
+   "whyNot": {
+    "0": "No urinary parasite egg looks like a round, thick-walled sphere with concentric markings; the season and appearance point to a contaminant.",
+    "1": "Oval fat bodies are renal tubular cells filled with lipid droplets, not thick-walled spheres.",
+    "3": "Renal tubular cells are small, nucleated epithelial cells without a sculpted wall."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (artifacts)."
+  },
+  {
+   "id": "CM-0187",
+   "tos": "CM-C.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A traveler develops severe headache and neck stiffness two weeks after eating raw freshwater snails. The CSF has 400 WBCs/µL, and the Wright-stained cytocentrifuge differential shows 35% eosinophils. Which cause is most likely?",
+   "options": [
+    "Bacterial meningitis due to Streptococcus pneumoniae",
+    "Eosinophilic meningitis due to Angiostrongylus cantonensis",
+    "Amebic meningoencephalitis due to Naegleria fowleri",
+    "Viral meningitis due to an enterovirus"
+   ],
+   "answer": 1,
+   "why": "Eosinophils are not normally seen in CSF, and **a marked CSF eosinophilia points to a helminth infection**; other causes include fungal infection, drug reactions and shunts. The rat lungworm Angiostrongylus cantonensis, acquired by eating raw snails or slugs, is a leading cause of eosinophilic meningitis in Southeast Asia and the Pacific.",
+   "whyNot": {
+    "0": "Bacterial meningitis produces a neutrophil-predominant CSF.",
+    "2": "Naegleria causes a neutrophil-predominant CSF, often with red cells, rather than a marked eosinophilia.",
+    "3": "Viral meningitis produces a lymphocyte-predominant CSF."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (differential count: eosinophils)."
+  },
+  {
+   "id": "CM-0188",
+   "tos": "CM-D.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "A man being evaluated for infertility has a semen volume of 0.8 mL, a pH of 6.6, no sperm, and a negative seminal fructose test. Using the WHO 6th edition (2021) lower reference limit of 1.4 mL for volume and a normal pH of 7.2 or higher, what is the most likely explanation?",
+   "options": [
+    "Acute bacterial prostatitis with inflammation",
+    "Primary testicular failure with normal glands",
+    "Seminal vesicle agenesis or duct obstruction",
+    "Prolonged abstinence before collection"
+   ],
+   "answer": 2,
+   "why": "The seminal vesicles supply most of the semen volume, its alkalinity and its fructose. When their secretion is missing, the ejaculate is small, acidic (mostly prostatic fluid) and fructose-negative, so **low volume, low pH and absent fructose together point to ejaculatory duct obstruction or absent seminal vesicles**, as in congenital bilateral absence of the vas deferens.",
+   "whyNot": {
+    "0": "Infection tends to raise semen pH, and fructose would still be present because the seminal vesicles are intact.",
+    "1": "Testicular failure causes azoospermia, but volume, pH and fructose stay normal because the accessory glands work.",
+    "3": "Long abstinence increases semen volume; it does not remove fructose or acidify the semen."
+   },
+   "ref": "World Health Organization. WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th ed. Geneva: WHO; 2021, chapter on Basic Examination (semen volume and pH) and chapter on Extended Examination (seminal fructose)."
+  },
+  {
+   "id": "CM-0189",
+   "tos": "CM-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A semen analysis shows a concentration of 9 × 10⁶/mL, progressive motility of 18%, and 6% normal forms. Using the WHO 6th edition (2021) lower reference limits of 16 × 10⁶/mL for concentration, 30% for progressive motility, and 4% for normal forms, how is the sample described?",
+   "options": [
+    "Oligoasthenozoospermia",
+    "Oligoteratozoospermia",
+    "Asthenoteratozoospermia",
+    "Oligoasthenoteratozoospermia"
+   ],
+   "answer": 0,
+   "why": "A concentration below the reference limit is oligozoospermia, and progressive motility below the limit is asthenozoospermia. Normal forms of 6% are above the 4% limit, so there is no teratozoospermia, and the sample is described as **oligoasthenozoospermia**.",
+   "whyNot": {
+    "1": "Normal forms of 6% are above the 4% limit, so teratozoospermia is not present, and the low motility is left out.",
+    "2": "This leaves out the low concentration and wrongly includes teratozoospermia, although normal forms are above the limit.",
+    "3": "Morphology is within the reference limit, so the prefix terato- should not be included."
+   },
+   "ref": "World Health Organization. WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th ed. Geneva: WHO; 2021, chapter on Basic Examination (reference limits and nomenclature)."
+  },
+  {
+   "id": "CM-0190",
+   "tos": "CM-D.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A semen smear contains many round cells, and the physician asks whether they are leukocytes or immature germ cells. Which test best makes this distinction?",
+   "options": [
+    "Peroxidase staining of the round cells",
+    "Eosin-nigrosin vitality stain",
+    "Hypo-osmotic swelling test",
+    "Mixed antiglobulin reaction test"
+   ],
+   "answer": 0,
+   "why": "Round cells may be leukocytes or immature germ cells such as spermatids, which look alike on routine smears. Neutrophils, the main leukocytes in semen, contain peroxidase, so **peroxidase-positive round cells are counted as leukocytes**; more than 1 × 10⁶ per mL suggests inflammation or infection.",
+   "whyNot": {
+    "1": "The eosin-nigrosin stain shows whether sperm are alive by membrane integrity; it does not identify round cells.",
+    "2": "The hypo-osmotic swelling test checks sperm tail membrane integrity.",
+    "3": "The mixed antiglobulin reaction detects antibodies coating sperm."
+   },
+   "ref": "World Health Organization. WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th ed. Geneva: WHO; 2021, chapter on Basic Examination (round cells and peroxidase-positive leukocytes)."
+  },
+  {
+   "id": "CM-0191",
+   "tos": "CM-E.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "Amniotic fluid obtained by amniocentesis in the third trimester is thick and dark green. Which substance accounts for the color, and what may it signal?",
+   "options": [
+    "Bilirubin; hemolytic disease of the fetus",
+    "Meconium; possible fetal distress",
+    "Hemoglobin breakdown; fetal death",
+    "Fresh blood; a traumatic tap"
+   ],
+   "answer": 1,
+   "why": "**Dark green amniotic fluid indicates meconium**, the first fetal bowel content, which may be passed in response to fetal distress. Its presence is reported because it can also interfere with some fetal lung maturity tests.",
+   "whyNot": {
+    "0": "Bilirubin from fetal hemolysis colors the fluid yellow, not dark green.",
+    "2": "Fetal death gives a dark red-brown fluid.",
+    "3": "Blood from the puncture makes the fluid red, not green."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Amniotic Fluid (color and appearance)."
+  },
+  {
+   "id": "CM-0192",
+   "tos": "CM-G.2",
+   "type": "mcq",
+   "difficulty": "difficult",
+   "stem": "After an episode of forceful vomiting, a patient develops sudden chest pain and a left pleural effusion. The pleural fluid has a very high amylase that is mostly the salivary isoenzyme and a pH of 6.0. Which condition is most likely?",
+   "options": [
+    "Acute pancreatitis",
+    "Tuberculous pleuritis",
+    "Esophageal rupture",
+    "Congestive heart failure"
+   ],
+   "answer": 2,
+   "why": "Rupture of the esophagus lets saliva and gastric contents into the pleural space, producing **a high pleural amylase of salivary origin and a markedly acidic pH**. Pancreatitis also raises pleural amylase, but that amylase comes from the pancreas.",
+   "whyNot": {
+    "0": "Pancreatitis also raises pleural amylase, but the amylase is the pancreatic isoenzyme and the pH is not this low.",
+    "1": "Tuberculous effusions are lymphocyte-rich with a high adenosine deaminase, not a high salivary amylase.",
+    "3": "Heart failure produces a transudate with normal amylase and pH."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Serous Fluid (pleural fluid chemistry)."
+  },
+  {
+   "id": "CM-0193",
+   "tos": "CM-H.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A physician requests a timed urine to evaluate urobilinogen excretion. Which collection is preferred?",
+   "options": [
+    "A first morning specimen",
+    "A 2-hour collection between 2 and 4 p.m.",
+    "A 24-hour collection with formalin",
+    "A fasting second-voided specimen"
+   ],
+   "answer": 1,
+   "why": "Urobilinogen excretion is highest in the early afternoon, coinciding with the post-meal alkaline tide, so **a 2-hour collection from 2 to 4 p.m.** is the most sensitive. The specimen is protected from light and tested promptly because urobilinogen oxidizes to urobilin.",
+   "whyNot": {
+    "0": "The first morning urine is preferred for routine screening and pregnancy tests, not urobilinogen, which peaks later in the day.",
+    "2": "Formalin is a known cause of falsely low urobilinogen results.",
+    "3": "A fasting second-voided specimen is used for glucose testing."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (types of specimens) and chapter on Chemical Examination of Urine (urobilinogen)."
+  },
+  {
+   "id": "CM-0194",
+   "tos": "CM-H.2",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine for culture is collected at an outpatient clinic that has no refrigerator, and the courier will not arrive for several hours. Which preservative is appropriate for the transport tube?",
+   "options": [
+    "Formalin solution",
+    "Toluene layer",
+    "Boric acid tablets",
+    "Thymol crystals"
+   ],
+   "answer": 2,
+   "why": "**Boric acid is the preservative used in urine culture transport tubes** because, at the proper concentration, it is bacteriostatic and holds the colony count near its value at collection without killing the organisms. It interferes little with routine tests other than pH.",
+   "whyNot": {
+    "0": "Formalin is a fixative that kills bacteria, so it preserves sediment but would ruin a culture.",
+    "1": "Toluene floats as a surface layer and does not stop bacteria already in the urine from multiplying.",
+    "3": "Thymol interferes with acid precipitation tests for protein and is not used for culture transport."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (urine preservatives)."
+  },
+  {
+   "id": "CM-0195",
+   "tos": "CM-H.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Testing of urine from a patient in diabetic ketoacidosis is delayed, and the open cup sits on the bench for 4 hours. Which strip result will most likely be falsely decreased?",
+   "options": [
+    "pH reading",
+    "Protein reaction",
+    "Ketone reaction",
+    "Nitrite reaction"
+   ],
+   "answer": 2,
+   "why": "Acetone is volatile and escapes from an uncovered specimen, and bacteria can also break down acetoacetic acid, so **ketones decrease in unpreserved urine left standing**. Specimens for ketones should be capped, refrigerated if testing is delayed, and tested promptly.",
+   "whyNot": {
+    "0": "pH tends to rise, not fall, as bacteria convert urea to ammonia in standing urine.",
+    "1": "Protein is stable in standing urine; if anything, a urine made very alkaline by bacteria can make the protein pad falsely positive.",
+    "3": "Nitrite tends to rise in standing urine as bacteria multiply and reduce nitrate."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Introduction to Urinalysis (changes in unpreserved urine)."
+  },
+  {
+   "id": "CM-0196",
+   "tos": "CM-H.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Three sterile tubes of CSF are collected in sequence during a lumbar puncture. To which section should tube 3 go, and why?",
+   "options": [
+    "Chemistry; it has the most stable glucose and protein",
+    "Microbiology; it is least likely to hold skin flora",
+    "Hematology; it is least affected by tap-introduced cells",
+    "Serology; it has the highest antibody concentration"
+   ],
+   "answer": 2,
+   "why": "In the standard order, tube 1 goes to chemistry and serology, tube 2 to microbiology, and tube 3 to hematology. **Tube 3 is used for cell counts because it is least likely to contain cells introduced by the puncture**, such as blood from a traumatic tap.",
+   "whyNot": {
+    "0": "Chemistry and serology receive tube 1, and glucose and protein do not become more stable in later tubes.",
+    "1": "In the standard order microbiology receives tube 2, and cell counts take priority for the last tube.",
+    "3": "Antibody levels do not differ meaningfully between sequential tubes, and serology shares tube 1 with chemistry."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Cerebrospinal Fluid (specimen collection and handling)."
+  },
+  {
+   "id": "CM-0197",
+   "tos": "CM-H.4",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A urine container is labeled with one patient's name, but the accompanying requisition bears a different patient's name. What should the receiving technologist do?",
+   "options": [
+    "Hold it, notify the unit, and request a new one",
+    "Relabel it to match the requisition, then test it",
+    "Test it and add a comment about the mismatch",
+    "Discard it at once and await a new specimen"
+   ],
+   "answer": 0,
+   "why": "A mislabeled specimen is never relabeled or tested on assumption. It is **kept exactly as received, refrigerated, while the collecting unit is notified and a correctly labeled specimen is requested**, and the problem is documented and reported to quality assurance.",
+   "whyNot": {
+    "1": "Relabeling assumes which document is correct and risks reporting a result on the wrong patient.",
+    "2": "Testing a specimen of uncertain identity can produce a result for the wrong patient even with a comment.",
+    "3": "The specimen should not be discarded until the problem has been investigated and documented."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Assessment (handling mislabeled specimens); CLSI. Urinalysis; Approved Guideline, 3rd ed. (GP16-A3). Clinical and Laboratory Standards Institute; 2009."
+  },
+  {
+   "id": "CM-0198",
+   "tos": "CM-H.4",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "Urine and CSF specimens are being sent by courier to a reference laboratory as Category B infectious substances. Which packaging arrangement meets the requirements?",
+   "options": [
+    "Leakproof primary tube placed directly inside a padded mailing envelope",
+    "Primary tube with the requisition wrapped around it inside one plastic bag",
+    "Leakproof primary and secondary layers with absorbent, in a box",
+    "Primary tube inside an insulated cooler with no secondary container"
+   ],
+   "answer": 2,
+   "why": "Diagnostic specimens shipped as Category B (UN 3373) use **triple packaging: a leakproof primary receptacle, a leakproof secondary package with enough absorbent for all the liquid, and an outer package**, with either the secondary or the outer layer rigid. Request forms go between the secondary and outer packaging so that they stay clean and readable.",
+   "whyNot": {
+    "0": "A padded envelope with no secondary leakproof container or rigid outer packaging does not meet triple-packaging requirements.",
+    "1": "Paperwork must stay outside the secondary container, and a single bag provides neither a leakproof secondary layer nor outer packaging.",
+    "3": "Temperature control does not replace the leakproof secondary container and absorbent material."
+   },
+   "ref": "World Health Organization. Guidance on Regulations for the Transport of Infectious Substances 2023–2024. Geneva: WHO; 2022 (Category B, packing instruction P650)."
+  },
+  {
+   "id": "CM-0199",
+   "tos": "CM-I.1",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "A technologist converts a brightfield microscope for polarized light to look for cholesterol droplets. Where are the two filters placed, and how are they oriented?",
+   "options": [
+    "One below the specimen and one above it, crossed at 90°",
+    "Two filters above the objective, parallel",
+    "Two filters below the condenser, at 45°",
+    "One in the eyepiece and one in the lamp, parallel"
+   ],
+   "answer": 0,
+   "why": "A polarizer below the specimen passes light vibrating in one plane, and an analyzer between the objective and eyepiece is turned **90° to the polarizer so the background appears black**. Birefringent substances such as cholesterol, many crystals and fibers rotate the light and shine against the dark field, cholesterol droplets showing a Maltese cross.",
+   "whyNot": {
+    "1": "Both filters above the specimen could not test whether the specimen rotates polarized light, and parallel filters give a bright background.",
+    "2": "Crossing at 45° leaves the background partly bright, and the analyzer must lie above the specimen.",
+    "3": "Parallel filters let all the light through, so birefringent objects would not stand out."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Microscopic Examination of Urine (polarizing microscopy)."
+  },
+  {
+   "id": "CM-0200",
+   "tos": "CM-I.2",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "An automated urine sediment analyzer stains particles with fluorescent dyes, passes them one at a time through a laser beam in a flow cell, and classifies them by forward scatter, side scatter and fluorescence. Which technology is this?",
+   "options": [
+    "Digital flow imaging with pattern recognition",
+    "Reflectance photometry",
+    "Harmonic oscillation densitometry",
+    "Flow cytometry"
+   ],
+   "answer": 3,
+   "why": "Some sediment analyzers use **flow cytometry**: particles stained with fluorescent dyes for nucleic acids and membranes are measured as they cross a laser beam. Their scatter and fluorescence signals classify them as red cells, white cells, epithelial cells, casts or bacteria.",
+   "whyNot": {
+    "0": "Imaging analyzers photograph each particle and classify it from its picture rather than from laser scatter and fluorescence signals.",
+    "1": "Reflectance photometry reads the color of reagent strip pads.",
+    "2": "Harmonic oscillation densitometry measures specific gravity."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Urinalysis Automation (automated microscopy)."
+  },
+  {
+   "id": "CM-0201",
+   "tos": "CM-J.1",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "A technologist must prepare a dilute acetic acid solution from glacial acetic acid. Which procedure is safest?",
+   "options": [
+    "Pour the water quickly into the glacial acid",
+    "Add the acid slowly to the water while stirring",
+    "Add the water to the acid and heat to mix",
+    "Mix equal volumes rapidly in a closed bottle"
+   ],
+   "answer": 1,
+   "why": "Diluting a concentrated acid releases heat. **Adding acid slowly to the larger volume of water** lets the water absorb the heat and prevents the boiling and spattering that can occur when water is added to acid; the work is done with eye protection, preferably in a fume hood.",
+   "whyNot": {
+    "0": "Adding water to concentrated acid can boil locally and spatter acid.",
+    "2": "Heating adds to the heat released by dilution and increases the risk of spattering and fumes.",
+    "3": "Rapid mixing in a closed container traps heat and vapor, which can build pressure."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Assessment (chemical hazards)."
+  },
+  {
+   "id": "CM-0202",
+   "tos": "CM-J.3",
+   "type": "mcq",
+   "difficulty": "easy",
+   "stem": "As part of preventive maintenance, the temperature of the refrigerator that holds urine specimens is checked. How often is it recorded, and what range is acceptable?",
+   "options": [
+    "Weekly; 0 to 4 °C",
+    "Monthly; 2 to 8 °C",
+    "Daily; 2 to 8 °C",
+    "Daily; 10 to 15 °C"
+   ],
+   "answer": 2,
+   "why": "Refrigerators that hold specimens and reagents are monitored with a calibrated thermometer, and **the temperature is recorded daily to confirm it stays within 2 to 8 °C**. Readings outside the range are documented along with the corrective action taken.",
+   "whyNot": {
+    "0": "Weekly checks could miss days of failure, and 0 °C risks freezing specimens.",
+    "1": "The range is right, but a monthly check is far too infrequent to detect a failing unit.",
+    "3": "The frequency is right, but 10 to 15 °C is too warm to preserve urine."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Safety and Quality Assessment (instrument and equipment maintenance)."
+  },
+  {
+   "id": "CM-0203",
+   "tos": "CM-J.3",
+   "type": "mcq",
+   "difficulty": "moderate",
+   "stem": "At the start of the day, the urinalysis refractometer reads 1.003 with distilled water. What should be done before patient specimens are tested?",
+   "options": [
+    "Subtract 0.003 from every patient result that day",
+    "Turn the zero screw until distilled water reads 1.000",
+    "Recalibrate using a 9% sucrose solution only",
+    "Report results, as 0.003 is within tolerance"
+   ],
+   "answer": 1,
+   "why": "The refractometer is checked with distilled water, which must read 1.000; **if it does not, the zero-adjustment screw is turned until it does**. Calibration is then verified with a standard of known specific gravity, such as 5% NaCl (1.022 ± 0.001) or 9% sucrose (1.034 ± 0.001), before patient testing.",
+   "whyNot": {
+    "0": "Correcting each result by hand invites transcription errors; the instrument itself should be adjusted.",
+    "2": "Sucrose is used to verify the higher range after the zero point has been set with water; it does not replace the water check.",
+    "3": "Distilled water must read exactly 1.000, so a 0.003 offset is not acceptable."
+   },
+   "ref": "Strasinger SK, Di Lorenzo MS. Urinalysis and Body Fluids, 7th ed. F.A. Davis; 2021, chapter on Physical Examination of Urine (refractometer calibration) and chapter on Safety and Quality Assessment (quality control)."
   }
  ]
 }

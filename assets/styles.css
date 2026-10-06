@@ -33,6 +33,14 @@
   --wrap: 1080px;
   --read: 42rem;
   --tap: 48px;
+
+  /* Motion tokens: one easing curve and a few durations (see "Motion" at the end) */
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --d1: 150ms;   /* hover, press */
+  --d2: 220ms;   /* state changes, the next question */
+  --d3: 320ms;   /* panels, highlights, page changes */
+  --d4: 480ms;   /* entrances */
+  --d5: 600ms;   /* bars and scroll reveal */
 }
 /* Dark theme: follows the device unless someone picks Light or Dark in the header */
 @media (prefers-color-scheme: dark) {
@@ -103,9 +111,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .brand__name { font-size: var(--f3); font-weight: 700; letter-spacing: 0.01em; }
 .brand__sub { font-size: var(--f1); color: #cfcfcf; }
 .nav { display: flex; gap: 4px; flex-wrap: wrap; }
-.nav a { min-height: var(--tap); display: inline-flex; align-items: center; padding: 0 14px; text-decoration: none; border-bottom: 4px solid transparent; }
-.nav a:hover { border-bottom-color: #7a7a7a; }
-.nav a[aria-current="page"] { border-bottom-color: #ffffff; font-weight: 700; }
+.nav a { position: relative; min-height: var(--tap); display: inline-flex; align-items: center; padding: 0 14px; text-decoration: none; border-bottom: 4px solid transparent; }
+/* The tab marker sits over the reserved border so it can grow and fade between tabs without moving anything */
+.nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 4px; background: #ffffff; opacity: 0; transform: scaleX(0.4); transition: transform var(--d2) var(--ease), opacity var(--d2) var(--ease), background-color var(--d1) var(--ease); }
+.nav a:hover::after { opacity: 1; transform: none; background: #7a7a7a; }
+.nav a[aria-current="page"]::after { opacity: 1; transform: none; background: #ffffff; }
+.nav a[aria-current="page"] { font-weight: 700; }
+@media (forced-colors: active) { .nav a::after { display: none; } .nav a[aria-current="page"] { border-bottom-color: CanvasText; } }
 .band :focus-visible { outline-color: #56b4e9; }
 
 .notice { background: var(--sunk); border-bottom: 1px solid var(--rule); }
@@ -152,7 +164,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .steps li { padding-left: 4px; }
 .detail h2 { font-size: var(--f3); margin-top: 32px; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
-.btn { min-height: var(--tap); display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 20px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); font-weight: 700; text-decoration: none; cursor: pointer; }
+.btn { min-height: var(--tap); display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 20px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); font-weight: 700; text-decoration: none; cursor: pointer;
+  transition: background-color var(--d1) var(--ease), border-color var(--d1) var(--ease), color var(--d1) var(--ease), opacity var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .btn:hover { background: var(--sunk); }
 .btn--solid { background: var(--ink); color: var(--paper); }
 .btn--solid:hover { background: var(--ink-2); border-color: var(--ink-2); }
@@ -208,9 +221,8 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
 .gate { max-width: 30rem; padding: 48px 0; display: grid; gap: 16px; }
 .gate h1 { font-size: var(--f4); }
 
-.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--paper); padding: 14px 20px; font-weight: 700; max-width: calc(100vw - 32px); opacity: 0; pointer-events: none; transition: opacity 0.2s; }
-.toast.is-on { opacity: 1; }
-@media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 12px); background: var(--ink); color: var(--paper); padding: 14px 20px; font-weight: 700; max-width: calc(100vw - 32px); opacity: 0; pointer-events: none; transition: opacity var(--d2) var(--ease), transform var(--d3) var(--ease); }
+.toast.is-on { opacity: 1; transform: translate(-50%, 0); }
 
 .foot { border-top: 1px solid var(--rule); margin-top: 32px; }
 .foot p { max-width: var(--wrap); margin: 0 auto; padding: 16px; color: var(--ink-2); font-size: var(--f1); }
@@ -227,7 +239,7 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
 .faq__a p { max-width: var(--read); }
 
 /* Theme switch in the header */
-.theme-toggle { min-height: var(--tap); padding: 0 14px; background: transparent; color: var(--band-ink); border: 2px solid #6b6b6b; font-weight: 700; cursor: pointer; }
+.theme-toggle { min-height: var(--tap); padding: 0 14px; background: transparent; color: var(--band-ink); border: 2px solid #6b6b6b; font-weight: 700; cursor: pointer; transition: border-color var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .theme-toggle:hover { border-color: #ffffff; }
 .band__tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
@@ -253,8 +265,9 @@ h2[tabindex="-1"]:focus { outline: none; }
 
 /* Loading feedback */
 .busy { position: fixed; top: 0; left: 0; right: 0; height: 4px; z-index: 60; overflow: hidden; background: transparent; }
-.busy__bar { position: absolute; top: 0; bottom: 0; width: 35%; background: var(--focus); animation: busy-slide 1.1s ease-in-out infinite; }
-@keyframes busy-slide { from { left: -35%; } to { left: 100%; } }
+.busy:not([hidden]) { animation: mt-fade var(--d2) var(--ease); }
+.busy__bar { position: absolute; top: 0; bottom: 0; left: 0; width: 35%; background: var(--focus); transform: translateX(-100%); animation: busy-slide 1.1s ease-in-out infinite; }
+@keyframes busy-slide { from { transform: translateX(-100%); } to { transform: translateX(286%); } }   /* 286% of 35% = the full width */
 .loading-msg { color: var(--ink-2); margin: 0 0 16px; }
 .loading-msg::after { content: ""; display: inline-block; width: 1.2em; text-align: left; animation: dots 1.2s steps(4, end) infinite; }
 @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
@@ -272,11 +285,6 @@ h2[tabindex="-1"]:focus { outline: none; }
 .btn.is-working { cursor: progress; opacity: 0.85; }
 .btn.is-working::before { content: ""; width: 14px; height: 14px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce) {
-  .busy__bar { animation: none; left: 0; width: 100%; opacity: 0.6; }
-  .skel::after, .loading-msg::after, .btn.is-working::before { animation: none; }
-  .loading-msg::after { content: "..."; }
-}
 h1[tabindex="-1"]:focus { outline: none; }
 
 /* ---------- MTLE Reviewer additions ---------- */
@@ -343,14 +351,17 @@ h1[tabindex="-1"]:focus { outline: none; }
 .specimen { margin: 0 0 20px; background: var(--specimen); padding: 12px; }
 .specimen button { display: block; width: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; }
 .specimen img { display: block; margin: 0 auto; max-width: 100%; max-height: 55vh; height: auto; }
-.specimen figcaption { color: #ffffff; font-size: var(--f1); margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; }
+.specimen figcaption { color: #ffffff; font-size: var(--f1); margin-top: 8px; display: grid; }
+.specimen__cap { grid-area: 1 / 1; display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; }
+.specimen__cap.is-off { visibility: hidden; }   /* keeps the space of the other caption; hidden from screen readers too */
+#main.is-checked-now .specimen__cap:not(.is-off) { animation: mt-fade var(--d3) var(--ease); }
 .specimen figcaption a { color: #ffffff; }
 .specimen--broken { color: #ffffff; padding: 24px; }
 
 .opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; counter-reset: none; }
 .opt { width: 100%; display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; text-align: left; min-height: 56px; padding: 10px 14px 10px 10px; border: 2px solid var(--ink); background: var(--surface); cursor: pointer; line-height: 1.35; }
 .opt:hover { background: var(--sunk); }
-.opt__key { width: 36px; height: 36px; display: grid; place-items: center; border: 2px solid var(--ink); font-weight: 700; flex: none; }
+.opt__key { width: 36px; height: 36px; display: grid; place-items: center; border: 2px solid var(--ink); font-weight: 700; flex: none; transition: background-color var(--d2) var(--ease), border-color var(--d2) var(--ease), color var(--d2) var(--ease); }
 .opt__state { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: var(--f1); white-space: nowrap; }
 .opt[aria-pressed="true"] { border-width: 4px; padding: 8px 12px 8px 8px; }
 .opt[aria-pressed="true"] .opt__key { background: var(--ink); color: var(--paper); }
@@ -410,7 +421,7 @@ h1[tabindex="-1"]:focus { outline: none; }
 .mode form { display: grid; gap: 14px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; border: 0; margin: 0; padding: 0; }
 .chips legend { font-weight: 700; font-size: var(--f1); margin-bottom: 8px; padding: 0; }
-.chip-check { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 2px solid var(--ink); cursor: pointer; font-weight: 700; font-size: var(--f1); background: var(--paper); }
+.chip-check { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 2px solid var(--ink); cursor: pointer; font-weight: 700; font-size: var(--f1); background: var(--paper); transition: background-color var(--d1) var(--ease), color var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .chip-check input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
 .chip-check:has(input:checked) { background: var(--ink); color: var(--paper); }
 .chip-check:has(input:checked)::before { content: "✓"; margin-right: 6px; }
@@ -444,9 +455,9 @@ h1[tabindex="-1"]:focus { outline: none; }
 .sheet__row { display: grid; grid-template-columns: 2.6em repeat(4, 40px) 40px; gap: 4px; align-items: center; }
 .sheet__row > span { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; padding-right: 6px; }
 .sheet__row.is-current > span { text-decoration: underline; text-decoration-thickness: 3px; }
-.bubble { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); background: var(--paper); font-weight: 700; font-size: var(--f1); cursor: pointer; display: grid; place-items: center; padding: 0; }
+.bubble { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); background: var(--paper); font-weight: 700; font-size: var(--f1); cursor: pointer; display: grid; place-items: center; padding: 0; transition: background-color var(--d1) var(--ease), color var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .bubble[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-.mark { width: 40px; height: 40px; border: 2px solid var(--rule); background: transparent; cursor: pointer; font-size: var(--f1); padding: 0; }
+.mark { width: 40px; height: 40px; border: 2px solid var(--rule); background: transparent; cursor: pointer; font-size: var(--f1); padding: 0; transition: background-color var(--d1) var(--ease), border-color var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .mark[aria-pressed="true"] { border-color: var(--ink); background: var(--unsure); color: #1b1a17; font-weight: 700; }
 .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; background: var(--paper); border-top: 4px solid var(--rule-strong); }
 .dock__in { max-width: var(--wrap); margin: 0 auto; padding: 10px 16px; display: flex; gap: 8px 12px; align-items: center; flex-wrap: wrap; justify-content: space-between; }
@@ -512,12 +523,12 @@ h1[tabindex="-1"]:focus { outline: none; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --miss: #ff8a4c; } }
 :root[data-theme="dark"] { --miss: #ff8a4c; }
 .meter__bar { display: flex; height: 16px; overflow: hidden; }
-.meter__bar .seg { display: block; height: 100%; flex: none; transition: width 800ms cubic-bezier(.2, .6, .2, 1); }
+.meter__bar .seg { display: block; height: 100%; flex: none; transition: width var(--d5) var(--ease); }
 .meter__bar .seg + .seg { border-left: 2px solid var(--surface); }
 .meter__bar .seg--ok { background: var(--ok); }
 .meter__bar .seg--seen { background: repeating-linear-gradient(45deg, var(--ink-2) 0 2px, transparent 2px 6px); opacity: 0.8; }
 .meter__bar .seg--miss { background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0 2px, transparent 2px 7px), var(--miss); }
-.quiz__bar i { transition: width 400ms cubic-bezier(.2, .6, .2, 1); }
+.quiz__bar i { transition: width var(--d4) var(--ease); }
 .key i.k-x { background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.45) 0 2px, transparent 2px 7px), var(--miss); opacity: 1; }
 .scorebar .meter__bar { height: 22px; }
 .overall { margin-top: 12px; display: grid; gap: 6px; }
@@ -549,7 +560,7 @@ h1[tabindex="-1"]:focus { outline: none; }
 .cols { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; height: 160px; border-top: 1px dashed var(--rule); }
 .col { display: grid; grid-template-rows: 1fr auto; min-width: 0; }
 .col__plot { display: flex; align-items: flex-end; border-bottom: 2px solid var(--rule-strong); }
-.col__stack { display: flex; flex-direction: column; width: 100%; transition: height 800ms cubic-bezier(.2, .6, .2, 1); }
+.col__stack { display: flex; flex-direction: column; width: 100%; transition: height var(--d5) var(--ease); }
 .col__stack i { display: block; min-height: 2px; }
 .col__stack i + i { border-top: 2px solid var(--paper); }
 .col__ok { background: var(--ok); border-radius: 0; }
@@ -558,26 +569,19 @@ h1[tabindex="-1"]:focus { outline: none; }
 .col.is-today .col__lab { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .chart .key { margin-top: 10px; }
 
-/* ---------- Motion: small, purposeful, and off for reduced motion ---------- */
+/* ---------- Motion: the answer and the explanation (the full motion section is at the end) ---------- */
 @keyframes mt-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @keyframes mt-draw { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
-@keyframes mt-pop { 0% { transform: scale(0.6); } 70% { transform: scale(1.12); } 100% { transform: scale(1); } }
-.verdict { animation: mt-rise 240ms cubic-bezier(.2, .6, .2, 1); }
-.opt__why { animation: mt-rise 320ms cubic-bezier(.2, .6, .2, 1) both; }
+@keyframes mt-pop { 0% { opacity: 0; transform: scale(0.6); } 65% { opacity: 1; transform: scale(1.06); } 100% { transform: scale(1); } }
+.verdict { animation: mt-rise var(--d2) var(--ease); }
+.opt__why { animation: mt-rise var(--d3) var(--ease) both; }
 li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__why { animation-delay: 80ms; } li:nth-child(4) > .opt__why { animation-delay: 120ms; }
-.verdict__shape { animation: mt-pop 360ms cubic-bezier(.2, .6, .2, 1); transform-origin: center; }
+.verdict__shape { animation: mt-pop var(--d3) var(--ease); transform-origin: center; }
 .verdict__shape path, .opt.is-right .st__shape path { stroke-dasharray: 24; animation: mt-draw 380ms 120ms ease-out both; }
-.opt { transition: background-color 120ms ease, border-color 120ms ease; }
-.week li.is-on i { animation: mt-pop 360ms cubic-bezier(.2, .6, .2, 1); }
+.opt { transition: background-color var(--d1) var(--ease), border-color var(--d1) var(--ease), color var(--d1) var(--ease), transform var(--d1) var(--ease); }
 .rv-on .rv { opacity: 0; transform: translateY(14px); }
-.rv-on .rv.rv-in { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2, .6, .2, 1), transform 600ms cubic-bezier(.2, .6, .2, 1); transition-delay: var(--rv-d, 0ms); }
+.rv-on .rv.rv-in { opacity: 1; transform: none; transition: opacity var(--d5) var(--ease), transform var(--d5) var(--ease); transition-delay: var(--rv-d, 0ms); }
 @media print { .rv-on .rv { opacity: 1 !important; transform: none !important; } }
-@media (prefers-reduced-motion: reduce) {
-  .rv-on .rv { opacity: 1; transform: none; transition: none; }
-  .verdict, .opt__why, .verdict__shape, .week li.is-on i { animation: none; }
-  .verdict__shape path, .opt.is-right .st__shape path { animation: none; stroke-dashoffset: 0; }
-  .meter__bar .seg, .quiz__bar i, .col__stack, .opt { transition: none; }
-}
 
 /* Route line: study phases as stations (from the hubs) */
 .route { margin: 8px 0 32px; }
@@ -629,7 +633,7 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 .viz__nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .viz__nav .btn { min-width: 6.5rem; }
 .viz__dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
-.viz__dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--ink); display: block; }
+.viz__dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--ink); display: block; transition: background-color var(--d2) var(--ease), border-color var(--d2) var(--ease), transform var(--d2) var(--ease); }
 .viz__dot.is-past { background: var(--ink-2); border-color: var(--ink-2); }
 .viz__dot.is-on { background: var(--ink); transform: scale(1.25); }
 .viz__alt { padding: 0 16px 6px; }
@@ -675,14 +679,10 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 @keyframes viz-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 @keyframes viz-draw { from { stroke-dashoffset: 900; } to { stroke-dashoffset: 0; } }
 @keyframes viz-hl { 0% { opacity: 0.35; } 100% { opacity: 1; } }
-.viz svg .is-new { animation: viz-in 380ms cubic-bezier(.2, .6, .2, 1) both; transform-box: fill-box; }
+.viz svg .is-new { animation: viz-in 380ms var(--ease) both; transform-box: fill-box; }
 .viz svg .is-new.is-hl { animation: viz-hl 450ms ease-out both; }
 .viz svg .is-new .v-draw, .viz svg .v-draw.is-new { stroke-dasharray: 900; animation: viz-draw 900ms ease-out both; }
-@media (prefers-reduced-motion: reduce) {
-  .viz svg [data-k] { transition: none; }
-  .viz svg .is-new, .viz svg .is-new .v-draw, .viz svg .v-draw.is-new { animation: none; }
-  .viz__dot.is-on { transform: none; }
-}
+.viz__cap.is-swap { animation: mt-rise-sm var(--d2) var(--ease); }
 @media (max-width: 480px) { .viz__dots { display: none; } }
 .viz__alt summary::before { content: "▸"; margin-right: 8px; }
 .viz__alt[open] summary::before { content: "▾"; }
@@ -710,9 +710,118 @@ li:nth-child(2) > .opt__why { animation-delay: 40ms; } li:nth-child(3) > .opt__w
 .xp__list li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: start; font-size: var(--f1); }
 .xp__list p { overflow-wrap: anywhere; }
 .xp__flag { margin-top: 16px; }
-.xp, .xp__list li { animation: mt-rise 280ms cubic-bezier(.2, .6, .2, 1) both; }
+/* The explanation eases in after the verdict; the reasons for the other options follow one by one */
+.xp { animation: mt-rise var(--d3) var(--ease) 60ms backwards; }
+.xp__list li { animation: mt-rise var(--d3) var(--ease) backwards; }
+.xp__list li:nth-child(1) { animation-delay: 140ms; } .xp__list li:nth-child(2) { animation-delay: 200ms; }
+.xp__list li:nth-child(3) { animation-delay: 260ms; } .xp__list li:nth-child(n+4) { animation-delay: 320ms; }
 /* A fixed column for the check or cross, so revealing the answer never re-wraps an option */
 .opt { grid-template-columns: auto minmax(0, 1fr) 22px; }
 .opt__state { justify-content: center; }
-@media (prefers-reduced-motion: reduce) { .xp, .xp__list li { animation: none; } }
 @media (max-width: 480px) { .nextbar .btn--solid { min-width: 0; flex: 1 1 auto; } .nextbar { flex-wrap: nowrap; } }
+
+/* ---------- Motion ----------
+   One switch: More > Settings > Animations puts .motion-on or .motion-off on <html> ("Match this device", the default,
+   follows the device's reduce-motion setting). .no-anim (used by tools/render-visuals.js) also stops everything.
+   Things move only by opacity and transform; colours may fade. One easing curve (--ease) and the duration tokens at the
+   top. Nothing moves while a question is being read: the card arrives in about 0.2 s and then stays still, and the
+   options never change size or place when the answer is checked. */
+@keyframes mt-fade { from { opacity: 0; } }
+@keyframes mt-rise-sm { from { opacity: 0; transform: translateY(4px); } }
+@keyframes mt-page-in { from { opacity: 0; transform: translateY(6px); } }
+@keyframes mt-step-in { from { opacity: 0; transform: translateX(8px); } }
+@keyframes mt-side-in { from { opacity: 0; transform: translateX(12px); } }
+@keyframes mt-dot-in { from { opacity: 0; transform: scale(0.6); } }
+@keyframes mt-drop { from { opacity: 0; transform: translateY(-6px); } }
+@keyframes mt-dlg-in { from { opacity: 0; transform: translateY(8px) scale(0.98); } }
+@keyframes mt-shake { 0%, 100% { transform: none; } 20% { transform: translateX(-3px); } 45% { transform: translateX(3px); } 70% { transform: translateX(-2px); } 88% { transform: translateX(1px); } }
+@keyframes mt-from-ink { from { border-color: var(--ink); } }
+@keyframes mt-key-in { from { background-color: var(--surface); border-color: var(--ink); color: var(--ink); } }
+@keyframes mt-dim { from { border-color: var(--ink); color: var(--ink); } }
+
+/* Page changes. With the View Transitions API (app.js) the old page fades out while the new one rises 6px into place;
+   the header stays put and only its tab marker cross-fades. Elsewhere the new page simply eases in. */
+#main.pg-in > * { animation: mt-page-in var(--d3) var(--ease) backwards; }
+.motion-on .band { view-transition-name: band; }
+::view-transition-group(*) { animation-duration: var(--d3); animation-timing-function: var(--ease); }
+::view-transition-group(band) { animation-name: none; }
+::view-transition-old(root) { animation: var(--d1) var(--ease) both mt-vt-out; }
+::view-transition-new(root) { animation: var(--d3) var(--ease) 60ms both mt-vt-in; }
+@keyframes mt-vt-out { to { opacity: 0; } }
+@keyframes mt-vt-in { from { opacity: 0; transform: translateY(6px); } }
+:root.motion-on { scroll-behavior: smooth; }
+
+/* The next screen of a session (next question, worked example, break): the card slides in 8px and is readable at once */
+#main.q-in .quiz > :not(.quiz__top) { animation: mt-step-in var(--d2) var(--ease) backwards; }
+
+/* Checking an answer. Only colour, opacity and transform change, so every option keeps its exact size and place:
+   the right answer's outline and key fade from ink to blue and its check pops in, a wrong pick gives one 3px shake,
+   and the other options fade back. */
+#main.is-checked-now .opt.is-right, #main.is-checked-now .opt.is-wrong { animation: mt-from-ink var(--d3) var(--ease) backwards; }
+#main.is-checked-now .opt.is-wrong { animation: mt-from-ink var(--d3) var(--ease) backwards, mt-shake 360ms var(--ease) 60ms 1; }
+#main.is-checked-now .opt.is-right .opt__key, #main.is-checked-now .opt.is-wrong .opt__key { animation: mt-key-in var(--d3) var(--ease) backwards; }
+#main.is-checked-now .opt.is-dim, #main.is-checked-now .opt.is-dim .opt__key { animation: mt-dim var(--d3) var(--ease) backwards; }
+#main.is-checked-now .opt__state .st__shape { animation: mt-pop var(--d3) var(--ease) 80ms backwards; transform-origin: center; }
+#main.is-checked-now .qside { animation: mt-rise var(--d3) var(--ease) backwards; }
+@media (min-width: 960px) { #main.is-checked-now .qside { animation-name: mt-side-in; } }
+#main.is-checked-now .nextbar { animation: mt-fade var(--d2) var(--ease) backwards; }
+
+/* Today and Progress: week dots, the phase marker and the study-phase stops ease in once when the page opens
+   (the numbers count up from app.js) */
+#main.nav-in .week li i { animation: mt-dot-in var(--d3) var(--ease) backwards; }
+#main.nav-in .week li.is-on i { animation-name: mt-pop; }
+#main.nav-in .week li:nth-child(2) i { animation-delay: 40ms; } #main.nav-in .week li:nth-child(3) i { animation-delay: 80ms; }
+#main.nav-in .week li:nth-child(4) i { animation-delay: 120ms; } #main.nav-in .week li:nth-child(5) i { animation-delay: 160ms; }
+#main.nav-in .week li:nth-child(6) i { animation-delay: 200ms; } #main.nav-in .week li:nth-child(7) i { animation-delay: 240ms; }
+#main.nav-in .road__today { animation: mt-drop var(--d4) var(--ease) 200ms backwards; }
+#main.nav-in .route .stop { animation: mt-dot-in var(--d3) var(--ease) backwards; }
+#main.nav-in .route li:nth-child(2) .stop { animation-delay: 60ms; } #main.nav-in .route li:nth-child(3) .stop { animation-delay: 120ms; }
+#main.nav-in .route li:nth-child(4) .stop { animation-delay: 180ms; } #main.nav-in .route li:nth-child(5) .stop { animation-delay: 240ms; }
+
+/* Opening things: dialogs, disclosures, the phone answer sheet, notices */
+dialog[open] { animation: mt-dlg-in var(--d3) var(--ease); }
+dialog[open]::backdrop { animation: mt-fade var(--d3) var(--ease); }
+details[open] > :not(summary) { animation: mt-rise-sm var(--d2) var(--ease); }
+.viz-inline > summary::after, .viz-inline[open] > summary::after { content: "▸"; transition: transform var(--d2) var(--ease); }
+.viz-inline[open] > summary::after { transform: rotate(90deg); }
+.viz__alt summary::before, .viz__alt[open] summary::before { content: "▸"; transition: transform var(--d2) var(--ease); }
+.viz__alt[open] summary::before { transform: rotate(90deg); }
+.viz-inline > summary { transition: background-color var(--d1) var(--ease); }
+.viz-inline > summary:hover { background: var(--sunk); }
+.sheet.is-open { animation: mt-rise var(--d3) var(--ease); }
+.notice:not([hidden]) { animation: mt-fade var(--d2) var(--ease); }
+.chip-check:has(input:checked)::before { display: inline-block; animation: mt-pop var(--d2) var(--ease); }
+
+/* Links in lists: the underline fades in rather than snapping on */
+.crumb, .topic-list a b, .result-list__t, .minimeters__name, .row__title { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: transparent; transition: text-decoration-color var(--d1) var(--ease); }
+.crumb:hover, .topic-list a:hover b, .result-list a:hover .result-list__t, .minimeters a:hover .minimeters__name, .row a:hover .row__title { text-decoration-color: currentColor; }
+.row a, .topic-list a, .result-list a, .picker label { transition: background-color var(--d1) var(--ease); }
+
+/* Press and hover. Focus outlines are never animated, so focus always shows at once. */
+.motion-on .btn:not([disabled]):active, .motion-on .theme-toggle:active { transform: scale(0.97); }
+.motion-on .opt:not([disabled]):active { transform: scale(0.985); }
+.motion-on .chip-check:active, .motion-on .bubble:active, .motion-on .mark:active { transform: scale(0.92); }
+.mode, .qod { transition: transform var(--d2) var(--ease), box-shadow var(--d2) var(--ease); }
+@media (hover: hover) {
+  .motion-on .mode:hover, .motion-on .qod:hover { transform: translateY(-2px); box-shadow: 0 4px 0 var(--rule); }
+}
+
+/* Switching light and dark: colours cross-fade for a moment (app.js adds .theme-fade only during the switch) */
+.theme-fade, .theme-fade *, .theme-fade *::before, .theme-fade *::after {
+  transition: background-color var(--d3) var(--ease), color var(--d3) var(--ease), border-color var(--d3) var(--ease), fill var(--d3) var(--ease), stroke var(--d3) var(--ease), text-decoration-color var(--d3) var(--ease) !important;
+}
+
+/* Animations off (or .no-anim): nothing moves, fades or scrolls smoothly; everything shows in its final state */
+:root:is(.motion-off, .no-anim) *, :root:is(.motion-off, .no-anim) *::before, :root:is(.motion-off, .no-anim) *::after, :root:is(.motion-off, .no-anim) ::backdrop {
+  animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important;
+  transition-duration: 0s !important; transition-delay: 0s !important;
+}
+:root:is(.motion-off, .no-anim) { scroll-behavior: auto; }
+:root:is(.motion-off, .no-anim) .rv { opacity: 1; transform: none; transition: none; }
+:root:is(.motion-off, .no-anim) .busy__bar { animation: none; width: 100%; transform: none; opacity: 0.6; }
+:root:is(.motion-off, .no-anim) .skel::after, :root:is(.motion-off, .no-anim) .loading-msg::after, :root:is(.motion-off, .no-anim) .btn.is-working::before { animation: none; }
+:root:is(.motion-off, .no-anim) .loading-msg::after { content: "..."; }
+:root:is(.motion-off, .no-anim) .verdict, :root:is(.motion-off, .no-anim) .opt__why, :root:is(.motion-off, .no-anim) .verdict__shape, :root:is(.motion-off, .no-anim) .week li i, :root:is(.motion-off, .no-anim) .xp, :root:is(.motion-off, .no-anim) .xp__list li { animation: none; }
+:root:is(.motion-off, .no-anim) .verdict__shape path, :root:is(.motion-off, .no-anim) .opt.is-right .st__shape path { animation: none; stroke-dashoffset: 0; }
+:root:is(.motion-off, .no-anim) .viz svg .is-new, :root:is(.motion-off, .no-anim) .viz svg .is-new .v-draw, :root:is(.motion-off, .no-anim) .viz svg .v-draw.is-new { animation: none; }
+:root:is(.motion-off, .no-anim) .viz__dot.is-on { transform: none; }

@@ -10,8 +10,9 @@
 <meta name="apple-mobile-web-app-title" content="MTLE">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
-<link rel="stylesheet" href="assets/styles.css?v=20261005160515">
-<script>try { var mtTheme = localStorage.getItem("mt.theme"); if (mtTheme) document.documentElement.setAttribute("data-theme", mtTheme); } catch (e) {}</script>
+<link rel="stylesheet" href="assets/styles.css?v=20261006051424">
+<script>try { var mtTheme = localStorage.getItem("mt.theme"); if (mtTheme) document.documentElement.setAttribute("data-theme", mtTheme); } catch (e) {}
+try { var mtMotion = localStorage.getItem("mt.motion"), mtOff = mtMotion === "off" || (mtMotion !== "on" && window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches); document.documentElement.classList.add(mtOff ? "motion-off" : "motion-on"); } catch (e) {}</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
@@ -45,10 +46,10 @@
 </footer>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <noscript><p class="wrap">This site needs JavaScript to run the practice questions.</p></noscript>
-<script src="vendor/ts-fsrs.umd.js?v=20261005160515"></script>
-<script src="assets/config.js?v=20261005160515"></script>
-<script src="assets/engine.js?v=20261005160515"></script>
-<script src="assets/store.js?v=20261005160515"></script>
-<script src="assets/app.js?v=20261005160515"></script>
+<script src="vendor/ts-fsrs.umd.js?v=20261006051424"></script>
+<script src="assets/config.js?v=20261006051424"></script>
+<script src="assets/engine.js?v=20261006051424"></script>
+<script src="assets/store.js?v=20261006051424"></script>
+<script src="assets/app.js?v=20261006051424"></script>
 </body>
 </html>
