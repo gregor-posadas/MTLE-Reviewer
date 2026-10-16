@@ -84,7 +84,7 @@ Some Google Workspace accounts only allow "Anyone within [organization]". Use a 
 |---|---|
 | Reviews | One row per answer: id, question id, time (UTC), option chosen, right (1/0), sure (1/0), mode, time taken (ms), device. Rows are only ever added. |
 | Flags | Questions she flagged. Set `status` to `fixed` after fixing one, and the site shows it as fixed. |
-| MyQuestions | Her own questions, if she turns that on (More > My questions). They never go into the public repository. |
+| MyQuestions | Her own questions, if she turns that on (More > My questions), including question files added with **Add questions from a file** (a JSON list of question records, or a file with `"app": "mtle-reviewer", "kind": "questions", "mine": [...]`; ids must start with `MY-`). Questions whose `author` contains "imported" are tagged **Imported**, listed folded with a count per subject, and can be removed in one step. Only new or edited ones are sent on each sync. They never go into the public repository. |
 | Settings | Exam date, new questions per day and similar, so both devices agree. |
 | Removed | Ids of answers removed with More > Remove test answers. The Sheet deletes those rows and won't accept them again, and other devices drop them on their next sync. |
 | Log | Sync activity. |
