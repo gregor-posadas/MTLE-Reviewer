@@ -825,3 +825,11 @@ details[open] > :not(summary) { animation: mt-rise-sm var(--d2) var(--ease); }
 :root:is(.motion-off, .no-anim) .verdict__shape path, :root:is(.motion-off, .no-anim) .opt.is-right .st__shape path { animation: none; stroke-dashoffset: 0; }
 :root:is(.motion-off, .no-anim) .viz svg .is-new, :root:is(.motion-off, .no-anim) .viz svg .is-new .v-draw, :root:is(.motion-off, .no-anim) .viz svg .v-draw.is-new { animation: none; }
 :root:is(.motion-off, .no-anim) .viz__dot.is-on { transform: none; }
+
+/* My questions: the imported set folds away */
+.more-list > summary { cursor: pointer; font-weight: 700; min-height: 48px; display: flex; align-items: center; gap: 8px; }
+.more-list > .result-list { margin-top: 8px; }
+.more-list > summary { list-style: none; }
+.more-list > summary::-webkit-details-marker { display: none; }
+.more-list > summary::before { content: "▸"; display: inline-block; transition: transform var(--d2, 200ms) var(--ease, ease); }
+.more-list[open] > summary::before { transform: rotate(90deg); }

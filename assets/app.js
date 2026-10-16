@@ -10,7 +10,7 @@
   var cfg = window.MT_CONFIG || {};
   var M = window.MTLE, DB = window.MTStore;
   var main = document.getElementById("main");
-  var BUILD = "20261006051424";
+  var BUILD = "20261016073127";
   var LETTERS = "ABCDEFGH";
   var CODES = ["CC", "MP", "CM", "HE", "BB", "HL"];
 
@@ -22,7 +22,7 @@
 
   var state = {
     ready: false, files: {}, tos: null, topics: {}, images: null, morph: null,
-    bank: { items: [], byId: {} }, reviews: [], cards: {}, settings: {}, flags: [], mine: [], visuals: [], vizById: {},
+    bank: { items: [], byId: {} }, reviews: [], cards: {}, settings: {}, flags: [], mine: [], mineSent: {}, visuals: [], vizById: {},
     qod: null, session: null, exam: null, lastSync: null, syncError: "", syncing: false,
     diag: null, removedPending: []
   };
@@ -202,7 +202,9 @@
     state.syncing = true;
     var out = state.reviews.filter(function (e) { return !e.s; }).map(strip);
     var removing = state.removedPending.slice();
-    return apiPost({ action: "sync", reviews: out, removed: removing, flags: state.flags, mine: state.mine, settings: settingsRecords() }, quiet).then(function (j) {
+    // My questions: send only the ones added or edited since they last reached the Sheet (an imported set can be hundreds)
+    var mineOut = state.mine.filter(function (q) { return state.mineSent[q.id] !== q.at; });
+    return apiPost({ action: "sync", reviews: out, removed: removing, flags: state.flags, mine: mineOut, settings: settingsRecords() }, quiet).then(function (j) {
       var d = j.data || {}, sent = {};
       out.forEach(function (e) { sent[e.id] = true; });
       var remote = (d.reviews || []).map(function (e) { e.s = 1; return e; });
@@ -221,13 +223,14 @@
       (d.flags || []).forEach(function (f) { status[f.id] = f.status; });
       state.flags.forEach(function (f) { if (status[f.id]) f.status = status[f.id]; });
       state.mine = M.mergeRecords(state.mine, d.mine || []);
+      mineOut.concat(d.mine || []).forEach(function (q) { state.mineSent[q.id] = q.at; });
       (d.settings || []).forEach(function (r) {
         var cur = state.settings[r.id];
         if (!cur || String(r.at || "") > String(cur.at || "")) state.settings[r.id] = { v: r.v, at: r.at };
       });
       applyMotion();
       state.lastSync = new Date(); state.syncError = ""; state.syncing = false;
-      return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("settings", state.settings), DB.set("lastSync", state.lastSync.toISOString())])
+      return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("mineSent", state.mineSent), DB.set("settings", state.settings), DB.set("lastSync", state.lastSync.toISOString())])
         .then(function () { rebuild(); showStatus(); return state.reviews.length !== before || dropped.length > 0; });
     }, function (err) {
       state.syncing = false;
@@ -267,8 +270,8 @@
       });
   }
   function loadLocal() {
-    return Promise.all([DB.allReviews(), DB.get("settings"), DB.get("flags"), DB.get("mine"), DB.get("qod"), DB.get("lastSync"), DB.get("diag"), DB.get("removedPending")]).then(function (r) {
-      state.diag = r[6] || null; state.removedPending = r[7] || [];
+    return Promise.all([DB.allReviews(), DB.get("settings"), DB.get("flags"), DB.get("mine"), DB.get("qod"), DB.get("lastSync"), DB.get("diag"), DB.get("removedPending"), DB.get("mineSent")]).then(function (r) {
+      state.diag = r[6] || null; state.removedPending = r[7] || []; state.mineSent = r[8] || {};
       state.reviews = M.mergeReviews(r[0] || [], []);
       state.settings = r[1] || {}; state.flags = r[2] || []; state.mine = r[3] || []; state.qod = r[4] || null;
       state.lastSync = r[5] ? new Date(r[5]) : null;
@@ -372,10 +375,11 @@
   }
   function currentQ() { var s = state.session; return s ? state.bank.byId[s.ids[s.i]] : null; }
 
+  function isImported(q) { return /imported/i.test(q.author || ""); }
   function metaLine(q) {
     var bits = ["<span>" + esc(subjectName(q.subject)) + "</span>", "<span>" + esc(topicName(q.tos)) + "</span>"];
     if (q.difficulty) bits.push("<span>" + esc(q.difficulty.charAt(0).toUpperCase() + q.difficulty.slice(1)) + "</span>");
-    if (q.mine) bits.push('<span class="tag tag--quiet">My question</span>');
+    if (q.mine) bits.push(isImported(q) ? '<span class="tag tag--quiet" title="' + esc(q.ref || "") + '">Imported</span>' : '<span class="tag tag--quiet">My question</span>');
     else if (!q.reviewed) bits.push('<span class="tag tag--quiet" title="Written for this site and not yet checked by a licensed RMT">Unreviewed draft</span>');
     return '<p class="quiz__meta">' + bits.join("") + "</p>";
   }
@@ -792,12 +796,24 @@
       '<div><button type="button" class="btn btn--danger" data-act="remove-device"' + (mineHere ? "" : " disabled") + ">Remove " + plural(mineHere, "answer") + " from this browser</button></div></div></section>";
     // My questions
     var mine = state.mine.filter(function (q) { return !q.deleted; });
-    html += '<section class="section" id="mine"><h2 tabindex="-1">My questions</h2><div class="stack" style="margin-top:16px"><p>Write your own questions, for example from your review center notes. They stay in your browser and the Sheet, never on the public website.</p>' +
+    html += '<section class="section" id="mine"><h2 tabindex="-1">My questions</h2><div class="stack" style="margin-top:16px"><p>Write your own questions, for example from your review center notes, or add a question file made from your own reviewers. They stay in your browser and the Sheet, never on the public website.</p>' +
       tog("myQuestions", "Use my questions in sessions and practice");
     if (setting("myQuestions")) {
-      html += (mine.length ? '<ul class="result-list">' + mine.map(function (q) {
-        return '<li><a href="#/my/' + esc(q.id) + '">' + shape("todo") + '<span><span class="result-list__t">' + esc(q.stem.length > 120 ? q.stem.slice(0, 117) + "…" : q.stem) + "</span><small>" + esc(subjectName(q.subject)) + " · " + esc(topicName(q.tos)) + "</small></span></a></li>";
-      }).join("") + "</ul>" : '<p class="muted">None yet.</p>') + '<div><a class="btn btn--solid" href="#/my/new">Write a question</a></div>';
+      var mineRow = function (q) {
+        return '<li><a href="#/my/' + esc(q.id) + '">' + shape("todo") + '<span><span class="result-list__t">' + esc(q.stem.length > 120 ? q.stem.slice(0, 117) + "…" : q.stem) + "</span><small>" + esc(subjectName(q.subject)) + " · " + esc(topicName(q.tos)) + (isImported(q) && q.ref ? " · " + esc(q.ref) : "") + "</small></span></a></li>";
+      };
+      var own = mine.filter(function (q) { return !isImported(q); }), imp = mine.filter(isImported);
+      html += own.length ? '<ul class="result-list">' + own.map(mineRow).join("") + "</ul>" : imp.length ? "" : '<p class="muted">None yet.</p>';
+      if (imp.length) {
+        var bySub = {};
+        imp.forEach(function (q) { bySub[q.subject] = (bySub[q.subject] || 0) + 1; });
+        html += "<p><b>" + plural(imp.length, "imported question") + "</b>: " + M.SUBJECTS.filter(function (s) { return bySub[s.code]; }).map(function (s) { return esc(s.name) + " " + bySub[s.code]; }).join(", ") + ".</p>" +
+          '<details class="more-list"><summary>Show all ' + imp.length + "</summary>" + '<ul class="result-list">' + imp.slice().sort(function (a, b) { return a.id < b.id ? -1 : 1; }).map(mineRow).join("") + "</ul></details>";
+      }
+      html += '<div class="actions"><a class="btn btn--solid" href="#/my/new">Write a question</a><label class="btn" for="import-mine">Add questions from a file</label><input type="file" id="import-mine" accept="application/json,.json" class="sr">' +
+        (imp.length ? '<button type="button" class="btn btn--danger" data-act="mine-remove-imported">Remove the ' + plural(imp.length, "imported question") + "</button>" : "") + "</div>";
+    } else {
+      html += '<div class="actions"><label class="btn" for="import-mine">Add questions from a file</label><input type="file" id="import-mine" accept="application/json,.json" class="sr"></div>';
     }
     html += "</div></section>";
     // Flags
@@ -1322,6 +1338,17 @@
         });
       });
     }
+    else if (act === "mine-remove-imported") {
+      var impIds = state.mine.filter(function (q) { return !q.deleted && isImported(q); }).map(function (q) { return q.id; });
+      if (!impIds.length) return;
+      openDialog('<form><div class="dlg__head"><h2>Remove ' + plural(impIds.length, "imported question") + '?</h2><button type="button" data-close aria-label="Close">×</button></div><div class="dlg__body"><p>They leave your sessions here and in the Sheet. Your answers to them stay in your history, and you can add the file again later.</p></div>' +
+        '<div class="dlg__foot"><button type="button" class="btn" data-close>Keep them</button><button type="submit" class="btn btn--danger">Remove ' + plural(impIds.length, "question") + "</button></div></form>", function () {
+        var now = new Date().toISOString(), set = {};
+        impIds.forEach(function (id) { set[id] = true; });
+        state.mine.forEach(function (q) { if (set[q.id]) { q.deleted = true; q.at = now; } });
+        DB.set("mine", state.mine); rebuild(); syncSoon(0); refresh(); toast("Removed " + plural(impIds.length, "question") + ".");
+      });
+    }
     else if (act === "mine-delete") {
       var id = el.getAttribute("data-id");
       openDialog('<form><div class="dlg__head"><h2>Delete this question?</h2><button type="button" data-close aria-label="Close">×</button></div><div class="dlg__body"><p>Your answers to it stay in your history.</p></div><div class="dlg__foot"><button type="button" class="btn" data-close>Keep it</button><button type="submit" class="btn btn--danger">Delete the question</button></div></form>', function () {
@@ -1370,7 +1397,7 @@
   document.addEventListener("change", function (e) {
     var el = e.target;
     if (el.id === "mq-s") { document.getElementById("mq-t").innerHTML = topicOptions(el.value, ""); return; }
-    if (el.id === "import-file") { importBackup(el.files && el.files[0]); return; }
+    if (el.id === "import-file" || el.id === "import-mine") { importBackup(el.files && el.files[0]); el.value = ""; return; }
     var k = el.getAttribute && el.getAttribute("data-setting"); if (!k) return;
     var v = el.type === "checkbox" ? el.checked : el.tagName === "SELECT" && el.value !== "" && !isNaN(+el.value) ? +el.value : el.value;
     if (k === "examDate" && isNaN(M.parseDay(v))) { toast("That date isn't valid."); return; }
@@ -1410,19 +1437,33 @@
     if (!file) return;
     file.text().then(function (txt) {
       var d = JSON.parse(txt);
+      if (Array.isArray(d)) d = { app: "mtle-reviewer", mine: d };   // a bare list of questions
       if (!d || d.app !== "mtle-reviewer") throw new Error("not ours");
-      var before = state.reviews.length;
+      var before = state.reviews.length, had = {};
+      state.mine.forEach(function (q) { had[q.id] = q.at; });
+      // A question file re-added after "Remove" comes back: give it a fresh time so it wins over the removal
+      var incoming = (d.mine || []).filter(function (q) { return q && q.id && String(q.id).indexOf("MY-") === 0 && q.stem && q.options; }).map(function (q) {
+        var cur = state.mine.filter(function (x) { return x.id === q.id; })[0];
+        if (cur && cur.deleted && !q.deleted && d.kind === "questions") { q = Object.assign({}, q, { at: new Date().toISOString() }); }
+        return q;
+      });
+      var addedQs = incoming.filter(function (q) { return !q.deleted && (had[q.id] === undefined || String(q.at || "") > String(had[q.id] || "")); }).length;
       state.reviews = M.mergeReviews(state.reviews, (d.reviews || []).map(function (e) { e.s = 0; return e; }));
       state.flags = M.mergeRecords(state.flags, d.flags || []);
       var status = {};   // a flag's status (open or fixed) is set in the Sheet
       (d.flags || []).forEach(function (f) { status[f.id] = f.status; });
-      state.flags.forEach(function (f) { if (status[f.id]) f.status = status[f.id]; }); state.mine = M.mergeRecords(state.mine, d.mine || []);
+      state.flags.forEach(function (f) { if (status[f.id]) f.status = status[f.id]; }); state.mine = M.mergeRecords(state.mine, incoming);
+      if (addedQs && !setting("myQuestions")) setSetting("myQuestions", true);
       (d.settings || []).forEach(function (r) { var cur = state.settings[r.id]; if (!cur || String(r.at || "") > String(cur.at || "")) state.settings[r.id] = { v: r.v, at: r.at }; });
       applyMotion();
       return Promise.all([DB.addReviews(state.reviews), DB.set("flags", state.flags), DB.set("mine", state.mine), DB.set("settings", state.settings)]).then(function () {
-        rebuild(); syncSoon(0); toast("Restored " + plural(state.reviews.length - before, "answer") + "."); refresh();
+        var added = state.reviews.length - before, msg = [];
+        if (addedQs) msg.push("Added " + plural(addedQs, "question"));
+        if (added || (!addedQs && d.kind !== "questions")) msg.push((addedQs ? "restored " : "Restored ") + plural(added, "answer"));
+        if (!msg.length) msg.push("Those questions are already here");
+        rebuild(); syncSoon(0); toast(msg.join(", ") + "."); refresh();
       });
-    }).catch(function () { toast("That file isn't an MTLE Reviewer backup."); });
+    }).catch(function () { toast("That file isn't an MTLE Reviewer backup or question file."); });
   }
 
   /* ---------- light and dark mode ---------- */
